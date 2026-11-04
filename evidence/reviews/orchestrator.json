@@ -1,0 +1,167 @@
+{
+  "research_branch": "主流程：官方示例与已有能力",
+  "reviewed_at": "2026-11-04",
+  "method": "GitHub CLI元数据、固定SHA、目录、README、LICENSE、模板源码静态核查；另对本机已有提交做只读比较。",
+  "shortlisted": [
+    {
+      "repo": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "stars": 78648,
+      "pushed_at": "2026-11-04T11:53:38Z",
+      "sha": "11f43268a1ebc7fba5203aa8230e8febbe836f9c",
+      "archived": false,
+      "category": "HTML视频引擎与可编辑组件目录",
+      "is_template": true,
+      "license": "Apache-2.0；依赖及媒体另看各自条款",
+      "beat_capability": "抽查beat-freeze-cut使用CONFIG.beat1/beat2等显式时间；beat-timeline用interval均匀排标签。两个组件不构成自动音频检测器。",
+      "dependencies": "Node、Chrome/浏览器渲染与FFmpeg；按项目选择匹配版本。",
+      "windows": "README提供Windows桌面入口；本次未新安装或渲染。",
+      "limitations": [
+        "引擎、组件和完整模板不是同一层；不能把catalog条目数当作自动混剪软件数。",
+        "本机已有旧版工具依赖，不能为搜新模板而统一覆盖。"
+      ],
+      "recommendation": "沿用已存在的生态，按所需字效/转场挑组件；用于补视觉层。",
+      "evidence": [
+        {
+          "claim": "框架定位与本地渲染",
+          "path": "README.md",
+          "detail": "描述HTML/CSS/媒体与seekable animation导出视频；catalog为可编辑源码。",
+          "url": "https://github.com/heygen-com/hyperframes/blob/11f43268a1ebc7fba5203aa8230e8febbe836f9c/README.md"
+        },
+        {
+          "claim": "固定beat时间的冻帧切换组件",
+          "path": "docs/catalog/blocks/beat-freeze-cut.mdx",
+          "detail": "嵌入实现包含CONFIG、beat1/beat2、GSAP paused timeline；不是音频检测。",
+          "url": "https://github.com/heygen-com/hyperframes/blob/11f43268a1ebc7fba5203aa8230e8febbe836f9c/docs/catalog/blocks/beat-freeze-cut.mdx"
+        },
+        {
+          "claim": "均匀interval节奏行组件",
+          "path": "docs/catalog/components/beat-timeline.mdx",
+          "detail": "参数beatCount、interval、labels决定时间标签。",
+          "url": "https://github.com/heygen-com/hyperframes/blob/11f43268a1ebc7fba5203aa8230e8febbe836f9c/docs/catalog/components/beat-timeline.mdx"
+        }
+      ]
+    },
+    {
+      "repo": "heygen-com/hyperframes-launches",
+      "url": "https://github.com/heygen-com/hyperframes-launches",
+      "stars": 654,
+      "pushed_at": "2026-10-04T12:41:42Z",
+      "sha": "d7ac35069d74a3a437780579b3b7fe2f3eeace5f",
+      "archived": false,
+      "category": "官方实际发布片源码与4个可换品牌成品模板",
+      "is_template": true,
+      "license": "原创代码/配置/文档Apache-2.0；媒体、字体、商标不包含在同一授权内",
+      "beat_capability": "heygen-apple-motion是预设帧时序与动效，README写模板无音轨；不是自动听歌卡点。",
+      "dependencies": "所审01-ui-sting用npx hyperframes@0.7.94；素材有Git LFS，部分字体另有许可。",
+      "windows": "Node/CLI有跨平台基础，具体样片未在本机运行。",
+      "limitations": [
+        "模板偏产品/UI发布片，改电影混剪需另建镜头结构。",
+        "换品牌同时替换相应素材与字体；不是下载即自动适配任意内容。"
+      ],
+      "recommendation": "纯动效模板的可靠学习来源，优先看01-ui-sting与04-generate-reel。",
+      "evidence": [
+        {
+          "claim": "四个独立可换品牌模板",
+          "path": "heygen-apple-motion/README.md",
+          "detail": "列01-ui-sting、02-bouncy-ui、03-message-sting、04-generate-reel，给出各自规格。",
+          "url": "https://github.com/heygen-com/hyperframes-launches/blob/d7ac35069d74a3a437780579b3b7fe2f3eeace5f/heygen-apple-motion/README.md"
+        },
+        {
+          "claim": "可实际编辑的单HTML工程",
+          "path": "heygen-apple-motion/01-ui-sting/index.html",
+          "detail": "有实际结构与按帧动效，可保留动作替换图文。",
+          "url": "https://github.com/heygen-com/hyperframes-launches/blob/d7ac35069d74a3a437780579b3b7fe2f3eeace5f/heygen-apple-motion/01-ui-sting/index.html"
+        },
+        {
+          "claim": "明确预览、检查、渲染命令和版本",
+          "path": "heygen-apple-motion/01-ui-sting/package.json",
+          "detail": "dev/check/render脚本均固定hyperframes@0.7.94。",
+          "url": "https://github.com/heygen-com/hyperframes-launches/blob/d7ac35069d74a3a437780579b3b7fe2f3eeace5f/heygen-apple-motion/01-ui-sting/package.json"
+        },
+        {
+          "claim": "代码和媒体授权边界",
+          "path": "README.md",
+          "detail": "License节将原创源码与媒体/字体/商标区分。",
+          "url": "https://github.com/heygen-com/hyperframes-launches/blob/d7ac35069d74a3a437780579b3b7fe2f3eeace5f/README.md"
+        }
+      ]
+    },
+    {
+      "repo": "nateherkai/herk-edit-kit",
+      "url": "https://github.com/nateherkai/herk-edit-kit",
+      "stars": 2541,
+      "pushed_at": "2026-10-14T12:51:12Z",
+      "sha": "10511e5af86fc47756ea89803b397422e2d89284",
+      "archived": false,
+      "category": "本机已有的口播剪辑技能、动效卡与starter",
+      "is_template": true,
+      "license": "LICENSE主体MIT；AIS品牌素材不包含在复用授权内；API为NOASSERTION",
+      "beat_capability": "抽查motion-showreel/beatgrid.mjs接受--period或--bpm生成章节切点；此脚本本身不检测音频，其余分析功能不在本次源码深审范围。",
+      "dependencies": "Node>=22；包内HyperFrames0.7.109、GSAP3.14.2；转写等按需依赖。",
+      "windows": "本机已有此提交与Windows适配技能；本次未重新渲染。",
+      "limitations": [
+        "406张卡在README中标draft，不能声称全部经过实际渲染质量验证。",
+        "品牌示例需换成自己的素材；不同项目的HyperFrames版本要隔离。"
+      ],
+      "recommendation": "已安装且提交相同，优先复用现有starter/style-library；不作为新装工具重复推荐。",
+      "evidence": [
+        {
+          "claim": "starter、draft卡与模板范围",
+          "path": "README.md",
+          "detail": "15技能、406 draft卡、两套场景模板和无API素材的合成starter。",
+          "url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/README.md"
+        },
+        {
+          "claim": "许可不能只读API自动识别值",
+          "path": "LICENSE",
+          "detail": "MIT主体后有品牌资产排除说明。",
+          "url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE"
+        },
+        {
+          "claim": "固定BPM章节规划器",
+          "path": ".agents/skills/motion-showreel/scripts/beatgrid.mjs",
+          "detail": "从period或60/bpm计算网格，不读取音乐波形。",
+          "url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/.agents/skills/motion-showreel/scripts/beatgrid.mjs"
+        },
+        {
+          "claim": "固定版本依赖",
+          "path": "package.json",
+          "detail": "HyperFrames0.7.109，GSAP3.14.2，Node>=22。",
+          "url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/package.json"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "repo": "heygen-com/hyperframes-launch-video",
+      "reason": "单个早期官方实例，README称源码/媒体供reference use；不能直接继承框架Apache许可。更优先选许可边界清楚的launches合集。并未证明两仓代码完全重复。",
+      "evidence": "https://github.com/heygen-com/hyperframes-launch-video/blob/930f89186b8e155d632d9afe49054c02d4d7d85a/README.md"
+    },
+    {
+      "repo": "zhuyansen/awesome-claude-video-skills",
+      "reason": "用作发现索引，非剪辑模板/引擎。其评级没有代替本轮源码审查。"
+    },
+    {
+      "repo": "JediKnightChan/EternalCrusadeResurrection",
+      "reason": "搜索元数据表明是Unreal游戏项目，montage同词异义；未源码深审。"
+    },
+    {
+      "repo": "xbb1973/USTC-ncov-AutoReport",
+      "reason": "搜索元数据表明是健康打卡脚本，“卡点”宽搜噪声；未源码深审。"
+    }
+  ],
+  "dedup": [
+    {
+      "repo": "nateherkai/herk-edit-kit",
+      "canonical": "nateherkai/herk-edit-kit",
+      "reason": "本机git HEAD与上游快照10511e5af86fc47756ea89803b397422e2d89284一致，作为已有能力计一次。"
+    },
+    {
+      "repo": "dsh-montage 本机三份包",
+      "canonical": "本机dsh-montage能力族",
+      "reason": "均标0.4.1但Windows启动适配有差异；仅按用途归类，不宣称文件完全相同。公开上游URL仍未确认。"
+    }
+  ]
+}

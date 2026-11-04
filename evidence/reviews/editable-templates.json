@@ -1,0 +1,649 @@
+{
+  "scope": "可换素材复用的纯剪辑/动效/卡点模板；静态审查；查询日期2026-11-04",
+  "shortlisted": [
+    {
+      "windows": "README仅称macOS ARM64用Claude Code/Codex完整验证；其他平台测试少；Windows未验证。",
+      "license": "MIT（代码/模板/部分演示媒体）；README另声明仅学习研究；Remotion运行时采用其独立许可，音乐与字体另看MEDIA_LICENSE。",
+      "url": "https://github.com/actionow-ai/vvv",
+      "dependencies": [
+        "Python 3.9+",
+        "Node.js；README当前写26",
+        "npm",
+        "Remotion",
+        "FFmpeg/Chrome",
+        "可选Pillow/OpenCV等"
+      ],
+      "evidence": [
+        {
+          "path": "kits/remotion/src/templates/starter/index.tsx",
+          "url": "https://github.com/actionow-ai/vvv/blob/df9bb12f3d5f7add20959860de18e18c2a5c56f5/kits/remotion/src/templates/starter/index.tsx#L32",
+          "claim": "代码证实：照片slot、每镜拍数与回退BPM",
+          "detail": "gallery接受6–24张；BEATS_PER_SHOT=4，FALLBACK_BPM=96。"
+        },
+        {
+          "path": "kits/remotion/src/core/beat-clock.ts",
+          "url": "https://github.com/actionow-ai/vvv/blob/df9bb12f3d5f7add20959860de18e18c2a5c56f5/kits/remotion/src/core/beat-clock.ts#L12",
+          "claim": "代码证实：读取音轨检测生成的beat map（本次未运行），不是仅固定BPM",
+          "detail": "按音轨检测生成的beats插值（本次未运行）；少于8拍或缺map时回退；loadBeatGrid从public读取相邻beats.json并扣除trim。"
+        },
+        {
+          "path": "kits/remotion/src/templates/starter/README.md",
+          "url": "https://github.com/actionow-ai/vvv/blob/df9bb12f3d5f7add20959860de18e18c2a5c56f5/kits/remotion/src/templates/starter/README.md#L5",
+          "claim": "README说明：换素材入口",
+          "detail": "inputs.json.props控制couple、photos、copy、music、format/fps。"
+        },
+        {
+          "path": "skills/vvv/references/projects.md",
+          "url": "https://github.com/actionow-ai/vvv/blob/df9bb12f3d5f7add20959860de18e18c2a5c56f5/skills/vvv/references/projects.md#L29",
+          "claim": "README说明：初始化、样片、导出、检查命令",
+          "detail": "init --template starter --photos ... --output ...；validate/sample/render/check；需先npm ci和music。"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/actionow-ai/vvv/blob/df9bb12f3d5f7add20959860de18e18c2a5c56f5/README.md#L141",
+          "claim": "README说明：平台与用途限制",
+          "detail": "作者只宣称macOS ARM64完整验证；另声明仅学习与研究。"
+        },
+        {
+          "path": "MEDIA_LICENSE.md",
+          "url": "https://github.com/actionow-ai/vvv/blob/df9bb12f3d5f7add20959860de18e18c2a5c56f5/MEDIA_LICENSE.md#L19",
+          "claim": "媒体许可范围",
+          "detail": "照片画面与预览音轨授权不同，不能将Mixkit音频单独分发。"
+        },
+        {
+          "claim": "补充交叉复核：音频检测生成beat map的脚本",
+          "path": "kits/remotion/scripts/analyze-music.mjs",
+          "url": "https://github.com/actionow-ai/vvv/blob/df9bb12f3d5f7add20959860de18e18c2a5c56f5/kits/remotion/scripts/analyze-music.mjs",
+          "detail": "静态读取确认FFmpeg解码、谱通量起音、自相关tempo和DP beats；本轮未执行。"
+        }
+      ],
+      "stars": 522,
+      "limitations": [
+        "早期0.2版本",
+        "婚礼叙事专用；通用混剪需改场景",
+        "音乐需授权；Mixkit配乐不随模板独立再分发",
+        "使用Codex仅安装skill还不够，需clone kit并设置VVV_KIT",
+        "照片顺序/人脸裁切/文字需人工检查"
+      ],
+      "is_template": true,
+      "sha": "df9bb12f3d5f7add20959860de18e18c2a5c56f5",
+      "pushed_at": "2026-10-30T02:22:12Z",
+      "recommendation": "照片卡点首选实物候选：从starter小模板入门，再看album/editorial；首次只运行doctor和样片。",
+      "repo": "actionow-ai/vvv",
+      "beat_capability": "源码证实：Starter读取音乐beats.json；每镜4拍，开场/结尾各8拍；无map时96BPM回退。music add/beats分析与music fit流程见文档；算法效果未实测。",
+      "category": "完整婚礼/相册成品模板库；有卡点模板",
+      "validation": "仅静态审查：已取得README、固定commit的文件树和所列源文件；未安装依赖、未启动项目、未渲染视频。"
+    },
+    {
+      "windows": "Node mjs脚本使用跨平台path/fs，具备Windows迁移基础；README示例使用Bash环境变量，需改PowerShell；未实测。",
+      "license": "模板/脚本MIT；字体OFL；GSAP标准许可；HyperFrames Apache-2.0独立依赖。",
+      "url": "https://github.com/lumian2015/opus-5-5-video-templates",
+      "dependencies": [
+        "Node.js22+",
+        "FFmpeg",
+        "Chrome",
+        "npx hyperframes@0.8.96",
+        "bundled GSAP/字体"
+      ],
+      "evidence": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/lumian2015/opus-5-5-video-templates/blob/79bbf5b1940341cd5e29c4c1edfbbd807af639da/README.md#L43",
+          "claim": "README说明：复制、替换、抽帧与渲染全流程",
+          "detail": "new-video复制模板；vars列出/写入变量；snapshot检查；render输出MP4；未实际运行。"
+        },
+        {
+          "path": "scripts/vars.mjs",
+          "url": "https://github.com/lumian2015/opus-5-5-video-templates/blob/79bbf5b1940341cd5e29c4c1edfbbd807af639da/scripts/vars.mjs#L21",
+          "claim": "代码证实：JSON变量写回HTML默认值",
+          "detail": "解析data-composition-variables；拒绝未知key并校验颜色；写回index.html。"
+        },
+        {
+          "path": "templates/25-ugc-product-reel/index.html",
+          "url": "https://github.com/lumian2015/opus-5-5-video-templates/blob/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/index.html#L57",
+          "claim": "代码证实：25号十秒竖版时间线与照片镜头参数",
+          "detail": "root=1080×1920、data-duration=10；SH为镜头start/end/scale/焦点/rotation。"
+        },
+        {
+          "path": "templates/25-ugc-product-reel/template.json",
+          "url": "https://github.com/lumian2015/opus-5-5-video-templates/blob/79bbf5b1940341cd5e29c4c1edfbbd807af639da/templates/25-ugc-product-reel/template.json#L23",
+          "claim": "模板元数据：素材清单、变量和渲染命令",
+          "detail": "六图路径hero/box/wand/swatch/lips/cafe；captions和grain变量；render命令在文件末尾。"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/lumian2015/opus-5-5-video-templates/blob/79bbf5b1940341cd5e29c4c1edfbbd807af639da/README.md#L100",
+          "claim": "README说明：许可分别列出",
+          "detail": "MIT模板不覆盖第三方GSAP/字体许可。"
+        }
+      ],
+      "stars": 6,
+      "limitations": [
+        "30个模板属同一模板family，不计30个独立工具",
+        "多数是品牌动效而非长素材混剪",
+        "图片/镜头参数需保持构图关系",
+        "固定0.8.96版本，升级兼容性未知",
+        "复刻参考片结构，README列出了灵感来源；不代表原作授权"
+      ],
+      "is_template": true,
+      "sha": "79bbf5b1940341cd5e29c4c1edfbbd807af639da",
+      "pushed_at": "2026-10-01T09:57:33Z",
+      "recommendation": "纯动效换品牌首选：变量工具比手改整页可靠；六图25号UGC模板适合验证素材替换。",
+      "repo": "lumian2015/opus-5-5-video-templates",
+      "beat_capability": "固定剪点/GSAP镜头编排；所审25号模板SH数组是预设时间段，无音频beat detector。换音乐后须重调剪点。",
+      "category": "30个完整HyperFrames HTML动效/广告成品模板",
+      "validation": "仅静态审查：已取得README、固定commit的文件树和所列源文件；未安装依赖、未启动项目、未渲染视频。"
+    },
+    {
+      "windows": "npm命令与TS代码具跨平台基础；未看到Windows验证承诺，未实测。",
+      "license": "仓库MIT；Remotion依赖独立许可，不能用MIT概括整个运行时。",
+      "url": "https://github.com/codeverbojan/remotion-cinematic",
+      "dependencies": [
+        "Node/npm",
+        "Remotion4.0.451",
+        "React19",
+        "TypeScript5.9",
+        "Zod4",
+        "Chromium"
+      ],
+      "evidence": [
+        {
+          "path": "package.json",
+          "url": "https://github.com/codeverbojan/remotion-cinematic/blob/18dbb50ce797b778f0867a5dd7bac82b5ce105ac/package.json#L13",
+          "claim": "代码证实：预览与渲染命令",
+          "detail": "studio=npx remotion studio src/index.ts；build=render CinematicDemo。"
+        },
+        {
+          "path": "src/defaultProps.ts",
+          "url": "https://github.com/codeverbojan/remotion-cinematic/blob/18dbb50ce797b778f0867a5dd7bac82b5ce105ac/src/defaultProps.ts#L4",
+          "claim": "代码证实：默认品牌、场景与音乐配置",
+          "detail": "完整defaultProps，场景启用/时长/入出场和音乐fade参数。"
+        },
+        {
+          "path": "src/schema.ts",
+          "url": "https://github.com/codeverbojan/remotion-cinematic/blob/18dbb50ce797b778f0867a5dd7bac82b5ce105ac/src/schema.ts#L436",
+          "claim": "代码证实：输入schema",
+          "detail": "Zod schema定义品牌、场景、窗口、鼠标、音乐等可调输入。"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/codeverbojan/remotion-cinematic/blob/18dbb50ce797b778f0867a5dd7bac82b5ce105ac/README.md#L27",
+          "claim": "README说明：换素材与五示例场景",
+          "detail": "chaos desktop/product reveal/feature showcase/headline/end card；public放截图与音乐/SFX。"
+        }
+      ],
+      "stars": 23,
+      "limitations": [
+        "产品UI演示专用，不是任意素材混剪",
+        "README截图入口存在但public/screenshots仅占位说明；演示主要为生成UI",
+        "首次需理解Studio props/场景结构",
+        "Figma/Claude截图导入是可选网络能力，需token/API key"
+      ],
+      "is_template": true,
+      "sha": "18dbb50ce797b778f0867a5dd7bac82b5ce105ac",
+      "pushed_at": "2026-04-25T09:05:02Z",
+      "recommendation": "产品发布片首选：先跑自带5场demo，再换品牌、UI和SFX；有Studio编辑面板，适合愿意学少量React的人。",
+      "repo": "codeverbojan/remotion-cinematic",
+      "beat_capability": "音乐床/SFX cue与ducking；按帧设置场景、鼠标和镜头；未发现所审代码提供音频beat自动剪点。",
+      "category": "完整Remotion产品演示片模板（5个示例场景）",
+      "validation": "仅静态审查：已取得README、固定commit的文件树和所列源文件；未安装依赖、未启动项目、未渲染视频。"
+    },
+    {
+      "windows": "README称Windows在原生Sharp/Remotion依赖可用时应能工作；不在CI，仅支持macOS/Linux优先。",
+      "license": "MIT仓库；Remotion运行时独立许可。",
+      "url": "https://github.com/feliperun/slideshow",
+      "dependencies": [
+        "Node22+",
+        "pnpm11+",
+        "FFmpeg/FFprobe",
+        "Remotion",
+        "Sharp",
+        "Chromium"
+      ],
+      "evidence": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/feliperun/slideshow/blob/953543c72dcd1ad8fd5a6740bf6765c47b4b4995/README.md#L59",
+          "claim": "README说明：配置、预览、导出及Windows状态",
+          "detail": "pnpm validate/analyze/editor/preview/render；Windows未入CI。"
+        },
+        {
+          "path": "project.example.json",
+          "url": "https://github.com/feliperun/slideshow/blob/953543c72dcd1ad8fd5a6740bf6765c47b4b4995/project.example.json#L6",
+          "claim": "代码证实：素材与输出配置",
+          "detail": "本地media目录、music文件、时长、画幅、seed及output.file。"
+        },
+        {
+          "path": "src/analysis/analyze-audio.ts",
+          "url": "https://github.com/feliperun/slideshow/blob/953543c72dcd1ad8fd5a6740bf6765c47b4b4995/src/analysis/analyze-audio.ts#L53",
+          "claim": "代码证实：检测而非营销标签",
+          "detail": "滑窗能量onset、自相关tempo/phase；返回bpm、confidence、beatFrames。"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/feliperun/slideshow/blob/953543c72dcd1ad8fd5a6740bf6765c47b4b4995/README.md#L88",
+          "claim": "README说明：有合成demo可自检",
+          "detail": "demo:generate生成占位照片与合成音轨，不必上传私有素材。"
+        }
+      ],
+      "stars": 3,
+      "limitations": [
+        "3星小项目；成熟度未运行验证",
+        "节奏估计是全局恒定网格；变速/复杂音乐可能不准",
+        "4秒以下音频不分析，异常吞掉返回undefined",
+        "输出是配置生成的相册风格，不是CapCut原生时间线"
+      ],
+      "is_template": true,
+      "sha": "953543c72dcd1ad8fd5a6740bf6765c47b4b4995",
+      "pushed_at": "2026-07-16T14:37:34Z",
+      "recommendation": "批量照片+视频+音乐首选备选：比复杂Agent模板更可审计，配置与manifest分离；Windows先测合成demo。",
+      "repo": "feliperun/slideshow",
+      "beat_capability": "源码证实有本地音轨分析：FFmpeg转单声道PCM，能量onset、自相关搜索78–175 BPM、估phase后生成beatFrames；并非语义选镜。",
+      "category": "成品相册/照片视频混排生成器（配置驱动模板化）",
+      "validation": "仅静态审查：已取得README、固定commit的文件树和所列源文件；未安装依赖、未启动项目、未渲染视频。"
+    },
+    {
+      "windows": "render.mjs为跨平台Node；README的环境变量赋值是POSIX写法，PowerShell需用$env:SHOTSTACK_API_KEY；未实测。",
+      "license": "PolyForm Shield1.0.0（源码可见、noncompete限制）；GitHub API NOASSERTION。",
+      "url": "https://github.com/shotstack/shotstack-templates",
+      "dependencies": [
+        "Node18+",
+        "csv-parse",
+        "Shotstack API key",
+        "网络可访问的素材URL",
+        "云渲染服务"
+      ],
+      "evidence": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/shotstack/shotstack-templates/blob/b74ca2566a5a0c390715f53e248d6980b65176f0/README.md#L3",
+          "claim": "README说明：222类模板和测试条件",
+          "detail": "template.json+merge字段README；生产key或stage水印测试；附在线预览。"
+        },
+        {
+          "path": "render.mjs",
+          "url": "https://github.com/shotstack/shotstack-templates/blob/b74ca2566a5a0c390715f53e248d6980b65176f0/render.mjs#L57",
+          "claim": "代码证实：CSV合并变量与调用渲染API",
+          "detail": "每行按find的小写字段取CSV覆盖值；POST /edit/v1/render并轮询打印URL。"
+        },
+        {
+          "path": "templates/adventure-travel-tour-sale-promo-v2/template.json",
+          "url": "https://github.com/shotstack/shotstack-templates/blob/b74ca2566a5a0c390715f53e248d6980b65176f0/templates/adventure-travel-tour-sale-promo-v2/template.json#L2",
+          "claim": "代码证实：真实素材与时间线占位字段",
+          "detail": "实际有timeline/tracks/clips、src占位符与merge默认值。"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/shotstack/shotstack-templates/blob/b74ca2566a5a0c390715f53e248d6980b65176f0/LICENSE#L56",
+          "claim": "许可原文：noncompete",
+          "detail": "PolyForm Shield：任何用途除提供与许可方软件/产品竞争的产品；不是MIT。"
+        }
+      ],
+      "stars": 0,
+      "limitations": [
+        "非宽松开源；禁止提供竞品",
+        "生产云服务收费，沙箱水印",
+        "素材需要URL，隐私素材须考虑上传",
+        "脚本逐行CSV提交并轮询，失败只打印状态",
+        "222包含静图/音频模板，不等于222混剪模板"
+      ],
+      "is_template": true,
+      "sha": "b74ca2566a5a0c390715f53e248d6980b65176f0",
+      "pushed_at": "2026-09-28T06:25:44Z",
+      "recommendation": "想最快把JSON和素材URL换成广告成片，可选官方现成模板；不适合要求纯本地/宽松授权的人。",
+      "repo": "shotstack/shotstack-templates",
+      "beat_capability": "固定timeline start/length与transition；示例模板没有自动音乐节拍检测；不是222个都为混剪视频。",
+      "category": "222个官方云端JSON模板；视频/图片/音频混合",
+      "validation": "仅静态审查：已取得README、固定commit的文件树和所列源文件；未安装依赖、未启动项目、未渲染视频。"
+    },
+    {
+      "windows": "本仓库run.sh需要Bash+jq；Windows用Git Bash/WSL或把命令改写PowerShell，草稿导入/导出兼容性未测试。",
+      "license": "Cookbook MIT；仓库自己的开源边界文件明确称核心cutcli/jy_cli闭源私有；核心授权/下载/服务条款需另审。",
+      "url": "https://github.com/xuliang2024/cutcli-cookbook",
+      "dependencies": [
+        "外部闭源cutcli",
+        "Bash",
+        "jq",
+        "剪映/CapCut用于继续编辑/导出",
+        "远程演示素材URL"
+      ],
+      "evidence": [
+        {
+          "path": "examples/10-product-promo-30s/run.sh",
+          "url": "https://github.com/xuliang2024/cutcli-cookbook/blob/d95632886cd34d01a77aef7199ed68536aa0640c/examples/10-product-promo-30s/run.sh#L21",
+          "claim": "代码证实：完整30秒草稿命令",
+          "detail": "创建1080×1920 draft；images/captions/audios add；结尾只draft info。"
+        },
+        {
+          "path": "examples/10-product-promo-30s/data/images.json",
+          "url": "https://github.com/xuliang2024/cutcli-cookbook/blob/d95632886cd34d01a77aef7199ed68536aa0640c/examples/10-product-promo-30s/data/images.json#L3",
+          "claim": "代码证实：素材URL、微秒时间与动画可替换",
+          "detail": "imageUrl/start/end/inAnimation/transition；末镜24–30秒。"
+        },
+        {
+          "path": ".cursor/rules/open-source-boundary.mdc",
+          "url": "https://github.com/xuliang2024/cutcli-cookbook/blob/d95632886cd34d01a77aef7199ed68536aa0640c/.cursor/rules/open-source-boundary.mdc#L16",
+          "claim": "仓库说明：核心闭源，cookbook公开",
+          "detail": "边界文件表格明确jy_cli闭源私有；案例只调用公开CLI，不直接访问核心源码。"
+        }
+      ],
+      "stars": 201,
+      "limitations": [
+        "只有cookbook开源，核心CLI闭源",
+        "run.sh生成draft ID，不执行MP4渲染导出；README另列cloud render为外部服务能力",
+        "README产品片分镜描述和images.json部分时段并不完全相同，应以数据为准",
+        "演示素材为远程URL，可能失效",
+        "依赖外部平台草稿兼容性"
+      ],
+      "is_template": true,
+      "sha": "d95632886cd34d01a77aef7199ed68536aa0640c",
+      "pushed_at": "2026-05-26T00:33:22Z",
+      "recommendation": "明确需要剪映可编辑草稿时再选；新手先看02相册，再10产品片；导出步骤必须在剪映核实。",
+      "repo": "xuliang2024/cutcli-cookbook",
+      "beat_capability": "固定微秒start/end与动画、转场；所审product-promo例没有音频beat分析，不应称自动卡点。",
+      "category": "剪映/CapCut草稿配方+可替换JSON时间线",
+      "validation": "仅静态审查：已取得README、固定commit的文件树和所列源文件；未安装依赖、未启动项目、未渲染视频。"
+    },
+    {
+      "windows": "Node/Playwright具Windows基础；未取得Windows验证证据，未实测。",
+      "license": "根Apache-2.0；部分模板源自HyperFrames Apache-2.0或student-kit MIT，按NOTICE保留来源。",
+      "url": "https://github.com/nexu-io/html-video",
+      "dependencies": [
+        "Node20+",
+        "pnpm9+",
+        "Playwright Chromium",
+        "FFmpeg",
+        "可选coding-agent/Anthropic/MiniMax key"
+      ],
+      "evidence": [
+        {
+          "path": "templates/frame-product-promo-30s/index.html",
+          "url": "https://github.com/nexu-io/html-video/blob/c414ecc07f795add03807d5d9ce4baefd807cea2/templates/frame-product-promo-30s/index.html#L44",
+          "claim": "代码证实：30秒产品片真实分场",
+          "detail": "8个data-composition-src，按0/4/8/10/14.8/19.5/22/25秒编排。"
+        },
+        {
+          "path": "templates/NOTICE.md",
+          "url": "https://github.com/nexu-io/html-video/blob/c414ecc07f795add03807d5d9ce4baefd807cea2/templates/NOTICE.md#L9",
+          "claim": "来源证实：模板级重复",
+          "detail": "8个官方registry直接fork；product-promo-30s来自hyperframes-student-kit。"
+        },
+        {
+          "path": "templates/frame-light-leak-cinema/source/index.html",
+          "url": "https://github.com/nexu-io/html-video/blob/c414ecc07f795add03807d5d9ce4baefd807cea2/templates/frame-light-leak-cinema/source/index.html#L8",
+          "claim": "静态反证：漏光模板并非README宣称的全动画",
+          "detail": "完整文件仅静态HTML/CSS；无keyframes、animation或运动script；Tailwind/Google Fonts远程加载。"
+        },
+        {
+          "path": "packages/adapter-hyperframes/src/render.ts",
+          "url": "https://github.com/nexu-io/html-video/blob/c414ecc07f795add03807d5d9ce4baefd807cea2/packages/adapter-hyperframes/src/render.ts#L12",
+          "claim": "代码证实：渲染适配器实际实现",
+          "detail": "Playwright recordVideo录制WebM后FFmpeg转MP4；不是调用HyperFrames CLI。"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/nexu-io/html-video/blob/c414ecc07f795add03807d5d9ce4baefd807cea2/README.md#L178",
+          "claim": "README说明：安装/启动",
+          "detail": "pnpm install; pnpm -r build; node packages/cli/dist/bin.js studio；未运行。"
+        }
+      ],
+      "stars": 4805,
+      "limitations": [
+        "README称21个均animated，但抽查light-leak-cinema只有静态CSS页面，无动画时间线/输入绑定",
+        "21模板中至少8个直接fork官方HyperFrames，1个来自student-kit，需去重",
+        "render adapter其实是Playwright实时recordVideo+FFmpeg，注释称不依赖HyperFrames运行时",
+        "README称Remotion adapter未完成，tree已有adapter目录，不能据文件存在认定可用",
+        "Agent修改模板与一键参数替换不是同一成熟度"
+      ],
+      "is_template": true,
+      "sha": "c414ecc07f795add03807d5d9ce4baefd807cea2",
+      "pushed_at": "2026-06-21T16:18:31Z",
+      "recommendation": "作为中文Studio/Agent整合层备选；只推荐具体审过的30秒产品片结构；不把全部21个当直接换值的完整成品模板。",
+      "repo": "nexu-io/html-video",
+      "beat_capability": "frame-product-promo-30s有8场固定时间线；未证实自动听歌卡点。可选AI soundtrack是生成/混音，不等于节拍剪辑。",
+      "category": "部分完整HTML模板+静态风格底稿+Agent Studio",
+      "validation": "仅静态审查：已取得README、固定commit的文件树和所列源文件；未安装依赖、未启动项目、未渲染视频。"
+    },
+    {
+      "windows": "README剪映安装模块标注Mac实测/Windows未验证；核心Remotion模板未在本轮Windows实测。",
+      "license": "Apache-2.0仓库；Remotion、音乐/SFX等各有独立许可/attribution。",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "dependencies": [
+        "Node/npm",
+        "Remotion4.0.484",
+        "React19",
+        "TypeScript6",
+        "页面截图工具",
+        "可选FFmpeg"
+      ],
+      "evidence": [
+        {
+          "path": "template/package.json",
+          "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/1266a3ec4831289c4d893d42dd5102723658039a/template/package.json#L7",
+          "claim": "代码证实：完整成片渲染命令",
+          "detail": "render=remotion render src/index.ts AiflPromo out/promo.mp4；dev与still也齐备。"
+        },
+        {
+          "path": "template/src/Root.tsx",
+          "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/1266a3ec4831289c4d893d42dd5102723658039a/template/src/Root.tsx#L10",
+          "claim": "代码证实：完整composition注册",
+          "detail": "AiflPromo、theme=ink-press、1920×1080、30fps、全片AIFL_TOTAL。"
+        },
+        {
+          "path": "README_CN.md",
+          "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/1266a3ec4831289c4d893d42dd5102723658039a/README_CN.md#L234",
+          "claim": "README说明：模板素材/平台限制",
+          "detail": "template/完整成片模板；jianying-export/Mac实测Windows未验证；演示截图须替换。"
+        }
+      ],
+      "stars": 16818,
+      "limitations": [
+        "用户本机已有video-shotcraft skill，不建议再重复安装",
+        "主旨是产品发布片不是纯音乐素材混剪",
+        "截图需换成用户自己的产品；历史音频需按ATTRIBUTION",
+        "镜头卡数量不等于独立全片模板数量"
+      ],
+      "is_template": true,
+      "sha": "1266a3ec4831289c4d893d42dd5102723658039a",
+      "pushed_at": "2026-10-29T16:17:26Z",
+      "recommendation": "作为已有能力的优先起点：确认本地版本，直接复用Ink Press完整模板，比引进同源fork更省事。",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "beat_capability": "现成Ink Press时间线与BGM/SFX；卡点需要镜头/音效对齐，未在本轮证明自动音轨beat检测。",
+      "category": "完整Remotion产品片模板+镜头卡/Agent工作流（本机已有同名skill）",
+      "validation": "仅静态审查：已取得README、固定commit的文件树和所列源文件；未安装依赖、未启动项目、未渲染视频。"
+    }
+  ],
+  "dedup": [
+    {
+      "repo": "remotion-dev/template-audiogram",
+      "reason": "README Contributing明示这是mirror；不要和monorepo重复计数。",
+      "canonical": "remotion-dev/remotion/packages/template-audiogram"
+    },
+    {
+      "repo": "remotion-dev/template-tiktok",
+      "reason": "官方template family；本轮取得tree与metadata，family级归并，不能视作独立引擎。",
+      "canonical": "remotion-dev/remotion/packages/template-tiktok"
+    },
+    {
+      "repo": "nexu-io/html-video:frame-warm-grain,frame-swiss-grid,frame-kinetic-type,frame-nyt-graph,frame-decision-tree,frame-play-mode,frame-product-promo,frame-vignelli",
+      "reason": "NOTICE说明direct forks、composition文件未变，仅目录布局变化。",
+      "canonical": "heygen-com/hyperframes/registry/examples"
+    },
+    {
+      "repo": "nexu-io/html-video:frame-product-promo-30s",
+      "reason": "NOTICE明确保留30秒结构与SFX，替换品牌占位素材。",
+      "canonical": "nateherkai/hyperframes-student-kit/video-projects/linear-promo-30s"
+    },
+    {
+      "repo": "JohnChow90/video-shotcraft",
+      "reason": "搜索元数据description写originally by Vincentwei1021；只采纳原作者仓库作为canonical，fork代码未深审。",
+      "canonical": "Vincentwei1021/video-shotcraft"
+    },
+    {
+      "repo": "Vincentwei1021/video-shotcraft",
+      "reason": "会话skill catalog已列同名skill；主代理负责实际内容同源核对，本子报告不声称逐字相同。",
+      "canonical": "本机已有本机已安装的 video-shotcraft skill"
+    },
+    {
+      "repo": "lumian2015/opus-5-5-video-templates",
+      "reason": "30种设计可单独选择，但工具数只计1，不膨胀为30独立软件。",
+      "canonical": "同仓库30个template family"
+    }
+  ],
+  "excluded": [
+    {
+      "repo": "remotion-dev/template-audiogram",
+      "reason": "是真模板但偏播客字幕+音频波形，不是纯素材混剪；README明示mirror，应归并remotion-dev/remotion/packages/template-audiogram，许可要求公司license条件不能写MIT。"
+    },
+    {
+      "repo": "remotion-dev/template-helloworld",
+      "reason": "React logo/文字入门模板；不具现成混剪素材结构，不作为成品混剪模板推荐。"
+    },
+    {
+      "repo": "remotion-dev/template-tiktok",
+      "reason": "真字幕视频模板但目标是转写/加字幕，非纯音乐蒙太奇；与Remotion monorepo同family。"
+    },
+    {
+      "repo": "2boysfromtown/hyperframes-motion",
+      "reason": "确有4个1080×1920 GSAP HTML模板，MIT，非引擎；但README仅建议任意录屏/HTML转视频方法，仓库无export/render命令，无音轨卡点；降为手动动效素材备选，不列首选。"
+    },
+    {
+      "repo": "halicotampa-crypto/motion-pack",
+      "reason": "大型动效/skills混合pack，tree含student-kit及其HyperFrames skills拷贝；与本机已有技能/模板族重复风险高，本轮未逐个复核100+条，不把数量当独立成片模板数。"
+    },
+    {
+      "repo": "nateherkai/herk-edit-kit",
+      "reason": "含完整工作流/样式库而非仅模板；主代理负责与本机edit-video/short-form-edit等同源核查，避免重复引入。"
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "reason": "基础引擎不作为模板本体计数；其registry/examples可在主代理官方模板审查中计入具体模板。"
+    },
+    {
+      "repo": "heygen-com/hyperframes-vercel-template",
+      "reason": "渲染服务/部署脚手架，不能以名字template当作已设计完成的视频成品模板。"
+    },
+    {
+      "repo": "renezander030/capcut-cli",
+      "reason": "草稿编辑CLI，不是现成成品模板；可作为cookbook外部依赖类工具另评估。"
+    },
+    {
+      "repo": "duoec/duo-video",
+      "reason": "Java剪映草稿SDK，不是成品混剪模板。"
+    },
+    {
+      "repo": "SoKeiKei/CapKit-download",
+      "reason": "模板管理器/下载仓库，不等于可直接审查的开源模板。"
+    }
+  ],
+  "searches": [
+    {
+      "id": "editable_templates-01",
+      "branch": "可换素材模板",
+      "query": "remotion template video",
+      "count": 30,
+      "total_count": 215,
+      "incomplete_results": false,
+      "retrieved_at": null,
+      "retrieved_date": "2026-11-04",
+      "raw_file": "evidence/search/raw/editable_templates-01.json",
+      "per_page": 30,
+      "page": 1
+    },
+    {
+      "id": "editable_templates-02",
+      "branch": "可换素材模板",
+      "query": "remotion slideshow",
+      "count": 30,
+      "total_count": 80,
+      "incomplete_results": false,
+      "retrieved_at": null,
+      "retrieved_date": "2026-11-04",
+      "raw_file": "evidence/search/raw/editable_templates-02.json",
+      "per_page": 30,
+      "page": 1
+    },
+    {
+      "id": "editable_templates-03",
+      "branch": "可换素材模板",
+      "query": "hyperframes template",
+      "count": 30,
+      "total_count": 110,
+      "incomplete_results": false,
+      "retrieved_at": null,
+      "retrieved_date": "2026-11-04",
+      "raw_file": "evidence/search/raw/editable_templates-03.json",
+      "per_page": 30,
+      "page": 1
+    },
+    {
+      "id": "editable_templates-04",
+      "branch": "可换素材模板",
+      "query": "ffmpeg beat montage template",
+      "count": 0,
+      "total_count": 0,
+      "incomplete_results": false,
+      "retrieved_at": null,
+      "retrieved_date": "2026-11-04",
+      "raw_file": "evidence/search/raw/editable_templates-04.json",
+      "per_page": 30,
+      "page": 1
+    },
+    {
+      "id": "editable_templates-05",
+      "branch": "可换素材模板",
+      "query": "shotstack template",
+      "count": 8,
+      "total_count": 8,
+      "incomplete_results": false,
+      "retrieved_at": null,
+      "retrieved_date": "2026-11-04",
+      "raw_file": "evidence/search/raw/editable_templates-05.json",
+      "per_page": 30,
+      "page": 1
+    },
+    {
+      "id": "editable_templates-06",
+      "branch": "可换素材模板",
+      "query": "剪映 草稿 模板",
+      "count": 6,
+      "total_count": 6,
+      "incomplete_results": false,
+      "retrieved_at": null,
+      "retrieved_date": "2026-11-04",
+      "raw_file": "evidence/search/raw/editable_templates-06.json",
+      "per_page": 30,
+      "page": 1
+    },
+    {
+      "id": "editable_templates-07",
+      "branch": "可换素材模板",
+      "query": "capcut template json",
+      "count": 3,
+      "total_count": 3,
+      "incomplete_results": false,
+      "retrieved_at": null,
+      "retrieved_date": "2026-11-04",
+      "raw_file": "evidence/search/raw/editable_templates-07.json",
+      "per_page": 30,
+      "page": 1
+    },
+    {
+      "id": "editable_templates-08",
+      "branch": "可换素材模板",
+      "query": "moviepy video template",
+      "count": 6,
+      "total_count": 6,
+      "incomplete_results": false,
+      "retrieved_at": null,
+      "retrieved_date": "2026-11-04",
+      "raw_file": "evidence/search/raw/editable_templates-08.json",
+      "per_page": 30,
+      "page": 1
+    }
+  ],
+  "raw_unique_candidate_count": 113,
+  "seed_count": 15,
+  "candidates_file": "../catalog.json",
+  "research_branch": "可换素材模板"
+}

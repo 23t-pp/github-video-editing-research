@@ -1,0 +1,68 @@
+{
+  "audit_date": "2026-11-04",
+  "scope": "用户授权的另一窗口只读交接；主流程进一步复核关键源码和两个现成MP4。原工程与媒体未公开。",
+  "public_reproducibility": "脱敏观察记录，第三方无法仅凭本仓库在线重验私有本机文件。",
+  "observations": [
+    {
+      "id": "LOCAL-B-MEDIA",
+      "project_alias": "B：20秒素材混剪",
+      "verification": "主流程执行ffprobe",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "video_frames": 479,
+      "duration_seconds": 19.958333,
+      "size_bytes": 22656515,
+      "claim": "相对严格20秒规格少1帧；未逐段证明唯一根因。"
+    },
+    {
+      "id": "LOCAL-B-SPEED",
+      "project_alias": "B：20秒素材混剪",
+      "verification": "主流程读取构建函数；支撑窗口核对时间线",
+      "claim": "当前函数未读取speed或生成setpts变速过滤器；时间线有5个非1.0 speed。未排除上游预变速或缓存差异。"
+    },
+    {
+      "id": "LOCAL-C-FRAMES",
+      "project_alias": "C：60秒可编辑混剪",
+      "verification": "主流程读取时间线构建函数",
+      "claim": "代码先将绝对start/end量化为startFrame/endFrame，再相减得frames。内部grid对齐不等于编码后音画同步验收。"
+    },
+    {
+      "id": "LOCAL-D-MEDIA",
+      "project_alias": "D：60秒纯FFmpeg混剪",
+      "verification": "主流程执行ffprobe并汇总JSON frames",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "video_frames": 3642,
+      "duration_seconds": 60.7,
+      "size_bytes": 74830479,
+      "shots": 208,
+      "planned_frame_sum": 3642,
+      "claim": "镜头帧数合计与成片一致；208镜头通常对应207个内部切换边界。"
+    },
+    {
+      "id": "LOCAL-D-QA",
+      "project_alias": "D：60秒纯FFmpeg混剪",
+      "verification": "主流程复核采样运算；支撑窗口查看既有拼图",
+      "claim": "质检脚本先生成秒数采样位置，又除以60传给-ss，24个采样点只落在约0.05至1.017秒，不能证明全片视觉已检查。"
+    },
+    {
+      "id": "LOCAL-INSTALLED",
+      "verification": "本机git HEAD与安装清单；公开上游固定提交",
+      "herk_edit_kit_sha": "10511e5af86fc47756ea89803b397422e2d89284",
+      "video_shotcraft_manifest_sha": "1266a3ec4831289c4d893d42dd5102723658039a",
+      "claim": "这两套已有能力与本次审查上游版本对应，不必重复安装。"
+    },
+    {
+      "id": "LOCAL-MONTAGE",
+      "verification": "支撑窗口目录计数及忽略行尾差异的文件比较；主流程读取package字段",
+      "package_version": "0.4.1",
+      "blocks": 158,
+      "components": 236,
+      "registry_directory_entries": 394,
+      "claim": "三个包副本版本相同但Windows启动适配有差异。repository字段为OWNER占位，上游公开地址未确认。文件数不是模板数。"
+    }
+  ],
+  "not_performed": ["修改本机原项目", "上传本机项目源码或媒体", "完整视听验收", "新候选剪辑软件安装运行"]
+}

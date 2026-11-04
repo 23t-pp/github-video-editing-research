@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-11-04T12:24:12.0053407+00:00",
+  "data_integrity": {
+    "checked_at": "2026-11-04T20:24:11.9392291+08:00",
+    "scope": "研究资料自身校验；不代表候选剪辑软件运行验证",
+    "passed": true,
+    "queries": 28,
+    "search_records": 598,
+    "search_unique": 555,
+    "catalog": 557,
+    "reviewed": 26,
+    "fixed_sha_links": 115,
+    "json_files": 46,
+    "internal_links": 74,
+    "powershell_files": 4,
+    "errors": []
+  },
+  "powershell_parse": "4个脚本通过解析",
+  "search_replay": {
+    "unique": 30,
+    "queries": 1,
+    "status": "passed",
+    "records": 30,
+    "note": "独立验证查询，不计入首轮28条统计"
+  },
+  "snapshot_replay": {
+    "repo": "ZiadAbdelkarim/beat-synced-edit",
+    "status": "passed",
+    "files": [
+      "metadata.json",
+      "tree.json",
+      "README.upstream.md"
+    ],
+    "note": "仅保存在被git忽略的replay目录",
+    "sha": "48c09c92ee69c2d89b7e44b146bbd7b9c26fff08"
+  },
+  "historical_merge": {
+    "unique": 555,
+    "records": 598,
+    "status": "passed",
+    "duplicate_occurrences": 43
+  },
+  "source_path_check": {
+    "checked": 115,
+    "truncated_trees": 0,
+    "missing": 0
+  },
+  "publication_content_scan": {
+    "files": 65,
+    "credential_or_personal_path_pattern_matches": 0,
+    "note": "有限模式检查，不等同全面安全认证"
+  },
+  "candidate_software_runtime_tests": 0,
+  "publication": {
+    "status": "prepared",
+    "url": "https://github.com/23t-pp/github-video-editing-research"
+  }
+}

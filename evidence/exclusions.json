@@ -1,0 +1,139 @@
+[
+  {
+    "repo": "Meteor8/beats-synced-video-generator",
+    "reason": "2021年旧demo、无LICENSE；beat1.py确有librosa真实检测，但vid.py硬编码./beats/a1.csv、./video/1.mp4、./music/a.mp3，随机抽20–480秒源片且节拍截到0.1秒。可学最小原理，不适合当可换素材模板或现代工具。",
+    "evidence": "https://github.com/Meteor8/beats-synced-video-generator/blob/436e2e27987240da57fbf5d947146cf6d3e13592/vid.py",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "Tanishk-11/BeatSync",
+    "reason": "描述为视频测心率健康应用，beat同词不同义，非音乐剪辑。",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "ialakey/music-video-generator",
+    "reason": "描述为单图+慢放混响+频谱可视化；未作源码审查，不列入真实切镜工具推荐。",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "riskcapital/ghost-arcade",
+    "reason": "VJ/投影映射与live可视化，不是本组需要的素材切镜模板。",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "for-he-s-loved/awesome-beat-sync-video-editors",
+    "reason": "资源目录，非可运行剪辑器；可做补充索引但不能作为已审实现。",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "remotion-dev/template-audiogram",
+    "reason": "是真模板但偏播客字幕+音频波形，不是纯素材混剪；README明示mirror，应归并remotion-dev/remotion/packages/template-audiogram，许可要求公司license条件不能写MIT。",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "remotion-dev/template-helloworld",
+    "reason": "React logo/文字入门模板；不具现成混剪素材结构，不作为成品混剪模板推荐。",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "remotion-dev/template-tiktok",
+    "reason": "真字幕视频模板但目标是转写/加字幕，非纯音乐蒙太奇；与Remotion monorepo同family。",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "2boysfromtown/hyperframes-motion",
+    "reason": "确有4个1080×1920 GSAP HTML模板，MIT，非引擎；但README仅建议任意录屏/HTML转视频方法，仓库无export/render命令，无音轨卡点；降为手动动效素材备选，不列首选。",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "halicotampa-crypto/motion-pack",
+    "reason": "大型动效/skills混合pack，tree含student-kit及其HyperFrames skills拷贝；与本机已有技能/模板族重复风险高，本轮未逐个复核100+条，不把数量当独立成片模板数。",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "nateherkai/herk-edit-kit",
+    "reason": "含完整工作流/样式库而非仅模板；主代理负责与本机edit-video/short-form-edit等同源核查，避免重复引入。",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "heygen-com/hyperframes",
+    "reason": "基础引擎不作为模板本体计数；其registry/examples可在主代理官方模板审查中计入具体模板。",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "heygen-com/hyperframes-vercel-template",
+    "reason": "渲染服务/部署脚手架，不能以名字template当作已设计完成的视频成品模板。",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "renezander030/capcut-cli",
+    "reason": "草稿编辑CLI，不是现成成品模板；可作为cookbook外部依赖类工具另评估。",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "duoec/duo-video",
+    "reason": "Java剪映草稿SDK，不是成品混剪模板。",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "SoKeiKei/CapKit-download",
+    "reason": "模板管理器/下载仓库，不等于可直接审查的开源模板。",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "VadooAI/ClipAnything",
+    "reason": "种子仓库API请求返回Not Found；8条搜索中的ClipAnything专搜只召回提及它的榜单/其他项目，未核实官方可复用源码。不能把商业产品宣传页当开源实现。",
+    "branch": "AI剪辑"
+  },
+  {
+    "repo": "gitroomhq/postiz-app",
+    "reason": "高星但主要是社交媒体排期发布，非本次用户素材剪辑引擎。",
+    "branch": "AI剪辑"
+  },
+  {
+    "repo": "QwenAudio/CosyVoice",
+    "reason": "语音生成模型；可作配音组件，不是现成用户素材剪辑方案。",
+    "branch": "AI剪辑"
+  },
+  {
+    "repo": "MeiGen-AI/InfiniteTalk",
+    "reason": "语音驱动视频生成，目标是生成画面；非已有素材剪辑引擎。",
+    "branch": "AI剪辑"
+  },
+  {
+    "repo": "yihui-dev/awesome-opus5-5-videos",
+    "reason": "视频展示与提示词收集；不能替代实际可复用剪辑实现。",
+    "branch": "AI剪辑"
+  },
+  {
+    "repo": "21cncstudio/project_aura",
+    "reason": "空气质量ESP32项目，关键词噪声。",
+    "branch": "AI剪辑"
+  },
+  {
+    "repo": "Anil-matcha/ai-clipping-comfyui",
+    "reason": "搜索description明确server-side经muapi.ai；可做服务节点封装候选，不作为完全本地开放高光引擎重复推荐。本次未深审其源码。",
+    "branch": "AI剪辑"
+  },
+  {
+    "repo": "heygen-com/hyperframes-launch-video",
+    "reason": "单个早期官方实例，README称源码/媒体供reference use；不能直接继承框架Apache许可。更优先选许可边界清楚的launches合集。并未证明两仓代码完全重复。",
+    "evidence": "https://github.com/heygen-com/hyperframes-launch-video/blob/930f89186b8e155d632d9afe49054c02d4d7d85a/README.md",
+    "branch": "主流程：官方示例与已有能力"
+  },
+  {
+    "repo": "zhuyansen/awesome-claude-video-skills",
+    "reason": "用作发现索引，非剪辑模板/引擎。其评级没有代替本轮源码审查。",
+    "branch": "主流程：官方示例与已有能力"
+  },
+  {
+    "repo": "JediKnightChan/EternalCrusadeResurrection",
+    "reason": "搜索元数据表明是Unreal游戏项目，montage同词异义；未源码深审。",
+    "branch": "主流程：官方示例与已有能力"
+  },
+  {
+    "repo": "xbb1973/USTC-ncov-AutoReport",
+    "reason": "搜索元数据表明是健康打卡脚本，“卡点”宽搜噪声；未源码深审。",
+    "branch": "主流程：官方示例与已有能力"
+  }
+]

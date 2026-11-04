@@ -1,0 +1,170 @@
+[
+  {
+    "repo": "scherroman/mugen",
+    "canonical": "scherroman/mugen",
+    "reason": "同仓库被扩展query重复召回：AMV generator",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "Vincentwei1021/video-shotcraft",
+    "canonical": "Vincentwei1021/video-shotcraft",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "Moessif/code-video-showcase",
+    "canonical": "Moessif/code-video-showcase",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "bestagentkits/motion-video-skill",
+    "canonical": "bestagentkits/motion-video-skill",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "guigulaoshi/music-video-director-skill",
+    "canonical": "guigulaoshi/music-video-director-skill",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "AbubakrChan/product-launch-motion",
+    "canonical": "AbubakrChan/product-launch-motion",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "mfahsold/montage-ai",
+    "canonical": "mfahsold/montage-ai",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "Merserk/BeatSync-Engine",
+    "canonical": "Merserk/BeatSync-Engine",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "Meteor8/beats-synced-video-generator",
+    "canonical": "Meteor8/beats-synced-video-generator",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "iart-ai/kinetic-typography-skills",
+    "canonical": "iart-ai/kinetic-typography-skills",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "ZiadAbdelkarim/beat-synced-edit",
+    "canonical": "ZiadAbdelkarim/beat-synced-edit",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "Win-Hao/knowledge-video",
+    "canonical": "Win-Hao/knowledge-video",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "syklayou-glitch/video-shotcraft",
+    "canonical": "syklayou-glitch/video-shotcraft",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "qingyunAGI/qingyun-cine-skill",
+    "canonical": "qingyunAGI/qingyun-cine-skill",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "fltman/aimusicvideo",
+    "canonical": "fltman/aimusicvideo",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "NSK-394/ai-video-agent",
+    "canonical": "NSK-394/ai-video-agent",
+    "reason": "同仓库被扩展query重复召回：\"beat-synced\"",
+    "branch": "音乐卡点"
+  },
+  {
+    "repo": "remotion-dev/template-audiogram",
+    "reason": "README Contributing明示这是mirror；不要和monorepo重复计数。",
+    "canonical": "remotion-dev/remotion/packages/template-audiogram",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "remotion-dev/template-tiktok",
+    "reason": "官方template family；本轮取得tree与metadata，family级归并，不能视作独立引擎。",
+    "canonical": "remotion-dev/remotion/packages/template-tiktok",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "nexu-io/html-video:frame-warm-grain,frame-swiss-grid,frame-kinetic-type,frame-nyt-graph,frame-decision-tree,frame-play-mode,frame-product-promo,frame-vignelli",
+    "reason": "NOTICE说明direct forks、composition文件未变，仅目录布局变化。",
+    "canonical": "heygen-com/hyperframes/registry/examples",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "nexu-io/html-video:frame-product-promo-30s",
+    "reason": "NOTICE明确保留30秒结构与SFX，替换品牌占位素材。",
+    "canonical": "nateherkai/hyperframes-student-kit/video-projects/linear-promo-30s",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "JohnChow90/video-shotcraft",
+    "reason": "搜索元数据description写originally by Vincentwei1021；只采纳原作者仓库作为canonical，fork代码未深审。",
+    "canonical": "Vincentwei1021/video-shotcraft",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "Vincentwei1021/video-shotcraft",
+    "reason": "会话skill catalog已列同名skill；主代理负责实际内容同源核对，本子报告不声称逐字相同。",
+    "canonical": "本机已有本机已安装的 video-shotcraft skill",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "lumian2015/opus-5-5-video-templates",
+    "reason": "30种设计可单独选择，但工具数只计1，不膨胀为30独立软件。",
+    "canonical": "同仓库30个template family",
+    "branch": "可换素材模板"
+  },
+  {
+    "repo": "SamurAIGPT/AI-Youtube-Shorts-Generator",
+    "canonical": "Anil-matcha/AI-Youtube-Shorts-Generator",
+    "reason": "gh api旧路径返回canonical full_name与同一repo id=821280833；是旧地址重定向，不计独立项目。",
+    "branch": "AI剪辑"
+  },
+  {
+    "repo": "Asad-Ismail/MoneyPrinterTurbo-Extended",
+    "canonical": "harry0703/MoneyPrinterTurbo",
+    "reason": "描述明确extended implementation，作为衍生家族记录，不重复计主实现。GitHub metadata fork=false，故不能声称是GitHub fork或逐文件相同；本次未做源码hash同源鉴定。",
+    "branch": "AI剪辑"
+  },
+  {
+    "repo": "modelscope/FunClip",
+    "canonical": "modelscope/FunClip",
+    "reason": "与其他访谈选段方案功能类似不等于同源；metadata fork=false，保留独立实现。",
+    "branch": "AI剪辑"
+  },
+  {
+    "repo": "nateherkai/herk-edit-kit",
+    "canonical": "nateherkai/herk-edit-kit",
+    "reason": "本机git HEAD与上游快照10511e5af86fc47756ea89803b397422e2d89284一致，作为已有能力计一次。",
+    "branch": "主流程：官方示例与已有能力"
+  },
+  {
+    "repo": "dsh-montage 本机三份包",
+    "canonical": "本机dsh-montage能力族",
+    "reason": "均标0.4.1但Windows启动适配有差异；仅按用途归类，不宣称文件完全相同。公开上游URL仍未确认。",
+    "branch": "主流程：官方示例与已有能力"
+  }
+]
