@@ -2,7 +2,7 @@
 
 **针对你现有项目，优先继续用HyperFrames，并复用已有Herk、video-shotcraft和montage能力。其他仓库用于补镜头配方、素材参数和可编辑时间线；下表按用途组织，不代表它们整体优于HyperFrames。**
 
-后续补核：[从其他项目学习什么](docs/10-learn-with-hyperframes.md)、[OpenChatCut与本机工具怎样集成](docs/11-openchatcut-integration.md)、[桌面源码第一课](docs/12-openchatcut-first-lesson.md)。本机HyperFrames的beats/audio命令入口已经确认；OpenChatCut仍处于源码学习与接口核查阶段，未启动或打通集成。
+后续补核：[从其他项目学习什么](docs/10-learn-with-hyperframes.md)、[OpenChatCut与本机工具怎样集成](docs/11-openchatcut-integration.md)、[桌面源码第一课](docs/12-openchatcut-first-lesson.md)、[安装与启动第二课](docs/13-openchatcut-startup.md)。OpenChatCut已在Windows完成依赖安装、隔离服务启动与浏览器编辑器验证，附中文命令解释、启动/停止脚本和实际截图；AI剪辑、导出及HyperFrames联动尚未实测。
 
 这份仓库为不熟悉命令行和编程的人编写。除了项目名单，还解释“为什么推荐”“凭什么判断”“命令做了什么”“哪些说法尚未验证”。研究日期为 **2026年11月4日，Asia/Shanghai**。
 
@@ -36,7 +36,7 @@
 | 重点静态源码审查 | 26个 | 读文档、依赖、许可、实际实现；并非全555个都深审 |
 | 固定提交源码证据 | 115条 | 可以跳到本次看到的版本 |
 | 明确排除/降级记录 | 27项 | 含关键词噪声、来源重复、许可/平台或任务不匹配 |
-| 新候选软件运行测试 | 0 | 没有把“读过代码”写成“跑通了” |
+| 首轮新候选软件运行测试 | 0 | 首轮仅静态审查；后续已补OpenChatCut安装与界面启动验证，见第二课 |
 
 另对本机已有项目做了只读核验，主流程复查两个现成MP4的媒体元数据和关键脚本。它与新候选软件测试是两件事。
 

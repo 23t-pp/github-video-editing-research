@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "scope": "Local Windows dependency installation, isolated development server and browser startup verification",
+  "project": "0xsline/OpenChatCut",
+  "packageVersion": "0.2.17",
+  "sourceReviewCommit": "7fa4b7903e7ebecf832a36249f0c0c755200cc17",
+  "runtime": {"selectedNode": "24.22.1", "originalNode": "24.22.2", "npm": "11.19.1", "vite": "8.3.5"},
+  "installation": {
+    "command": "selected-node npm-cli.js ci --no-fund",
+    "exitCode": 0,
+    "packagesAdded": 847,
+    "packagesAudited": 848,
+    "audit": {"total": 38, "moderate": 23, "high": 14, "critical": 1},
+    "unreviewedInstallScriptEntriesReportedByNpm": 8,
+    "blanketScriptApprovalPerformed": false,
+    "forcedDependencyUpdatesPerformed": false
+  },
+  "checks": [
+    {"name": "Selected Node project-directory write and removal", "status": "passed"},
+    {"name": "sync:mediapipe", "status": "passed", "modelIntegrityChecked": true},
+    {"name": "sync:whisper-cli", "status": "passed", "speechModelWeightsDownloaded": false},
+    {"name": "verify:server-tool-catalog", "status": "passed"},
+    {"name": "FFmpeg binary version execution", "status": "passed"},
+    {"name": "esbuild TypeScript transformation", "status": "passed"},
+    {"name": "onnxruntime-node import", "status": "passed"},
+    {"name": "Launcher parse, CheckOnly and already-running handling", "status": "passed"},
+    {"name": "Stop script followed by full start script", "status": "passed"},
+    {"name": "HTTP root", "statusCode": 200, "pageTitle": "OpenChatCut"},
+    {"name": "Browser project dashboard", "status": "observed"},
+    {"name": "Browser sample editor", "status": "observed", "previewVisible": true, "timelineVisible": true, "sampleDurationSeconds": 6, "sampleFps": 30},
+    {"name": "Captured browser error logs at verification", "count": 0}
+  ],
+  "service": {"url": "http://127.0.0.1:5199/", "bindAddress": "127.0.0.1", "profile": "official isolated-dev with default data location", "runningAtVerification": true, "windowsAutoStartConfigured": false},
+  "resolvedStartupObstacles": [
+    "Original Node executable returned EPERM on writes; another existing Node 24 runtime passed the same filesystem checks. Underlying original-runtime cause remains undetermined.",
+    "ZIP checkout lacked Git metadata required by dev-profile.mjs; local git init supplied it.",
+    "Ordinary-profile xAI session initialization rewrote .env.local, triggering repeated Vite restarts. Official isolated profile avoids that watched settings path.",
+    "Custom data-directory setting was not retained because wrapper settings-read path and runtime settings-write path differ in this source version."
+  ],
+  "remainingLimitations": [
+    "Windows startup reports a non-blocking warmup-path error for /@fs/src/main.tsx; the actual entry and browser editor load successfully.",
+    "Dependency audit findings remain unresolved.",
+    "AI calls, neural music models, actual media editing/export, MCP and HyperFrames integration were not tested."
+  ],
+  "sourceProductFilesEdited": false,
+  "publicEvidenceExcludes": ["API credentials", "environment file values", "local account paths", "project-store authentication data"],
+  "screenshot": "openchatcut-editor-running.jpg"
+}
