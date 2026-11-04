@@ -61,5 +61,37 @@
     "verified_at": "2026-11-04T20:25:17.8363782+08:00",
     "note": "此提交是正文与数据提交；后续提交仅补充本发布核验回执。",
     "anonymous_web_access_confirmed": true
+  },
+  "followup_validation": {
+    "date": "2026-11-04",
+    "scope": "HyperFrames基线补核、OpenChatCut桌面源码学习与接口审查",
+    "data_integrity": {
+      "passed": true,
+      "initial_catalog_fixed_sha_links": 115,
+      "internal_links": 85,
+      "json_files": 49
+    },
+    "desktop_key_file_git_blob_comparison": {
+      "checked": 5,
+      "matched": 5
+    },
+    "subagent_desktop_normalized_text_comparison": {
+      "checked": 7,
+      "matched": 7
+    },
+    "local_hyperframes_help_commands": {
+      "version": "0.8.216",
+      "commands": [
+        "beats --help",
+        "audio --help"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    "openchatcut_install_or_runtime_performed": false,
+    "local_source_modified": false,
+    "publication_path_and_credential_pattern_matches": 0
   }
 }

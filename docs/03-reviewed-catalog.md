@@ -1,5 +1,7 @@
 # 全部重点项目：按实际能力看，不按星数排名
 
+> 本页保留首轮用途审查。后续补核确认HyperFrames原生已有beats/audio分析能力，针对本机项目建议以它为主要创作工具。见[HyperFrames学习结论](10-learn-with-hyperframes.md)与[OpenChatCut集成接口](11-openchatcut-integration.md)。
+
 返回[研究首页](../README.md)。本表中的能力来自固定提交的静态源码/文档；没有安装或渲染这些候选软件。星数与push日期为本次快照，日期以ISO为准。详证在后面的分支报告与JSON中。
 
 | 项目 | 定位 | 模板？ | 许可核查 | 星数 | 最近push（UTC） |

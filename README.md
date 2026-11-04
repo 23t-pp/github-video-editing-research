@@ -1,6 +1,8 @@
 # AI剪辑、卡点混剪与可复用模板：中文调研与学习手册
 
-**想做情绪混剪，先看 easyedit；想学清楚卡点流程，看 beat-synced-edit；想换图片和文字套模板，看 VVV、Opus30；想要可视化编辑与AI结合，看 OpenChatCut。你已有的 Herk、video-shotcraft 和 montage 能力应优先复用。**
+**针对你现有项目，优先继续用HyperFrames，并复用已有Herk、video-shotcraft和montage能力。其他仓库用于补镜头配方、素材参数和可编辑时间线；下表按用途组织，不代表它们整体优于HyperFrames。**
+
+后续补核：[从其他项目学习什么](docs/10-learn-with-hyperframes.md)、[OpenChatCut与本机工具怎样集成](docs/11-openchatcut-integration.md)、[桌面源码第一课](docs/12-openchatcut-first-lesson.md)。本机HyperFrames的beats/audio命令入口已经确认；OpenChatCut仍处于源码学习与接口核查阶段，未启动或打通集成。
 
 这份仓库为不熟悉命令行和编程的人编写。除了项目名单，还解释“为什么推荐”“凭什么判断”“命令做了什么”“哪些说法尚未验证”。研究日期为 **2026年11月4日，Asia/Shanghai**。
 
@@ -21,7 +23,7 @@
 | 产品发布片 | [官方HyperFrames launches](https://github.com/heygen-com/hyperframes-launches) / 已有[video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 完整动效工程、镜头卡、可替换品牌结构 | 代码、字体、音乐、品牌素材的许可要分别看 |
 | 要在剪映里继续改 | [cutcli-cookbook](https://github.com/xuliang2024/cutcli-cookbook) | 公开配方和草稿JSON示例 | 配方MIT，但依赖的核心cutcli/jy_cli闭源；导入导出需实测 |
 
-上表用于决定先研究谁，不承诺“安装即出好片”。全部26项详细对比及115条固定提交证据见[完整审查目录](docs/03-reviewed-catalog.md)。
+上表用于决定先研究谁，不承诺“安装即出好片”。首轮26项详细对比及115条固定提交证据见[完整审查目录](docs/03-reviewed-catalog.md)；后续HyperFrames基线与OpenChatCut接口补核另见上方专题。
 
 ## 这次到底做了多少工作
 

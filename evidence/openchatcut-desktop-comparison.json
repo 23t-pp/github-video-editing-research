@@ -1,0 +1,37 @@
+[
+  {
+    "path": "cli/main.ts",
+    "exists": true,
+    "sameText": true
+  },
+  {
+    "path": "cli/commands/media.ts",
+    "exists": true,
+    "sameText": true
+  },
+  {
+    "path": "src/agent/external-tool-policy.ts",
+    "exists": true,
+    "sameText": true
+  },
+  {
+    "path": "server/external-agent/offline-path-import.ts",
+    "exists": true,
+    "sameText": true
+  },
+  {
+    "path": "src/agent/tools/schemas/music-intelligence-tools.ts",
+    "exists": true,
+    "sameText": true
+  },
+  {
+    "path": "src/agent/tools/schemas/markers-tools.ts",
+    "exists": true,
+    "sameText": true
+  },
+  {
+    "path": "src/agent/tools/schemas/core-tools.ts",
+    "exists": true,
+    "sameText": true
+  }
+]

@@ -13,6 +13,9 @@
 - `validation.json`：研究交付自身的验证。这里的脚本通过不代表剪辑候选软件通过测试。
 - `source-path-validation.json`：115条证据路径都在对应固定提交的目录树中，目录树均未截断。
 - `probes/`：旧仓库地址重定向、衍生家族元数据，以及重点文件的最近提交日期。已去掉不必要的提交作者邮箱。
+- `openchatcut-integration-review.json`：后续12项接口补核，独立于首轮搜索与用途筛选。
+- `openchatcut-desktop-comparison.json`：用户桌面源码关键文件与上游快照的脱敏比较记录。
+- `local-integration-readiness.json`：本机运行环境、HF帮助命令验证及OpenChatCut尚未安装运行的状态。
 
 原始响应保留GitHub返回的公开仓库信息；不会包含本次登录凭据。原始元数据和人工判断分开保存，便于以后更新而不改写旧证据。
 

@@ -64,3 +64,11 @@ gh api --method GET search/repositories -f 'q="beat-synced"' -f per_page=30
 ## 可以继续验证但本次没有执行的事项
 
 候选软件安装、依赖冲突、20/30秒样片、视听质量、显存与速度、项目间时间线导入导出，以及素材实际许可。它们是下一阶段实验，不在本次完成记录里冒充通过。
+
+## 后续：HyperFrames基线补核与OpenChatCut学习
+
+用户认为现有HyperFrames更适合，随后询问OpenChatCut集成，并提供桌面源码位置。主流程补查HyperFrames原生beats/audio能力，实际执行本机0.8.216两个帮助命令；确认首轮仅看两个组件不足以代表框架的音乐能力，建议改为以已有HF流程为主。
+
+桌面OpenChatCut-main为0.2.17源码包，尚无node_modules/cli-dist。主流程按Git blob比对5个文件，子代理按规范化文本比对7个接口文件，均与已审查快照对应。接口补核区分了无界面CLI工具、需要编辑器的音乐工具，以及HF渲染视频接入与HTML内部可编辑性。补充了中文源码地图和PowerShell接线示例，未安装运行OpenChatCut或修改桌面源码。
+
+此阶段的独立接口证据在[集成报告](11-openchatcut-integration.md)和对应JSON中，不混入首轮搜索条数。
