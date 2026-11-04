@@ -1,0 +1,54 @@
+{
+  "id": "V19",
+  "title": "V19 · 原始混合音轨",
+  "source_video_name": "Is_it_better_to_speak_or_die_edit.mp4",
+  "source_video_sha256": "f44062a1ad5a74637e36edb0bc67955c902b3a1e9d4a9f3aa5bdda32640e0de7",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V19__mixed.m4a",
+  "bytes": 127165,
+  "sha256": "bf011ba210ea7fa27e9313e084980481feb2866ac80590ea2477f42bd12db513",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 19.436507936507937,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -15.2,
+    "true_peak_dbtp": -2.96,
+    "loudness_range_lu": 17.9,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 19.561134,
+  "source_decoded_duration_sec": 19.4,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "0d9ead91e9a771b80f66b2a2a86db0bfe394424c6a568c9a8c7f12cae3a18134",
+    "output_sha256": "100026893420e8088cbcf4bfc1c81f8ec0bffe550af8d4737fdb3f92e9e0cd89",
+    "shared_prefix_samples": 427770,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 36.508,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "e388974f1161f445340d4bac5cf74dd4c17344513409ee67dc3387753bbd79fc",
+  "source_aac_adts_sha256": "e388974f1161f445340d4bac5cf74dd4c17344513409ee67dc3387753bbd79fc",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "a6ef2264aaba51a3e617b8bd20bf362284dfe93603b182bfdf590b75dc895cde",
+  "source_native_pcm_sha256": "72a7ca648998977bc8d4aa8fe0c1d55ce16f649b550bcba279ba201cd23fcf95",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V19__music-candidate.m4a"
+}

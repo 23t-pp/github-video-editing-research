@@ -1,0 +1,54 @@
+{
+  "id": "V02",
+  "title": "V02 · 原始混合音轨",
+  "source_video_name": "都多大的人了还吃手指_了不起的混剪团_咒术回战_踩点技术流_我的长长长假_抖音精选.mp4",
+  "source_video_sha256": "734e219a7f596d9a06906d817217727f9cbe7404fbb5684449b7d90c9dffa7ad",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V02__mixed.m4a",
+  "bytes": 197929,
+  "sha256": "23e27d6b16da70233f58b9a059fb970b4a7fe6aa8fa3c3f06e0790d05a0137fc",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 24.73065759637188,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -9.35,
+    "true_peak_dbtp": 2.13,
+    "loudness_range_lu": 3.2,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 24.886485,
+  "source_decoded_duration_sec": 24.72503401360544,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "a3076c10cdb5a24c387376ae523677bbd73ae44c11670c9c80be9659ad1d64fb",
+    "output_sha256": "6bcfe9aa694e38a7bad7976d11ccc9d38f42a5e0f522ff1bdade06d7bade0acc",
+    "shared_prefix_samples": 545187,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 5.624,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "af5d3e4fd11064a6e039082607bb57631f5b805a13113aee55f779069ea5f3dc",
+  "source_aac_adts_sha256": "af5d3e4fd11064a6e039082607bb57631f5b805a13113aee55f779069ea5f3dc",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "041bab38f8305b8f3422500390646b1a705d9b92bfcbfaf6b74c71d895aefc63",
+  "source_native_pcm_sha256": "1453deee804e8bdf4bbbefa66ff5398fa0606807f1ac5a81b71785beebd71d60",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V02__music-candidate.m4a"
+}

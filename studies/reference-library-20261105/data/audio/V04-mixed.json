@@ -1,0 +1,54 @@
+{
+  "id": "V04",
+  "title": "V04 · 原始混合音轨",
+  "source_video_name": "这是什么剪法介么帅_超燃混剪_超凡蜘蛛侠_无缝循环.mp4",
+  "source_video_sha256": "69ed2daba16e212736327b02f4886676ceee169c3ab46ca59ffc4fdf2e11bde3",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V04__mixed.m4a",
+  "bytes": 178246,
+  "sha256": "585871b5b2dc15561403ad30c770e3062d25dafc3bbd480ef6a41bbe41cabbc8",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 21.526303854875284,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -10.16,
+    "true_peak_dbtp": 0.63,
+    "loudness_range_lu": 11,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 21.662857,
+  "source_decoded_duration_sec": 21.50095238095238,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "5a84b8348eb9935dce3a29fbe6321b37f5b82ad2d209018ae522bee510f2f67f",
+    "output_sha256": "9223210c269c79c63afd89b7eaf906b6d90df66a3d7faeb7d6fefebe721fd131",
+    "shared_prefix_samples": 474096,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 25.351,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "43005dc37872ac06c48bc9d3e5e3138c6a0e253a3cd81bf9d89ded5142b7dd6c",
+  "source_aac_adts_sha256": "43005dc37872ac06c48bc9d3e5e3138c6a0e253a3cd81bf9d89ded5142b7dd6c",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "9090afd6fc22400e606c2d020fdc0df5d18c703933078f6536ee870223a12222",
+  "source_native_pcm_sha256": "2ab30ae1f0a2c566cda1acebed4eb076f9aa25280cdd91ae9edeeee8ecd7741c",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V04__music-candidate.m4a"
+}

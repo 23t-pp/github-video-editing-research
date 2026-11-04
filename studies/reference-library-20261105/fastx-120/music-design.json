@@ -1,0 +1,50 @@
+{
+  "status": "original rhythm guide, not final soundtrack",
+  "bpm": 128,
+  "measuredOrDesigned": "designed",
+  "durationSeconds": 120,
+  "bars": 64,
+  "beats": 256,
+  "timeSignature": "4/4",
+  "sampleRate": 48000,
+  "sections": [
+    {
+      "name": "冷开场：危险先到",
+      "start": 0,
+      "end": 7.5,
+      "energy": 0.25
+    },
+    {
+      "name": "人物与威胁建立",
+      "start": 7.5,
+      "end": 22.5,
+      "energy": 0.45
+    },
+    {
+      "name": "第一轮追逐",
+      "start": 22.5,
+      "end": 52.5,
+      "energy": 0.72
+    },
+    {
+      "name": "短暂呼吸与情绪理由",
+      "start": 52.5,
+      "end": 67.5,
+      "energy": 0.23
+    },
+    {
+      "name": "高速主高潮",
+      "start": 67.5,
+      "end": 112.5,
+      "energy": 1
+    },
+    {
+      "name": "最后一次兑现与收尾",
+      "start": 112.5,
+      "end": 120,
+      "energy": 0.65
+    }
+  ],
+  "frameGrid": "24fps; rounding to nearest frame, up to 20.834ms",
+  "availableReferenceAudio": "Extracted short references are comparison material; do not pretend a 10s excerpt is a complete coherent 120s song."
+}

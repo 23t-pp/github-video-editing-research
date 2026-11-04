@@ -1,0 +1,54 @@
+{
+  "id": "V10",
+  "title": "V10 · 原始混合音轨",
+  "source_video_name": "丝滑BMW_M4剪辑_汽车剪辑_汽车摄影_caredit_BMW.mp4",
+  "source_video_sha256": "ef9eaf5e8affbf6aa26e4580925e963e9252c3dee31d614db4e4af2a469a115c",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V10__mixed.m4a",
+  "bytes": 143180,
+  "sha256": "4e7ca45c3d52a55cfe9e385bf002f48c36432cc025df6aaa55debebd80becb28",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 18.089750566893425,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -6.96,
+    "true_peak_dbtp": 3.77,
+    "loudness_range_lu": 2.1,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 18.230454,
+  "source_decoded_duration_sec": 18.06902494331066,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "b63ccd8434f0596f62f671760e9b5407d03b1aba37c1664f75dbc342834df477",
+    "output_sha256": "c9115965c3bf932824785c63c0284894b721994e34cbf2417441eb28fe9c55d6",
+    "shared_prefix_samples": 398422,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 20.726,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "3da7a337b93bd6dff3a05bb50859f27d092ea39ac7d30b03526b6ba4777b35c1",
+  "source_aac_adts_sha256": "3da7a337b93bd6dff3a05bb50859f27d092ea39ac7d30b03526b6ba4777b35c1",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "e2b35fa4567941d0454a44c96fc5b8a296b220f643e7942788b24b6074dbb76b",
+  "source_native_pcm_sha256": "609da3393ba1a46cc9cd9f053803301c6977c213b9abab51d4f30bfe953d5682",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V10__music-candidate.m4a"
+}

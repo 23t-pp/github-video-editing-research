@@ -1,0 +1,157 @@
+{
+  "id": "V03",
+  "method": "视觉事件或机器变化候选与谱通量起音/模型拍点的最近邻。正误差=视觉晚于声音。未听辨来源，不把接近当因果或卡点成功。",
+  "humanVisualEvents": [],
+  "machineCandidates": [
+    {
+      "frame": 17,
+      "time": 0.68,
+      "score": 0.2277,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 0.6415,
+      "onsetDeltaMs": 38.5,
+      "nearestModelBeat": 0.775,
+      "beatDeltaMs": -95
+    },
+    {
+      "frame": 27,
+      "time": 1.08,
+      "score": 0.18386,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 1.1125,
+      "onsetDeltaMs": -32.5,
+      "nearestModelBeat": 0.775,
+      "beatDeltaMs": 305
+    },
+    {
+      "frame": 68,
+      "time": 2.72,
+      "score": 0.21914,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 2.7863,
+      "onsetDeltaMs": -66.3,
+      "nearestModelBeat": 2.795,
+      "beatDeltaMs": -75
+    },
+    {
+      "frame": 90,
+      "time": 3.6,
+      "score": 0.2715,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 3.6082,
+      "onsetDeltaMs": -8.2,
+      "nearestModelBeat": 3.465,
+      "beatDeltaMs": 135
+    },
+    {
+      "frame": 118,
+      "time": 4.72,
+      "score": 0.4746,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 4.8009,
+      "onsetDeltaMs": -80.9,
+      "nearestModelBeat": 4.815,
+      "beatDeltaMs": -95
+    },
+    {
+      "frame": 120,
+      "time": 4.8,
+      "score": 0.33511,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 4.8009,
+      "onsetDeltaMs": -0.9,
+      "nearestModelBeat": 4.815,
+      "beatDeltaMs": -15
+    },
+    {
+      "frame": 135,
+      "time": 5.4,
+      "score": 0.18953,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 5.4824,
+      "onsetDeltaMs": -82.4,
+      "nearestModelBeat": 5.495,
+      "beatDeltaMs": -95
+    },
+    {
+      "frame": 186,
+      "time": 7.44,
+      "score": 0.27251,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 7.497,
+      "onsetDeltaMs": -57,
+      "nearestModelBeat": 7.515,
+      "beatDeltaMs": -75
+    },
+    {
+      "frame": 305,
+      "time": 12.2,
+      "score": 0.44183,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 12.2277,
+      "onsetDeltaMs": -27.7,
+      "nearestModelBeat": 12.245,
+      "beatDeltaMs": -45
+    },
+    {
+      "frame": 338,
+      "time": 13.52,
+      "score": 0.21556,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 13.5507,
+      "onsetDeltaMs": -30.7,
+      "nearestModelBeat": 13.565,
+      "beatDeltaMs": -45
+    },
+    {
+      "frame": 388,
+      "time": 15.52,
+      "score": 0.32973,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 15.5853,
+      "onsetDeltaMs": -65.3,
+      "nearestModelBeat": 15.595,
+      "beatDeltaMs": -75
+    },
+    {
+      "frame": 405,
+      "time": 16.2,
+      "score": 0.33685,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 16.2668,
+      "onsetDeltaMs": -66.8,
+      "nearestModelBeat": 16.275,
+      "beatDeltaMs": -75
+    },
+    {
+      "frame": 472,
+      "time": 18.88,
+      "score": 0.33161,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 18.8025,
+      "onsetDeltaMs": 77.5,
+      "nearestModelBeat": 18.975,
+      "beatDeltaMs": -95
+    },
+    {
+      "frame": 475,
+      "time": 19,
+      "score": 0.24767,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 18.9629,
+      "onsetDeltaMs": 37.1,
+      "nearestModelBeat": 18.975,
+      "beatDeltaMs": 25
+    },
+    {
+      "frame": 507,
+      "time": 20.28,
+      "score": 0.18464,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 20.3059,
+      "onsetDeltaMs": -25.9,
+      "nearestModelBeat": 20.335,
+      "beatDeltaMs": -55
+    }
+  ]
+}

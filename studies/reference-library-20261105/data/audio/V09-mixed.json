@@ -1,0 +1,54 @@
+{
+  "id": "V09",
+  "title": "V09 · 原始混合音轨",
+  "source_video_name": "若不能先声夺人_我宁愿死去._familiaonly_flow_赛车.mp4",
+  "source_video_sha256": "2d1b6bd4bd4691c90674d98a0c0c5a7e4a13f945dfffbb8b7f72686cdd4224b0",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V09__mixed.m4a",
+  "bytes": 84718,
+  "sha256": "51ca67ae926b8df94a8c655671ed85f1829d468038faa2874d7f81ccd6f64a4d",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 10.705804988662132,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -14.78,
+    "true_peak_dbtp": -0.69,
+    "loudness_range_lu": 2.8,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 10.864082,
+  "source_decoded_duration_sec": 10.702947845804989,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "467bfeb6645839af3f4ae35fd5a7a621d6b7027127858470e1677c3244bf10f2",
+    "output_sha256": "9b11a16bf755afa85360bb7266a2b0ed754bdc77d6da54a18c974ebdce67b5d4",
+    "shared_prefix_samples": 236000,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 2.857,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "724bb79bbf718dd7bca75dc0aa583c0bba219c8d9be30291e68ef23614db4283",
+  "source_aac_adts_sha256": "724bb79bbf718dd7bca75dc0aa583c0bba219c8d9be30291e68ef23614db4283",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "e9c3af707e99e7316aec29d2eb66718a502abe8d808c419014f101b5c22ed331",
+  "source_native_pcm_sha256": "611e89dbea0f868e2a835131e6f293e180476b23894e506e6a5e01d79a659049",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V09__music-candidate.m4a"
+}

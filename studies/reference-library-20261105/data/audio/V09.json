@@ -1,0 +1,736 @@
+{
+  "id": "V09",
+  "source_name": "若不能先声夺人_我宁愿死去._familiaonly_flow_赛车.mp4",
+  "source_sha256": "2d1b6bd4bd4691c90674d98a0c0c5a7e4a13f945dfffbb8b7f72686cdd4224b0",
+  "created_at": "2026-11-04T16:07:48.472Z",
+  "duration_sec": 10.703,
+  "actual_execution": {
+    "decoded": true,
+    "ffmpeg_exit_code": 0,
+    "listened": false,
+    "installed_models": false,
+    "elapsed_ms": 207,
+    "uploaded_to_analysis_service": false
+  },
+  "method": {
+    "primary": "HyperFrames 0.8.216本地signal provider：log-frequency band spectral flux、自相关tempo、DP beat tracking；sections为音色/chroma结构新颖度。直接调用本地库，无API和模型。",
+    "secondary": "本分析脚本：对HF频带的正谱差做±0.4s局部均值去趋势，自相关寻找40–240 BPM局部峰；0.25s RMS只用于响度变化。",
+    "baseline": "montage 0.4.1：20ms log-RMS正差、10ms hop的自相关/comb启发式；不是独立听觉确认。",
+    "timing": "onsets=谱通量局部峰(10ms hop)，beats=周期模型推断网格(含HF的15ms经验偏置)；均是原视频从0秒起的时间，未对人工感知确认。"
+  },
+  "hyperframes": {
+    "beats": {
+      "times": [],
+      "confidence": 0.119,
+      "reason": "no steady beat"
+    },
+    "downbeats": {
+      "times": [],
+      "meter": null,
+      "confidence": "low"
+    },
+    "tempo": {
+      "value": null,
+      "curve": []
+    },
+    "interval_median_sec": 0,
+    "interval_mad_sec": 0,
+    "local_beat_evidence": []
+  },
+  "spectral_autocorrelation": {
+    "candidates": [
+      {
+        "bpm": 54.9,
+        "autocorrelation": 0.171,
+        "lagSec": 1.093
+      },
+      {
+        "bpm": 109.3,
+        "autocorrelation": 0.158,
+        "lagSec": 0.549
+      },
+      {
+        "bpm": 207.6,
+        "autocorrelation": 0.109,
+        "lagSec": 0.289
+      },
+      {
+        "bpm": 43.8,
+        "autocorrelation": 0.081,
+        "lagSec": 1.371
+      },
+      {
+        "bpm": 73.7,
+        "autocorrelation": 0.077,
+        "lagSec": 0.814
+      },
+      {
+        "bpm": 114.9,
+        "autocorrelation": 0.057,
+        "lagSec": 0.522
+      },
+      {
+        "bpm": 104.3,
+        "autocorrelation": 0.05,
+        "lagSec": 0.575
+      }
+    ],
+    "best": {
+      "bpm": 54.9,
+      "autocorrelation": 0.171,
+      "lagSec": 1.093
+    }
+  },
+  "window_tempos": [
+    {
+      "start": 0,
+      "end": 8,
+      "candidates": [
+        {
+          "bpm": 109.4,
+          "autocorrelation": 0.174,
+          "lagSec": 0.549
+        },
+        {
+          "bpm": 54.9,
+          "autocorrelation": 0.165,
+          "lagSec": 1.094
+        },
+        {
+          "bpm": 207.4,
+          "autocorrelation": 0.11,
+          "lagSec": 0.289
+        },
+        {
+          "bpm": 73.4,
+          "autocorrelation": 0.084,
+          "lagSec": 0.817
+        },
+        {
+          "bpm": 43.8,
+          "autocorrelation": 0.075,
+          "lagSec": 1.371
+        },
+        {
+          "bpm": 103.6,
+          "autocorrelation": 0.07,
+          "lagSec": 0.579
+        },
+        {
+          "bpm": 62.6,
+          "autocorrelation": 0.053,
+          "lagSec": 0.959
+        }
+      ],
+      "best": {
+        "bpm": 109.4,
+        "autocorrelation": 0.174,
+        "lagSec": 0.549
+      }
+    },
+    {
+      "start": 4,
+      "end": 10.703,
+      "candidates": [
+        {
+          "bpm": 55,
+          "autocorrelation": 0.191,
+          "lagSec": 1.091
+        },
+        {
+          "bpm": 109.5,
+          "autocorrelation": 0.163,
+          "lagSec": 0.548
+        },
+        {
+          "bpm": 209.6,
+          "autocorrelation": 0.099,
+          "lagSec": 0.286
+        },
+        {
+          "bpm": 74.4,
+          "autocorrelation": 0.079,
+          "lagSec": 0.807
+        },
+        {
+          "bpm": 89.2,
+          "autocorrelation": 0.065,
+          "lagSec": 0.673
+        },
+        {
+          "bpm": 81.2,
+          "autocorrelation": 0.057,
+          "lagSec": 0.739
+        },
+        {
+          "bpm": 43.8,
+          "autocorrelation": 0.053,
+          "lagSec": 1.37
+        }
+      ],
+      "best": {
+        "bpm": 55,
+        "autocorrelation": 0.191,
+        "lagSec": 1.091
+      }
+    }
+  ],
+  "onset_events": [
+    {
+      "t": 0.0401,
+      "strength": 0.5972
+    },
+    {
+      "t": 0.431,
+      "strength": 0.6271
+    },
+    {
+      "t": 0.7216,
+      "strength": 0.6878
+    },
+    {
+      "t": 0.9922,
+      "strength": 0.6878
+    },
+    {
+      "t": 1.1326,
+      "strength": 0.7853
+    },
+    {
+      "t": 1.2729,
+      "strength": 0.8668
+    },
+    {
+      "t": 1.5435,
+      "strength": 1
+    },
+    {
+      "t": 1.764,
+      "strength": 0.7097
+    },
+    {
+      "t": 2.0947,
+      "strength": 0.9588
+    },
+    {
+      "t": 2.3654,
+      "strength": 0.9706
+    },
+    {
+      "t": 2.6159,
+      "strength": 0.7571
+    },
+    {
+      "t": 2.9166,
+      "strength": 0.7471
+    },
+    {
+      "t": 3.1371,
+      "strength": 0.802
+    },
+    {
+      "t": 3.4578,
+      "strength": 0.7004
+    },
+    {
+      "t": 3.5881,
+      "strength": 0.4306
+    },
+    {
+      "t": 3.7385,
+      "strength": 0.6838
+    },
+    {
+      "t": 3.959,
+      "strength": 0.7124
+    },
+    {
+      "t": 4.2897,
+      "strength": 0.6538
+    },
+    {
+      "t": 4.42,
+      "strength": 0.3921
+    },
+    {
+      "t": 4.5603,
+      "strength": 0.9025
+    },
+    {
+      "t": 4.8309,
+      "strength": 0.6996
+    },
+    {
+      "t": 5.1015,
+      "strength": 0.7933
+    },
+    {
+      "t": 5.3722,
+      "strength": 0.8607
+    },
+    {
+      "t": 5.5125,
+      "strength": 0.7883
+    },
+    {
+      "t": 5.6528,
+      "strength": 0.7446
+    },
+    {
+      "t": 5.9234,
+      "strength": 0.8676
+    },
+    {
+      "t": 6.204,
+      "strength": 0.5136
+    },
+    {
+      "t": 6.4245,
+      "strength": 0.5286
+    },
+    {
+      "t": 6.5348,
+      "strength": 0.6281
+    },
+    {
+      "t": 6.7453,
+      "strength": 0.6163
+    },
+    {
+      "t": 7.0259,
+      "strength": 0.6355
+    },
+    {
+      "t": 7.2063,
+      "strength": 0.9948
+    },
+    {
+      "t": 7.5872,
+      "strength": 0.4778
+    },
+    {
+      "t": 7.8478,
+      "strength": 0.669
+    },
+    {
+      "t": 8.1184,
+      "strength": 0.6981
+    },
+    {
+      "t": 8.2988,
+      "strength": 0.5582
+    },
+    {
+      "t": 8.4792,
+      "strength": 0.5396
+    },
+    {
+      "t": 8.6596,
+      "strength": 0.4712
+    },
+    {
+      "t": 8.8099,
+      "strength": 0.5287
+    },
+    {
+      "t": 8.9402,
+      "strength": 0.5856
+    },
+    {
+      "t": 9.1908,
+      "strength": 0.6574
+    },
+    {
+      "t": 9.4614,
+      "strength": 0.3578
+    },
+    {
+      "t": 9.742,
+      "strength": 0.3206
+    },
+    {
+      "t": 9.9024,
+      "strength": 0.2421
+    },
+    {
+      "t": 10.0327,
+      "strength": 0.2036
+    },
+    {
+      "t": 10.3133,
+      "strength": 0.4059
+    },
+    {
+      "t": 10.5839,
+      "strength": 0.2137
+    }
+  ],
+  "strong_onset_examples": [
+    {
+      "t": 1.2729,
+      "strength": 0.8668
+    },
+    {
+      "t": 1.5435,
+      "strength": 1
+    },
+    {
+      "t": 2.0947,
+      "strength": 0.9588
+    },
+    {
+      "t": 2.3654,
+      "strength": 0.9706
+    },
+    {
+      "t": 4.5603,
+      "strength": 0.9025
+    },
+    {
+      "t": 5.9234,
+      "strength": 0.8676
+    },
+    {
+      "t": 7.2063,
+      "strength": 0.9948
+    },
+    {
+      "t": 7.8478,
+      "strength": 0.669
+    },
+    {
+      "t": 8.1184,
+      "strength": 0.6981
+    },
+    {
+      "t": 9.1908,
+      "strength": 0.6574
+    },
+    {
+      "t": 10.3133,
+      "strength": 0.4059
+    },
+    {
+      "t": 10.5839,
+      "strength": 0.2137
+    }
+  ],
+  "structure_candidates": {
+    "spans": [
+      {
+        "start": 0,
+        "end": 10.703,
+        "label": "A"
+      }
+    ],
+    "snap": {
+      "reference": "signal beats",
+      "toleranceMs": 0,
+      "snapped": 0,
+      "unsnapped": [],
+      "medianShiftMs": null
+    }
+  },
+  "silence_below_minus50dbfs_200ms": [
+    {
+      "start": 10.3365,
+      "end": 10.7029
+    }
+  ],
+  "energy_changes": [
+    {
+      "t": 1.25,
+      "beforeDbFS": -12.5,
+      "afterDbFS": -18.4,
+      "deltaDb": -5.8,
+      "kind": "响度下降候选"
+    },
+    {
+      "t": 3,
+      "beforeDbFS": -12.4,
+      "afterDbFS": -19.9,
+      "deltaDb": -7.5,
+      "kind": "响度下降候选"
+    },
+    {
+      "t": 4.75,
+      "beforeDbFS": -18.8,
+      "afterDbFS": -12.6,
+      "deltaDb": 6.2,
+      "kind": "响度上升候选"
+    },
+    {
+      "t": 6.501,
+      "beforeDbFS": -18.9,
+      "afterDbFS": -11.6,
+      "deltaDb": 7.3,
+      "kind": "响度上升候选"
+    },
+    {
+      "t": 9.501,
+      "beforeDbFS": -16.7,
+      "afterDbFS": -42.3,
+      "deltaDb": -25.6,
+      "kind": "响度下降候选"
+    }
+  ],
+  "rms_250ms": [
+    {
+      "start": 0,
+      "end": 0.25,
+      "dbFS": -30.2
+    },
+    {
+      "start": 0.25,
+      "end": 0.5,
+      "dbFS": -15.1
+    },
+    {
+      "start": 0.5,
+      "end": 0.75,
+      "dbFS": -10.1
+    },
+    {
+      "start": 0.75,
+      "end": 1,
+      "dbFS": -11.3
+    },
+    {
+      "start": 1,
+      "end": 1.25,
+      "dbFS": -13.6
+    },
+    {
+      "start": 1.25,
+      "end": 1.5,
+      "dbFS": -21.4
+    },
+    {
+      "start": 1.5,
+      "end": 1.75,
+      "dbFS": -18.9
+    },
+    {
+      "start": 1.75,
+      "end": 2,
+      "dbFS": -21.7
+    },
+    {
+      "start": 2,
+      "end": 2.25,
+      "dbFS": -11.4
+    },
+    {
+      "start": 2.25,
+      "end": 2.5,
+      "dbFS": -10.8
+    },
+    {
+      "start": 2.5,
+      "end": 2.75,
+      "dbFS": -11.1
+    },
+    {
+      "start": 2.75,
+      "end": 3,
+      "dbFS": -16.4
+    },
+    {
+      "start": 3,
+      "end": 3.25,
+      "dbFS": -19.4
+    },
+    {
+      "start": 3.25,
+      "end": 3.5,
+      "dbFS": -20.1
+    },
+    {
+      "start": 3.5,
+      "end": 3.75,
+      "dbFS": -20.1
+    },
+    {
+      "start": 3.75,
+      "end": 4,
+      "dbFS": -20.1
+    },
+    {
+      "start": 4,
+      "end": 4.25,
+      "dbFS": -18.7
+    },
+    {
+      "start": 4.25,
+      "end": 4.5,
+      "dbFS": -18.5
+    },
+    {
+      "start": 4.5,
+      "end": 4.75,
+      "dbFS": -17.8
+    },
+    {
+      "start": 4.75,
+      "end": 5,
+      "dbFS": -12.4
+    },
+    {
+      "start": 5,
+      "end": 5.25,
+      "dbFS": -10.2
+    },
+    {
+      "start": 5.25,
+      "end": 5.5,
+      "dbFS": -11.6
+    },
+    {
+      "start": 5.5,
+      "end": 5.751,
+      "dbFS": -16.2
+    },
+    {
+      "start": 5.751,
+      "end": 6.001,
+      "dbFS": -19.1
+    },
+    {
+      "start": 6.001,
+      "end": 6.251,
+      "dbFS": -20.3
+    },
+    {
+      "start": 6.251,
+      "end": 6.501,
+      "dbFS": -20.2
+    },
+    {
+      "start": 6.501,
+      "end": 6.751,
+      "dbFS": -11.5
+    },
+    {
+      "start": 6.751,
+      "end": 7.001,
+      "dbFS": -10.4
+    },
+    {
+      "start": 7.001,
+      "end": 7.251,
+      "dbFS": -11.5
+    },
+    {
+      "start": 7.251,
+      "end": 7.501,
+      "dbFS": -13.1
+    },
+    {
+      "start": 7.501,
+      "end": 7.751,
+      "dbFS": -13.7
+    },
+    {
+      "start": 7.751,
+      "end": 8.001,
+      "dbFS": -16.4
+    },
+    {
+      "start": 8.001,
+      "end": 8.251,
+      "dbFS": -16.9
+    },
+    {
+      "start": 8.251,
+      "end": 8.501,
+      "dbFS": -17.9
+    },
+    {
+      "start": 8.501,
+      "end": 8.751,
+      "dbFS": -12.5
+    },
+    {
+      "start": 8.751,
+      "end": 9.001,
+      "dbFS": -17.9
+    },
+    {
+      "start": 9.001,
+      "end": 9.251,
+      "dbFS": -16.6
+    },
+    {
+      "start": 9.251,
+      "end": 9.501,
+      "dbFS": -19.9
+    },
+    {
+      "start": 9.501,
+      "end": 9.751,
+      "dbFS": -31.4
+    },
+    {
+      "start": 9.751,
+      "end": 10.001,
+      "dbFS": -39.5
+    },
+    {
+      "start": 10.001,
+      "end": 10.251,
+      "dbFS": -45.6
+    },
+    {
+      "start": 10.251,
+      "end": 10.501,
+      "dbFS": -52.7
+    },
+    {
+      "start": 10.501,
+      "end": 10.703,
+      "dbFS": -55.9
+    }
+  ],
+  "montage_baseline": {
+    "bpm": 95.2,
+    "beat_sec": 0.63,
+    "candidates": [
+      {
+        "index": 1,
+        "start": 0,
+        "end": 10,
+        "label": "0:00–0:10",
+        "headDb": -17,
+        "tailDb": -17.3,
+        "contrast": -0.4,
+        "score": -21.1,
+        "lyrics": []
+      }
+    ]
+  },
+  "caution": [
+    "这是已混合的最终音轨，起音可能来自对白音节、打击声、whoosh、引擎声或音乐，算法没有分离来源。",
+    "谱通量起音不等同音乐节拍；响度上升/下降不等同副歌/drop/段落标签。",
+    "BPM有半倍/倍速、切段和tempo漂移歧义；本轮没有实际监听，所有BPM及强拍位置均为候选。",
+    "结构边界由音色/chroma统计而非歌词/听觉语义确定，4秒最短段也会忽略更快变化。"
+  ],
+  "provenance": {
+    "hyperframes_source_sha256": "a08fedbb3a133d5c7e9ae7e4727ab316315a78d6a01c2bbcace13caa344798cb",
+    "montage_source_sha256": "d611bc2fd9150f30ca45b0ccd2a4e4abcc142a9a4800536166284dac54193192"
+  },
+  "music_library": {
+    "mix_path": "audio/mixed/V09__mixed.m4a",
+    "no_vocals_candidate_path": "audio/music-candidates/V09__music-candidate.m4a",
+    "bpm_candidates": [
+      109.3,
+      54.9
+    ],
+    "confidence": "低/无稳定拍点",
+    "tags": [
+      "手工起音锚点",
+      "先听辨再定拍",
+      "局部节奏练习"
+    ],
+    "warning": "半倍/倍速与切分节奏歧义仍需试听。"
+  }
+}

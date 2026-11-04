@@ -1,0 +1,24 @@
+// Encode real HyperFrames PNG frames. FFmpeg sends bytes to Node; Node saves them.
+import fs from 'node:fs';
+import path from 'node:path';
+import {spawnSync} from 'node:child_process';
+const root=import.meta.dirname;
+const config=JSON.parse(fs.readFileSync(path.join(root,'sample-config.json'),'utf8'));
+const frames=path.resolve(process.argv[2]||path.join(root,'.rendered-frames'));
+const output=path.resolve(process.argv[3]||path.join(root,'../V05六格卡片_成片.mp4'));
+const ff=process.env.HYPERFRAMES_FFMPEG_PATH||'C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe';
+const ffprobe=process.env.HYPERFRAMES_FFPROBE_PATH||'C:/Users/PC/Apps/ffmpeg/bin/ffprobe.exe';
+const names=fs.readdirSync(frames).filter(n=>/^frame_\d{6}\.png$/.test(n)).sort();
+if(names.length!==config.durationFrames)throw Error(`Expected ${config.durationFrames} rendered frames; got ${names.length}`);
+for(let i=0;i<names.length;i++)if(names[i]!==`frame_${String(i+1).padStart(6,'0')}.png`)throw Error('Non-contiguous frame sequence');
+const args=['-v','error','-framerate',String(config.fps),'-start_number','1','-i',path.join(frames,'frame_%06d.png'),'-i',path.join(root,config.audio),'-map','0:v:0','-map','1:a:0','-frames:v',String(config.durationFrames),'-t',String(config.durationFrames/config.fps),'-c:v','libx264','-preset','medium','-crf','18','-pix_fmt','yuv420p','-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709','-c:a','aac','-b:a','192k','-movflags','frag_keyframe+delay_moov+default_base_moof','-f','mp4','pipe:1'];
+const result=spawnSync(ff,args,{windowsHide:true,maxBuffer:256*1024*1024});
+if(result.error||result.status!==0)throw Error(result.error?.message||result.stderr.toString());
+fs.mkdirSync(path.dirname(output),{recursive:true});fs.writeFileSync(output,result.stdout);
+const probe=spawnSync(ffprobe,['-v','error','-count_frames','-show_streams','-show_format','-of','json',output],{windowsHide:true,encoding:'utf8'});
+if(probe.status!==0)throw Error(probe.stderr);
+const media=JSON.parse(probe.stdout),v=media.streams.find(s=>s.codec_type==='video');
+if(Number(v.nb_read_frames)!==config.durationFrames||v.width!==config.width||v.height!==config.height)throw Error('Output verification failed');
+const evidence={output,bytes:result.stdout.length,frameCount:names.length,ffmpegArgs:args,media};
+fs.writeFileSync(path.join(path.dirname(output),'成片验证.json'),JSON.stringify(evidence,null,2));
+console.log(JSON.stringify({output,bytes:result.stdout.length,frames:v.nb_read_frames,fps:v.r_frame_rate,duration:media.format.duration,width:v.width,height:v.height,audio:media.streams.some(s=>s.codec_type==='audio')},null,2));

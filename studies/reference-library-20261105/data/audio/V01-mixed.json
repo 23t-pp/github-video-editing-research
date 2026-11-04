@@ -1,0 +1,54 @@
+{
+  "id": "V01",
+  "title": "V01 · 原始混合音轨",
+  "source_video_name": "哪一版是你心中的蜘蛛侠_了不起的混剪团_蜘蛛侠_抖音精选_重返暑假计划_热血高燃计划.mp4",
+  "source_video_sha256": "75bdf002be31fad3dfb219dfbc0d92eedf9a1e2073bf038706ee6533e1753d3e",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V01__mixed.m4a",
+  "bytes": 244059,
+  "sha256": "010170ff70a2767134948af2b08d6094252fb4f86cac30080aa752431fbb3609",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 32.439682539682536,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -10.93,
+    "true_peak_dbtp": 1.3,
+    "loudness_range_lu": 10.8,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 32.599478,
+  "source_decoded_duration_sec": 32.43795918367347,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "22798aa6ba6f6689a2a839e9337585ece058c41e276209d775f6f7b5dbf4c50b",
+    "output_sha256": "3c8bebaa6c686a6d70db21b46ecc8a48ea57d1aae78a0f66083c6dcb78be123d",
+    "shared_prefix_samples": 715257,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 1.723,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "79266ee0aaa2d3e62928accae5726730d7b53b054c36ecfab58714e996c02845",
+  "source_aac_adts_sha256": "79266ee0aaa2d3e62928accae5726730d7b53b054c36ecfab58714e996c02845",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "befc4e5ab18256e54c859b6c8b03b835d6b58fec03b5cd2946af8caee8d3ee07",
+  "source_native_pcm_sha256": "688d49157b288e9da806e7cf0503420e7f203960cab83e0ae58449a450084c65",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V01__music-candidate.m4a"
+}

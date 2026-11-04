@@ -1,0 +1,54 @@
+{
+  "id": "V20",
+  "title": "V20 · 原始混合音轨",
+  "source_video_name": "什么蜘蛛侠是彼得帕克_被选召的漫剪团_了不起的混剪团_蜘蛛侠_抖音精选_青年创作者成长计划.mp4",
+  "source_video_sha256": "0971017494179c2bdffc88c69996f2025eda9a2ac5eab07de5480320625b0d79",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V20__mixed.m4a",
+  "bytes": 222262,
+  "sha256": "41e4d019f9d35a526e497643aa7087e2bb9da43a3bd2b9297802159fd62fb7e3",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 30.674965986394557,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -9.54,
+    "true_peak_dbtp": 4.3,
+    "loudness_range_lu": 6.7,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 30.81712,
+  "source_decoded_duration_sec": 30.656009070294786,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "02a957ac88165ad21f45fbf7fe42ad29a421ff8045d63c9d1031bdeb8f6f3172",
+    "output_sha256": "d4dff9d920a9fae60671fd6c1c26031e9b88256ddb926dcc5ec5066fa1f4f28f",
+    "shared_prefix_samples": 675965,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 18.957,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "bf8f44e8d4dcd90767ad578b1a6cc951659868b998089c3630c884deb8fec50b",
+  "source_aac_adts_sha256": "bf8f44e8d4dcd90767ad578b1a6cc951659868b998089c3630c884deb8fec50b",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "953deaaa7599eb60adf0f4c626ef6680a74d750a5ade4e1994185eb116374372",
+  "source_native_pcm_sha256": "5941ee24829596dfa2f012ec508950cefffa1114ac9309554c63f18035227d89",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V20__music-candidate.m4a"
+}

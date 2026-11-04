@@ -1,0 +1,54 @@
+{
+  "id": "V11",
+  "title": "V11 · 原始混合音轨",
+  "source_video_name": "复制人的灵魂会是什么颜色_银翼杀手2049_重返暑假计划_经典重温计划_了不起的混剪团.mp4",
+  "source_video_sha256": "3f02ba64635d231b2159076e62eb70838bbcd9051c0a1294c736f4f53e93dec6",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V11__mixed.m4a",
+  "bytes": 251602,
+  "sha256": "af92642b3cc42ed0e34906b818bcdc0f13769f2a5aac731e9a671cbfad2e0e79",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 37.40875283446712,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -15.65,
+    "true_peak_dbtp": 0.22,
+    "loudness_range_lu": 8.3,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 37.53712,
+  "source_decoded_duration_sec": 37.376009070294785,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "d385dc12c876d5faa4559e1d55ca97b0b7752d7c0c26f39085945ea5d018120f",
+    "output_sha256": "9bcf87890a8517aef6a9161da604fb8c6302b9dedb359a3c5e902a307305ba3c",
+    "shared_prefix_samples": 824141,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 32.744,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "5dfadbfb6889e5ecf6bbc88888be8f48f1aec4fe4cb4c81f0a3dc2ec4ccc223a",
+  "source_aac_adts_sha256": "5dfadbfb6889e5ecf6bbc88888be8f48f1aec4fe4cb4c81f0a3dc2ec4ccc223a",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "06b39c36986d776099a461b5671e2d9427d929ad068b315d7bf193de1e2c0016",
+  "source_native_pcm_sha256": "e6864f946d152bb1aec6a1b97452fe1a10276539bb39868f4d55bac7425e721a",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V11__music-candidate.m4a"
+}

@@ -1,8 +1,35 @@
+# 混剪拆解、音乐库与可编辑工程：中文学习仓库
+
+**2026年11月5日更新：你提供的20条参考短片，已经按原生帧率拆解并整理为学习库。** 共17,290张原帧、299页图谱、205个学习段、18类技法；20条原始音轨与20条音乐主体候选已实际生成。低于60fps的片源没有补帧。
+
+## 如果你没有基础，先打开这三个入口
+
+1. **[中文学习总入口](studies/reference-library-20261105/README.md)**：怎样看画面证据、音乐卡点、转场/抠像/字效，以及本地学习页如何启动。
+2. **[下载工程、音乐和完整学习包](https://github.com/23t-pp/github-video-editing-research/releases/tag/reference-library-2026-11-05)**：`reference-library-20261105.zip`是本轮完整学习库；`v05-six-panel.zip`包含可播放小样、慢放、HyperFrames工程与OpenChatCut可导入工程。解压后按中文README操作。
+3. **[技法分类与难度排行](studies/reference-library-20261105/catalog/技法分类与难度排行.md)**：每种手法适合什么素材、需要哪些资源、目前是否实际做过。
+
+| 你关心的内容 | 结果与入口 |
+|---|---|
+| 新旧20条逐片拆解 | [V01–V10](studies/reference-library-20261105/reviews/V01-V10.md) · [V11–V15](studies/reference-library-20261105/reviews/V11-V15.md) · [V16–V20](studies/reference-library-20261105/reviews/V16-V20.md) |
+| 音乐单独提取和去重 | [音乐索引](studies/reference-library-20261105/data/audio/music-index.json) · [处理说明](studies/reference-library-20261105/data/audio/processing-notes.md) |
+| 速度与激情10两分钟高燃怎么剪 | [73槽镜头方案、源片证据与128BPM节奏设计](studies/reference-library-20261105/fastx-120/README_两分钟高燃剪辑方案.md) |
+| 已经真正做出来的例子 | [V05六格中文教程](studies/v05-six-panel/README_中文学习指南.md)，4.5秒、108帧、24fps；真实HF渲染与OCC可编辑导入 |
+| 命令行每一步做什么 | [命令、异常处理与复查记录](studies/reference-library-20261105/docs/命令行与复查记录.md) |
+| 后续继续提供参考 | [可复用skill](studies/reference-library-20261105/skills/reference-editing-replay/SKILL.md) |
+
+**结果边界也写清楚：** 全部原帧有机器解码与图谱，人工看过全片总览/逐秒图谱和111页原生帧缩略图；没有声称人工全分辨率精读17,290帧。音乐主体候选可能残留对白/音效，未冒充原版纯伴奏或已识别曲名。FastX两分钟是可编辑计划和原创节奏导轨，目前成片实测范围是V05小样，其他参考的配方不等于已全部复刻。仅凭成片不能保证100%恢复作者工程。
+
+[交付验证记录](studies/reference-library-20261105/data/delivery-validation.json)含原帧连续性、证据路径、40音频检查、MIDI、脚本及学习页验证。完整原视频、整部电影、个人路径配置、模型权重和缓存没有放入公开下载包；第三方媒体权利见[媒体说明](studies/reference-library-20261105/MEDIA_NOTICE.md)。
+
+---
+
+## 之前的GitHub软件研究仍保留
+
 # AI剪辑、卡点混剪与可复用模板：中文调研与学习手册
 
 **针对你现有项目，优先继续用HyperFrames，并复用已有Herk、video-shotcraft和montage能力。其他仓库用于补镜头配方、素材参数和可编辑时间线；下表按用途组织，不代表它们整体优于HyperFrames。**
 
-后续补核：[从其他项目学习什么](docs/10-learn-with-hyperframes.md)、[OpenChatCut与本机工具怎样集成](docs/11-openchatcut-integration.md)、[桌面源码第一课](docs/12-openchatcut-first-lesson.md)、[安装与启动第二课](docs/13-openchatcut-startup.md)。OpenChatCut已在Windows完成依赖安装、隔离服务启动与浏览器编辑器验证，附中文命令解释、启动/停止脚本和实际截图；AI剪辑、导出及HyperFrames联动尚未实测。
+后续补核：[从其他项目学习什么](docs/10-learn-with-hyperframes.md)、[OpenChatCut与本机工具怎样集成](docs/11-openchatcut-integration.md)、[桌面源码第一课](docs/12-openchatcut-first-lesson.md)、[安装与启动第二课](docs/13-openchatcut-startup.md)。OpenChatCut已在Windows完成依赖安装、隔离服务启动与浏览器编辑器验证，附中文命令解释、启动/停止脚本和实际截图；后续已完成V05六格的HyperFrames真实渲染、OpenChatCut分层工程及官方工程包导入；其他AI剪辑能力仍按各专题的验证范围理解。
 
 这份仓库为不熟悉命令行和编程的人编写。除了项目名单，还解释“为什么推荐”“凭什么判断”“命令做了什么”“哪些说法尚未验证”。研究日期为 **2026年11月4日，Asia/Shanghai**。
 

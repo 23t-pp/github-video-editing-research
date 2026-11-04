@@ -1,0 +1,54 @@
+{
+  "id": "V13",
+  "title": "V13 · 原始混合音轨",
+  "source_video_name": "山野向晚落日归山海所有疲惫随暮色散开手机摄影手机摄影_Angel._OK.mp4",
+  "source_video_sha256": "505853e6204e011b8d2a897f754212f0a64f802eb78b4b8259893062933f8ac8",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V13__mixed.m4a",
+  "bytes": 85784,
+  "sha256": "b7f0b67b05096206380ec7dd534d5623d251fcd1dba178fe67e58a9b65dcfecf",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 12.84204081632653,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -17.46,
+    "true_peak_dbtp": -2.69,
+    "loudness_range_lu": 2.4,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 12.978549,
+  "source_decoded_duration_sec": 12.817006802721089,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "26023574835ba2553c2f2cdc667351ecbdc1f82e953e2ad5da768b995a2aa4c5",
+    "output_sha256": "1f0b56b7fcc7c607b5284ea184f20b0d2d7f2f61c8f643611933f11949a462fe",
+    "shared_prefix_samples": 282615,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 25.034,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "5034f6cc2d3f6181be400b7a204ea08e9f5cde61020b0a9f9f9b8d0a01754a7b",
+  "source_aac_adts_sha256": "5034f6cc2d3f6181be400b7a204ea08e9f5cde61020b0a9f9f9b8d0a01754a7b",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "a3afa5d40d41d1d577954a087af2012aa80f0c9c4fa6d33da35f18f3548ed96f",
+  "source_native_pcm_sha256": "9ac501a84a5cfb446e58a98aed1f11f653eb4db88f755df6b7058aa40dbdb5e7",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V13__music-candidate.m4a"
+}

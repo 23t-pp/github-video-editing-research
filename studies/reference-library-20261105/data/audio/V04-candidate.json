@@ -1,0 +1,82 @@
+{
+  "id": "V04",
+  "file": "audio/music-candidates/V04__music-candidate.m4a",
+  "bytes": 543460,
+  "sha256": "cc6762a9f30c4c0480d075e917a2715a949e3114cdbc11d436e5927fcf876308",
+  "source_stem_sha256": "5dd9cbdcf96c520aeb9914b365f5779b83df15ea7ab8863473859eabcd8ca53f",
+  "native_pcm_sha256": "52463a9aeba2fb0bc7f765c66b22537c717f8324108f0e4ed66b236f37e323c5",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "sample_rate": 44100,
+    "channels": 2,
+    "resampled": false
+  },
+  "duration_sec": 21.501678004535147,
+  "encoded_container_duration_sec": 21.524172,
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "loudness": {
+    "integrated_lufs": -11.18,
+    "true_peak_dbtp": -0.62,
+    "loudness_range_lu": 15.6
+  },
+  "separation": {
+    "tool": "audio-separator",
+    "version": "0.48.0",
+    "model": "UVR_MDXNET_KARA_2.onnx",
+    "provider": "CPUExecutionProvider",
+    "threads": 2,
+    "stem": "Instrumental",
+    "output_normalization": {
+      "peak_threshold": 0.95,
+      "amplification_threshold": 0
+    },
+    "aac_reencoded": true
+  },
+  "status": "真实本地模型分离后的音乐主体候选；未听辨确认，可能残留人声、对白、和声或SFX，也可能损伤音乐。不是纯BGM保证。",
+  "listened": false,
+  "vocal_removal_verified": false,
+  "sfx_removal_verified": false,
+  "encoding_profile": "aac192k-relative-fragments-1s-v1",
+  "rhythm": {
+    "scope": "模型分离后的候选音轨，未做听觉确认",
+    "method": "HyperFrames 0.8.216 local signal spectral flux + autocorrelation + DP",
+    "bpm": 123.8,
+    "confidence": 0.545,
+    "reason": null,
+    "beat_times": [
+      6.265,
+      6.745,
+      7.235,
+      7.715,
+      8.205,
+      8.685,
+      9.175,
+      9.655,
+      10.135,
+      10.625,
+      11.105,
+      11.585,
+      12.075,
+      12.555,
+      13.045,
+      13.525,
+      14.005,
+      14.495,
+      14.975,
+      15.465,
+      15.945,
+      16.425,
+      16.925,
+      17.405,
+      17.885,
+      18.515,
+      19.005,
+      19.495,
+      19.975,
+      20.455,
+      20.945
+    ]
+  }
+}

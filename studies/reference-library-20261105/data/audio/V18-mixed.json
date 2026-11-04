@@ -1,0 +1,54 @@
+{
+  "id": "V18",
+  "title": "V18 · 原始混合音轨",
+  "source_video_name": "复仇者们集结_了不起的混剪团_一步秒入漫威宇宙_我的观影后遗症漫威剪刀手_复仇者联盟5.mp4",
+  "source_video_sha256": "22717fe69c12cd92da8a205a9cf68ad4df5161ca5a233441c35fc6ebe57324be",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V18__mixed.m4a",
+  "bytes": 472273,
+  "sha256": "d64ad380da066170bcf4b9ce771fc7f44981bc772d172b491b870cf5fb4ab6ea",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 59.00331065759637,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -8.81,
+    "true_peak_dbtp": 3.05,
+    "loudness_range_lu": 6.9,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 59.139932,
+  "source_decoded_duration_sec": 58.97791383219955,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "89805f3dd4a328e6f0db8fd7f534e7e560bfc2c4f1fbae575d3fbce225fb839a",
+    "output_sha256": "5ae3cb0fcb1988599527408c5e31bf47d0793c29572c7b793f65e832d45b5892",
+    "shared_prefix_samples": 1300463,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 25.397,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "83bbac41332bf4252da29b1d33a66bb7415913c9b34b1e3c208cf60e25d184d9",
+  "source_aac_adts_sha256": "83bbac41332bf4252da29b1d33a66bb7415913c9b34b1e3c208cf60e25d184d9",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "35ac6f3ce332509cac7b399700dc2f75194c2f1d0e2a7864f2ee9c6341650339",
+  "source_native_pcm_sha256": "53be828d7f9ed25adab350c3d93e94aab313dd59d752d9265d3eca61cfad83e3",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V18__music-candidate.m4a"
+}

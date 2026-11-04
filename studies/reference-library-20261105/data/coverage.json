@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "videos": 20,
+  "videoSeconds": 625.2483339999999,
+  "nativeFrames": 17290,
+  "atlasPages": 299,
+  "humanAtlasPagesViewed": 111,
+  "learningChapters": 205,
+  "policy": "保留原生帧与实际PTS；没有补成60fps；60帧/页仅是图谱排版。",
+  "reviewScope": "机器逐帧数据覆盖全部；人工看全片总览/逐秒图谱及明确记录的原生帧页。缩略图查看不等于全分辨率逐帧精读。",
+  "duplicateVideoGroups": [],
+  "uniqueVideoSha256": 20,
+  "claims": {
+    "allFramesDecoded": true,
+    "allFramesManuallyReadAtFullResolution": false,
+    "allReferencesRecreated": false,
+    "exactAuthorProjectRecovered": false
+  }
+}

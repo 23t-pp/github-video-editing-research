@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-04T16:33:11.614Z",
+  "status": "no_content_or_cross_table_blocker_in_current_snapshot",
+  "scope": "只读审查实际数据/文档/链接；获额外授权后仅修正V01-V10.json及catalog的V05 Release链接。未重新宣称观看全部源帧；未替主流程做最终ZIP/GitHub发布验收。",
+  "verified": {
+    "videos": 20,
+    "native_frames": 17290,
+    "atlas_pages": 299,
+    "human_atlas_pages_reported": 111,
+    "learning_chapters": 205,
+    "catalog_techniques": 18,
+    "catalog_references": 52,
+    "catalog_frame_anchors": 134,
+    "catalog_fps_pts_page_mismatches": 0,
+    "human_visual_events": 168,
+    "human_visual_event_pts_mismatches": 0,
+    "sync_analysis_matches_study": true,
+    "audio_index_entries": 20,
+    "audio_status": {
+      "complete": 20
+    },
+    "audio_index_referenced_files_missing": 0,
+    "json_parse_failures": 0,
+    "markdown_relative_links_missing": 0,
+    "fastx_scoped_relative_evidence_references": 103,
+    "fastx_evidence_missing": 0,
+    "credential_pattern_hits": 0
+  },
+  "resolved": [
+    {
+      "issue": "V01–V10旧观察与native_review冲突",
+      "file": "reviews/V01-V10.json",
+      "result": "84段和全部start/end保持不变；19段精确结论修正，65段标明上一轮抽样范围。全部保留legacyObservation及legacyConfidence。当前data/study.json已同步。",
+      "key_corrections": [
+        "V02 F60–64仍漫画/F65进入蓝色动作",
+        "V03 F412袖口先入/F423蓝树林，F445–452补全17.9–18.0秒",
+        "V05 F68仍亮色模糊/F69全幅动作；F693末帧已提取且近黑非逐像素纯黑",
+        "V07 F725/29秒仍亮，约29.44秒后近黑",
+        "V06旋转枪F1961→F1962匹配硬切，握手F1342→F1345短叠化",
+        "V01/V04/V08/V09/V10准确锚点与旧概览边界区分"
+      ]
+    },
+    {
+      "issue": "独立学习库ZIP与HTTP无法访问V05兄弟目录",
+      "files": [
+        "catalog/build-catalog.mjs",
+        "catalog/techniques.json",
+        "catalog/技法分类与难度排行.md"
+      ],
+      "result": "所有4个交付链接改成Release标签页，并标明对应文件位于v05-six-panel.zip；生成器同步。JSON提供release_url/release_asset/path_inside_zip。"
+    },
+    {
+      "issue": "公开FastX路径与私有manifest静态下载风险",
+      "result": "当前plan/build-plan不含实际电影绝对路径；服务第30行拒绝local-media-paths.json及manifest.local.json；这些修复由主流程完成，本审查仅核实。"
+    }
+  ],
+  "findings": [
+    {
+      "priority": "P2",
+      "blocking": false,
+      "issue": "旧音频处理脚本依赖本轮外部工作目录与特定HF内部chunk，独立ZIP不能按默认值直接重跑",
+      "locations": [
+        {
+          "file": "scripts/audio/analyze-library.mjs",
+          "lines": [
+            8,
+            11,
+            14
+          ]
+        },
+        {
+          "file": "scripts/audio/prepare-separation-inputs.mjs",
+          "lines": [
+            2
+          ]
+        },
+        {
+          "file": "scripts/audio/hash-integrity.mjs",
+          "lines": [
+            3
+          ]
+        }
+      ],
+      "impact": "prepare-manifest生成库根manifest.local.json，而上述脚本默认读取库外work/reference-library-20261105/manifest.local.json；固定chunk名也依赖本轮安装版。现有学习页、原生帧证据、音频产物和显式manifest的native命令不受影响。",
+      "suggestion": "文档明确这些是本机实际执行脚本/记录，或后续增manifest/work/HF模块入口参数；本次不擅自修改。"
+    }
+  ],
+  "release_checks_for_parent": [
+    "最终ZIP中排除local-media-paths.json与manifest.local.json；Git忽略不等于ZIP自动排除。",
+    "确认两个实际Release资产已上传；本次没有把尚未发布的URL可达性算通过。"
+  ],
+  "limitations": [
+    "仅凭MP4不能保证100%原工程还原；原片内VFX与新增效果有不可辨识性。",
+    "V05仅有六格结构迁移/HF渲染/OCC分层与官方portable导入实测，不为其他手法或完整原片背书。",
+    "FastX为73槽方案与候选中心帧，非120秒成片或OCC工程。",
+    "未将先前进行中的FastX/prepare-manifest/music索引当永久缺陷；本次按最新快照核查。"
+  ]
+}

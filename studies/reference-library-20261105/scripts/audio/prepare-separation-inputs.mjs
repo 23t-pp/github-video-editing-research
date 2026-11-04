@@ -1,0 +1,5 @@
+import fs from 'node:fs';import path from 'node:path';import os from 'node:os';import {spawnSync} from 'node:child_process';
+const project=path.resolve(import.meta.dirname,'../..'),workspace=path.resolve(project,'../..'),work=path.join(workspace,'work/reference-library-20261105'),manifest=JSON.parse(fs.readFileSync(path.join(work,'manifest.local.json'),'utf8').replace(/^\uFEFF/,''));
+const ffmpeg=process.env.FFMPEG_PATH||path.join(os.homedir(),'Apps/ffmpeg/bin/ffmpeg.exe');
+fs.mkdirSync(path.join(work,'audio-work'),{recursive:true});
+for(const item of manifest){const file=path.join(work,'audio-work',`${item.id}.stereo.wav`);if(fs.existsSync(file)&&fs.statSync(file).size>44){console.log(`${item.id} cached`);continue}const p=spawnSync(ffmpeg,['-nostdin','-v','error','-i',item.path,'-map','0:a:0','-vn','-ac','2','-ar','44100','-c:a','pcm_s16le','-f','wav','pipe:1'],{maxBuffer:256*1024*1024,windowsHide:true,timeout:120000});if(p.status!==0)throw Error(p.stderr.toString());fs.writeFileSync(file,p.stdout);console.log(`${item.id} ${p.stdout.length}`)}

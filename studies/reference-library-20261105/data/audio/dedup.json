@@ -1,0 +1,15 @@
+{
+  "method": "Only exact SHA256 equality; no fingerprint or musical-similarity inference.",
+  "mixed_files": [],
+  "mixed_aac_adts": [],
+  "mixed_native_decoded_pcm": [],
+  "source_native_decoded_pcm": [],
+  "candidate_files": [],
+  "candidate_native_decoded_pcm": [],
+  "counts": {
+    "mixed": 20,
+    "candidates": 20,
+    "aac_bitstream_preserved": 20
+  },
+  "note": "No exact duplicate means only these whole mixed tracks/PCM differ. It does not prove different underlying BGM; speech, SFX, gain, trims and encoding can change hashes."
+}

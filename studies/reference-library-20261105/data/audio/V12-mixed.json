@@ -1,0 +1,54 @@
+{
+  "id": "V12",
+  "title": "V12 · 原始混合音轨",
+  "source_video_name": "盛夏已去如约而至的是落叶卫衣晚风和烟花_江南_剪辑_镜头下的西湖_机位天才已就位_氛围感.mp4",
+  "source_video_sha256": "07fccbff893092fc60548c20de9492e7edb247f467050a937dba6da0a191b9fb",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V12__mixed.m4a",
+  "bytes": 71676,
+  "sha256": "dc3116f123b698a738b9e77fba4ce27b43b321814acc646e84d70519a3775df3",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 9.637687074829932,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -13.27,
+    "true_peak_dbtp": 0.08,
+    "loudness_range_lu": 0.8,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 9.781134,
+  "source_decoded_duration_sec": 9.62,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "93a32b55344c4cbf05e74ce48ba8224f8edca40e99817592b0d556e5bfbef5dd",
+    "output_sha256": "ca1a08370be2db05fd6ab888b085c4d9f19b412888f1379fa1558b85d9e70c15",
+    "shared_prefix_samples": 212121,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 17.687,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "d164fae9182ccb516091ba5a2aabef08a20d90b8ffc18c5ecaeda600b59bdab6",
+  "source_aac_adts_sha256": "d164fae9182ccb516091ba5a2aabef08a20d90b8ffc18c5ecaeda600b59bdab6",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "a42b090f1d1b71d57479431038e516ba44d825be388ebea5536edaa6a1ded798",
+  "source_native_pcm_sha256": "2272e1fd542f8ad6f4d93b23e13f70ac42b619e1e4572a0fddda0729e4704943",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V12__music-candidate.m4a"
+}

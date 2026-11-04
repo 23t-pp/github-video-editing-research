@@ -1,0 +1,447 @@
+{
+  "title": "OpenChatCut官方工程包导入副本验证",
+  "status": "通过：官方UI导入成功，副本结构与媒体只读核验通过",
+  "verifiedAt": "2026-11-04T15:14:29.849Z",
+  "sourceProjectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+  "importedProjectId": "28fd7d1f-4659-4247-82eb-1a2e06f6f93d",
+  "importedProjectUrl": "http://127.0.0.1:5199/#/editor/28fd7d1f-4659-4247-82eb-1a2e06f6f93d",
+  "readOnlyVerification": {
+    "changedProject": false,
+    "openedOrControlledUI": false,
+    "requests": [
+      {
+        "method": "GET",
+        "path": "/api/project-store/entry?key=project:28fd7d1f-4659-4247-82eb-1a2e06f6f93d"
+      },
+      {
+        "method": "GET",
+        "path": "/media/uploads/sha256-8ca9dac1399c53325a880c774a289a889dd5c06b60bd6f7abdf718659abb1eda.mp4"
+      },
+      {
+        "method": "GET",
+        "path": "/media/uploads/sha256-0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d.mp4"
+      },
+      {
+        "method": "GET",
+        "path": "/media/uploads/sha256-bc11a2644bcb6976fdbe86cd442ffbecbb0757559544a0dc7f9a585d3da07146.wav"
+      },
+      {
+        "method": "GET",
+        "path": "/media/uploads/sha256-507a0cd181e77cc33e63ef8316177918387bbc3bb2f451c38eb8377b26950724.mp4"
+      }
+    ]
+  },
+  "uiVerification": {
+    "performedBy": "主流程代理：官方Dashboard导入工程",
+    "success": true,
+    "reportedMediaRestored": "4/4",
+    "screenshotsReviewedByThisAudit": true,
+    "screenshots": [
+      "OpenChatCut工程导入成功.png",
+      "OpenChatCut六格独立轨道.png"
+    ],
+    "observed": "导入成功截图显示素材4/4；编辑器截图显示两序列tab、24fps、4.50秒总长，原生六格六条独立上层视频轨、底轨与Master轨。停在1.58秒的拼图入场中间状态可见。",
+    "limitations": "本次子代理未操作UI或试听；截图不等于逐帧全片播放验证。"
+  },
+  "portableSummary": {
+    "officialFunction": "src/persist/projectTransfer.ts:238 buildProjectExport()",
+    "officialImport": "src/persist/projectTransfer.ts:482 importProjectPackage()",
+    "format": "openchatcut-project@2",
+    "bytes": 14488547,
+    "sha256": "226547ebaa9be651936928a434bdd6b98c1a789ba74da129ff4043deef285583",
+    "mediaTotal": 4,
+    "mediaMissing": [],
+    "actualUiImportVerified": true
+  },
+  "timelineChecks": [
+    {
+      "id": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+      "name": "01 OCC原生六格教学 · 24fps",
+      "items": 9,
+      "fps": 24,
+      "width": 1920,
+      "height": 1080,
+      "durationInFrames": 108,
+      "trackCount": 8,
+      "timingTransformKeyframesAndVolumesEqual": true
+    },
+    {
+      "id": "tl_a0ae5ccd-1299-4d26-9289-285df57432f3",
+      "name": "02 HF成片整合 · 108帧 · 内含Master音轨",
+      "items": 1,
+      "fps": 24,
+      "width": 1920,
+      "height": 1080,
+      "durationInFrames": 108,
+      "trackCount": 1,
+      "timingTransformKeyframesAndVolumesEqual": true
+    }
+  ],
+  "panelChecks": [
+    {
+      "cell": 0,
+      "itemId": "item_3faccf23-a66c-4b7e-bfce-51bb4852b0b8",
+      "track": "track_362eaeb6-fa41-4d08-97a4-f76825898772",
+      "startFrame": 30,
+      "durationInFrames": 18,
+      "sourceStartFrame": 0,
+      "scale": 0.72,
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "right": 0.6666666666666666,
+        "bottom": 0.5
+      },
+      "cueLocalFrame": 0,
+      "keyframes": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 2,
+            "value": 1
+          }
+        ],
+        "y": [
+          {
+            "frame": 0,
+            "value": -0.8,
+            "easing": "easeOut"
+          },
+          {
+            "frame": 3,
+            "value": 0
+          }
+        ]
+      },
+      "volume": 0
+    },
+    {
+      "cell": 1,
+      "itemId": "item_cedf240f-886a-4fb6-8bf1-115226f77e66",
+      "track": "track_6613898d-e835-4d82-9310-affdc4c81763",
+      "startFrame": 30,
+      "durationInFrames": 18,
+      "sourceStartFrame": 0,
+      "scale": 0.72,
+      "crop": {
+        "left": 0.3333333333333333,
+        "top": 0,
+        "right": 0.3333333333333333,
+        "bottom": 0.5
+      },
+      "cueLocalFrame": 4,
+      "keyframes": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 4,
+            "value": 0
+          },
+          {
+            "frame": 6,
+            "value": 1
+          }
+        ],
+        "y": [
+          {
+            "frame": 0,
+            "value": -0.8,
+            "easing": "easeOut"
+          },
+          {
+            "frame": 4,
+            "value": -0.8,
+            "easing": "easeOut"
+          },
+          {
+            "frame": 7,
+            "value": 0
+          }
+        ]
+      },
+      "volume": 0
+    },
+    {
+      "cell": 2,
+      "itemId": "item_41dd1fee-3e14-4edc-b61b-be05457161a9",
+      "track": "track_92d6e775-8dc0-4dd4-85be-46b5c23870ec",
+      "startFrame": 30,
+      "durationInFrames": 18,
+      "sourceStartFrame": 0,
+      "scale": 0.72,
+      "crop": {
+        "left": 0.6666666666666666,
+        "top": 0,
+        "right": 0,
+        "bottom": 0.5
+      },
+      "cueLocalFrame": 8,
+      "keyframes": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 8,
+            "value": 0
+          },
+          {
+            "frame": 10,
+            "value": 1
+          }
+        ],
+        "y": [
+          {
+            "frame": 0,
+            "value": -0.8,
+            "easing": "easeOut"
+          },
+          {
+            "frame": 8,
+            "value": -0.8,
+            "easing": "easeOut"
+          },
+          {
+            "frame": 11,
+            "value": 0
+          }
+        ]
+      },
+      "volume": 0
+    },
+    {
+      "cell": 3,
+      "itemId": "item_0904e8ca-9e38-473a-8aeb-edbf7fcd1726",
+      "track": "track_b4c1051e-40dc-4b84-8c51-fe2aecd5e7ef",
+      "startFrame": 30,
+      "durationInFrames": 18,
+      "sourceStartFrame": 0,
+      "scale": 0.72,
+      "crop": {
+        "left": 0,
+        "top": 0.5,
+        "right": 0.6666666666666666,
+        "bottom": 0
+      },
+      "cueLocalFrame": 2,
+      "keyframes": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 2,
+            "value": 0
+          },
+          {
+            "frame": 4,
+            "value": 1
+          }
+        ],
+        "y": [
+          {
+            "frame": 0,
+            "value": 0.8,
+            "easing": "easeOut"
+          },
+          {
+            "frame": 2,
+            "value": 0.8,
+            "easing": "easeOut"
+          },
+          {
+            "frame": 5,
+            "value": 0
+          }
+        ]
+      },
+      "volume": 0
+    },
+    {
+      "cell": 4,
+      "itemId": "item_eea36686-e732-4142-a3a0-622418d216f3",
+      "track": "track_e45672dd-1e39-4fae-a1c4-c5c82a8afaee",
+      "startFrame": 30,
+      "durationInFrames": 18,
+      "sourceStartFrame": 0,
+      "scale": 0.72,
+      "crop": {
+        "left": 0.3333333333333333,
+        "top": 0.5,
+        "right": 0.3333333333333333,
+        "bottom": 0
+      },
+      "cueLocalFrame": 6,
+      "keyframes": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 6,
+            "value": 0
+          },
+          {
+            "frame": 8,
+            "value": 1
+          }
+        ],
+        "y": [
+          {
+            "frame": 0,
+            "value": 0.8,
+            "easing": "easeOut"
+          },
+          {
+            "frame": 6,
+            "value": 0.8,
+            "easing": "easeOut"
+          },
+          {
+            "frame": 9,
+            "value": 0
+          }
+        ]
+      },
+      "volume": 0
+    },
+    {
+      "cell": 5,
+      "itemId": "item_2afdb599-f92a-4707-9bba-c57996ddf171",
+      "track": "track_974c45a3-c9e9-49eb-8cbd-81a265a07739",
+      "startFrame": 30,
+      "durationInFrames": 18,
+      "sourceStartFrame": 0,
+      "scale": 0.72,
+      "crop": {
+        "left": 0.6666666666666666,
+        "top": 0.5,
+        "right": 0,
+        "bottom": 0
+      },
+      "cueLocalFrame": 10,
+      "keyframes": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 10,
+            "value": 0
+          },
+          {
+            "frame": 12,
+            "value": 1
+          }
+        ],
+        "y": [
+          {
+            "frame": 0,
+            "value": 0.8,
+            "easing": "easeOut"
+          },
+          {
+            "frame": 10,
+            "value": 0.8,
+            "easing": "easeOut"
+          },
+          {
+            "frame": 13,
+            "value": 0
+          }
+        ]
+      },
+      "volume": 0
+    }
+  ],
+  "audioSummary": {
+    "nativeVideoClips": 8,
+    "nativeVideoVolume": 0,
+    "nativeMasterClips": 1,
+    "nativeMasterVolume": 1,
+    "masterFromFrame": 0,
+    "masterDurationInFrames": 108,
+    "hfVideoClips": 1,
+    "hfVideoVolume": 1,
+    "hfExtraAudioClips": 0,
+    "explanation": "原生序列只播独立Master一次；HF序列只播成片内嵌Master一次。两条序列分别播放，不在一条时间线重复叠音。"
+  },
+  "mediaChecks": [
+    {
+      "assetId": "b236dab0-54b5-4f96-b5b7-dc22c08e8718",
+      "name": "shot-a-road.mp4",
+      "kind": "video",
+      "src": "/media/uploads/sha256-8ca9dac1399c53325a880c774a289a889dd5c06b60bd6f7abdf718659abb1eda.mp4",
+      "httpStatus": 200,
+      "bytes": 2273955,
+      "sha256": "8ca9dac1399c53325a880c774a289a889dd5c06b60bd6f7abdf718659abb1eda",
+      "equalToPortablePackage": true
+    },
+    {
+      "assetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+      "name": "shot-b-driver-aerial.mp4",
+      "kind": "video",
+      "src": "/media/uploads/sha256-0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d.mp4",
+      "httpStatus": 200,
+      "bytes": 3496332,
+      "sha256": "0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d",
+      "equalToPortablePackage": true
+    },
+    {
+      "assetId": "2e9fd18f-ec48-4d84-990f-2e6a56e88406",
+      "name": "master-audio.wav",
+      "kind": "audio",
+      "src": "/media/uploads/sha256-bc11a2644bcb6976fdbe86cd442ffbecbb0757559544a0dc7f9a585d3da07146.wav",
+      "httpStatus": 200,
+      "bytes": 432044,
+      "sha256": "bc11a2644bcb6976fdbe86cd442ffbecbb0757559544a0dc7f9a585d3da07146",
+      "equalToPortablePackage": true
+    },
+    {
+      "assetId": "36499047-b396-4a48-a9a5-c7c64c23f5e7",
+      "name": "V05六格卡片_成片.mp4",
+      "kind": "video",
+      "src": "/media/uploads/sha256-507a0cd181e77cc33e63ef8316177918387bbc3bb2f451c38eb8377b26950724.mp4",
+      "httpStatus": 200,
+      "bytes": 4618705,
+      "sha256": "507a0cd181e77cc33e63ef8316177918387bbc3bb2f451c38eb8377b26950724",
+      "equalToPortablePackage": true
+    }
+  ],
+  "previousVerificationSummary": {
+    "native": {
+      "method": "官方CLI创建、导入、建轨和edit_item；CLI/HTTP读回验证",
+      "videoTrackCount": 7,
+      "panelCount": 6,
+      "videoItemCount": 8,
+      "masterTrackCount": 1,
+      "nativeTotalItemCount": 9,
+      "verifiedAt": "2026-11-04T15:01:08.643Z"
+    },
+    "audio": {
+      "httpDocEqual": true,
+      "verifiedAt": "2026-11-04T15:02:48.852Z"
+    },
+    "hf": {
+      "nativeTimelineUnchanged": true,
+      "httpDocEqual": true,
+      "verifiedAt": "2026-11-04T15:09:41.667Z"
+    },
+    "portable": {
+      "officialExporterExecuted": true,
+      "allCarriedMediaBytesComparedToServer": true,
+      "verifiedAt": "2026-11-04T15:10:00.106Z"
+    }
+  },
+  "conclusion": "可移植.ccproj不是Doc快照：已实际恢复为独立新项目，保留两条可编辑时间线、六格关键帧与四份完整媒体。"
+}

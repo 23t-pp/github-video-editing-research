@@ -1,0 +1,54 @@
+{
+  "id": "V07",
+  "title": "V07 · 原始混合音轨",
+  "source_video_name": "国漫无缝转场帅是一种感觉_不良人_光阴之外_仙逆_国漫_混剪.mp4",
+  "source_video_sha256": "42f64677eef7f21a940661e7646be0a864bfcd87a80294afa4c4df38de5566cc",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V07__mixed.m4a",
+  "bytes": 225811,
+  "sha256": "4b344f97fe0f58bbe896cd1ab9e5b4a432262855604c1cb73f1726e5ff3aef61",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 30.024807256235828,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -7.02,
+    "true_peak_dbtp": 4.71,
+    "loudness_range_lu": 2.5,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 30.161315,
+  "source_decoded_duration_sec": 30,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "4facf61a725ea48f258b76365ff050c29b200bdc7de177e1b7da06b36ca205e1",
+    "output_sha256": "d55173c7a191d8f9f6d7bb6a292882b7ca4287a3aa455fde7157450698f39acd",
+    "shared_prefix_samples": 661500,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 24.807,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "39b66d80482707e1f58174990c538e1fe9d366a2fa8de7483ad26581466aba58",
+  "source_aac_adts_sha256": "39b66d80482707e1f58174990c538e1fe9d366a2fa8de7483ad26581466aba58",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "3b4d461cb7bf83aa6edd0d7357893a4c192d2d0e41b6a466e3283c87f45e2370",
+  "source_native_pcm_sha256": "a22b7a1d5b8546b3f90eb87c67c8b75ff91c968d11f91cff6382c77cc2d87e56",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V07__music-candidate.m4a"
+}
