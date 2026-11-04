@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04T12:24:12.0053407+00:00",
+  "checked_at": "2026-11-04T20:24:12.0053407+08:00",
   "data_integrity": {
     "checked_at": "2026-11-04T20:24:11.9392291+08:00",
     "scope": "研究资料自身校验；不代表候选剪辑软件运行验证",
@@ -52,7 +52,14 @@
   },
   "candidate_software_runtime_tests": 0,
   "publication": {
-    "status": "prepared",
-    "url": "https://github.com/23t-pp/github-video-editing-research"
+    "status": "verified_public",
+    "url": "https://github.com/23t-pp/github-video-editing-research",
+    "visibility": "PUBLIC",
+    "branch": "main",
+    "verified_content_commit": "2118c8923691dd3bae1d119c9edb7695c83a567f",
+    "readme_bytes": 9499,
+    "verified_at": "2026-11-04T20:25:17.8363782+08:00",
+    "note": "此提交是正文与数据提交；后续提交仅补充本发布核验回执。",
+    "anonymous_web_access_confirmed": true
   }
 }
