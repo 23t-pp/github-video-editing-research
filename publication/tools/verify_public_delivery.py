@@ -21,7 +21,10 @@ def request(url, limit=None, headers=None):
                 return body, {'requestedUrl': url, 'status': response.status,
                               'contentRange': response.headers.get('Content-Range'),
                               'returnedBytes': len(body)}
-        except Exception:
+        except Exception as error:
+            print(json.dumps({'retry': attempt + 1, 'requestedUrl': url,
+                              'httpStatus': getattr(error, 'code', None),
+                              'errorType': type(error).__name__}), flush=True)
             if attempt == 3:
                 raise
             time.sleep(2 ** attempt)
@@ -57,11 +60,17 @@ def main():
     for key in ['jpg/S1E01.tar.gz', 'jpg/S1E24.tar.gz', 'jpg/jpg-manifest.json',
                 'projects/jjk-s1-final-60s.mp4', 'projects/publication-audit-evidence.zip']:
         record = uploaded[key]
-        body, response = request(record['browserDownloadUrl'], 64, {'Range': 'bytes=0-63'})
+        print('CHECKING_ANONYMOUS_BYTES '+key, flush=True)
+        small = record['bytes'] < 2 * 1024**2
+        body, response = request(record['browserDownloadUrl'], record['bytes'] + 1 if small else 64,
+                                 {} if small else {'Range': 'bytes=0-63'})
+        if small:
+            assert len(body) == record['bytes'] and hashlib.sha256(body).hexdigest() == record['sha256']
         with Path(record['path']).open('rb') as source:
-            assert body == source.read(64)
+            assert body[:64] == source.read(64)
         report['anonymousDownloads'].append({**response, 'name': record['name'],
-                                             'first64BytesSha256': hashlib.sha256(body).hexdigest(),
+                                             'first64BytesSha256': hashlib.sha256(body[:64]).hexdigest(),
+                                             'fullDownloadSha256': hashlib.sha256(body).hexdigest() if small else None,
                                              'matchesLocal': True})
     report['state'] = 'PASS'
     (HERE/'public-delivery-verification.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')

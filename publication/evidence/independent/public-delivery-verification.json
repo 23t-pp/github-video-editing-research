@@ -1,0 +1,88 @@
+{
+  "expectedSourceCommit": "0cc7fe53487de5fe76f9337e9bc7ac65a57e7bc5",
+  "checkedUnix": 1793889125.4038258,
+  "anonymousReleaseChecks": {
+    "projects": {
+      "requestedUrl": "https://api.github.com/repos/23t-pp/github-video-editing-research/releases/tags/editing-projects-2026-11-05",
+      "status": 200,
+      "contentRange": null,
+      "returnedBytes": 44819,
+      "assets": 27,
+      "draft": false
+    },
+    "jpg": {
+      "requestedUrl": "https://api.github.com/repos/23t-pp/github-video-editing-research/releases/tags/jjk-s1-jpg-60hz-2026-11-05",
+      "status": 200,
+      "contentRange": null,
+      "returnedBytes": 48409,
+      "assets": 30,
+      "draft": false
+    }
+  },
+  "anonymousDownloads": [
+    {
+      "requestedUrl": "https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E01.tar.gz",
+      "status": 206,
+      "contentRange": "bytes 0-63/599254734",
+      "returnedBytes": 64,
+      "name": "S1E01.tar.gz",
+      "first64BytesSha256": "cc2002aad8501d3dd37b115692e0be46356c9308699a1c471b6bb278de474209",
+      "fullDownloadSha256": null,
+      "matchesLocal": true
+    },
+    {
+      "requestedUrl": "https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E24.tar.gz",
+      "status": 206,
+      "contentRange": "bytes 0-63/560841423",
+      "returnedBytes": 64,
+      "name": "S1E24.tar.gz",
+      "first64BytesSha256": "ccef40e29649b699bee1713c9d53138330346e6213e3bf26a1494473de572aaf",
+      "fullDownloadSha256": null,
+      "matchesLocal": true
+    },
+    {
+      "requestedUrl": "https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/jpg-manifest.json",
+      "status": 200,
+      "contentRange": null,
+      "returnedBytes": 38553,
+      "name": "jpg-manifest.json",
+      "first64BytesSha256": "73dacddd5e082939de182dc5c90a5361a54cf8494071d1218cc547d6a64f008a",
+      "fullDownloadSha256": "aedc1d9d708c3b5c829c327d3f4686999d02bce3a12e13983c5662ee8df3d71d",
+      "matchesLocal": true
+    },
+    {
+      "requestedUrl": "https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-s1-final-60s.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-63/50762462",
+      "returnedBytes": 64,
+      "name": "jjk-s1-final-60s.mp4",
+      "first64BytesSha256": "b265fb61d559c3fe59c90df3187269430476aad0e005b1a44b73fea62a8205c6",
+      "fullDownloadSha256": null,
+      "matchesLocal": true
+    },
+    {
+      "requestedUrl": "https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/publication-audit-evidence.zip",
+      "status": 200,
+      "contentRange": null,
+      "returnedBytes": 1157666,
+      "name": "publication-audit-evidence.zip",
+      "first64BytesSha256": "847062e77d4d515b2d8c2a2c441aa02985ed8317c2b5587314c2382e0a9d0fbb",
+      "fullDownloadSha256": "41011a032b0236cf37727f940e399ab2275c1a4bd8ac071fcb9f02b11258d719",
+      "matchesLocal": true
+    }
+  ],
+  "gitRefs": {
+    "refs/heads/main": "0cc7fe53487de5fe76f9337e9bc7ac65a57e7bc5",
+    "refs/tags/editing-projects-2026-11-05": "0cc7fe53487de5fe76f9337e9bc7ac65a57e7bc5",
+    "refs/tags/jjk-s1-jpg-60hz-2026-11-05": "0cc7fe53487de5fe76f9337e9bc7ac65a57e7bc5"
+  },
+  "anonymousReadme": {
+    "requestedUrl": "https://raw.githubusercontent.com/23t-pp/github-video-editing-research/0cc7fe53487de5fe76f9337e9bc7ac65a57e7bc5/README.md",
+    "status": 200,
+    "contentRange": null,
+    "returnedBytes": 7653,
+    "sha256": "99edcee8267239fa372c7fa00614cad8c0bcbcc164407f1640febeab1abe971d",
+    "matchesLocal": true
+  },
+  "state": "PASS"
+}

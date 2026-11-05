@@ -3,6 +3,15 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[3];OUT=Path(__file__).parent;BASE=ROOT/'work/publish-all-20261105'
 ap=argparse.ArgumentParser();ap.add_argument('--require-public',action='store_true');args=ap.parse_args()
 remote={};errors=[];comparisons=[];anonymous={}
+def anonymous_bytes(req,limit=5_000_000):
+ for attempt in range(4):
+  try:
+   url=req.full_url+('&' if '?' in req.full_url else '?')+'_independent_audit='+str(time.time_ns())
+   request=urllib.request.Request(url,headers=dict(req.header_items()))
+   with urllib.request.urlopen(request,timeout=30) as response:return response.read(limit)
+  except Exception:
+   if attempt==3:raise
+   time.sleep(2**attempt)
 for kind,rid in [('projects',435246066),('jpg',435246093)]:
  api=f'repos/23t-pp/github-video-editing-research/releases/{rid}'
  for attempt in range(4):
@@ -26,14 +35,14 @@ for kind,rid in [('projects',435246066),('jpg',435246093)]:
   if d['draft'] or not d['published_at']:errors.append(kind+' not public/published')
   try:
    req=urllib.request.Request('https://api.github.com/repos/23t-pp/github-video-editing-research/releases/tags/'+d['tag_name'],headers={'User-Agent':'independent-publication-audit','Accept':'application/vnd.github+json'})
-   with urllib.request.urlopen(req,timeout=30) as response:public=json.load(response)
+   public=json.loads(anonymous_bytes(req))
    anonymous[kind]={'success':True,'id':public['id'],'draft':public['draft'],'publishedAt':public['published_at'],'assetCount':len(public['assets'])}
    if public['id']!=rid or public['draft'] or len(public['assets'])!=len(d['assets']):errors.append(kind+' anonymous release mismatch')
-   small_name='restore_projects.py' if kind=='projects' else 'jpg-manifest.json'
+   small_name='restore_projects.py' if kind=='projects' else 'restore_jpg.py'
    asset=next(a for a in public['assets'] if a['name']==small_name)
    if asset['size']>2_000_000:raise ValueError('Public smoke asset unexpectedly large')
    req=urllib.request.Request(asset['browser_download_url'],headers={'User-Agent':'independent-publication-audit'})
-   with urllib.request.urlopen(req,timeout=30) as response:body=response.read(2_000_001)
+   body=anonymous_bytes(req,2_000_001)
    smoke={'name':small_name,'bytes':len(body),'sha256':hashlib.sha256(body).hexdigest(),'match':len(body)==asset['size'] and 'sha256:'+hashlib.sha256(body).hexdigest()==asset['digest']}
    anonymous[kind]['actualAnonymousDownload']=smoke
    if not smoke['match']:errors.append(kind+' anonymous downloaded asset digest mismatch')

@@ -442,8 +442,8 @@
     {
       "source": "work/publish-all-20261105/audit/audit_remote_releases.py",
       "path": "tools/independent/audit_remote_releases.py",
-      "bytes": 4932,
-      "sha256": "a46f8c3d5fd0774722f11d1c15fc96e06aa1f5a033186bf319a4dd88f30c7f92"
+      "bytes": 5243,
+      "sha256": "17bd8101d3143f2e85012ed43d05530569529722688855e60a75d30b50ec6bd8"
     },
     {
       "source": "work/publish-all-20261105/audit/audit_snapshot_configs.py",
@@ -466,14 +466,14 @@
     {
       "source": "work/publish-all-20261105/audit/compile_independent_gate.py",
       "path": "tools/independent/compile_independent_gate.py",
-      "bytes": 3090,
-      "sha256": "9fe6988fbbc6f67c7753ae001b703a7d67d30c8aa249367672d1921156716137"
+      "bytes": 3354,
+      "sha256": "1307b164a2333f2bac7d617a6b04f0dd2885f4103fb66bbf16e872a9ba893e02"
     },
     {
       "source": "work/publish-all-20261105/audit/independent-publication-gate.json",
       "path": "evidence/independent/independent-publication-gate.json",
-      "bytes": 1524,
-      "sha256": "7167ae5201daef3595bd64a901320ca9e9c8f1084d4d2a368427b85977c45fe7"
+      "bytes": 1693,
+      "sha256": "1025fb77f8a30f12e150b971ca47c44c9bac85f5f0a6c7789e74cd375778d90c"
     },
     {
       "source": "work/publish-all-20261105/audit/inventory-audit.json",
@@ -518,6 +518,12 @@
       "sha256": "f402407fe358a68fa4dd3a7cffb7954e9912394b0121d2d761b19c6cd5f9e921"
     },
     {
+      "source": "work/publish-all-20261105/audit/public-source-and-legacy-verification.json",
+      "path": "evidence/independent/public-source-and-legacy-verification.json",
+      "bytes": 705,
+      "sha256": "96c08aec1b1426814d5651f1090de19562d4822dfda0cbd6a581b080a0120607"
+    },
+    {
       "source": "work/publish-all-20261105/audit/publication-publisher-script-review.json",
       "path": "evidence/independent/publication-publisher-script-review.json",
       "bytes": 931,
@@ -526,14 +532,14 @@
     {
       "source": "work/publish-all-20261105/audit/remote-independent-api-snapshot.json",
       "path": "evidence/independent/remote-independent-api-snapshot.json",
-      "bytes": 115036,
-      "sha256": "0070c59a46a05cca7b4023a941d11b03990dcc189b730df3391bd5c390ae9c27"
+      "bytes": 118253,
+      "sha256": "b904e761d8f2af9732d350a7888cec12a6b67dc2632d1005552bb23cfaf9480a"
     },
     {
       "source": "work/publish-all-20261105/audit/remote-independent-audit.json",
       "path": "evidence/independent/remote-independent-audit.json",
-      "bytes": 35370,
-      "sha256": "181f7d3555e5311ae97f59d83c3d7f1e5beab99ac329e726c41df22e5ca2f061"
+      "bytes": 35996,
+      "sha256": "e50670b63bf53c5c522382c9313721b9930c35b1925b882f5d202c4908b2573d"
     },
     {
       "source": "work/publish-all-20261105/audit/s1-sealed-video-identity.json",
@@ -704,6 +710,12 @@
       "sha256": "8c48073f505c336b0a40c368d1dbddc2f52cd9a04842e4e3269b55a3121fec98"
     },
     {
+      "source": "work/publish-all-20261105/audit/verify_public_source_and_legacy.py",
+      "path": "tools/independent/verify_public_source_and_legacy.py",
+      "bytes": 2640,
+      "sha256": "ab4888c5dd05ddffda06144c629018d64eea9c5e48846ed9a01d439fba5df302"
+    },
+    {
       "source": "work/publish-all-20261105/audit/watch_jpg_audit.py",
       "path": "tools/independent/watch_jpg_audit.py",
       "bytes": 1367,
@@ -714,6 +726,12 @@
       "path": "evidence/independent/zip-content-audit.json",
       "bytes": 7643,
       "sha256": "e5bd7444ccbf67919e8706ed388b8f880ad994bd3f94a9ec9f17be348706c0d3"
+    },
+    {
+      "source": "work/publish-all-20261105/audit/最终公开独审汇总.md",
+      "path": "evidence/independent/最终公开独审汇总.md",
+      "bytes": 3650,
+      "sha256": "c476afcc7da19228175e0b528d04ea9ca7f6b8926113cf7fe6cd35f118bbc891"
     },
     {
       "source": "work/publish-all-20261105/audit/最终本地独审汇总.md",
@@ -736,8 +754,26 @@
     {
       "source": "work/publish-all-20261105/verify_public_delivery.py",
       "path": "tools/verify_public_delivery.py",
-      "bytes": 3978,
-      "sha256": "f7a576ab4b88233a8c814fafe4891c6aabc2b794d10c13bfbcf47a701b13e562"
+      "bytes": 4655,
+      "sha256": "c4d47ad44b0d7c8e7309935a62fdcb1bffd105a0be95ca96270141d8ef0ed43e"
+    },
+    {
+      "source": "work/publish-all-20261105/publish-actions.json",
+      "path": "evidence/independent/publish-actions.json",
+      "bytes": 759,
+      "sha256": "7456ce944558144c3db6758baf037e014760c0eab3558328046bc2ae6b7f423e"
+    },
+    {
+      "source": "work/publish-all-20261105/public-delivery-verification.json",
+      "path": "evidence/independent/public-delivery-verification.json",
+      "bytes": 3768,
+      "sha256": "912e24eef1cfbb155deb0e5457fcfb815cabbf953bfd38e7e86ba73afffb3309"
+    },
+    {
+      "source": "work/publish-all-20261105/发布操作与命令学习.zh-CN.md",
+      "path": "evidence/independent/发布操作与命令学习.zh-CN.md",
+      "bytes": 5760,
+      "sha256": "e42bc73958faeee60b79cdfaee606a7bc5b3a272a9926a985e3897003196c442"
     }
   ]
 }

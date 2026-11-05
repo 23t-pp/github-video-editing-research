@@ -121,6 +121,8 @@ python -X utf8 ./restore_jpg.py ./S1E01.tar.gz --destination D:/video-backup/wor
 
 发布者的匿名公开访问核验代码：[verify_public_delivery.py](tools/verify_public_delivery.py)。公开发布后的最终报告保存在 [独立审计证据目录](evidence/independent/)；发布前报告的 `remotePublicVerified: false` 仅描述当时草稿状态，不能当作公开访问验收结果。
 
+[本次发布操作与命令学习](evidence/independent/发布操作与命令学习.zh-CN.md)逐步解释打包、硬链接、上传校验、Git推送、公开访问检查和恢复命令。
+
 主要 alpha、撕边、大字等复杂合成回 HF 编辑；OCC 原生镜头负责顺序、裁切、音轨，两者不自动双向同步。依赖和应用本体按原项目说明配置；已保留上游许可证、固定版本及研究快照来源。原工程中的制作机绝对路径要按本机安装位置修改。
 
 原始资料副本：[工程中文指南](evidence/projects/download-and-restore.zh-CN.md)、[JPG中文指南](evidence/jpg/README_JPG.zh-CN.md)。维护者可用 [build_publication_docs.py](build_publication_docs.py) 重生成本页；`--final` 要求24集精确总数、封闭队列和57项远端校验完成。静态文档审查由 [audit_publication_docs.py](audit_publication_docs.py) 执行。
