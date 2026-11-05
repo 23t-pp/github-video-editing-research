@@ -151,7 +151,7 @@ def pack_job(job):
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('--episodes',nargs='+',default=[f'S1E{i:02d}' for i in range(1,25)]);ap.add_argument('--workers',type=int,default=2);ap.add_argument('--source',type=pathlib.Path,default=SOURCE);ap.add_argument('--output',type=pathlib.Path,default=HERE);a=ap.parse_args()
     a.output.mkdir(parents=True,exist_ok=True)
-    with (a.output/'commands.jsonl').open('a',encoding='utf-8') as f:f.write(json.dumps(dict(argv=[sys.executable]+sys.argv,cwd=os.getcwd(),startedUnix=time.time()),ensure_ascii=False)+'\n')
+    with (a.output/'commands.jsonl').open('a',encoding='utf-8') as f:f.write(json.dumps(dict(argv=getattr(sys,'orig_argv',[sys.executable]+sys.argv),cwd=os.getcwd(),startedUnix=time.time()),ensure_ascii=False)+'\n')
     with concurrent.futures.ProcessPoolExecutor(max_workers=a.workers) as pool:
         results=list(pool.map(pack_job,[(ep,str(a.source.resolve()),str(a.output.resolve())) for ep in a.episodes]))
     write_json(a.output/'last-run.json',{'state':'pass','episodes':results,'jpgPaths':sum(x['jpgPaths'] for x in results),'sourceFrameIds':sum(x['sourceFrameIds'] for x in results)})

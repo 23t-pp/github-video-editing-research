@@ -39,7 +39,7 @@ def main():
             downloads.append(unquote(urlparse(target).path.rsplit('/',1)[1]))
     assets = json.loads((staging/'projects/assets-manifest.json').read_text(encoding='utf-8'))
     project_names = {a['asset'] for a in assets}
-    published_project_links = set(downloads)-{f'S1E{n:02d}.tar.gz' for n in range(1,25)}-{'jjk-s1-final-60s.mp4'}
+    published_project_links = set(downloads)-{f'S1E{n:02d}.tar.gz' for n in range(1,25)}-{'jjk-s1-final-60s.mp4','publication-audit-evidence.zip'}
     if published_project_links != project_names:
         raise ValueError('Download table project asset set mismatch')
     for asset in assets:
@@ -58,12 +58,31 @@ def main():
     )
     if any(x not in readme for x in required_commands):
         raise ValueError('Required restore command changed')
+    evidence_marker = staging/'uploads/ready/publication-audit-evidence.zip.json'
+    if evidence_marker.exists():
+        item = json.loads(evidence_marker.read_text(encoding='utf-8'))
+        remote = json.loads((HERE/'manifests/remote-assets-snapshot.json').read_text(encoding='utf-8'))
+        found = next(x for x in remote['assets'] if x['name'] == item['name'])
+        if found['remoteSize'] != item['bytes'] or found['remoteDigest'] != 'sha256:'+item['sha256']:
+            raise ValueError('Audit evidence download marker mismatch')
+    root_readme = HERE.parent/'README.md'
+    root_text = root_readme.read_text(encoding='utf-8')
+    root_local = []
+    if root_text.startswith('# 全部剪辑工程、成片与2,061,018个JPG采样路径'):
+        for target in re.findall(r'\]\(([^)]+)\)', root_text):
+            if target.startswith(('http://','https://','#')):
+                continue
+            if not (HERE.parent/unquote(target.split('#')[0])).exists():
+                raise ValueError('Missing root README target: '+target)
+            root_local.append(target)
     report = {
         'state':'pass', 'scope':'Independent static audit of generated publication hub, source-copy integrity and ready asset names; does not claim remote public visibility',
         'projectAssetNamesChecked':len(project_names), 'jpgExpectedNamesChecked':len(expected_jpg),
         'readmeLocalLinksChecked':local, 'sourceCopiesVerified':len(copied),
         'sourceCopyBytesVerified':sum(x['bytes'] for x in copied),
         'readmeSha256':digest(HERE/'README.md'),
+        'rootReadmeSha256':digest(root_readme) if root_local else None,
+        'rootReadmeLocalLinksChecked':root_local,
         'restoreCommands':'Project --downloads/--workspace/--with-sources and JPG --destination/--manifest match script argparse; --help checked in preparing session',
     }
     path = HERE/'manifests/static-docs-audit.json'

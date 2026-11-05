@@ -1,0 +1,30 @@
+{
+  "loops": [
+    {
+      "loop": "loop-01",
+      "video": "loops/loop-01/loop-01-rough-focus-v2.mp4",
+      "sha256": "d069face423c0822e52debf68377081b4eaf6052cef677472cf977960d0c075f",
+      "expected": "d069face423c0822e52debf68377081b4eaf6052cef677472cf977960d0c075f"
+    },
+    {
+      "loop": "loop-02",
+      "video": "loops/loop-02/loop-02-composite-preview.mp4",
+      "sha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d",
+      "expected": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+    },
+    {
+      "loop": "loop-03",
+      "video": "loops/loop-03/loop-03-high-quality.mp4",
+      "sha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b",
+      "expected": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+    },
+    {
+      "loop": "loop-04",
+      "video": "loops/loop-04/loop-04-final.mp4",
+      "sha256": "90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d",
+      "expected": "90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d"
+    }
+  ],
+  "canonicalSha256": "90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d",
+  "pass": true
+}

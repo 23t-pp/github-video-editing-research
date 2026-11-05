@@ -1,0 +1,412 @@
+{
+  "expectedOutputFiles": 5579,
+  "actualArchiveAndExternalSourcePaths": 5579,
+  "missing": [],
+  "extra": [],
+  "byteSizeMismatches": [],
+  "conflictingDuplicateSizes": [],
+  "actualSmallFileShaSamples": [
+    {
+      "path": "outputs/v05-six-panel/hyperframes/.render-source/assets/frames/B/0001.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-library-20261105/data/frame-analysis/V03.csv",
+      "archive": "reference-library-20261105-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/retrieval-logs/S039.log",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/hyperframes/assets/shots/S029.key",
+      "archive": "publication-supplement.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-replay-next/openchatcut/导入副本Doc.json",
+      "archive": "reference-replay-next-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/assets/frames/B/0052.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-library-20261105/evidence/V06/native-053.jpg",
+      "archive": "reference-library-20261105-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/workflow/final-dispatch-repair/fixtures/07_zip_member_changed_even_new_archive_hash/openchatcut/官方工程包验证.json",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/action-navigation/E17-0420/0490.00.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-library-20261105/data/audio/V15.json",
+      "archive": "reference-library-20261105-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-library-20261105/evidence/V10/native-005.jpg",
+      "archive": "reference-library-20261105-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/S1E02/t0120.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-library-20261105/data/audio/V08-candidate.json",
+      "archive": "reference-library-20261105-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/workflow/final-dispatch-repair/fixtures/08_ui_exists_true_but_empty_bindings/loops/loop-04/review.json",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/.render-source/assets/frames/A/0045.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/loops/loop-03/code/barlow-glyphs.json",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/.render-source/assets/frames/A/0017.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-edge-v17-v2/openchatcut/工程包最终回读.json",
+      "archive": "jjk-edge-v17-v2-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-edge-v17-v3-dedup/openchatcut/原生时间线核验.json",
+      "archive": "jjk-edge-v17-v3-dedup-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/assets/frames/B/0053.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-library-20261105/evidence/V18/native-021.jpg",
+      "archive": "reference-library-20261105-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/assets/frames/A/0026.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/motion-preflight/S1C039/frame1.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-edge-v17-v3-dedup/evidence/V1-V2保留指纹.json",
+      "archive": "jjk-edge-v17-v3-dedup-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-editing-study/scripts/inspect-video.mjs",
+      "archive": "reference-editing-study-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/S1E20/t0440.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/workflow/final-dispatch-repair/next-after.stderr.txt",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/.render-source/assets/frames/A/0004.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/retrieval-logs/S005.log",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/.render-source/assets/frames/B/0049.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-library-20261105/fastx-120/evidence/source-1770.jpg",
+      "archive": "reference-library-20261105-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/workflow/final-dispatch-repair/fixtures/15_all_reviews_pass_but_not_sealed/data/hyperframes-package-verification.json",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/action-navigation/E05-0520/0550.00.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/hyperframes/assets/shots/N037.key",
+      "archive": "publication-supplement.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S28-a029.jpg",
+      "archive": "jjk-edge-v17-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/motion-preflight/S1C021/frame2.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/workflow/final-dispatch-repair/fixtures/01_missing_occ/music/master.wav",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/loops/loop-04/infrastructure/run_batch-before.py",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/frame-operations.json",
+      "archive": "reference-editing-study-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/S1E12-overview.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/workflow/final-dispatch-repair/fixtures/14_final_stale_package_binding/openchatcut/官方工程包验证.json",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-editing-study/证据与执行记录.md",
+      "archive": "reference-editing-study-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/docs/HyperFrames技法实作笔记.md",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/loops/loop-02/frozen-source/hyperframes.json",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/assets/frames/A/0042.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/.render-source/assets/frames/B/0054.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-library-20261105/data/audio/index.json",
+      "archive": "reference-library-20261105-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/S1E09/t0760.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/loops/loop-03/render-proofs/chunk-00.json",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/action-navigation/E20-0200/0305.00.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/retrieval-logs/S044.log",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/action-navigation/E20-1100/1205.00.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/motion-preflight/S1C048/frame1.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S22-a030.jpg",
+      "archive": "jjk-edge-v17-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/.render-source/assets/frames/B/0064.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-library-20261105/scripts/audio/write-provenance.mjs",
+      "archive": "reference-library-20261105-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/S1E10/t0600.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/S1E06/t0280.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/evidence/OpenChatCut六格独立轨道.png",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/.render-source/assets/frames/B/0052.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/reference-replay-next/hyperframes/.waveform-cache/v2_assets_audio_master.wav_8640102-1793850896802.json",
+      "archive": "reference-replay-next-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S10-a038.jpg",
+      "archive": "jjk-edge-v17-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S13-a012.jpg",
+      "archive": "jjk-edge-v17-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/workflow/final-dispatch-repair/fixtures/15_all_reviews_pass_but_not_sealed/openchatcut/工程包最终回读.json",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-edge-v17/README.md",
+      "archive": "jjk-edge-v17-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/action-navigation/E17-0420/0440.00.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/motion-preflight/S1C037/frame3.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/workflow/final-dispatch-repair/fixtures/16_sealed_current_complete/HyperFrames可编辑工程.zip",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/workflow/final-dispatch-repair/fixtures/08_ui_exists_true_but_empty_bindings/成片质量检查.json",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/motion-preflight/S1C038/frame3.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/S1E22/t0600.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/motion-preflight/S1C094/frame2.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C29-e03-889.000.jpg",
+      "archive": "jjk-edge-v17-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/assets/frames/A/0045.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/action-navigation/E04-0990/1030.00.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/docs/四轮改进对照.md",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/assets/frames/A/0020.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/fast60/hyperframes/README.md",
+      "archive": "fast60-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/jjk-s1-workflow/evidence/source-overviews/motion-preflight/S1C084/frame3.jpg",
+      "archive": "jjk-s1-workflow-complete.zip",
+      "shaMatches": true
+    },
+    {
+      "path": "outputs/v05-six-panel/hyperframes/.render-source/assets/frames/B/0068.jpg",
+      "archive": "v05-six-panel-complete.zip",
+      "shaMatches": true
+    }
+  ],
+  "pass": true,
+  "scope": "All output source relative paths and byte counts against actual ZIP directories/external physical assets, plus 80 deterministic small-file SHA samples. Packager separately full-byte verified all files; this report does not claim independent full SHA of all 5579 files."
+}

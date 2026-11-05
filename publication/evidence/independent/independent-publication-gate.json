@@ -1,0 +1,23 @@
+{
+  "state": "PREPUBLIC_CHECKS_PASS",
+  "checkedUnix": 1793888687.1405385,
+  "checks": {
+    "all_24_jpg_archives_independently_verified": true,
+    "all_ready_assets_remote_digest_and_size_match": true,
+    "all_5579_output_paths_and_bytes_covered": true,
+    "nonsecret_filter_supplement_169_source_files_match": true,
+    "seven_ccproj_runtime_bytes_and_sha_match_no_credentials": true,
+    "all_new_zip_code_and_config_secret_scan_pass": true,
+    "snapshot_configs_have_no_unreviewed_secret_values": true,
+    "s1_four_rounds_and_canonical_video_sha_unchanged": true
+  },
+  "readyAssets": 57,
+  "jpgArchiveCount": 24,
+  "remotePublicVerified": false,
+  "sourceCoordinateFilesNote": "Initial mode=ro SQLite reads may have created zero-byte WAL and 32768-byte SHM files. No SQL mutation was performed; all subsequent reads immutable=1; all 24 WAL files observed zero bytes. Preserved dataset counts, JSONL SHA and sealed video SHA checked.",
+  "scopeLimits": [
+    "All 2061018 archived JPEG paths checked; all 823577 regular JPEG byte SHA checked. Only 12 reproducible JPEG decode samples per archive repeated, because original extraction already decoded all native JPEGs.",
+    "One full episode actually restored: 86102 JPG paths, hardlink identity and independent-copy SHA checked. Other episodes validated as full archive entry/byte graphs.",
+    "Independent output coverage checks all 5579 paths/bytes plus 80 fixed small-file SHA samples; publisher separately verified all source SHA."
+  ]
+}

@@ -4,7 +4,7 @@
 
 [工程成果 Release](https://github.com/23t-pp/github-video-editing-research/releases/tag/editing-projects-2026-11-05) · [全季 JPG Release](https://github.com/23t-pp/github-video-editing-research/releases/tag/jjk-s1-jpg-60hz-2026-11-05) · [仓库首页](../README.md)
 
-**准备中：目前 13/24 集归档完成本地校验。下方始终列出24集预期文件名，尚未完成的条目不代表已可下载；两个 Release 公开前，外部读者也无法访问草稿附件。**
+**完整交付：24/24集归档、全季清单与57项Release附件均通过校验。** 本页记录工程与素材的准确下载名、字节数、SHA及还原方法；远端附件核验快照见下文。
 
 ## 只想先看成片
 
@@ -26,7 +26,7 @@
 |EDGE V2 精修|[jjk-edge-v17-v2-complete.zip](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-edge-v17-v2-complete.zip)<br>862,593,458|[jjk-edge-v17-v2-hyperframes-editable.zip](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-edge-v17-v2-hyperframes-editable.zip)|
 |EDGE V3 去重（EDGE 最新）|[jjk-edge-v17-v3-dedup-complete.zip](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-edge-v17-v3-dedup-complete.zip)<br>1,178,716,359|[jjk-edge-v17-v3-dedup-hyperframes-editable.zip](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-edge-v17-v3-dedup-hyperframes-editable.zip)|
 |初次参考库发布记录|[reference-library-release-20261105-complete.zip](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/reference-library-release-20261105-complete.zip)<br>147,636,311|无独立回填附件|
-|咒术第一季 V20（独立任务，L4封存）|[jjk-s1-workflow-complete.zip](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-s1-workflow-complete.zip)<br>842,336,606|[jjk-s1-hyperframes-editable.zip](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-s1-hyperframes-editable.zip)<br>[jjk-s1-openchatcut.ccproj](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-s1-openchatcut.ccproj)<br>[JPG 24集（按需）](#全季-jpg24集预期下载表)|
+|咒术第一季 V20（独立任务，L4封存）|[jjk-s1-workflow-complete.zip](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-s1-workflow-complete.zip)<br>842,336,606|[jjk-s1-hyperframes-editable.zip](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-s1-hyperframes-editable.zip)<br>[jjk-s1-openchatcut.ccproj](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-s1-openchatcut.ccproj)<br>[JPG 24集（按需）](#全季-jpg24集下载表)|
 
 以上11个完整包和8个独立 HF/OCC 附件属于25项工程资产。其余6项如下：
 
@@ -39,7 +39,9 @@
 |[download-and-restore.zh-CN.md](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/download-and-restore.zh-CN.md)|原版中文下载恢复指南（下面的本页命令优先）|5,057|
 |[project-release-tools-and-manifests.zip](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/project-release-tools-and-manifests.zip)|42个发布工具、逐文件清单与验收元数据|1,055,064|
 
-25项共 **6,996,473,739字节**；独立预览 MP4 另计。精确 SHA、回填路径见 [工程资产清单](manifests/assets-manifest.json)，逐文件清单见 [清单目录](manifests/projects/)。源文件和原说明的字节保持不变，复制记录见 [copy-integrity.json](manifests/copy-integrity.json)。
+25项共 **6,996,473,739字节**；独立预览 MP4 和独立审计证据 ZIP 另计。精确 SHA、回填路径见 [工程资产清单](manifests/assets-manifest.json)，逐文件清单见 [清单目录](manifests/projects/)。源文件和原说明的字节保持不变，复制记录见 [copy-integrity.json](manifests/copy-integrity.json)。
+
+工程 Release 共 **27附件 / 7,048,393,867字节**（25项工程资产 + 预览MP4 + 独立审计ZIP）；JPG Release 共 **30附件 / 14,602,310,573字节**（24档JPG + 6份工具/清单）。两者合计 **57附件 / 21,650,704,440字节**。
 
 ## Windows 完整下载和恢复
 
@@ -66,7 +68,7 @@ python -X utf8 ./restore_projects.py --downloads . --workspace D:/video-backup/w
 
 恢复后打开 `outputs/jjk-s1-workflow/README.md`；正式片为 `咒力接力_一分钟.mp4`。HF ZIP 在项目根，OCC 在 `openchatcut`。四轮实际视频、独立审核与修订保留在原目录；EDGE V1/V2/V3 与第一季项目互相独立。
 
-## 全季 JPG：24集预期下载表
+## 全季 JPG：24集下载表
 
 目标为 **2,061,018个 JPG 采样路径 = 823,577个源帧 JPEG + 1,237,441个重复采样路径**。640×360/q6，源片为24000/1001fps，60Hz表示采样网格，没有插帧。重复路径存为 tar 硬链接；全部路径都会恢复。每档内还包含 SQLite、逐样本 JSONL 及真实校验元数据。高分辨率剪辑需要回原视频取片。
 
@@ -84,20 +86,20 @@ python -X utf8 ./restore_projects.py --downloads . --workspace D:/video-backup/w
 |S1E10|[S1E10.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E10.tar.gz)|579,474,889|86,104|34,407|51,697|本地通过；远端大小/SHA通过|
 |S1E11|[S1E11.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E11.tar.gz)|577,109,707|86,099|34,405|51,694|本地通过；远端大小/SHA通过|
 |S1E12|[S1E12.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E12.tar.gz)|512,309,778|86,104|34,407|51,697|本地通过；远端大小/SHA通过|
-|S1E13|[S1E13.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E13.tar.gz)|526,408,231|86,102|34,406|51,696|本地通过；远端待核|
-|S1E14|[S1E14.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E14.tar.gz)（预期）|待生成|待核|待核|待核|尚未完成|
-|S1E15|[S1E15.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E15.tar.gz)（预期）|待生成|待核|待核|待核|尚未完成|
-|S1E16|[S1E16.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E16.tar.gz)（预期）|待生成|待核|待核|待核|尚未完成|
-|S1E17|[S1E17.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E17.tar.gz)（预期）|待生成|待核|待核|待核|尚未完成|
-|S1E18|[S1E18.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E18.tar.gz)（预期）|待生成|待核|待核|待核|尚未完成|
-|S1E19|[S1E19.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E19.tar.gz)（预期）|待生成|待核|待核|待核|尚未完成|
-|S1E20|[S1E20.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E20.tar.gz)（预期）|待生成|待核|待核|待核|尚未完成|
-|S1E21|[S1E21.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E21.tar.gz)（预期）|待生成|待核|待核|待核|尚未完成|
-|S1E22|[S1E22.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E22.tar.gz)（预期）|待生成|待核|待核|待核|尚未完成|
-|S1E23|[S1E23.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E23.tar.gz)（预期）|待生成|待核|待核|待核|尚未完成|
-|S1E24|[S1E24.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E24.tar.gz)（预期）|待生成|待核|待核|待核|尚未完成|
+|S1E13|[S1E13.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E13.tar.gz)|526,408,231|86,102|34,406|51,696|本地通过；远端大小/SHA通过|
+|S1E14|[S1E14.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E14.tar.gz)|673,020,520|86,104|34,407|51,697|本地通过；远端大小/SHA通过|
+|S1E15|[S1E15.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E15.tar.gz)|768,541,790|86,099|34,405|51,694|本地通过；远端大小/SHA通过|
+|S1E16|[S1E16.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E16.tar.gz)|659,482,025|86,102|34,406|51,696|本地通过；远端大小/SHA通过|
+|S1E17|[S1E17.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E17.tar.gz)|676,587,959|86,102|34,406|51,696|本地通过；远端大小/SHA通过|
+|S1E18|[S1E18.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E18.tar.gz)|684,619,315|86,097|34,404|51,693|本地通过；远端大小/SHA通过|
+|S1E19|[S1E19.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E19.tar.gz)|622,266,520|85,198|34,045|51,153|本地通过；远端大小/SHA通过|
+|S1E20|[S1E20.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E20.tar.gz)|684,845,808|85,198|34,045|51,153|本地通过；远端大小/SHA通过|
+|S1E21|[S1E21.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E21.tar.gz)|673,370,674|85,198|34,045|51,153|本地通过；远端大小/SHA通过|
+|S1E22|[S1E22.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E22.tar.gz)|597,075,350|85,206|34,048|51,158|本地通过；远端大小/SHA通过|
+|S1E23|[S1E23.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E23.tar.gz)|550,175,785|85,196|34,044|51,152|本地通过；远端大小/SHA通过|
+|S1E24|[S1E24.tar.gz](https://github.com/23t-pp/github-video-editing-research/releases/download/jjk-s1-jpg-60hz-2026-11-05/S1E24.tar.gz)|560,841,423|85,198|34,045|51,153|本地通过；远端大小/SHA通过|
 
-24集全部完成时，还需同一 Release 的 `restore_jpg.py`、`jpg-manifest.json`；另提供 `SHA256SUMS-JPG.txt`、`JPG-ARCHIVES.csv`、`pack_jpg.py`、`README_JPG.zh-CN.md`。全季清单完成前，本页不会生成虚假的全季清单。
+恢复还需同一 Release 的 `restore_jpg.py`、`jpg-manifest.json`；另提供 `SHA256SUMS-JPG.txt`、`JPG-ARCHIVES.csv`、`pack_jpg.py`、`README_JPG.zh-CN.md`。全季归档共 **14,602,246,302字节**。
 
 只恢复一集：
 
@@ -111,8 +113,16 @@ python -X utf8 ./restore_jpg.py ./S1E01.tar.gz --destination D:/video-backup/wor
 
 [Git小文本镜像](../studies/full-delivery-20261105/)有5,966份源码与文档，85,479,450字节。[文本镜像清单](manifests/projects/text-mirror-manifest.json)记录各文件；媒体缺席是发布分层，不能用 Git 页面相对链接是否打开判断工程缺失。完整包恢复后按原 README 使用。
 
-本目录的 [恢复与打包工具](tools/) 和 [原始验收证据](evidence/) 是小文本副本。工程包逐条目核过 bytes/SHA/CRC，恢复冒烟测试覆盖2,356个文件并复跑。JPG 已完成条目的逐档报告见 [JPG证据](evidence/jpg/)。[远端资产快照](manifests/remote-assets-snapshot.json)记录上传器取回的 GitHub 大小和 digest；它是生成时快照，Release 草稿是否已公开由正式发布步骤控制。
+本目录的 [恢复与打包工具](tools/) 和 [原始验收证据](evidence/) 是小文本副本。工程包逐条目核过 bytes/SHA/CRC，恢复冒烟测试覆盖2,356个文件并复跑。JPG逐档报告见 [JPG证据](evidence/jpg/)。[远端资产快照](manifests/remote-assets-snapshot.json)记录附件的 GitHub 大小和 digest 对比。快照核验附件内容，公开访问核验另由发布后的匿名检查记录。
+
+完整独立审计材料：[publication-audit-evidence.zip](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/publication-audit-evidence.zip)。它与25项工程资产分开计数，保留打包来源、全24集独立归档检查、OCC runtime检查、原文件覆盖、源码配置审查和发布前远端核验。可在线阅读 [独立审计证据](evidence/independent/) 与 [独立审计工具源码](tools/independent/)。工具保留原字节及原制作工作区的路径假设，复查时按文件头配置工作区；完整证据ZIP保留原相对目录。
+
+审计ZIP：**1,157,666字节**，SHA-256：`41011a032b0236cf37727f940e399ab2275c1a4bd8ac071fcb9f02b11258d719`。
+
+发布者的匿名公开访问核验代码：[verify_public_delivery.py](tools/verify_public_delivery.py)。公开发布后的最终报告保存在 [独立审计证据目录](evidence/independent/)；发布前报告的 `remotePublicVerified: false` 仅描述当时草稿状态，不能当作公开访问验收结果。
 
 主要 alpha、撕边、大字等复杂合成回 HF 编辑；OCC 原生镜头负责顺序、裁切、音轨，两者不自动双向同步。依赖和应用本体按原项目说明配置；已保留上游许可证、固定版本及研究快照来源。原工程中的制作机绝对路径要按本机安装位置修改。
 
-原始资料副本：[工程中文指南](evidence/projects/download-and-restore.zh-CN.md)、[JPG中文指南](evidence/jpg/README_JPG.zh-CN.md)。其中的发布完成叙述来自准备好的发布材料；准备阶段以本页逐档状态为准。维护者可用 [build_publication_docs.py](build_publication_docs.py) 重生成本页；`--final` 必须通过24集及精确总数门禁。
+原始资料副本：[工程中文指南](evidence/projects/download-and-restore.zh-CN.md)、[JPG中文指南](evidence/jpg/README_JPG.zh-CN.md)。维护者可用 [build_publication_docs.py](build_publication_docs.py) 重生成本页；`--final` 要求24集精确总数、封闭队列和57项远端校验完成。静态文档审查由 [audit_publication_docs.py](audit_publication_docs.py) 执行。
+
+全季生成清单：[jpg-manifest.json](manifests/jpg-manifest.json) · [SHA256SUMS-JPG.txt](manifests/SHA256SUMS-JPG.txt) · [JPG-ARCHIVES.csv](manifests/JPG-ARCHIVES.csv)

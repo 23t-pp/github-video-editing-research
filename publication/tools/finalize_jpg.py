@@ -17,6 +17,10 @@ def finalize():
     total=sum(x['jpgPaths'] for x in episodes);native=sum(x['sourceFrameIds'] for x in episodes);links=sum(x['hardlinkJpegs'] for x in episodes)
     if (total,native,links)!=(2061018,823577,1237441):raise ValueError(f'Unexpected totals {(total,native,links)}')
     manifest={'formatVersion':1,'state':'pass','scope':'24 complete 640x360/q6 JPEG sample-path archives; 60-Hz sampling, repeated paths preserved as tar hardlinks; not interpolated frames','episodesCount':24,'jpgPaths':total,'sourceFrameIds':native,'regularJpegs':native,'hardlinkJpegs':links,'archiveBytes':sum(x['archiveBytes'] for x in episodes),'episodes':episodes,'generatedUnix':time.time()}
+    full_restore=json.loads((HERE/'restore-full-s1e01/S1E01.restore-report.json').read_text(encoding='utf-8'))
+    smoke=json.loads((HERE/'restore-smoke-test.json').read_text(encoding='utf-8'))
+    if full_restore.get('state')!='pass' or full_restore.get('jpgPaths')!=86102 or not full_restore.get('allPathsExist') or smoke.get('state')!='pass':raise ValueError('Restore validation missing or failed')
+    manifest['restoreValidation']={'script':'restore_jpg.py','scriptSha256':sha_file(HERE/'restore_jpg.py'),'fullEpisodeRestore':full_restore,'hardlinkIdentitySmokePassed':smoke['verifiedHardlinkIdentity'],'forcedCopyFallbackSmokePassed':smoke['verifiedForcedCopyFallback']}
     write_json(HERE/'jpg-manifest.json',manifest)
     (HERE/'SHA256SUMS-JPG.txt').write_text(''.join(f"{r['archiveSha256']}  {r['archive']}\n" for r in episodes),encoding='ascii')
     (HERE/'JPG-ARCHIVES.csv').write_text('episode,archive,bytes,sha256,jpg_paths,regular_jpegs,hardlink_jpegs\n'+''.join(f"{r['id']},{r['archive']},{r['archiveBytes']},{r['archiveSha256']},{r['jpgPaths']},{r['regularJpegs']},{r['hardlinkJpegs']}\n" for r in episodes),encoding='ascii')

@@ -1,11 +1,11 @@
 {
   "state": "pass",
-  "publicationState": "prepared",
-  "localJpgEpisodes": 13,
+  "publicationState": "complete",
+  "localJpgEpisodes": 24,
   "projectAssets": 25,
   "projectBytes": 6996473739,
-  "copiedFiles": 56,
-  "copiedBytes": 5071688,
+  "copiedFiles": 123,
+  "copiedBytes": 6497722,
   "readmeRelativeLinksChecked": [
     "../README.md",
     "manifests/assets-manifest.json",
@@ -17,10 +17,18 @@
     "evidence/",
     "evidence/jpg/",
     "manifests/remote-assets-snapshot.json",
+    "evidence/independent/",
+    "tools/independent/",
+    "tools/verify_public_delivery.py",
+    "evidence/independent/",
     "evidence/projects/download-and-restore.zh-CN.md",
     "evidence/jpg/README_JPG.zh-CN.md",
-    "build_publication_docs.py"
+    "build_publication_docs.py",
+    "audit_publication_docs.py",
+    "manifests/jpg-manifest.json",
+    "manifests/SHA256SUMS-JPG.txt",
+    "manifests/JPG-ARCHIVES.csv"
   ],
-  "readmeSha256": "f1f88dcaf2177134059519fdb084ffa11c360a069fd8abfc283984024f9d4aba",
+  "readmeSha256": "c3ba00933dc10262cf29a19699a3afc80a18bce175b60425bbf16c86fee6f7d4",
   "note": "No upload/publish/commit actions; source copies preserve bytes; remote visibility is separate."
 }

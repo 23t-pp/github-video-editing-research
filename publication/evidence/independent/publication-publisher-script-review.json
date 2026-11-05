@@ -1,0 +1,18 @@
+{
+  "archiveBytes": 1157666,
+  "archiveSha256": "41011a032b0236cf37727f940e399ab2275c1a4bd8ac071fcb9f02b11258d719",
+  "entries": 137,
+  "publisherScriptExactSource": true,
+  "scriptCredentialPatterns": 0,
+  "publicationGatesReviewed": [
+    "--publish explicit opt-in; without it only payload generation",
+    "uploader complete/no-errors + sealed exact expected key set",
+    "independent PREPUBLIC/PUBLIC pass + equal ready/uploaded count",
+    "24 episodes and exact 2061018/823577/1237441 dataset counts",
+    "target full SHA exists remotely",
+    "each release exact asset-name set and uploaded/size/digest check before PATCH",
+    "PATCH only while current release is draft; post-response published check"
+  ],
+  "gateExecutionNote": "Checks use Python assert; root invokes ordinary Python without -O. Main FF and final anonymous public checks are separate orchestrator/independent steps.",
+  "pass": true
+}

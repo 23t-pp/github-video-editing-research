@@ -1,0 +1,360 @@
+{
+  "projects": [
+    {
+      "project": "fast60",
+      "ccproj": "outputs\\fast60\\openchatcut\\弯心 APEX · 速度与激情一分钟混剪.ccproj",
+      "ccprojBytes": 176659808,
+      "recordTypeCounts": {
+        "manifest": 1,
+        "agent-runtime-start": 1,
+        "agent-runtime-chunk": 2,
+        "agent-runtime-end": 1,
+        "media-start": 48,
+        "media-chunk": 2079,
+        "media-end": 48
+      },
+      "manifestRuntimeSchema": true,
+      "manifestSensitiveFields": [],
+      "runtimeEntries": [
+        {
+          "path": "agent-runtime.json",
+          "bytes": 80773,
+          "configSensitiveFields": []
+        }
+      ],
+      "credentialPatterns": [],
+      "sensitiveFilenames": [],
+      "runtimePresent": true,
+      "runtimeBytes": 80773,
+      "runtimeSha256": "dcf6919953ee4773ff944bf902edd0c5e31a86221075b1ddeac6264640d0ab07",
+      "startHashMatches": true,
+      "endHashMatches": true,
+      "startBytesMatch": true,
+      "runtimeFormat": "JSON",
+      "runtimeTopLevelKeys": [
+        "version",
+        "revision",
+        "projectId",
+        "durability",
+        "updatedAt",
+        "lastWriterId",
+        "runs",
+        "approvals",
+        "checkpoints",
+        "artifacts"
+      ],
+      "runtimeSensitiveFields": [],
+      "highConfidenceSecretCount": 0
+    },
+    {
+      "project": "jjk-edge-v17",
+      "ccproj": "outputs\\jjk-edge-v17\\openchatcut\\挚友 · EDGE · V17主参考 _ V02字效.ccproj",
+      "ccprojBytes": 200824109,
+      "recordTypeCounts": {
+        "manifest": 1,
+        "agent-runtime-start": 1,
+        "agent-runtime-chunk": 2,
+        "agent-runtime-end": 1,
+        "agent-artifact-start": 1,
+        "agent-artifact-chunk": 1,
+        "agent-artifact-end": 1,
+        "media-start": 68,
+        "media-chunk": 2375,
+        "media-end": 68
+      },
+      "manifestRuntimeSchema": true,
+      "manifestSensitiveFields": [
+        {
+          "field": "$.chat.contextUsage.inputTokens",
+          "classification": "empty-or-nonsecret-primitive",
+          "type": "int"
+        },
+        {
+          "field": "$.chat.contextUsage.contextWindowTokens",
+          "classification": "empty-or-nonsecret-primitive",
+          "type": "int"
+        }
+      ],
+      "runtimeEntries": [
+        {
+          "path": "agent-runtime.json",
+          "bytes": 58242,
+          "configSensitiveFields": []
+        }
+      ],
+      "credentialPatterns": [],
+      "sensitiveFilenames": [],
+      "runtimePresent": true,
+      "runtimeBytes": 58242,
+      "runtimeSha256": "127f07fa678af7b4904eb805b1563f0ff5c19f61899a706186ffa893ddfb2b05",
+      "startHashMatches": true,
+      "endHashMatches": true,
+      "startBytesMatch": true,
+      "runtimeFormat": "JSON",
+      "runtimeTopLevelKeys": [
+        "version",
+        "revision",
+        "projectId",
+        "durability",
+        "updatedAt",
+        "lastWriterId",
+        "runs",
+        "approvals",
+        "checkpoints",
+        "artifacts"
+      ],
+      "runtimeSensitiveFields": [],
+      "highConfidenceSecretCount": 0
+    },
+    {
+      "project": "jjk-edge-v17-v2",
+      "ccproj": "outputs\\jjk-edge-v17-v2\\openchatcut\\挚友 · EDGE · 精修V2.ccproj",
+      "ccprojBytes": 202068028,
+      "recordTypeCounts": {
+        "manifest": 1,
+        "agent-runtime-start": 1,
+        "agent-runtime-chunk": 2,
+        "agent-runtime-end": 1,
+        "agent-artifact-start": 1,
+        "agent-artifact-chunk": 1,
+        "agent-artifact-end": 1,
+        "media-start": 68,
+        "media-chunk": 2390,
+        "media-end": 68
+      },
+      "manifestRuntimeSchema": true,
+      "manifestSensitiveFields": [],
+      "runtimeEntries": [
+        {
+          "path": "agent-runtime.json",
+          "bytes": 78656,
+          "configSensitiveFields": []
+        }
+      ],
+      "credentialPatterns": [],
+      "sensitiveFilenames": [],
+      "runtimePresent": true,
+      "runtimeBytes": 78656,
+      "runtimeSha256": "8fa5b21dba9deeb99b638f7e956835c07a620da4e239904e0e25417f3d75ea08",
+      "startHashMatches": true,
+      "endHashMatches": true,
+      "startBytesMatch": true,
+      "runtimeFormat": "JSON",
+      "runtimeTopLevelKeys": [
+        "version",
+        "revision",
+        "projectId",
+        "durability",
+        "updatedAt",
+        "lastWriterId",
+        "runs",
+        "approvals",
+        "checkpoints",
+        "artifacts"
+      ],
+      "runtimeSensitiveFields": [],
+      "highConfidenceSecretCount": 0
+    },
+    {
+      "project": "jjk-edge-v17-v3-dedup",
+      "ccproj": "outputs\\jjk-edge-v17-v3-dedup\\openchatcut\\挚友 · EDGE · 画面去重V3.ccproj",
+      "ccprojBytes": 320608648,
+      "recordTypeCounts": {
+        "manifest": 1,
+        "agent-runtime-start": 1,
+        "agent-runtime-chunk": 2,
+        "agent-runtime-end": 1,
+        "agent-artifact-start": 1,
+        "agent-artifact-chunk": 1,
+        "agent-artifact-end": 1,
+        "media-start": 106,
+        "media-chunk": 3789,
+        "media-end": 106
+      },
+      "manifestRuntimeSchema": true,
+      "manifestSensitiveFields": [],
+      "runtimeEntries": [
+        {
+          "path": "agent-runtime.json",
+          "bytes": 55569,
+          "configSensitiveFields": []
+        }
+      ],
+      "credentialPatterns": [],
+      "sensitiveFilenames": [],
+      "runtimePresent": true,
+      "runtimeBytes": 55569,
+      "runtimeSha256": "3eb11d9251b820fef2556778d47ecbabe95a8f9584ddf607b18774bdaecb6bb6",
+      "startHashMatches": true,
+      "endHashMatches": true,
+      "startBytesMatch": true,
+      "runtimeFormat": "JSON",
+      "runtimeTopLevelKeys": [
+        "version",
+        "revision",
+        "projectId",
+        "durability",
+        "updatedAt",
+        "lastWriterId",
+        "runs",
+        "approvals",
+        "checkpoints",
+        "artifacts"
+      ],
+      "runtimeSensitiveFields": [],
+      "highConfidenceSecretCount": 0
+    },
+    {
+      "project": "jjk-s1-workflow",
+      "ccproj": "outputs\\jjk-s1-workflow\\openchatcut\\咒力接力 · CURSED FLOW.ccproj",
+      "ccprojBytes": 205861867,
+      "recordTypeCounts": {
+        "manifest": 1,
+        "agent-runtime-start": 1,
+        "agent-runtime-chunk": 2,
+        "agent-runtime-end": 1,
+        "media-start": 85,
+        "media-chunk": 2451,
+        "media-end": 85
+      },
+      "manifestRuntimeSchema": true,
+      "manifestSensitiveFields": [],
+      "runtimeEntries": [
+        {
+          "path": "agent-runtime.json",
+          "bytes": 60368,
+          "configSensitiveFields": []
+        }
+      ],
+      "credentialPatterns": [],
+      "sensitiveFilenames": [],
+      "runtimePresent": true,
+      "runtimeBytes": 60368,
+      "runtimeSha256": "7d115e1a6532a125fdeb4dd8dcdafa1aa266a01576e80c0d654efe804ac14231",
+      "startHashMatches": true,
+      "endHashMatches": true,
+      "startBytesMatch": true,
+      "runtimeFormat": "JSON",
+      "runtimeTopLevelKeys": [
+        "version",
+        "revision",
+        "projectId",
+        "durability",
+        "updatedAt",
+        "lastWriterId",
+        "runs",
+        "approvals",
+        "checkpoints",
+        "artifacts"
+      ],
+      "runtimeSensitiveFields": [],
+      "highConfidenceSecretCount": 0
+    },
+    {
+      "project": "reference-replay-next",
+      "ccproj": "outputs\\reference-replay-next\\openchatcut\\越界 · V07动作接力复刻 · 速度与激情.ccproj",
+      "ccprojBytes": 109029043,
+      "recordTypeCounts": {
+        "manifest": 1,
+        "agent-runtime-start": 1,
+        "agent-runtime-chunk": 2,
+        "agent-runtime-end": 1,
+        "media-start": 45,
+        "media-chunk": 1298,
+        "media-end": 45
+      },
+      "manifestRuntimeSchema": true,
+      "manifestSensitiveFields": [
+        {
+          "field": "$.chat.contextUsage.inputTokens",
+          "classification": "empty-or-nonsecret-primitive",
+          "type": "int"
+        },
+        {
+          "field": "$.chat.contextUsage.contextWindowTokens",
+          "classification": "empty-or-nonsecret-primitive",
+          "type": "int"
+        }
+      ],
+      "runtimeEntries": [
+        {
+          "path": "agent-runtime.json",
+          "bytes": 56630,
+          "configSensitiveFields": []
+        }
+      ],
+      "credentialPatterns": [],
+      "sensitiveFilenames": [],
+      "runtimePresent": true,
+      "runtimeBytes": 56630,
+      "runtimeSha256": "cf2a2329c009564903337d5c070b5f5391ad55eb22c794c4dee4379de5526000",
+      "startHashMatches": true,
+      "endHashMatches": true,
+      "startBytesMatch": true,
+      "runtimeFormat": "JSON",
+      "runtimeTopLevelKeys": [
+        "version",
+        "revision",
+        "projectId",
+        "durability",
+        "updatedAt",
+        "lastWriterId",
+        "runs",
+        "approvals",
+        "checkpoints",
+        "artifacts"
+      ],
+      "runtimeSensitiveFields": [],
+      "highConfidenceSecretCount": 0
+    },
+    {
+      "project": "v05-six-panel",
+      "ccproj": "outputs\\v05-six-panel\\openchatcut\\V05六格卡片_可编辑工程.ccproj",
+      "ccprojBytes": 14488547,
+      "recordTypeCounts": {
+        "manifest": 1,
+        "agent-runtime-start": 1,
+        "agent-runtime-chunk": 1,
+        "agent-runtime-end": 1,
+        "media-start": 4,
+        "media-chunk": 6,
+        "media-end": 4
+      },
+      "manifestRuntimeSchema": true,
+      "manifestSensitiveFields": [],
+      "runtimeEntries": [
+        {
+          "path": "agent-runtime.json",
+          "bytes": 35100,
+          "configSensitiveFields": []
+        }
+      ],
+      "credentialPatterns": [],
+      "sensitiveFilenames": [],
+      "runtimePresent": true,
+      "runtimeBytes": 35100,
+      "runtimeSha256": "6f7aad626a559f7a6f33128abf1be02619b00e36b73acb4af0d3b08ad8c95d2d",
+      "startHashMatches": true,
+      "endHashMatches": true,
+      "startBytesMatch": true,
+      "runtimeFormat": "JSON",
+      "runtimeTopLevelKeys": [
+        "version",
+        "revision",
+        "projectId",
+        "durability",
+        "updatedAt",
+        "lastWriterId",
+        "runs",
+        "approvals",
+        "checkpoints",
+        "artifacts"
+      ],
+      "runtimeSensitiveFields": [],
+      "highConfidenceSecretCount": 0
+    }
+  ],
+  "ccprojCount": 7,
+  "highConfidenceSecretCount": 0,
+  "sensitiveFilenameCount": 0
+}
