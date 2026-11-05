@@ -1,0 +1,1031 @@
+{
+  "asset": {
+    "asset": "fast60-complete.zip",
+    "source_file_count": 168,
+    "bytes": 448596020,
+    "sha256": "9157380f1deb5bf98a0423efe741e8b4669abcbdec22ed357e8355f2f0a5390f",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": [
+        {
+          "asset": "fast60-hyperframes-editable.zip",
+          "sha256": "41a6a96dda1cded2abe26f5f03257c74a69fc583a57b502e4bfccfc487653a80",
+          "restore_path": "outputs/fast60/HyperFrames可编辑工程.zip"
+        }
+      ],
+      "note": "保持outputs冻结文件原字节；依restore_path放回独立资产即可还原完整项目。"
+    },
+    "entries_manifest": "manifests/fast60-complete.zip.json"
+  },
+  "files": [
+    {
+      "path": "outputs/fast60/README.md",
+      "bytes": 1527,
+      "sha256": "bd76b0a8eb532c3ab54f0534508b7a85ebc6413c8a02ca2e057c8af7ffe6ea10",
+      "crc32": "0dfc1ba7"
+    },
+    {
+      "path": "outputs/fast60/交付文件校验.json",
+      "bytes": 1180,
+      "sha256": "1587bf187753d9b884e6a2ee7aa9555c333915cc6c66585460c615a720ea5549",
+      "crc32": "2a14ec3d"
+    },
+    {
+      "path": "outputs/fast60/剪辑学习手册.md",
+      "bytes": 9780,
+      "sha256": "09c897dc7ed8780ed79a36e94079930287760f273f8a83649da2c41ac804465b",
+      "crc32": "0a392a0b"
+    },
+    {
+      "path": "outputs/fast60/学习播放器.html",
+      "bytes": 17871,
+      "sha256": "39a8be6586dee01686766eae70895828f6ba1585494b8bf58098da019fc61146",
+      "crc32": "a3fa3e09"
+    },
+    {
+      "path": "outputs/fast60/封面.jpg",
+      "bytes": 142781,
+      "sha256": "432d584726f4b16e2c20a134e0d4654fce90488a5b1b7b40a936deb931fc286d",
+      "crc32": "3cc5044f"
+    },
+    {
+      "path": "outputs/fast60/弯心_APEX_60秒.mp4",
+      "bytes": 55951390,
+      "sha256": "d2bd7d51554f5e794c866850b0bf559e8f971d2cde4d73a7fe48ece996fb9fb7",
+      "crc32": "c8f31956"
+    },
+    {
+      "path": "outputs/fast60/成片验证.json",
+      "bytes": 4377,
+      "sha256": "65d399a9c2b75adc7acb6dbb9a74dd7d028d2ed8be2cf7bad145c71c1237abf0",
+      "crc32": "55b52c7c"
+    },
+    {
+      "path": "outputs/fast60/evidence/HyperFrames_三联预览.jpg",
+      "bytes": 95636,
+      "sha256": "02d065cbd129fc7274e53884ffa2c0dc8fea228ce41220c0fee42e6acf6f4f9d",
+      "crc32": "0e32bb94"
+    },
+    {
+      "path": "outputs/fast60/evidence/HyperFrames工程检查.txt",
+      "bytes": 23532,
+      "sha256": "3d28e58e061181d0e0b8331512dff0e0fc540fb6c1b1c0b75e05fb868ed5b812",
+      "crc32": "c1bd43da"
+    },
+    {
+      "path": "outputs/fast60/evidence/OpenChatCut_原生可编辑三联屏.jpg",
+      "bytes": 88826,
+      "sha256": "1e249779600ae6ee3f35d41faf8b6f3fd3d1f422be4cc4b86b9d91d562fbe6ee",
+      "crc32": "c59de1a3"
+    },
+    {
+      "path": "outputs/fast60/evidence/双工程重建对照.json",
+      "bytes": 233,
+      "sha256": "556312985f924de58682a3a72a07dda1929b0a98aa479125c8e6b7b4bceb57a4",
+      "crc32": "43b825cd"
+    },
+    {
+      "path": "outputs/fast60/evidence/学习播放器_第719帧.jpg",
+      "bytes": 49636,
+      "sha256": "c00b1232bedaf7ee3cc1e097c7ab6087669e9fba147ee3205fa0210bb8bafae8",
+      "crc32": "5a72b75b"
+    },
+    {
+      "path": "outputs/fast60/evidence/成片分镜.jpg",
+      "bytes": 252014,
+      "sha256": "1936f8c8da2d1040a495405ed485711fd60a58ac6531f613005f5ff9187ae1bd",
+      "crc32": "31461248"
+    },
+    {
+      "path": "outputs/fast60/evidence/成片抽检.json",
+      "bytes": 5913,
+      "sha256": "85ece70a6e2aceb5abd240b76b8b18bbd0f38b61b4f1c5435fc30900edf10090",
+      "crc32": "7f534eec"
+    },
+    {
+      "path": "outputs/fast60/evidence/本机播放器与编辑器核验.json",
+      "bytes": 704,
+      "sha256": "3b7f419cd1a88540e6370c1292515762400247ca1c1b21724a5629b60942c324",
+      "crc32": "332e58c8"
+    },
+    {
+      "path": "outputs/fast60/evidence/片源实测.json",
+      "bytes": 10592,
+      "sha256": "20095cc11595b73772a6bde2b7a83b31f5abf7ecce09fc0b5518140a95ff373e",
+      "crc32": "14198be7"
+    },
+    {
+      "path": "outputs/fast60/evidence/镜头入点修订.json",
+      "bytes": 4121,
+      "sha256": "e9af7f85eb8dea7ae1eaa287cf3e428062a38072c467147ae1d68a51bfddadf5",
+      "crc32": "5efc23dc"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/DESIGN.md",
+      "bytes": 1008,
+      "sha256": "5036d27ccc4cb7d99db36b58ff393123f5d4960c5750b112bb1b3519a60cb0f2",
+      "crc32": "09ca9167"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/Preview.cmd",
+      "bytes": 317,
+      "sha256": "e529cbf1ddec6f9361e841ce0b8478a2646896bb3519e3620e1fcf0ad7f2c6de",
+      "crc32": "30c87fbf"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/README.md",
+      "bytes": 2158,
+      "sha256": "b46fe1965bc30aac9f6136109671ae41ca051d01fb6bc80104c4ed48c2f81f4f",
+      "crc32": "ac895798"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/Render.cmd",
+      "bytes": 272,
+      "sha256": "e6c4cc5f68124540e6fdb0d774c6932fbe023dd60b9cd6eff206819c19632879",
+      "crc32": "7733e6d2"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/composition.py",
+      "bytes": 6434,
+      "sha256": "d702ecced8835b8e41024f23a0c7aba119b6ca610a878ad2249c76d697784b52",
+      "crc32": "4a3a800b"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/edit.json",
+      "bytes": 29947,
+      "sha256": "4e03aea0fbe5c86631265c55147594f8b06b4e88eecb26a6208efd49d5af473b",
+      "crc32": "5b37a26e"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/generated-index.sha256",
+      "bytes": 66,
+      "sha256": "5aa8d2029c11c866a7afb67962c2f0272cc26528cb0183efdb3c9418c0a6935e",
+      "crc32": "a97d7549"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/hf.mjs",
+      "bytes": 979,
+      "sha256": "ff3af99fe8403d6119cb691d5ed62c0a8249cfe5842a468f08a6f86fe108189b",
+      "crc32": "0cf3b162"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "crc32": "9cfa7d16"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/index.html",
+      "bytes": 15883,
+      "sha256": "652dbc63f09dd8d4f49d3b53b95119c3582ad0dc0540402c7ebe19fadeb3387b",
+      "crc32": "22b4f0e7"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/style.css",
+      "bytes": 1424,
+      "sha256": "21cc97f5dd39752439a5d75edc3d67e9f5d3dada1e9a0381b4eaa4b51803bf64",
+      "crc32": "d623c1e8"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/镜头表.csv",
+      "bytes": 4245,
+      "sha256": "6cad7942e3a1ec35525a2a32bdd806c190be78471b9da33793095023a0f7c896",
+      "crc32": "3a8d2f37"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.hyperframes/hf-ids-stamped.json",
+      "bytes": 44,
+      "sha256": "a03c3447a78b220edc9b9e2e1cdd9bae473d2ac7c145d4b7952643eaff964b75",
+      "crc32": "5b5cc612"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.hyperframes/history-id",
+      "bytes": 37,
+      "sha256": "5567a10dbda00f06118fb2924e5bdf374d7d3f956b49962b020a28189ef8d5a4",
+      "crc32": "a983970a"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.hyperframes/video-state.json",
+      "bytes": 37412,
+      "sha256": "dabab6de90b2ea72c0f53970eb5b49a3cd41bd7ed131d266c1f626b3d8892bc5",
+      "crc32": "4b00c209"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.hyperframes/artifacts/checks/614c3e48-5d63-4ce1-b0a8-ab8e92364eb9.json",
+      "bytes": 8834,
+      "sha256": "62495a98aef2cd5b0423c688bc85c35567d1dd4bf80457740910d4aa68ef10aa",
+      "crc32": "9f455c6a"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.hyperframes/artifacts/checks/d17b2aea-12a5-4b5d-98fc-90f0126ce449.json",
+      "bytes": 8834,
+      "sha256": "62495a98aef2cd5b0423c688bc85c35567d1dd4bf80457740910d4aa68ef10aa",
+      "crc32": "9f455c6a"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.hyperframes/preview/6faee2c21545b1b9d5b2aa8257ee9b18.html",
+      "bytes": 314130,
+      "sha256": "4d8a6a71c079c4910949ee45657d5d44966e461e7f56056b00479db83a4333ca",
+      "crc32": "6bf89314"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.thumbnails/v5_1bdffcd00e83e626_891829d8191fff3e_jpeg_source_index.html_1920x1080_1920x1080_1793847879463_0.00.jpg",
+      "bytes": 122771,
+      "sha256": "fcee0bc376fe3f1cb4a9ae91a244b400cd365a1a7abb5c38c98d9992227f77e8",
+      "crc32": "9f3fa664"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.thumbnails/v5_e94c2cbb08f52a4a_58c6fe4343b8b7d3_jpeg_source_index.html_1920x1080_1920x1080_1793847606078_0.00.jpg",
+      "bytes": 122771,
+      "sha256": "fcee0bc376fe3f1cb4a9ae91a244b400cd365a1a7abb5c38c98d9992227f77e8",
+      "crc32": "9f3fa664"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.thumbnails/v5_v3_1bdffcd00e83e626_891829d8191fff3e_jpeg_preview_index.html_1920x1080_240x135_1793847879463_3.00.jpg",
+      "bytes": 6611,
+      "sha256": "7075a0999732d50480338de097d0f07d4f6c473029cfdeede308b4f0e7b6b4d8",
+      "crc32": "219b0997"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.thumbnails/v5_v3_1bdffcd00e83e626_891829d8191fff3e_jpeg_preview_index.html_1920x1080_240x135_1793847879463_30.00_337a6edd230bd5b9_0.jpg",
+      "bytes": 293,
+      "sha256": "7fcf0aed52e8352f711105ee4066cb33b585a94af47cd1346057c2e49734ccc1",
+      "crc32": "36ab076a"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.thumbnails/v5_v3_1bdffcd00e83e626_891829d8191fff3e_jpeg_preview_index.html_1920x1080_240x135_1793847879463_30.00_8f5fe81648507b85_0.jpg",
+      "bytes": 960,
+      "sha256": "197a9ad6af318691b71e6971eedd692ba2ec0c43992ae84572321592320b022a",
+      "crc32": "8ad39be4"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.thumbnails/v5_v3_1bdffcd00e83e626_891829d8191fff3e_jpeg_preview_index.html_1920x1080_240x135_1793847879463_30.00_f291e13dc3196af0_0.jpg",
+      "bytes": 960,
+      "sha256": "197a9ad6af318691b71e6971eedd692ba2ec0c43992ae84572321592320b022a",
+      "crc32": "8ad39be4"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.thumbnails/v5_v3_e94c2cbb08f52a4a_58c6fe4343b8b7d3_jpeg_preview_index.html_1920x1080_240x135_1793847606078_3.00.jpg",
+      "bytes": 6611,
+      "sha256": "7075a0999732d50480338de097d0f07d4f6c473029cfdeede308b4f0e7b6b4d8",
+      "crc32": "219b0997"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.thumbnails/v5_v3_e94c2cbb08f52a4a_58c6fe4343b8b7d3_jpeg_preview_index.html_1920x1080_240x135_1793847606078_30.00_337a6edd230bd5b9_0.jpg",
+      "bytes": 293,
+      "sha256": "7fcf0aed52e8352f711105ee4066cb33b585a94af47cd1346057c2e49734ccc1",
+      "crc32": "36ab076a"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.thumbnails/v5_v3_e94c2cbb08f52a4a_58c6fe4343b8b7d3_jpeg_preview_index.html_1920x1080_240x135_1793847606078_30.00_f291e13dc3196af0_0.jpg",
+      "bytes": 960,
+      "sha256": "197a9ad6af318691b71e6971eedd692ba2ec0c43992ae84572321592320b022a",
+      "crc32": "8ad39be4"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.thumbnails/v5_v3_e94c2cbb08f52a4a_58c6fe4343b8b7d3_jpeg_preview_index.html_1920x1080_240x135_1793847807277_3.00.jpg",
+      "bytes": 6611,
+      "sha256": "7075a0999732d50480338de097d0f07d4f6c473029cfdeede308b4f0e7b6b4d8",
+      "crc32": "219b0997"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.thumbnails/v5_v3_e94c2cbb08f52a4a_58c6fe4343b8b7d3_jpeg_preview_index.html_1920x1080_240x135_1793847807277_30.00_337a6edd230bd5b9_0.jpg",
+      "bytes": 293,
+      "sha256": "7fcf0aed52e8352f711105ee4066cb33b585a94af47cd1346057c2e49734ccc1",
+      "crc32": "36ab076a"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.thumbnails/v5_v3_e94c2cbb08f52a4a_58c6fe4343b8b7d3_jpeg_preview_index.html_1920x1080_240x135_1793847807277_30.00_f291e13dc3196af0_0.jpg",
+      "bytes": 960,
+      "sha256": "197a9ad6af318691b71e6971eedd692ba2ec0c43992ae84572321592320b022a",
+      "crc32": "8ad39be4"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.waveform-cache/peaks-v2_assets_audio_master.wav_17280044-1793847563300.json",
+      "bytes": 8157,
+      "sha256": "893cd601fdd3937e9657ff293e3fea6aaa6eacad185300ac22dee3f0d97be2f5",
+      "crc32": "1783f89b"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/.waveform-cache/v2_assets_audio_master.wav_17280044-1793847563300.json",
+      "bytes": 77663,
+      "sha256": "60de98d24c00a1e39d20bb2e042cb6289e7e2d30023f1a039aa11a30bac87ba8",
+      "crc32": "00f41345"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/gsap.min.js",
+      "bytes": 72927,
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "crc32": "87a303b4"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/audio/master.wav",
+      "bytes": 17280044,
+      "sha256": "62bbe58a652e5ba5481ce8be5f050d5e98c800f14b47fdbec105e21212fbb521",
+      "crc32": "2b2414bb"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/audio/score-mix.wav",
+      "bytes": 17280044,
+      "sha256": "9d6c430d670db2049e8905723f146bc145b8464767bff4e34875dac3b8f19805",
+      "crc32": "2f52ba81"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/audio/score.wav",
+      "bytes": 17280102,
+      "sha256": "2362fd21c7d9ced0b30f8e88fadc9a325a70b6e3ee53ffc2d3768bafe3a3a68d",
+      "crc32": "907be56b"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/audio/source-mix.wav",
+      "bytes": 17280044,
+      "sha256": "038f64fe1660fe9a0c0692680413d2ed71f9880d01fb41746b7725f3daae48b7",
+      "crc32": "e0a35356"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S03.wav",
+      "bytes": 184044,
+      "sha256": "ef7aa3dd0c5fd9d8fcec6777c87bf0c21b8bd0f6f3fddbe72c6ea430f605b642",
+      "crc32": "fb71f2a8"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S04.wav",
+      "bytes": 88044,
+      "sha256": "5771d91be447ca9ac9b8f0ff95994a86f34dc18ae264a32c6b94c0ffc3176089",
+      "crc32": "acfcfe24"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S05.wav",
+      "bytes": 88044,
+      "sha256": "b1518fe2edd06779c8adc6d1d643f2d1479085730f8824721beb64b2e435f584",
+      "crc32": "5fcbeaca"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S06.wav",
+      "bytes": 360044,
+      "sha256": "b447af81190ca1fd1701f2d6444205f0a09a15bbd3a2f6cd066d12855b838c4f",
+      "crc32": "7641479e"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S07.wav",
+      "bytes": 360044,
+      "sha256": "674f84a8aa55e2258230a3015d3097009f4a701e640d6c7e57c03dbb6f622386",
+      "crc32": "c2e52b32"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S08.wav",
+      "bytes": 184044,
+      "sha256": "e6a5643bf40df19e25711a01afdaa1defef55ed44eff0cc2b8a6ce69815dc0e2",
+      "crc32": "1152a1d7"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S09.wav",
+      "bytes": 88044,
+      "sha256": "cabae16f54c6d0b99aaae66cd72bd621f6172c8fffb1b23585e380383b046a6b",
+      "crc32": "324a32ac"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S10.wav",
+      "bytes": 88044,
+      "sha256": "968b484b43d324df2bbd33bee2d073cf339ac669eedbc51662b7889d5d07ae7c",
+      "crc32": "2f597c0e"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S11.wav",
+      "bytes": 360044,
+      "sha256": "b92f3b216984a9275fc0e0d3ed4dd27726f289303cc4561bcbc1c0a1f692f186",
+      "crc32": "07df6fc2"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S12.wav",
+      "bytes": 184044,
+      "sha256": "f3822f755c3d264ed11ce177e3f8cd07ca2a871cc4834d7332abfbf5ce7ccb66",
+      "crc32": "5607aeeb"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S13.wav",
+      "bytes": 360044,
+      "sha256": "012bb3946f40cb7479d2706bd87be3de1dd5b6a1aaa99d252c7a889d45b28a94",
+      "crc32": "ac05b334"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S14.wav",
+      "bytes": 176044,
+      "sha256": "3642924c45fefa3cda37907667eeefa0735f7d31a11dc52e2431e7ee6711dcfa",
+      "crc32": "9223310f"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S15.wav",
+      "bytes": 360044,
+      "sha256": "86478c99f7fa90b7ab9380fba21cce5eef4e4976eb4abd9a2321bddb77048907",
+      "crc32": "982599a0"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S16.wav",
+      "bytes": 360044,
+      "sha256": "52fc57462a7518d31d4e7eb7bc8b6242541f6236fb35f60f8cfd0f1e1aed1930",
+      "crc32": "a656245a"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S23.wav",
+      "bytes": 360044,
+      "sha256": "53bbb2e8261fbf6ba8446d7465368d74bdf578796b9e3a3e056733bcf879186a",
+      "crc32": "8c606df2"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S24.wav",
+      "bytes": 360044,
+      "sha256": "7bf836c368e57182d7d750e1b21b7f38fc5c854e06bf18adc829f6e791f25c8e",
+      "crc32": "21142cef"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S25.wav",
+      "bytes": 184044,
+      "sha256": "04b3ed475146eab0d3fec253748f624c1e2e3715d23ad5dac12dcace64b92244",
+      "crc32": "facfc1ae"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S26.wav",
+      "bytes": 176044,
+      "sha256": "149f7f45d66f843838418eba8b626c29f99af465808a95dd0980bd027063e5d5",
+      "crc32": "846bb2b1"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S27.wav",
+      "bytes": 360044,
+      "sha256": "65f80a691f798efbaf0a0f3597464273a42b22b20e782fcb1566fd48ea27f6de",
+      "crc32": "491f7712"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S28.wav",
+      "bytes": 360044,
+      "sha256": "24ff01d189eb502532059a0a89220afd8d880937a48abc2627d172971496e5c2",
+      "crc32": "fb48675b"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S29.wav",
+      "bytes": 184044,
+      "sha256": "6cc3e8d1a3b66d2906fe6a44a07b2c2034230d1e8f723d6aa9818eba4312c797",
+      "crc32": "54295657"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S30.wav",
+      "bytes": 176044,
+      "sha256": "f7e7fb6462fdcf72b8ae756be806fb0108ef9d16e26d0c93c5cde7d5181a3131",
+      "crc32": "f75f71c8"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S31.wav",
+      "bytes": 360044,
+      "sha256": "254da0b26f10953543f411969ae60112799c8a9073d2a45ea545bd40c5d8c289",
+      "crc32": "ce20fae7"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S34.wav",
+      "bytes": 184044,
+      "sha256": "fb1c3b2a4d292c190394a8300d284c1b0641a789bef1ecb86e64928e1448ae22",
+      "crc32": "a973c5e5"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S35.wav",
+      "bytes": 176044,
+      "sha256": "a62529eaa3f8a14b8deaae6e45c15f2641be93a888fbee7a825d99de62c4dabd",
+      "crc32": "9fd1c82f"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S36.wav",
+      "bytes": 184044,
+      "sha256": "3646bdbbf9c9ef022cf7969237156497c9c6ed709d7cb239f8a5297881ace5e9",
+      "crc32": "285d172b"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S37.wav",
+      "bytes": 176044,
+      "sha256": "76aee5ae35e07798c08be663bcb1a23743a897c64eaef328bf4bf4cd5d131abd",
+      "crc32": "54c93a01"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S38.wav",
+      "bytes": 360044,
+      "sha256": "676250426d0b5616c8f57a62d0655d290a5f23498ace32843f6851c30f45b74b",
+      "crc32": "b2b8767f"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S39.wav",
+      "bytes": 360044,
+      "sha256": "d084ff6e7dbd432b4abca68c7e6963fc6c47b711c77ef6502658f057c67cd262",
+      "crc32": "158e99f2"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/cues/S42.wav",
+      "bytes": 720044,
+      "sha256": "4310f4a3abf78a7aeef7f764f44a82034274116251d03da8c787a178e4b5b304",
+      "crc32": "539adb72"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/P03.mp4",
+      "bytes": 1499262,
+      "sha256": "b4d7e02462af0d460d97496011eba3476080576192275545a92600a7fae80941",
+      "crc32": "c3e94dd4"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S01.mp4",
+      "bytes": 2737384,
+      "sha256": "9ddead2bf86f422ae0498a22e86bfc790f2a40c4384427993ef29fdbf6c701c0",
+      "crc32": "de111cee"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S02.mp4",
+      "bytes": 2715785,
+      "sha256": "cafea8e134edfc3dbc342ff9d3a1b1a11575e88c7d33b59a44771855ba9179f2",
+      "crc32": "d5f20807"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S03.mp4",
+      "bytes": 1154714,
+      "sha256": "3bc7acda3b82712af9b4621b99db9fecc760093db152847c01660cd77bc749a8",
+      "crc32": "2fae7082"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S04.mp4",
+      "bytes": 791155,
+      "sha256": "629a4654a9a474237bac7e02d7c75d1b38a319a508e887bbcb7c5ea3d7caa8e8",
+      "crc32": "6d0528e7"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S05.mp4",
+      "bytes": 1079542,
+      "sha256": "694b286cdaeccf27cdda451cbc4271095ddcdfcddc4c00b86ef2a4b07baaa674",
+      "crc32": "80875afa"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S06.mp4",
+      "bytes": 2506048,
+      "sha256": "04c820511578aabc5019ea93b01ddd1a2ddfb733909785120f073d22a1805c32",
+      "crc32": "93be1fa2"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S07.mp4",
+      "bytes": 4469725,
+      "sha256": "eff649a0cf9e3d969fa7d47198e8c6d04dc673e2143ea33b1053cf4d8183c551",
+      "crc32": "8df8048e"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S08.mp4",
+      "bytes": 1165265,
+      "sha256": "24db34c63951b0ffab923c038478e3178f5a709b2398c4b620527b11de485217",
+      "crc32": "c4aff8e6"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S09.mp4",
+      "bytes": 1093235,
+      "sha256": "a4ef0228050428a624b07ff812ee44cb6ad16f7a199b171be72bc53ca8cd55c8",
+      "crc32": "97e824b1"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S10.mp4",
+      "bytes": 1271112,
+      "sha256": "310f8322459f1db506552efe81b6cf35d9f0c9abbdba1653db684be2acc7d207",
+      "crc32": "4719317b"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S11.mp4",
+      "bytes": 1613955,
+      "sha256": "3163039f7809203821406a76e70bcfa3b83c2fbf34f6ed25ee60701a45e25ebb",
+      "crc32": "a7a4785a"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S12.mp4",
+      "bytes": 3841990,
+      "sha256": "2da3c07f42c075652195d39214c16fba3b46b84d868b421ac7e1559d5982a993",
+      "crc32": "c65577ad"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S13.mp4",
+      "bytes": 3553886,
+      "sha256": "374641f739a54c835a5ffb544850d21b906b3f4f7f601d07f5f22902d6bbe5d3",
+      "crc32": "b9e2deb5"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S14.mp4",
+      "bytes": 1773447,
+      "sha256": "949809f8bd3ff847f13a12f9b11a487023551d3085221aef14640ea23a2a1dbb",
+      "crc32": "beee262e"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S15.mp4",
+      "bytes": 3328345,
+      "sha256": "092b0e7ebc3cffa7b37bf61de31243cc484575561f6a0a94d7bd13873dfbf4ab",
+      "crc32": "14759457"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S16.mp4",
+      "bytes": 1489394,
+      "sha256": "d6831c4a40c11ac6560b8b803de65a95a058412ed19dab15c48cc15809cfeb70",
+      "crc32": "bc6f3ab3"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S17.mp4",
+      "bytes": 2259752,
+      "sha256": "1ef0ed1a55a0e6b66fa52113d747d71d1c6e67eefe5e46fc49c712db23e0b541",
+      "crc32": "6ffe2fc0"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S18.mp4",
+      "bytes": 985452,
+      "sha256": "e65b9c2b11c8fc878577b2b6b20656bbe23ca927aae4e4c226fb96fd390e999f",
+      "crc32": "201fa073"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S19.mp4",
+      "bytes": 3147899,
+      "sha256": "9cd03ff73eaf160f70a5e0b5d03aa19e73cdc593959f123efd265625d10bab00",
+      "crc32": "edeba939"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S20.mp4",
+      "bytes": 619410,
+      "sha256": "ca78dc8013803b4e369645a59ca43f4135bfaac29dde79214273c2808e5c04f2",
+      "crc32": "5a983ab0"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S21.mp4",
+      "bytes": 1883875,
+      "sha256": "9443b5da220996cfd1ef3bbae25871d84c28a7d0f009282260a334032af70e8f",
+      "crc32": "da0f5758"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S22.mp4",
+      "bytes": 2375974,
+      "sha256": "bfe1ba9193b42c111067aadfbefabaaba5b9862aefe8f849eb411b81ab739758",
+      "crc32": "70438b6b"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S23.mp4",
+      "bytes": 1534308,
+      "sha256": "d38e332ddc4aa29f5c369464d2a8c6dd41aeb0a4b9db5965345e8cfe2306625e",
+      "crc32": "2b8b3a53"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S24.mp4",
+      "bytes": 2059099,
+      "sha256": "c98fb9f436fc458c8a457afb9d850920c9811400fe6d007d1e3bbea20555fd9f",
+      "crc32": "28934ba6"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S25.mp4",
+      "bytes": 1689226,
+      "sha256": "778e82e922d1bd272af58d2b6df1fe8d3a960b5285a03998f4e1bed66cf4dfb9",
+      "crc32": "a485217f"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S26.mp4",
+      "bytes": 1272781,
+      "sha256": "58ac2ded57f1df72b8ec93522f0e7996ecbf52a90f71da81d68065855892bb42",
+      "crc32": "165f8116"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S27.mp4",
+      "bytes": 2039243,
+      "sha256": "14f4376be26fc07c9252fc32677db980f2a81887ec3807f941a59255b9cb63fa",
+      "crc32": "e2dcbe99"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S28.mp4",
+      "bytes": 3169546,
+      "sha256": "f8613e0155466e61166443af67c4a7fde6dc4e880b61e85ca765b86660e10796",
+      "crc32": "c7da75d2"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S29.mp4",
+      "bytes": 2666204,
+      "sha256": "e02c8c3dc8726d64662241977801ca62c287ec9ccc205d22daac0d6006d00efb",
+      "crc32": "3cdacd76"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S30.mp4",
+      "bytes": 1738117,
+      "sha256": "45c0d095a202e813a9f3ad152781bce8a46ab01d3fcb0a05171b82935ddfbb72",
+      "crc32": "61148652"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S31.mp4",
+      "bytes": 3220028,
+      "sha256": "0d2a1187b41c77025363da5b400b023099eab561e820752f4df7a0e8800f6577",
+      "crc32": "fa02a678"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S32.mp4",
+      "bytes": 1701323,
+      "sha256": "62587fee2d32b2bba94b37066f35ec9d23faef7501c24f90c95e892258b868ac",
+      "crc32": "608a6e72"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S33.mp4",
+      "bytes": 1654025,
+      "sha256": "a916f65003babf95c4b1b7e2a776341919b10d983b6f622076f27ffa8ae3c802",
+      "crc32": "4036ffc0"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S34.mp4",
+      "bytes": 1516125,
+      "sha256": "b0279fcb3936ac199c13de1f52dac76967a85c946961fd6040ce88a181c0274d",
+      "crc32": "da905b81"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S35.mp4",
+      "bytes": 1286328,
+      "sha256": "c255d61e70b45bdb20997bb45beced500540120799b6b2061e1fbf5da3ff736d",
+      "crc32": "d7a129bf"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S36.mp4",
+      "bytes": 2423047,
+      "sha256": "55f846c753f9df15b79ee00c981fade1137dd73294330387febf693c81585036",
+      "crc32": "b851f13a"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S37.mp4",
+      "bytes": 2087483,
+      "sha256": "dea7dea9c59576a4b7de4944f05d5c24ca4357ac5e5f7f3af51a445f1d89845c",
+      "crc32": "94eb4909"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S38.mp4",
+      "bytes": 2494837,
+      "sha256": "509efd54e12acc9dc6f99d6fa88fd16f357bddd84a7a237aff45128d1c8f6be7",
+      "crc32": "8225b3a9"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S39.mp4",
+      "bytes": 3852341,
+      "sha256": "e00279f0b8efabdb00c9047dbc575446a646f35f8aba1831ccf480489f23a15b",
+      "crc32": "3926c5a1"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S40.mp4",
+      "bytes": 1082651,
+      "sha256": "397e5e4ba717152f46e040f54234d3d24a88e9ac4c1ab3196ca275b8ccb0e397",
+      "crc32": "a13e5139"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S41.mp4",
+      "bytes": 2471177,
+      "sha256": "7095133186e6ec5e169b179ed86c6e6ac1d4711bdc4d072536b1bb35d8d17d66",
+      "crc32": "0d9df380"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/assets/shots/S42.mp4",
+      "bytes": 5168445,
+      "sha256": "2c67607436ece2ace4601a60e37a8ee6274c04f4ea98c02debbffb4f41686162",
+      "crc32": "514a0d84"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/tools/prepare_media.py",
+      "bytes": 4340,
+      "sha256": "32441b73bc88689d8f2c6ea3efe3fb29adc28cfa03cfb38438a0b626f865fe45",
+      "crc32": "a12a4b01"
+    },
+    {
+      "path": "outputs/fast60/hyperframes/tools/render.py",
+      "bytes": 12984,
+      "sha256": "a9751bf8bd729022b0b07a07a5fe272202d6d998e6ea78fa9aa76edd32da300a",
+      "crc32": "aa390ee3"
+    },
+    {
+      "path": "outputs/fast60/music/FINAL-MIX.md",
+      "bytes": 3934,
+      "sha256": "111726d578d3c14e1274618d13be90e049f448f1226cf50771453adde294abcf",
+      "crc32": "ecf5c84e"
+    },
+    {
+      "path": "outputs/fast60/music/README.md",
+      "bytes": 6747,
+      "sha256": "cd5bca440a6d68ffe064cda73f3803958f64a2a0998951e3e3f36822c9a71e13",
+      "crc32": "0768185c"
+    },
+    {
+      "path": "outputs/fast60/music/beat-markers.csv",
+      "bytes": 3406,
+      "sha256": "029069d41b094334c2fea6cc7a784db7578d957414f5c400b452ed01857abe94",
+      "crc32": "1e4cd79b"
+    },
+    {
+      "path": "outputs/fast60/music/beat-markers.json",
+      "bytes": 163079,
+      "sha256": "c47a998447771b6ba048faaa36a8b36499eb69b72cad40443ad8f2af9ff02fb8",
+      "crc32": "ef4a30e6"
+    },
+    {
+      "path": "outputs/fast60/music/build_final_mix.py",
+      "bytes": 13101,
+      "sha256": "5dd00e2a3ad76daa389e259ebff378f52cab7d01a1dc3d54b3a60cde616c8e82",
+      "crc32": "0a99fa8b"
+    },
+    {
+      "path": "outputs/fast60/music/compose_score.py",
+      "bytes": 14190,
+      "sha256": "bc5265caee519790b24bd6ccd0f248c9cca3bc1002ef60f77ef05c83a0b7a568",
+      "crc32": "8c285580"
+    },
+    {
+      "path": "outputs/fast60/music/final-mix-report.json",
+      "bytes": 3512,
+      "sha256": "73b403be36fa98e3c346c888c2d45c956c2c560ba5bc0a51cb20ac4820b6bf2c",
+      "crc32": "8cfefbb5"
+    },
+    {
+      "path": "outputs/fast60/music/master_score.mjs",
+      "bytes": 3532,
+      "sha256": "38a8b3c46c887c13a5ece582b9e21ad9ea1e9bff6d105005864d5ecebf9719be",
+      "crc32": "98ee5a76"
+    },
+    {
+      "path": "outputs/fast60/music/mastering-report.json",
+      "bytes": 1615,
+      "sha256": "80b81ed0db8cc5344b3147748cb4adf5d5f19b355cf478274b2a09a19d2ce4dd",
+      "crc32": "2f753c0d"
+    },
+    {
+      "path": "outputs/fast60/music/mix-automation.json",
+      "bytes": 21041,
+      "sha256": "17a5f4127d6e9f8d05858d91b3acd1cba31b4a1b167a171e4cf9f4fda1fad154",
+      "crc32": "3066687e"
+    },
+    {
+      "path": "outputs/fast60/music/mix-envelopes.npz",
+      "bytes": 7609369,
+      "sha256": "77376090cd09385d0d60eb9aab6be9a1e5c9e53841b37069be7994c5bfe9c1f5",
+      "crc32": "92e1aea0"
+    },
+    {
+      "path": "outputs/fast60/music/night-relay-128.mid",
+      "bytes": 8926,
+      "sha256": "6a9d924575379deeaa0a8b9ff7072fd45373a4549dcb6f4810a525b40f70a8de",
+      "crc32": "9bcf2770"
+    },
+    {
+      "path": "outputs/fast60/music/note-events.json",
+      "bytes": 134797,
+      "sha256": "0201a5d548c1f5d6278b9e566517fe93f731c2a469c47a2ec5057e256b7bd141",
+      "crc32": "19945e15"
+    },
+    {
+      "path": "outputs/fast60/music/preview-main.wav",
+      "bytes": 4320078,
+      "sha256": "035fa2b500081179df36572897d8028f02cea40b90b7447125ab2f56d82b8f7f",
+      "crc32": "e6cb25b2"
+    },
+    {
+      "path": "outputs/fast60/music/preview-street.wav",
+      "bytes": 2880078,
+      "sha256": "c1f85bf5a9d99175cc94de73573517e79e6755078b979d498df8791fbc057121",
+      "crc32": "8a096d1c"
+    },
+    {
+      "path": "outputs/fast60/music/requirements-score.txt",
+      "bytes": 45,
+      "sha256": "cb0911ea78a99f33a9c51b4adda28e2b721203e22b0d9181b8f16d7c1a32e0ff",
+      "crc32": "816178f9"
+    },
+    {
+      "path": "outputs/fast60/music/score-premaster.wav",
+      "bytes": 17280044,
+      "sha256": "d4c2c4c0811e9af21cfcf3afe57104367f65e0f5595a1d827afd21c9473a5185",
+      "crc32": "00a2bd40"
+    },
+    {
+      "path": "outputs/fast60/music/validate_score.py",
+      "bytes": 4290,
+      "sha256": "cf49ea2b0f8f5de1bbf7e47eeb1569dc7e905a282f6ddcab48b1940bcf30db63",
+      "crc32": "170f1ef1"
+    },
+    {
+      "path": "outputs/fast60/music/validation.json",
+      "bytes": 103248,
+      "sha256": "3e1cc84e147f815c540b55639e67f310f95d73f69b283e0ad9500c15a8114653",
+      "crc32": "583d0f79"
+    },
+    {
+      "path": "outputs/fast60/music/stems/atmosphere.wav",
+      "bytes": 11520044,
+      "sha256": "8b601debbd9c3bd74ca52479725442025c9a17f4a0d4a4c295835244015a6b2f",
+      "crc32": "baa571b5"
+    },
+    {
+      "path": "outputs/fast60/music/stems/bass.wav",
+      "bytes": 11520044,
+      "sha256": "6ebb7d8b7d6add3ebce0ac863232b5dd5bca0425a48705095ad8bc8275ba7c16",
+      "crc32": "61dda009"
+    },
+    {
+      "path": "outputs/fast60/music/stems/drums.wav",
+      "bytes": 11520044,
+      "sha256": "f7b45f9eb0a133b0b500b619e54189318c8ad470519d4e1c6e8e1040282cc14c",
+      "crc32": "4ae93e9e"
+    },
+    {
+      "path": "outputs/fast60/music/stems/synths.wav",
+      "bytes": 11520044,
+      "sha256": "a72e918b1e39713a999dc5d2e8ec608d61dcd3156f47978c9586a93ca7b3adf3",
+      "crc32": "e72bf011"
+    },
+    {
+      "path": "outputs/fast60/occ-effects/FX-end.mp4",
+      "bytes": 707166,
+      "sha256": "a2b2ad7457a63e25373b9afb6c223a2b26090163df91a6095f849531d7d711f4",
+      "crc32": "5589b74b"
+    },
+    {
+      "path": "outputs/fast60/occ-effects/FX-title.mp4",
+      "bytes": 2945399,
+      "sha256": "e0fdf208bd624ef5004fbee3e1f60fd18fef9318d50a67255104e42ca937b1cf",
+      "crc32": "e051ad5e"
+    },
+    {
+      "path": "outputs/fast60/occ-effects/FX-triptych.mp4",
+      "bytes": 1593808,
+      "sha256": "5bb53fa12877bdb352e0953b79b72fd6869674cbc5aaf05ff10b3c1c80c9acc5",
+      "crc32": "f776f253"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/HF对照验证.json",
+      "bytes": 2266,
+      "sha256": "3c5b8645eb838920451a687555022e58d332128ada85405689a351a850484115",
+      "crc32": "30e5cf5b"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/README_工程说明.md",
+      "bytes": 6253,
+      "sha256": "9da9d28f8984d07818b147dbae903a70f4df2a079056454796af3266ba09c638",
+      "crc32": "12b966a9"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/原生特效验证.json",
+      "bytes": 4284,
+      "sha256": "a6704e2b7de7c1d4fe493e2444aeba2d9a38397fc9c15dab87501651342a58ce",
+      "crc32": "2bf30277"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/官方工程包导入回验.json",
+      "bytes": 37386,
+      "sha256": "2104622cd85f208dbe0d0b544d7a0afb0d099ae796a76456dad4223c3934e906",
+      "crc32": "156b6e94"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/官方工程包验证.json",
+      "bytes": 26598,
+      "sha256": "5bd6c982ab011367b1c4991d22e3f381b8b3833c8dde3e07cbc07d982c15e9b3",
+      "crc32": "17f21704"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/导入副本Doc.json",
+      "bytes": 109121,
+      "sha256": "2b3ac424c1a057c82e27ca56b10e875a7899e17f32fb673bfe7693fa94e7bce0",
+      "crc32": "e9a1440e"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/工程状态.json",
+      "bytes": 464,
+      "sha256": "56df0cad282f2e91e47c4d1d1c6563cf304f7fd9774de5520fbacf844b4bab49",
+      "crc32": "6ce8d410"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/弯心 APEX · 速度与激情一分钟混剪.ccproj",
+      "bytes": 176659808,
+      "sha256": "5b0778c96eced26e27f65f4599c049f0c7e5fb551ed4419e76cf5400119c59d1",
+      "crc32": "fad00e64"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/时间线核验.json",
+      "bytes": 16400,
+      "sha256": "a9844b83dd6789c443f42d0b8dca1a2247eb4bbeb65635ca098e06082eea7db0",
+      "crc32": "e64ccfc7"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/最终工程验证.json",
+      "bytes": 3957,
+      "sha256": "0be2ad762b88c180a87ff42cf0419039b98b6360e48cca78ac8f673bba43c0a0",
+      "crc32": "a5f45440"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/正式工程Doc.json",
+      "bytes": 104151,
+      "sha256": "4eeea6882e0d4518f79cd04261229e101a9234ed3b209486d3e2d3e174b0c4ba",
+      "crc32": "3a777912"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/逐镜装配验证.json",
+      "bytes": 16218,
+      "sha256": "a184e7ef76dd9f6a53da93f036ba41362b6acfcb3ae0a677352047ec66b70e0a",
+      "crc32": "3e396cec"
+    },
+    {
+      "path": "outputs/fast60/openchatcut/预览排查记录.json",
+      "bytes": 2398,
+      "sha256": "8d039976ac8a6437acce4ce29b168d9714394ab2638c97221b09f0c01869a5a7",
+      "crc32": "023168c3"
+    }
+  ]
+}

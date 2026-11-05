@@ -1,0 +1,1018 @@
+{
+  "referenceId": "V07",
+  "referenceFps": 25,
+  "referenceFrames": 751,
+  "referenceDurationSeconds": 30.04,
+  "productionDurationRule": "跟随本次V07对应库内BGM实际时长；不再固定60秒。总时间线由根制作者确定，本报告不冒称最终成片完成。",
+  "method": {
+    "viewedNativeAtlases": 13,
+    "atlasPattern": "outputs/reference-library-20261105/evidence/V07/native-001.jpg..native-013.jpg",
+    "additionalKeyframes": 86,
+    "scope": "实际查看全13页原生图谱和6组更大的关键帧图；不等同以全分辨率播放/逐像素审查751帧。",
+    "frameIndex": "所有F均0-based；参考秒数=F/25；素材fileF12为使用帧0。",
+    "sampling": "影片源按25fps邻近原帧采样，不使用光流插帧；源入点为名义秒数，采样量化误差约1输出帧。"
+  },
+  "events": [
+    {
+      "id": "T01",
+      "name": "真实手臂提前侵入，随后同帧换底",
+      "range": [
+        149,
+        170
+      ],
+      "start": 154,
+      "lastOld": 161,
+      "full": 162,
+      "observations": [
+        "F149–152旧蓝色剑刃与旧人物手仍是主体。",
+        "F153右下有很小的入画边缘；以F154为首个清楚可辨的B前臂，F156–160逐渐覆盖旧剑。",
+        "F161左边仍能见到旧蓝剑；F162换成新武器/背景，手的姿态接续；F170新人物面部展开。"
+      ],
+      "mechanism": "底层A继续播放；B手/前臂动态alpha先覆盖；B时间钟不停，在背景切点由alpha层接成同一源帧的B全幅。",
+      "motion": "参考前臂从右上侵入并转动；汽车手臂以真实转方向盘动作改编，勿把整张驾驶舱抠出。",
+      "a": {
+        "film": "04",
+        "sourceIn": 5863.1,
+        "frames": 35,
+        "description": "暖色公路车队"
+      },
+      "b": {
+        "assetId": "B01-steering",
+        "film": "03",
+        "sourceIn": 5346.56,
+        "frames": 23,
+        "description": "夜间驾驶者转方向盘，取手、前臂与必要轮缘"
+      },
+      "alpha": "B01-steering-hand由另一制作者负责；只选实际手/前臂/必要轮缘，保持原始腕部形变。",
+      "difficulty": 4,
+      "limit": "日夜与光向差异需调色；23帧能覆盖短提前量，不能任意延长或跨F36源切。",
+      "timeRangeSeconds": [
+        5.96,
+        6.8
+      ],
+      "firstClearSeconds": 6.16,
+      "lastOldSeconds": 6.44,
+      "fullBSeconds": 6.48,
+      "evidence": {
+        "reference": "work/reference-replay-v07/qc/T01-reference.jpg",
+        "referenceFrames": [
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          156,
+          158,
+          160,
+          161,
+          162,
+          163,
+          165,
+          170
+        ]
+      },
+      "confidence": {
+        "visualStructure": "高：全片13页原生图谱及关键帧大图已实际查看",
+        "firstEdge": "首个可清楚辨认帧；极小模糊边缘可能提前1帧，不假装逐像素首现测量",
+        "sourceAudio": "未知：本任务未试听电影源音"
+      }
+    },
+    {
+      "id": "T02",
+      "name": "扇面扫入、翻转和打开遮挡",
+      "range": [
+        191,
+        210
+      ],
+      "start": 193,
+      "lastOld": 208,
+      "full": 209,
+      "observations": [
+        "F191–192旧背景；F193白扇从右出现，F194横扫上部，F195到左侧，F196短暂离开左边。",
+        "F202扇尖重新靠近手，F204接近侧向薄片，F205开始朝镜头展开。",
+        "F206–208扇面越来越大，F209新白发人物已在扇后，F210动作接续。"
+      ],
+      "mechanism": "旋转物体的姿态变化与遮挡换底结合；不是圆形蒙版统一缩放。",
+      "motion": "使用B真实高速旋转轮胎；外轮胎/轮拱作为前景擦镜，轮辐转动来自原视频。只做轻微附加旋转，保持裁切顶部离画外。",
+      "a": {
+        "film": "03",
+        "sourceIn": 5340.08,
+        "frames": 35,
+        "description": "夜间山路双车追逐"
+      },
+      "b": {
+        "assetId": "B02-wheel",
+        "film": "11",
+        "sourceIn": 6061.03,
+        "frames": 25,
+        "description": "近地低机位高速轮胎"
+      },
+      "alpha": "alpha/B02-wheel共17帧，fileF12..28；实际轮胎上缘被源片裁切，不是完整圆盘，保留少量轮拱边。",
+      "difficulty": 4,
+      "limit": "轮胎不能如原扇一样完整翻面/张开；复刻对象运动先行换底的结构，扇面形变不等同汽车源片。",
+      "timeRangeSeconds": [
+        7.64,
+        8.4
+      ],
+      "firstClearSeconds": 7.72,
+      "lastOldSeconds": 8.32,
+      "fullBSeconds": 8.36,
+      "evidence": {
+        "reference": "work/reference-replay-v07/qc/T02-reference.jpg",
+        "referenceFrames": [
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          202,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210
+        ]
+      },
+      "confidence": {
+        "visualStructure": "高：全片13页原生图谱及关键帧大图已实际查看",
+        "firstEdge": "首个可清楚辨认帧；极小模糊边缘可能提前1帧，不假装逐像素首现测量",
+        "sourceAudio": "未知：本任务未试听电影源音"
+      }
+    },
+    {
+      "id": "T03",
+      "name": "金手压住旧人脸，迟一拍换成新身体",
+      "range": [
+        237,
+        260
+      ],
+      "start": 240,
+      "lastOld": 253,
+      "full": 254,
+      "observations": [
+        "F237–238旧白发人物面部；F239最下方已有很小的金色边。",
+        "F240金手从下前景清楚出现；F246手横跨人脸，F250–253仍是同一只手压在旧背景前。",
+        "F254底图变为暖色新人物躯干，F255–256手继续动作；F260装饰/光效属于所见源画面，不能断言由本剪辑新增。"
+      ],
+      "mechanism": "新镜头的真实手部先于全背景出现，旧脸与新手同屏；B全幅接续相同B帧。",
+      "motion": "红开关手从左向右按下，参考是从下方抬手；保留真实指节动作，用合成位置适配覆盖人脸。",
+      "a": {
+        "film": "04",
+        "sourceIn": 5866.16,
+        "frames": 40,
+        "description": "驾驶者近景与表情"
+      },
+      "b": {
+        "assetId": "B03-switch",
+        "film": "11",
+        "sourceIn": 3929.25,
+        "frames": 17,
+        "description": "伸手按红色开关，原角度保持"
+      },
+      "alpha": "B03-switch-hand由另一制作者负责；手/腕/袖口动态边缘，不包进开关台整块背景。",
+      "difficulty": 4,
+      "limit": "仅17帧0.68秒；fileF29是下一机位，不能把下一机位误当同手继续。运动方向是改编，不声称原参考逐姿态复刻。",
+      "timeRangeSeconds": [
+        9.48,
+        10.4
+      ],
+      "firstClearSeconds": 9.6,
+      "lastOldSeconds": 10.12,
+      "fullBSeconds": 10.16,
+      "evidence": {
+        "reference": "work/reference-replay-v07/qc/T03-reference.jpg",
+        "referenceFrames": [
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          246,
+          250,
+          252,
+          253,
+          254,
+          255,
+          256,
+          260
+        ]
+      },
+      "confidence": {
+        "visualStructure": "高：全片13页原生图谱及关键帧大图已实际查看",
+        "firstEdge": "首个可清楚辨认帧；极小模糊边缘可能提前1帧，不假装逐像素首现测量",
+        "sourceAudio": "未知：本任务未试听电影源音"
+      }
+    },
+    {
+      "id": "T04",
+      "name": "翻腕动作连接两个空间",
+      "range": [
+        402,
+        421
+      ],
+      "start": 405,
+      "lastOld": 418,
+      "full": 419,
+      "observations": [
+        "F402–404旧浅色手部。",
+        "F405蓝绿前臂从左下进入；F408–412手指展开，F414–416翻腕，F417–418向右伸展且旧手还在底下。",
+        "F419底层换为蓝色武器空间，F420–421新武器显露，手腕运动连续。"
+      ],
+      "mechanism": "B手指/手腕在源视频里的变形与旋转是核心；不能用静态手PNG旋转冒充。",
+      "motion": "换挡手、腕表和袖口是真实运动；取其握住与转腕阶段，把真实手从画外带入旧驾驶者镜头。",
+      "a": {
+        "film": "04",
+        "sourceIn": 5870.98,
+        "frames": 36,
+        "description": "女驾驶者近景"
+      },
+      "b": {
+        "assetId": "B04-gear",
+        "film": "11",
+        "sourceIn": 1949.7,
+        "frames": 13,
+        "description": "换挡手与腕表"
+      },
+      "alpha": "B04-gear-hand由另一制作者负责；13帧手/腕表/袖口，fileF12..24。",
+      "difficulty": 4,
+      "limit": "参考提前覆盖约14帧，源可用手镜头只有13帧；需缩短提前阶段或轻微重定时，不可冻结/越过F27脚踏板镜头却声称完全对齐。",
+      "timeRangeSeconds": [
+        16.08,
+        16.84
+      ],
+      "firstClearSeconds": 16.2,
+      "lastOldSeconds": 16.72,
+      "fullBSeconds": 16.76,
+      "evidence": {
+        "reference": "work/reference-replay-v07/qc/T04-reference.jpg",
+        "referenceFrames": [
+          402,
+          403,
+          404,
+          405,
+          406,
+          408,
+          410,
+          412,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421
+        ]
+      },
+      "confidence": {
+        "visualStructure": "高：全片13页原生图谱及关键帧大图已实际查看",
+        "firstEdge": "首个可清楚辨认帧；极小模糊边缘可能提前1帧，不假装逐像素首现测量",
+        "sourceAudio": "未知：本任务未试听电影源音"
+      }
+    },
+    {
+      "id": "T05",
+      "name": "新人物先落入旧屋顶，再接回新空间",
+      "range": [
+        576,
+        590
+      ],
+      "start": 578,
+      "lastOld": 583,
+      "full": 584,
+      "observations": [
+        "F576–577旧灰色屋顶。",
+        "F578腿/蓝衣人物从上侧进入，F579–581身形下降，F582–583在旧屋顶上屈身。",
+        "F584整幅切到新蓝色夜景屋顶，F585–590人物动作继续。"
+      ],
+      "mechanism": "完整B主体alpha提前6帧进入A空间，随后背景换成同源B；主体时间不能跳回开头。",
+      "motion": "以真实腾空汽车替换下落人物；从上方带入，保持车体源运动，落到新公路全幅时同一B文件帧对齐。",
+      "a": {
+        "film": "04",
+        "sourceIn": 5863.1,
+        "frames": 35,
+        "description": "公路车队作为旧空间"
+      },
+      "b": {
+        "assetId": "B05-aircar",
+        "film": "11",
+        "sourceIn": 7098,
+        "frames": 39,
+        "description": "两架直升机之间的正面腾空汽车"
+      },
+      "alpha": "alpha/B05-aircar共7帧，fileF12..18，仅真实汽车主体，排除直升机、拉索与大块天空。",
+      "difficulty": 4,
+      "limit": "原片腾空/直升机本来就是电影画面，不称本次制作的新CG；源车身约百余像素宽，过度放大不清晰。",
+      "timeRangeSeconds": [
+        23.04,
+        23.6
+      ],
+      "firstClearSeconds": 23.12,
+      "lastOldSeconds": 23.32,
+      "fullBSeconds": 23.36,
+      "evidence": {
+        "reference": "work/reference-replay-v07/qc/T05-reference.jpg",
+        "referenceFrames": [
+          576,
+          577,
+          578,
+          579,
+          580,
+          581,
+          582,
+          583,
+          584,
+          585,
+          587,
+          590
+        ]
+      },
+      "confidence": {
+        "visualStructure": "高：全片13页原生图谱及关键帧大图已实际查看",
+        "firstEdge": "首个可清楚辨认帧；极小模糊边缘可能提前1帧，不假装逐像素首现测量",
+        "sourceAudio": "未知：本任务未试听电影源音"
+      }
+    },
+    {
+      "id": "T06",
+      "name": "手指缝中的新空间放大成为全幅",
+      "range": [
+        658,
+        675
+      ],
+      "start": 665,
+      "lastOld": 673,
+      "full": 674,
+      "observations": [
+        "F658–660手势尚未张开，F662形成三角形指缝。",
+        "F664指缝内部仍偏紫蓝，F665出现很小的新人物；F666–669新人物在缝中清楚可辨。",
+        "F670–673缝内新画面放大，手指边缘保留在上层；F674全幅接到绿翼人物，F675延续。"
+      ],
+      "mechanism": "B视频只在A运动手指形成的负空间里出现；A手指前景还在；随孔洞与机位放大接成B全幅。",
+      "motion": "利用蓝车真实窗框四边形作为可跟踪孔洞，B正面冲烟汽车在窗内由小到大；保持A窗框/必要前景遮挡。",
+      "a": {
+        "assetId": "A06-sidewindow",
+        "film": "10",
+        "sourceIn": 4684.37,
+        "frames": 40,
+        "description": "蓝色汽车主侧窗，斜四边形与弧形顶沿"
+      },
+      "b": {
+        "film": "07",
+        "sourceIn": 7066.14,
+        "frames": 36,
+        "description": "正面汽车冲出烟雾"
+      },
+      "alpha": "根制作者负责透视窗口与曲线边界。四角与三关键帧见contour-geometry.json，full1920×1080，active坐标y减140。",
+      "difficulty": 5,
+      "limit": "源车窗是主车窗，不是独立三角小窗；四角是透视初始化而非精准弧形窗沿。驾驶者、后视镜等遮挡需独立判断。",
+      "timeRangeSeconds": [
+        26.32,
+        27
+      ],
+      "firstClearSeconds": 26.6,
+      "lastOldSeconds": 26.92,
+      "fullBSeconds": 26.96,
+      "evidence": {
+        "reference": "work/reference-replay-v07/qc/T06-reference.jpg",
+        "referenceFrames": [
+          658,
+          659,
+          660,
+          662,
+          664,
+          665,
+          666,
+          667,
+          668,
+          669,
+          670,
+          671,
+          672,
+          673,
+          674,
+          675
+        ]
+      },
+      "confidence": {
+        "visualStructure": "高：全片13页原生图谱及关键帧大图已实际查看",
+        "firstEdge": "首个可清楚辨认帧；极小模糊边缘可能提前1帧，不假装逐像素首现测量",
+        "sourceAudio": "未知：本任务未试听电影源音"
+      }
+    }
+  ],
+  "preparedAssets": [
+    {
+      "id": "B01-steering",
+      "film": "03",
+      "sourceIn": 5346.56,
+      "frames": 23,
+      "role": "转方向盘的手/前臂/轮缘",
+      "reference_frames": [
+        153,
+        162
+      ],
+      "asset": "B01-steering_f03_5346p56.mp4",
+      "output": "outputs/reference-replay-next/hyperframes/assets/shots/B01-steering_f03_5346p56.mp4",
+      "width": 1920,
+      "height": 1080,
+      "active_rect": {
+        "x": 0,
+        "y": 140,
+        "width": 1920,
+        "height": 800
+      },
+      "fps": 25,
+      "assetStartFrame": 12,
+      "headFrames": 12,
+      "tailFrames": 12,
+      "used_file_frames_inclusive": [
+        12,
+        34
+      ],
+      "key_file_frames": [
+        12,
+        23,
+        34
+      ],
+      "source_fps": "60/1",
+      "source_color_transfer": "bt709",
+      "source_file": "D:/速度与激情/03 速度与激情3：东京漂移（2006）4K 60帧 .mp4",
+      "source_time_formula": "sourceIn+(assetFrame-12)/25；25fps输出采用邻近原帧采样，无光流/插帧；量化误差约±1输出帧。",
+      "bytes": 1146101,
+      "sha256": "afb396eed30443c8b2098454d9c7ed4827ec2dff8c762210931c9486718cd98f",
+      "ffprobe": {
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "25/1",
+        "start_time": "0.000000",
+        "nb_read_packets": "47"
+      },
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-ss",
+          "5346.080000",
+          "-i",
+          "D:/速度与激情/03 速度与激情3：东京漂移（2006）4K 60帧 .mp4",
+          "-map",
+          "0:v:0",
+          "-an",
+          "-vf",
+          "fps=25,setpts=PTS-STARTPTS,scale=1920:-2:flags=lanczos:out_range=tv,format=yuv420p,crop=1920:800,pad=1920:1080:0:140:black,setsar=1",
+          "-frames:v",
+          "47",
+          "-c:v",
+          "libx264",
+          "-threads",
+          "1",
+          "-preset",
+          "veryfast",
+          "-crf",
+          "17",
+          "-g",
+          "25",
+          "-bf",
+          "0",
+          "-pix_fmt",
+          "yuv420p",
+          "-color_primaries",
+          "bt709",
+          "-color_trc",
+          "bt709",
+          "-colorspace",
+          "bt709",
+          "-movflags",
+          "frag_keyframe+delay_moov+default_base_moof",
+          "-f",
+          "mp4",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "B02-wheel",
+      "film": "11",
+      "sourceIn": 6061.03,
+      "frames": 25,
+      "role": "轮胎/轮拱前景",
+      "reference_frames": [
+        193,
+        209
+      ],
+      "asset": "B02-wheel_f11_6061p03.mp4",
+      "output": "outputs/reference-replay-next/hyperframes/assets/shots/B02-wheel_f11_6061p03.mp4",
+      "width": 1920,
+      "height": 1080,
+      "active_rect": {
+        "x": 0,
+        "y": 140,
+        "width": 1920,
+        "height": 800
+      },
+      "fps": 25,
+      "assetStartFrame": 12,
+      "headFrames": 12,
+      "tailFrames": 12,
+      "used_file_frames_inclusive": [
+        12,
+        36
+      ],
+      "key_file_frames": [
+        12,
+        24,
+        36
+      ],
+      "source_fps": "24000/1001",
+      "source_color_transfer": "smpte2084",
+      "source_file": "D:/速度与激情/11 速度与激情10（2023）4K.mp4",
+      "source_time_formula": "sourceIn+(assetFrame-12)/25；25fps输出采用邻近原帧采样，无光流/插帧；量化误差约±1输出帧。",
+      "bytes": 1675533,
+      "sha256": "a014c56f606812c367927061f63244232730f3acd9f9f5fd3082f17590c2f397",
+      "ffprobe": {
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "25/1",
+        "start_time": "0.000000",
+        "nb_read_packets": "49"
+      },
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-ss",
+          "6060.550000",
+          "-i",
+          "D:/速度与激情/11 速度与激情10（2023）4K.mp4",
+          "-map",
+          "0:v:0",
+          "-an",
+          "-vf",
+          "fps=25,setpts=PTS-STARTPTS,zscale=w=1920:h=-2:t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p,crop=1920:800,pad=1920:1080:0:140:black,setsar=1",
+          "-frames:v",
+          "49",
+          "-c:v",
+          "libx264",
+          "-threads",
+          "1",
+          "-preset",
+          "veryfast",
+          "-crf",
+          "17",
+          "-g",
+          "25",
+          "-bf",
+          "0",
+          "-pix_fmt",
+          "yuv420p",
+          "-color_primaries",
+          "bt709",
+          "-color_trc",
+          "bt709",
+          "-colorspace",
+          "bt709",
+          "-movflags",
+          "frag_keyframe+delay_moov+default_base_moof",
+          "-f",
+          "mp4",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "B03-switch",
+      "film": "11",
+      "sourceIn": 3929.25,
+      "frames": 17,
+      "role": "红开关上的手/腕",
+      "reference_frames": [
+        239,
+        254
+      ],
+      "asset": "B03-switch_f11_3929p25.mp4",
+      "output": "outputs/reference-replay-next/hyperframes/assets/shots/B03-switch_f11_3929p25.mp4",
+      "width": 1920,
+      "height": 1080,
+      "active_rect": {
+        "x": 0,
+        "y": 140,
+        "width": 1920,
+        "height": 800
+      },
+      "fps": 25,
+      "assetStartFrame": 12,
+      "headFrames": 12,
+      "tailFrames": 12,
+      "used_file_frames_inclusive": [
+        12,
+        28
+      ],
+      "key_file_frames": [
+        12,
+        20,
+        28
+      ],
+      "source_fps": "24000/1001",
+      "source_color_transfer": "smpte2084",
+      "source_file": "D:/速度与激情/11 速度与激情10（2023）4K.mp4",
+      "source_time_formula": "sourceIn+(assetFrame-12)/25；25fps输出采用邻近原帧采样，无光流/插帧；量化误差约±1输出帧。",
+      "bytes": 1011182,
+      "sha256": "5b0e380be67dbd8529e1b155887976e60ba6129e27936ebc8d246b7453960943",
+      "ffprobe": {
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "25/1",
+        "start_time": "0.000000",
+        "nb_read_packets": "41"
+      },
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-ss",
+          "3928.770000",
+          "-i",
+          "D:/速度与激情/11 速度与激情10（2023）4K.mp4",
+          "-map",
+          "0:v:0",
+          "-an",
+          "-vf",
+          "fps=25,setpts=PTS-STARTPTS,zscale=w=1920:h=-2:t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p,crop=1920:800,pad=1920:1080:0:140:black,setsar=1",
+          "-frames:v",
+          "41",
+          "-c:v",
+          "libx264",
+          "-threads",
+          "1",
+          "-preset",
+          "veryfast",
+          "-crf",
+          "17",
+          "-g",
+          "25",
+          "-bf",
+          "0",
+          "-pix_fmt",
+          "yuv420p",
+          "-color_primaries",
+          "bt709",
+          "-color_trc",
+          "bt709",
+          "-colorspace",
+          "bt709",
+          "-movflags",
+          "frag_keyframe+delay_moov+default_base_moof",
+          "-f",
+          "mp4",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "B04-gear",
+      "film": "11",
+      "sourceIn": 1949.7,
+      "frames": 13,
+      "role": "换挡手/腕表/袖口",
+      "reference_frames": [
+        405,
+        419
+      ],
+      "asset": "B04-gear_f11_1949p70.mp4",
+      "output": "outputs/reference-replay-next/hyperframes/assets/shots/B04-gear_f11_1949p70.mp4",
+      "width": 1920,
+      "height": 1080,
+      "active_rect": {
+        "x": 0,
+        "y": 140,
+        "width": 1920,
+        "height": 800
+      },
+      "fps": 25,
+      "assetStartFrame": 12,
+      "headFrames": 12,
+      "tailFrames": 12,
+      "used_file_frames_inclusive": [
+        12,
+        24
+      ],
+      "key_file_frames": [
+        12,
+        18,
+        24
+      ],
+      "source_fps": "24000/1001",
+      "source_color_transfer": "smpte2084",
+      "source_file": "D:/速度与激情/11 速度与激情10（2023）4K.mp4",
+      "source_time_formula": "sourceIn+(assetFrame-12)/25；25fps输出采用邻近原帧采样，无光流/插帧；量化误差约±1输出帧。",
+      "bytes": 1271057,
+      "sha256": "7280f9ad992cf2a5da4ba9c7f118c916cc2b8ab4bbd8916cdb885791442e5105",
+      "ffprobe": {
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "25/1",
+        "start_time": "0.000000",
+        "nb_read_packets": "37"
+      },
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-ss",
+          "1949.220000",
+          "-i",
+          "D:/速度与激情/11 速度与激情10（2023）4K.mp4",
+          "-map",
+          "0:v:0",
+          "-an",
+          "-vf",
+          "fps=25,setpts=PTS-STARTPTS,zscale=w=1920:h=-2:t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p,crop=1920:800,pad=1920:1080:0:140:black,setsar=1",
+          "-frames:v",
+          "37",
+          "-c:v",
+          "libx264",
+          "-threads",
+          "1",
+          "-preset",
+          "veryfast",
+          "-crf",
+          "17",
+          "-g",
+          "25",
+          "-bf",
+          "0",
+          "-pix_fmt",
+          "yuv420p",
+          "-color_primaries",
+          "bt709",
+          "-color_trc",
+          "bt709",
+          "-colorspace",
+          "bt709",
+          "-movflags",
+          "frag_keyframe+delay_moov+default_base_moof",
+          "-f",
+          "mp4",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "B05-aircar",
+      "film": "11",
+      "sourceIn": 7098,
+      "frames": 39,
+      "role": "两直升机间实际汽车车身",
+      "reference_frames": [
+        578,
+        584
+      ],
+      "asset": "B05-aircar_f11_7098p00.mp4",
+      "output": "outputs/reference-replay-next/hyperframes/assets/shots/B05-aircar_f11_7098p00.mp4",
+      "width": 1920,
+      "height": 1080,
+      "active_rect": {
+        "x": 0,
+        "y": 140,
+        "width": 1920,
+        "height": 800
+      },
+      "fps": 25,
+      "assetStartFrame": 12,
+      "headFrames": 12,
+      "tailFrames": 12,
+      "used_file_frames_inclusive": [
+        12,
+        50
+      ],
+      "key_file_frames": [
+        12,
+        31,
+        50
+      ],
+      "source_fps": "24000/1001",
+      "source_color_transfer": "smpte2084",
+      "source_file": "D:/速度与激情/11 速度与激情10（2023）4K.mp4",
+      "source_time_formula": "sourceIn+(assetFrame-12)/25；25fps输出采用邻近原帧采样，无光流/插帧；量化误差约±1输出帧。",
+      "bytes": 2081725,
+      "sha256": "e186adf54f3447679d006cd0949d6ba8737da9b06fb8eede1ae9075adea8e222",
+      "ffprobe": {
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "25/1",
+        "start_time": "0.000000",
+        "nb_read_packets": "63"
+      },
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-ss",
+          "7097.520000",
+          "-i",
+          "D:/速度与激情/11 速度与激情10（2023）4K.mp4",
+          "-map",
+          "0:v:0",
+          "-an",
+          "-vf",
+          "fps=25,setpts=PTS-STARTPTS,zscale=w=1920:h=-2:t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p,crop=1920:800,pad=1920:1080:0:140:black,setsar=1",
+          "-frames:v",
+          "63",
+          "-c:v",
+          "libx264",
+          "-threads",
+          "1",
+          "-preset",
+          "veryfast",
+          "-crf",
+          "17",
+          "-g",
+          "25",
+          "-bf",
+          "0",
+          "-pix_fmt",
+          "yuv420p",
+          "-color_primaries",
+          "bt709",
+          "-color_trc",
+          "bt709",
+          "-colorspace",
+          "bt709",
+          "-movflags",
+          "frag_keyframe+delay_moov+default_base_moof",
+          "-f",
+          "mp4",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "A06-sidewindow",
+      "film": "10",
+      "sourceIn": 4684.37,
+      "frames": 40,
+      "role": "蓝车侧窗四边形/斜角窗框",
+      "reference_frames": [
+        665,
+        674
+      ],
+      "asset": "A06-sidewindow_f10_4684p37.mp4",
+      "output": "outputs/reference-replay-next/hyperframes/assets/shots/A06-sidewindow_f10_4684p37.mp4",
+      "width": 1920,
+      "height": 1080,
+      "active_rect": {
+        "x": 0,
+        "y": 140,
+        "width": 1920,
+        "height": 800
+      },
+      "fps": 25,
+      "assetStartFrame": 12,
+      "headFrames": 12,
+      "tailFrames": 12,
+      "used_file_frames_inclusive": [
+        12,
+        51
+      ],
+      "key_file_frames": [
+        12,
+        31,
+        51
+      ],
+      "source_fps": "120/1",
+      "source_color_transfer": "bt709",
+      "source_file": "D:/速度与激情/10 速度与激情9（2021）4K 120帧.mkv",
+      "source_time_formula": "sourceIn+(assetFrame-12)/25；25fps输出采用邻近原帧采样，无光流/插帧；量化误差约±1输出帧。",
+      "bytes": 1400387,
+      "sha256": "632777ed86d4f103f38c5b4b25b100eea671e9f53b90bcb16e90edc5d32c6d51",
+      "ffprobe": {
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "25/1",
+        "start_time": "0.000000",
+        "nb_read_packets": "64"
+      },
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-ss",
+          "4683.890000",
+          "-i",
+          "D:/速度与激情/10 速度与激情9（2021）4K 120帧.mkv",
+          "-map",
+          "0:v:0",
+          "-an",
+          "-vf",
+          "fps=25,setpts=PTS-STARTPTS,scale=1920:-2:flags=lanczos:out_range=tv,format=yuv420p,crop=1920:800,pad=1920:1080:0:140:black,setsar=1",
+          "-frames:v",
+          "64",
+          "-c:v",
+          "libx264",
+          "-threads",
+          "1",
+          "-preset",
+          "veryfast",
+          "-crf",
+          "17",
+          "-g",
+          "25",
+          "-bf",
+          "0",
+          "-pix_fmt",
+          "yuv420p",
+          "-color_primaries",
+          "bt709",
+          "-color_trc",
+          "bt709",
+          "-colorspace",
+          "bt709",
+          "-movflags",
+          "frag_keyframe+delay_moov+default_base_moof",
+          "-f",
+          "mp4",
+          "pipe:1"
+        ]
+      }
+    }
+  ],
+  "geometry": {
+    "file": "work/reference-replay-v07/contour-geometry.json",
+    "coordinates": "full1920×1080；active1920×800在y140；active_points已减140",
+    "status": "9组人工初始化轮廓图已生成；最终车体/轮胎alpha另列，不把初始折线称精确matte。"
+  },
+  "completedVehicleAlpha": [
+    {
+      "id": "B02-wheel",
+      "directory": "outputs/reference-replay-next/hyperframes/assets/alpha/B02-wheel",
+      "frames": 17,
+      "sourceFrameIndices": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "manualKeyframes": [
+        0,
+        4,
+        8,
+        12,
+        16
+      ],
+      "mode": "grabcut",
+      "flow": "lk",
+      "qc": "实际查看完整逐帧原图/棋盘格/alpha三联，未发现矩形背景块；保留原源运动模糊，细边不宣称逐像素无误。",
+      "fullCanvas": [
+        1920,
+        1080
+      ],
+      "sequenceStartsAt": "000000.png"
+    },
+    {
+      "id": "B05-aircar",
+      "directory": "outputs/reference-replay-next/hyperframes/assets/alpha/B05-aircar",
+      "frames": 7,
+      "sourceFrameIndices": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "manualKeyframes": [
+        0,
+        3,
+        6
+      ],
+      "mode": "grabcut",
+      "flow": "lk",
+      "qc": "实际查看完整逐帧原图/棋盘格/alpha三联，未发现矩形背景块；保留原源运动模糊，细边不宣称逐像素无误。",
+      "fullCanvas": [
+        1920,
+        1080
+      ],
+      "sequenceStartsAt": "000000.png"
+    }
+  ],
+  "limitations": [
+    "从最终MP4无法可靠区分所有电影原生CG与混剪者新增合成，不承诺原工程100%还原。",
+    "本次已完成6个实际源素材、2组透明PNG与分析；其他手alpha和总合成由团队其他成员完成，不在此冒称已验证。",
+    "sourceIn与长度仅保证已抽看窗口；前后12帧余量可能包含原镜切，不自动视为可扩大使用范围。",
+    "全部新素材均静音；源音性质未在本子任务试听，BGM与声效由总时间线另行处理。"
+  ]
+}

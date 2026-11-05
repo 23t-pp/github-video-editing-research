@@ -1,0 +1,3573 @@
+{
+  "scope": "人工看过13组5秒间隔联系表后挑选的静帧锚点；不是已取回成片镜头，不冒充动态或alpha验收。",
+  "criteria": {
+    "identity": "画面发型/衣着/脸部与上下文一致才给人物名，非识别分值",
+    "cutoutFeasibility": "high=主体较完整且背景分离；medium=有裁切/接触/同色边；low=发光/混叠/极近裁切，不作为抠像首选。仅构图预判。",
+    "motion": "单张不能验证运动方向，全部保留unknown，执行取回短片后审核",
+    "palette": "按已看联系表中的主色类别人工标注，非逐像素测色",
+    "window": "anchor前0.5秒后1秒仅作检索范围，执行需按源PTS和原切定位。"
+  },
+  "count": 97,
+  "items": [
+    {
+      "id": "S1C001",
+      "episode": 4,
+      "sourceId": "S1E04",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/04.mp4",
+      "anchorSeconds": 990,
+      "suggestedSearchWindowSeconds": [
+        989.5,
+        991
+      ],
+      "characters": [
+        "宿傩",
+        "咒灵"
+      ],
+      "visibleActionOrPose": "两人对峙",
+      "shotSize": "全景",
+      "dominantPalette": "暗绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E04-0990/0990.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E04-0990.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C002",
+      "episode": 4,
+      "sourceId": "S1E04",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/04.mp4",
+      "anchorSeconds": 1025,
+      "suggestedSearchWindowSeconds": [
+        1024.5,
+        1026
+      ],
+      "characters": [
+        "咒灵"
+      ],
+      "visibleActionOrPose": "掌前能量球",
+      "shotSize": "中景",
+      "dominantPalette": "暗绿/冷青",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "medium",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E04-0990/1025.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E04-0990.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C003",
+      "episode": 4,
+      "sourceId": "S1E04",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/04.mp4",
+      "anchorSeconds": 1030,
+      "suggestedSearchWindowSeconds": [
+        1029.5,
+        1031
+      ],
+      "characters": [
+        "宿傩"
+      ],
+      "visibleActionOrPose": "张掌靠近镜头",
+      "shotSize": "近景",
+      "dominantPalette": "暗绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "张掌向镜头展开/画面右侧能量增亮",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E04-0990/1030.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E04-0990.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-01.jpg",
+      "recommendedCoreSearchSeconds": [
+        1029.6,
+        1030.25
+      ],
+      "motionCaveat": "末段切到能量球，取掌段"
+    },
+    {
+      "id": "S1C004",
+      "episode": 4,
+      "sourceId": "S1E04",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/04.mp4",
+      "anchorSeconds": 1050,
+      "suggestedSearchWindowSeconds": [
+        1049.5,
+        1051
+      ],
+      "characters": [
+        "宿傩"
+      ],
+      "visibleActionOrPose": "手臂横向展开",
+      "shotSize": "中景",
+      "dominantPalette": "暗绿/冷青",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "横臂基本稳定，手部向侧面微动",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E04-0990/1050.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E04-0990.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-01.jpg",
+      "recommendedCoreSearchSeconds": [
+        1049.6,
+        1050.3
+      ],
+      "motionCaveat": "末段原切到咒灵全身"
+    },
+    {
+      "id": "S1C005",
+      "episode": 4,
+      "sourceId": "S1E04",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/04.mp4",
+      "anchorSeconds": 1065,
+      "suggestedSearchWindowSeconds": [
+        1064.5,
+        1066
+      ],
+      "characters": [
+        "宿傩"
+      ],
+      "visibleActionOrPose": "正面抬头",
+      "shotSize": "中景",
+      "dominantPalette": "暗绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "头部向上/口部动作",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E04-0990/1065.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E04-0990.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-01.jpg",
+      "recommendedCoreSearchSeconds": [
+        1064.6,
+        1065.9
+      ],
+      "motionCaveat": "无明显切镜（4点抽检）"
+    },
+    {
+      "id": "S1C006",
+      "episode": 4,
+      "sourceId": "S1E04",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/04.mp4",
+      "anchorSeconds": 1085,
+      "suggestedSearchWindowSeconds": [
+        1084.5,
+        1086
+      ],
+      "characters": [
+        "咒灵"
+      ],
+      "visibleActionOrPose": "咆哮",
+      "shotSize": "近景",
+      "dominantPalette": "暗绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "medium",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E04-0990/1085.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E04-0990.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C007",
+      "episode": 4,
+      "sourceId": "S1E04",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/04.mp4",
+      "anchorSeconds": 1090,
+      "suggestedSearchWindowSeconds": [
+        1089.5,
+        1091
+      ],
+      "characters": [
+        "咒灵"
+      ],
+      "visibleActionOrPose": "建筑向外爆裂",
+      "shotSize": "全景",
+      "dominantPalette": "暗绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "medium",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E04-0990/1090.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E04-0990.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C008",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 325,
+      "suggestedSearchWindowSeconds": [
+        324.5,
+        326
+      ],
+      "characters": [
+        "宿傩"
+      ],
+      "visibleActionOrPose": "独立全身站姿",
+      "shotSize": "全景",
+      "dominantPalette": "灰蓝/黑夜",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "近乎静止站姿",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "high",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0320/0325.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-01.jpg",
+      "recommendedCoreSearchSeconds": [
+        324.6,
+        325.9
+      ],
+      "motionCaveat": "适合抠像/构图，非高速动作"
+    },
+    {
+      "id": "S1C009",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 335,
+      "suggestedSearchWindowSeconds": [
+        334.5,
+        336
+      ],
+      "characters": [
+        "宿傩"
+      ],
+      "visibleActionOrPose": "双臂举过头部",
+      "shotSize": "中景",
+      "dominantPalette": "灰蓝/黑夜",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "双肘向外/轻微抬头",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "high",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0320/0335.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-01.jpg",
+      "recommendedCoreSearchSeconds": [
+        334.6,
+        335.9
+      ],
+      "motionCaveat": "轮廓清楚"
+    },
+    {
+      "id": "S1C010",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 340,
+      "suggestedSearchWindowSeconds": [
+        339.5,
+        341
+      ],
+      "characters": [
+        "宿傩",
+        "伏黑"
+      ],
+      "visibleActionOrPose": "近身交击",
+      "shotSize": "全景",
+      "dominantPalette": "灰蓝/黑夜",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "两人横向近身交击",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0320/0340.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-01.jpg",
+      "recommendedCoreSearchSeconds": [
+        339.6,
+        340.9
+      ],
+      "motionCaveat": "动作复杂，逐源帧定相位"
+    },
+    {
+      "id": "S1C011",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 345,
+      "suggestedSearchWindowSeconds": [
+        344.5,
+        346
+      ],
+      "characters": [
+        "宿傩"
+      ],
+      "visibleActionOrPose": "正面微笑",
+      "shotSize": "特写",
+      "dominantPalette": "灰蓝/黑夜",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "脸部抬起/画幅趋正",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0320/0345.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-01.jpg",
+      "recommendedCoreSearchSeconds": [
+        344.6,
+        345.9
+      ],
+      "motionCaveat": "适合表情接镜"
+    },
+    {
+      "id": "S1C012",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 350,
+      "suggestedSearchWindowSeconds": [
+        349.5,
+        351
+      ],
+      "characters": [
+        "伏黑"
+      ],
+      "visibleActionOrPose": "挥拳背面",
+      "shotSize": "近景",
+      "dominantPalette": "灰蓝/黑夜",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "伏黑右拳前伸，主体朝屏幕左侧",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0320/0350.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-01.jpg",
+      "recommendedCoreSearchSeconds": [
+        349.6,
+        350.9
+      ],
+      "motionCaveat": "近乎动画hold，需相位检查"
+    },
+    {
+      "id": "S1C013",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 365,
+      "suggestedSearchWindowSeconds": [
+        364.5,
+        366
+      ],
+      "characters": [
+        "宿傩",
+        "伏黑"
+      ],
+      "visibleActionOrPose": "拳臂交击",
+      "shotSize": "中景",
+      "dominantPalette": "灰蓝/黑夜",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "伏黑朝右上侧翻/宿傩手臂伸直",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0320/0365.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-02.jpg",
+      "recommendedCoreSearchSeconds": [
+        365.0,
+        365.9
+      ],
+      "motionCaveat": "开头是另一景别，跳过"
+    },
+    {
+      "id": "S1C014",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 370,
+      "suggestedSearchWindowSeconds": [
+        369.5,
+        371
+      ],
+      "characters": [
+        "宿傩"
+      ],
+      "visibleActionOrPose": "红眼近景",
+      "shotSize": "特写",
+      "dominantPalette": "灰蓝/黑夜",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "红眼微动/脸基本稳定",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0320/0370.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-02.jpg",
+      "recommendedCoreSearchSeconds": [
+        369.6,
+        370.9
+      ],
+      "motionCaveat": "适合眼形匹配"
+    },
+    {
+      "id": "S1C015",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 375,
+      "suggestedSearchWindowSeconds": [
+        374.5,
+        376
+      ],
+      "characters": [
+        "式神"
+      ],
+      "visibleActionOrPose": "白色头部与红眼",
+      "shotSize": "特写",
+      "dominantPalette": "灰蓝/黑夜",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "medium",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0320/0375.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C016",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 390,
+      "suggestedSearchWindowSeconds": [
+        389.5,
+        391
+      ],
+      "characters": [
+        "式神"
+      ],
+      "visibleActionOrPose": "白蛇与鵺雷光展翼",
+      "shotSize": "全景",
+      "dominantPalette": "灰蓝/黑夜",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "白蛇抬首/鸟翼上升再下落",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "medium",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0320/0390.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-02.jpg",
+      "recommendedCoreSearchSeconds": [
+        389.6,
+        390.9
+      ],
+      "motionCaveat": "人物标签仅式神；非单独鵺全景"
+    },
+    {
+      "id": "S1C017",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 405,
+      "suggestedSearchWindowSeconds": [
+        404.5,
+        406
+      ],
+      "characters": [
+        "伏黑"
+      ],
+      "visibleActionOrPose": "低姿前探",
+      "shotSize": "近景",
+      "dominantPalette": "灰蓝/黑夜",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "伏黑向镜头低头前冲",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0320/0405.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-02.jpg",
+      "recommendedCoreSearchSeconds": [
+        404.6,
+        405.1
+      ],
+      "motionCaveat": "后段切远景，保留近景段"
+    },
+    {
+      "id": "S1C018",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 430,
+      "suggestedSearchWindowSeconds": [
+        429.5,
+        431
+      ],
+      "characters": [
+        "式神"
+      ],
+      "visibleActionOrPose": "鵺向下悬落",
+      "shotSize": "全景",
+      "dominantPalette": "灰蓝/黑夜",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "medium",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0320/0430.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C019",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 435,
+      "suggestedSearchWindowSeconds": [
+        434.5,
+        436
+      ],
+      "characters": [
+        "宿傩"
+      ],
+      "visibleActionOrPose": "手臂抬至肩前",
+      "shotSize": "中景",
+      "dominantPalette": "灰蓝/黑夜",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "宿傩肩臂基本稳定",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "high",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0320/0435.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-02.jpg",
+      "recommendedCoreSearchSeconds": [
+        434.6,
+        435.3
+      ],
+      "motionCaveat": "末段原切到飞鸟"
+    },
+    {
+      "id": "S1C020",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 555,
+      "suggestedSearchWindowSeconds": [
+        554.5,
+        556
+      ],
+      "characters": [
+        "伏黑"
+      ],
+      "visibleActionOrPose": "青光手掌张开",
+      "shotSize": "局部",
+      "dominantPalette": "冷青/灰黑",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "手指向画面左侧张开",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0520/0555.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-02.jpg",
+      "recommendedCoreSearchSeconds": [
+        554.6,
+        555.9
+      ],
+      "motionCaveat": "持续青光，适合手势接镜"
+    },
+    {
+      "id": "S1C021",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 590,
+      "suggestedSearchWindowSeconds": [
+        589.5,
+        591
+      ],
+      "characters": [
+        "伏黑"
+      ],
+      "visibleActionOrPose": "青光手势近景",
+      "shotSize": "局部",
+      "dominantPalette": "冷青/灰黑",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "手部沿右侧上移/伏黑脸逐渐露出",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0520/0590.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-02.jpg",
+      "recommendedCoreSearchSeconds": [
+        589.6,
+        590.9
+      ],
+      "motionCaveat": "强光边难抠，窗口更可靠"
+    },
+    {
+      "id": "S1C022",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 595,
+      "suggestedSearchWindowSeconds": [
+        594.5,
+        596
+      ],
+      "characters": [
+        "伏黑"
+      ],
+      "visibleActionOrPose": "眼部正面",
+      "shotSize": "特写",
+      "dominantPalette": "冷青/灰黑",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "伏黑眼部基本稳定",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0520/0595.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-02.jpg",
+      "recommendedCoreSearchSeconds": [
+        594.6,
+        595.3
+      ],
+      "motionCaveat": "末段原切到宿傩眼部"
+    },
+    {
+      "id": "S1C023",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 600,
+      "suggestedSearchWindowSeconds": [
+        599.5,
+        601
+      ],
+      "characters": [
+        "宿傩"
+      ],
+      "visibleActionOrPose": "正面微笑",
+      "shotSize": "特写",
+      "dominantPalette": "冷青/灰黑",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0520/0600.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C024",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 610,
+      "suggestedSearchWindowSeconds": [
+        609.5,
+        611
+      ],
+      "characters": [
+        "宿傩"
+      ],
+      "visibleActionOrPose": "双臂向两侧展开",
+      "shotSize": "中景",
+      "dominantPalette": "冷青/灰黑",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "双掌向左右外展后回落",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "high",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0520/0610.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-03.jpg",
+      "recommendedCoreSearchSeconds": [
+        609.6,
+        610.9
+      ],
+      "motionCaveat": "适合开合动作"
+    },
+    {
+      "id": "S1C025",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 615,
+      "suggestedSearchWindowSeconds": [
+        614.5,
+        616
+      ],
+      "characters": [
+        "宿傩"
+      ],
+      "visibleActionOrPose": "张口大笑",
+      "shotSize": "特写",
+      "dominantPalette": "冷青/灰黑",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0520/0615.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C026",
+      "episode": 5,
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "anchorSeconds": 630,
+      "suggestedSearchWindowSeconds": [
+        629.5,
+        631
+      ],
+      "characters": [
+        "伏黑"
+      ],
+      "visibleActionOrPose": "双手指节相合",
+      "shotSize": "近景",
+      "dominantPalette": "冷青/灰黑",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "双手合在下巴前/基本静止",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E05-0520/0630.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-03.jpg",
+      "recommendedCoreSearchSeconds": [
+        629.6,
+        630.9
+      ],
+      "motionCaveat": "适合手形接镜"
+    },
+    {
+      "id": "S1C027",
+      "episode": 7,
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "anchorSeconds": 245,
+      "suggestedSearchWindowSeconds": [
+        244.5,
+        246
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "双指抬起",
+      "shotSize": "中景",
+      "dominantPalette": "冷蓝/深绿",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "双指转为单指/镜头略推近",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "high",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E07-0240/0245.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-03.jpg",
+      "recommendedCoreSearchSeconds": [
+        244.6,
+        245.9
+      ],
+      "motionCaveat": "动作完整，适合手势匹配"
+    },
+    {
+      "id": "S1C028",
+      "episode": 7,
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "anchorSeconds": 255,
+      "suggestedSearchWindowSeconds": [
+        254.5,
+        256
+      ],
+      "characters": [
+        "咒灵"
+      ],
+      "visibleActionOrPose": "手指近景",
+      "shotSize": "局部",
+      "dominantPalette": "冷蓝/深绿",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "medium",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E07-0240/0255.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C029",
+      "episode": 7,
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "anchorSeconds": 270,
+      "suggestedSearchWindowSeconds": [
+        269.5,
+        271
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "低头侧脸",
+      "shotSize": "近景",
+      "dominantPalette": "冷蓝/深绿",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "五条微侧脸/眼罩轮廓稳定",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E07-0240/0270.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-03.jpg",
+      "recommendedCoreSearchSeconds": [
+        270.0,
+        270.9
+      ],
+      "motionCaveat": "前0.4秒含远景切换，跳过"
+    },
+    {
+      "id": "S1C030",
+      "episode": 7,
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "anchorSeconds": 280,
+      "suggestedSearchWindowSeconds": [
+        279.5,
+        281
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "指尖紫红能量束",
+      "shotSize": "局部",
+      "dominantPalette": "冷蓝/深绿",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "指尖向右射光束",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E07-0240/0280.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-03.jpg",
+      "recommendedCoreSearchSeconds": [
+        279.95,
+        280.25
+      ],
+      "motionCaveat": "后切漏瑚远景；短局部高能峰值"
+    },
+    {
+      "id": "S1C031",
+      "episode": 7,
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "anchorSeconds": 320,
+      "suggestedSearchWindowSeconds": [
+        319.5,
+        321
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "抬头正面",
+      "shotSize": "中景",
+      "dominantPalette": "冷蓝/深绿",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "从抬头回到正面",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "high",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E07-0240/0320.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-03.jpg",
+      "recommendedCoreSearchSeconds": [
+        319.6,
+        320.9
+      ],
+      "motionCaveat": "较静，适合版式窗口"
+    },
+    {
+      "id": "S1C032",
+      "episode": 7,
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "anchorSeconds": 330,
+      "suggestedSearchWindowSeconds": [
+        329.5,
+        331
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "抬指靠近额头",
+      "shotSize": "近景",
+      "dominantPalette": "冷蓝/深绿",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "手指额侧/嘴部小动作",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E07-0240/0330.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-03.jpg",
+      "recommendedCoreSearchSeconds": [
+        329.6,
+        330.9
+      ],
+      "motionCaveat": "较静，适合标签排版"
+    },
+    {
+      "id": "S1C033",
+      "episode": 7,
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "anchorSeconds": 340,
+      "suggestedSearchWindowSeconds": [
+        339.5,
+        341
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "手掌朝镜头",
+      "shotSize": "近景",
+      "dominantPalette": "冷蓝/深绿",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "手掌面向镜头张开",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E07-0240/0340.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-03.jpg",
+      "recommendedCoreSearchSeconds": [
+        339.6,
+        340.1
+      ],
+      "motionCaveat": "后原切到漏瑚，不能全1.5s使用"
+    },
+    {
+      "id": "S1C034",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 115,
+      "suggestedSearchWindowSeconds": [
+        114.5,
+        116
+      ],
+      "characters": [
+        "真希"
+      ],
+      "visibleActionOrPose": "长杆横挥",
+      "shotSize": "中景",
+      "dominantPalette": "鲜绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "长杆斜向上转起",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0100/0115.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-04.jpg",
+      "recommendedCoreSearchSeconds": [
+        114.6,
+        115.9
+      ],
+      "motionCaveat": "同镜连续旋杆"
+    },
+    {
+      "id": "S1C035",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 120,
+      "suggestedSearchWindowSeconds": [
+        119.5,
+        121
+      ],
+      "characters": [
+        "三轮"
+      ],
+      "visibleActionOrPose": "持刀防御",
+      "shotSize": "近景",
+      "dominantPalette": "鲜绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0100/0120.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C036",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 125,
+      "suggestedSearchWindowSeconds": [
+        124.5,
+        126
+      ],
+      "characters": [
+        "真希"
+      ],
+      "visibleActionOrPose": "武器擦身",
+      "shotSize": "局部",
+      "dominantPalette": "鲜绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0100/0125.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C037",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 130,
+      "suggestedSearchWindowSeconds": [
+        129.5,
+        131
+      ],
+      "characters": [
+        "真希"
+      ],
+      "visibleActionOrPose": "横向挥杆",
+      "shotSize": "中景",
+      "dominantPalette": "鲜绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "长杆由左上扫至右下前景",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0100/0130.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-04.jpg",
+      "recommendedCoreSearchSeconds": [
+        129.6,
+        130.6
+      ],
+      "motionCaveat": "运动遮挡强，不宜整人alpha"
+    },
+    {
+      "id": "S1C038",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 135,
+      "suggestedSearchWindowSeconds": [
+        134.5,
+        136
+      ],
+      "characters": [
+        "三轮"
+      ],
+      "visibleActionOrPose": "三轮腾空跨步（动态预检纠正静帧初判真希）",
+      "shotSize": "全景",
+      "dominantPalette": "鲜绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "三轮身体由左向右跃起/腿靠近镜头",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0100/0135.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-04.jpg",
+      "recommendedCoreSearchSeconds": [
+        134.6,
+        135.6
+      ],
+      "motionCaveat": "已纠正人物；后景真希不可混淆"
+    },
+    {
+      "id": "S1C039",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 140,
+      "suggestedSearchWindowSeconds": [
+        139.5,
+        141
+      ],
+      "characters": [
+        "真希"
+      ],
+      "visibleActionOrPose": "手持武器侧视",
+      "shotSize": "中景",
+      "dominantPalette": "鲜绿/冷青",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "真希从前景刀后侧视",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "high",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0100/0140.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-04.jpg",
+      "recommendedCoreSearchSeconds": [
+        139.6,
+        140.3
+      ],
+      "motionCaveat": "后段切新角度"
+    },
+    {
+      "id": "S1C040",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 165,
+      "suggestedSearchWindowSeconds": [
+        164.5,
+        166
+      ],
+      "characters": [
+        "三轮"
+      ],
+      "visibleActionOrPose": "瞪眼正面",
+      "shotSize": "特写",
+      "dominantPalette": "鲜绿/冷青",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0100/0165.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C041",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 180,
+      "suggestedSearchWindowSeconds": [
+        179.5,
+        181
+      ],
+      "characters": [
+        "三轮"
+      ],
+      "visibleActionOrPose": "刀刃青光",
+      "shotSize": "局部",
+      "dominantPalette": "鲜绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0100/0180.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C042",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 205,
+      "suggestedSearchWindowSeconds": [
+        204.5,
+        206
+      ],
+      "characters": [
+        "真希"
+      ],
+      "visibleActionOrPose": "长杆前击",
+      "shotSize": "中景",
+      "dominantPalette": "鲜绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "真希双杆由头顶下落分开",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0100/0205.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-04.jpg",
+      "recommendedCoreSearchSeconds": [
+        204.6,
+        205.3
+      ],
+      "motionCaveat": "后段原切三轮脸"
+    },
+    {
+      "id": "S1C043",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 210,
+      "suggestedSearchWindowSeconds": [
+        209.5,
+        211
+      ],
+      "characters": [
+        "三轮"
+      ],
+      "visibleActionOrPose": "脸侧撞击火花",
+      "shotSize": "特写",
+      "dominantPalette": "鲜绿/冷青",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0100/0210.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C044",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 430,
+      "suggestedSearchWindowSeconds": [
+        429.5,
+        431
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "钉子悬浮脸前",
+      "shotSize": "近景",
+      "dominantPalette": "鲜绿/青蓝",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0420/0430.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0420.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C045",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 435,
+      "suggestedSearchWindowSeconds": [
+        434.5,
+        436
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "尘雾中下坠",
+      "shotSize": "全景",
+      "dominantPalette": "鲜绿/青蓝",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0420/0435.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0420.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C046",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 440,
+      "suggestedSearchWindowSeconds": [
+        439.5,
+        441
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "正面自信微笑",
+      "shotSize": "特写",
+      "dominantPalette": "鲜绿/青蓝",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "钉崎微笑/轻微抬眼",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0420/0440.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0420.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-04.jpg",
+      "recommendedCoreSearchSeconds": [
+        439.6,
+        440.9
+      ],
+      "motionCaveat": "表情稳定，适合透明半身"
+    },
+    {
+      "id": "S1C047",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 445,
+      "suggestedSearchWindowSeconds": [
+        444.5,
+        446
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "手擦额头",
+      "shotSize": "近景",
+      "dominantPalette": "鲜绿/青蓝",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0420/0445.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0420.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C048",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 495,
+      "suggestedSearchWindowSeconds": [
+        494.5,
+        496
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "背面挥锤",
+      "shotSize": "中景",
+      "dominantPalette": "鲜绿/青蓝",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "钉崎锤臂由右向左挥出",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0420/0495.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0420.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-04.jpg",
+      "recommendedCoreSearchSeconds": [
+        495.0,
+        495.9
+      ],
+      "motionCaveat": "前段手部特写原切到背面"
+    },
+    {
+      "id": "S1C049",
+      "episode": 17,
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "anchorSeconds": 505,
+      "suggestedSearchWindowSeconds": [
+        504.5,
+        506
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "正面怒视",
+      "shotSize": "近景",
+      "dominantPalette": "鲜绿/青蓝",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "钉崎正面口部动作",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E17-0420/0505.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E17-0420.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-04.jpg",
+      "recommendedCoreSearchSeconds": [
+        504.6,
+        505.9
+      ],
+      "motionCaveat": "脸部稳定"
+    },
+    {
+      "id": "S1C050",
+      "episode": 19,
+      "sourceId": "S1E19",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "anchorSeconds": 880,
+      "suggestedSearchWindowSeconds": [
+        879.5,
+        881
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "红黑爆发中的人物",
+      "shotSize": "全景",
+      "dominantPalette": "红黑/蓝光/秋黄",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "红黑爆发向四周扩散/虎杖拳向花御",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E19-0880/0880.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E19-0880.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-05.jpg",
+      "recommendedCoreSearchSeconds": [
+        879.6,
+        880.9
+      ],
+      "motionCaveat": "源片自带黑闪，不能称新增CG"
+    },
+    {
+      "id": "S1C051",
+      "episode": 19,
+      "sourceId": "S1E19",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "anchorSeconds": 890,
+      "suggestedSearchWindowSeconds": [
+        889.5,
+        891
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "战斗中正面",
+      "shotSize": "近景",
+      "dominantPalette": "红黑/蓝光/秋黄",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "虎杖脸保持/气泡向上",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E19-0880/0890.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E19-0880.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-05.jpg",
+      "recommendedCoreSearchSeconds": [
+        889.6,
+        890.9
+      ],
+      "motionCaveat": "适合冷暖回忆窗口"
+    },
+    {
+      "id": "S1C052",
+      "episode": 19,
+      "sourceId": "S1E19",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "anchorSeconds": 915,
+      "suggestedSearchWindowSeconds": [
+        914.5,
+        916
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "蓝光拳指近景",
+      "shotSize": "局部",
+      "dominantPalette": "红黑/蓝光/秋黄",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "蓝光手部张合",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E19-0880/0915.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E19-0880.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-05.jpg",
+      "recommendedCoreSearchSeconds": [
+        914.6,
+        915.3
+      ],
+      "motionCaveat": "末段切虎杖中景"
+    },
+    {
+      "id": "S1C053",
+      "episode": 19,
+      "sourceId": "S1E19",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "anchorSeconds": 920,
+      "suggestedSearchWindowSeconds": [
+        919.5,
+        921
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "蓝色气焰举拳",
+      "shotSize": "中景",
+      "dominantPalette": "红黑/蓝光/秋黄",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "虎杖双拳在胸前保持",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E19-0880/0920.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E19-0880.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-05.jpg",
+      "recommendedCoreSearchSeconds": [
+        919.6,
+        920.1
+      ],
+      "motionCaveat": "后切脸部近景"
+    },
+    {
+      "id": "S1C054",
+      "episode": 19,
+      "sourceId": "S1E19",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "anchorSeconds": 925,
+      "suggestedSearchWindowSeconds": [
+        924.5,
+        926
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "瞪眼正面",
+      "shotSize": "特写",
+      "dominantPalette": "红黑/蓝光/秋黄",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E19-0880/0925.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E19-0880.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C055",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 200,
+      "suggestedSearchWindowSeconds": [
+        199.5,
+        201
+      ],
+      "characters": [
+        "花御"
+      ],
+      "visibleActionOrPose": "树木攻击",
+      "shotSize": "中景",
+      "dominantPalette": "秋黄/蓝紫",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-0200/0200.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C056",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 205,
+      "suggestedSearchWindowSeconds": [
+        204.5,
+        206
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "旋转腾空",
+      "shotSize": "全景",
+      "dominantPalette": "秋黄/蓝紫",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "虎杖空中旋身/脚从侧面收回",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-0200/0205.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-05.jpg",
+      "recommendedCoreSearchSeconds": [
+        204.6,
+        205.9
+      ],
+      "motionCaveat": "动作位移大，抠像难度高"
+    },
+    {
+      "id": "S1C057",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 210,
+      "suggestedSearchWindowSeconds": [
+        209.5,
+        211
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "前倾准备",
+      "shotSize": "中景",
+      "dominantPalette": "秋黄/蓝紫",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "虎杖回身看后方",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "high",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-0200/0210.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-05.jpg",
+      "recommendedCoreSearchSeconds": [
+        209.95,
+        210.25
+      ],
+      "motionCaveat": "原切密集，仅短核心候选"
+    },
+    {
+      "id": "S1C058",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 220,
+      "suggestedSearchWindowSeconds": [
+        219.5,
+        221
+      ],
+      "characters": [
+        "虎杖",
+        "东堂"
+      ],
+      "visibleActionOrPose": "并肩奔跑",
+      "shotSize": "中景",
+      "dominantPalette": "秋黄/蓝紫",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "虎杖与东堂朝画面右侧奔跑",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-0200/0220.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-05.jpg",
+      "recommendedCoreSearchSeconds": [
+        220.0,
+        220.9
+      ],
+      "motionCaveat": "最前段花御画面为原切"
+    },
+    {
+      "id": "S1C059",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 240,
+      "suggestedSearchWindowSeconds": [
+        239.5,
+        241
+      ],
+      "characters": [
+        "东堂"
+      ],
+      "visibleActionOrPose": "双手结印于面前",
+      "shotSize": "近景",
+      "dominantPalette": "秋黄/蓝紫",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-0200/0240.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C060",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 265,
+      "suggestedSearchWindowSeconds": [
+        264.5,
+        266
+      ],
+      "characters": [
+        "东堂",
+        "虎杖"
+      ],
+      "visibleActionOrPose": "面向同侧近景",
+      "shotSize": "近景",
+      "dominantPalette": "秋黄/蓝紫",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-0200/0265.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C061",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 270,
+      "suggestedSearchWindowSeconds": [
+        269.5,
+        271
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "脚掌向镜头",
+      "shotSize": "局部",
+      "dominantPalette": "秋黄/蓝紫",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "前景脚掌朝镜头/鞋底扩大",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-0200/0270.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-05.jpg",
+      "recommendedCoreSearchSeconds": [
+        269.6,
+        270.1
+      ],
+      "motionCaveat": "后原切对手，适合遮挡匹配"
+    },
+    {
+      "id": "S1C062",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 285,
+      "suggestedSearchWindowSeconds": [
+        284.5,
+        286
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "贴近花御对打",
+      "shotSize": "中景",
+      "dominantPalette": "秋黄/蓝紫",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-0200/0285.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C063",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 300,
+      "suggestedSearchWindowSeconds": [
+        299.5,
+        301
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "前伸拳头",
+      "shotSize": "近景",
+      "dominantPalette": "秋黄/蓝紫",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "虎杖拳从胸前向上抬起",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-0200/0300.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-06.jpg",
+      "recommendedCoreSearchSeconds": [
+        299.6,
+        300.3
+      ],
+      "motionCaveat": "后原切双人中景"
+    },
+    {
+      "id": "S1C064",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 315,
+      "suggestedSearchWindowSeconds": [
+        314.5,
+        316
+      ],
+      "characters": [
+        "东堂"
+      ],
+      "visibleActionOrPose": "侧身合掌",
+      "shotSize": "中景",
+      "dominantPalette": "秋黄/蓝紫",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "东堂双手准备合掌/微下蹲",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "high",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-0200/0315.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-06.jpg",
+      "recommendedCoreSearchSeconds": [
+        314.6,
+        315.9
+      ],
+      "motionCaveat": "动作基本稳定"
+    },
+    {
+      "id": "S1C065",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 1100,
+      "suggestedSearchWindowSeconds": [
+        1099.5,
+        1101
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "双拳相合侧身",
+      "shotSize": "中景",
+      "dominantPalette": "天蓝/蓝紫/洋红",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "五条双手合在胸前/侧脸稳定",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "high",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-1100/1100.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-06.jpg",
+      "recommendedCoreSearchSeconds": [
+        1099.6,
+        1100.9
+      ],
+      "motionCaveat": "天空背景，抠像首选"
+    },
+    {
+      "id": "S1C066",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 1110,
+      "suggestedSearchWindowSeconds": [
+        1109.5,
+        1111
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "正面蓝眼",
+      "shotSize": "近景",
+      "dominantPalette": "天蓝/蓝紫/洋红",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-1100/1110.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C067",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 1125,
+      "suggestedSearchWindowSeconds": [
+        1124.5,
+        1126
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "合掌侧身",
+      "shotSize": "中景",
+      "dominantPalette": "天蓝/蓝紫/洋红",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "合掌逐渐转为双手交扣",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "high",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-1100/1125.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-06.jpg",
+      "recommendedCoreSearchSeconds": [
+        1124.6,
+        1125.9
+      ],
+      "motionCaveat": "明确手势变化"
+    },
+    {
+      "id": "S1C068",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 1155,
+      "suggestedSearchWindowSeconds": [
+        1154.5,
+        1156
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "正面抬手",
+      "shotSize": "近景",
+      "dominantPalette": "天蓝/蓝紫/洋红",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-1100/1155.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C069",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 1160,
+      "suggestedSearchWindowSeconds": [
+        1159.5,
+        1161
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "蓝眼俯看",
+      "shotSize": "特写",
+      "dominantPalette": "天蓝/蓝紫/洋红",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-1100/1160.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C070",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 1170,
+      "suggestedSearchWindowSeconds": [
+        1169.5,
+        1171
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "蓝眼正面",
+      "shotSize": "特写",
+      "dominantPalette": "天蓝/蓝紫/洋红",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-1100/1170.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C071",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 1175,
+      "suggestedSearchWindowSeconds": [
+        1174.5,
+        1176
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "双指黑白近景",
+      "shotSize": "局部",
+      "dominantPalette": "天蓝/蓝紫/洋红",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "手指展开到胸前合手",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-1100/1175.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-06.jpg",
+      "recommendedCoreSearchSeconds": [
+        1174.6,
+        1175.9
+      ],
+      "motionCaveat": "黑白空间，适合原生术式高潮"
+    },
+    {
+      "id": "S1C072",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 1180,
+      "suggestedSearchWindowSeconds": [
+        1179.5,
+        1181
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "术式双手与蓝球",
+      "shotSize": "中景",
+      "dominantPalette": "天蓝/蓝紫/洋红",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "蓝色球体水平变形/五条结印",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-1100/1180.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-06.jpg",
+      "recommendedCoreSearchSeconds": [
+        1179.6,
+        1180.9
+      ],
+      "motionCaveat": "源自带VFX"
+    },
+    {
+      "id": "S1C073",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 1195,
+      "suggestedSearchWindowSeconds": [
+        1194.5,
+        1196
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "举拳到额前",
+      "shotSize": "近景",
+      "dominantPalette": "天蓝/蓝紫/洋红",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "虎杖拳抬到额头前再降低",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-1100/1195.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-06.jpg",
+      "recommendedCoreSearchSeconds": [
+        1194.6,
+        1195.6
+      ],
+      "motionCaveat": "最后可能切背部角度"
+    },
+    {
+      "id": "S1C074",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 1205,
+      "suggestedSearchWindowSeconds": [
+        1204.5,
+        1206
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "红蓝能量相合",
+      "shotSize": "局部",
+      "dominantPalette": "天蓝/蓝紫/洋红",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-1100/1205.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C075",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 1210,
+      "suggestedSearchWindowSeconds": [
+        1209.5,
+        1211
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "紫光照亮蓝眼",
+      "shotSize": "近景",
+      "dominantPalette": "天蓝/蓝紫/洋红",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "五条抬眼/手指向镜头张开",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-1100/1210.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-06.jpg",
+      "recommendedCoreSearchSeconds": [
+        1209.6,
+        1210.9
+      ],
+      "motionCaveat": "末部手掌可作遮挡入场"
+    },
+    {
+      "id": "S1C076",
+      "episode": 20,
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "anchorSeconds": 1215,
+      "suggestedSearchWindowSeconds": [
+        1214.5,
+        1216
+      ],
+      "characters": [
+        "五条"
+      ],
+      "visibleActionOrPose": "紫色球体近景",
+      "shotSize": "局部",
+      "dominantPalette": "天蓝/蓝紫/洋红",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E20-1100/1215.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C077",
+      "episode": 23,
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "anchorSeconds": 200,
+      "suggestedSearchWindowSeconds": [
+        199.5,
+        201
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "垂眼发丝",
+      "shotSize": "特写",
+      "dominantPalette": "夜蓝/紫色",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E23-0200/0200.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E23-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C078",
+      "episode": 23,
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "anchorSeconds": 240,
+      "suggestedSearchWindowSeconds": [
+        239.5,
+        241
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "紫色眼睛",
+      "shotSize": "特写",
+      "dominantPalette": "夜蓝/紫色",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E23-0200/0240.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E23-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C079",
+      "episode": 23,
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "anchorSeconds": 260,
+      "suggestedSearchWindowSeconds": [
+        259.5,
+        261
+      ],
+      "characters": [
+        "伏黑"
+      ],
+      "visibleActionOrPose": "离地跃起",
+      "shotSize": "全景",
+      "dominantPalette": "夜蓝/紫色",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "伏黑身体由下向上跃起/转身",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E23-0200/0260.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E23-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-07.jpg",
+      "recommendedCoreSearchSeconds": [
+        259.6,
+        260.9
+      ],
+      "motionCaveat": "深色洞窟，应保留明亮边缘"
+    },
+    {
+      "id": "S1C080",
+      "episode": 23,
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "anchorSeconds": 265,
+      "suggestedSearchWindowSeconds": [
+        264.5,
+        266
+      ],
+      "characters": [
+        "伏黑"
+      ],
+      "visibleActionOrPose": "回头侧脸",
+      "shotSize": "近景",
+      "dominantPalette": "夜蓝/紫色",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E23-0200/0265.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E23-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C081",
+      "episode": 23,
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "anchorSeconds": 290,
+      "suggestedSearchWindowSeconds": [
+        289.5,
+        291
+      ],
+      "characters": [
+        "伏黑"
+      ],
+      "visibleActionOrPose": "闭眼",
+      "shotSize": "特写",
+      "dominantPalette": "夜蓝/紫色",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E23-0200/0290.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E23-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C082",
+      "episode": 23,
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "anchorSeconds": 295,
+      "suggestedSearchWindowSeconds": [
+        294.5,
+        296
+      ],
+      "characters": [
+        "伏黑"
+      ],
+      "visibleActionOrPose": "睁眼",
+      "shotSize": "特写",
+      "dominantPalette": "夜蓝/紫色",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "眼睛画幅逐渐拉远到双眼",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E23-0200/0295.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E23-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-07.jpg",
+      "recommendedCoreSearchSeconds": [
+        294.6,
+        295.9
+      ],
+      "motionCaveat": "适合眼部形状连续变换"
+    },
+    {
+      "id": "S1C083",
+      "episode": 23,
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "anchorSeconds": 315,
+      "suggestedSearchWindowSeconds": [
+        314.5,
+        316
+      ],
+      "characters": [
+        "伏黑"
+      ],
+      "visibleActionOrPose": "抬眼正面",
+      "shotSize": "近景",
+      "dominantPalette": "夜蓝/紫色",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E23-0200/0315.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E23-0200.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C084",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 400,
+      "suggestedSearchWindowSeconds": [
+        399.5,
+        401
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "手持钉子",
+      "shotSize": "局部",
+      "dominantPalette": "夜蓝/青光/血红",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "钉崎手臂前伸/钉子靠近镜头",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0350/0400.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0350.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-07.jpg",
+      "recommendedCoreSearchSeconds": [
+        400.4,
+        400.9
+      ],
+      "motionCaveat": "前段手部特写与后面大构图有原切"
+    },
+    {
+      "id": "S1C085",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 405,
+      "suggestedSearchWindowSeconds": [
+        404.5,
+        406
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "手指结印青光",
+      "shotSize": "局部",
+      "dominantPalette": "夜蓝/青光/血红",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "钉崎手指弯曲/青光钉子转入手腕",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0350/0405.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0350.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-07.jpg",
+      "recommendedCoreSearchSeconds": [
+        405.0,
+        405.9
+      ],
+      "motionCaveat": "开头蓝光局部切到双手"
+    },
+    {
+      "id": "S1C086",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 410,
+      "suggestedSearchWindowSeconds": [
+        409.5,
+        411
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "带伤正面笑",
+      "shotSize": "近景",
+      "dominantPalette": "夜蓝/青光/血红",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "钉崎抬手和头部倾斜",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0350/0410.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0350.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-07.jpg",
+      "recommendedCoreSearchSeconds": [
+        409.6,
+        410.9
+      ],
+      "motionCaveat": "脸与手臂同画面稳定"
+    },
+    {
+      "id": "S1C087",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 415,
+      "suggestedSearchWindowSeconds": [
+        414.5,
+        416
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "手臂举起斜身",
+      "shotSize": "中景",
+      "dominantPalette": "夜蓝/青光/血红",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "钉崎手臂由右上朝前下挥出",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0350/0415.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0350.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-07.jpg",
+      "recommendedCoreSearchSeconds": [
+        415.0,
+        415.9
+      ],
+      "motionCaveat": "开头为另一远景，跳过"
+    },
+    {
+      "id": "S1C088",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 450,
+      "suggestedSearchWindowSeconds": [
+        449.5,
+        451
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "橙色眼睛近景",
+      "shotSize": "特写",
+      "dominantPalette": "夜蓝/青光/血红",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0350/0450.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0350.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C089",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 650,
+      "suggestedSearchWindowSeconds": [
+        649.5,
+        651
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "侧面抬头",
+      "shotSize": "近景",
+      "dominantPalette": "夜蓝/血红",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0650/0650.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C090",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 660,
+      "suggestedSearchWindowSeconds": [
+        659.5,
+        661
+      ],
+      "characters": [
+        "坏相"
+      ],
+      "visibleActionOrPose": "血红拳臂爆发",
+      "shotSize": "中景",
+      "dominantPalette": "夜蓝/血红",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "medium",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0650/0660.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C091",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 665,
+      "suggestedSearchWindowSeconds": [
+        664.5,
+        666
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "红色钉状能量爆发",
+      "shotSize": "局部",
+      "dominantPalette": "夜蓝/血红",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0650/0665.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C092",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 690,
+      "suggestedSearchWindowSeconds": [
+        689.5,
+        691
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "抬指面前",
+      "shotSize": "近景",
+      "dominantPalette": "夜蓝/血红",
+      "suggestedTechniques": [
+        "同动作/手势形状匹配",
+        "局部遮挡/画中画"
+      ],
+      "motionDirection": "钉崎竖指后屈指向前",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0650/0690.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-07.jpg",
+      "recommendedCoreSearchSeconds": [
+        689.6,
+        690.9
+      ],
+      "motionCaveat": "适合五条指势匹配"
+    },
+    {
+      "id": "S1C093",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 695,
+      "suggestedSearchWindowSeconds": [
+        694.5,
+        696
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "红黑冲击",
+      "shotSize": "中景",
+      "dominantPalette": "夜蓝/血红",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "红黑能量从钉崎周围向外扩散",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0650/0695.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-07.jpg",
+      "recommendedCoreSearchSeconds": [
+        694.6,
+        695.1
+      ],
+      "motionCaveat": "后切脸部，不用于无切长镜"
+    },
+    {
+      "id": "S1C094",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 705,
+      "suggestedSearchWindowSeconds": [
+        704.5,
+        706
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "侧面微笑",
+      "shotSize": "近景",
+      "dominantPalette": "夜蓝/血红",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "钉崎侧脸微笑/嘴部动作",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0650/0705.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-08.jpg",
+      "recommendedCoreSearchSeconds": [
+        704.6,
+        705.9
+      ],
+      "motionCaveat": "稳态表情段"
+    },
+    {
+      "id": "S1C095",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 720,
+      "suggestedSearchWindowSeconds": [
+        719.5,
+        721
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "紫色眼部近景",
+      "shotSize": "特写",
+      "dominantPalette": "夜蓝/血红",
+      "suggestedTechniques": [
+        "视线/眼部形状匹配",
+        "圆形窗口/镜头推近"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "low",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0650/0720.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C096",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 725,
+      "suggestedSearchWindowSeconds": [
+        724.5,
+        726
+      ],
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "带伤正面脸",
+      "shotSize": "近景",
+      "dominantPalette": "夜蓝/血红",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "unknown_from_single_frame",
+      "motionVerified": false,
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0650/0725.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true
+    },
+    {
+      "id": "S1C097",
+      "episode": 24,
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "anchorSeconds": 765,
+      "suggestedSearchWindowSeconds": [
+        764.5,
+        766
+      ],
+      "characters": [
+        "虎杖"
+      ],
+      "visibleActionOrPose": "低头蓄势咬牙",
+      "shotSize": "近景",
+      "dominantPalette": "夜蓝/血红",
+      "suggestedTechniques": [
+        "动作峰值切换",
+        "错位画中画/构图接力"
+      ],
+      "motionDirection": "虎杖朝镜头奔跑/左右臂交替",
+      "motionVerified": "four_point_temporal_preflight",
+      "cutoutFeasibility": "medium",
+      "cutoutStatus": "构图预判，尚未制作alpha",
+      "semanticConfidence": "high",
+      "confidenceMeaning": "人工在联系表中辨识人物/姿态的定性等级，不是统计概率",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0650/0765.00.jpg",
+      "contactSheet": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "humanViewed": true,
+      "windowStatus": "取回搜索区间；尚未验证整个区间无原切/遮挡",
+      "nativeSourceFps": "24000/1001",
+      "grid60fpsIsSynthetic": true,
+      "motionEvidence": "evidence/source-overviews/motion-preflight/motion-08.jpg",
+      "recommendedCoreSearchSeconds": [
+        764.6,
+        765.9
+      ],
+      "motionCaveat": "相位可配真希前冲"
+    }
+  ],
+  "corrections": [
+    "S1C003由挥拳改为张掌，源短序列可见",
+    "S1C016显示白蛇与鵺，不是单独鵺",
+    "S1C038跃起者为三轮，纠正静帧初判真希"
+  ],
+  "motionPreflightCount": 58
+}

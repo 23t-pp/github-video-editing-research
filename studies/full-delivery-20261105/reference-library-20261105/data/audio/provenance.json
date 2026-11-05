@@ -1,0 +1,252 @@
+{
+  "updated_at": "2026-11-04T16:27:30.669Z",
+  "versions": {
+    "python": "3.12.14",
+    "packages": {
+      "audio-separator": "0.48.0",
+      "onnxruntime": "1.31.1",
+      "torch": "2.15.0",
+      "librosa": "1.0.0",
+      "numpy": "2.5.4",
+      "soundfile": "0.14.0",
+      "audioread": "3.1.0"
+    }
+  },
+  "tool": {
+    "name": "audio-separator",
+    "license": "MIT",
+    "url": "https://github.com/nomadkaraoke/python-audio-separator",
+    "docs_review_commit": "4dd3477c0a8f5bfb0fb053c6ed444bb935cb150e",
+    "installation": "isolated work venv from PyPI, not global Python",
+    "source_files": [
+      {
+        "relative_path": "audio_separator/separator/separator.py",
+        "sha256": "95d55d85faad5dbf8f783a886cff4b1925385d5a95a292bc5ed7d54b5abaaba8"
+      },
+      {
+        "relative_path": "audio_separator/separator/architectures/mdx_separator.py",
+        "sha256": "f1a647d5d94f938ff673739bba4adf6da86eedb89ae4b7aa736bbf9340fa9013"
+      },
+      {
+        "relative_path": "audio_separator/separator/uvr_lib_v5/stft.py",
+        "sha256": "98eb04e41a204935de31e731f464e2379b194a6a8b3f98a61fa01a773d17222e"
+      }
+    ]
+  },
+  "model": {
+    "filename": "UVR_MDXNET_KARA_2.onnx",
+    "bytes": 52786726,
+    "sha256": "bf32e15105a09c0f7dddd2b67346146334d6f3ecb399ed7638eba2ab07cbf5f4",
+    "uvr_tail_md5": "1d64a6d2c30f709b8c9b4ce1366d96ee",
+    "parameters": {
+      "compensate": 1.065,
+      "mdx_dim_f_set": 2048,
+      "mdx_dim_t_set": 8,
+      "mdx_n_fft_scale_set": 5120,
+      "primary_stem": "Instrumental",
+      "is_karaoke": true
+    },
+    "download_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR_MDXNET_KARA_2.onnx",
+    "parameters_url": "https://raw.githubusercontent.com/TRvlvr/application_data/main/mdx_model_data/model_data_new.json",
+    "license_status": "No identifiable LICENSE found in model_repo at review time; model weights are not redistributed in this deliverable."
+  },
+  "runtime": {
+    "provider": "CPUExecutionProvider",
+    "intra_op_threads": 2,
+    "inter_op_threads": 1,
+    "batch_size": 1,
+    "segment_size": 256,
+    "overlap": 0.25,
+    "denoise": false,
+    "hardware_acceleration_used": false,
+    "dll_resolution": "Process-local loading of VC runtime already shipped with Codex. No system installation or security changes."
+  },
+  "execution": {
+    "probe": [
+      {
+        "id": "V01",
+        "elapsed_sec": 18.978,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "input_seconds": 8,
+        "output_stems": [
+          "Vocals",
+          "Instrumental"
+        ]
+      }
+    ],
+    "completed": 20,
+    "files": [
+      {
+        "id": "V01",
+        "elapsed_sec": 20.805,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V02",
+        "elapsed_sec": 17.522,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V03",
+        "elapsed_sec": 22.699,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V04",
+        "elapsed_sec": 15.625,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V05",
+        "elapsed_sec": 15.727,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V06",
+        "elapsed_sec": 106.238,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V07",
+        "elapsed_sec": 46.107,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V08",
+        "elapsed_sec": 46.139,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V09",
+        "elapsed_sec": 17.658,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V10",
+        "elapsed_sec": 34.912,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V11",
+        "elapsed_sec": 57.839,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V12",
+        "elapsed_sec": 17.433,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V13",
+        "elapsed_sec": 23.334,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V14",
+        "elapsed_sec": 40.513,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V15",
+        "elapsed_sec": 40.839,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V16",
+        "elapsed_sec": 40.623,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V17",
+        "elapsed_sec": 40.834,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V18",
+        "elapsed_sec": 86.707,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V19",
+        "elapsed_sec": 34.53,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      },
+      {
+        "id": "V20",
+        "elapsed_sec": 46.645,
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "output_stem": "Instrumental"
+      }
+    ],
+    "total_separation_compute_sec": 772.7289999999999,
+    "audio_uploaded_to_cloud_processing_service": false,
+    "listened": false,
+    "quality_verified_by_listening": false
+  },
+  "limitations": [
+    "The Instrumental stem is a model estimate, not a guarantee of zero vocals or SFX.",
+    "The model can retain dialogue/reverb/SFX and can remove musical elements.",
+    "No song title, instrument identity, or copyright ownership is inferred from the source filenames."
+  ]
+}

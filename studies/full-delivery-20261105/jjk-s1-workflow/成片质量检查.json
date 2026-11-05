@@ -1,0 +1,22 @@
+{
+  "file": "咒力接力_一分钟.mp4",
+  "sha256": "90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d",
+  "bytes": 50762462,
+  "fullDecodedFrames": 1440,
+  "fps": 24,
+  "durationSeconds": 60.0,
+  "width": 1920,
+  "height": 1080,
+  "decodedAudioSampleFrames": 2880000,
+  "masterSampleFrames": 2880000,
+  "sameTimeCorrelation": 0.9991414077768802,
+  "nearBlackFrames": [],
+  "unexpectedNearBlackCandidates": [],
+  "nearBlackDefinition": "192x108缩略完整解码，active y6:102 RGB mean<3；候选需结合实际图查看",
+  "auditoryListeningPerformed": false,
+  "machineState": "pass",
+  "scope": "完整缩略解码与采样数、零偏移声音对照；不是全1440张全分辨率逐张人工审美验收",
+  "verifiedOriginalLoopFile": "loops/loop-04/loop-04-final.mp4",
+  "verifiedLoopReportSha256": "418b32ca372f7d671e06ef1bbbf982b0bb13e5db82fcdb83c62b847fa389ee17",
+  "promotionPolicy": "exact SHA-verified copy after independent pass; same media bytes, no redundant decode claimed"
+}

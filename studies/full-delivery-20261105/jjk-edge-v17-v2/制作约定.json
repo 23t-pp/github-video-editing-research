@@ -1,0 +1,31 @@
+{
+  "title": "挚友 · EDGE · 精修V2",
+  "referenceSelection": "用户明确指定，不随机抽样",
+  "primaryReference": "V17",
+  "secondaryReference": "V02，仅文字构图与动效",
+  "music": "用户桌面edge.mp3",
+  "musicWindowSeconds": [
+    147,
+    207
+  ],
+  "source": "D:/咒术回战/",
+  "durationSeconds": 60,
+  "fps": 24,
+  "frames": 1440,
+  "size": [
+    1920,
+    1080
+  ],
+  "overrides": "用户本次明确指定一分钟、参考和BGM，覆盖旧默认整轨时长和随机参考规则。",
+  "deliverables": [
+    "可播放MP4",
+    "OpenChatCut可编辑工程",
+    "HyperFrames可编辑工程",
+    "中文操作与参考对照"
+  ],
+  "revision": "V2",
+  "artDirection": "不局限V17/V02，效果与流畅度优先；增加真实动态抠像与排版；撕边人物条必须渲染边缘效果。",
+  "v1Preserved": true,
+  "outputMovie": "挚友_EDGE_精修V2.mp4",
+  "referencePolicy": "本次指定任务的精修续作，不重新抽样；参考结构与原创延伸在edit.json标注。"
+}

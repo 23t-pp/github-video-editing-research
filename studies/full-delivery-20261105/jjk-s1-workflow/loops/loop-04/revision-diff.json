@@ -1,0 +1,35 @@
+{
+  "from": "loops/loop-03/plan.json",
+  "inputIndependentReviewSha256": "73b0e72386513d3461d1d299d46e57bd75c92626277009687043b02adfa1e22e",
+  "changes": [
+    {
+      "findingId": "L2-EYE-01",
+      "change": "真实眼相位缩816..830，蓝+10，endZoom1；830回微笑12f→842蓄势，待全事件像素审"
+    },
+    {
+      "findingId": "L3-CN-TYPE-09",
+      "change": "STRIKE中文改x430/y820，留左下空白；待26f真实阅读审"
+    },
+    {
+      "findingId": "L3-PACING-10",
+      "change": "原78f凝视组改8f眼+22f真换拳+24f红钉+24f冲击浪；65native→70output映射公开，主体位移由原动画提供"
+    },
+    {
+      "findingId": "L3-EVENTS-11",
+      "change": "actual events16/技法ID/媒体时钟/真实loop路径规范；旧意图移designRevision；不在捕获后改计划状态字节"
+    }
+  ],
+  "changedChunks": [
+    8,
+    11,
+    17,
+    18
+  ],
+  "sourceMaterialsGate": "loops/loop-04/prepared-review.json",
+  "pending": [
+    "frozen plan independent consistency precheck",
+    "actual4changed capture+16payload rebind",
+    "1080 full encode",
+    "independent final artistic/technical review"
+  ]
+}

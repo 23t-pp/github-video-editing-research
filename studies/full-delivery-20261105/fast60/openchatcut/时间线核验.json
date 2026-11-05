@@ -1,0 +1,463 @@
+{
+  "title": "弯心 / APEX",
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "timelineId": "tl_a775a55a-cc45-4903-a092-e62b6a1aa140",
+  "sequenceId": "tl_a775a55a-cc45-4903-a092-e62b6a1aa140",
+  "sequenceName": "01 HF精确特效 · 42镜逐镜可剪",
+  "activeTimelineId": "tl_a775a55a-cc45-4903-a092-e62b6a1aa140",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "durationFrames": 1440,
+  "durationSeconds": 60,
+  "units": "Read actual ProjectDoc native integer frames; timeline and all shot assets are 24fps; no seconds-to-frames inference.",
+  "shots": [
+    {
+      "id": "S01",
+      "startFrame": 0,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_02ab7bd3-da7c-437d-b74f-2febade8815c",
+      "sourceAssetId": "53bcbace-fc21-4d3c-ac2f-67ab91506be2",
+      "assetFilename": "S01.mp4",
+      "sourceContentHash": "9ddead2bf86f422ae0498a22e86bfc790f2a40c4384427993ef29fdbf6c701c0"
+    },
+    {
+      "id": "S02",
+      "startFrame": 45,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_7b9ddb96-9102-4775-8251-aa7f4adb630a",
+      "sourceAssetId": "4f0e9578-5436-4955-a206-f0cbd8ebd745",
+      "assetFilename": "S02.mp4",
+      "sourceContentHash": "cafea8e134edfc3dbc342ff9d3a1b1a11575e88c7d33b59a44771855ba9179f2"
+    },
+    {
+      "id": "S03",
+      "startFrame": 90,
+      "frames": 23,
+      "assetStartFrame": 12,
+      "itemId": "item_5191ff64-d481-47c3-b411-ee4c04faf7e1",
+      "sourceAssetId": "089a1362-2a7d-48a8-b5d4-9922de626050",
+      "assetFilename": "S03.mp4",
+      "sourceContentHash": "3bc7acda3b82712af9b4621b99db9fecc760093db152847c01660cd77bc749a8"
+    },
+    {
+      "id": "S04",
+      "startFrame": 113,
+      "frames": 11,
+      "assetStartFrame": 12,
+      "itemId": "item_94149fd1-0e4f-4be8-a04f-125b215a52a5",
+      "sourceAssetId": "a9cbe006-ac96-4896-9c30-5afda7693941",
+      "assetFilename": "S04.mp4",
+      "sourceContentHash": "629a4654a9a474237bac7e02d7c75d1b38a319a508e887bbcb7c5ea3d7caa8e8"
+    },
+    {
+      "id": "S05",
+      "startFrame": 124,
+      "frames": 11,
+      "assetStartFrame": 12,
+      "itemId": "item_4d145574-a97b-4687-a091-0a98069c5721",
+      "sourceAssetId": "a403b6f7-f413-4957-9c83-ef21f284e2d7",
+      "assetFilename": "S05.mp4",
+      "sourceContentHash": "694b286cdaeccf27cdda451cbc4271095ddcdfcddc4c00b86ef2a4b07baaa674"
+    },
+    {
+      "id": "S06",
+      "startFrame": 135,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_89b80f2b-fa7d-42cf-8eee-5e68572decfc",
+      "sourceAssetId": "a7a990f9-9156-4bba-8163-7c01aef23eea",
+      "assetFilename": "S06.mp4",
+      "sourceContentHash": "04c820511578aabc5019ea93b01ddd1a2ddfb733909785120f073d22a1805c32"
+    },
+    {
+      "id": "S07",
+      "startFrame": 180,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_9294cffe-dfc7-4bb0-a13f-2f300a2d5eba",
+      "sourceAssetId": "ea3b4667-b358-4c31-bdce-4d9f65b799b8",
+      "assetFilename": "S07.mp4",
+      "sourceContentHash": "eff649a0cf9e3d969fa7d47198e8c6d04dc673e2143ea33b1053cf4d8183c551"
+    },
+    {
+      "id": "S08",
+      "startFrame": 225,
+      "frames": 23,
+      "assetStartFrame": 12,
+      "itemId": "item_5776ace8-6dbf-49b1-b604-7e9be20c231b",
+      "sourceAssetId": "bf331319-6ed5-4824-b211-2d59cd9981b4",
+      "assetFilename": "S08.mp4",
+      "sourceContentHash": "24db34c63951b0ffab923c038478e3178f5a709b2398c4b620527b11de485217"
+    },
+    {
+      "id": "S09",
+      "startFrame": 248,
+      "frames": 11,
+      "assetStartFrame": 12,
+      "itemId": "item_7e4f6228-5363-4566-946c-e71cda8f9eaf",
+      "sourceAssetId": "ba7252e5-517f-4dc5-a4b0-ff5f060846a4",
+      "assetFilename": "S09.mp4",
+      "sourceContentHash": "a4ef0228050428a624b07ff812ee44cb6ad16f7a199b171be72bc53ca8cd55c8"
+    },
+    {
+      "id": "S10",
+      "startFrame": 259,
+      "frames": 11,
+      "assetStartFrame": 12,
+      "itemId": "item_fa3da330-7cc5-418f-a577-8c1dbbf92050",
+      "sourceAssetId": "37233a65-9ba5-49c4-acbc-5f6f4cc317d1",
+      "assetFilename": "S10.mp4",
+      "sourceContentHash": "310f8322459f1db506552efe81b6cf35d9f0c9abbdba1653db684be2acc7d207"
+    },
+    {
+      "id": "S11",
+      "startFrame": 270,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_bd6267f1-083d-42cf-b78a-936ce544e4ad",
+      "sourceAssetId": "eb29251c-9da3-4a9f-9ffd-395394c069ae",
+      "assetFilename": "S11.mp4",
+      "sourceContentHash": "3163039f7809203821406a76e70bcfa3b83c2fbf34f6ed25ee60701a45e25ebb"
+    },
+    {
+      "id": "S12",
+      "startFrame": 315,
+      "frames": 23,
+      "assetStartFrame": 12,
+      "itemId": "item_b40a825c-8979-4b3e-9563-dd1bfaae49d7",
+      "sourceAssetId": "95b1eee2-9b18-48b3-8fc2-16df9824ffe9",
+      "assetFilename": "S12.mp4",
+      "sourceContentHash": "2da3c07f42c075652195d39214c16fba3b46b84d868b421ac7e1559d5982a993"
+    },
+    {
+      "id": "S13",
+      "startFrame": 338,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_6fbad68d-4db1-474e-a2a8-9885682ee1f8",
+      "sourceAssetId": "9f881b36-c774-45fd-9c7e-65c8280ac562",
+      "assetFilename": "S13.mp4",
+      "sourceContentHash": "374641f739a54c835a5ffb544850d21b906b3f4f7f601d07f5f22902d6bbe5d3"
+    },
+    {
+      "id": "S14",
+      "startFrame": 383,
+      "frames": 22,
+      "assetStartFrame": 12,
+      "itemId": "item_cf40be95-2f7f-439b-9595-0337c2a6cb0f",
+      "sourceAssetId": "fd0f81e0-ae58-4c2a-bdb8-90ca95be2789",
+      "assetFilename": "S14.mp4",
+      "sourceContentHash": "949809f8bd3ff847f13a12f9b11a487023551d3085221aef14640ea23a2a1dbb"
+    },
+    {
+      "id": "S15",
+      "startFrame": 405,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_47fc6d04-fd2b-4d56-97d3-09b0062c0ae8",
+      "sourceAssetId": "43be99a5-7c18-402f-8cd6-5d0828b2ce80",
+      "assetFilename": "S15.mp4",
+      "sourceContentHash": "092b0e7ebc3cffa7b37bf61de31243cc484575561f6a0a94d7bd13873dfbf4ab"
+    },
+    {
+      "id": "S16",
+      "startFrame": 450,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_c14f90a6-2114-45bc-a241-31815e463f6e",
+      "sourceAssetId": "b672527e-048f-43f9-985e-0a0cab6b5a62",
+      "assetFilename": "S16.mp4",
+      "sourceContentHash": "d6831c4a40c11ac6560b8b803de65a95a058412ed19dab15c48cc15809cfeb70"
+    },
+    {
+      "id": "S17",
+      "startFrame": 495,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_d3d4cd0c-6ed0-4e63-8c48-f1eb95cd7219",
+      "sourceAssetId": "4a454b19-a4be-4b82-9511-0d89eb8fb45e",
+      "assetFilename": "S17.mp4",
+      "sourceContentHash": "1ef0ed1a55a0e6b66fa52113d747d71d1c6e67eefe5e46fc49c712db23e0b541"
+    },
+    {
+      "id": "S18",
+      "startFrame": 540,
+      "frames": 23,
+      "assetStartFrame": 12,
+      "itemId": "item_da9d4e3f-4bb1-4ecf-9d8e-afd83d97ad10",
+      "sourceAssetId": "4e31357f-bebc-42e9-94a5-61931396f556",
+      "assetFilename": "S18.mp4",
+      "sourceContentHash": "e65b9c2b11c8fc878577b2b6b20656bbe23ca927aae4e4c226fb96fd390e999f"
+    },
+    {
+      "id": "S19",
+      "startFrame": 563,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_863ac096-762a-411a-ab75-e59063d08a1e",
+      "sourceAssetId": "c87fd1b9-81cf-4605-bbf9-22a0c73646ea",
+      "assetFilename": "S19.mp4",
+      "sourceContentHash": "9cd03ff73eaf160f70a5e0b5d03aa19e73cdc593959f123efd265625d10bab00"
+    },
+    {
+      "id": "S20",
+      "startFrame": 608,
+      "frames": 22,
+      "assetStartFrame": 12,
+      "itemId": "item_29a41cfb-66d9-48d8-865f-125cb032e283",
+      "sourceAssetId": "5dc07ebd-804f-4944-b481-ea71fb8f6a18",
+      "assetFilename": "S20.mp4",
+      "sourceContentHash": "ca78dc8013803b4e369645a59ca43f4135bfaac29dde79214273c2808e5c04f2"
+    },
+    {
+      "id": "S21",
+      "startFrame": 630,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_7b487300-dda5-4682-b10a-bee5f79d320b",
+      "sourceAssetId": "25d49f49-30a2-42f4-a66f-9d7a67b59045",
+      "assetFilename": "S21.mp4",
+      "sourceContentHash": "9443b5da220996cfd1ef3bbae25871d84c28a7d0f009282260a334032af70e8f"
+    },
+    {
+      "id": "S22",
+      "startFrame": 675,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_578dc3e8-44e8-4dbc-8e2d-91c6dc4b5e4f",
+      "sourceAssetId": "c6794f31-b138-4be9-ad83-7d65db2cad1c",
+      "assetFilename": "S22.mp4",
+      "sourceContentHash": "bfe1ba9193b42c111067aadfbefabaaba5b9862aefe8f849eb411b81ab739758"
+    },
+    {
+      "id": "S23",
+      "startFrame": 720,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_59dd166b-edc3-4301-af53-6aebdbcf8cbf",
+      "sourceAssetId": "fd5d04b9-be3d-4c33-ad5e-9873647db15a",
+      "assetFilename": "S23.mp4",
+      "sourceContentHash": "d38e332ddc4aa29f5c369464d2a8c6dd41aeb0a4b9db5965345e8cfe2306625e"
+    },
+    {
+      "id": "S24",
+      "startFrame": 765,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_f86eacb1-906e-4440-82b3-9ab6d39b3363",
+      "sourceAssetId": "c31fe958-d515-4a90-978f-5019d4acffcd",
+      "assetFilename": "S24.mp4",
+      "sourceContentHash": "c98fb9f436fc458c8a457afb9d850920c9811400fe6d007d1e3bbea20555fd9f"
+    },
+    {
+      "id": "S25",
+      "startFrame": 810,
+      "frames": 23,
+      "assetStartFrame": 12,
+      "itemId": "item_6fbc533a-4dbe-4581-9a66-4b55d09a824b",
+      "sourceAssetId": "d8712529-7ba1-4952-88fd-1395e280b421",
+      "assetFilename": "S25.mp4",
+      "sourceContentHash": "778e82e922d1bd272af58d2b6df1fe8d3a960b5285a03998f4e1bed66cf4dfb9"
+    },
+    {
+      "id": "S26",
+      "startFrame": 833,
+      "frames": 22,
+      "assetStartFrame": 12,
+      "itemId": "item_9bca6c84-fd16-4ad8-bf93-948dd21d5f0b",
+      "sourceAssetId": "7a810692-64aa-49c7-91b2-07cd915914b5",
+      "assetFilename": "S26.mp4",
+      "sourceContentHash": "58ac2ded57f1df72b8ec93522f0e7996ecbf52a90f71da81d68065855892bb42"
+    },
+    {
+      "id": "S27",
+      "startFrame": 855,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_2014afa9-91ac-48a3-90c2-267199f80c23",
+      "sourceAssetId": "30e80d85-c83c-4b8b-95bd-b8af3c3d7d06",
+      "assetFilename": "S27.mp4",
+      "sourceContentHash": "14f4376be26fc07c9252fc32677db980f2a81887ec3807f941a59255b9cb63fa"
+    },
+    {
+      "id": "S28",
+      "startFrame": 900,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_724b1630-6446-41e0-8f26-48285766dcb0",
+      "sourceAssetId": "8f3669fe-2bb5-4533-9b1b-a09de402f031",
+      "assetFilename": "S28.mp4",
+      "sourceContentHash": "f8613e0155466e61166443af67c4a7fde6dc4e880b61e85ca765b86660e10796"
+    },
+    {
+      "id": "S29",
+      "startFrame": 945,
+      "frames": 23,
+      "assetStartFrame": 12,
+      "itemId": "item_7dfac4b8-a850-4f83-85fc-bbd407dc933e",
+      "sourceAssetId": "56e39c88-b4e4-4ab1-91a1-d7a134fab183",
+      "assetFilename": "S29.mp4",
+      "sourceContentHash": "e02c8c3dc8726d64662241977801ca62c287ec9ccc205d22daac0d6006d00efb"
+    },
+    {
+      "id": "S30",
+      "startFrame": 968,
+      "frames": 22,
+      "assetStartFrame": 12,
+      "itemId": "item_a18be70b-f5a5-4a4d-8a23-ee30e3d48f69",
+      "sourceAssetId": "66ae74f8-51cc-42d0-8015-364a5d3d0683",
+      "assetFilename": "S30.mp4",
+      "sourceContentHash": "45c0d095a202e813a9f3ad152781bce8a46ab01d3fcb0a05171b82935ddfbb72"
+    },
+    {
+      "id": "S31",
+      "startFrame": 990,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_c7bd7881-4fea-4a94-9967-7932f37f5583",
+      "sourceAssetId": "6b7a0ba7-62f5-450f-b41c-c83b9e0ac1dd",
+      "assetFilename": "S31.mp4",
+      "sourceContentHash": "0d2a1187b41c77025363da5b400b023099eab561e820752f4df7a0e8800f6577"
+    },
+    {
+      "id": "S32",
+      "startFrame": 1035,
+      "frames": 23,
+      "assetStartFrame": 12,
+      "itemId": "item_2fc7df55-f6e5-405c-998d-4e1a7047fd6a",
+      "sourceAssetId": "d3f47019-dafb-4e5f-8b7d-fa626277c968",
+      "assetFilename": "S32.mp4",
+      "sourceContentHash": "62587fee2d32b2bba94b37066f35ec9d23faef7501c24f90c95e892258b868ac"
+    },
+    {
+      "id": "S33",
+      "startFrame": 1058,
+      "frames": 22,
+      "assetStartFrame": 12,
+      "itemId": "item_277321e4-bf4e-4150-a609-7652aaf0400b",
+      "sourceAssetId": "56f6b644-e0eb-453e-83ea-ab7811e5bdc3",
+      "assetFilename": "S33.mp4",
+      "sourceContentHash": "a916f65003babf95c4b1b7e2a776341919b10d983b6f622076f27ffa8ae3c802"
+    },
+    {
+      "id": "S34",
+      "startFrame": 1080,
+      "frames": 23,
+      "assetStartFrame": 12,
+      "itemId": "item_dfe961a5-17d3-47ec-be05-af904364f98b",
+      "sourceAssetId": "1dfe8dd8-f155-48eb-9216-ca1e7f0b50b7",
+      "assetFilename": "S34.mp4",
+      "sourceContentHash": "b0279fcb3936ac199c13de1f52dac76967a85c946961fd6040ce88a181c0274d"
+    },
+    {
+      "id": "S35",
+      "startFrame": 1103,
+      "frames": 22,
+      "assetStartFrame": 12,
+      "itemId": "item_36714b5b-11c0-4a4d-90ad-a1dfdb00bdd6",
+      "sourceAssetId": "376e9c7e-547e-4c37-bdcf-8dcd04def6c0",
+      "assetFilename": "S35.mp4",
+      "sourceContentHash": "c255d61e70b45bdb20997bb45beced500540120799b6b2061e1fbf5da3ff736d"
+    },
+    {
+      "id": "S36",
+      "startFrame": 1125,
+      "frames": 23,
+      "assetStartFrame": 12,
+      "itemId": "item_6826e75b-f788-44f5-a62b-70cf3f409ba8",
+      "sourceAssetId": "90e0cafe-0a48-41e8-a508-11ecbf98b827",
+      "assetFilename": "S36.mp4",
+      "sourceContentHash": "55f846c753f9df15b79ee00c981fade1137dd73294330387febf693c81585036"
+    },
+    {
+      "id": "S37",
+      "startFrame": 1148,
+      "frames": 22,
+      "assetStartFrame": 12,
+      "itemId": "item_43e94e79-4d7a-4760-afbb-2579cdaa738d",
+      "sourceAssetId": "ecf57edd-bcae-4a99-9a51-32ab7a44c1bf",
+      "assetFilename": "S37.mp4",
+      "sourceContentHash": "dea7dea9c59576a4b7de4944f05d5c24ca4357ac5e5f7f3af51a445f1d89845c"
+    },
+    {
+      "id": "S38",
+      "startFrame": 1170,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_76998130-e91c-4c00-98d0-c7261219646b",
+      "sourceAssetId": "6a230fdc-bf6c-44d3-932b-73038ec76c5b",
+      "assetFilename": "S38.mp4",
+      "sourceContentHash": "509efd54e12acc9dc6f99d6fa88fd16f357bddd84a7a237aff45128d1c8f6be7"
+    },
+    {
+      "id": "S39",
+      "startFrame": 1215,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_007a51ee-20ec-4963-9c0c-d9aca4946baf",
+      "sourceAssetId": "31b98d37-1279-4161-b144-eff0a13d4aa4",
+      "assetFilename": "S39.mp4",
+      "sourceContentHash": "e00279f0b8efabdb00c9047dbc575446a646f35f8aba1831ccf480489f23a15b"
+    },
+    {
+      "id": "S40",
+      "startFrame": 1260,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_6420b6e0-1958-4682-9fa2-18ff934fd9f8",
+      "sourceAssetId": "c3304023-13df-4004-b21d-5951ec756cbb",
+      "assetFilename": "S40.mp4",
+      "sourceContentHash": "397e5e4ba717152f46e040f54234d3d24a88e9ac4c1ab3196ca275b8ccb0e397"
+    },
+    {
+      "id": "S41",
+      "startFrame": 1305,
+      "frames": 45,
+      "assetStartFrame": 12,
+      "itemId": "item_6f933807-55ce-4038-9a96-e3e14a4e65db",
+      "sourceAssetId": "bcb4e4ce-f6e4-4c35-a3cc-f164893aa55d",
+      "assetFilename": "S41.mp4",
+      "sourceContentHash": "7095133186e6ec5e169b179ed86c6e6ac1d4711bdc4d072536b1bb35d8d17d66"
+    },
+    {
+      "id": "S42",
+      "startFrame": 1350,
+      "frames": 90,
+      "assetStartFrame": 12,
+      "itemId": "item_92731e8d-c43f-4b39-8bdf-effde275ca27",
+      "sourceAssetId": "74cbc8b5-34bf-4356-825a-1bc6be067ee0",
+      "assetFilename": "S42.mp4",
+      "sourceContentHash": "2c67607436ece2ace4601a60e37a8ee6274c04f4ea98c02debbffb4f41686162"
+    }
+  ],
+  "hfClips": [
+    {
+      "name": "FX-title.mp4",
+      "startFrame": 7,
+      "frames": 68,
+      "assetStartFrame": 0,
+      "itemId": "item_5fb9471e-8cec-4062-b07c-f73db5757157"
+    },
+    {
+      "name": "FX-triptych.mp4",
+      "startFrame": 675,
+      "frames": 45,
+      "assetStartFrame": 0,
+      "itemId": "item_5290aa07-4362-4dc5-ad83-9afa0c77bbde"
+    },
+    {
+      "name": "FX-end.mp4",
+      "startFrame": 1418,
+      "frames": 22,
+      "assetStartFrame": 0,
+      "itemId": "item_e85dbbf1-c33f-496b-a76c-ef462477b7e4"
+    }
+  ],
+  "nativeTimelineId": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74",
+  "source": "Official CLI project show --doc and running HTTP project store deep-equal readback",
+  "matchesEditJson": true,
+  "verifiedAt": "2026-11-05T03:02:54.360Z"
+}

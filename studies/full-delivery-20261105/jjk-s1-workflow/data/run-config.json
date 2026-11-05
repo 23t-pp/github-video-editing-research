@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "runId": "jjk-s1-workflow",
+  "sourceInventory": "data/source-inventory.json",
+  "canonicalSourceDirectory": "D:/咒术回战/1080P 内嵌简中字幕",
+  "episodes": 24,
+  "referenceSelection": "data/随机参考抽选.json",
+  "primaryReference": "V20",
+  "techniquePool": "outputs/reference-library-20261105/catalog/techniques.json",
+  "library": {
+    "sampleRate": 60,
+    "resolution": [640,360],
+    "format": "JPEG",
+    "ffmpegJpegQuality": 6,
+    "timePolicy": "n/60 normalized to first decoded source PTS; nearest preceding real frame; last held until ceil(stream duration*60)",
+    "ptsPolicy": "same FFmpeg decode pipeline showinfo native n+integer PTS, stream time_base; never infer timestamps from packet count",
+    "duplicateStorage": "NTFS hardlink for each JPG sample path; copy fallback, both mapped explicitly",
+    "metrics": "per-second machine RGB/luma; semantic unknown unless supported by human-viewed evidence",
+    "reserveFreeBytes": 85899345920,
+    "workers": 2,
+    "resumeUnit": "episode",
+    "integrity": "decoded native count, strictly increasing PTS, source SHA256, native JPEG SHA256, per-minute first/middle/last JPEG decode"
+  },
+  "output": {"width":1920,"height":1080,"fps":24,"frames":1440,"seconds":60,"sourceFramePolicy":"native source motion; graphics24fps; library60Hz grid is separate"},
+  "music": {"source":"../reference-library-20261105/audio/music-candidates/V20__music-candidate.m4a","durationPolicy":"user explicitly requested 60 seconds; duplicate library phrase with crossfade to exact 2880000 sample frames at 48000Hz stereo","sourceDecodedSeconds":30.6735625,"crossfadeSeconds":1.347125,"gainDb":-3,"fadeInSeconds":0.04,"fadeOutSeconds":0.4,"actualListeningPerformed":false,"report":"music/music-report.json"},
+  "render": {"engine":"actual HyperFrames CLI0.8.216","chunkFrames":72,"chunks":20,"snapshotAssets":"source PNGs for exact offline capture","cpuWorkers":1},
+  "workflow": {"minimumLoops":4,"independentReviewer":true,"designApprovalRequired":true,"artifactHashesBoundToReviews":true,"heartbeatSeconds":5,"staleAfterSeconds":180,"maxAutomaticRetryPerTask":2,"finalMustPass":true}
+}

@@ -1,0 +1,23 @@
+import fs from'node:fs';import path from'node:path';import assert from'node:assert/strict';import{spawnSync}from'node:child_process';
+const root=path.resolve('outputs/reference-library-20261105'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
+const study=read('data/study.json'),audio=read('data/audio/validation.json'),plan=read('fastx-120/validation.json');
+const checks=[],walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(d,e.name)):[path.join(d,e.name)]);
+let parsed=0;for(const p of walk(root).filter(p=>p.endsWith('.json'))){JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''));parsed++;}
+let evidenceReferences=0;
+for(const x of study.items){const n=x.frameAnalysis.nativeFrameCount,pts=read(`data/frame-analysis/${x.id}-pts.json`);assert.equal(pts.length,n);const rows=fs.readFileSync(path.join(root,`data/frame-analysis/${x.id}.csv`),'utf8').trim().split(/\r?\n/);assert.equal(rows.length-1,n);
+ let frame=0;for(const p of x.frameAnalysis.pages){assert.equal(p.firstFrame,frame);assert.equal(p.count,p.lastFrame-p.firstFrame+1);assert.ok(fs.existsSync(path.join(root,`evidence/${x.id}/${p.file}`)));frame=p.lastFrame+1;}assert.equal(frame,n);
+ for(const s of x.review.segments){assert.ok(s.end>s.start&&s.start>=0&&s.end<=x.duration+.00001);for(const e of s.evidence){assert.ok(fs.existsSync(path.join(root,e)),e);evidenceReferences++;}}
+ let covered=0;for(const chapter of [...x.review.segments].sort((a,b)=>a.start-b.start)){assert.ok(chapter.start<=covered+.0001,`${x.id} uncovered interval`);covered=Math.max(covered,chapter.end);}assert.ok(Math.abs(covered-x.duration)<.0001);
+}
+checks.push({name:'原帧/PTS/CSV/图谱连续性与章节覆盖',passed:true,videos:20,frames:17290,evidenceReferences});
+assert.equal(audio.passed,true);assert.equal(audio.files_checked,40);checks.push({name:'音频全解码及内容校验',passed:true,source:'data/audio/validation.json',files:40});
+checks.push({name:'FastX镜头计划及MIDI解析',passed:true,source:'fastx-120/validation.json',result:plan});
+const scripts=walk(root).filter(p=>/\.(mjs|js)$/.test(p));for(const p of scripts){const c=spawnSync(process.execPath,['--check',p],{encoding:'utf8',windowsHide:true});assert.equal(c.status,0,c.stderr);}checks.push({name:'JavaScript语法检查',passed:true,scripts:scripts.length});
+const base='http://127.0.0.1:5212';for(const [p,status]of [['/health',200],['/local-media-paths.json',403],['/manifest.local.json',403],['/data/study.json',200],['/evidence/V19/native-007.jpg',200]]){const r=await fetch(base+p);assert.equal(r.status,status,p);await r.arrayBuffer();}
+const vr=await fetch(base+'/media/V19',{headers:{Range:'bytes=0-31'}});assert.equal(vr.status,206);assert.equal((await vr.arrayBuffer()).byteLength,32);
+const ir=await fetch(base+'/media/V19',{headers:{Range:'bytes=999999999999-'}});assert.equal(ir.status,416);
+const frame=await fetch(base+'/frame/V05/55.jpg');assert.equal(frame.status,200);assert.equal(frame.headers.get('content-type'),'image/jpeg');assert.ok((await frame.arrayBuffer()).byteLength>20000);
+checks.push({name:'HTTP原视频范围读取/原帧读取/私有清单隔离',passed:true});
+const test=path.resolve('work/reference-library-20261105/manifest-test');fs.mkdirSync(path.join(test,'scripts'),{recursive:true});fs.copyFileSync(path.join(root,'scripts/prepare-manifest.mjs'),path.join(test,'scripts/prepare-manifest.mjs'));const paths=read('local-media-paths.json');fs.writeFileSync(path.join(test,'paths.json'),JSON.stringify({V19:paths.V19}));const result=spawnSync(process.execPath,[path.join(test,'scripts/prepare-manifest.mjs'),path.join(test,'paths.json')],{encoding:'utf8',windowsHide:true});assert.equal(result.status,0,result.stderr);const testIndex=JSON.parse(fs.readFileSync(path.join(test,'data/media-index.json')));assert.equal(testIndex[0].sha256,study.items.find(v=>v.id==='V19').sha256);assert.ok(!('path'in testIndex[0]));checks.push({name:'未来入库清单脚本实际单片运行',passed:true,id:'V19'});
+const validation={date:'2026-11-05',passed:true,jsonFilesParsed:parsed,checks,browser:{actuallyOperated:true,checks:['V05 F55 1920x1080图片加载，PTS1.833333s','候选音轨播放状态paused=false、readyState4、error=null','搜索V19与20fps/388原帧显示','页码切换、原帧选取、窄窗口无整页横向溢出'],screenshot:'evidence/ui/学习页验证.png',audioListeningQualityJudged:false},skill:{quickValidatePassed:true,pythonUtf8Mode:true},remainingLimits:['没有人工全分辨率精读全部17290帧','音乐候选没有人耳质量验收或歌名识别','除V05结构短样外，其他效果为分析和配方','FastX120秒为计划与节奏资源，尚未渲染两分钟成片']};
+fs.writeFileSync(path.join(root,'data/delivery-validation.json'),JSON.stringify(validation,null,2));console.log(JSON.stringify({passed:true,jsonFilesParsed:parsed,checks:checks.length,scripts:scripts.length,evidenceReferences}));

@@ -1,0 +1,16 @@
+{
+  "revision": "V3-dedup",
+  "baseline": "V2",
+  "durationSeconds": 60,
+  "fps": 24,
+  "frames": 1440,
+  "music": "edge.mp3",
+  "sourceMusicSeconds": [
+    147,
+    207
+  ],
+  "audioMasterUnchanged": true,
+  "v1V2Preserved": true,
+  "primaryChange": "21处主镜头重复替换与前景动作去重",
+  "newReferenceDraw": false
+}

@@ -1,0 +1,33 @@
+{
+  "state": "pass_operation_stability_only",
+  "executor": "/root/s1_render_execution",
+  "createdUnix": 1793877791.944023,
+  "changedFiles": {
+    "render.py": {
+      "oldSha256": "1f979fa5f14a93975b49dee9a21cbf1109361c46a8aee24e194b51079bde4e6c",
+      "newSha256": "135ba209d87df98d6dd0d7fb7196aac8a52f9c66ffb1e1629cf6c3148af81b9d"
+    },
+    "run_batch.py": {
+      "oldSha256": "1ce6bc933c5bf88542dfa389908867eaa3c6d097fb5e722815147191a84a0215",
+      "newSha256": "46c8938e229ac46cd61eaa697c712bef245a76482dd33ab7c0a7562692b57b12"
+    }
+  },
+  "checks": {
+    "pythonCompile": true,
+    "atomicSuccessAfterTransientFailures": 3,
+    "atomicPersistentFailureRaisesAfterAttempts": 6,
+    "existingTargetPreservedOnFailure": true,
+    "loop5Accepted": true,
+    "loopBelow2Rejected": true,
+    "captureStarted": false,
+    "cacheModified": false,
+    "producerRebindStarted": false
+  },
+  "delta": [
+    "Atomic JSON replacement retries PermissionError at most 6 attempts with bounded backoff and logs; persistent heartbeat failure propagates to nonzero renderer exit.",
+    "Heartbeat phase plus real encoded bytes/mtime propagated to coordinator progress; PNG cache count no longer masquerades as encode progress.",
+    "Loop numbers >=2 accepted; loop5+ uses loop-NN-high-quality.mp4.",
+    "Loop4 no longer copies canonical root film. Publication is root-only after independent pass."
+  ],
+  "imagePayloadChange": "None intended: capture flags, extraction, encode arguments, composition, assets, HTML and runtime fingerprint are unchanged. Actual byte closure must still be proved against final R4 plan before reuse."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "07",
+  "start": 7064,
+  "name": "night-cars",
+  "end": 7070.51,
+  "step": 0.5,
+  "file": "D:/速度与激情/07 速度与激情7（2015）4K 120帧.mp4",
+  "method": "普通连续解码；select约每0.5秒取原生帧，仅作为镜头连续性多帧检查，非完整逐帧切点判定。",
+  "command": {
+    "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+    "args": [
+      "-v",
+      "error",
+      "-nostdin",
+      "-threads",
+      "1",
+      "-filter_threads",
+      "1",
+      "-filter_complex_threads",
+      "1",
+      "-ss",
+      "7064",
+      "-t",
+      "6.51",
+      "-i",
+      "D:/速度与激情/07 速度与激情7（2015）4K 120帧.mp4",
+      "-an",
+      "-sn",
+      "-vf",
+      "select='isnan(prev_selected_t)+gte(t-prev_selected_t\\,0.499)',scale=480:204,pad=480:236:0:0:black,setpts=PTS+7064/TB,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='%{pts\\:hms}':x=8:y=210:fontsize=18:fontcolor=white,tile=2x7:nb_frames=14:color=black",
+      "-frames:v",
+      "1",
+      "-c:v",
+      "mjpeg",
+      "-q:v",
+      "3",
+      "-f",
+      "image2pipe",
+      "pipe:1"
+    ]
+  }
+}

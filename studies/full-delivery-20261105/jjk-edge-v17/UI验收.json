@@ -1,0 +1,48 @@
+{
+  "recordedAt": "2026-11-05T15:56:54+08:00",
+  "browser": "本机实际界面检查，使用CUA操作；见evidence/ui截图",
+  "moviePlayer": {
+    "url": "http://127.0.0.1:5231",
+    "observedPlaybackTimeSeconds": 50.189745,
+    "durationSeconds": 60,
+    "readyState": 4,
+    "error": null,
+    "muted": false,
+    "frameStep": "定位32.25秒后点击下一帧，显示32.292秒、F775，步进为1/24秒",
+    "referenceReadyStates": {
+      "V17": 4,
+      "V02": 4
+    },
+    "proof": "evidence/ui/观看与学习播放器.png"
+  },
+  "openchatcut": {
+    "importedProjectId": "dc02577e-2c3e-435f-9515-51411e73ced4",
+    "importedProjectUrl": "http://127.0.0.1:5199/#/editor/dc02577e-2c3e-435f-9515-51411e73ced4",
+    "officialMediaRestored": 68,
+    "missingMedia": 0,
+    "hfSequencePlayback": "已点击播放，观察42秒和49.91秒画面；随后暂停。",
+    "nativeSequence": "已打开67镜序列，实际显示首镜受伤五条，67段缩略图与独立master可见。",
+    "editableProperties": "已打开C05.mp4片段属性，源区间12–41帧及滑移控件可见；未修改参数。",
+    "fps": 24,
+    "durationFrames": 1440,
+    "proof": [
+      "evidence/ui/OpenChatCut重开工程.png",
+      "evidence/ui/OpenChatCut原生67镜.png",
+      "evidence/ui/OpenChatCut片段属性.png"
+    ]
+  },
+  "hyperframes": {
+    "url": "http://127.0.0.1:5230",
+    "previewTimeSeconds": 28.8,
+    "observed": "动态五条位于紫色最强/觉醒字前；实际选中V02 Awake Line0，右侧可见最强内容输入、JJK Heavy、280px、900字重及48个Motion效果。",
+    "proof": "evidence/ui/HyperFrames可编辑文字.png",
+    "lint": {
+      "errors": 0,
+      "warnings": 8
+    },
+    "runtimeValidate": "通过；无控制台错误，抽检3个文字元素通过其对比度检查"
+  },
+  "auditoryListeningPerformed": false,
+  "parameterOrDragMutationTestPerformed": false,
+  "scope": "实际播放、定位、选择、属性与工程重开；不把界面播放等同听觉试听，也不声称在UI中拖动/修改过片段。"
+}

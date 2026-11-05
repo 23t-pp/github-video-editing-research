@@ -1,0 +1,20 @@
+{
+  "label": "before-final-hf",
+  "checks": [
+    {
+      "projectId": "db290905-d92d-40c3-bf6d-b978bc074d9e",
+      "baselineSha256": "93e529a26b18c692aed2b98addcab0ddffc4456f32a1180ee94d606900f0d1d2",
+      "actualSha256": "93e529a26b18c692aed2b98addcab0ddffc4456f32a1180ee94d606900f0d1d2",
+      "equal": true
+    },
+    {
+      "projectId": "dc02577e-2c3e-435f-9515-51411e73ced4",
+      "baselineSha256": "63763b0308ae0c27c18abc34c24d0fd4c723996eb28be4a114d911dfac9b9b12",
+      "actualSha256": "63763b0308ae0c27c18abc34c24d0fd4c723996eb28be4a114d911dfac9b9b12",
+      "equal": true
+    }
+  ],
+  "v1ProjectsUnchanged": true,
+  "writesToV1": 0,
+  "verifiedAt": "2026-11-05T08:39:05.748Z"
+}

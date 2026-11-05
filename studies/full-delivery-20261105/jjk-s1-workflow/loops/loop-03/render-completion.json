@@ -1,0 +1,96 @@
+{
+  "state": "rendered_awaiting_independent_review",
+  "executor": "/root/s1_render_execution",
+  "loop": 3,
+  "createdUnix": 1793877132.043635,
+  "video": "loops/loop-03/loop-03-high-quality.mp4",
+  "videoBytes": 48215749,
+  "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b",
+  "planSha256": "a3d5e0168863d94ba9ba66a008894ad9f286c7e9c1dbca05fdf0f588bf884087",
+  "codeSha256": "ffce44232217e278794f06b793df2efb9c3d728b302e3077202229f6a4d4229f",
+  "fps": 24,
+  "frames": 1440,
+  "seconds": 60.0,
+  "size": [
+    1920,
+    1080
+  ],
+  "all20CurrentPayloadProofsVerified": true,
+  "newlyCapturedChunks": [
+    8,
+    11,
+    13,
+    14,
+    15,
+    16
+  ],
+  "reusedAfterInputEquivalenceValidationChunks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    12,
+    17,
+    18,
+    19
+  ],
+  "newlyCapturedFrames": 432,
+  "reusedValidatedFrames": 1008,
+  "proofFiles": {
+    "chunk-00.json": "456d2cb57f9a8f7f96e0bb4ebece14cac45846b5185df8e71cf4ef8b5f640df3",
+    "chunk-01.json": "ffa9120538394f2341f9d72d847cc283a34788815a0f3f86599083d0dbdaab20",
+    "chunk-02.json": "6b04fea370fdfcd61f8195961d8c0e92646940f464cc5813c8eb14afe70e41ae",
+    "chunk-03.json": "274c7118ea161f53225d4443a6afb13d9d97f120731aed2bc9fa865ad8c3653f",
+    "chunk-04.json": "b6478e89bd54448c1004656d2a4d293003d266fef02edfb5da5c28e83f01c24a",
+    "chunk-05.json": "0decf01c7ae765d7164d953a0020deb0ee34d8c19646d55860e85a1d38b4c7e8",
+    "chunk-06.json": "83ff796cc724bc4b26cfd88007bafa82ea59ce05a18f9e8d843b4791f4a66075",
+    "chunk-07.json": "7eed693fefc66335414c6da3ec70651f4822a2ee009f1b6a8f21827b3fc91d58",
+    "chunk-08.json": "fe4d23cb667d991b61c8c5c7be9fca20391cbcdeddd2b0d2b277076bb4148c9f",
+    "chunk-09.json": "b412983ff855de486410f2cad72f556bcbd94c70cb7735788cd5c40f2dc4e064",
+    "chunk-10.json": "a9892236e4005e3c6896e372b977f4273676f60a320eea26d44a470d71d8503e",
+    "chunk-11.json": "ce4532be6ab2e2ccf680c7585f026105d8ce4c2d12bd4e54d17db21c6ae85954",
+    "chunk-12.json": "d008d8a5e121a285c5cab7d60db7025a02cba7cea3a7d1b12262df1ae54ca4b9",
+    "chunk-13.json": "b9ba42e5b6e670b09d2efa29f9e21648ba73d23904a20fafa7af9122fc9d1127",
+    "chunk-14.json": "9c62ad7079f8d4660cf348998dabc0db966ea3b16189c238c7e26fc4f3365294",
+    "chunk-15.json": "dab6ca603874149302393e69605e05ceb7adb13c2808034ec665da7530b9eeb3",
+    "chunk-16.json": "683fd60ec3ca844369002bec2baafcdee29147093dce37e4ff3645f431e3e7e6",
+    "chunk-17.json": "82a29fab3c7d3dcd2390129218aa1734bfceaa93c946123df4c7514022508818",
+    "chunk-18.json": "3df7f288098b54b0500a09d1face17ce93db25c4240da120da72055168634ad7",
+    "chunk-19.json": "0011adc959b531ba1257682fc736288ce493e9d396fe356c1d88b24213d5cacb"
+  },
+  "observedEvidence": [
+    {
+      "globalFrameZeroBased": 626,
+      "file": "loops/loop-03/evidence/render-runner/frame_000627.png",
+      "sha256": "a797ea988cb26ee9a58bb61c50ee5b7cfb10f66be1880fb456e496aa9ad4ddc5"
+    },
+    {
+      "globalFrameZeroBased": 830,
+      "file": "loops/loop-03/evidence/render-runner/frame_000831.png",
+      "sha256": "f4e6c897186785fb261570b2657a813619825d17155fbe498a08975f9aa412ce"
+    },
+    {
+      "globalFrameZeroBased": 980,
+      "file": "loops/loop-03/evidence/render-runner/frame_000981.png",
+      "sha256": "c9b0091206d7ba098e0c6d2cab08b35d2580444605e7397ec76264958ca83951"
+    },
+    {
+      "globalFrameZeroBased": 1073,
+      "file": "loops/loop-03/evidence/render-runner/frame_001074.png",
+      "sha256": "c0a519bcbbe9bf2c164a223186908c76a8efa21b2494a12262ea8058b72b5b0b"
+    },
+    {
+      "globalFrameZeroBased": 1150,
+      "file": "loops/loop-03/evidence/render-runner/frame_001151.png",
+      "sha256": "529113dd84ec9dd8e575e13570b17c83f1ddbb111caa6d1ca01b5774df2f403e"
+    }
+  ],
+  "actualListeningPerformed": false,
+  "scope": "Technical execution proof, not artistic approval. Reused PNGs retain original capture provenance and explicit producer-rebind history."
+}

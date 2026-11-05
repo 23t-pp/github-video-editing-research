@@ -1,0 +1,73 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_item",
+      "result": {
+        "ok": true,
+        "atomic": true,
+        "validateOnly": false,
+        "ripple": false,
+        "results": [
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "0b8e8057-7120-496c-94f6-6911784c7c44",
+              "itemId": "item_5fb9471e-8cec-4062-b07c-f73db5757157",
+              "name": "FX-title.mp4",
+              "kind": "video",
+              "track": "track_dea4d63e-15c1-478a-827b-7e6a668ce163",
+              "startFrame": 7,
+              "durationInFrames": 68,
+              "srcInFrame": 0
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "36a7e365-b980-450d-bbba-632675d7e56d",
+              "itemId": "item_5290aa07-4362-4dc5-ad83-9afa0c77bbde",
+              "name": "FX-triptych.mp4",
+              "kind": "video",
+              "track": "track_dea4d63e-15c1-478a-827b-7e6a668ce163",
+              "startFrame": 675,
+              "durationInFrames": 45,
+              "srcInFrame": 0
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "9a2e907e-a3c9-4ab2-b0df-f76b669e47fd",
+              "itemId": "item_e85dbbf1-c33f-496b-a76c-ef462477b7e4",
+              "name": "FX-end.mp4",
+              "kind": "video",
+              "track": "track_dea4d63e-15c1-478a-827b-7e6a668ce163",
+              "startFrame": 1418,
+              "durationInFrames": 22,
+              "srcInFrame": 0
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "974fe87a-d1d8-4c24-8b4a-d54cf5f97b63",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-a90b9037",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_b7dfff89b637427e",
+    "editorUrl": "http://localhost:5199/#/editor/8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "updatedAt": "2026-11-05T03:02:50.253Z"
+  }
+}

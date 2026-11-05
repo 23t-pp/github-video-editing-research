@@ -1,0 +1,153 @@
+{
+  "command": [
+    "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+    "-v",
+    "info",
+    "-threads",
+    "1",
+    "-filter_threads",
+    "1",
+    "-copyts",
+    "-ss",
+    "284.818167000",
+    "-t",
+    "1.450750000",
+    "-i",
+    "D:/\u5492\u672f\u56de\u6218/1080P \u5185\u5d4c\u7b80\u4e2d\u5b57\u5e55/20.mp4",
+    "-an",
+    "-vf",
+    "trim=start=285.107739917:end=285.879344083,showinfo,scale=in_color_matrix=bt709:in_range=tv:out_range=full,format=rgb24",
+    "-fps_mode",
+    "passthrough",
+    "-c:v",
+    "png",
+    "-threads",
+    "1",
+    "-compression_level",
+    "1",
+    "-f",
+    "image2pipe",
+    "pipe:1"
+  ],
+  "timeBase": "1/24000",
+  "sourcePtsSeconds": [
+    285.11816666666664,
+    285.159875,
+    285.20158333333336,
+    285.24329166666666,
+    285.285,
+    285.32670833333333,
+    285.3684166666667,
+    285.410125,
+    285.45183333333335,
+    285.49354166666666,
+    285.53525,
+    285.5769583333333,
+    285.6186666666667,
+    285.660375,
+    285.70208333333335,
+    285.74379166666665,
+    285.7855,
+    285.8272083333333,
+    285.8689166666667
+  ],
+  "sourcePtsIntegers": [
+    6842836,
+    6843837,
+    6844838,
+    6845839,
+    6846840,
+    6847841,
+    6848842,
+    6849843,
+    6850844,
+    6851845,
+    6852846,
+    6853847,
+    6854848,
+    6855849,
+    6856850,
+    6857851,
+    6858852,
+    6859853,
+    6860854
+  ],
+  "files": [
+    {
+      "path": "native/native_000000.png",
+      "sha256": "cc5ecd911885a666dfcb996bf4220f884963b0755414789fae70252cc59db5f8"
+    },
+    {
+      "path": "native/native_000001.png",
+      "sha256": "74b4ec495709acd43754ef7ff6da25aef0175d1c585e97f991fcdb07feb14f16"
+    },
+    {
+      "path": "native/native_000002.png",
+      "sha256": "e5b0d5015479e8fbd213ccf40866eb729e1abddc9952767ec33c561b73bf1825"
+    },
+    {
+      "path": "native/native_000003.png",
+      "sha256": "6889183b1ab796e75b9b4403eeed24e3879e635f182368f99842fb07385af0f8"
+    },
+    {
+      "path": "native/native_000004.png",
+      "sha256": "93b058d74dce50eebb1875bf20ad1380a6d41fcbb04c9af184869f50181bcb23"
+    },
+    {
+      "path": "native/native_000005.png",
+      "sha256": "b81a5b4558c1048352eda6721d7a5340a46c456198b0a4026c1566d044830001"
+    },
+    {
+      "path": "native/native_000006.png",
+      "sha256": "2e129014ddf74e4ffa7c83391dde47450934c1dd4f07938e8e0738de8b58d4c5"
+    },
+    {
+      "path": "native/native_000007.png",
+      "sha256": "cd38631a07a2d811375d9a66a530409c71ec36f22d6c03dc4d72760e2ae36488"
+    },
+    {
+      "path": "native/native_000008.png",
+      "sha256": "2258ac06418a3282076e911aa6beaa65bc90f51487e7590e0c896fa1bd9c100d"
+    },
+    {
+      "path": "native/native_000009.png",
+      "sha256": "d729581b42f234921d2fa227e1f42cb4be9bdd916adcd175c61d89d2981f2aa1"
+    },
+    {
+      "path": "native/native_000010.png",
+      "sha256": "bbef3c5b074456097295090187db193db6909be6fbd997982308e23abc5f71be"
+    },
+    {
+      "path": "native/native_000011.png",
+      "sha256": "23dd29fe7e16bfcbc57c670a8e755ec7855fae94387f1aa752610661110c829e"
+    },
+    {
+      "path": "native/native_000012.png",
+      "sha256": "d79649e394bfa09a25c0434f5e0ad2f611ac6213e87e2b5c5794ea7ee41e8dcb"
+    },
+    {
+      "path": "native/native_000013.png",
+      "sha256": "854acdd732ff623b00de4abb2671fa9856b201c3ed1583af074f5a498e4fb9ce"
+    },
+    {
+      "path": "native/native_000014.png",
+      "sha256": "98fa2f90235f0e498214a7c8adbc6f13550dff520fd077d4755f8d71db2a1222"
+    },
+    {
+      "path": "native/native_000015.png",
+      "sha256": "3c12c4fdc999a2799827bc315042d611704d24728497c2c227fb335e437b6921"
+    },
+    {
+      "path": "native/native_000016.png",
+      "sha256": "16cb22b2348a0d4da1914dec98d3d2c4571f5ffe89fb3897463382a58dba0863"
+    },
+    {
+      "path": "native/native_000017.png",
+      "sha256": "33b3544f5dbaf020aedd46b01f6232d17876c647bce02b81d61198814cc21d99"
+    },
+    {
+      "path": "native/native_000018.png",
+      "sha256": "002f08ff41066776a2e4ab0e15aa1f0d9c147b079e8c8ce0a9c01bc5961c3475"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "scope": "actual commands reconstructed from executed script revisions plus preserved logs/tool exit results; unknown process exit is explicit, not invented",
+  "attempts": [
+    {
+      "attempt": 1,
+      "command": [
+        "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "-v",
+        "info",
+        "-threads",
+        "1",
+        "-filter_threads",
+        "1",
+        "-copyts",
+        "-ss",
+        "284.818167000",
+        "-t",
+        "1.450750000",
+        "-i",
+        "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+        "-an",
+        "-vf",
+        "trim=start=285.118157000:end=285.868927000,showinfo,scale=in_color_matrix=bt709:in_range=tv:out_range=full,format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-c:v",
+        "png",
+        "-threads",
+        "1",
+        "-compression_level",
+        "1",
+        "-start_number",
+        "0",
+        "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\tail-native\\T062\\native\\native_%06d.png"
+      ],
+      "outerPythonExitCode": 1,
+      "ffmpegProcessExitCode": null,
+      "ffmpegLogTaskCode": -13,
+      "observedError": "Could not open file ... native_000000.png; Error submitting a packet to the muxer: Permission denied; Task finished with error code: -13",
+      "fullLogRetention": "first log was superseded by attempt2; observed excerpt and command preserved here; exact original process returncode was not retained",
+      "remediation": "image2pipe stdout, parse PNG IEND and write using Python"
+    },
+    {
+      "attempt": 2,
+      "command": [
+        "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "-v",
+        "info",
+        "-threads",
+        "1",
+        "-filter_threads",
+        "1",
+        "-copyts",
+        "-ss",
+        "284.818167000",
+        "-t",
+        "1.450750000",
+        "-i",
+        "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+        "-an",
+        "-vf",
+        "trim=start=285.118157000:end=285.868927000,showinfo,scale=in_color_matrix=bt709:in_range=tv:out_range=full,format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-c:v",
+        "png",
+        "-threads",
+        "1",
+        "-compression_level",
+        "1",
+        "-f",
+        "image2pipe",
+        "pipe:1"
+      ],
+      "ffmpegProcessExitCode": 0,
+      "outerPythonExitCode": 1,
+      "observedCount": 18,
+      "expectedCount": 19,
+      "log": "evidence/tail-retrieval/T062-native.log",
+      "error": "exact count assertion T06218vs19; decimal trim exclusive end quantized last PTS away",
+      "remediation": "quarter-native-frame margin then strict actual showinfo integerPTS×TB equality with all curated entries"
+    },
+    {
+      "attempt": 3,
+      "commandSource": "data/retrieved-assets-loop4.json items.decodeCommand/encodeCommand",
+      "outerPythonExitCode": 0,
+      "ffmpegProcessExitCodes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "nativeCounts": [
+        19,
+        23,
+        23
+      ],
+      "outputCounts": [
+        22,
+        24,
+        24
+      ],
+      "sourcePtsAll65Matched": true
+    }
+  ]
+}

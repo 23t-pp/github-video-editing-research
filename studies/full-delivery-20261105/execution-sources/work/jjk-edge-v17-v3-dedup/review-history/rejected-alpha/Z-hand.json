@@ -1,0 +1,95 @@
+{
+  "id": "Z-hand",
+  "assetId": "N39",
+  "first": 12,
+  "endExclusive": 20,
+  "frames": 8,
+  "method": "manual silhouette anchors + constrained LK + narrow-band GrabCut; 0.7px feather; visible crop only",
+  "rgbExactPreparedFrame": true,
+  "sourceNativeFps": "24000/1001",
+  "preparedFps": 24,
+  "noGeneratedRGB": true,
+  "limitations": "人工轮廓近似，细发丝和制服边可能有窄边残留；不恢复原片裁切以外的人体。",
+  "samples": [
+    {
+      "fileFrame": 12,
+      "pixels": 1598457,
+      "bounds": [
+        0,
+        108,
+        1919,
+        971
+      ]
+    },
+    {
+      "fileFrame": 13,
+      "pixels": 1598530,
+      "bounds": [
+        0,
+        108,
+        1919,
+        971
+      ]
+    },
+    {
+      "fileFrame": 14,
+      "pixels": 1598560,
+      "bounds": [
+        0,
+        108,
+        1919,
+        971
+      ]
+    },
+    {
+      "fileFrame": 15,
+      "pixels": 1575145,
+      "bounds": [
+        0,
+        108,
+        1919,
+        971
+      ]
+    },
+    {
+      "fileFrame": 16,
+      "pixels": 1575214,
+      "bounds": [
+        0,
+        108,
+        1919,
+        971
+      ]
+    },
+    {
+      "fileFrame": 17,
+      "pixels": 1575162,
+      "bounds": [
+        0,
+        108,
+        1919,
+        971
+      ]
+    },
+    {
+      "fileFrame": 18,
+      "pixels": 1632677,
+      "bounds": [
+        0,
+        108,
+        1919,
+        971
+      ]
+    },
+    {
+      "fileFrame": 19,
+      "pixels": 1632549,
+      "bounds": [
+        0,
+        108,
+        1919,
+        971
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "22个实物资产（不计本说明工具/文本指南/最终证据ZIP），JPG由独立任务交付",
+  "material_assets": 22,
+  "material_asset_bytes": 6995405197,
+  "outputs_sources_verified": 5579,
+  "outputs_sources_missing": 0,
+  "outputs_sources_sha_mismatch": 0,
+  "text_mirror_files": 5966,
+  "text_mirror_bytes": 85479450,
+  "all_assets_below_2GiB": true,
+  "source_outputs_modified": false,
+  "restore_actual_s1_files": 2356,
+  "restore_same_sha_rerun": 2356,
+  "restore_tests": "PASS",
+  "supplemented_nonsecret_unique_files": 169,
+  "validation": "原源逐文件bytes/SHA256，归档entry解压SHA256/bytes/CRC32，独立ZIP原副本SHA及内部CRC，镜像源副本SHA；另有独立审计"
+}

@@ -1,0 +1,521 @@
+{
+  "date": "2026-11-04",
+  "scope": "只读能力审查；不分析10条视频本身，因此这里只给效果类别难度，不冒充逐视频评级",
+  "rea": {
+    "installed_cli_version": "6.8.0",
+    "runtime": "24.22.1",
+    "mcp_tools_in_active_session": 0,
+    "doctor_exit": 1,
+    "healthy": false,
+    "checks": [
+      {
+        "name": "node",
+        "ok": true,
+        "classification": "healthy"
+      },
+      {
+        "name": "host",
+        "ok": true,
+        "classification": "healthy"
+      },
+      {
+        "name": "hopper",
+        "ok": false,
+        "classification": "missing_analysis_engine"
+      },
+      {
+        "name": "ghidra",
+        "ok": false,
+        "classification": "missing_analysis_engine"
+      },
+      {
+        "name": "ida-registration",
+        "ok": false,
+        "classification": "missing_analysis_engine"
+      },
+      {
+        "name": "jadx",
+        "ok": false,
+        "classification": "missing_analysis_engine"
+      },
+      {
+        "name": "kuna-installation",
+        "ok": false,
+        "classification": "missing_analysis_engine"
+      },
+      {
+        "name": "skill:identity",
+        "ok": false,
+        "classification": "config_drift"
+      },
+      {
+        "name": "registration:codex",
+        "ok": false,
+        "classification": "config_drift"
+      },
+      {
+        "name": "registration:dsh",
+        "ok": false,
+        "classification": "config_drift"
+      }
+    ],
+    "supported_boundary": "本地CLI帮助覆盖软件工件/原生程序/JS/Electron/网络捕获等；当前命令清单未见MP4剪辑反推、音乐卡点、字幕/效果/原工程恢复专用入口。不能用open_binary的名字推导视频剪辑能力。",
+    "what_was_run": [
+      "rea --help",
+      "rea --version",
+      "rea doctor --client codex --json",
+      "hyperframes --help",
+      "hyperframes remove-background|beats|audio|render --help"
+    ],
+    "what_was_not_run": [
+      "未对10个参考视频执行REA分析",
+      "未运行remove-background推理",
+      "未安装/修复REA MCP或分析引擎",
+      "未调用云AI/上传素材",
+      "未停止或修改当前OCC服务"
+    ],
+    "evidence_rule": "本报告代码审查/CLI帮助/doctor是本地工具能力观察；视频接触表、音频onset、FFmpeg切点统计若由其他工具生成，应以原工具名归档，不得包装成REA Evidence。REA doctor不是视频分析Evidence。"
+  },
+  "capabilities": [
+    {
+      "name": "卡点硬切/重拍锚点",
+      "difficulty": "1–2/5",
+      "status": "OCC原生；HF/montage可编程；外部拍点适配可无界面",
+      "route": "先找音乐重拍、动作入点与句尾，再把切点量化为整数frame；少量强锚点优于每拍都切。",
+      "limits": "拍点检测不等于正确挑镜头/动作高潮，也不保证自由节奏/变速曲正确。OCC音乐分析/plan/sync在当前headless白名单之外，需编辑器+MCP；HF算点后可经manage_markers/split_item写入。",
+      "evidence": [
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/audio/beats.ts",
+          "line": 1,
+          "detail": "spectral flux→自相关BPM→相位grid→4/4重拍启发式",
+          "sha256": "73b3d8881707001acb5f393ae6cde7b3f9259bb0b15cb661285b4b2b29d57efb",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/audio/beats.ts#L1"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/agent/tools/music-intelligence-tools.ts",
+          "line": 182,
+          "detail": "cutFrames转换为split actions再batch",
+          "sha256": "57ebdfcd189e729231734e3fd6cf342f74a41f57c7d04279c43adc2f9cff13a4",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/music-intelligence-tools.ts#L182"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/agent/external-tool-policy.ts",
+          "line": 50,
+          "detail": "manage_markers/split_item为server-direct白名单；音乐工具不在名单",
+          "sha256": "75ed936432143175087b1246f533a1f5d672c7481159af8e21be54cc0351e5db",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/external-tool-policy.ts#L50"
+        },
+        {
+          "file": "C:/Users/PC/.codex/skills/montage/assets/dsh-montage/lib/beat.js",
+          "line": 57,
+          "detail": "按预测点±20%拍长局部对齐onset；beats与细分grid分开",
+          "sha256": "812f6ec48d9d08d8afd7e97771e7172e0f8c71e0f8381b3cc17277356d13f1f3"
+        },
+        {
+          "file": "C:/Users/PC/Apps/hyperframes/node_modules/hyperframes/dist/beats-KSUZ23LE.js",
+          "line": 1,
+          "detail": "本地CLI含beats命令；命令帮助已留存hf-beats-help.txt",
+          "sha256": "6fc3358528083c84ea3135cb48de767ced44b6bae79dddb197f390a76177ac91"
+        }
+      ]
+    },
+    {
+      "name": "文字砸入/逐字/描边/弹性/色散重影",
+      "difficulty": "2–3/5",
+      "status": "HF+GSAP与montage已有可复用实现；OCC有MG/文字/props和关键帧",
+      "route": "按字符或词分层，用短时缩放/位移/透明度、错帧和重印层搭出冲击；字体、节奏、声音同时重建。",
+      "limits": "MP4里字已烘焙，不能自动恢复原字体/AE工程/插件参数；OCR/逐帧只能给候选。复杂字形逐笔变形、液体字体需另写SVG/Canvas/Shader或预渲染。",
+      "evidence": [
+        {
+          "file": "C:/Users/PC/.codex/skills/montage/references/workflow.md",
+          "line": 97,
+          "detail": "字块kind: slam/outline/ember/assemble/title等",
+          "sha256": "182b4e9f98150fc8e8f0ec4bc2fffb0a69cc6d2d019a1fbe0f5ac5f6ffc86ccc"
+        },
+        {
+          "file": "C:/Users/PC/.codex/skills/montage/assets/dsh-montage/templates/project/build/gen.mjs",
+          "line": 184,
+          "detail": "slam/outline/ember/assemble真实HTML+GSAP生成代码",
+          "sha256": "2afbdd34c8c5e0cf4bd21379b741bb89bd201b615aec3f6d58bddbf2c22b7901"
+        },
+        {
+          "file": "C:/Users/PC/.codex/skills/gsap/SKILL.md",
+          "line": 24,
+          "detail": "ease/stagger与duration、transform aliases",
+          "sha256": "98a3acb81c91f012ff3f19060abef88ad37b1e467c260c8621def12531d43eee"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/agent/tools/schemas/core-tools.ts",
+          "line": 23,
+          "detail": "MG模板添加及update_item_props入口",
+          "sha256": "e0aea7b04a4c647f6d0af64918ddd8e78e14276105349162b0d6702f41db4bdb",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/core-tools.ts#L23"
+        }
+      ]
+    },
+    {
+      "name": "缩放冲击/位移/旋转/音量包络",
+      "difficulty": "1–2/5",
+      "status": "OCC原生关键帧；HF/GSAP原生动画",
+      "route": "给item-local frame设置关键帧，先还原主运动路径，再调easing、回弹与hold；音效峰值和视觉落点对齐。",
+      "limits": "OCC通用关键帧不包含playbackRate；不要把变换缓动等同视频时间重映射。HF在其源HTML内可细调，渲染导入OCC后内部动画已烘焙。",
+      "evidence": [
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/editor/keyframeRegistry.ts",
+          "line": 29,
+          "detail": "scale/scaleX/scaleY/x/y/rotation/opacity/borderRadius/volume注册",
+          "sha256": "180a69781544c7f0d6b0de2d385c72bf5f1739c00e35b3554a5de666e08ba2a1",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/editor/keyframeRegistry.ts#L29"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/editor/keyframes.ts",
+          "line": 68,
+          "detail": "按左侧关键帧easing采样和边界保持",
+          "sha256": "c8aa5f83b972908b3be822e079a9986b7808df493fc7f76b16abb905595f77df",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/editor/keyframes.ts#L68"
+        },
+        {
+          "file": "C:/Users/PC/.codex/skills/gsap/SKILL.md",
+          "line": 40,
+          "detail": "transform aliases与CSS variables",
+          "sha256": "98a3acb81c91f012ff3f19060abef88ad37b1e467c260c8621def12531d43eee"
+        },
+        {
+          "file": "C:/Users/PC/.codex/skills/hyperframes/SKILL.md",
+          "line": 150,
+          "detail": "HTML timing attributes与composition模型",
+          "sha256": "5d733405a96907b8b08ecfd9b764d10dde0eb3131809f738b4b9898b56fa61bc"
+        }
+      ]
+    },
+    {
+      "name": "闪白/甩镜/故障/光学模糊/遮挡式转场",
+      "difficulty": "2–3/5",
+      "status": "OCC原生GLSL转场；HF CSS/Shader及montage模板",
+      "route": "先判定是硬切上叠闪光、真实相机甩动，还是两帧纹理混合，再选转场；只在对应切点重建。",
+      "limits": "“有glitch/whip模板”不能证明与参考同款；曝光/模糊/切点前后素材运动匹配决定效果。参考若明确硬切，应保留其剪辑语法，不机械套通用技能的“每场都转场”约定。",
+      "evidence": [
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/gl/transitions.ts",
+          "line": 1,
+          "detail": "cross-dissolve/flash/whip-pan/radial-blur/glitch等真实shader registry",
+          "sha256": "03a996bd9d31063afcfedd1b74fc8df9bba58879b562a74e34daa6b2168022c8",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/gl/transitions.ts#L1"
+        },
+        {
+          "file": "C:/Users/PC/.codex/skills/hyperframes/references/transitions.md",
+          "line": 91,
+          "detail": "CSS容器变换与WebGL纹理合成的区别",
+          "sha256": "302fab350697e210a763ba7e3b2acbde9aadac37bd49cb9814a12e60983294ce"
+        },
+        {
+          "file": "C:/Users/PC/.codex/skills/montage/references/workflow.md",
+          "line": 119,
+          "detail": "离线组件/blocks复用入口",
+          "sha256": "182b4e9f98150fc8e8f0ec4bc2fffb0a69cc6d2d019a1fbe0f5ac5f6ffc86ccc"
+        }
+      ]
+    },
+    {
+      "name": "矩形/圆形柔边遮罩与画幅裁切",
+      "difficulty": "2–3/5",
+      "status": "OCC原生几何mask；HF CSS clip-path/SVG mask可编程",
+      "route": "平面几何揭示可直接用中心/尺寸/羽化/反转；复杂形状遮挡优先HF SVG mask或预渲染alpha。",
+      "limits": "矩形/圆形mask不是任意路径逐帧rotoscope。尚未核实OCC有通用Bezier遮罩顶点动画/跟踪遮罩精修。",
+      "evidence": [
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/gl/fx/shaderEffects.ts",
+          "line": 91,
+          "detail": "builtin:fx-rect-mask和circle-mask参数中心、尺寸、圆角、羽化、反转",
+          "sha256": "aa8c0665ff352d59771a75f4efbe0318d047131825d7fd092f5319c6b4580c52",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/gl/fx/shaderEffects.ts#L91"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/agent/tools/schemas/edit-item-tools.ts",
+          "line": 30,
+          "detail": "transform.crop/flexCrop裁切像素透明",
+          "sha256": "27e4ef99cb4eb87308cc7a59371a3d6994ce6720be17a69a1c834c3ca314443a",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/edit-item-tools.ts#L30"
+        },
+        {
+          "file": "C:/Users/PC/.codex/skills/montage/assets/dsh-montage/registry/components/svg-mask-reveal/svg-mask-reveal.html",
+          "line": 1,
+          "detail": "已有SVG mask揭示组件，可编辑源实现",
+          "sha256": "ee75c96ce061fd2de8819313edbd6a16a7810fff5148c138cf92b210a7467da1"
+        }
+      ]
+    },
+    {
+      "name": "绿幕/纯色背景抠除",
+      "difficulty": "2–3/5",
+      "status": "OCC原生chroma-key效果",
+      "route": "纯色、干净光照素材用键色/容差/羽化/溢色抑制；把效果作为可调参数保留在OCC。",
+      "limits": "不是杂乱背景AI抠像；主体服装同色、半透明、毛发与运动模糊可能难处理，需样片检验。",
+      "evidence": [
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/gl/fx/shaderEffects.ts",
+          "line": 183,
+          "detail": "绿幕效果已注册keyColor/similarity/smoothness/spill",
+          "sha256": "aa8c0665ff352d59771a75f4efbe0318d047131825d7fd092f5319c6b4580c52",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/gl/fx/shaderEffects.ts#L183"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/gl/fx/chroma-key.frag",
+          "line": 4,
+          "detail": "YCbCr色距算alpha，并抑制溢色；实际premultiplied-alpha输出",
+          "sha256": "c0b4ea0c84b6b7339619cc235633024ac4f9e680411f905359922d22133af6fe",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/gl/fx/chroma-key.frag#L4"
+        }
+      ]
+    },
+    {
+      "name": "人像抠像/人物遮字/前后景分层",
+      "difficulty": "3–4/5；头发/遮挡/透明物5/5",
+      "status": "HF有本地remove-background预处理；OCC的几何分析分割不是逐帧抠像输出",
+      "route": "HF生成透明subject.webm或ProRes4444.mov→人物前景/文字/背景三层叠放→逐帧对齐；OCC可以在视频层做外部编排，但本轮没有实测其alpha解码导出，最稳先在HF合成。",
+      "limits": "HF是u2net_human_seg单帧推理，输入320×320，不能承诺复杂毛发/闪烁抑制/运动模糊高质量。quality只控制VP9 CRF；background-output是反alpha挖洞底板，不是AI补出人物后面的完整背景。模型约168MB未缓存，初次运行还可能自动安装sharp/ORT；本轮未运行、未下载。",
+      "evidence": [
+        {
+          "file": "C:/Users/PC/Apps/hyperframes/node_modules/hyperframes/dist/chunk-QETCWXRM.js",
+          "line": 104,
+          "detail": "u2net模型路径、URL与估算内存1500MB（非实测）",
+          "sha256": "29193a711e96a77b709938c880c59ac2f44a968842dcb397484563f561076127"
+        },
+        {
+          "file": "C:/Users/PC/Apps/hyperframes/node_modules/hyperframes/dist/chunk-QETCWXRM.js",
+          "line": 155,
+          "detail": "缺模型时下载约168MB",
+          "sha256": "29193a711e96a77b709938c880c59ac2f44a968842dcb397484563f561076127"
+        },
+        {
+          "file": "C:/Users/PC/Apps/hyperframes/node_modules/hyperframes/dist/chunk-QETCWXRM.js",
+          "line": 167,
+          "detail": "320×320输入，sharp与onnxruntime-node依赖",
+          "sha256": "29193a711e96a77b709938c880c59ac2f44a968842dcb397484563f561076127"
+        },
+        {
+          "file": "C:/Users/PC/Apps/hyperframes/node_modules/hyperframes/dist/chunk-QETCWXRM.js",
+          "line": 617,
+          "detail": "逐RGB帧调用session.process再编码前景/反alpha背景",
+          "sha256": "29193a711e96a77b709938c880c59ac2f44a968842dcb397484563f561076127"
+        },
+        {
+          "file": "C:/Users/PC/Apps/hyperframes/node_modules/hyperframes/dist/chunk-Y65ZU7XY.js",
+          "line": 121,
+          "detail": "缺optional包默认可能调用npm安装",
+          "sha256": "53ceb04e98e6b676a25a60c76412cea46cc23dc8f216a2a582a62541afe3ab1f"
+        },
+        {
+          "file": "C:/Users/PC/Apps/hyperframes/node_modules/hyperframes/dist/skills/media-use/audio/references/remove-background.md",
+          "line": 18,
+          "detail": "quality只改编码；分割质量固定",
+          "sha256": "fb6b38a25c6535c57a461bbe2ca681b38f18e5f09b1e904e4a0b5f6eca7a5b98"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/geometry/mediapipe.ts",
+          "line": 198,
+          "detail": "OCC把confidence mask降成occ网格并返回face/occ，未导出全分辨率alpha",
+          "sha256": "695701103d14a01a720cc615d193df7ee6b6c8b4835cf296156ac08f3b67b48e",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/geometry/mediapipe.ts#L198"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/geometry/visual-geometry.ts",
+          "line": 1,
+          "detail": "几何结果用于safe-zone/构图并缓存",
+          "sha256": "9a51f3a67a927927beb3e54e9f0edad8f074ccdd18e4e293f375d65c06ef717f",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/geometry/visual-geometry.ts#L1"
+        }
+      ]
+    },
+    {
+      "name": "贴字跟随/区域运动跟踪/简易稳定",
+      "difficulty": "3–4/5",
+      "status": "OCC原生浏览器区域模板跟踪；HF可接外部轨迹驱动GSAP",
+      "route": "选高纹理、无遮挡的小区域，跟踪后检查漂移；写目标层x/y关键帧，让图形跟随，或反向位移稳定。",
+      "limits": "360×240灰度、最多150样本，最多2次丢失后停；只证实平移x/y，不是透视平面、3D相机解算、人体关节/自动物体精密跟踪。大旋转、尺度变化、遮挡需人工修。",
+      "evidence": [
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/tracking/analyzeMotion.ts",
+          "line": 11,
+          "detail": "分析尺寸与样本上限",
+          "sha256": "cf9308ac8caf0e85214fd3b5f90fc282053b766af0fd2f1cd5637108d0c113b7",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/tracking/analyzeMotion.ts#L11"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/tracking/templateMatch.ts",
+          "line": 53,
+          "detail": "归一化灰度相关匹配",
+          "sha256": "e36e5a61d3d68cf72f5e603d2ad063a45f8838710abf87cde055d2c64f45a41b",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/tracking/templateMatch.ts#L53"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/tracking/keyframeActions.ts",
+          "line": 37,
+          "detail": "follow/stabilize方向；只写x/y关键帧",
+          "sha256": "164e7b896cb21e9ace88fe1b5f829942de45beb2c12132a784c5f9f1354ae45e",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/tracking/keyframeActions.ts#L37"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/agent/tools/schemas/reframe-tools.ts",
+          "line": 7,
+          "detail": "自动重构图另是浏览器检测焦点写reframe keyframes",
+          "sha256": "0fe65bf23a18f47ca704198ea5d07e261e3ef31d3a2a81cd5b7fdcfa55ba5837",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/reframe-tools.ts#L7"
+        }
+      ]
+    },
+    {
+      "name": "恒速/快慢切换/丝滑变速曲线/光流慢放",
+      "difficulty": "恒速2/5；曲线4/5；复杂光流5/5",
+      "status": "OCC原生恒速0.1–8倍；复杂时间重映射建议外部预渲染",
+      "route": "简单快慢切换可以拆片逐段恒速；连续曲线/倒放/补帧需要单独时间映射/FFmpeg滤镜或专用光流工具，经2–3秒样片确认后导入OCC/HF。",
+      "limits": "未见OCC原生速度关键帧或光流实现。FCPXML speed ramp导入明确近似平均速度；帧率/素材原速未知时，不能从成片唯一恢复原变速曲线。光流尤其怕遮挡、烟雾、水花。",
+      "evidence": [
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/editor/rateStretch.ts",
+          "line": 7,
+          "detail": "MIN_RATE=.1 MAX_RATE=8；保持source span按恒速重算duration",
+          "sha256": "a353125337aec480de7ffac583a141ad5f8c20b3c7fac29aaba6ac46dddf6b16",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/editor/rateStretch.ts#L7"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/editor/clipTypes.ts",
+          "line": 198,
+          "detail": "playbackRate是scalar",
+          "sha256": "efd973ce47c9aefc11d2ac50b93c718ce5c4208e6b0ca4f45e899a1b61245a73",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/editor/clipTypes.ts#L198"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/agent/tools/timeline-import-fcpxml-timing.ts",
+          "line": 133,
+          "detail": "注释与localToParent把非线性ramp近似平均速度",
+          "sha256": "25430585d01cacb089372a82bb3c8514c57fa4835f13a5dffc82b291b0c543fe",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/timeline-import-fcpxml-timing.ts#L133"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/agent/tools/timeline-import-fcpxml-walk.ts",
+          "line": 252,
+          "detail": "明确warning: speed ramp approximated by its average speed",
+          "sha256": "23a6557d3605be4d7d8b9749fdbb986172ce9467f0de6a3b73e300fba1691e98",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/timeline-import-fcpxml-walk.ts#L252"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/editor/keyframeRegistry.ts",
+          "line": 29,
+          "detail": "通用关键帧注册没有speed/rate",
+          "sha256": "180a69781544c7f0d6b0de2d385c72bf5f1739c00e35b3554a5de666e08ba2a1",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/editor/keyframeRegistry.ts#L29"
+        }
+      ]
+    },
+    {
+      "name": "保留可改工程/无界面批量导出",
+      "difficulty": "2–3/5",
+      "status": "OCC ProjectDoc/CLI原生；HF HTML原生，但二者无原生HTML互导证据",
+      "route": "OCC负责媒体编排与外层调整，HF负责复杂字效/图形/合成；交换视频/音频、拍点JSON/镜头表。用CLI --dry-run检查计划再render。",
+      "limits": "HF渲染视频入OCC后只保留外层裁切/位置/效果，内部DOM/文字/GSAP要回HF改。EDL/FCPXML导入会丢title/caption/transition/effect；不能承诺跨工具无损还原。montage baked稳定但镜头已合成，editable模式多镜头较慢。",
+      "evidence": [
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/cli/commands/render.ts",
+          "line": 1,
+          "detail": "不需用户打开浏览器，使用server导出和Remotion pipeline",
+          "sha256": "8fa84f225478522b4cf337ece7f161e87966257b48c88fa716b2ff0da8c6760c",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/commands/render.ts#L1"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/cli/commands/tools.ts",
+          "line": 1,
+          "detail": "只允许headless白名单tools",
+          "sha256": "3d5549eb95e39522573ff0a1fdce5700b5864fcbdb125aa07548dd26efdf6253",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/commands/tools.ts#L1"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/agent/tools/schemas/timeline-import-tools.ts",
+          "line": 11,
+          "detail": "明确列出交换导入跳过要素",
+          "sha256": "cecbb760a28fa3bba222dab517609b27564394d00a42f8f1ee11d8f7a6aa31b8",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/timeline-import-tools.ts#L11"
+        },
+        {
+          "file": "C:/Users/PC/Desktop/OpenChatCut-main/src/export/artifactExportOperations.ts",
+          "line": 121,
+          "detail": "导出MG可以渲染成媒体引用",
+          "sha256": "e115d6a5b53010d45d05e0bf50398d33d1ac00685f8871f7884a661e786aa578",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/export/artifactExportOperations.ts#L121"
+        },
+        {
+          "file": "C:/Users/PC/.codex/skills/montage/references/workflow.md",
+          "line": 162,
+          "detail": "baked和editable模式边界",
+          "sha256": "182b4e9f98150fc8e8f0ec4bc2fffb0a69cc6d2d019a1fbe0f5ac5f6ffc86ccc"
+        },
+        {
+          "file": "C:/Users/PC/Apps/hyperframes/node_modules/hyperframes/dist/skills/media-use/audio/references/remove-background.md",
+          "line": 5,
+          "detail": "透明WebM/MOV用于分层交换",
+          "sha256": "fb6b38a25c6535c57a461bbe2ca681b38f18e5f09b1e904e4a0b5f6eca7a5b98"
+        }
+      ]
+    },
+    {
+      "name": "从成片反推原工程/原软件/原插件",
+      "difficulty": "不能承诺；仅候选重建",
+      "status": "现有工具能重建视觉规律，不能唯一恢复历史制作过程",
+      "route": "按时间码记录观察→列可能实现→做最小复现→并排对照→保留未知。剪点/字体/转场/抠像属于多解问题，区分“看见了”与“猜测制作方式”。",
+      "limits": "同一MP4可由多种软件/模板/插件产生；没有原工程和素材，就不能保证层次、速度曲线、字体/插件版本完全正确。REA也没有宣称本地MP4自动反求剪辑工程。",
+      "evidence": [
+        {
+          "file": "C:/Users/PC/.codex/skills/reverse-engineer-anything/SKILL.md",
+          "line": 16,
+          "detail": "普通完整源码分析用普通工具，REA适用于发布工件/运行证据等问题",
+          "sha256": "0b86284fad27631968c5fb54a2ae8ef55f88f4d20615b0ba45fba5f47f193192"
+        },
+        {
+          "file": "C:/Users/PC/.codex/skills/reverse-engineer-anything/references/connection-and-recovery.md",
+          "line": 48,
+          "detail": "普通shell观察须标为shell；只有真实REA输出才是REA Evidence",
+          "sha256": "69aae4c8c2741cc745171a007257cf94fa65247bf73e4c4eb031a1361a06831e"
+        }
+      ]
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "items": "硬切卡点、简单文字入场、缩放与闪白",
+      "difficulty": "低，1–2/5",
+      "reason": "可直接用frames、GSAP、既有模板/转场复现；主要成本在选点与视觉校准。"
+    },
+    {
+      "rank": 2,
+      "items": "多层冲击字幕、glitch/甩镜组合、几何mask、恒速快慢切换",
+      "difficulty": "中，2–3/5",
+      "reason": "组件原生可用，需处理层级、声音同步、遮罩边界和参数。"
+    },
+    {
+      "rank": 3,
+      "items": "人物遮字、干净绿幕、简单运动跟踪、局部稳定",
+      "difficulty": "中高，3–4/5",
+      "reason": "已有处理路线，但必须检查alpha边缘、时间同步和跟踪漂移。"
+    },
+    {
+      "rank": 4,
+      "items": "连续速度曲线、复杂光流、遮挡中贴字、头发/透明物精细抠像",
+      "difficulty": "高，4–5/5",
+      "reason": "当前组件不足以承诺一键高质量，通常需要外部预渲染与人工修整。"
+    },
+    {
+      "rank": 5,
+      "items": "原剪辑软件/插件/层次与历史工程的唯一恢复",
+      "difficulty": "不可保证",
+      "reason": "成片信息不可逆且多解；只能做有证据的近似重建。"
+    }
+  ],
+  "reproducible": {
+    "safe_local_audio": "用已安装HF命令 audio \"本地video.mp4\" --quality fast --only onsets,loudness,silence,envelope --json。明确signal-only，避免best上传。未在本轮对素材运行。",
+    "cutpoints": "FFmpeg场景分数/接触表只能定位候选切点；闪白、甩镜、渐变、人物遮挡可能误报，需逐帧听看。",
+    "sample": "每种复杂效果先选2–3秒做A/B小样，观察时保留t-2f/t-1f/t/t+1f/t+2f，再扩大。",
+    "mask": "需alpha时先绿幕键或HF预抠；u2net模型未缓存，不能把命令帮助当已具备抠像运行结果。",
+    "formats": "保持全流程fps一致；time-in-seconds与frame整数转换、源片入点、音乐offset都要记录。透明视频可用WebM或ProRes4444，普通MP4不保留alpha。"
+  }
+}

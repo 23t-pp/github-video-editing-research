@@ -1,0 +1,58 @@
+[
+  {
+    "repo": "modelscope/FunClip",
+    "path": "funclip/videoclipper.py",
+    "sha": "bc546c9e45fa8ba4fc3fea796045d82f691f98e1",
+    "date": "2026-09-16T01:58:15Z",
+    "message": "fix(cli): correct recognition and clipping stage help\n\nSigned-off-by: zhifu gao <zhifu.gzf@alibaba-inc.com>"
+  },
+  {
+    "repo": "WyattBlue/auto-editor",
+    "path": "src/editmethods.nim",
+    "sha": "4aca9c16eca3e45751f6c2a6c53b17fc2d4cea6e",
+    "date": "2026-07-30T17:02:32Z",
+    "message": "Validate edit operator arity"
+  },
+  {
+    "repo": "FujiwaraChoki/supoclip",
+    "path": "backend/src/ai.py",
+    "sha": "80a954ffb3bf6d830676de0dd95cac5973fee7a0",
+    "date": "2026-10-28T11:32:28Z",
+    "message": "fix(studio): integrate clip quality and editable title timing"
+  },
+  {
+    "repo": "Anil-matcha/AI-Youtube-Shorts-Generator",
+    "path": "shorts_generator/pipeline.py",
+    "sha": "cf3e4f09291ece204f00a57cac5979d8fb7a5097",
+    "date": "2026-05-09T15:51:26Z",
+    "message": "add gemini local llm and local caches"
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "path": "app/services/video.py",
+    "sha": "c8dbf96e9dfee43b30f7c3f440175d6bd4de61de",
+    "date": "2026-11-04T02:11:21Z",
+    "message": "fix(video): stop keys typed into the console window from cutting the video short or stalling the clip join\n\nThe FFmpeg that joins the clips of every video ran without -nostdin, so\nit read keys from the console it inherits: the webui.bat window, or the\nconsole of main.py or cli.py. A \"q\" typed there stops the join with exit\ncode 0, and the task finishes with a video whose footage ends at that\npoint, followed by a black frame with subtitles for the rest of the\nnarration. A \"c\" opens FFmpeg's \"Enter command\" prompt, and the join\nthen waits for Enter until ffmpeg_concat_timeout_seconds (3600 s by\ndefault) fails the task. On Windows, a key typed into the window while\nnothing reads it, even before the task starts, waits there and is read\nwhen the join starts.\n\nThe other FFmpeg commands in app/ that process media (voice.py, bgm.py,\nmaterial_upload.py, sonilo.py, elevenlabs_music.py, video_project.py)\nalready pass -nostdin, and MoviePy starts its FFmpeg processes with\nstdin set to DEVNULL or a pipe."
+  },
+  {
+    "repo": "0xsline/OpenChatCut",
+    "path": "src/agent/tools/music-intelligence-tools.ts",
+    "sha": "8b976ceeb30f0baa18c3c6b612ae117226a7dfc5",
+    "date": "2026-08-19T16:44:34Z",
+    "message": "fix: close remaining release audit findings\n\nBound document attachment work, hide configured capability banners, and correct the SQLite relocation release note.\n\nShared-path impact: preserve public exports while splitting oversized music, desktop, server-run, and key-probe modules below the source-file limit.\n\nValidation: TypeScript build, zero-warning lint, affected checks, production build, 103 full test segments, component and desktop suites, and isolated browser project-store smoke."
+  },
+  {
+    "repo": "RayVentura/ShortGPT",
+    "path": "shortGPT/engine/content_short_engine.py",
+    "sha": "38e776b079317ff7acb3ea09440d48d2d3b17e7f",
+    "date": "2025-01-13T09:08:48Z",
+    "message": "Fixing & upgrading project. Openai gpt3.5 -> gpt4-o-mini. Moviepy v1 -> v2 . Fonts: Roboto -> Luckiest guy"
+  },
+  {
+    "repo": "poseljacob/agentic-video-editor",
+    "path": "src/tools/analyze.py",
+    "sha": "d7a910799ded1c713a2ded6a5955ce14deee88cf",
+    "date": "2026-04-14T03:43:33Z",
+    "message": "Initial open source release\n\nAI-powered video editor that turns raw footage and a creative brief into\na polished ad using an ensemble of AI agents (Director, TrimRefiner,\nEditor, Reviewer) powered by Google Gemini and FFmpeg.\n\nIncludes:\n- Python backend with pipeline system and agent orchestration\n- FastAPI REST API with WebSocket streaming\n- Next.js frontend (AVE Studio) with NLE-style editor UI\n- YAML-driven pipeline manifests and style templates\n- Full test suite"
+  }
+]

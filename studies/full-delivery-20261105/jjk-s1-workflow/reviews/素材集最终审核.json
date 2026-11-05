@@ -1,0 +1,786 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "status": "pass",
+  "phase": "physical_material_dataset_only",
+  "reviewedAt": "2026-11-05T18:12:49+08:00",
+  "boundArtifacts": {
+    "data/run-config.json": "ca68d3f4ae7aaded496d63376f43c665f27c3f84f6c8d468dbf75899f555bbd7",
+    "data/library-summary.json": "3dc2dea844f3696cac94dc57c7b18f3b186c1e59f485f9d8acc82b297d1553ab",
+    "data/library-verification.json": "51caecd90354f98c01e43d40a95dfa456bd1a67c5369f8f4dcf658765e98702b",
+    "scripts/extract-library.py": "c47f1531f3d9af2dd1e18f117f3c7b06c4cd9b22b9b0bdba0eded33391fa7813",
+    "scripts/verify-library.py": "f68c451fbbf2a613dcaf863b19efde2014a6953cd999ecdbcf0d233386c6f041"
+  },
+  "episodes": 24,
+  "jpgSamplePaths": 2061018,
+  "uniqueNativeJpeg": 823577,
+  "repeatedSamplePaths": 1237441,
+  "reportedAllUniquePixelDecodeAndSha": 823577,
+  "reportedAllSampleFileIdAndPtsChecks": 2061018,
+  "independentReviewScope": "Read and cross-check all24 raw/verification reports, all JSONL SHA, all SQLite count/range/duplicate totals; independently full pixel decode+SHA+alias/PTS samples first/middle/last per episode (72 samples). Did not wastefully repeat full-season decoding performed by verifier.",
+  "independentSampleCount": 72,
+  "episodeReports": [
+    {
+      "episode": "S1E01",
+      "samples": 86102,
+      "uniqueNative": 34406,
+      "duplicates": 51696,
+      "rawReportSha256": "e2357c17b93c309af7be499f294ea08f73ecb387547765847b0ff062d1c70a7e",
+      "verificationReportSha256": "4eeccd2bfdadd66493428e032b05834583d91a7a31248ee86adcd2068dfd2df6",
+      "jsonlSha256": "2f80cd32a0d8cffb494f5440d14df6b2589d6388a62d59a812794bd9b5d9f022",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E02",
+      "samples": 86097,
+      "uniqueNative": 34404,
+      "duplicates": 51693,
+      "rawReportSha256": "96293998b351f506be85731a0bcf55b4225e9d34d4478d45f72dc6b91a601eae",
+      "verificationReportSha256": "dac19ad73e65b86e77effc9ff61269a905eb8a8695e5e3bd2f275d00d9528aaa",
+      "jsonlSha256": "b78260381e4ef0c76514661be29ebdf357159ab17d043a9f8b569c7649848084",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E03",
+      "samples": 86099,
+      "uniqueNative": 34405,
+      "duplicates": 51694,
+      "rawReportSha256": "c61bffb63497c1dadca116329f5502f93a7ba40d63a9e5655fcc4e2aa0d193cf",
+      "verificationReportSha256": "3b633dc613f8c29f6f9de5a7b8d010f85085a7f4b0014ac7cc29f57c50a46cc6",
+      "jsonlSha256": "1e37da25a4189b37e79e690984b48298e19a9347d3ec926ac085effa1ae6d85b",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E04",
+      "samples": 86102,
+      "uniqueNative": 34406,
+      "duplicates": 51696,
+      "rawReportSha256": "40576a2b2f3a545b149c22ffb077f63ee6641bb6f48ae7499e73e54289be42da",
+      "verificationReportSha256": "b101c6885e0ab4640ad842ab2dc57cb535d919a48fa28bf556d0e623ef43d074",
+      "jsonlSha256": "a290c8ebd927698b93f24651b3b96d14d3772aa23320dd6f4f5d3962430c6342",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E05",
+      "samples": 86099,
+      "uniqueNative": 34405,
+      "duplicates": 51694,
+      "rawReportSha256": "88b2d658b726f908e722ff83e040665c67efa085407fffa4b5bb1d938fd118b6",
+      "verificationReportSha256": "514a9757683fc6515b0f87591d20805fa3e5126e8370d81c3e9f6547b92563e9",
+      "jsonlSha256": "74742e1e0bc78fb624289104a63ba7361e169a17f97b212f6f53c89b8bcae2c2",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E06",
+      "samples": 86107,
+      "uniqueNative": 34408,
+      "duplicates": 51699,
+      "rawReportSha256": "74840779e23b3aadf8d78bc993eb1e082c2c143896500244ac48ca07161b8d03",
+      "verificationReportSha256": "c1ae03503d5e594763452767166279be586a608aa40ea0b53755ee758da41ffe",
+      "jsonlSha256": "f3e7eefec18cd9f2d285fcd24b5efe1f452107f73fd49933b3fa2d45e0fd0f56",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E07",
+      "samples": 86099,
+      "uniqueNative": 34405,
+      "duplicates": 51694,
+      "rawReportSha256": "7fb003c981ec6d3a2f477910501ffff4683f4c59f4f7b06cdf4f73aba9fe0d95",
+      "verificationReportSha256": "a7270ba60cdb5db80c0fb327d74b12bd81fcd21ba4e62d47ac3ddae8e5510a6c",
+      "jsonlSha256": "d1842c2cb46d59d3197da8393fbd539d7053d1f3daef86117c7474bee334c6c6",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E08",
+      "samples": 86102,
+      "uniqueNative": 34406,
+      "duplicates": 51696,
+      "rawReportSha256": "4ce68a4dc4c392d103a6d64411b24e5ac559c93b3c515f567584e560dd7401de",
+      "verificationReportSha256": "75a679bf6a555cbcdf20fd9baf0262e47ea5319729be43e0963a488103690824",
+      "jsonlSha256": "48c2ae04cb9dd63c778b26c3ed3d8f932821dbce926a280065a3df973c406f13",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E09",
+      "samples": 86104,
+      "uniqueNative": 34407,
+      "duplicates": 51697,
+      "rawReportSha256": "cd3c61886f462f4e70bef55e3834c1f99ceed506e34676b4f2e43874972ea848",
+      "verificationReportSha256": "a5c7ede875321c2347254d876745fded80475363c6dd2e0887b3484593a38f31",
+      "jsonlSha256": "8f838133a2f90822ec7b89d360a487d84e9a6a8b93dcb525b8f1b3d5c0a36fe2",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E10",
+      "samples": 86104,
+      "uniqueNative": 34407,
+      "duplicates": 51697,
+      "rawReportSha256": "b3afbc9e71036fbef9a480df7d3a856522bb2725a35ede09305624d23a3a1171",
+      "verificationReportSha256": "266b8df5d595d18f250e9233b0f7627f21ec5320066fe7d3dec7c38c68940542",
+      "jsonlSha256": "b75803b9b3753828950796167d1e130969893740770b6e643b3239185719df6a",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E11",
+      "samples": 86099,
+      "uniqueNative": 34405,
+      "duplicates": 51694,
+      "rawReportSha256": "6223a5131e1e07f6e68b7098e9120729bd7ad59edfaa1695216c86b70373aec4",
+      "verificationReportSha256": "04f08a44924ef986791b49ccd9ef4d91956ce101fe826f210cd07885a9608970",
+      "jsonlSha256": "b506e13e83dd319fc798cda6d7e2cc41befbd7c47c12767e7990722031645507",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E12",
+      "samples": 86104,
+      "uniqueNative": 34407,
+      "duplicates": 51697,
+      "rawReportSha256": "1217cba7327863b7c2700f7a7fe10e971422be4221bbcafcbe837c25b4cdd994",
+      "verificationReportSha256": "43034adeaae0c06931ea210319b3105726fb3e0df44a86399a4b82db6ed98b39",
+      "jsonlSha256": "a092035249fa3a90b7b2d26325763d05ce3f6a1874d03180efcfd1000dc5df02",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E13",
+      "samples": 86102,
+      "uniqueNative": 34406,
+      "duplicates": 51696,
+      "rawReportSha256": "e48221157e4896472d078f4fca5f11700e92cbc25e6c6d3b5b7565f4345f9287",
+      "verificationReportSha256": "cc9b0369fa99fabbb99e17ada4dee79f633e26244be23c751b5b4740f051724f",
+      "jsonlSha256": "7794a4f3ea2c34295a63a28f7d8257d897b373ab1a7375229f12387b67020c6e",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E14",
+      "samples": 86104,
+      "uniqueNative": 34407,
+      "duplicates": 51697,
+      "rawReportSha256": "bbc4831f8627bff759ab12c5807f9e4cf4d02665e7c6d1423f301f97d5e42e4a",
+      "verificationReportSha256": "eea0fd513e24199be104a9bf1b39598445eb8aa0a8f5b2624269fd92e4320952",
+      "jsonlSha256": "efdec82684ed47474fed11afe0c6a4bcdaccc42a45bc8c3987af0b1dcf8741a4",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E15",
+      "samples": 86099,
+      "uniqueNative": 34405,
+      "duplicates": 51694,
+      "rawReportSha256": "359473a5acaf91c6ce68bf067ca1151a16f4f9ddae29d6cddcd9a0bf1c2c39bb",
+      "verificationReportSha256": "f182fb966ae2c8e045fb0334720eaa48d909119b7dacdab911b834af129e8c0a",
+      "jsonlSha256": "2fb8bab926629e1ac34dfd542417e0490274f6a9f6e8acf2a572497205d89187",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E16",
+      "samples": 86102,
+      "uniqueNative": 34406,
+      "duplicates": 51696,
+      "rawReportSha256": "296723dc9597f210e9366b93b7dbe7518a776f35dba75520548fb266d778810c",
+      "verificationReportSha256": "8190a89b62c833929f224fd5a81026e9b38a1ded2a94ed3d0d2d0dafc3d6841a",
+      "jsonlSha256": "e92a8df084d9f8668d488a185f6cb17bc113f4ec83b952507d30eaeeecec30b9",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E17",
+      "samples": 86102,
+      "uniqueNative": 34406,
+      "duplicates": 51696,
+      "rawReportSha256": "b1fc1ce2e847ee6b3c061b6bee1efaac321084e50c140e5f01fc6363218bbb14",
+      "verificationReportSha256": "1bdf695af33ff5620dcbabb63d096e52f48829297dfb18e2b8d961333a560f05",
+      "jsonlSha256": "52ffa1b8c751d32360ff5ff30f74764f2a0b12f347d0a425f4b07dcbc2405feb",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E18",
+      "samples": 86097,
+      "uniqueNative": 34404,
+      "duplicates": 51693,
+      "rawReportSha256": "9ea0501eed36025adeb72b765edffc3f069e031a6d75362697b9eedd97712762",
+      "verificationReportSha256": "4a4164007c33d897acf307a7937c7bc9e4b952c98e83e654847fc98832517693",
+      "jsonlSha256": "aaff6cc5d029592c799f6f98c69b4a8b50c8944e40ef1dd0347b28390fa55bcb",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E19",
+      "samples": 85198,
+      "uniqueNative": 34045,
+      "duplicates": 51153,
+      "rawReportSha256": "5d0956e00b5a518b3b3538b5ef96efcc1b81e10b081836b692f51bc65a46b3b5",
+      "verificationReportSha256": "33a7e55fc1f51f939633b7b2b7a569c614a19e51523438a1fb03784afc668b0d",
+      "jsonlSha256": "bd2e4ec7ed3f91af6801c1d50c9635b9ad441df6f9b2ab4715b6ef5439eb61b5",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E20",
+      "samples": 85198,
+      "uniqueNative": 34045,
+      "duplicates": 51153,
+      "rawReportSha256": "bb075b77e43f4fed4731396bf86015157bd7ed5cda84a9baa4199ac7d953c1c6",
+      "verificationReportSha256": "47cc7d482c023a809fa2f53cab8d6564b567f94aaafcc5797b2ac753a2b8ffd5",
+      "jsonlSha256": "9375ed47675c67cd1f2a3934a8debed3d9b09fa86b7dae7dc09c745bf69a7be2",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E21",
+      "samples": 85198,
+      "uniqueNative": 34045,
+      "duplicates": 51153,
+      "rawReportSha256": "9bf5f4b4f0bf5db2214a7372f1316c5e49ec75bd0a1eea3f780f4a6391721b03",
+      "verificationReportSha256": "8badb2ce3f9e994134deca5d62159603cba02cc2feabcfe428627a821e650ac2",
+      "jsonlSha256": "39e0e58044c20e0cdce7ce5b9b2eb5a5d7f092193ef663276302b10c22914438",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E22",
+      "samples": 85206,
+      "uniqueNative": 34048,
+      "duplicates": 51158,
+      "rawReportSha256": "52163242aa3f3b95444ae0b2ec26a00da3319b4a680322ebc37683aed92669f3",
+      "verificationReportSha256": "01546b5b2bf0bb872d57d0cde31e0cc1f2723edde0839324669ea878aa67eae9",
+      "jsonlSha256": "d89abe964562dace6cb45ac1eee73a1a2e2beeb9ebda44a55012ea486b44e999",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E23",
+      "samples": 85196,
+      "uniqueNative": 34044,
+      "duplicates": 51152,
+      "rawReportSha256": "41e8401a137150e48c89b83e3b791278d9be5944e8f7624ec2d85bdaa9a1b348",
+      "verificationReportSha256": "cd43acee56ef127e87751097b7416df41c0efa1e7c17b9e312cf5eb7dac97701",
+      "jsonlSha256": "1b8f1f0a0c1918e913fc5cf833f798acf49a8baebb3ae3cda0ac8fb535fd9710",
+      "reportedFullDecodeAndAllAliasPass": true
+    },
+    {
+      "episode": "S1E24",
+      "samples": 85198,
+      "uniqueNative": 34045,
+      "duplicates": 51153,
+      "rawReportSha256": "13c71aa2402e3b327b98426393538b5f30c91a66d9900f2211de375c27b41a7d",
+      "verificationReportSha256": "8c2b62e8693592b4782b8a7f78112e51f66f2c2b151e3edc5805b26e3fff1afa",
+      "jsonlSha256": "dd303cf3f8341f64c5b6f109482f2fad513dad6e7350f1493e71771b90f0d1b1",
+      "reportedFullDecodeAndAllAliasPass": true
+    }
+  ],
+  "independentSamples": [
+    {
+      "episode": "S1E01",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E01/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E01",
+      "sample": 43051,
+      "sourceFrame": 17203,
+      "jpg": "素材集_60Hz_JPG/S1E01/minute-011/F0043051.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E01",
+      "sample": 86101,
+      "sourceFrame": 34405,
+      "jpg": "素材集_60Hz_JPG/S1E01/minute-023/F0086101.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E02",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E02/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E02",
+      "sample": 43048,
+      "sourceFrame": 17201,
+      "jpg": "素材集_60Hz_JPG/S1E02/minute-011/F0043048.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E02",
+      "sample": 86096,
+      "sourceFrame": 34403,
+      "jpg": "素材集_60Hz_JPG/S1E02/minute-023/F0086096.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E03",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E03/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E03",
+      "sample": 43049,
+      "sourceFrame": 17202,
+      "jpg": "素材集_60Hz_JPG/S1E03/minute-011/F0043049.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E03",
+      "sample": 86098,
+      "sourceFrame": 34404,
+      "jpg": "素材集_60Hz_JPG/S1E03/minute-023/F0086098.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E04",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E04/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E04",
+      "sample": 43051,
+      "sourceFrame": 17203,
+      "jpg": "素材集_60Hz_JPG/S1E04/minute-011/F0043051.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E04",
+      "sample": 86101,
+      "sourceFrame": 34405,
+      "jpg": "素材集_60Hz_JPG/S1E04/minute-023/F0086101.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E05",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E05/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E05",
+      "sample": 43049,
+      "sourceFrame": 17202,
+      "jpg": "素材集_60Hz_JPG/S1E05/minute-011/F0043049.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E05",
+      "sample": 86098,
+      "sourceFrame": 34404,
+      "jpg": "素材集_60Hz_JPG/S1E05/minute-023/F0086098.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E06",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E06/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E06",
+      "sample": 43053,
+      "sourceFrame": 17203,
+      "jpg": "素材集_60Hz_JPG/S1E06/minute-011/F0043053.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E06",
+      "sample": 86106,
+      "sourceFrame": 34407,
+      "jpg": "素材集_60Hz_JPG/S1E06/minute-023/F0086106.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E07",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E07/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E07",
+      "sample": 43049,
+      "sourceFrame": 17202,
+      "jpg": "素材集_60Hz_JPG/S1E07/minute-011/F0043049.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E07",
+      "sample": 86098,
+      "sourceFrame": 34404,
+      "jpg": "素材集_60Hz_JPG/S1E07/minute-023/F0086098.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E08",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E08/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E08",
+      "sample": 43051,
+      "sourceFrame": 17203,
+      "jpg": "素材集_60Hz_JPG/S1E08/minute-011/F0043051.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E08",
+      "sample": 86101,
+      "sourceFrame": 34405,
+      "jpg": "素材集_60Hz_JPG/S1E08/minute-023/F0086101.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E09",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E09/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E09",
+      "sample": 43052,
+      "sourceFrame": 17203,
+      "jpg": "素材集_60Hz_JPG/S1E09/minute-011/F0043052.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E09",
+      "sample": 86103,
+      "sourceFrame": 34406,
+      "jpg": "素材集_60Hz_JPG/S1E09/minute-023/F0086103.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E10",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E10/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E10",
+      "sample": 43052,
+      "sourceFrame": 17203,
+      "jpg": "素材集_60Hz_JPG/S1E10/minute-011/F0043052.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E10",
+      "sample": 86103,
+      "sourceFrame": 34406,
+      "jpg": "素材集_60Hz_JPG/S1E10/minute-023/F0086103.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E11",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E11/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E11",
+      "sample": 43049,
+      "sourceFrame": 17202,
+      "jpg": "素材集_60Hz_JPG/S1E11/minute-011/F0043049.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E11",
+      "sample": 86098,
+      "sourceFrame": 34404,
+      "jpg": "素材集_60Hz_JPG/S1E11/minute-023/F0086098.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E12",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E12/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E12",
+      "sample": 43052,
+      "sourceFrame": 17203,
+      "jpg": "素材集_60Hz_JPG/S1E12/minute-011/F0043052.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E12",
+      "sample": 86103,
+      "sourceFrame": 34406,
+      "jpg": "素材集_60Hz_JPG/S1E12/minute-023/F0086103.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E13",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E13/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E13",
+      "sample": 43051,
+      "sourceFrame": 17203,
+      "jpg": "素材集_60Hz_JPG/S1E13/minute-011/F0043051.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E13",
+      "sample": 86101,
+      "sourceFrame": 34405,
+      "jpg": "素材集_60Hz_JPG/S1E13/minute-023/F0086101.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E14",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E14/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E14",
+      "sample": 43052,
+      "sourceFrame": 17203,
+      "jpg": "素材集_60Hz_JPG/S1E14/minute-011/F0043052.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E14",
+      "sample": 86103,
+      "sourceFrame": 34406,
+      "jpg": "素材集_60Hz_JPG/S1E14/minute-023/F0086103.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E15",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E15/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E15",
+      "sample": 43049,
+      "sourceFrame": 17202,
+      "jpg": "素材集_60Hz_JPG/S1E15/minute-011/F0043049.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E15",
+      "sample": 86098,
+      "sourceFrame": 34404,
+      "jpg": "素材集_60Hz_JPG/S1E15/minute-023/F0086098.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E16",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E16/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E16",
+      "sample": 43051,
+      "sourceFrame": 17203,
+      "jpg": "素材集_60Hz_JPG/S1E16/minute-011/F0043051.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E16",
+      "sample": 86101,
+      "sourceFrame": 34405,
+      "jpg": "素材集_60Hz_JPG/S1E16/minute-023/F0086101.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E17",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E17/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E17",
+      "sample": 43051,
+      "sourceFrame": 17203,
+      "jpg": "素材集_60Hz_JPG/S1E17/minute-011/F0043051.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E17",
+      "sample": 86101,
+      "sourceFrame": 34405,
+      "jpg": "素材集_60Hz_JPG/S1E17/minute-023/F0086101.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E18",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E18/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E18",
+      "sample": 43048,
+      "sourceFrame": 17201,
+      "jpg": "素材集_60Hz_JPG/S1E18/minute-011/F0043048.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E18",
+      "sample": 86096,
+      "sourceFrame": 34403,
+      "jpg": "素材集_60Hz_JPG/S1E18/minute-023/F0086096.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E19",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E19/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E19",
+      "sample": 42599,
+      "sourceFrame": 17022,
+      "jpg": "素材集_60Hz_JPG/S1E19/minute-011/F0042599.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E19",
+      "sample": 85197,
+      "sourceFrame": 34044,
+      "jpg": "素材集_60Hz_JPG/S1E19/minute-023/F0085197.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E20",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E20/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E20",
+      "sample": 42599,
+      "sourceFrame": 17022,
+      "jpg": "素材集_60Hz_JPG/S1E20/minute-011/F0042599.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E20",
+      "sample": 85197,
+      "sourceFrame": 34044,
+      "jpg": "素材集_60Hz_JPG/S1E20/minute-023/F0085197.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E21",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E21/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E21",
+      "sample": 42599,
+      "sourceFrame": 17022,
+      "jpg": "素材集_60Hz_JPG/S1E21/minute-011/F0042599.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E21",
+      "sample": 85197,
+      "sourceFrame": 34044,
+      "jpg": "素材集_60Hz_JPG/S1E21/minute-023/F0085197.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E22",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E22/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E22",
+      "sample": 42603,
+      "sourceFrame": 17024,
+      "jpg": "素材集_60Hz_JPG/S1E22/minute-011/F0042603.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E22",
+      "sample": 85205,
+      "sourceFrame": 34047,
+      "jpg": "素材集_60Hz_JPG/S1E22/minute-023/F0085205.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E23",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E23/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E23",
+      "sample": 42598,
+      "sourceFrame": 17022,
+      "jpg": "素材集_60Hz_JPG/S1E23/minute-011/F0042598.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E23",
+      "sample": 85195,
+      "sourceFrame": 34043,
+      "jpg": "素材集_60Hz_JPG/S1E23/minute-023/F0085195.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E24",
+      "sample": 0,
+      "sourceFrame": 0,
+      "jpg": "素材集_60Hz_JPG/S1E24/minute-000/F0000000.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E24",
+      "sample": 42599,
+      "sourceFrame": 17022,
+      "jpg": "素材集_60Hz_JPG/S1E24/minute-011/F0042599.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    },
+    {
+      "episode": "S1E24",
+      "sample": 85197,
+      "sourceFrame": 34044,
+      "jpg": "素材集_60Hz_JPG/S1E24/minute-023/F0085197.jpg",
+      "checks": "rational PTS interval, full pixel load, SHA and alias ID/content"
+    }
+  ],
+  "knownScopeLimits": [
+    "640x360 q6 JPG are analysis proxies; high-quality film retrieves original 1920x1080 sources",
+    "60Hz paths include repeated source frames through hardlinks; they are not2061018 unique action frames or interpolation",
+    "automatic per-second RGB/luma labels are deterministic technical metadata, not verified character/action semantics",
+    "semantic curated candidates and final film remain separately reviewed; material pass does not pass all four loops or final film"
+  ],
+  "elapsedSeconds": 2.0357213020324707,
+  "automaticLabels": {
+    "recordsChecked": 34362,
+    "allPersonActionDirectionRemainUnknown": true,
+    "allConfirmedCutFalse": true,
+    "allSamplingIndicesEqual60xSecond": true,
+    "tagCountsMatchReport": true,
+    "sha256": "242e828400cdb1c32cb61b5626874da00bc74015aeef4fc2cf9a9305f6569e60",
+    "criteriaSha256": "62f3d530f3c1fa320446cf343610fa35a82076f6d3aaa7d0eabb5bdf495606bc",
+    "scope": "technical appearance metadata only, not semantic action understanding"
+  }
+}

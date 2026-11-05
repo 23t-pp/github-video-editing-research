@@ -1,0 +1,130 @@
+{
+  "sample": 39930,
+  "sampleSeconds": 665.5,
+  "nativeFrame": 15956,
+  "repeated": 0,
+  "jpg": "minute-011/F0039930.jpg",
+  "sourcePtsInteger": 15971956,
+  "sourcePtsSeconds": 665.4981666666666,
+  "firstAliasPath": "minute-011/F0039930.jpg",
+  "absoluteJpg": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\jjk-s1-workflow\\素材集_60Hz_JPG\\S1E24\\minute-011\\F0039930.jpg",
+  "sourceVideo": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+  "humanCandidateLabelsNearOneSecond": [
+    {
+      "id": "S1C091",
+      "characters": [
+        "钉崎"
+      ],
+      "visibleActionOrPose": "红色钉状能量爆发",
+      "motionVerified": false,
+      "semanticConfidence": "high",
+      "anchorJpg": "evidence/source-overviews/action-navigation/E24-0650/0665.00.jpg"
+    }
+  ],
+  "nativeVerifiedWindowsAtRequestedTime": [
+    {
+      "tailCandidateId": "TAIL-ACT-03",
+      "candidateId": "S1C091",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceSeason": 1,
+      "coreSourceSeconds": [
+        665.2,
+        666.15
+      ],
+      "requestedDurationSeconds": 0.95,
+      "sourceNativeFps": "24000/1001",
+      "decodedNativeFrames": 23,
+      "sourcePtsSeconds": [
+        665.206208,
+        665.247917,
+        665.289625,
+        665.331333,
+        665.373042,
+        665.41475,
+        665.456458,
+        665.498167,
+        665.539875,
+        665.581583,
+        665.623292,
+        665.665,
+        665.706708,
+        665.748417,
+        665.790125,
+        665.831833,
+        665.873542,
+        665.91525,
+        665.956958,
+        665.998667,
+        666.040375,
+        666.082083,
+        666.123792
+      ],
+      "nativeFrameIndicesApprox": [
+        15949,
+        15950,
+        15951,
+        15952,
+        15953,
+        15954,
+        15955,
+        15956,
+        15957,
+        15958,
+        15959,
+        15960,
+        15961,
+        15962,
+        15963,
+        15964,
+        15965,
+        15966,
+        15967,
+        15968,
+        15969,
+        15970,
+        15971
+      ],
+      "sourceFrameIndexNote": "indices from actual PTS rounded against declared CFR; PTS is authoritative",
+      "firstDecodedSourcePts": 665.206208,
+      "lastDecodedSourcePts": 666.123792,
+      "nativeCoverageSeconds": 0.9592916666666667,
+      "characters": [
+        "unknown"
+      ],
+      "characterConfidence": "unknown",
+      "observedMovement": "红色钉状/刃状能量围绕蓝红核心旋转扩张，并切换朝向，粒子向外流动",
+      "direction": "围绕中心旋转、向画面外扩大",
+      "focusNormalized": [
+        0.5,
+        0.5
+      ],
+      "palette": "血红/黑/冷青",
+      "actionRole": "source_energy_release",
+      "limitations": "画中不见完整角色，不能凭旧C091标签保证钉崎在画；这是原片抽象能量演出，不是新绘CG。",
+      "humanViewedAllCoreFrames": true,
+      "cutCheck": "all original decoded native-frame thumbnails actually viewed; no original hard cut observed inside this conservative core",
+      "motionEvidenceClass": "source pose/geometry/energy genuinely changes, not only virtual camera moving a static image",
+      "maxSuggestedPlaybackRate": 1.15,
+      "mainPlanOverlap": [],
+      "evidence": {
+        "allNativeContactSheet": "evidence/tail-action-preflight/TAIL-ACT-03-all-native.jpg",
+        "searchFullFrameSheets": [
+          "evidence/tail-action-preflight/C091-NAIL-native-01.jpg",
+          "evidence/tail-action-preflight/C091-NAIL-native-02.jpg"
+        ],
+        "navigationClip": "evidence/tail-action-preflight/TAIL-ACT-03-navigation-only.mp4",
+        "navigationClipSha256": "dc7baaa48752928fae414030b9437f0bea258d082dac2486f17a18749eab4e96"
+      },
+      "formalSourcePolicy": "320x180 navigation-only; execution returns original source, no existing prepared media modified by curator",
+      "scope": "仅该coreSourceSeconds窗口逐原生帧观察；不能把静帧锚点标签扩写为整段剧情身份确认",
+      "dispatchConstraints": {
+        "scope": "exact coreSourceSeconds only; overrides static anchor guesses inside window",
+        "unknownIdentityMustNotBeReplacedByGuessedPersonName": true,
+        "useCharactersFromThisWindow": true,
+        "finalRetrievalMustUseOriginalVideo": true
+      }
+    }
+  ],
+  "note": "附近静帧标签与窗口内证据分列；调度窗口优先用nativeVerifiedWindowsAtRequestedTime中的人物/动作，不继承旧静帧推断。没有证据时语义未知。高分取片回原视频。"
+}

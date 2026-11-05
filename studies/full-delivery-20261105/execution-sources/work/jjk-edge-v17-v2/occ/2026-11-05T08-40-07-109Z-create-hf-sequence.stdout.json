@@ -1,0 +1,40 @@
+{
+  "projectId": "c094cd11-6065-497c-aaf4-232bc61c9360",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "manage_timelines",
+      "result": {
+        "ok": true,
+        "created": [
+          {
+            "id": "tl_42e715a4-e093-4ab7-a605-f868aaed04d3",
+            "name": "01 HF完整效果 · 20段可替换",
+            "width": 1920,
+            "height": 1080,
+            "ratio": "16:9",
+            "active": true,
+            "hidden": false,
+            "clips": 0,
+            "nestedInstances": 0,
+            "durationInFrames": 24
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "63d192a7-a35c-43fd-a77d-aa03067e9d40",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-8f526f37",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_3a6d615d16b1436b",
+    "editorUrl": "http://localhost:5199/#/editor/c094cd11-6065-497c-aaf4-232bc61c9360",
+    "updatedAt": "2026-11-05T08:40:09.295Z"
+  }
+}

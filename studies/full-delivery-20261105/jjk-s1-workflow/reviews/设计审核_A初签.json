@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/s1_design_auditor",
+  "independentFromAuthorAndExecutor": true,
+  "reviewedAt": "2026-11-05T17:27:18+08:00",
+  "status": "pass",
+  "decision": "pass",
+  "phase": "A_material_preparation_design_only",
+  "specVersion": "SPEC-0.2",
+  "boundArtifacts": {
+    "docs/设计规格.md": "a90c581dcfecde30dac422fcdba3898d3b574fb4cdc173de632f824181545a75",
+    "data/acceptance-criteria.json": "213e9633c81cbeb7252f89e14af06ccf0d3da6dc881d5d2af085ea3124d1466b",
+    "data/run-config.json": "ca68d3f4ae7aaded496d63376f43c665f27c3f84f6c8d468dbf75899f555bbd7",
+    "data/source-inventory.json": "8486118800821914df8a3511ec4e331aa5355a51924488d018587a92de0fd8bb",
+    "data/frame-pilot.json": "eddf729f998f1d8b1e52c1ecc29071d9953e139f18ba543d6c8868912994fe95",
+    "data/随机参考抽选.json": "964a572ea8e7d5c830a36d507a29338c7c988acce2fa2b9af1693f5f108294a5",
+    "scripts/extract-library.py": "c47f1531f3d9af2dd1e18f117f3c7b06c4cd9b22b9b0bdba0eded33391fa7813"
+  },
+  "allowedActions": [
+    "materialize_pilot_episode_S1E01",
+    "machine_and_independent_review_of_pilot_episode",
+    "continue_source_semantic_curation",
+    "prepare_edit_design_B"
+  ],
+  "notYetApproved": [
+    "bulk_remaining_23_episodes_before_pilot_review",
+    "formal_edit_design_B",
+    "final_film",
+    "full_dataset_completion"
+  ],
+  "conclusion": "素材准备设计A通过，先执行S1E01一集；独立核对该集物理JPG/PTS/重复/数量及空间后再放行其余23集。设计B与终片未通过，不得将本pass作为所有阶段批准。",
+  "findings": [
+    {
+      "id": "D-A01",
+      "severity": "P1",
+      "status": "resolved",
+      "issue": "同源拼图独立时钟的表述会破坏同源接镜",
+      "resolution": "SPEC-0.2 T03改为独立窗口与共用源时钟。"
+    },
+    {
+      "id": "D-A02",
+      "severity": "P1",
+      "status": "resolved",
+      "issue": "完成缓存曾只看state，源或配置变化/丢图仍会假跳过",
+      "resolution": "提取器现在绑定config SHA和完整源SHA，回读SQLite数量/连续范围、磁盘JPG数量和每分钟首中尾解码。"
+    },
+    {
+      "id": "D-A03",
+      "severity": "P1",
+      "status": "resolved",
+      "issue": "packet数不证明真实帧PTS；浮点尾界不满足确定性",
+      "resolution": "同次FFmpeg showinfo的真实n/整数PTS与输出JPEG配对；duration_ts×time_base用Fraction，采样比较使用整数式。"
+    },
+    {
+      "id": "D-A04",
+      "severity": "P2",
+      "status": "accepted_with_followup",
+      "issue": "当前pilot只有E01十秒，未测P95",
+      "resolution": "不把均值说成上界；可用443GiB对逻辑均值估计约60.2GiB有余量，运行80GiB硬门。首集实测后重新估算其余23集规模。"
+    },
+    {
+      "id": "D-A05",
+      "severity": "P1",
+      "status": "must_verify_before_dataset_acceptance",
+      "issue": "提取器分钟首中尾解码是抽检，不能证明所有唯一JPEG或所有硬链接完好",
+      "resolution": "root明确补最终独立QA：唯一JPEG逐张load+SHA、全部sample路径/文件ID/源映射校验；raw complete不能写最终corrupt0。"
+    },
+    {
+      "id": "D-A06",
+      "severity": "P2",
+      "status": "must_verify_at_pilot_review",
+      "issue": "SQLite目前部分字段由join可推导，JSONL导出与显式storageMode/hardlinkTarget尚需检验",
+      "resolution": "试集核对原生PTS、sample n/60、duplicate指向与硬链接fileID；最终提供可读导出入口。"
+    }
+  ],
+  "sourceEvidenceScope": {
+    "machine": "读取24集ffprobe清单；全部24000/1001；02/05重复副本SHA一致；未另做全季解码。",
+    "human": "实际查看E01/E24总览共16张稀疏图，符合第一季起止内容；没有为其余每个动作背书。",
+    "paths": [
+      "reviews/素材身份抽查.md",
+      "evidence/source-overviews/S1E01-overview.jpg",
+      "evidence/source-overviews/S1E24-overview.jpg"
+    ]
+  },
+  "determinism": {
+    "sampleGrid": "n/60，归零于第一解码PTS；取不晚于sample的最近原帧；无AI/光流插值",
+    "storage": "每sample可打开的JPEG路径，重复以NTFS硬链接共享字节；硬链接失败复制受80GiB门监控；统计逻辑与物理占用",
+    "integrityLevels": "raw extraction、full structural/hash verification、sample decode、all unique JPEG decode分开报告"
+  },
+  "loopDesignAccepted": {
+    "minimumLoops": 4,
+    "realArtifactsAndIndependentReviewsRequired": true,
+    "failuresReturnToCurrentLoop": true,
+    "continueIfUnresolvedP0P1": true,
+    "emptyReportsDoNotCount": true
+  },
+  "remainingGates": [
+    "S1E01试集独立验收后才能扩全季",
+    "剪辑设计B需冻结具体EDL/技法事件/源证据/音乐处理并独立审核",
+    "四轮真实产物与审核、全素材集完整验收、工程重开与最终成片艺术验收仍未完成"
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "source_directory": "C:\\Users\\PC\\Desktop\\OpenChatCut-main",
+  "archive_prefix": "dependencies/OpenChatCut-main",
+  "upstream_origin": "unknown",
+  "upstream_HEAD": null,
+  "upstream_ref": "ref: refs/heads/master",
+  "application_version": "0.2.17",
+  "license": "AGPL-3.0-or-later",
+  "license_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+  "snapshot": "用户提供本机源码目录的当前原文件字节快照；本机.git为无提交初始化，upstream_HEAD为null时不推测上游SHA。逐文件SHA固定本快照，可与research OpenChatCut局部快照另行比较。",
+  "excluded": [
+    {
+      "path": ".git",
+      "reason": "第三方依赖/构建/缓存/模型/真实profile目录"
+    },
+    {
+      "path": "node_modules",
+      "reason": "第三方依赖/构建/缓存/模型/真实profile目录"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 6403,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": ".env.local",
+      "bytes": 6403,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/models",
+      "reason": "第三方依赖/构建/缓存/模型/真实profile目录"
+    },
+    {
+      "path": "public/mediapipe/blaze_face_short_range.tflite",
+      "bytes": 229746,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/mediapipe/selfie_segmenter.tflite",
+      "bytes": 249537,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/mediapipe/wasm/vision_wasm_internal.wasm",
+      "bytes": 13519922,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/mediapipe/wasm/vision_wasm_nosimd_internal.wasm",
+      "bytes": 12627509,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/SDL2.dll",
+      "bytes": 2500096,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/bench.exe",
+      "bytes": 27648,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/command.exe",
+      "bytes": 27648,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/ggml-base.dll",
+      "bytes": 666624,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/ggml-cpu-alderlake.dll",
+      "bytes": 809984,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/ggml-cpu-cannonlake.dll",
+      "bytes": 853504,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/ggml-cpu-cascadelake.dll",
+      "bytes": 850944,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/ggml-cpu-haswell.dll",
+      "bytes": 811008,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/ggml-cpu-icelake.dll",
+      "bytes": 850944,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/ggml-cpu-sandybridge.dll",
+      "bytes": 803328,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/ggml-cpu-skylakex.dll",
+      "bytes": 852992,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/ggml-cpu-sse42.dll",
+      "bytes": 790016,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/ggml-cpu-x64.dll",
+      "bytes": 794112,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/ggml.dll",
+      "bytes": 67584,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/main.exe",
+      "bytes": 27648,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/parakeet-cli.exe",
+      "bytes": 372224,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/parakeet-quantize.exe",
+      "bytes": 102912,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/parakeet.dll",
+      "bytes": 581632,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/stream.exe",
+      "bytes": 27648,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/test-common-utf8.exe",
+      "bytes": 324608,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/test-parakeet-full-diffusion.exe",
+      "bytes": 369664,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/test-parakeet-full-gb1.exe",
+      "bytes": 366080,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/test-parakeet-full-jfk.exe",
+      "bytes": 366080,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/test-parakeet.exe",
+      "bytes": 354816,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/test-vad-full.exe",
+      "bytes": 355328,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/test-vad.exe",
+      "bytes": 354304,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/wchess.exe",
+      "bytes": 178688,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/whisper-bench.exe",
+      "bytes": 20480,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/whisper-cli.exe",
+      "bytes": 479232,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/whisper-command.exe",
+      "bytes": 176640,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/whisper-lsp.exe",
+      "bytes": 180736,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/whisper-quantize.exe",
+      "bytes": 111616,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/whisper-server.exe",
+      "bytes": 725504,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/whisper-stream.exe",
+      "bytes": 378368,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/whisper-talk-llama.exe",
+      "bytes": 2557440,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/whisper-vad-speech-segments.exe",
+      "bytes": 362496,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    },
+    {
+      "path": "public/whisper-cli/win32-x64/whisper.dll",
+      "bytes": 1368064,
+      "reason": "本机环境/凭证或第三方运行体/模型/数据库/日志"
+    }
+  ],
+  "credential_scan": {
+    "state": "PASS",
+    "scanned_utf8_files": 2343,
+    "patterns": [
+      "github-token",
+      "openai-token",
+      "private-key",
+      "aws-key",
+      "bearer-constant"
+    ],
+    "high_confidence_hits": [],
+    "reviewed_test_fixture": [
+      "src/agent/external-edit-session-projection.verify.ts: obvious sentence-shaped dummy Bearer fixture; no credential"
+    ]
+  },
+  "install": "Node >=24 <25；npm ci，npm run sync:mediapipe，npm run sync:whisper-cli；具体启动见上游README与保留的Start-OpenChatCut.ps1。环境变量自行配置，不提供.env。"
+}

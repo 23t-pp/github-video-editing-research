@@ -1,0 +1,10 @@
+{
+  "sampling": "one metrics record per source video second at 60Hz sample n=60*second",
+  "brightnessMetric": "encoded RGB weighted mean .2126R+.7152G+.0722B, not linear-light luminance",
+  "dark": "weightedMean<=32",
+  "bright": "weightedMean>=190",
+  "warm": "R-B>=18",
+  "cool": "B-R>=18",
+  "appearanceChangeCandidate": "sum absolute channel mean changes versus previous second >=90",
+  "semantics": "unknown unless separate human-viewed candidate evidence; appearance change is not a confirmed cut"
+}

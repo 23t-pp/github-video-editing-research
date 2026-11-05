@@ -1,0 +1,11 @@
+{
+  "method": "实际CUA界面操作、读取可见文本与截图",
+  "url": "http://127.0.0.1:5351",
+  "scope": "素材检索UI；成片播放另行验收",
+  "datasetVisible": {"extractedEpisodes":24,"verifiedEpisodes":24,"jpgSamples":2061018},
+  "searchTest": {"query":"虎杖","visibleCandidates":15},
+  "frameNavigation": {"episode":24,"beforeSample":45900,"afterOneStep":45901,"afterTimeSeconds":765.0166666666667,"afterNativeFrame":18342,"afterSourcePtsSeconds":765.01425,"afterIsDuplicate":false},
+  "imageActuallyVisible": true,
+  "filmPlaybackVerifiedAtThisStage": false,
+  "proof": "evidence/ui/全季素材检索.png"
+}

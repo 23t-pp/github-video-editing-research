@@ -1,0 +1,121 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_track",
+      "result": {
+        "ok": true,
+        "created": [
+          {
+            "id": "track_948844bf-94f2-4219-ad71-aca0c71947b0",
+            "alias": "V4",
+            "trackType": "video",
+            "order": 3,
+            "name": "V4 APEX · editable text",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ],
+        "tracks": [
+          {
+            "id": "track_948844bf-94f2-4219-ad71-aca0c71947b0",
+            "alias": "V4",
+            "trackType": "video",
+            "order": 3,
+            "name": "V4 APEX · editable text",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          },
+          {
+            "id": "track_c834a8da-9ec4-4483-af6e-6b4ddbc7cfe4",
+            "alias": "V3",
+            "trackType": "video",
+            "order": 2,
+            "name": "V3 标题/图形 · 可替换",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          },
+          {
+            "id": "track_a432c3e2-bab2-471f-ba7a-7f8438abc9cf",
+            "alias": "V2",
+            "trackType": "video",
+            "order": 1,
+            "name": "V2 HF特效插片 · 可替换",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          },
+          {
+            "id": "track_v1",
+            "alias": "V1",
+            "trackType": "video",
+            "order": 0,
+            "name": "V1 主画面 · 每镜独立",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 42
+          },
+          {
+            "id": "track_7fc4c7e1-f95f-4582-9950-8f4f0fffa514",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "A1 原创配乐 · scoreMix",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 1
+          },
+          {
+            "id": "track_2c2c5ae9-0541-4740-8697-a9876eecd404",
+            "alias": "A2",
+            "trackType": "audio",
+            "order": 1,
+            "name": "A2 源片声音 · sourceMix",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 1
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "a6fa556e-a1a8-4b54-bcc3-4f3ff7f8b075",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-35f930fb",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_b450f42c11c5495b",
+    "editorUrl": "http://localhost:5199/#/editor/8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "updatedAt": "2026-11-05T03:02:09.790Z"
+  }
+}

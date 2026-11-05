@@ -1,0 +1,108 @@
+{
+  "method": "Official src/persist/projectTransfer.ts buildProjectExport(), via documented injected SharedKvBackend seam with GET-only local HTTP reads; no reimplemented package encoder",
+  "mode": "preflight",
+  "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+  "nativeTimelineId": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+  "format": "openchatcut-project@2",
+  "bytes": 8313952,
+  "sha256": "7dd472882e46bbd1d5d2dd3e4c3ae985568490f2ba71d179f29d8156fbdd6cbd",
+  "timelines": [
+    {
+      "id": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+      "name": "01 OCC原生六格教学 · 24fps",
+      "items": 9,
+      "fps": 24
+    }
+  ],
+  "mediaTotal": 3,
+  "mediaMissing": [],
+  "mediaChecks": [
+    {
+      "src": "/media/uploads/b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4",
+      "name": "b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4",
+      "mime": "video/mp4",
+      "bytes": 2273955,
+      "sha256": "8ca9dac1399c53325a880c774a289a889dd5c06b60bd6f7abdf718659abb1eda"
+    },
+    {
+      "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+      "name": "12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+      "mime": "video/mp4",
+      "bytes": 3496332,
+      "sha256": "0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d"
+    },
+    {
+      "src": "/media/uploads/775d80eb-a115-4206-88a4-01aa432b86d7.wav",
+      "name": "775d80eb-a115-4206-88a4-01aa432b86d7.wav",
+      "mime": "audio/wav",
+      "bytes": 432044,
+      "sha256": "bc11a2644bcb6976fdbe86cd442ffbecbb0757559544a0dc7f9a585d3da07146"
+    }
+  ],
+  "packagePath": null,
+  "writesToLibrary": 0,
+  "uiImportVerified": false,
+  "readRequests": [
+    {
+      "method": "GET",
+      "path": "/api/project-store/entry?key=project%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+    },
+    {
+      "method": "GET",
+      "path": "/api/project-store/entry?key=project%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+    },
+    {
+      "method": "GET",
+      "path": "/api/project-store/entry?key=agent-session-generation%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+    },
+    {
+      "method": "GET",
+      "path": "/api/project-store/entry?key=chat%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+    },
+    {
+      "method": "GET",
+      "path": "/api/project-store/entry?key=agent-session-generation%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+    },
+    {
+      "method": "GET",
+      "path": "/api/project-store/entry?key=proposal%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+    },
+    {
+      "method": "GET",
+      "path": "/api/project-store/entry?key=agent-session-generation%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+    },
+    {
+      "method": "GET",
+      "path": "/api/project-store/entry?key=agent-runtime%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+    },
+    {
+      "method": "GET",
+      "path": "/api/project-store/entry?key=creative-mode%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+    },
+    {
+      "method": "GET",
+      "path": "/media/uploads/b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4"
+    },
+    {
+      "method": "GET",
+      "path": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4"
+    },
+    {
+      "method": "GET",
+      "path": "/media/uploads/775d80eb-a115-4206-88a4-01aa432b86d7.wav"
+    },
+    {
+      "method": "GET",
+      "path": "/media/uploads/b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4"
+    },
+    {
+      "method": "GET",
+      "path": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4"
+    },
+    {
+      "method": "GET",
+      "path": "/media/uploads/775d80eb-a115-4206-88a4-01aa432b86d7.wav"
+    }
+  ],
+  "verifiedAt": "2026-11-04T15:08:48.187Z"
+}

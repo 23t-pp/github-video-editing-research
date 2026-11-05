@@ -1,0 +1,17 @@
+* { box-sizing: border-box }
+html, body, #root { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: #000 }
+#root { position: relative }
+.plane, .title-layer, .panels, .fade { position: absolute; inset: 0 }
+.source, .panel-source { position: absolute; width: 1920px; height: 1080px; max-width: none }
+.source { inset: 0; object-fit: fill }
+.title-layer { visibility: hidden; z-index: 3; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start; padding: 0 0 258px 132px }
+.lockup { color: #eee9df; text-shadow: 0 2px 14px #130c0a70; transform: skewX(-6deg) }
+.word-mask { overflow: hidden; padding: 0 14px 4px 0 }
+.word { font: 900 120px/1.12 "Microsoft YaHei","Noto Sans CJK SC",sans-serif; letter-spacing: -7px }
+.signature { display: flex; align-items: center; gap: 14px; margin: 8px 0 0 8px; color: #e75733 }
+.stroke { width: 46px; height: 6px; background: currentColor }
+.latin { font: italic 900 34px/1 Arial,sans-serif; letter-spacing: 6px }
+.panels { z-index: 2; visibility: hidden; overflow: hidden; top: 140px; height: 800px; background: linear-gradient(to right, transparent 638px, #090b0c 638px 642px, transparent 642px 1278px, #090b0c 1278px 1282px, transparent 1282px) }
+.panel { position: absolute; top: 0; height: 800px; overflow: hidden; opacity: 0 }
+.panel-source { top: -140px }
+.fade { pointer-events: none; z-index: 4; background: #000; opacity: 0 }

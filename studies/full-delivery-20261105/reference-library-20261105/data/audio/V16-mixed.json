@@ -1,0 +1,54 @@
+{
+  "id": "V16",
+  "title": "V16 · 原始混合音轨",
+  "source_video_name": "一路上遇到的每个角色都有他的意义_国漫_灵笼_抖音世界书共创计划_世界书共创人_国漫美学.mp4",
+  "source_video_sha256": "d4e9e99fd6e185adf9d4baef7a64ca502a1626df23c792138df8c0c2d99f8bd8",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V16__mixed.m4a",
+  "bytes": 187079,
+  "sha256": "a5c806cabdd9288ce7863919763638dd529b57c7c68c07c2bfe788fa0ec2a324",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 24.45201814058957,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -10.51,
+    "true_peak_dbtp": 2.4,
+    "loudness_range_lu": 3.2,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 24.608753,
+  "source_decoded_duration_sec": 24.447392290249432,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "2264e79b6fe907355718dbed5c5464e7d8656bae249986e26e19a00c136d16d0",
+    "output_sha256": "0878254d9c8c52873bd88f50b841782728e6faf359537535d0c860cb27c8fdfc",
+    "shared_prefix_samples": 539065,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 4.626,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "60f7675b5f244fc384d0438ffe40a0c255c4f0086d0bae2db68c52f9040bbdef",
+  "source_aac_adts_sha256": "60f7675b5f244fc384d0438ffe40a0c255c4f0086d0bae2db68c52f9040bbdef",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "75704a9637bce704596e390495a37b2de8fb10744c61d2aa92410b29e2af0baf",
+  "source_native_pcm_sha256": "a426e6fb3e0d5af6b37b9e560a67ff5ace5ec88fc9929343532cd3404b54a02f",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V16__music-candidate.m4a"
+}

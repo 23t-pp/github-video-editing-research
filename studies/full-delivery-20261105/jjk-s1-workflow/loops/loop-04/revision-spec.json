@@ -1,0 +1,170 @@
+{
+  "version": "R4-REMEDIATION-SPEC-1.0",
+  "inputL3Review": "loops/loop-03/review.json",
+  "inputVideoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b",
+  "tailMaterialSha256": "bdd878127dc855bfb3b5ce595a91d104e8972a481a803d36f47027f5d6a36e9c",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 1440
+  },
+  "pairedEyes": {
+    "range": [
+      816,
+      830
+    ],
+    "blueYDelta": 10,
+    "endZoom": 1,
+    "visibleSteadyWindow": [
+      823,
+      830
+    ],
+    "returnBase": [
+      830,
+      842
+    ],
+    "nextActionStart": 842
+  },
+  "strikeChinese": {
+    "x": 430,
+    "y": 820
+  },
+  "tailEyePrefix": {
+    "assetId": "N053",
+    "assetFrames": [
+      12,
+      20
+    ],
+    "range": [
+      1282,
+      1290
+    ]
+  },
+  "tailActions": [
+    {
+      "candidateId": "S1C062",
+      "tailCandidateId": "TAIL-ACT-01",
+      "assetId": "T062",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceCoreSeconds": [
+        285.1,
+        285.9
+      ],
+      "actualFirstSourcePts": 285.118167,
+      "actualLastSourcePts": 285.868917,
+      "nativeFrames": 19,
+      "outputStartFrame": 1290,
+      "outputFrames": 22,
+      "preparedStartFrame": 0,
+      "samplePolicy": "nearest source index evenly across actual full native core, first and last included; each output maps to actual PTS and duplicate is explicit",
+      "characters": [
+        "虎杖",
+        "花御"
+      ],
+      "characterConfidence": "high",
+      "observedMovement": "两名角色真实换拳、转肩扭腰、贴身闪避，左侧虎杖避对方伸臂后还手；背景轴线连续",
+      "evidence": {
+        "allNativeContactSheet": "evidence/tail-action-preflight/TAIL-ACT-01-all-native.jpg",
+        "searchFullFrameSheets": [
+          "evidence/tail-action-preflight/C062-SPAR-native-01.jpg"
+        ],
+        "navigationClip": "evidence/tail-action-preflight/TAIL-ACT-01-navigation-only.mp4",
+        "navigationClipSha256": "d348465d9c812c9b2f42225eeddb72d4de3501ab40f1790c28b9250c4bd0ce4f"
+      }
+    },
+    {
+      "candidateId": "S1C091",
+      "tailCandidateId": "TAIL-ACT-03",
+      "assetId": "T091",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceCoreSeconds": [
+        665.2,
+        666.15
+      ],
+      "actualFirstSourcePts": 665.206208,
+      "actualLastSourcePts": 666.123792,
+      "nativeFrames": 23,
+      "outputStartFrame": 1312,
+      "outputFrames": 24,
+      "preparedStartFrame": 0,
+      "samplePolicy": "nearest source index evenly across actual full native core, first and last included; each output maps to actual PTS and duplicate is explicit",
+      "characters": [
+        "unknown"
+      ],
+      "characterConfidence": "unknown",
+      "observedMovement": "红色钉状/刃状能量围绕蓝红核心旋转扩张，并切换朝向，粒子向外流动",
+      "evidence": {
+        "allNativeContactSheet": "evidence/tail-action-preflight/TAIL-ACT-03-all-native.jpg",
+        "searchFullFrameSheets": [
+          "evidence/tail-action-preflight/C091-NAIL-native-01.jpg",
+          "evidence/tail-action-preflight/C091-NAIL-native-02.jpg"
+        ],
+        "navigationClip": "evidence/tail-action-preflight/TAIL-ACT-03-navigation-only.mp4",
+        "navigationClipSha256": "dc7baaa48752928fae414030b9437f0bea258d082dac2486f17a18749eab4e96"
+      }
+    },
+    {
+      "candidateId": "S1C007",
+      "tailCandidateId": "TAIL-ACT-02",
+      "assetId": "T007",
+      "sourceId": "S1E04",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/04.mp4",
+      "sourceCoreSeconds": [
+        1087.62,
+        1088.55
+      ],
+      "actualFirstSourcePts": 1087.628208,
+      "actualLastSourcePts": 1088.545792,
+      "nativeFrames": 23,
+      "outputStartFrame": 1336,
+      "outputFrames": 24,
+      "preparedStartFrame": 0,
+      "samplePolicy": "nearest source index evenly across actual full native core, first and last included; each output maps to actual PTS and duplicate is explicit",
+      "characters": [
+        "unknown"
+      ],
+      "characterConfidence": "unknown",
+      "observedMovement": "建筑碎块下坠/飞散、水浪由小变大向上/画面两侧爆开，后半充满画幅",
+      "evidence": {
+        "allNativeContactSheet": "evidence/tail-action-preflight/TAIL-ACT-02-all-native.jpg",
+        "searchFullFrameSheets": [
+          "evidence/tail-action-preflight/C007-WAVE-native-01.jpg"
+        ],
+        "navigationClip": "evidence/tail-action-preflight/TAIL-ACT-02-navigation-only.mp4",
+        "navigationClipSha256": "cc0f025566a4b2b7143fc300278b202c083e191093a7c8f3c6f4ce9818981fcb"
+      }
+    }
+  ],
+  "extraNativeFrameHumanScope": 65,
+  "status": "design proposal pending independent precheck; formal high-resolution retrieval and rendering not run",
+  "subtitlePolicy": {
+    "C091": {
+      "highResolutionEvidence": "loops/loop-04/reviewer-evidence/C091-subtitle-source-check.png",
+      "observedCaptionUpperY": 955,
+      "crop": [
+        0,
+        0,
+        1920,
+        944
+      ],
+      "padTop": 68,
+      "padBottom": 68,
+      "loss": "original lower136rows including outer energy arc bottom; central swirl retained",
+      "validation": "all23native highres full frames and all24prepared output frames reviewed before capture",
+      "notAssumedPassed": true
+    },
+    "others": {
+      "crop": [
+        0,
+        0,
+        1920,
+        960
+      ],
+      "padTop": 60,
+      "padBottom": 60
+    }
+  }
+}

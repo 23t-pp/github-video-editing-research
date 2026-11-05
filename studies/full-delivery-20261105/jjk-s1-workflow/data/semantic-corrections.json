@@ -1,0 +1,47 @@
+{
+  "version": "SEMANTIC-L2-1.0",
+  "policy": "稳定ID不变；不改已签source inventory/97候选历史文件；后续派生catalog优先应用此更正。unknown是证据不足，不等于已证实其他人。",
+  "items": [
+    {
+      "candidateId": "S1C038",
+      "oldLabel": "真希（更早静帧初判；冻结前候选已纠正）",
+      "newLabel": "三轮腾空跨步",
+      "characters": [
+        "三轮"
+      ],
+      "evidence": [
+        "evidence/source-overviews/motion-preflight/motion-04.jpg",
+        "data/shot-candidates.json#S1C038"
+      ],
+      "reason": "动态预检看蓝色头发、持刀人物与后景真希分离",
+      "certainty": "high; qualitative visual review"
+    },
+    {
+      "candidateId": "S1C078",
+      "oldLabel": "钉崎，紫色眼睛",
+      "newLabel": "unknown，紫色单眼极近景",
+      "characters": [
+        "unknown"
+      ],
+      "evidence": [
+        "evidence/source-overviews/fresh-candidates/fresh-expansion-native-navigation.jpg"
+      ],
+      "reason": "单眼极近景与长睫毛/紫瞳不足确认；241.28后切钉崎侧脸不能证明前眼同角色",
+      "certainty": "identity unknown; eye appearance high"
+    },
+    {
+      "candidateId": "S1C088",
+      "oldLabel": "虎杖，橙色眼睛",
+      "newLabel": "unknown，橙色单眼/黑色咒纹极近景",
+      "characters": [
+        "unknown"
+      ],
+      "evidence": [
+        "evidence/source-overviews/fresh-candidates/fresh-extra-proof.jpg",
+        "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg"
+      ],
+      "reason": "440–454秒为术式说明插镜/草偶与细胞图，未见连续完整脸证明眼部人物；不凭虹膜色命名",
+      "certainty": "identity unknown; eye appearance high"
+    }
+  ]
+}

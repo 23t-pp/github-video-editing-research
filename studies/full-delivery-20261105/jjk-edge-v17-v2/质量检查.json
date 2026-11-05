@@ -1,0 +1,62 @@
+{
+  "file": "挚友_EDGE_精修V2.mp4",
+  "sha256": "32555a60b0dee304cda9ff9244651c94529f23dc649168b7469b7208c9696b6a",
+  "bytes": 56439638,
+  "framesDecoded": 1440,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "durationSeconds": 60.0,
+  "masterSampleFrames": 2880000,
+  "aacDecodedSampleFrames": 2880000,
+  "sameTimeAudioCorrelation": 0.9989568557545004,
+  "nearBlackFrames": [],
+  "unexpectedNearBlackFrames": [],
+  "timelineContinuous": true,
+  "nativeShots": 67,
+  "layoutEvents": 14,
+  "foregroundEvents": 16,
+  "foregroundGroups": [
+    "X-awaken",
+    "X-palm",
+    "Y-blue",
+    "Y-geto",
+    "Y-getopalm",
+    "Y-hurt",
+    "Y-stand"
+  ],
+  "typeEvents": 8,
+  "sourceMusicSeconds": [
+    147,
+    207
+  ],
+  "audioUnchangedFromV1": true,
+  "v1MovieSha256After": "452ac2a76f60d27465e05336f20f44467899e6a3a13cee4967eae6f60bd83ed1",
+  "auditoryListeningPerformed": false,
+  "verificationScope": "完整1440帧192x108缩略解码、音频采样与对齐、67镜连续性；重点合成帧和衔接联系表人工查看。未对1440帧逐帧全分辨率人工验收。",
+  "audioLoudness": {
+    "integratedLUFS": -11.4,
+    "LRA_LU": 4.3,
+    "truePeakDbFS": -2.1,
+    "evidence": "evidence/声音响度实测.log"
+  },
+  "hyperframesLint": {
+    "errors": 0,
+    "warnings": 33,
+    "evidence": "evidence/HyperFrames-lint.log"
+  },
+  "hyperframesRuntimeValidate": {
+    "exitCode": 0,
+    "consoleErrors": 0,
+    "sampledTextElementsPassingAA": 1,
+    "evidence": "evidence/HyperFrames-runtime-validate.log",
+    "scope": "不是全片无障碍或所有文字可读性验收"
+  },
+  "officialOpenChatCutRoundtrip": {
+    "restoredMedia": 68,
+    "missing": 0,
+    "mediaSha256Equal": true,
+    "editStructureEqual": true,
+    "evidence": "openchatcut/工程包最终回读.json"
+  }
+}

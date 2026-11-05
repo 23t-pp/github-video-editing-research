@@ -1,0 +1,79 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "importedProjectId": "6df06cd6-3c5e-4416-9cf2-caf542a6f145",
+  "checkedAt": "2026-11-05T03:09:53.972Z",
+  "doc": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "baseVideoHidden": false,
+    "baseVideoHasNoOpacityOrCropTransform": true
+  },
+  "media": {
+    "codec": "H264 High / avc1",
+    "pixelFormat": "yuv420p",
+    "color": "Rec709",
+    "sampleMediaRangeHttpStatus": 206,
+    "contentType": "video/mp4",
+    "bytesChecked": 4096
+  },
+  "sharedItemIds": {
+    "count": 44,
+    "expected": true,
+    "evidence": "Official src/editor/reducerProject.ts tl.duplicate explicitly clones item IDs verbatim: timelines never share one items[] array"
+  },
+  "preview": {
+    "uses": "@remotion/media WebCodecs decoder and canvas",
+    "noVideoDomDoesNotProveMissingMedia": true
+  },
+  "parentUiObservation": {
+    "reportedBy": "主流程唯一CUA操作者",
+    "nativeSequenceAtSeconds": 29.29,
+    "nativeTriptychVisible": true,
+    "rightPanelHasDraggableSelectionBox": true,
+    "scoreMixReadyState": 4,
+    "sourceMixReadyState": 4,
+    "initialCheckerboardResolvedAfterPreload": true,
+    "preciseHfAndContinuousPlaybackCheck": "主流程继续核实"
+  },
+  "changedProjectDuringDiagnosis": false,
+  "finalUiVerification": {
+    "performedBy": "主流程唯一CUA操作者；子代理读取核验JSON并实际查看三联屏截图",
+    "importedProjectId": "6df06cd6-3c5e-4416-9cf2-caf542a6f145",
+    "officialImportedProjectOpened": true,
+    "preciseSequence01PreviewAt": 29.29,
+    "playbackReachedSeconds": 44.41,
+    "nativeSequence02PreviewAt": 29.29,
+    "nativeRightPanelDragged": true,
+    "dragBefore": {
+      "leftPercent": 66.7758,
+      "topPercent": 12.963
+    },
+    "dragMoved": {
+      "leftPercent": 69.4084,
+      "topPercent": 15.771
+    },
+    "dragUndone": {
+      "leftPercent": 66.7758,
+      "topPercent": 12.963
+    },
+    "originalCompositionRestored": true,
+    "stereoWavs": [
+      {
+        "name": "score-mix.wav",
+        "readyState": 4,
+        "durationSeconds": 60
+      },
+      {
+        "name": "source-mix.wav",
+        "readyState": 4,
+        "durationSeconds": 60
+      }
+    ],
+    "humanLoudspeakerAuditionPerformed": false,
+    "evidence": [
+      "../evidence/本机播放器与编辑器核验.json",
+      "../evidence/OpenChatCut_原生可编辑三联屏.jpg"
+    ]
+  }
+}

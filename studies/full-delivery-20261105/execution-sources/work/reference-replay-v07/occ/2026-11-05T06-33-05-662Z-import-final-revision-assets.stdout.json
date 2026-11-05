@@ -1,0 +1,42 @@
+{
+  "projectId": "5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "import_assets",
+      "result": {
+        "ok": true,
+        "imported": [
+          {
+            "id": "60c33439-d4d8-4427-a283-c55e4a01ba65",
+            "name": "P15-clean-pedal.mp4",
+            "kind": "video",
+            "src": "/media/uploads/764570bd-5264-4b93-afb1-f6f6e651355a.mp4"
+          },
+          {
+            "id": "c370430b-a236-483b-88b1-760522159065",
+            "name": "P17-replacement.mp4",
+            "kind": "video",
+            "src": "/media/uploads/884b5ce1-82e8-4e47-807d-547210ae2105.mp4"
+          }
+        ],
+        "duplicateCount": 0,
+        "skippedDuplicates": false
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "0433cb30-b587-4a50-85fd-9e39fe980c3f",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-22299eb6",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_40018e91faa5479f",
+    "editorUrl": "http://localhost:5199/#/editor/5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+    "updatedAt": "2026-11-05T06:33:08.044Z"
+  }
+}

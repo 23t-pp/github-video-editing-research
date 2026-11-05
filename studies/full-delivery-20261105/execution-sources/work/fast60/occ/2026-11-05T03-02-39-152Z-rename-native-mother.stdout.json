@@ -1,0 +1,41 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "manage_timelines",
+      "result": {
+        "ok": true,
+        "changed": [
+          "name"
+        ],
+        "timeline": {
+          "id": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74",
+          "name": "02 原生可编辑 · 改字/分栏/42镜",
+          "width": 1920,
+          "height": 1080,
+          "ratio": "16:9",
+          "active": true,
+          "hidden": false,
+          "clips": 50,
+          "nestedInstances": 0,
+          "durationInFrames": 1440
+        }
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "4847d164-49b1-4e22-b8f6-b7de31b5760d",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-d457617d",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_bc07d9b8c60e4eb4",
+    "editorUrl": "http://localhost:5199/#/editor/8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "updatedAt": "2026-11-05T03:02:40.990Z"
+  }
+}

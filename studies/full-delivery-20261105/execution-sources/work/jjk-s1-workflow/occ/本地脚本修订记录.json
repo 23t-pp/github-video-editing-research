@@ -1,0 +1,52 @@
+{
+  "phase": "local-preparation-revised-awaiting-final-lock",
+  "checkedAt": "2026-11-05T11:29:53.159198+00:00",
+  "files": [
+    {
+      "file": "build.mjs",
+      "beforeSha256": "e422912266e96130304cadc0e7440e28ca90a339f5f30c767f1caa3457bd1b65",
+      "afterSha256": "bed3026af3de7d6c10e85cd4dd0994c24ad96494b24f83008a0f00468b110853"
+    },
+    {
+      "file": "client.mjs",
+      "beforeSha256": "77304a705cb485cfaa0dc75adba2bc8ebad90cb6d8fe706cb462fd8bf34ba813",
+      "afterSha256": "5867648bc9787b278c852b502230ff71b049a8797526a0d012162ad7ad71f076"
+    },
+    {
+      "file": "import-package.mjs",
+      "beforeSha256": "61946bce34b105056da80aa80b6f78fb71aa7443f4e0beee66b3f3f5d74ddb3f",
+      "afterSha256": "0e6ca7ae0d2337b77c340dd0007d208e932965372de1394659bc2706b1418da4"
+    },
+    {
+      "file": "finalize.mjs",
+      "beforeSha256": "70691307e6d95a297b37f263dc0be1b91b8202073329cf1d4e313c07c4338690",
+      "afterSha256": "4dac69f5b8c4c4bf907582fb47305afbdc6d7910e05d9ae3ab594e4cf1ec5c31"
+    },
+    {
+      "file": "流程与输入约定.md",
+      "beforeSha256": "a129068c884e04ea7375a6a77dd04a3758d4fec308c4be149e6eb6438438bba2",
+      "afterSha256": "ff4e29fc493907969a4057da45e1ddbf43e250a254a56603e20a2cf7e4d7efc1"
+    },
+    {
+      "file": "native-reframe.mjs",
+      "beforeSha256": null,
+      "afterSha256": "0e7184feafa5775111b3eec0b0298d4a76a6ffdea325fca9afc9aa502bc6c5be"
+    },
+    {
+      "file": "project-protection.mjs",
+      "beforeSha256": null,
+      "afterSha256": "89f4d4edd5587951f252d0573e2dd3e841038c808bd09f3bb60ada2aac781acb"
+    },
+    {
+      "file": "verify-contracts.mjs",
+      "beforeSha256": null,
+      "afterSha256": "81ba9649aea91582a924ed0044174f70adbab791e53961704232da03dd014b48"
+    }
+  ],
+  "contractReport": "本地reframe与保护契约验证.json",
+  "diff": "本地脚本修订.diff",
+  "projectStateExists": false,
+  "authorizationExists": false,
+  "serviceWrites": 0,
+  "actualOfficialReadbackPending": true
+}

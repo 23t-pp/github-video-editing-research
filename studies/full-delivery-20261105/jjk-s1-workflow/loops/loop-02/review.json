@@ -1,0 +1,260 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "status": "revise",
+  "advanceToLoop3ForRemediation": true,
+  "wholeFilmPass": false,
+  "finalApproval": false,
+  "reviewedAt": "2026-11-05T19:02:40+08:00",
+  "reviewLevel": "complete_L2_artifact_review_with_declared_visual_sampling",
+  "boundArtifacts": {
+    "loops/loop-02/loop-02-composite-preview.mp4": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d",
+    "loops/loop-02/plan-final.json": "3315495c88e17d9f36a0c5615bdb1196c8cfc3699112f4af675e1caca80b529a",
+    "loops/loop-02/execution.json": "71045788b7ba53be8c2a9d45a2d7e3e95b26496426cbcd76e491bb93b994e7c9",
+    "loops/loop-02/frozen-final.json": "d5928c0994388944431488f769e52177edd9878ca4f71a35c3634f487e43cd46",
+    "loops/loop-02/revision-diff.json": "09e470fc98050aa21d04791471544adbfb29dc983f31b3c5ad8ca6edf1c7a92f",
+    "loops/loop-02/render-completion.json": "4c15281868b89afbc79d1e7ab9c979b649dedf39cd518bd131923b9e30ec3da6",
+    "loops/loop-02/capture-evidence.json": "6a0a876655ec0fe71bf54219bc096e7a017e178867be0df36817fa618791e0a6",
+    "loops/loop-02/root-machine-check.json": "c9034f6f36a8ec41c181e0044da687d9daa1f501f212a1cc6f082740c25fbd0d",
+    "loops/loop-02/review-pilot.json": "67709bc6ca29e7e59c17076d9c5d57671121e819ec39f4c2fe9e6d4d7c6c476d",
+    "loops/loop-02/review-alpha-machine.json": "c8e22828d566a97dd347f96000acc6d2d8677d7ad8113acfd9ee5f4e7a5f00c2",
+    "loops/loop-02/review-pilot-inputs/metadata-precheck.json": "c6123176a37a9f1aacb31eadc77ddd40bd34d9882172ac689b5202052bf6dfbc",
+    "loops/loop-02/reviewer-evidence/actual-video-01.jpg": "1ffe1d9c2c92a62a971a6b0a52c3bcf2ac7806be9591e13825d7ecd66e843dde",
+    "loops/loop-02/reviewer-evidence/actual-video-02.jpg": "22965e8b8d421078e58e77e47128e9393180e09b9f884eeaeff5e612c67142f7",
+    "loops/loop-02/reviewer-evidence/actual-video-and-proposal-check.json": "6190c4782fe7f7daefa3975c88413b9777a4f90586da0a3f5cc3d8c626e4cf35",
+    "loops/loop-02/evidence/opening-slam.jpg": "661a73f494f3e0c9ef2b426cede62cb217c37aef53a7e31e4986bf2e0ab2d07b",
+    "loops/loop-02/evidence/strike-type.jpg": "4234c2b06dd6d21542ac5e03021bfc1913f51e40d22fe8e1a7194198ec817278",
+    "loops/loop-02/evidence/limitless-type.jpg": "3cf659695f8d4e9d9893704edeab6b47f1ebce86dee19e1ee56b75dfb5a7ca8b",
+    "loops/loop-02/evidence/weapon-triptych.jpg": "77baba80971be9f2a5517514a2e731cd81aea07be4daa3f5e03991df57cb8a13",
+    "loops/loop-02/evidence/paired-eyes.jpg": "173b1393a11f22c71690e525063d7d0c51ed8c0aaa82f220f56e2105b1560e9d",
+    "loops/loop-02/evidence/palm-energy-paper.jpg": "f52cedb0b56925e15530a2a2b5301e0753f7ddcf3ecfbb76618a1184121d5abb",
+    "loops/loop-02/evidence/memory-windows.jpg": "3bdd29c97ae19f42be30158edf1877ba98abeeb79700612956ca2a0310cb78a3",
+    "loops/loop-02/evidence/yuji-runs-ahead.jpg": "93f9f9b2959abf45776a5ac4161c7870cd80e3945bb823ce96f681951235f129",
+    "loops/loop-02/evidence/archive-screen.jpg": "2620843f6e6e9e5fb024db7f45d724785ae1ae9939a0828bb9112a13db6c2e7a",
+    "loops/loop-02/evidence/same-source-handoff-1060-1076.jpg": "a6df3ecf2d5c619e6d6c5aca481236226e954743c7e08489d84d39fee6980e7d",
+    "loops/loop-02/evidence/native-cut-adjacency.jpg": "6669e36c8d25051cf482b3d37174a3e3f9ffae095edcc011b86de5623eaf1c67"
+  },
+  "actualArtifact": {
+    "file": "loops/loop-02/loop-02-composite-preview.mp4",
+    "sha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d",
+    "width": 960,
+    "height": 540,
+    "fps": 24,
+    "frames": 1440,
+    "seconds": 60
+  },
+  "observedScope": {
+    "independentEncodedVideoInspection": "审核员从实际MP4独立解码每秒1帧共60帧并实际查看2页；不是仅看作者截图，也不是全1440帧逐张人工验收。",
+    "actualMasterContactsViewed": [
+      "opening-slam",
+      "strike-type",
+      "limitless-type",
+      "weapon-triptych",
+      "paired-eyes",
+      "palm-energy-paper",
+      "memory-windows",
+      "yuji-runs-ahead",
+      "archive-screen",
+      "same-source-handoff-1060-1076",
+      "native-cut-adjacency"
+    ],
+    "technicalWholeDecode": "另核对root完整1440缩略解码报告及其文件SHA，2,880,000音频采样、同时间相关0.9991414，机器通过不代表美学通过。",
+    "priorPilot": "保留pilot6张初中期不可变快照、52张alpha RGB逐像素比对、各26帧红底/棋盘及2张原尺寸关键图结果。",
+    "auditoryListeningPerformed": false,
+    "limits": [
+      "未进行实际听音，音乐分离残留和跨接听感不能在本轮签通过。",
+      "局部全帧联系表与整片每秒抽查仍不能证明所有原尺寸边缘无细小瑕疵；L3高质量片继续查。",
+      "可编辑OpenChatCut/HyperFrames完整交付尚待最终工程实开与媒体链接检查。"
+    ]
+  },
+  "technicalDecision": "pass_for_L2_preview_spec_only",
+  "artDecision": "revise",
+  "findings": [
+    {
+      "id": "L2-EYE-01",
+      "severity": "P1",
+      "status": "open_confirmed_in_complete_L2",
+      "frames": [
+        823,
+        830,
+        839,
+        841
+      ],
+      "issue": "左右双眼实际联系表仍显示红瞳约y435、蓝瞳约y555，约120px眼轴差；右眼开口也明显较大。主题相同但视觉焦点未匹配。",
+      "acceptance": "L3实际823/830/839及切口逐帧复核：眼轴差≤20px、眼白开口高度比约1–1.3；不能只凭变换参数闭项。",
+      "evidence": "loops/loop-02/evidence/paired-eyes.jpg"
+    },
+    {
+      "id": "L2-TEAR-02",
+      "severity": "P1",
+      "status": "open_confirmed_in_complete_L2",
+      "frames": [
+        970,
+        980,
+        995
+      ],
+      "issue": "竖裂条上半持续大块空黑，横向青掌与竖向人物条没有内容关系；实际边缘发光存在，但空条像占位素材。",
+      "acceptance": "改用真实人物侧脸填竖条并使眼鼻可读，青掌独立前景且右袖出画；不得靠透明度掩饰空内容。提供全26帧及原尺寸关键帧。",
+      "evidence": "loops/loop-02/evidence/palm-energy-paper.jpg"
+    },
+    {
+      "id": "L2-LEAF-03",
+      "severity": "P1",
+      "status": "open_upgraded_after_full_event_review",
+      "frames": [
+        1060,
+        1061,
+        1062,
+        1063,
+        1064,
+        1065,
+        1066,
+        1067,
+        1068,
+        1069,
+        1070,
+        1071,
+        1072,
+        1073,
+        1074,
+        1075,
+        1076
+      ],
+      "issue": "前段面部受深阴影压暗；1073仍有后叶透出/倾角，1074才突然全幅，几何和亮度handoff未完成。",
+      "acceptance": "缩短展开/错开且降低遮罩；1071–1073全部归位、无阴影、全不透明，1073源F11→1074源F12，逐帧接触表验收。",
+      "evidence": "loops/loop-02/evidence/same-source-handoff-1060-1076.jpg"
+    },
+    {
+      "id": "L2-TYPE-04",
+      "severity": "P1",
+      "status": "open_upgraded_after_full_event_review",
+      "frames": [
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638
+      ],
+      "issue": "STRIKE大部时间被青掌盖住，约634–637掌淡出后才完整，清晰窗口约1–4帧，未满足连续6帧可读。",
+      "acceptance": "字上手下分区、保持动态前后顺序；完整STRIKE连续至少6帧清楚可读；全事件逐帧取证。",
+      "evidence": "loops/loop-02/evidence/strike-type.jpg"
+    },
+    {
+      "id": "L2-META-05",
+      "severity": "P1",
+      "status": "open_in_frozen_L2_proposed_fix_machine_checked_only",
+      "shots": [
+        "S026",
+        "S037",
+        "S052",
+        "S053",
+        "S054",
+        "S056",
+        "S057",
+        "S058"
+      ],
+      "issue": "8个换源镜继承旧searchWindow；S037/S052/S053/S056还继承错误episode。真实像素回源路径正确，但这些标记会误导下一次素材调度，必须与工程同步。",
+      "acceptance": "L3重建candidateId/sourceId/episode/inventory path/in-out/searchWindow/evidence并输出一致性0错误；保留L2错误证据。proposal57镜结构检查现为0错误，还需绑定正式L3计划。",
+      "evidence": "loops/loop-02/review-pilot-inputs/metadata-precheck.json"
+    },
+    {
+      "id": "L2-ALPHA-06",
+      "severity": "P2_material_limit",
+      "status": "actual_XCHASE_placement_locally_passes_manual_edge_limit_remains",
+      "frames": [
+        1360,
+        1361,
+        1362,
+        1363,
+        1364,
+        1365,
+        1366,
+        1367,
+        1368,
+        1369,
+        1370,
+        1371,
+        1372,
+        1373,
+        1374,
+        1375,
+        1376,
+        1377,
+        1378,
+        1379,
+        1380,
+        1381,
+        1382,
+        1383,
+        1384,
+        1385
+      ],
+      "issue": "全26帧实际合成中XCHASE腰线贴画底、左后手源裁切未在画中浮空，未见旧灰三角。1382–1385渐隐后切橙眼，是跨场景前景，不是同源handoff。",
+      "acceptance": "L3保留该摆位或修改后复核原尺寸；手工轮廓约1–8px近似不宣称完美。XPALM袖口仍应在右画外。",
+      "evidence": "loops/loop-02/evidence/yuji-runs-ahead.jpg"
+    },
+    {
+      "id": "L2-STATE-07",
+      "severity": "P2",
+      "status": "open",
+      "issue": "冻结计划的14事件仍planned_not_rendered，execution证明全片确已渲染，但未提供逐事件实际版本状态图。",
+      "acceptance": "新增独立事件执行状态表（已渲染/待审/局部通过/待返修），绑定该版本捕获；保留冻结计划不回改历史。"
+    },
+    {
+      "id": "L2-GESTURE-08",
+      "severity": "P2",
+      "status": "open_confirmed_full_event",
+      "frames": [
+        1126,
+        1151,
+        1152,
+        1177
+      ],
+      "issue": "LIMITLESS文字可读，但52帧都占用合掌位置，动作匹配主角被字挡住。",
+      "acceptance": "文字让到右上天空等空区，中文与英文成组；提供全事件手掌连续无遮挡证据。",
+      "evidence": "loops/loop-02/evidence/limitless-type.jpg"
+    }
+  ],
+  "locallyWorks": [
+    "开场字上移后整词及三段手掌焦点基本分离，前作纯裸切已变成实际合成。",
+    "原创档案屏176–311内换真实源画面，312直接回全幅，继承V20屏内层级→全幅节奏；不冒称跟踪手机。",
+    "胶片三片与双记忆窗实际存在、位置序列可读；它们为补充排版，不把新增效果数量当复刻度评分。",
+    "XCHASE真实源RGB动态前景在实际26帧摆位局部成立，腰切线出画，主体边缘无先前灰三角。",
+    "主线替换使用真实第一季新源；C078/C088身份保持unknown。"
+  ],
+  "L3Activation": {
+    "allowed": true,
+    "scope": [
+      "激活基于冻结L2的实际眼位/裂边/七叶/STRIKE/LIMITLESS修订",
+      "同步8处换源元数据，并补逐事件实际状态表",
+      "渲染1920×1080/24/1440帧完整L3，输出新SHA及真实修订diff",
+      "只对逐段HTML和媒体payload完全一致者复用捕获，所有受影响段重捕"
+    ],
+    "proposalReview": "docs/L3精修设计.md及loop03 proposal整改方向获准执行，不等于修复通过。独立57镜结构检查为0错误，见actual-video-and-proposal-check.json。",
+    "documentationDrift": "第4节STRIKE拟y350/font270/width1380与plan-proposal实际y210/font240/width1400不一致；作者应同步以明确执行版本。",
+    "requiresIndependentNewReview": true
+  },
+  "nextGate": "L3实际新视频独立审核，所有P1闭项后仍需L4真实修订和最后工程验收；不得把本轮revise换为pass来满足轮数。"
+}

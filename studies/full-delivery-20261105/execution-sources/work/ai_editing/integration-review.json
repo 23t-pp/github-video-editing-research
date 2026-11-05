@@ -1,0 +1,445 @@
+{
+  "date": "2026-11-04",
+  "repo": "0xsline/OpenChatCut",
+  "sha": "7fa4b7903e7ebecf832a36249f0c0c755200cc17",
+  "scope": "只读固定SHA源码补核，未安装/运行OpenChatCut、未改桌面代码或配置",
+  "desktop_source": "C:/Users/PC/Desktop/OpenChatCut-main",
+  "desktop_comparison": "7个关键接口文件文本（忽略CRLF）与审查SHA一致；不代表全部桌面源码都已比对",
+  "interfaces": [
+    {
+      "name": "CLI启动与项目库定位",
+      "command": "npm run occ -- where --json；或构建并链接后的 occ where --json",
+      "input": "Node24 + 已安装项目依赖；--data-dir <absolute-path> 可显式指定工程库",
+      "output": "mode/profileId/rootDir/mediaDir/keystorePath/projectStoreIndex",
+      "browser": "不需要app/browser/MCP；下载源码包尚无node_modules/cli-dist时不能直接运行",
+      "auth": "直接本地文件访问，无MCP bearer；必须与目标app使用同一profile/data-dir。dev checkout默认隔离，不能凭默认命令假定看到同一工程。",
+      "evidence": [
+        {
+          "path": "package.json",
+          "line": 10,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/package.json#L10",
+          "detail": "bin指向cli-dist/occ.mjs；scripts.occ=tsx cli/main.ts"
+        },
+        {
+          "path": "cli/profile.ts",
+          "line": 11,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/profile.ts#L11",
+          "detail": "--data-dir设置OPENCHATCUT_DATA_DIR，且先于动态载入runtime profile"
+        },
+        {
+          "path": "cli/main.ts",
+          "line": 1,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/main.ts#L1",
+          "detail": "明确无app/browser/MCP运行CLI"
+        }
+      ]
+    },
+    {
+      "name": "创建/读取工程与时间线",
+      "command": "occ project new NAME --size 1920x1080 --fps 30 --json；occ project show ID --doc --json；occ timeline items ID --json",
+      "input": "工程id/唯一前缀/唯一名称；画幅/fps",
+      "output": "新工程；ProjectDoc/所有timelines/assets或各clip列表",
+      "browser": "不需要；只读工程可在编辑器打开时执行。写会受工程所有权限制。",
+      "auth": "同一profile；显式--project或工程参数，避免默认最近工程。project show --doc不是带媒体的完整portable工程包。",
+      "evidence": [
+        {
+          "path": "cli/commands/project.ts",
+          "line": 31,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/commands/project.ts#L31",
+          "detail": "list/show/new；show可输出doc"
+        },
+        {
+          "path": "cli/store.ts",
+          "line": 1,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/store.ts#L1",
+          "detail": "读同一project store，读无需离线写session"
+        },
+        {
+          "path": "cli/commands/timeline.ts",
+          "line": 17,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/commands/timeline.ts#L17",
+          "detail": "show/items输出可读结构"
+        }
+      ]
+    },
+    {
+      "name": "导入HF/FFmpeg渲染结果到媒体池",
+      "command": "occ tools call import_assets --project ID --args @import.json --apply --json；import_asset/import_folder同理",
+      "input": "{\"paths\":[\"D:/project/output/title.mp4\",\"D:/project/music.mp3\"]}；单个为{\"path\":\"绝对路径\"}",
+      "output": "imported[{id,name,kind,src}], duplicateCount, unsupportedFiles/errors；只入媒体池，未自动排到时间线",
+      "browser": "不需要，offline-path-import已有实际实现；occ media import子命令仍不存在，需走通用tools call。",
+      "auth": "headless本地导入读取AGENT_IMPORT_ROOTS：有值则限制realpath范围；空值的本地核心默认允许。浏览器HTTP导入分支必须显式allowlist。离线草稿写入要求工程不被已开编辑器占用。",
+      "evidence": [
+        {
+          "path": "server/external-agent/offline-path-import.ts",
+          "line": 1,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/server/external-agent/offline-path-import.ts#L1",
+          "detail": "offline MCP/CLI复用server/local-path-import核心"
+        },
+        {
+          "path": "src/agent/external-tool-policy.ts",
+          "line": 86,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/external-tool-policy.ts#L86",
+          "detail": "import_asset/assets/folder为server-direct白名单"
+        },
+        {
+          "path": "src/agent/tools/agent-path-import-tools.ts",
+          "line": 39,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/agent-path-import-tools.ts#L39",
+          "detail": "输入schema与返回imported资产"
+        },
+        {
+          "path": "server/local-path-import.ts",
+          "line": 75,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/server/local-path-import.ts#L75",
+          "detail": "绝对路径、realpath及allowlist判断"
+        },
+        {
+          "path": "cli/commands/media.ts",
+          "line": 35,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/commands/media.ts#L35",
+          "detail": "media其他子命令报不可用；不能照过时注释否定通用headless导入"
+        }
+      ]
+    },
+    {
+      "name": "导入已有剪辑结构",
+      "command": "occ tools call import_timeline --project ID --args @timeline-import.json --apply --json",
+      "input": "{\"format\":\"fcpxml\"|\"edl\",\"content\":\"完整文档文字\",\"name\":\"可选\",\"activate\":true,\"fps\":30,\"startTimecode\":\"01:00:00:00\"}；fps/startTimecode仅EDL",
+      "output": "新可编辑时间线timelineId/itemCount/trackCount/fps/warnings/skipped",
+      "browser": "不需要；Node下FCPXML parser用@xmldom/xmldom回退",
+      "auth": "先导入其引用素材到媒体池。素材缺失/歧义会原子失败。工程所有权及--apply规则相同。",
+      "evidence": [
+        {
+          "path": "src/agent/tools/schemas/timeline-import-tools.ts",
+          "line": 3,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/timeline-import-tools.ts#L3",
+          "detail": "FCPXML1.x/CMX3600 EDL、素材匹配与跳过限制"
+        },
+        {
+          "path": "src/agent/tools/timeline-import-tools.ts",
+          "line": 21,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/timeline-import-tools.ts#L21",
+          "detail": "浏览器DOMParser与Node xmldom分支"
+        },
+        {
+          "path": "src/agent/external-tool-policy.ts",
+          "line": 68,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/external-tool-policy.ts#L68",
+          "detail": "import_timeline headless白名单"
+        }
+      ]
+    },
+    {
+      "name": "外部拍点写marker/剪镜操作",
+      "command": "occ tools call manage_markers --project ID --args @markers.json --apply --json；occ item split CLIP --at 120 --project ID --apply；occ edit --project ID --ops @ops.json --apply --json",
+      "input": "manage_markers:{action:\"create\",markers:[{fromFrame:整数,note:\"beat\",scope:\"project\",color:\"cyan\"}]}；split_item:{itemId:\"clip-id\",atFrame:绝对时间线帧}",
+      "output": "可撤销标记或切分片段；ops可同一离线草稿原子提交",
+      "browser": "不需要；manage_markers/split_item均在headless白名单。外部HF beats计算结果可以通过适配器转帧后写入。",
+      "auth": "CLI写操作无--apply时丢弃草稿；有--apply使用approvalMode:auto的离线session、revision检查与版本快照。编辑器占用时不可并发离线写。",
+      "evidence": [
+        {
+          "path": "src/agent/tools/schemas/markers-tools.ts",
+          "line": 5,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/markers-tools.ts#L5",
+          "detail": "批量markers输入schema"
+        },
+        {
+          "path": "src/agent/tools/schemas/core-tools.ts",
+          "line": 90,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/core-tools.ts#L90",
+          "detail": "split_item使用绝对atFrame"
+        },
+        {
+          "path": "src/agent/external-tool-policy.ts",
+          "line": 50,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/external-tool-policy.ts#L50",
+          "detail": "split_item/manage_markers白名单"
+        },
+        {
+          "path": "cli/commands/edit.ts",
+          "line": 1,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/commands/edit.ts#L1",
+          "detail": "--ops支持@file，一个草稿多个调用"
+        },
+        {
+          "path": "cli/session.ts",
+          "line": 1,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/session.ts#L1",
+          "detail": "草稿原子提交、revision与ownership"
+        }
+      ]
+    },
+    {
+      "name": "OCC无模型节拍检测",
+      "command": "MCP工具 detect_beats({itemId,markers:\"beats\"|\"downbeats\",markerLimit})；或assetId仅分析",
+      "input": "媒体池音频或时间线BGM片段id",
+      "output": "bpm/confidence、源秒beats/downbeats、映射后timelineBeatFrames；可顺带落marker",
+      "browser": "需要打开目标编辑器并通过MCP浏览器绑定；detect_beats不在headless白名单，occ tools call会拒绝。",
+      "auth": "MCP bearer与正确project绑定；该支路无需下载beat模型，但浏览器需解码音频。",
+      "evidence": [
+        {
+          "path": "src/agent/tools/schemas/beat-tools.ts",
+          "line": 5,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/beat-tools.ts#L5",
+          "detail": "工具输入输出及帧映射公式"
+        },
+        {
+          "path": "src/audio/beats.ts",
+          "line": 1,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/audio/beats.ts#L1",
+          "detail": "spectral flux→autocorrelation→相位网格→4/4启发式"
+        },
+        {
+          "path": "cli/tool-catalog.ts",
+          "line": 40,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/tool-catalog.ts#L40",
+          "detail": "非headless工具拒绝并提示MCP+编辑器"
+        }
+      ]
+    },
+    {
+      "name": "OCC神经音乐分析与切镜计划",
+      "command": "MCP: analyze_music→music_edit_plan→sync_cuts_to_music；照片为music_image_plan→sync_images_to_music",
+      "input": "analyze:{itemId|assetId,force?,optional?}；plan:{itemId,timing:\"auto|beat|downbeat|section\",density:\"sparse|medium|dense\",fromFrame?,toFrame?,targetItemIds?}；sync再加analysisRef",
+      "output": "BPM/meter/tags/sections/有限beat点；cutFrames+analysisRef；一批split并可撤销",
+      "browser": "需要编辑器；这些音乐工具不在headless server-direct白名单。不能因CLI有tools call就宣称所有工具都能无界面运行。",
+      "auth": "需安装Beat This+CLAP本地模型包；analyze_music本身不下载。sync只用已有缓存，analysisRef防过期。",
+      "evidence": [
+        {
+          "path": "src/agent/tools/schemas/music-intelligence-tools.ts",
+          "line": 104,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/music-intelligence-tools.ts#L104",
+          "detail": "analyze需已安装模型，不下载；其余tool参数"
+        },
+        {
+          "path": "src/agent/tools/music-intelligence-tools.ts",
+          "line": 182,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/music-intelligence-tools.ts#L182",
+          "detail": "按cutFrames生成split动作并batch"
+        },
+        {
+          "path": "src/agent/external-tool-policy.ts",
+          "line": 34,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/external-tool-policy.ts#L34",
+          "detail": "server-direct名单不包含音乐分析/计划/同步工具"
+        }
+      ]
+    },
+    {
+      "name": "MCP连接与绑定",
+      "command": "Streamable HTTP <实际app origin>/api/external-mcp/mcp；Authorization: Bearer <token>",
+      "input": "MCP initialize/list-tools/call-tool；list_projects/create_project/target_project({projectId})；按需ToolSearch或load_skill暴露工具",
+      "output": "MCP session；浏览器绑定或offline绑定；结构化工具结果",
+      "browser": "服务进程必须运行；基础离线draft工具可以不开编辑器。浏览器能力需目标工程已在编辑器连接。offline绑定会话不能原地变浏览器绑定，打开编辑器后应新建MCP会话。",
+      "auth": "token来自app设置/连接配置；OPENCHATCUT_MCP_TOKEN可覆盖。持久token在~/.openchatcut/mcp-token或dev profile子目录；不要提交到调研仓库。默认示例端口5199，不保证桌面实际端口。",
+      "evidence": [
+        {
+          "path": "server/plugins/external-agent.ts",
+          "line": 139,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/server/plugins/external-agent.ts#L139",
+          "detail": "实际MCP挂载路径与token门"
+        },
+        {
+          "path": "server/editor-auth.ts",
+          "line": 35,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/server/editor-auth.ts#L35",
+          "detail": "token选择与Bearer验证"
+        },
+        {
+          "path": "server/mcp-token.ts",
+          "line": 25,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/server/mcp-token.ts#L25",
+          "detail": "token home锚点与profile隔离"
+        },
+        {
+          "path": "server/external-agent/mcp-binding.ts",
+          "line": 109,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/server/external-agent/mcp-binding.ts#L109",
+          "detail": "offline与browser绑定互斥"
+        },
+        {
+          "path": "server/external-agent/mcp.ts",
+          "line": 177,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/server/external-agent/mcp.ts#L177",
+          "detail": "ToolSearch/load_skill按需暴露工具"
+        }
+      ]
+    },
+    {
+      "name": "CLI渲染与FFmpeg后续处理",
+      "command": "occ render ID --out D:/project/final.mp4 --codec h264 --resolution 1080p --fps 30 --dry-run --json；移除--dry-run实际渲染",
+      "input": "保存工程；可选--timeline/--from/--to/--format video|audio；codec h264/vp8/prores/mp3/wav",
+      "output": "本地视频/音频文件；JSON有bytes/codec/frames/duration；dry-run只报plan",
+      "browser": "不需要开编辑器/服务器/MCP；内部走server export+Remotion渲染，可能启动渲染浏览器子进程，不等于需要用户打开编辑器。",
+      "auth": "同profile媒体库；依赖须已安装，FFmpeg/Remotion渲染环境须可用。HF和OCC各自渲染输出文件可交给FFmpeg拼接/混音/转码；这不是自动语义互通。",
+      "evidence": [
+        {
+          "path": "cli/commands/render.ts",
+          "line": 1,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/commands/render.ts#L1",
+          "detail": "无HTTP/browser dialog/export queue，同export plan和renderTimeline"
+        },
+        {
+          "path": "cli/commands/render.ts",
+          "line": 102,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/commands/render.ts#L102",
+          "detail": "dry-run计划"
+        },
+        {
+          "path": "cli/commands/render.ts",
+          "line": 125,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/commands/render.ts#L125",
+          "detail": "渲染partial再rename，并输出完成信息"
+        }
+      ]
+    },
+    {
+      "name": "工程和NLE导出",
+      "command": "occ project show ID --doc --json（结构快照）；occ export jianying ID --out-dir DIR（剪映草稿）；完整portable工程包和FCPXML走现有UI导出路径",
+      "input": "ProjectDoc+媒体；剪映草稿另需capcut-cli；FCPXML转换支持部分结构",
+      "output": "ProjectDoc JSON；openchatcut-project@2流式工程包（兼容@1）；FCPXML或剪映草稿",
+      "browser": "CLI结构读取/剪映导出无需编辑器；本次只证实完整portable包和FCPXML有浏览器/应用导出实现，没有对应occ export fcpxml子命令。",
+      "auth": "不要把裸ProjectDoc当已打包所有素材。FCPXML导入会跳过title/generator/captions/effects/transitions等；MG在FCPXML导出可渲染为视频引用，不能保证跨NLE保留内部编辑性。",
+      "evidence": [
+        {
+          "path": "cli/commands/export.ts",
+          "line": 23,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/commands/export.ts#L23",
+          "detail": "唯一CLI target为jianying"
+        },
+        {
+          "path": "src/persist/projectTransfer.ts",
+          "line": 38,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/persist/projectTransfer.ts#L38",
+          "detail": "@1/@2完整工程包格式及媒体"
+        },
+        {
+          "path": "src/export/artifactExportOperations.ts",
+          "line": 121,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/export/artifactExportOperations.ts#L121",
+          "detail": "MG渲染后写XML路径"
+        },
+        {
+          "path": "src/agent/tools/schemas/timeline-import-tools.ts",
+          "line": 6,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/timeline-import-tools.ts#L6",
+          "detail": "导入的跳过与近似说明"
+        }
+      ]
+    },
+    {
+      "name": "内部工程HTTP接口（不优先作集成入口）",
+      "command": "GET /api/project-store/entry?key=project:ID；POST /api/project-store/project-document/write",
+      "input": "内部ProjectStoreRequest、baseRevision/ownership等协议",
+      "output": "保存工程快照/变更回应",
+      "browser": "服务必须运行；loopback请求不强制用户可见页面，但写请求要求同origin语义",
+      "auth": "与MCP auth不同：loopback socket+Host、Sec-Fetch-Site为same-origin或none；写还要Origin匹配Host；无MCP bearer握手。工程写有authoritative ownership，禁止直接PUT project key。建议用CLI/MCP，不绕内部所有权。",
+      "evidence": [
+        {
+          "path": "server/plugins/project-store-plugin.ts",
+          "line": 83,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/server/plugins/project-store-plugin.ts#L83",
+          "detail": "HTTP挂载路径"
+        },
+        {
+          "path": "server/project-store-http-auth.ts",
+          "line": 1,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/server/project-store-http-auth.ts#L1",
+          "detail": "本机信任与Origin策略"
+        },
+        {
+          "path": "server/project-store-http-routes.ts",
+          "line": 223,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/server/project-store-http-routes.ts#L223",
+          "detail": "直接project key PUT禁止，专用write入口"
+        }
+      ]
+    },
+    {
+      "name": "HyperFrames HTML直接可编辑接入",
+      "command": "未证实有官方原生HyperFrames HTML/GSAP工程导入器或导出器",
+      "input": "HF HTML/JS/CSS/GSAP composition与OCC ProjectDoc/Remotion MG不是同一格式",
+      "output": "稳妥可验证路线是HF先渲染视频/音频→导入OCC；OCC只保留该视频片段的裁切、位置、效果等外层编辑",
+      "browser": "取决于所选HF/OCC渲染流程；HTML内文案/层/动画仍应回HF改后重渲染",
+      "auth": "Clip kind包括motion-graphic/video/audio/image等，但没有hyperframes/html clip种类。即便有code字段也不能推导任意HF HTML可原样运行；需自写适配器/移植为OCC支持的MG代码，未实现。",
+      "evidence": [
+        {
+          "path": "src/editor/clipTypes.ts",
+          "line": 142,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/editor/clipTypes.ts#L142",
+          "detail": "TimelineItem kind与MG code、媒体src字段"
+        },
+        {
+          "path": "src/agent/tools/agent-path-import-tools.ts",
+          "line": 53,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/agent-path-import-tools.ts#L53",
+          "detail": "import_asset期望media file"
+        },
+        {
+          "path": "src/persist/projectTransfer.ts",
+          "line": 38,
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/persist/projectTransfer.ts#L38",
+          "detail": "原生工程包为OCC专用格式"
+        }
+      ]
+    }
+  ],
+  "learning": [
+    {
+      "path": "cli/main.ts",
+      "line": 1,
+      "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/main.ts#L1",
+      "detail": "先看有哪些CLI命令，确认不依赖打开界面；package.json的occ脚本是源码入口。"
+    },
+    {
+      "path": "cli/profile.ts",
+      "line": 11,
+      "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/profile.ts#L11",
+      "detail": "理解工程库在哪，--data-dir为什么要在载入store前生效。"
+    },
+    {
+      "path": "src/agent/external-tool-policy.ts",
+      "line": 34,
+      "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/external-tool-policy.ts#L34",
+      "detail": "最关键：server-direct白名单解释哪些可以无界面、哪些必须编辑器。"
+    },
+    {
+      "path": "src/agent/tools/agent-path-import-tools.ts",
+      "line": 15,
+      "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/agent-path-import-tools.ts#L15",
+      "detail": "学import_asset/assets/folder参数以及导入媒体池后的返回asset id。"
+    },
+    {
+      "path": "src/agent/tools/schemas/markers-tools.ts",
+      "line": 5,
+      "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/markers-tools.ts#L5",
+      "detail": "HF beats转帧后，从批量markers开始接线，容易检查。"
+    },
+    {
+      "path": "src/agent/tools/schemas/core-tools.ts",
+      "line": 90,
+      "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/core-tools.ts#L90",
+      "detail": "看split_item、move_item、set_item_timing，理解OCC剪点按整数frame。"
+    },
+    {
+      "path": "src/agent/tools/schemas/music-intelligence-tools.ts",
+      "line": 104,
+      "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/schemas/music-intelligence-tools.ts#L104",
+      "detail": "理解analyze→plan→sync与analysisRef，避免把BGM当卡点。"
+    },
+    {
+      "path": "cli/commands/render.ts",
+      "line": 46,
+      "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/cli/commands/render.ts#L46",
+      "detail": "最后看保存工程如何无界面变成MP4；先dry-run看plan。"
+    }
+  ],
+  "bridge": {
+    "recommended": "HF/FFmpeg负责复杂镜头渲染与音频分析，交换视频文件+拍点/剪镜计划；OCC负责可编辑多轨编排、外层剪辑与人工调整。",
+    "direct_html_editable": false,
+    "direct_html_status": "未证实原生支持；视频导入会烘焙HF内部内容",
+    "time_mapping": "simple constant-speed: timelineFrame=startFrame+round((beatSeconds*fps-srcInFrame)/playbackRate)。未裁切/未变速时为round(seconds*fps)。需去重、按范围裁剪，并处理timeline起点/fps/音频offset。",
+    "caution": "sync_cuts_to_music只切已存在视频，不自动完成镜头挑选、排序、变速、转场、音效和情绪叙事。多拍点split adapter要管理split后item id/区间；不能把所有拍点无脑对旧id升序切。"
+  }
+}

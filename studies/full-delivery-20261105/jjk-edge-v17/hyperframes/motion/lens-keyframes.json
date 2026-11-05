@@ -1,0 +1,42 @@
+{
+  "assetId": "C07",
+  "asset": "assets/shots/C07.mp4",
+  "coordinateSpace": {"width": 1920, "height": 1080},
+  "activeRect": {"x": 0, "y": 108, "width": 1920, "height": 864},
+  "assetFrameRange": {"start": 12, "endExclusive": 24},
+  "timelineFrameAtAsset12": 1355,
+  "fps": 24,
+  "method": "人工查看正式已裁切文件的镜片边缘；内圈半径比约449px外圈向内缩12px，保留原镜片边缘",
+  "maskOperation": "circle(cx,cy,r) intersect activeRect; keep source lens rim above inserted C48 memory",
+  "interpolation": "镜片F12–20位置不变；F21原动画姿态跳到右下，勿将F20–21做平滑补间；F21–23保持第二位置",
+  "keyframes": [
+    {"assetFrame": 12, "cx": 1128, "cy": 684, "r": 437, "outerR": 449},
+    {"assetFrame": 14, "cx": 1128, "cy": 684, "r": 437, "outerR": 449},
+    {"assetFrame": 16, "cx": 1128, "cy": 684, "r": 437, "outerR": 449},
+    {"assetFrame": 18, "cx": 1128, "cy": 684, "r": 437, "outerR": 449},
+    {"assetFrame": 20, "cx": 1128, "cy": 684, "r": 437, "outerR": 449},
+    {"assetFrame": 21, "cx": 1385, "cy": 993, "r": 437, "outerR": 449},
+    {"assetFrame": 22, "cx": 1385, "cy": 993, "r": 437, "outerR": 449},
+    {"assetFrame": 23, "cx": 1385, "cy": 993, "r": 437, "outerR": 449}
+  ],
+  "suggestedOpacity": [
+    {"assetFrame": 12, "opacity": 0.0},
+    {"assetFrame": 14, "opacity": 0.84},
+    {"assetFrame": 18, "opacity": 0.84},
+    {"assetFrame": 20, "opacity": 0.45},
+    {"assetFrame": 21, "opacity": 0.18},
+    {"assetFrame": 23, "opacity": 0.0}
+  ],
+  "notes": [
+    "F21–23镜片主体已在右下，圆心超出activeRect，只显示上半圆；与黑边相交裁去是必要步骤。",
+    "F24左下大圆来自另一片镜片，不应接成同一镜片连续轨迹。",
+    "以上是素材坐标，若主图另有punch/motion/rotation，插入记忆层及mask也须套同一变换，否则边缘会漂移。",
+    "可只让战斗记忆在F12–20稳定闪现，后3帧淡出；未伪称自动镜片跟踪。"
+  ],
+  "evidenceDirectory": "outputs/jjk-edge-v17/evidence/原生选镜验收",
+  "evidenceFiles": [
+    "C07-lens-F12-1920.jpg", "C07-lens-F14-960.jpg", "C07-lens-F16-960.jpg",
+    "C07-lens-F18-960.jpg", "C07-lens-F20-960.jpg", "C07-lens-F21-960.jpg",
+    "C07-lens-F22-960.jpg", "C07-lens-F23-960.jpg"
+  ]
+}

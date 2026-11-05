@@ -1,0 +1,871 @@
+{
+  "projectId": "cd443d87-8dbd-4a57-a216-5a50374c3893",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_item",
+      "result": {
+        "ok": true,
+        "atomic": true,
+        "validateOnly": false,
+        "ripple": false,
+        "results": [
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "7850d0c2-cc40-4a75-b68e-b31146e2d4ab",
+              "itemId": "item_0dc7df90-8503-4315-a4e9-d2b7d05d9e67",
+              "name": "S001.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 0,
+              "durationInFrames": 13,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "19f3c2f5-38d9-45ff-85bf-e72a11b976b7",
+              "itemId": "item_83a04002-ad44-435f-8134-ed73c71a9404",
+              "name": "S002.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 13,
+              "durationInFrames": 18,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "3cba5257-6897-4b3e-a7cf-49e49a1e5a8d",
+              "itemId": "item_95236ce1-2c10-482a-8367-90ac768620a3",
+              "name": "S003.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 31,
+              "durationInFrames": 14,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "3b63c43c-ab9b-4586-8ac3-239a3bc83113",
+              "itemId": "item_92f391e7-0922-40e6-a49d-505e2f3916a6",
+              "name": "S004.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 45,
+              "durationInFrames": 12,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "21f863d0-c556-47d6-8ce2-5e2f6721e350",
+              "itemId": "item_164ab808-1665-4bf6-a516-c5c2b4e32a66",
+              "name": "S005.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 57,
+              "durationInFrames": 23,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "3fddee5e-04c4-4fca-9e43-1c1366582f47",
+              "itemId": "item_7d19b25e-b435-4bee-b6dc-8a0af789a913",
+              "name": "S006.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 80,
+              "durationInFrames": 22,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "cfa1c263-ad90-4201-b20b-fc02815d1094",
+              "itemId": "item_318b60c1-b7ba-4318-a0ae-ad223dd56a79",
+              "name": "S007.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 102,
+              "durationInFrames": 22,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "793b74f5-f1a0-4e61-9fc8-701440d98c9d",
+              "itemId": "item_06a9c206-02e0-4b52-838d-f59bc7b3e404",
+              "name": "S008.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 124,
+              "durationInFrames": 22,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "b97ab6cb-0bf3-456e-8d48-20ae968ffbcf",
+              "itemId": "item_e94da3a7-2229-4cd0-a538-7cde00b6bcdf",
+              "name": "S009.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 146,
+              "durationInFrames": 22,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "9f3e4f2d-b628-4f9f-9898-a850be089c0d",
+              "itemId": "item_8f7f4ac0-e788-4247-a88e-2dcbe54a38c0",
+              "name": "S010.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 168,
+              "durationInFrames": 8,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "168af933-ad4b-45e2-8b66-f451f1644f0a",
+              "itemId": "item_e62ae725-b41a-46cb-8ed1-b900db6de261",
+              "name": "S011.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 176,
+              "durationInFrames": 34,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "de46d2dc-25e2-4bea-a2bc-097a9422b8fd",
+              "itemId": "item_7ebfc0ec-87bc-4b82-9e72-9d2ef7b7271c",
+              "name": "S012.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 210,
+              "durationInFrames": 34,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "b73e745a-555c-4572-a6e0-0000cd33dccd",
+              "itemId": "item_0a88d094-cbb1-4638-9d96-eae902d04923",
+              "name": "S013.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 244,
+              "durationInFrames": 34,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "bc34ca9a-f10c-450b-a03f-03ef43219ec0",
+              "itemId": "item_55f702bb-73bb-48b8-aa09-9d507faaa83e",
+              "name": "S014.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 278,
+              "durationInFrames": 34,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "cab1afba-ebbb-4b6a-84f1-a0f8094ec484",
+              "itemId": "item_01deb940-b099-4ebe-aa2a-aee803829251",
+              "name": "S015.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 312,
+              "durationInFrames": 24,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "34bc1fe7-c9a5-43f4-af29-3ceac7dec4e8",
+              "itemId": "item_ec58518c-d805-45a3-8c86-bc892e33ee86",
+              "name": "S016.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 336,
+              "durationInFrames": 24,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "fa88e1c7-50fe-401e-89c8-c8b5a17f4832",
+              "itemId": "item_0c198d5d-6132-4abe-a010-e8f6e7caaacd",
+              "name": "S017.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 360,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "b407ff40-1d52-4eff-a4b0-18d17e02848d",
+              "itemId": "item_d1ee5de8-5d2c-4ccd-b0a3-a7f558169db8",
+              "name": "S018.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 386,
+              "durationInFrames": 25,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "0bfd0cfd-d8ac-412c-8d94-8ef039bd1b5e",
+              "itemId": "item_c34c10c3-ed79-4523-ab41-e65918bbe7ba",
+              "name": "S019.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 411,
+              "durationInFrames": 25,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "f9c26fb8-064e-4dba-9c0e-af2d9cc061e5",
+              "itemId": "item_f9f6e46b-ddb8-48a6-b93f-4b4f3171fba3",
+              "name": "S020.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 436,
+              "durationInFrames": 24,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "a8bffc15-eecf-405e-b025-1545e4acda05",
+              "itemId": "item_6fa9285d-cc4c-46a8-a35c-d4184986a5a9",
+              "name": "S021.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 460,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "74b8e341-1ea4-4d57-8010-f7635bdff50f",
+              "itemId": "item_778ca743-dfc6-4f26-a4f4-4166d6629be8",
+              "name": "S053.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 486,
+              "durationInFrames": 24,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "604e1c9a-acb6-4eb2-9831-aa74f3dd2e3e",
+              "itemId": "item_4914057f-e252-4f76-b35a-72ff078d82c5",
+              "name": "S023.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 510,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "e7d2939d-d7c1-4f7c-b7cb-77e6cdd0d6df",
+              "itemId": "item_c158cd3c-3e0a-42bc-b447-1517d3adda5f",
+              "name": "S024.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 536,
+              "durationInFrames": 25,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "fd3f4b21-ed5c-4949-a6ec-489513d35dc9",
+              "itemId": "item_3836b99c-22c5-4614-ae97-a68924c19676",
+              "name": "S025.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 561,
+              "durationInFrames": 27,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "dcbc1b18-5f9a-4d26-84b4-4a1e98948e82",
+              "itemId": "item_72b998f1-b24f-460b-824d-77186d165358",
+              "name": "N026.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 588,
+              "durationInFrames": 24,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "244f010e-597f-47c3-abdb-775d107dc969",
+              "itemId": "item_1102a2a0-56e7-45bf-89d3-fa418b1eccb0",
+              "name": "S027.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 612,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "ee5ac79f-6e3f-4ee2-a277-1c9c0a91f233",
+              "itemId": "item_55691e7c-ac25-4ecf-bac6-2a634b09e4f5",
+              "name": "S028.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 638,
+              "durationInFrames": 24,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "f6b4e345-bc22-41cc-922b-199e856b1e4a",
+              "itemId": "item_1696072b-72f3-4e7b-b27d-2a2966983d5e",
+              "name": "S029.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 662,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "d5fa8114-e1a8-48b1-85d9-67b46c0a4296",
+              "itemId": "item_bc072f9f-5c87-4c6d-a0e6-7676a59fc91d",
+              "name": "S030.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 688,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "cbba3a73-e065-4cea-b1bc-2d0d751273ea",
+              "itemId": "item_51c3ef90-c010-4761-b870-b028925c786e",
+              "name": "S031.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 714,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "3d5ee86e-d4d1-4fd4-813a-56df9dba33df",
+              "itemId": "item_410eed8e-8672-442a-a89c-0fc7dd0a2b7a",
+              "name": "S032.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 740,
+              "durationInFrames": 25,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "85c55cdd-7d98-4c02-8791-704f35510465",
+              "itemId": "item_57613327-b66a-4b37-bfe6-056176578742",
+              "name": "S033.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 765,
+              "durationInFrames": 25,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "0b3a585f-fa51-4dd3-a3d6-9eb5515ea934",
+              "itemId": "item_933a4554-f3c9-454c-87d1-e5ce410c9810",
+              "name": "S034.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 790,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "85dca045-6821-4455-9821-f4a500482b8b",
+              "itemId": "item_039181e5-bc5f-4a20-a5a3-245765d1b610",
+              "name": "S035.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 816,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "b14cd812-b2c6-49b6-8626-52fcf932e2f0",
+              "itemId": "item_fef92de2-7445-4459-be5f-53fc871f4f3b",
+              "name": "S036.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 842,
+              "durationInFrames": 24,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "bea414d2-41fb-45b8-a69f-362e81ef8a9d",
+              "itemId": "item_f3c744aa-0132-4f7f-9ad6-417346361a9a",
+              "name": "N037.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 866,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "950e4488-8d05-4f42-bd4d-adce80387a38",
+              "itemId": "item_54330ff4-961f-4f2c-8481-38589f7d25a7",
+              "name": "S038.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 892,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "e8611b56-153e-4724-a44e-c7689f5a6880",
+              "itemId": "item_430442f1-669b-46d8-bef9-f7555183f2a9",
+              "name": "S039.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 918,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "f1dd9788-57d7-4b13-8e05-b774266e27ba",
+              "itemId": "item_1322939b-6015-457d-b2c3-9fc52a173418",
+              "name": "S040.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 944,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "3f7a789a-d5b5-4444-9e90-340a6ed23ced",
+              "itemId": "item_e1751ccf-7639-481e-b928-c89df22739b6",
+              "name": "S041.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 970,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "fae44abe-a2c7-4b5b-a7f9-cd56b9a093e5",
+              "itemId": "item_ab278945-55c1-4ef1-b022-019827e329e8",
+              "name": "S042.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 996,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "7bf22eeb-75f1-4fbc-9ed6-283801c2c6cc",
+              "itemId": "item_9616af70-6e27-44cd-a628-0bfcd3e8fce8",
+              "name": "S043.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1022,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "a919d8f9-043f-48c2-ae0d-2cdd56cc76cf",
+              "itemId": "item_072abf1e-40d1-4c53-a999-8801203d181a",
+              "name": "S044.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1048,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "7a4df8ce-b070-488a-bccf-f6051c249d57",
+              "itemId": "item_aebadd0c-46cb-442d-93d7-61f8891da3d7",
+              "name": "S045.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1074,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "229b0899-a3e3-4239-98c1-3e89481c8586",
+              "itemId": "item_036a8804-efb0-4f39-acbc-9134b247078b",
+              "name": "S046.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1100,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "c97ccdbe-ebcc-4b24-aab7-296de99ca2b2",
+              "itemId": "item_39171d38-a26e-4c57-87d5-4583d695afec",
+              "name": "S047.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1126,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "04b86e0a-102c-4c25-99e6-d6b37aa414cf",
+              "itemId": "item_3d650af6-faa7-41d7-93de-16846b959d62",
+              "name": "S048.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1152,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "a18feeb0-a7d6-4de3-adcb-76e9c810c69a",
+              "itemId": "item_68e10363-6db3-4df1-b1e4-42885a7ad2d4",
+              "name": "S049.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1178,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "9d5103e5-aa18-4401-ab77-5ec871999903",
+              "itemId": "item_e428bf8e-9323-4ad3-ac61-dead63bb91e5",
+              "name": "S050.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1204,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "b74de20b-c208-4468-bb7c-2cd6c12f2314",
+              "itemId": "item_0a475b77-1e4c-4b17-ba4c-01c0cc64248a",
+              "name": "S051.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1230,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "daac5197-9551-4ff1-bb22-da98d7891ee4",
+              "itemId": "item_055691f5-b353-403f-937a-f896b44dc5af",
+              "name": "N052.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1256,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "9e58d634-98bd-46d5-9ae4-b2431cbcbdf2",
+              "itemId": "item_0cef9074-7938-4ee5-9194-cbb4ee1794ff",
+              "name": "N053.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1282,
+              "durationInFrames": 8,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "cfeaf1ac-9172-48da-b759-5d3b83af144d",
+              "itemId": "item_83e0caa5-bdce-41e7-8c1a-62ae595dd661",
+              "name": "T062.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1290,
+              "durationInFrames": 22,
+              "srcInFrame": 0
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "49cef2a7-7c0e-4b42-9147-3f7a8f10f5b4",
+              "itemId": "item_24247db9-cca6-4995-bfa1-6f544f20b834",
+              "name": "T091.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1312,
+              "durationInFrames": 24,
+              "srcInFrame": 0
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "5156a0ca-32ad-4c5d-9ea2-cd9de7aa032b",
+              "itemId": "item_4f33ed7f-6ce0-47a6-bfa5-9a2f1362ba69",
+              "name": "T007.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1336,
+              "durationInFrames": 24,
+              "srcInFrame": 0
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "0e7b66c6-2d14-4588-890f-96cd011ef24b",
+              "itemId": "item_4efb4d85-f0a3-4b50-ba52-d920e438ffa5",
+              "name": "N056B.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1360,
+              "durationInFrames": 26,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "c1c33d45-6a98-482e-8d09-5b0be7cf385d",
+              "itemId": "item_5c24447a-da42-4423-a38d-deb6bdba46fa",
+              "name": "N057.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1386,
+              "durationInFrames": 30,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "2004357e-fec8-477e-aa8e-b698a4718eb3",
+              "itemId": "item_84d07b1c-0328-4058-9312-731d5cffc0c2",
+              "name": "N058.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 1416,
+              "durationInFrames": 24,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "audio",
+            "placed": {
+              "assetId": "20d4af78-7daa-4373-97ab-e2a8391a28cd",
+              "itemId": "item_17bf1e5f-7cc1-477f-ae6d-8ad70d5dae39",
+              "name": "master.wav",
+              "kind": "audio",
+              "track": "track_553a1298-a16a-4e0a-b20e-6d4d8bacacc7",
+              "startFrame": 0,
+              "durationInFrames": 1440,
+              "srcInFrame": 0
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "8214953a-bdb0-4f91-91c9-cd8501528059",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-03b53c01",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_399f403ecb2c4550",
+    "editorUrl": "http://localhost:5199/#/editor/cd443d87-8dbd-4a57-a216-5a50374c3893",
+    "updatedAt": "2026-11-05T12:10:36.600Z"
+  }
+}

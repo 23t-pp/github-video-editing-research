@@ -1,0 +1,17 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "status": "pass_metadata_equivalence_only",
+  "expectedRawBytes": 2762357,
+  "studioRawBytes": 2771765,
+  "hfIdRemoved": 448,
+  "cleanedRawEqualsExpected": true,
+  "expectedRawSHA": "356eb485742aac6e66ecc5e1828f313ed8626baac4bf66477fe7a9705bc42782",
+  "cleanedRawSHA": "356eb485742aac6e66ecc5e1828f313ed8626baac4bf66477fe7a9705bc42782",
+  "rawStudioSHA": "5c71e88910a113c4956fdc73c557132409f9f6e81694497a3274213dd7964cff",
+  "scope": "Only exactly448 data-hf-id attributes stripped; raw bytes must equal expected frozen build. No CSS/GSAP/media content tolerance.",
+  "deliveryRecommendation": "Archive canonical raw index.html separately from live Studio annotation. Keep both evidence HTMLs and this proof. Do not rerender just for editor IDs.",
+  "snapshotSerialization": "Two saved HTML evidence files use CRLF42 lines; expected canonical build uses LF. LF normalization only is recorded separately from attribute equivalence.",
+  "canonicalLFBytes": 2762315,
+  "canonicalLFSha256": "6820afa3c483f4a04629c7e87b80e48acc133aa0ae1aa612dc770fa0d5b9727d",
+  "studioLFSha256": "e22db98fd4415932859dde0c49e6fa5e61745b4f83a33d2414bfd8c7cfa3382a"
+}

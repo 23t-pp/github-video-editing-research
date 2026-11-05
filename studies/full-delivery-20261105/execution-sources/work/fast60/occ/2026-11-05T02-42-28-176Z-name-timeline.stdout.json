@@ -1,0 +1,41 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "manage_timelines",
+      "result": {
+        "ok": true,
+        "changed": [
+          "name"
+        ],
+        "timeline": {
+          "id": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74",
+          "name": "01 正式剪辑 · 60秒 · 24fps",
+          "width": 1920,
+          "height": 1080,
+          "ratio": "16:9",
+          "active": true,
+          "hidden": false,
+          "clips": 0,
+          "nestedInstances": 0,
+          "durationInFrames": 24
+        }
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "62ed5939-4225-4c1f-b765-5ab744f8031f",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-34528521",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_4d5be3299c6f450f",
+    "editorUrl": "http://localhost:5199/#/editor/8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "updatedAt": "2026-11-05T02:42:29.364Z"
+  }
+}

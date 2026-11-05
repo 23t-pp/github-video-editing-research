@@ -1,0 +1,28 @@
+{
+  "phase": "prepared-awaiting-parent-manifest-lock",
+  "profileId": "4bcb4e74-803a-4abe-8dbc-a4d40dea37c3",
+  "origin": "http://127.0.0.1:5199",
+  "existingProjects": 11,
+  "v2StateAbsent": true,
+  "projectCreated": false,
+  "nativeImported": false,
+  "hfImported": false,
+  "v1StateSha256": "f019506fff0f39c5e424bde3e3945b11dd2c96da83c2a629fd0ab84b38e3882f",
+  "protectedV1Projects": [
+    {
+      "projectId": "db290905-d92d-40c3-bf6d-b978bc074d9e",
+      "docSha256": "93e529a26b18c692aed2b98addcab0ddffc4456f32a1180ee94d606900f0d1d2"
+    },
+    {
+      "projectId": "dc02577e-2c3e-435f-9515-51411e73ced4",
+      "docSha256": "63763b0308ae0c27c18abc34c24d0fd4c723996eb28be4a114d911dfac9b9b12"
+    }
+  ],
+  "manifest": "outputs/jjk-edge-v17-v2/hyperframes/edit.json",
+  "fps": 24,
+  "durationFrames": 1440,
+  "plannedNativeCuts": 67,
+  "plannedHfChunks": 20,
+  "plannedHfChunkFrames": 72,
+  "checkedAt": "2026-11-05T08:18:57.234Z"
+}

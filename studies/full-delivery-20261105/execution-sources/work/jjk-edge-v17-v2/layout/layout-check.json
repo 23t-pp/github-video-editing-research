@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "fps": 24,
+  "checks": [
+    "all six effect branches build",
+    "unique DOM IDs including 3D leaves",
+    "unique media tracks",
+    "all animation targets exist",
+    "mid-event chunk geometry matches full run",
+    "source frame 44 continues at global frame 72",
+    "20-frame ribbon handoff ends with all 7 leaves flat, opaque, stationary and unshaded"
+  ],
+  "mediaInstances": 16,
+  "geometryFrameSets": 3084,
+  "note": "Structural and clock validation only; rendered visual QA belongs to parent compositor."
+}

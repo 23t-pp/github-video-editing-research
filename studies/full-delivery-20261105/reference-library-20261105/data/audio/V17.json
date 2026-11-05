@@ -1,0 +1,1219 @@
+{
+  "id": "V17",
+  "source_name": "你我都是对方唯一的挚友_夏油杰_五条悟_咒术回战_被选召的漫剪团_青年创作者成长计划.mp4",
+  "source_sha256": "930dc45504a41a71fdc368ac89471a62883483efc389bdaf09e1cb6022421ff8",
+  "created_at": "2026-11-04T16:07:50.944Z",
+  "duration_sec": 25.813,
+  "actual_execution": {
+    "decoded": true,
+    "ffmpeg_exit_code": 0,
+    "listened": false,
+    "installed_models": false,
+    "elapsed_ms": 333,
+    "uploaded_to_analysis_service": false
+  },
+  "method": {
+    "primary": "HyperFrames 0.8.216本地signal provider：log-frequency band spectral flux、自相关tempo、DP beat tracking；sections为音色/chroma结构新颖度。直接调用本地库，无API和模型。",
+    "secondary": "本分析脚本：对HF频带的正谱差做±0.4s局部均值去趋势，自相关寻找40–240 BPM局部峰；0.25s RMS只用于响度变化。",
+    "baseline": "montage 0.4.1：20ms log-RMS正差、10ms hop的自相关/comb启发式；不是独立听觉确认。",
+    "timing": "onsets=谱通量局部峰(10ms hop)，beats=周期模型推断网格(含HF的15ms经验偏置)；均是原视频从0秒起的时间，未对人工感知确认。"
+  },
+  "hyperframes": {
+    "beats": {
+      "times": [],
+      "confidence": 0.117,
+      "reason": "no steady beat"
+    },
+    "downbeats": {
+      "times": [],
+      "meter": null,
+      "confidence": "low"
+    },
+    "tempo": {
+      "value": null,
+      "curve": []
+    },
+    "interval_median_sec": 0,
+    "interval_mad_sec": 0,
+    "local_beat_evidence": []
+  },
+  "spectral_autocorrelation": {
+    "candidates": [
+      {
+        "bpm": 80.3,
+        "autocorrelation": 0.117,
+        "lagSec": 0.747
+      },
+      {
+        "bpm": 40.2,
+        "autocorrelation": 0.097,
+        "lagSec": 1.493
+      },
+      {
+        "bpm": 105.7,
+        "autocorrelation": 0.096,
+        "lagSec": 0.568
+      },
+      {
+        "bpm": 109.7,
+        "autocorrelation": 0.084,
+        "lagSec": 0.547
+      },
+      {
+        "bpm": 46.4,
+        "autocorrelation": 0.082,
+        "lagSec": 1.294
+      },
+      {
+        "bpm": 69.2,
+        "autocorrelation": 0.029,
+        "lagSec": 0.867
+      },
+      {
+        "bpm": 137.6,
+        "autocorrelation": 0.022,
+        "lagSec": 0.436
+      }
+    ],
+    "best": {
+      "bpm": 80.3,
+      "autocorrelation": 0.117,
+      "lagSec": 0.747
+    }
+  },
+  "window_tempos": [
+    {
+      "start": 0,
+      "end": 8,
+      "candidates": [
+        {
+          "bpm": 40.5,
+          "autocorrelation": 0.115,
+          "lagSec": 1.482
+        },
+        {
+          "bpm": 80,
+          "autocorrelation": 0.099,
+          "lagSec": 0.75
+        },
+        {
+          "bpm": 110.2,
+          "autocorrelation": 0.081,
+          "lagSec": 0.545
+        },
+        {
+          "bpm": 69.1,
+          "autocorrelation": 0.065,
+          "lagSec": 0.868
+        },
+        {
+          "bpm": 46.3,
+          "autocorrelation": 0.059,
+          "lagSec": 1.296
+        },
+        {
+          "bpm": 63.2,
+          "autocorrelation": 0.024,
+          "lagSec": 0.95
+        },
+        {
+          "bpm": 53.1,
+          "autocorrelation": 0.012,
+          "lagSec": 1.13
+        }
+      ],
+      "best": {
+        "bpm": 40.5,
+        "autocorrelation": 0.115,
+        "lagSec": 1.482
+      }
+    },
+    {
+      "start": 4,
+      "end": 12,
+      "candidates": [
+        {
+          "bpm": 80.3,
+          "autocorrelation": 0.151,
+          "lagSec": 0.747
+        },
+        {
+          "bpm": 46.4,
+          "autocorrelation": 0.138,
+          "lagSec": 1.293
+        },
+        {
+          "bpm": 105.3,
+          "autocorrelation": 0.131,
+          "lagSec": 0.57
+        },
+        {
+          "bpm": 109.5,
+          "autocorrelation": 0.102,
+          "lagSec": 0.548
+        },
+        {
+          "bpm": 40.2,
+          "autocorrelation": 0.101,
+          "lagSec": 1.494
+        },
+        {
+          "bpm": 137.8,
+          "autocorrelation": 0.068,
+          "lagSec": 0.435
+        },
+        {
+          "bpm": 95.7,
+          "autocorrelation": 0.052,
+          "lagSec": 0.627
+        }
+      ],
+      "best": {
+        "bpm": 80.3,
+        "autocorrelation": 0.151,
+        "lagSec": 0.747
+      }
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "candidates": [
+        {
+          "bpm": 105.4,
+          "autocorrelation": 0.148,
+          "lagSec": 0.569
+        },
+        {
+          "bpm": 80.6,
+          "autocorrelation": 0.132,
+          "lagSec": 0.744
+        },
+        {
+          "bpm": 110.1,
+          "autocorrelation": 0.072,
+          "lagSec": 0.545
+        },
+        {
+          "bpm": 40,
+          "autocorrelation": 0.07,
+          "lagSec": 1.501
+        },
+        {
+          "bpm": 138,
+          "autocorrelation": 0.062,
+          "lagSec": 0.435
+        },
+        {
+          "bpm": 95.7,
+          "autocorrelation": 0.046,
+          "lagSec": 0.627
+        },
+        {
+          "bpm": 46.4,
+          "autocorrelation": 0.042,
+          "lagSec": 1.293
+        }
+      ],
+      "best": {
+        "bpm": 105.4,
+        "autocorrelation": 0.148,
+        "lagSec": 0.569
+      }
+    },
+    {
+      "start": 12,
+      "end": 20,
+      "candidates": [
+        {
+          "bpm": 160.3,
+          "autocorrelation": 0.132,
+          "lagSec": 0.374
+        },
+        {
+          "bpm": 106.8,
+          "autocorrelation": 0.103,
+          "lagSec": 0.562
+        },
+        {
+          "bpm": 80.3,
+          "autocorrelation": 0.096,
+          "lagSec": 0.747
+        },
+        {
+          "bpm": 53.5,
+          "autocorrelation": 0.058,
+          "lagSec": 1.122
+        },
+        {
+          "bpm": 63.9,
+          "autocorrelation": 0.045,
+          "lagSec": 0.94
+        },
+        {
+          "bpm": 45.9,
+          "autocorrelation": 0.023,
+          "lagSec": 1.307
+        }
+      ],
+      "best": {
+        "bpm": 160.3,
+        "autocorrelation": 0.132,
+        "lagSec": 0.374
+      }
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "candidates": [
+        {
+          "bpm": 161.2,
+          "autocorrelation": 0.196,
+          "lagSec": 0.372
+        },
+        {
+          "bpm": 105.8,
+          "autocorrelation": 0.146,
+          "lagSec": 0.567
+        },
+        {
+          "bpm": 80,
+          "autocorrelation": 0.118,
+          "lagSec": 0.75
+        },
+        {
+          "bpm": 53.6,
+          "autocorrelation": 0.115,
+          "lagSec": 1.119
+        },
+        {
+          "bpm": 63.9,
+          "autocorrelation": 0.108,
+          "lagSec": 0.939
+        },
+        {
+          "bpm": 40.1,
+          "autocorrelation": 0.106,
+          "lagSec": 1.497
+        },
+        {
+          "bpm": 92.5,
+          "autocorrelation": 0.088,
+          "lagSec": 0.649
+        }
+      ],
+      "best": {
+        "bpm": 161.2,
+        "autocorrelation": 0.196,
+        "lagSec": 0.372
+      }
+    },
+    {
+      "start": 20,
+      "end": 25.813,
+      "candidates": [
+        {
+          "bpm": 105.3,
+          "autocorrelation": 0.18,
+          "lagSec": 0.57
+        },
+        {
+          "bpm": 159,
+          "autocorrelation": 0.113,
+          "lagSec": 0.377
+        },
+        {
+          "bpm": 63.7,
+          "autocorrelation": 0.108,
+          "lagSec": 0.942
+        },
+        {
+          "bpm": 44.8,
+          "autocorrelation": 0.092,
+          "lagSec": 1.339
+        },
+        {
+          "bpm": 78,
+          "autocorrelation": 0.091,
+          "lagSec": 0.769
+        },
+        {
+          "bpm": 52.2,
+          "autocorrelation": 0.088,
+          "lagSec": 1.15
+        },
+        {
+          "bpm": 92.4,
+          "autocorrelation": 0.077,
+          "lagSec": 0.65
+        }
+      ],
+      "best": {
+        "bpm": 105.3,
+        "autocorrelation": 0.18,
+        "lagSec": 0.57
+      }
+    }
+  ],
+  "onset_events": [
+    {
+      "t": 1.4032,
+      "strength": 0.2788
+    },
+    {
+      "t": 1.6036,
+      "strength": 0.3626
+    },
+    {
+      "t": 2.3553,
+      "strength": 0.2249
+    },
+    {
+      "t": 3.2273,
+      "strength": 1
+    },
+    {
+      "t": 6.2241,
+      "strength": 0.8631
+    },
+    {
+      "t": 6.9858,
+      "strength": 0.1506
+    },
+    {
+      "t": 8.4792,
+      "strength": 0.2206
+    },
+    {
+      "t": 8.5894,
+      "strength": 0.3869
+    },
+    {
+      "t": 8.7899,
+      "strength": 0.4875
+    },
+    {
+      "t": 9.2309,
+      "strength": 0.6353
+    },
+    {
+      "t": 10.604,
+      "strength": 0.167
+    },
+    {
+      "t": 11.486,
+      "strength": 0.1966
+    },
+    {
+      "t": 12.2277,
+      "strength": 0.87
+    },
+    {
+      "t": 14.4828,
+      "strength": 0.3424
+    },
+    {
+      "t": 14.6732,
+      "strength": 0.2498
+    },
+    {
+      "t": 14.8536,
+      "strength": 0.4459
+    },
+    {
+      "t": 15.044,
+      "strength": 0.3262
+    },
+    {
+      "t": 15.2345,
+      "strength": 0.3551
+    },
+    {
+      "t": 16.357,
+      "strength": 0.1683
+    },
+    {
+      "t": 17.1087,
+      "strength": 0.182
+    },
+    {
+      "t": 17.2991,
+      "strength": 0.1559
+    },
+    {
+      "t": 17.4795,
+      "strength": 0.1986
+    },
+    {
+      "t": 17.67,
+      "strength": 0.1833
+    },
+    {
+      "t": 18.4217,
+      "strength": 0.1557
+    },
+    {
+      "t": 18.7925,
+      "strength": 0.156
+    },
+    {
+      "t": 19.5442,
+      "strength": 0.1517
+    },
+    {
+      "t": 19.7346,
+      "strength": 0.1682
+    },
+    {
+      "t": 20.1055,
+      "strength": 0.2092
+    },
+    {
+      "t": 20.6668,
+      "strength": 0.1962
+    },
+    {
+      "t": 20.8572,
+      "strength": 0.1676
+    },
+    {
+      "t": 22.3606,
+      "strength": 0.1607
+    },
+    {
+      "t": 22.6913,
+      "strength": 0.1766
+    },
+    {
+      "t": 23.3428,
+      "strength": 0.177
+    },
+    {
+      "t": 24.2348,
+      "strength": 0.1584
+    },
+    {
+      "t": 24.6057,
+      "strength": 0.1868
+    },
+    {
+      "t": 24.7961,
+      "strength": 0.2168
+    },
+    {
+      "t": 25.1669,
+      "strength": 0.1668
+    },
+    {
+      "t": 25.3574,
+      "strength": 0.1921
+    },
+    {
+      "t": 25.5478,
+      "strength": 0.1524
+    }
+  ],
+  "strong_onset_examples": [
+    {
+      "t": 1.4032,
+      "strength": 0.2788
+    },
+    {
+      "t": 1.6036,
+      "strength": 0.3626
+    },
+    {
+      "t": 3.2273,
+      "strength": 1
+    },
+    {
+      "t": 6.2241,
+      "strength": 0.8631
+    },
+    {
+      "t": 8.7899,
+      "strength": 0.4875
+    },
+    {
+      "t": 9.2309,
+      "strength": 0.6353
+    },
+    {
+      "t": 11.486,
+      "strength": 0.1966
+    },
+    {
+      "t": 12.2277,
+      "strength": 0.87
+    },
+    {
+      "t": 14.8536,
+      "strength": 0.4459
+    },
+    {
+      "t": 15.2345,
+      "strength": 0.3551
+    },
+    {
+      "t": 17.4795,
+      "strength": 0.1986
+    },
+    {
+      "t": 17.67,
+      "strength": 0.1833
+    },
+    {
+      "t": 20.1055,
+      "strength": 0.2092
+    },
+    {
+      "t": 20.6668,
+      "strength": 0.1962
+    },
+    {
+      "t": 24.7961,
+      "strength": 0.2168
+    },
+    {
+      "t": 25.3574,
+      "strength": 0.1921
+    }
+  ],
+  "structure_candidates": {
+    "spans": [
+      {
+        "start": 0,
+        "end": 14.5,
+        "label": "A"
+      },
+      {
+        "start": 14.5,
+        "end": 25.813,
+        "label": "B"
+      }
+    ],
+    "snap": {
+      "reference": "signal beats",
+      "toleranceMs": 0,
+      "snapped": 0,
+      "unsnapped": [
+        14.5
+      ],
+      "medianShiftMs": null
+    }
+  },
+  "silence_below_minus50dbfs_200ms": [
+    {
+      "start": 2.6739,
+      "end": 3.2227
+    },
+    {
+      "start": 5.722,
+      "end": 6.2259
+    },
+    {
+      "start": 11.7084,
+      "end": 12.2222
+    }
+  ],
+  "energy_changes": [
+    {
+      "t": 3.25,
+      "beforeDbFS": -40.7,
+      "afterDbFS": -10.6,
+      "deltaDb": 30.1,
+      "kind": "响度上升候选"
+    },
+    {
+      "t": 6.001,
+      "beforeDbFS": -39,
+      "afterDbFS": -12.3,
+      "deltaDb": 26.7,
+      "kind": "响度上升候选"
+    },
+    {
+      "t": 7.751,
+      "beforeDbFS": -11.3,
+      "afterDbFS": -27.2,
+      "deltaDb": -15.9,
+      "kind": "响度下降候选"
+    },
+    {
+      "t": 11.001,
+      "beforeDbFS": -11.3,
+      "afterDbFS": -39.6,
+      "deltaDb": -28.3,
+      "kind": "响度下降候选"
+    },
+    {
+      "t": 12.751,
+      "beforeDbFS": -25.1,
+      "afterDbFS": -11,
+      "deltaDb": 14.1,
+      "kind": "响度上升候选"
+    }
+  ],
+  "rms_250ms": [
+    {
+      "start": 0,
+      "end": 0.25,
+      "dbFS": -40.2
+    },
+    {
+      "start": 0.25,
+      "end": 0.5,
+      "dbFS": -29.3
+    },
+    {
+      "start": 0.5,
+      "end": 0.75,
+      "dbFS": -24
+    },
+    {
+      "start": 0.75,
+      "end": 1,
+      "dbFS": -20.9
+    },
+    {
+      "start": 1,
+      "end": 1.25,
+      "dbFS": -19.8
+    },
+    {
+      "start": 1.25,
+      "end": 1.5,
+      "dbFS": -20
+    },
+    {
+      "start": 1.5,
+      "end": 1.75,
+      "dbFS": -18.8
+    },
+    {
+      "start": 1.75,
+      "end": 2,
+      "dbFS": -9.5
+    },
+    {
+      "start": 2,
+      "end": 2.25,
+      "dbFS": -28.1
+    },
+    {
+      "start": 2.25,
+      "end": 2.5,
+      "dbFS": -28.9
+    },
+    {
+      "start": 2.5,
+      "end": 2.75,
+      "dbFS": -44
+    },
+    {
+      "start": 2.75,
+      "end": 3,
+      "dbFS": -69.9
+    },
+    {
+      "start": 3,
+      "end": 3.25,
+      "dbFS": -19.8
+    },
+    {
+      "start": 3.25,
+      "end": 3.5,
+      "dbFS": -10.4
+    },
+    {
+      "start": 3.5,
+      "end": 3.75,
+      "dbFS": -10.6
+    },
+    {
+      "start": 3.75,
+      "end": 4,
+      "dbFS": -11.1
+    },
+    {
+      "start": 4,
+      "end": 4.25,
+      "dbFS": -10.2
+    },
+    {
+      "start": 4.25,
+      "end": 4.5,
+      "dbFS": -10.5
+    },
+    {
+      "start": 4.5,
+      "end": 4.75,
+      "dbFS": -17.2
+    },
+    {
+      "start": 4.75,
+      "end": 5,
+      "dbFS": -23.5
+    },
+    {
+      "start": 5,
+      "end": 5.25,
+      "dbFS": -41.8
+    },
+    {
+      "start": 5.25,
+      "end": 5.5,
+      "dbFS": -31
+    },
+    {
+      "start": 5.5,
+      "end": 5.751,
+      "dbFS": -22.6
+    },
+    {
+      "start": 5.751,
+      "end": 6.001,
+      "dbFS": -60.7
+    },
+    {
+      "start": 6.001,
+      "end": 6.251,
+      "dbFS": -19.2
+    },
+    {
+      "start": 6.251,
+      "end": 6.501,
+      "dbFS": -9.8
+    },
+    {
+      "start": 6.501,
+      "end": 6.751,
+      "dbFS": -10.6
+    },
+    {
+      "start": 6.751,
+      "end": 7.001,
+      "dbFS": -9.7
+    },
+    {
+      "start": 7.001,
+      "end": 7.251,
+      "dbFS": -9.9
+    },
+    {
+      "start": 7.251,
+      "end": 7.501,
+      "dbFS": -9.1
+    },
+    {
+      "start": 7.501,
+      "end": 7.751,
+      "dbFS": -16.5
+    },
+    {
+      "start": 7.751,
+      "end": 8.001,
+      "dbFS": -23.8
+    },
+    {
+      "start": 8.001,
+      "end": 8.251,
+      "dbFS": -41.4
+    },
+    {
+      "start": 8.251,
+      "end": 8.501,
+      "dbFS": -30.2
+    },
+    {
+      "start": 8.501,
+      "end": 8.751,
+      "dbFS": -13.2
+    },
+    {
+      "start": 8.751,
+      "end": 9.001,
+      "dbFS": -12.5
+    },
+    {
+      "start": 9.001,
+      "end": 9.251,
+      "dbFS": -19
+    },
+    {
+      "start": 9.251,
+      "end": 9.501,
+      "dbFS": -9.3
+    },
+    {
+      "start": 9.501,
+      "end": 9.751,
+      "dbFS": -9.6
+    },
+    {
+      "start": 9.751,
+      "end": 10.001,
+      "dbFS": -10.1
+    },
+    {
+      "start": 10.001,
+      "end": 10.251,
+      "dbFS": -9.3
+    },
+    {
+      "start": 10.251,
+      "end": 10.501,
+      "dbFS": -9.8
+    },
+    {
+      "start": 10.501,
+      "end": 10.751,
+      "dbFS": -12.9
+    },
+    {
+      "start": 10.751,
+      "end": 11.001,
+      "dbFS": -13.3
+    },
+    {
+      "start": 11.001,
+      "end": 11.251,
+      "dbFS": -42.3
+    },
+    {
+      "start": 11.251,
+      "end": 11.501,
+      "dbFS": -32.3
+    },
+    {
+      "start": 11.501,
+      "end": 11.751,
+      "dbFS": -22.4
+    },
+    {
+      "start": 11.751,
+      "end": 12.001,
+      "dbFS": -61.3
+    },
+    {
+      "start": 12.001,
+      "end": 12.251,
+      "dbFS": -20.5
+    },
+    {
+      "start": 12.251,
+      "end": 12.501,
+      "dbFS": -9.7
+    },
+    {
+      "start": 12.501,
+      "end": 12.751,
+      "dbFS": -9.1
+    },
+    {
+      "start": 12.751,
+      "end": 13.001,
+      "dbFS": -9.3
+    },
+    {
+      "start": 13.001,
+      "end": 13.251,
+      "dbFS": -9.3
+    },
+    {
+      "start": 13.251,
+      "end": 13.501,
+      "dbFS": -9.4
+    },
+    {
+      "start": 13.501,
+      "end": 13.751,
+      "dbFS": -16.1
+    },
+    {
+      "start": 13.751,
+      "end": 14.001,
+      "dbFS": -23.7
+    },
+    {
+      "start": 14.001,
+      "end": 14.251,
+      "dbFS": -23.3
+    },
+    {
+      "start": 14.251,
+      "end": 14.501,
+      "dbFS": -16.6
+    },
+    {
+      "start": 14.501,
+      "end": 14.751,
+      "dbFS": -11.8
+    },
+    {
+      "start": 14.751,
+      "end": 15.001,
+      "dbFS": -12.3
+    },
+    {
+      "start": 15.001,
+      "end": 15.251,
+      "dbFS": -11
+    },
+    {
+      "start": 15.251,
+      "end": 15.501,
+      "dbFS": -10
+    },
+    {
+      "start": 15.501,
+      "end": 15.751,
+      "dbFS": -11
+    },
+    {
+      "start": 15.751,
+      "end": 16.001,
+      "dbFS": -10.4
+    },
+    {
+      "start": 16.001,
+      "end": 16.251,
+      "dbFS": -10.2
+    },
+    {
+      "start": 16.251,
+      "end": 16.501,
+      "dbFS": -9.7
+    },
+    {
+      "start": 16.501,
+      "end": 16.752,
+      "dbFS": -10.3
+    },
+    {
+      "start": 16.752,
+      "end": 17.002,
+      "dbFS": -10.4
+    },
+    {
+      "start": 17.002,
+      "end": 17.252,
+      "dbFS": -11
+    },
+    {
+      "start": 17.252,
+      "end": 17.502,
+      "dbFS": -10.7
+    },
+    {
+      "start": 17.502,
+      "end": 17.752,
+      "dbFS": -10.1
+    },
+    {
+      "start": 17.752,
+      "end": 18.002,
+      "dbFS": -11.7
+    },
+    {
+      "start": 18.002,
+      "end": 18.252,
+      "dbFS": -10.5
+    },
+    {
+      "start": 18.252,
+      "end": 18.502,
+      "dbFS": -8.4
+    },
+    {
+      "start": 18.502,
+      "end": 18.752,
+      "dbFS": -10.7
+    },
+    {
+      "start": 18.752,
+      "end": 19.002,
+      "dbFS": -9.5
+    },
+    {
+      "start": 19.002,
+      "end": 19.252,
+      "dbFS": -10.4
+    },
+    {
+      "start": 19.252,
+      "end": 19.502,
+      "dbFS": -10.7
+    },
+    {
+      "start": 19.502,
+      "end": 19.752,
+      "dbFS": -10.8
+    },
+    {
+      "start": 19.752,
+      "end": 20.002,
+      "dbFS": -9.7
+    },
+    {
+      "start": 20.002,
+      "end": 20.252,
+      "dbFS": -10.4
+    },
+    {
+      "start": 20.252,
+      "end": 20.502,
+      "dbFS": -9.9
+    },
+    {
+      "start": 20.502,
+      "end": 20.752,
+      "dbFS": -8.9
+    },
+    {
+      "start": 20.752,
+      "end": 21.002,
+      "dbFS": -10.3
+    },
+    {
+      "start": 21.002,
+      "end": 21.252,
+      "dbFS": -10.3
+    },
+    {
+      "start": 21.252,
+      "end": 21.502,
+      "dbFS": -9.3
+    },
+    {
+      "start": 21.502,
+      "end": 21.752,
+      "dbFS": -8.9
+    },
+    {
+      "start": 21.752,
+      "end": 22.002,
+      "dbFS": -9.5
+    },
+    {
+      "start": 22.002,
+      "end": 22.252,
+      "dbFS": -9.7
+    },
+    {
+      "start": 22.252,
+      "end": 22.502,
+      "dbFS": -9
+    },
+    {
+      "start": 22.502,
+      "end": 22.752,
+      "dbFS": -10.7
+    },
+    {
+      "start": 22.752,
+      "end": 23.002,
+      "dbFS": -9.1
+    },
+    {
+      "start": 23.002,
+      "end": 23.252,
+      "dbFS": -9.8
+    },
+    {
+      "start": 23.252,
+      "end": 23.502,
+      "dbFS": -9.7
+    },
+    {
+      "start": 23.502,
+      "end": 23.752,
+      "dbFS": -10
+    },
+    {
+      "start": 23.752,
+      "end": 24.002,
+      "dbFS": -10.2
+    },
+    {
+      "start": 24.002,
+      "end": 24.252,
+      "dbFS": -10.3
+    },
+    {
+      "start": 24.252,
+      "end": 24.502,
+      "dbFS": -9.7
+    },
+    {
+      "start": 24.502,
+      "end": 24.752,
+      "dbFS": -10.5
+    },
+    {
+      "start": 24.752,
+      "end": 25.002,
+      "dbFS": -12.1
+    },
+    {
+      "start": 25.002,
+      "end": 25.252,
+      "dbFS": -13.7
+    },
+    {
+      "start": 25.252,
+      "end": 25.502,
+      "dbFS": -18.8
+    },
+    {
+      "start": 25.502,
+      "end": 25.752,
+      "dbFS": -27.4
+    },
+    {
+      "start": 25.752,
+      "end": 25.813,
+      "dbFS": -68.5
+    }
+  ],
+  "montage_baseline": {
+    "bpm": 80,
+    "beat_sec": 0.75,
+    "candidates": [
+      {
+        "index": 1,
+        "start": 0,
+        "end": 25,
+        "label": "0:00–0:25",
+        "headDb": -21,
+        "tailDb": -13.2,
+        "contrast": 7.8,
+        "score": -9.5,
+        "lyrics": []
+      }
+    ]
+  },
+  "caution": [
+    "这是已混合的最终音轨，起音可能来自对白音节、打击声、whoosh、引擎声或音乐，算法没有分离来源。",
+    "谱通量起音不等同音乐节拍；响度上升/下降不等同副歌/drop/段落标签。",
+    "BPM有半倍/倍速、切段和tempo漂移歧义；本轮没有实际监听，所有BPM及强拍位置均为候选。",
+    "结构边界由音色/chroma统计而非歌词/听觉语义确定，4秒最短段也会忽略更快变化。"
+  ],
+  "provenance": {
+    "hyperframes_source_sha256": "a08fedbb3a133d5c7e9ae7e4727ab316315a78d6a01c2bbcace13caa344798cb",
+    "montage_source_sha256": "d611bc2fd9150f30ca45b0ccd2a4e4abcc142a9a4800536166284dac54193192"
+  },
+  "music_library": {
+    "mix_path": "audio/mixed/V17__mixed.m4a",
+    "no_vocals_candidate_path": "audio/music-candidates/V17__music-candidate.m4a",
+    "bpm_candidates": [
+      80.3,
+      160.6
+    ],
+    "confidence": "低/存在冲突",
+    "tags": [
+      "手工起音锚点",
+      "先听辨再定拍",
+      "局部节奏练习"
+    ],
+    "warning": "HF拒绝稳定拍点；80/160与局部其他周期并存。"
+  }
+}

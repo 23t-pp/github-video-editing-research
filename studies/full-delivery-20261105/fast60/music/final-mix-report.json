@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "duration_sec": 60,
+  "sample_frames": 2880000,
+  "cue_count": 30,
+  "edit_sha256": "4e03aea0fbe5c86631265c55147594f8b06b4e88eecb26a6208efd49d5af473b",
+  "original_score_sha256": "2362fd21c7d9ced0b30f8e88fadc9a325a70b6e3ee53ffc2d3768bafe3a3a68d",
+  "s04": {
+    "id": "S04",
+    "cue": "assets/cues/S04.wav",
+    "cue_sha256": "5771d91be447ca9ac9b8f0ff95994a86f34dc18ae264a32c6b94c0ffc3176089",
+    "source_film": "11",
+    "source_in_sec": 3930.613333,
+    "start_frame": 113,
+    "start_sample": 226000,
+    "samples": 22000,
+    "frames": 11,
+    "start_sec": 4.708333333333333,
+    "end_sec": 5.166666666666667,
+    "edit_source_gain": 0.22,
+    "additional_rms_cap_gain": 1,
+    "fade_in_sec": 0.003,
+    "fade_out_sec": 0.028,
+    "music_rms_dbfs": -29.18722338596416,
+    "processed_source_rms_dbfs": -39.27861204693234,
+    "processed_source_sample_peak_dbfs": -26.383208202714655
+  },
+  "mastering": {
+    "method": "One shared linear gain applied to both stems; no independent nonlinear processing on the final master.",
+    "unmastered_measurement": {
+      "integrated_lufs": -15.96,
+      "true_peak_dbtp": -1.5,
+      "lra_lu": 11.1,
+      "threshold_lufs": -27.18
+    },
+    "target_integrated_lufs": -16.5,
+    "true_peak_ceiling_dbtp": -1.6,
+    "common_gain_db": -0.5399999999999991
+  },
+  "files": {
+    "score-mix.wav": {
+      "path": "assets/audio/score-mix.wav",
+      "sha256": "9d6c430d670db2049e8905723f146bc145b8464767bff4e34875dac3b8f19805",
+      "bytes": 17280044,
+      "sample_frames": 2880000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "loudness": {
+        "integrated_lufs": -16.7,
+        "true_peak_dbtp": -2.71,
+        "lra_lu": 11.0,
+        "threshold_lufs": -27.74
+      },
+      "full_decode_exit_code": 0
+    },
+    "source-mix.wav": {
+      "path": "assets/audio/source-mix.wav",
+      "sha256": "038f64fe1660fe9a0c0692680413d2ed71f9880d01fb41746b7725f3daae48b7",
+      "bytes": 17280044,
+      "sample_frames": 2880000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "loudness": {
+        "integrated_lufs": -28.48,
+        "true_peak_dbtp": -11.69,
+        "lra_lu": 18.6,
+        "threshold_lufs": -39.84
+      },
+      "full_decode_exit_code": 0
+    },
+    "master.wav": {
+      "path": "assets/audio/master.wav",
+      "sha256": "62bbe58a652e5ba5481ce8be5f050d5e98c800f14b47fdbec105e21212fbb521",
+      "bytes": 17280044,
+      "sample_frames": 2880000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "loudness": {
+        "integrated_lufs": -16.5,
+        "true_peak_dbtp": -2.04,
+        "lra_lu": 11.1,
+        "threshold_lufs": -27.72
+      },
+      "full_decode_exit_code": 0
+    }
+  },
+  "sum_validation": {
+    "format": "decoded signed 24-bit integer samples",
+    "max_absolute_error_lsb": 0,
+    "different_samples": 0,
+    "equivalence": "score-mix + source-mix at unity equals master exactly in PCM24.",
+    "occ_volume_each": 1
+  },
+  "listened": false,
+  "limitations": [
+    "No authoring-agent listening has been performed. Waveform/loudness validation is not listening acceptance.",
+    "Source cues retain film music/dialogue/effects; filtering and low gains do not isolate pure engines/SFX.",
+    "Labels such as engine/helicopter are inherited from the shot plan, not verified by audio classification."
+  ]
+}

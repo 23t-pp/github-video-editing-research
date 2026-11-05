@@ -1,0 +1,13 @@
+Detect beats in the music track and write beats/<audio>.json (hyperframes beats v0.8.216)
+
+USAGE hyperframes beats [OPTIONS] [DIR]
+
+ARGUMENTS
+
+  DIR    Project directory
+
+OPTIONS
+
+  --json    Output result as JSON (Default: false)
+
+

@@ -1,0 +1,67 @@
+{
+  "projectId": "c094cd11-6065-497c-aaf4-232bc61c9360",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_track",
+      "result": {
+        "ok": true,
+        "track": {
+          "id": "track_7efa5790-eb2f-4666-b5a2-2914c5b09d79",
+          "alias": "V1",
+          "trackType": "video",
+          "order": 0,
+          "name": "V1 HF效果预合成 · 20段",
+          "hidden": false,
+          "muted": false,
+          "locked": false,
+          "role": null,
+          "audioRouting": null,
+          "clips": 0
+        },
+        "tracks": [
+          {
+            "id": "track_7efa5790-eb2f-4666-b5a2-2914c5b09d79",
+            "alias": "V1",
+            "trackType": "video",
+            "order": 0,
+            "name": "V1 HF效果预合成 · 20段",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          },
+          {
+            "id": "track_28cd3a59-edf7-412f-a6d9-905a7e85e319",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "A1 edge · 独立master",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "659a6b73-15b9-49fd-9d61-c1d5b5f17b17",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-7773ee3f",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_b411c6494a674ac2",
+    "editorUrl": "http://localhost:5199/#/editor/c094cd11-6065-497c-aaf4-232bc61c9360",
+    "updatedAt": "2026-11-05T08:40:16.825Z"
+  }
+}

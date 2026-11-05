@@ -1,0 +1,717 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "actualL2VideoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d",
+  "decodeCommand": [
+    "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+    "-v",
+    "error",
+    "-i",
+    "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\jjk-s1-workflow\\loops\\loop-02\\loop-02-composite-preview.mp4",
+    "-vf",
+    "select=not(mod(n\\,24)),scale=384:216",
+    "-fps_mode",
+    "passthrough",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "rgb24",
+    "pipe:1"
+  ],
+  "decodedPeriodicFrames": 60,
+  "contactSheets": {
+    "loops/loop-02/reviewer-evidence/actual-video-01.jpg": "1ffe1d9c2c92a62a971a6b0a52c3bcf2ac7806be9591e13825d7ecd66e843dde",
+    "loops/loop-02/reviewer-evidence/actual-video-02.jpg": "22965e8b8d421078e58e77e47128e9393180e09b9f884eeaeff5e612c67142f7"
+  },
+  "L3ProposalSha256": "2e370e0a8ee099d642f38c8352220447d92ee1ae5a5ab2a50f93f7e3402efecb",
+  "proposalMetadataCheck": {
+    "scope": "57 source shots episode/sourceId/file stem/containing search window/evidence path existence; no semantic re-certification",
+    "shotCount": 57,
+    "errors": [],
+    "rows": [
+      {
+        "shot": "S001",
+        "candidateId": "S1C003",
+        "sourceId": "S1E04",
+        "episode": 4,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S002",
+        "candidateId": "S1C020",
+        "sourceId": "S1E05",
+        "episode": 5,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S003",
+        "candidateId": "S1C033",
+        "sourceId": "S1E07",
+        "episode": 7,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S004",
+        "candidateId": "S1C084",
+        "sourceId": "S1E24",
+        "episode": 24,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S005",
+        "candidateId": "S1C037",
+        "sourceId": "S1E17",
+        "episode": 17,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S006",
+        "candidateId": "S1C038",
+        "sourceId": "S1E17",
+        "episode": 17,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S007",
+        "candidateId": "S1C056",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S008",
+        "candidateId": "S1C079",
+        "sourceId": "S1E23",
+        "episode": 23,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S009",
+        "candidateId": "S1C014",
+        "sourceId": "S1E05",
+        "episode": 5,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S011",
+        "candidateId": "S1C011",
+        "sourceId": "S1E05",
+        "episode": 5,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S012",
+        "candidateId": "S1C046",
+        "sourceId": "S1E17",
+        "episode": 17,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S013",
+        "candidateId": "S1C031",
+        "sourceId": "S1E07",
+        "episode": 7,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S014",
+        "candidateId": "S1C071",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S015",
+        "candidateId": "S1C010",
+        "sourceId": "S1E05",
+        "episode": 5,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S016",
+        "candidateId": "S1C012",
+        "sourceId": "S1E05",
+        "episode": 5,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S017",
+        "candidateId": "S1C013",
+        "sourceId": "S1E05",
+        "episode": 5,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S018",
+        "candidateId": "S1C024",
+        "sourceId": "S1E05",
+        "episode": 5,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S019",
+        "candidateId": "S1C017",
+        "sourceId": "S1E05",
+        "episode": 5,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S020",
+        "candidateId": "S1C021",
+        "sourceId": "S1E05",
+        "episode": 5,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S021",
+        "candidateId": "S1C026",
+        "sourceId": "S1E05",
+        "episode": 5,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S022",
+        "candidateId": "S1C027",
+        "sourceId": "S1E07",
+        "episode": 7,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S023",
+        "candidateId": "S1C016",
+        "sourceId": "S1E05",
+        "episode": 5,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S024",
+        "candidateId": "S1C032",
+        "sourceId": "S1E07",
+        "episode": 7,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S025",
+        "candidateId": "S1C034",
+        "sourceId": "S1E17",
+        "episode": 17,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S026",
+        "candidateId": "S1C041",
+        "sourceId": "S1E17",
+        "episode": 17,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S027",
+        "candidateId": "S1C039",
+        "sourceId": "S1E17",
+        "episode": 17,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S028",
+        "candidateId": "S1C042",
+        "sourceId": "S1E17",
+        "episode": 17,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S029",
+        "candidateId": "S1C048",
+        "sourceId": "S1E17",
+        "episode": 17,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S030",
+        "candidateId": "S1C049",
+        "sourceId": "S1E17",
+        "episode": 17,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S031",
+        "candidateId": "S1C086",
+        "sourceId": "S1E24",
+        "episode": 24,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S032",
+        "candidateId": "S1C087",
+        "sourceId": "S1E24",
+        "episode": 24,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S033",
+        "candidateId": "S1C092",
+        "sourceId": "S1E24",
+        "episode": 24,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S034",
+        "candidateId": "S1C093",
+        "sourceId": "S1E24",
+        "episode": 24,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S035",
+        "candidateId": "S1C094",
+        "sourceId": "S1E24",
+        "episode": 24,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S036",
+        "candidateId": "S1C097",
+        "sourceId": "S1E24",
+        "episode": 24,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S037",
+        "candidateId": "S1C054",
+        "sourceId": "S1E19",
+        "episode": 19,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S038",
+        "candidateId": "S1C057",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S039",
+        "candidateId": "S1C058",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S040",
+        "candidateId": "S1C061",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S041",
+        "candidateId": "S1C063",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S042",
+        "candidateId": "S1C064",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S043",
+        "candidateId": "S1C050",
+        "sourceId": "S1E19",
+        "episode": 19,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S044",
+        "candidateId": "S1C051",
+        "sourceId": "S1E19",
+        "episode": 19,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S045",
+        "candidateId": "S1C052",
+        "sourceId": "S1E19",
+        "episode": 19,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S046",
+        "candidateId": "S1C053",
+        "sourceId": "S1E19",
+        "episode": 19,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S047",
+        "candidateId": "S1C065",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S048",
+        "candidateId": "S1C067",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S049",
+        "candidateId": "S1C071",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S050",
+        "candidateId": "S1C072",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S051",
+        "candidateId": "S1C075",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S052",
+        "candidateId": "S1C028",
+        "sourceId": "S1E07",
+        "episode": 7,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S053",
+        "candidateId": "S1C078",
+        "sourceId": "S1E23",
+        "episode": 23,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S054",
+        "candidateId": "S1C080",
+        "sourceId": "S1E23",
+        "episode": 23,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S055",
+        "candidateId": "S1C082",
+        "sourceId": "S1E23",
+        "episode": 23,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S056",
+        "candidateId": "S1C047",
+        "sourceId": "S1E17",
+        "episode": 17,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S057",
+        "candidateId": "S1C088",
+        "sourceId": "S1E24",
+        "episode": 24,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      },
+      {
+        "shot": "S058",
+        "candidateId": "S1C076",
+        "sourceId": "S1E20",
+        "episode": 20,
+        "checks": {
+          "episode": true,
+          "sourcePath": true,
+          "windowContainsFormal": true,
+          "evidenceExists": true
+        }
+      }
+    ]
+  }
+}

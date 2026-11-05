@@ -1,0 +1,787 @@
+{
+  "version": "FRESH-L2-1.0",
+  "scope": "12个冻结B主线未用候选；仅第一季，作为L2增补，不覆盖已签旧索引",
+  "count": 12,
+  "normalDurationCount": 10,
+  "reviewer": "s1_source_curator",
+  "status": "material-navigation-ready; final prepared-source verification belongs to execution",
+  "items": [
+    {
+      "candidateId": "S1C028",
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "characters": [
+        "咒灵"
+      ],
+      "anchorSeconds": 255,
+      "coreSourceSeconds": [
+        254.14,
+        255.14
+      ],
+      "coreSourceDuration": 1.0,
+      "previouslyUsedInFrozenBMain": false,
+      "humanReviewed": true,
+      "observedMovement": "手指抓握号角的局部特写，号角略由左向中推进；原切后开始，后段急移前结束",
+      "focusNormalized": [
+        0.5,
+        0.5
+      ],
+      "dominantPalette": "冷青/灰紫",
+      "cutoutFeasibility": "medium",
+      "semanticConfidence": "high",
+      "reviewScope": "人工实看核心窗8时间位；C028另逐张看32帧原生解码预检；不能代替执行回源后每个prepared帧首中尾与相邻原切核查",
+      "nativeExactCutVerification": "32 source-native decoded frames visually inspected; conservative24-frame source core",
+      "evidence": "evidence/source-overviews/fresh-candidates/S1C028-all-native-preflight.jpg"
+    },
+    {
+      "candidateId": "S1C041",
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "characters": [
+        "三轮"
+      ],
+      "anchorSeconds": 180,
+      "coreSourceSeconds": [
+        179.4,
+        180.6
+      ],
+      "previouslyUsedInFrozenBMain": false,
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-01.jpg",
+      "row": 2,
+      "gridSamples": [
+        {
+          "grid60Frame": 10764,
+          "targetSeconds": 179.4,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-002/F0010764.jpg"
+        },
+        {
+          "grid60Frame": 10774,
+          "targetSeconds": 179.56666666666666,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-002/F0010774.jpg"
+        },
+        {
+          "grid60Frame": 10785,
+          "targetSeconds": 179.75,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-002/F0010785.jpg"
+        },
+        {
+          "grid60Frame": 10795,
+          "targetSeconds": 179.91666666666666,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-002/F0010795.jpg"
+        },
+        {
+          "grid60Frame": 10805,
+          "targetSeconds": 180.08333333333334,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-003/F0010805.jpg"
+        },
+        {
+          "grid60Frame": 10815,
+          "targetSeconds": 180.25,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-003/F0010815.jpg"
+        },
+        {
+          "grid60Frame": 10826,
+          "targetSeconds": 180.43333333333334,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-003/F0010826.jpg"
+        },
+        {
+          "grid60Frame": 10836,
+          "targetSeconds": 180.6,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-003/F0010836.jpg"
+        }
+      ],
+      "humanReviewed": true,
+      "observedMovement": "发光刀刃横贯中部，刃尖朝左，轻微水平位移；不是大幅身体动作",
+      "nativeExactCutVerification": "execution must verify all prepared native-source frames before final use",
+      "coreSourceDuration": 1.2,
+      "focusNormalized": [
+        0.5,
+        0.5
+      ],
+      "dominantPalette": "黄绿/白刃",
+      "cutoutFeasibility": "low",
+      "semanticConfidence": "high",
+      "reviewScope": "人工实看核心窗8时间位；C028另逐张看32帧原生解码预检；不能代替执行回源后每个prepared帧首中尾与相邻原切核查"
+    },
+    {
+      "candidateId": "S1C047",
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "characters": [
+        "钉崎"
+      ],
+      "anchorSeconds": 445,
+      "coreSourceSeconds": [
+        444.85,
+        446.05
+      ],
+      "previouslyUsedInFrozenBMain": false,
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-extra-proof.jpg",
+      "row": 3,
+      "gridSamples": [
+        {
+          "grid60Frame": 26670,
+          "targetSeconds": 444.5,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-007/F0026670.jpg"
+        },
+        {
+          "grid60Frame": 26680,
+          "targetSeconds": 444.6666666666667,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-007/F0026680.jpg"
+        },
+        {
+          "grid60Frame": 26691,
+          "targetSeconds": 444.85,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-007/F0026691.jpg"
+        },
+        {
+          "grid60Frame": 26701,
+          "targetSeconds": 445.01666666666665,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-007/F0026701.jpg"
+        },
+        {
+          "grid60Frame": 26711,
+          "targetSeconds": 445.18333333333334,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-007/F0026711.jpg"
+        },
+        {
+          "grid60Frame": 26721,
+          "targetSeconds": 445.35,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-007/F0026721.jpg"
+        },
+        {
+          "grid60Frame": 26732,
+          "targetSeconds": 445.53333333333336,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-007/F0026732.jpg"
+        },
+        {
+          "grid60Frame": 26742,
+          "targetSeconds": 445.7,
+          "jpg": "素材集_60Hz_JPG/S1E17/minute-007/F0026742.jpg"
+        }
+      ],
+      "humanReviewed": true,
+      "observedMovement": "腕部抬至额头附近，小幅转头/发丝摆动，焦点在脸和腕部",
+      "nativeExactCutVerification": "execution must verify all prepared native-source frames before final use",
+      "coreSourceDuration": 1.2,
+      "focusNormalized": [
+        0.6,
+        0.4
+      ],
+      "dominantPalette": "林绿/深蓝",
+      "cutoutFeasibility": "medium",
+      "semanticConfidence": "high",
+      "reviewScope": "人工实看核心窗8时间位；C028另逐张看32帧原生解码预检；不能代替执行回源后每个prepared帧首中尾与相邻原切核查"
+    },
+    {
+      "candidateId": "S1C054",
+      "sourceId": "S1E19",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "characters": [
+        "虎杖"
+      ],
+      "anchorSeconds": 925,
+      "coreSourceSeconds": [
+        924.5,
+        925.7
+      ],
+      "previouslyUsedInFrozenBMain": false,
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-01.jpg",
+      "row": 4,
+      "gridSamples": [
+        {
+          "grid60Frame": 55470,
+          "targetSeconds": 924.5,
+          "jpg": "素材集_60Hz_JPG/S1E19/minute-015/F0055470.jpg"
+        },
+        {
+          "grid60Frame": 55480,
+          "targetSeconds": 924.6666666666666,
+          "jpg": "素材集_60Hz_JPG/S1E19/minute-015/F0055480.jpg"
+        },
+        {
+          "grid60Frame": 55491,
+          "targetSeconds": 924.85,
+          "jpg": "素材集_60Hz_JPG/S1E19/minute-015/F0055491.jpg"
+        },
+        {
+          "grid60Frame": 55501,
+          "targetSeconds": 925.0166666666667,
+          "jpg": "素材集_60Hz_JPG/S1E19/minute-015/F0055501.jpg"
+        },
+        {
+          "grid60Frame": 55511,
+          "targetSeconds": 925.1833333333333,
+          "jpg": "素材集_60Hz_JPG/S1E19/minute-015/F0055511.jpg"
+        },
+        {
+          "grid60Frame": 55521,
+          "targetSeconds": 925.35,
+          "jpg": "素材集_60Hz_JPG/S1E19/minute-015/F0055521.jpg"
+        },
+        {
+          "grid60Frame": 55532,
+          "targetSeconds": 925.5333333333333,
+          "jpg": "素材集_60Hz_JPG/S1E19/minute-015/F0055532.jpg"
+        },
+        {
+          "grid60Frame": 55542,
+          "targetSeconds": 925.7,
+          "jpg": "素材集_60Hz_JPG/S1E19/minute-015/F0055542.jpg"
+        }
+      ],
+      "humanReviewed": true,
+      "observedMovement": "正面脸部/眼神特写，周边蓝黑气息轻微变化，主体接近保持帧",
+      "nativeExactCutVerification": "execution must verify all prepared native-source frames before final use",
+      "coreSourceDuration": 1.2,
+      "focusNormalized": [
+        0.5,
+        0.42
+      ],
+      "dominantPalette": "蓝黑/肤色",
+      "cutoutFeasibility": "low",
+      "semanticConfidence": "high",
+      "reviewScope": "人工实看核心窗8时间位；C028另逐张看32帧原生解码预检；不能代替执行回源后每个prepared帧首中尾与相邻原切核查"
+    },
+    {
+      "candidateId": "S1C066",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "characters": [
+        "五条"
+      ],
+      "anchorSeconds": 1110,
+      "coreSourceSeconds": [
+        1109.4,
+        1110.6
+      ],
+      "previouslyUsedInFrozenBMain": false,
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-01.jpg",
+      "row": 5,
+      "gridSamples": [
+        {
+          "grid60Frame": 66564,
+          "targetSeconds": 1109.4,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-018/F0066564.jpg"
+        },
+        {
+          "grid60Frame": 66574,
+          "targetSeconds": 1109.5666666666666,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-018/F0066574.jpg"
+        },
+        {
+          "grid60Frame": 66585,
+          "targetSeconds": 1109.75,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-018/F0066585.jpg"
+        },
+        {
+          "grid60Frame": 66595,
+          "targetSeconds": 1109.9166666666667,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-018/F0066595.jpg"
+        },
+        {
+          "grid60Frame": 66605,
+          "targetSeconds": 1110.0833333333333,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-018/F0066605.jpg"
+        },
+        {
+          "grid60Frame": 66615,
+          "targetSeconds": 1110.25,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-018/F0066615.jpg"
+        },
+        {
+          "grid60Frame": 66626,
+          "targetSeconds": 1110.4333333333334,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-018/F0066626.jpg"
+        },
+        {
+          "grid60Frame": 66636,
+          "targetSeconds": 1110.6,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-018/F0066636.jpg"
+        }
+      ],
+      "humanReviewed": true,
+      "observedMovement": "天空前右向侧脸，脸部小幅运动；纠正旧描述正面蓝眼，实际为侧脸",
+      "nativeExactCutVerification": "execution must verify all prepared native-source frames before final use",
+      "coreSourceDuration": 1.2,
+      "focusNormalized": [
+        0.5,
+        0.5
+      ],
+      "dominantPalette": "天蓝/白发",
+      "cutoutFeasibility": "medium",
+      "semanticConfidence": "high",
+      "reviewScope": "人工实看核心窗8时间位；C028另逐张看32帧原生解码预检；不能代替执行回源后每个prepared帧首中尾与相邻原切核查"
+    },
+    {
+      "candidateId": "S1C069",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "characters": [
+        "五条"
+      ],
+      "anchorSeconds": 1160,
+      "coreSourceSeconds": [
+        1159.4,
+        1160.6
+      ],
+      "previouslyUsedInFrozenBMain": false,
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg",
+      "row": 0,
+      "gridSamples": [
+        {
+          "grid60Frame": 69564,
+          "targetSeconds": 1159.4,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-019/F0069564.jpg"
+        },
+        {
+          "grid60Frame": 69574,
+          "targetSeconds": 1159.5666666666666,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-019/F0069574.jpg"
+        },
+        {
+          "grid60Frame": 69585,
+          "targetSeconds": 1159.75,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-019/F0069585.jpg"
+        },
+        {
+          "grid60Frame": 69595,
+          "targetSeconds": 1159.9166666666667,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-019/F0069595.jpg"
+        },
+        {
+          "grid60Frame": 69605,
+          "targetSeconds": 1160.0833333333333,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-019/F0069605.jpg"
+        },
+        {
+          "grid60Frame": 69615,
+          "targetSeconds": 1160.25,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-019/F0069615.jpg"
+        },
+        {
+          "grid60Frame": 69626,
+          "targetSeconds": 1160.4333333333334,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-019/F0069626.jpg"
+        },
+        {
+          "grid60Frame": 69636,
+          "targetSeconds": 1160.6,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-019/F0069636.jpg"
+        }
+      ],
+      "humanReviewed": true,
+      "observedMovement": "双眼超近景，蓝色瞳孔与眼神为焦点，轻微画幅变化",
+      "nativeExactCutVerification": "execution must verify all prepared native-source frames before final use",
+      "coreSourceDuration": 1.2,
+      "focusNormalized": [
+        0.5,
+        0.5
+      ],
+      "dominantPalette": "亮蓝/白色",
+      "cutoutFeasibility": "low",
+      "semanticConfidence": "high",
+      "reviewScope": "人工实看核心窗8时间位；C028另逐张看32帧原生解码预检；不能代替执行回源后每个prepared帧首中尾与相邻原切核查"
+    },
+    {
+      "candidateId": "S1C076",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "characters": [
+        "unknown"
+      ],
+      "anchorSeconds": 1215,
+      "coreSourceSeconds": [
+        1214.4,
+        1215.35
+      ],
+      "previouslyUsedInFrozenBMain": false,
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-extra-proof.jpg",
+      "row": 1,
+      "gridSamples": [
+        {
+          "grid60Frame": 72855,
+          "targetSeconds": 1214.25,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-020/F0072855.jpg"
+        },
+        {
+          "grid60Frame": 72865,
+          "targetSeconds": 1214.4166666666667,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-020/F0072865.jpg"
+        },
+        {
+          "grid60Frame": 72876,
+          "targetSeconds": 1214.6,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-020/F0072876.jpg"
+        },
+        {
+          "grid60Frame": 72886,
+          "targetSeconds": 1214.7666666666667,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-020/F0072886.jpg"
+        },
+        {
+          "grid60Frame": 72896,
+          "targetSeconds": 1214.9333333333334,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-020/F0072896.jpg"
+        },
+        {
+          "grid60Frame": 72906,
+          "targetSeconds": 1215.1,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-020/F0072906.jpg"
+        },
+        {
+          "grid60Frame": 72917,
+          "targetSeconds": 1215.2833333333333,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-020/F0072917.jpg"
+        },
+        {
+          "grid60Frame": 72927,
+          "targetSeconds": 1215.45,
+          "jpg": "素材集_60Hz_JPG/S1E20/minute-020/F0072927.jpg"
+        }
+      ],
+      "humanReviewed": true,
+      "observedMovement": "紫色能量球扩张/发亮；1215.5处已切成闪电，严格止于更早",
+      "nativeExactCutVerification": "execution must verify all prepared native-source frames before final use",
+      "coreSourceDuration": 0.95,
+      "focusNormalized": [
+        0.5,
+        0.5
+      ],
+      "dominantPalette": "紫/黑",
+      "cutoutFeasibility": "low",
+      "semanticConfidence": "unknown",
+      "reviewScope": "人工实看核心窗8时间位；C028另逐张看32帧原生解码预检；不能代替执行回源后每个prepared帧首中尾与相邻原切核查",
+      "retimeRestriction": "核心仅0.95s；需要更长时必须显式慢放，禁止混入1215.5闪电原切并假称连续"
+    },
+    {
+      "candidateId": "S1C078",
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "characters": [
+        "unknown"
+      ],
+      "anchorSeconds": 240,
+      "coreSourceSeconds": [
+        239.4,
+        240.6
+      ],
+      "coreSourceDuration": 1.2,
+      "previouslyUsedInFrozenBMain": false,
+      "humanReviewed": true,
+      "observedMovement": "紫色单眼极近景，虹膜轻变，长睫毛轮廓；人物身份不以猜测命名",
+      "focusNormalized": [
+        0.5,
+        0.5
+      ],
+      "dominantPalette": "紫/黑/肤色",
+      "cutoutFeasibility": "low",
+      "semanticConfidence": "unknown",
+      "reviewScope": "人工实看核心窗8时间位；C028另逐张看32帧原生解码预检；不能代替执行回源后每个prepared帧首中尾与相邻原切核查",
+      "nativeExactCutVerification": "execution must verify all prepared native-source frames before final use",
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-expansion-native-navigation.jpg",
+      "priorIdentityWarning": "冻结初始索引曾标钉崎，本次无法可靠确认人物，派生表使用unknown"
+    },
+    {
+      "candidateId": "S1C080",
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "characters": [
+        "伏黑"
+      ],
+      "anchorSeconds": 265,
+      "coreSourceSeconds": [
+        265.15,
+        266.35
+      ],
+      "previouslyUsedInFrozenBMain": false,
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg",
+      "row": 2,
+      "gridSamples": [
+        {
+          "grid60Frame": 15909,
+          "targetSeconds": 265.15,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0015909.jpg"
+        },
+        {
+          "grid60Frame": 15919,
+          "targetSeconds": 265.31666666666666,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0015919.jpg"
+        },
+        {
+          "grid60Frame": 15930,
+          "targetSeconds": 265.5,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0015930.jpg"
+        },
+        {
+          "grid60Frame": 15940,
+          "targetSeconds": 265.6666666666667,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0015940.jpg"
+        },
+        {
+          "grid60Frame": 15950,
+          "targetSeconds": 265.8333333333333,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0015950.jpg"
+        },
+        {
+          "grid60Frame": 15960,
+          "targetSeconds": 266.0,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0015960.jpg"
+        },
+        {
+          "grid60Frame": 15971,
+          "targetSeconds": 266.18333333333334,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0015971.jpg"
+        },
+        {
+          "grid60Frame": 15981,
+          "targetSeconds": 266.35,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0015981.jpg"
+        }
+      ],
+      "humanReviewed": true,
+      "observedMovement": "朝左侧脸，小幅口型与头部变化，非跃起动作",
+      "nativeExactCutVerification": "execution must verify all prepared native-source frames before final use",
+      "coreSourceDuration": 1.2,
+      "focusNormalized": [
+        0.5,
+        0.5
+      ],
+      "dominantPalette": "夜蓝/肤色",
+      "cutoutFeasibility": "medium",
+      "semanticConfidence": "high",
+      "reviewScope": "人工实看核心窗8时间位；C028另逐张看32帧原生解码预检；不能代替执行回源后每个prepared帧首中尾与相邻原切核查"
+    },
+    {
+      "candidateId": "S1C081",
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "characters": [
+        "伏黑"
+      ],
+      "anchorSeconds": 290,
+      "coreSourceSeconds": [
+        289.4,
+        290.6
+      ],
+      "previouslyUsedInFrozenBMain": false,
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg",
+      "row": 3,
+      "gridSamples": [
+        {
+          "grid60Frame": 17364,
+          "targetSeconds": 289.4,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0017364.jpg"
+        },
+        {
+          "grid60Frame": 17374,
+          "targetSeconds": 289.56666666666666,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0017374.jpg"
+        },
+        {
+          "grid60Frame": 17385,
+          "targetSeconds": 289.75,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0017385.jpg"
+        },
+        {
+          "grid60Frame": 17395,
+          "targetSeconds": 289.9166666666667,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0017395.jpg"
+        },
+        {
+          "grid60Frame": 17405,
+          "targetSeconds": 290.0833333333333,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0017405.jpg"
+        },
+        {
+          "grid60Frame": 17415,
+          "targetSeconds": 290.25,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0017415.jpg"
+        },
+        {
+          "grid60Frame": 17426,
+          "targetSeconds": 290.43333333333334,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0017426.jpg"
+        },
+        {
+          "grid60Frame": 17436,
+          "targetSeconds": 290.6,
+          "jpg": "素材集_60Hz_JPG/S1E23/minute-004/F0017436.jpg"
+        }
+      ],
+      "humanReviewed": true,
+      "observedMovement": "闭眼正脸，接近保持帧，面部与眉眼为焦点",
+      "nativeExactCutVerification": "execution must verify all prepared native-source frames before final use",
+      "coreSourceDuration": 1.2,
+      "focusNormalized": [
+        0.5,
+        0.5
+      ],
+      "dominantPalette": "深蓝/肤色",
+      "cutoutFeasibility": "low",
+      "semanticConfidence": "high",
+      "reviewScope": "人工实看核心窗8时间位；C028另逐张看32帧原生解码预检；不能代替执行回源后每个prepared帧首中尾与相邻原切核查"
+    },
+    {
+      "candidateId": "S1C085",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "characters": [
+        "钉崎"
+      ],
+      "anchorSeconds": 405,
+      "coreSourceSeconds": [
+        405,
+        406.2
+      ],
+      "previouslyUsedInFrozenBMain": false,
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg",
+      "row": 4,
+      "gridSamples": [
+        {
+          "grid60Frame": 24300,
+          "targetSeconds": 405.0,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-006/F0024300.jpg"
+        },
+        {
+          "grid60Frame": 24310,
+          "targetSeconds": 405.1666666666667,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-006/F0024310.jpg"
+        },
+        {
+          "grid60Frame": 24321,
+          "targetSeconds": 405.35,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-006/F0024321.jpg"
+        },
+        {
+          "grid60Frame": 24331,
+          "targetSeconds": 405.51666666666665,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-006/F0024331.jpg"
+        },
+        {
+          "grid60Frame": 24341,
+          "targetSeconds": 405.68333333333334,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-006/F0024341.jpg"
+        },
+        {
+          "grid60Frame": 24351,
+          "targetSeconds": 405.85,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-006/F0024351.jpg"
+        },
+        {
+          "grid60Frame": 24362,
+          "targetSeconds": 406.03333333333336,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-006/F0024362.jpg"
+        },
+        {
+          "grid60Frame": 24372,
+          "targetSeconds": 406.2,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-006/F0024372.jpg"
+        }
+      ],
+      "humanReviewed": true,
+      "observedMovement": "双手近景，手指弯曲/腕部转动与源画面咒印变化",
+      "nativeExactCutVerification": "execution must verify all prepared native-source frames before final use",
+      "coreSourceDuration": 1.2,
+      "focusNormalized": [
+        0.52,
+        0.45
+      ],
+      "dominantPalette": "夜蓝/肤色/黑纹",
+      "cutoutFeasibility": "medium",
+      "semanticConfidence": "high",
+      "reviewScope": "人工实看核心窗8时间位；C028另逐张看32帧原生解码预检；不能代替执行回源后每个prepared帧首中尾与相邻原切核查"
+    },
+    {
+      "candidateId": "S1C088",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "characters": [
+        "unknown"
+      ],
+      "anchorSeconds": 450,
+      "coreSourceSeconds": [
+        449.4,
+        450.6
+      ],
+      "previouslyUsedInFrozenBMain": false,
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg",
+      "row": 5,
+      "gridSamples": [
+        {
+          "grid60Frame": 26964,
+          "targetSeconds": 449.4,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-007/F0026964.jpg"
+        },
+        {
+          "grid60Frame": 26974,
+          "targetSeconds": 449.56666666666666,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-007/F0026974.jpg"
+        },
+        {
+          "grid60Frame": 26985,
+          "targetSeconds": 449.75,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-007/F0026985.jpg"
+        },
+        {
+          "grid60Frame": 26995,
+          "targetSeconds": 449.9166666666667,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-007/F0026995.jpg"
+        },
+        {
+          "grid60Frame": 27005,
+          "targetSeconds": 450.0833333333333,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-007/F0027005.jpg"
+        },
+        {
+          "grid60Frame": 27015,
+          "targetSeconds": 450.25,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-007/F0027015.jpg"
+        },
+        {
+          "grid60Frame": 27026,
+          "targetSeconds": 450.43333333333334,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-007/F0027026.jpg"
+        },
+        {
+          "grid60Frame": 27036,
+          "targetSeconds": 450.6,
+          "jpg": "素材集_60Hz_JPG/S1E24/minute-007/F0027036.jpg"
+        }
+      ],
+      "humanReviewed": true,
+      "observedMovement": "橙色单眼极近景，黑色咒纹与瞳孔为焦点，镜头小幅推进；仅凭眼睛不定人物",
+      "nativeExactCutVerification": "execution must verify all prepared native-source frames before final use",
+      "coreSourceDuration": 1.2,
+      "focusNormalized": [
+        0.5,
+        0.45
+      ],
+      "dominantPalette": "橙/黑/肤色",
+      "cutoutFeasibility": "low",
+      "semanticConfidence": "unknown",
+      "reviewScope": "人工实看核心窗8时间位；C028另逐张看32帧原生解码预检；不能代替执行回源后每个prepared帧首中尾与相邻原切核查",
+      "priorIdentityWarning": "冻结初始索引曾标虎杖；源前后为术式解释插入段，无法凭极近单眼确认，派生表使用unknown"
+    }
+  ],
+  "rejectedOrRestricted": [
+    {
+      "candidateId": "S1C018",
+      "reason": "429.5–430.7原窗430.35附近由鸟切伏黑，未找到独立1.1s核心，不交作无切镜头"
+    },
+    {
+      "candidateId": "S1C035",
+      "coreSourceSeconds": [
+        119.05,
+        119.72
+      ],
+      "duration": 0.67,
+      "reason": "逐张40原生帧预检119.786发生机位改变；安全防御核心不足.9s，需明确约.65倍慢放或换C047，不把119–120.2冒充无切",
+      "evidence": "evidence/source-overviews/fresh-candidates/S1C035-all-native-preflight.jpg"
+    },
+    {
+      "candidateId": "S1C076",
+      "reason": "保留.95s短核心作为可选，超过1215.35需另审原切"
+    }
+  ]
+}

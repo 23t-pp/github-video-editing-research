@@ -1,0 +1,472 @@
+{
+  "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+  "name": "V05六格卡片学习小样-2026-11-04T15-00-57-302Z",
+  "profileId": "4bcb4e74-803a-4abe-8dbc-a4d40dea37c3",
+  "dataDir": "C:/Users/PC/.openchatcut/dev-profiles/4bcb4e74-803a-4abe-8dbc-a4d40dea37c3",
+  "createdAt": "2026-11-04T15:00:58.524Z",
+  "phase": "portable-ui-import-verified",
+  "nativeTimelineId": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+  "assets": [
+    {
+      "id": "b236dab0-54b5-4f96-b5b7-dc22c08e8718",
+      "name": "shot-a-road.mp4",
+      "kind": "video",
+      "src": "/media/uploads/b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4"
+    },
+    {
+      "id": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+      "name": "shot-b-driver-aerial.mp4",
+      "kind": "video",
+      "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4"
+    }
+  ],
+  "trackOrder": [
+    "track_362eaeb6-fa41-4d08-97a4-f76825898772",
+    "track_6613898d-e835-4d82-9310-affdc4c81763",
+    "track_92d6e775-8dc0-4dd4-85be-46b5c23870ec",
+    "track_b4c1051e-40dc-4b84-8c51-fe2aecd5e7ef",
+    "track_e45672dd-1e39-4fae-a1c4-c5c82a8afaee",
+    "track_974c45a3-c9e9-49eb-8cbd-81a265a07739",
+    "track_v1"
+  ],
+  "nativeChecks": {
+    "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "nativeTimelineId": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+    "fps": 24,
+    "durationInFrames": 108,
+    "itemCount": 8,
+    "panelCount": 6,
+    "checks": [
+      {
+        "cell": 0,
+        "track": "track_362eaeb6-fa41-4d08-97a4-f76825898772",
+        "itemId": "item_3faccf23-a66c-4b7e-bfce-51bb4852b0b8",
+        "cueLocalFrame": 0,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "right": 0.6666666666666666,
+          "bottom": 0.5
+        },
+        "keyframes": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 1
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": -0.8,
+              "easing": "easeOut"
+            },
+            {
+              "frame": 3,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "cell": 1,
+        "track": "track_6613898d-e835-4d82-9310-affdc4c81763",
+        "itemId": "item_cedf240f-886a-4fb6-8bf1-115226f77e66",
+        "cueLocalFrame": 4,
+        "crop": {
+          "left": 0.3333333333333333,
+          "top": 0,
+          "right": 0.3333333333333333,
+          "bottom": 0.5
+        },
+        "keyframes": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 4,
+              "value": 0
+            },
+            {
+              "frame": 6,
+              "value": 1
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": -0.8,
+              "easing": "easeOut"
+            },
+            {
+              "frame": 4,
+              "value": -0.8,
+              "easing": "easeOut"
+            },
+            {
+              "frame": 7,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "cell": 2,
+        "track": "track_92d6e775-8dc0-4dd4-85be-46b5c23870ec",
+        "itemId": "item_41dd1fee-3e14-4edc-b61b-be05457161a9",
+        "cueLocalFrame": 8,
+        "crop": {
+          "left": 0.6666666666666666,
+          "top": 0,
+          "right": 0,
+          "bottom": 0.5
+        },
+        "keyframes": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 8,
+              "value": 0
+            },
+            {
+              "frame": 10,
+              "value": 1
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": -0.8,
+              "easing": "easeOut"
+            },
+            {
+              "frame": 8,
+              "value": -0.8,
+              "easing": "easeOut"
+            },
+            {
+              "frame": 11,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "cell": 3,
+        "track": "track_b4c1051e-40dc-4b84-8c51-fe2aecd5e7ef",
+        "itemId": "item_0904e8ca-9e38-473a-8aeb-edbf7fcd1726",
+        "cueLocalFrame": 2,
+        "crop": {
+          "left": 0,
+          "top": 0.5,
+          "right": 0.6666666666666666,
+          "bottom": 0
+        },
+        "keyframes": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 0
+            },
+            {
+              "frame": 4,
+              "value": 1
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 0.8,
+              "easing": "easeOut"
+            },
+            {
+              "frame": 2,
+              "value": 0.8,
+              "easing": "easeOut"
+            },
+            {
+              "frame": 5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "cell": 4,
+        "track": "track_e45672dd-1e39-4fae-a1c4-c5c82a8afaee",
+        "itemId": "item_eea36686-e732-4142-a3a0-622418d216f3",
+        "cueLocalFrame": 6,
+        "crop": {
+          "left": 0.3333333333333333,
+          "top": 0.5,
+          "right": 0.3333333333333333,
+          "bottom": 0
+        },
+        "keyframes": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 6,
+              "value": 0
+            },
+            {
+              "frame": 8,
+              "value": 1
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 0.8,
+              "easing": "easeOut"
+            },
+            {
+              "frame": 6,
+              "value": 0.8,
+              "easing": "easeOut"
+            },
+            {
+              "frame": 9,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "cell": 5,
+        "track": "track_974c45a3-c9e9-49eb-8cbd-81a265a07739",
+        "itemId": "item_2afdb599-f92a-4707-9bba-c57996ddf171",
+        "cueLocalFrame": 10,
+        "crop": {
+          "left": 0.6666666666666666,
+          "top": 0.5,
+          "right": 0,
+          "bottom": 0
+        },
+        "keyframes": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 10,
+              "value": 0
+            },
+            {
+              "frame": 12,
+              "value": 1
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 0.8,
+              "easing": "easeOut"
+            },
+            {
+              "frame": 10,
+              "value": 0.8,
+              "easing": "easeOut"
+            },
+            {
+              "frame": 13,
+              "value": 0
+            }
+          ]
+        }
+      }
+    ],
+    "allNativeMediaMuted": true,
+    "fullBLastFadeFrames": 6,
+    "openedInUI": false,
+    "rendered": false,
+    "audioPending": false,
+    "hfIntegrationPending": false,
+    "portablePending": false,
+    "verifiedAt": "2026-11-04T15:01:08.643Z",
+    "audioItemCount": 1,
+    "audioVolume": 1
+  },
+  "masterAudio": {
+    "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "nativeTimelineId": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+    "audioAssetId": "2e9fd18f-ec48-4d84-990f-2e6a56e88406",
+    "audioTrackId": "track_e88fc9ea-3b6a-4629-ab3c-97f0bbdd6cec",
+    "audioItemId": "item_8a18bfa3-6341-47b4-876e-95f1aa60652e",
+    "fromFrame": 0,
+    "durationInFrames": 108,
+    "sourceStartFrame": 0,
+    "volume": 1,
+    "videoCount": 8,
+    "videosMuted": true,
+    "httpDocEqual": true,
+    "openedInUI": false,
+    "verifiedAt": "2026-11-04T15:02:48.852Z"
+  },
+  "hfIntegration": {
+    "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "nativeTimelineId": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+    "hfTimelineId": "tl_a0ae5ccd-1299-4d26-9289-285df57432f3",
+    "hfAssetId": "36499047-b396-4a48-a9a5-c7c64c23f5e7",
+    "hfClipId": "item_91cd53cc-ed92-4395-9018-dc5d6402b143",
+    "fromFrame": 0,
+    "durationInFrames": 108,
+    "volume": 1,
+    "audioExplanation": "HF video clip includes the mastered soundtrack once; no separate master clip is added on this timeline",
+    "nativeTimelineUnchanged": true,
+    "httpDocEqual": true,
+    "openedInUI": false,
+    "editorUrl": "http://127.0.0.1:5199/#/editor/0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "verifiedAt": "2026-11-04T15:09:41.667Z"
+  },
+  "portable": {
+    "method": "Official src/persist/projectTransfer.ts buildProjectExport(), via documented injected SharedKvBackend seam with GET-only local HTTP reads; no reimplemented package encoder",
+    "mode": "final",
+    "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "nativeTimelineId": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+    "format": "openchatcut-project@2",
+    "bytes": 14488547,
+    "sha256": "226547ebaa9be651936928a434bdd6b98c1a789ba74da129ff4043deef285583",
+    "timelines": [
+      {
+        "id": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+        "name": "01 OCC原生六格教学 · 24fps",
+        "items": 9,
+        "fps": 24
+      },
+      {
+        "id": "tl_a0ae5ccd-1299-4d26-9289-285df57432f3",
+        "name": "02 HF成片整合 · 108帧 · 内含Master音轨",
+        "items": 1,
+        "fps": 24
+      }
+    ],
+    "mediaTotal": 4,
+    "mediaMissing": [],
+    "mediaChecks": [
+      {
+        "src": "/media/uploads/b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4",
+        "name": "b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4",
+        "mime": "video/mp4",
+        "bytes": 2273955,
+        "sha256": "8ca9dac1399c53325a880c774a289a889dd5c06b60bd6f7abdf718659abb1eda"
+      },
+      {
+        "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+        "name": "12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+        "mime": "video/mp4",
+        "bytes": 3496332,
+        "sha256": "0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d"
+      },
+      {
+        "src": "/media/uploads/775d80eb-a115-4206-88a4-01aa432b86d7.wav",
+        "name": "775d80eb-a115-4206-88a4-01aa432b86d7.wav",
+        "mime": "audio/wav",
+        "bytes": 432044,
+        "sha256": "bc11a2644bcb6976fdbe86cd442ffbecbb0757559544a0dc7f9a585d3da07146"
+      },
+      {
+        "src": "/media/uploads/4ad57a55-4275-4499-8d9b-d6ccb912070c.mp4",
+        "name": "4ad57a55-4275-4499-8d9b-d6ccb912070c.mp4",
+        "mime": "video/mp4",
+        "bytes": 4618705,
+        "sha256": "507a0cd181e77cc33e63ef8316177918387bbc3bb2f451c38eb8377b26950724"
+      }
+    ],
+    "packagePath": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\v05-six-panel\\openchatcut\\V05六格卡片_可编辑工程.ccproj",
+    "writesToLibrary": 0,
+    "uiImportVerified": true,
+    "readRequests": [
+      {
+        "method": "GET",
+        "path": "/api/project-store/entry?key=project%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+      },
+      {
+        "method": "GET",
+        "path": "/api/project-store/entry?key=project%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+      },
+      {
+        "method": "GET",
+        "path": "/api/project-store/entry?key=agent-session-generation%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+      },
+      {
+        "method": "GET",
+        "path": "/api/project-store/entry?key=chat%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+      },
+      {
+        "method": "GET",
+        "path": "/api/project-store/entry?key=agent-session-generation%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+      },
+      {
+        "method": "GET",
+        "path": "/api/project-store/entry?key=proposal%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+      },
+      {
+        "method": "GET",
+        "path": "/api/project-store/entry?key=agent-session-generation%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+      },
+      {
+        "method": "GET",
+        "path": "/api/project-store/entry?key=agent-runtime%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+      },
+      {
+        "method": "GET",
+        "path": "/api/project-store/entry?key=creative-mode%3A0fd76ceb-875e-4507-be68-f296dd3dacfd"
+      },
+      {
+        "method": "GET",
+        "path": "/media/uploads/b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4"
+      },
+      {
+        "method": "GET",
+        "path": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4"
+      },
+      {
+        "method": "GET",
+        "path": "/media/uploads/775d80eb-a115-4206-88a4-01aa432b86d7.wav"
+      },
+      {
+        "method": "GET",
+        "path": "/media/uploads/4ad57a55-4275-4499-8d9b-d6ccb912070c.mp4"
+      },
+      {
+        "method": "GET",
+        "path": "/media/uploads/b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4"
+      },
+      {
+        "method": "GET",
+        "path": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4"
+      },
+      {
+        "method": "GET",
+        "path": "/media/uploads/775d80eb-a115-4206-88a4-01aa432b86d7.wav"
+      },
+      {
+        "method": "GET",
+        "path": "/media/uploads/4ad57a55-4275-4499-8d9b-d6ccb912070c.mp4"
+      }
+    ],
+    "verifiedAt": "2026-11-04T15:10:00.106Z",
+    "importedProjectId": "28fd7d1f-4659-4247-82eb-1a2e06f6f93d",
+    "uiImportEvidence": "outputs/v05-six-panel/evidence/OpenChatCut导入验证.json",
+    "uiVerifiedAt": "2026-11-04T15:14:46.502Z"
+  },
+  "importedProjectId": "28fd7d1f-4659-4247-82eb-1a2e06f6f93d"
+}

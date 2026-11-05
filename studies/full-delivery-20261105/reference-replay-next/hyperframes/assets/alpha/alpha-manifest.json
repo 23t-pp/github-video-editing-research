@@ -1,0 +1,75 @@
+{
+  "fps": 25,
+  "method": "Manual contour keyframes + local LK/GrabCut only; no AI content generation",
+  "clips": [
+    {
+      "id": "B04-gear-hand",
+      "directory": "assets/alpha/B04-gear-hand",
+      "pattern": "%06d.png",
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "frames": 13,
+      "sourceAsset": "B04-gear_f11_1949p70.mp4",
+      "assetStartFrame": 12,
+      "sourceAssetFrameInclusive": [
+        12,
+        24
+      ],
+      "emptyLocalFrames": [
+        0,
+        1
+      ],
+      "sourceSha256": "7280f9ad992cf2a5da4ba9c7f118c916cc2b8ab4bbd8916cdb885791442e5105",
+      "rgbExactlyEqualsSource": true,
+      "freezeLastFrameAllowed": false,
+      "evidence": "assets/alpha/B04-gear-hand/alpha-evidence.png",
+      "editableRoto": "assets/alpha/B04-gear-hand/roto-keyframes.json"
+    },
+    {
+      "id": "B03-switch-hand",
+      "directory": "assets/alpha/B03-switch-hand",
+      "pattern": "%06d.png",
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "frames": 15,
+      "sourceAsset": "B03-switch_f11_3929p25.mp4",
+      "assetStartFrame": 12,
+      "sourceAssetFrameInclusive": [
+        12,
+        26
+      ],
+      "emptyLocalFrames": [
+        13,
+        14
+      ],
+      "sourceSha256": "5b0e380be67dbd8529e1b155887976e60ba6129e27936ebc8d246b7453960943",
+      "rgbExactlyEqualsSource": true,
+      "freezeLastFrameAllowed": false,
+      "evidence": "assets/alpha/B03-switch-hand/alpha-evidence.png",
+      "editableRoto": "assets/alpha/B03-switch-hand/roto-keyframes.json"
+    },
+    {
+      "id": "B01-steering-hand",
+      "directory": "assets/alpha/B01-steering-hand",
+      "pattern": "%06d.png",
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "frames": 9,
+      "sourceAsset": "B01-steering_f03_5346p56.mp4",
+      "assetStartFrame": 12,
+      "sourceAssetFrameInclusive": [
+        12,
+        20
+      ],
+      "emptyLocalFrames": [],
+      "sourceSha256": "afb396eed30443c8b2098454d9c7ed4827ec2dff8c762210931c9486718cd98f",
+      "rgbExactlyEqualsSource": true,
+      "freezeLastFrameAllowed": false,
+      "evidence": "assets/alpha/B01-steering-hand/alpha-evidence.png",
+      "editableRoto": "assets/alpha/B01-steering-hand/roto-keyframes.json"
+    }
+  ]
+}

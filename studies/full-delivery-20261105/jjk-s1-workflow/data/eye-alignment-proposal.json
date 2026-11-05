@@ -1,0 +1,50 @@
+[
+  {
+    "asset": "S009",
+    "method": "HSV largest connected component candidate within observed eye ROI, sourceF26; visually recheck",
+    "nativeColoredIrisCentroid": [
+      1311.7371832645845,
+      476.7566293459045
+    ],
+    "nativeColorBBox": [
+      1288,
+      453,
+      48,
+      49
+    ],
+    "transform": {
+      "scale": 2.0,
+      "x": -1013.47,
+      "y": 66.49
+    },
+    "targetColoredIrisCenter": [
+      650,
+      480
+    ],
+    "note": "align eye axis and palpebral opening scale; natural Sukuna tiny red pupil differs from Megumi broad iris, do not distort original iris anatomy"
+  },
+  {
+    "asset": "S055",
+    "method": "HSV largest connected component candidate within observed eye ROI, sourceF26; visually recheck",
+    "nativeColoredIrisCentroid": [
+      731.6595691849277,
+      537.4884846979949
+    ],
+    "nativeColorBBox": [
+      628,
+      456,
+      198,
+      144
+    ],
+    "transform": {
+      "scale": 1.2,
+      "x": 624.01,
+      "y": -56.99
+    },
+    "targetColoredIrisCenter": [
+      1310,
+      480
+    ],
+    "note": "align eye axis and palpebral opening scale; natural Sukuna tiny red pupil differs from Megumi broad iris, do not distort original iris anatomy"
+  }
+]

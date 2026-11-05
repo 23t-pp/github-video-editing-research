@@ -1,0 +1,25 @@
+{
+  "state": "pass",
+  "scope": "Independent static audit of generated publication hub, source-copy integrity and ready asset names; does not claim remote public visibility",
+  "projectAssetNamesChecked": 25,
+  "jpgExpectedNamesChecked": 24,
+  "readmeLocalLinksChecked": [
+    "../README.md",
+    "manifests/assets-manifest.json",
+    "manifests/projects/",
+    "manifests/copy-integrity.json",
+    "../studies/full-delivery-20261105/",
+    "manifests/projects/text-mirror-manifest.json",
+    "tools/",
+    "evidence/",
+    "evidence/jpg/",
+    "manifests/remote-assets-snapshot.json",
+    "evidence/projects/download-and-restore.zh-CN.md",
+    "evidence/jpg/README_JPG.zh-CN.md",
+    "build_publication_docs.py"
+  ],
+  "sourceCopiesVerified": 56,
+  "sourceCopyBytesVerified": 5071688,
+  "readmeSha256": "f1f88dcaf2177134059519fdb084ffa11c360a069fd8abfc283984024f9d4aba",
+  "restoreCommands": "Project --downloads/--workspace/--with-sources and JPG --destination/--manifest match script argparse; --help checked in preparing session"
+}

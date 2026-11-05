@@ -1,0 +1,4439 @@
+{
+  "asset": {
+    "asset": "jjk-edge-v17-complete.zip",
+    "source_file_count": 736,
+    "bytes": 709681763,
+    "sha256": "f2ffea6a357877a0d5b7bbf6530294ba3404a16f9c1b5556dc0384b68afe5c95",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": [
+        {
+          "asset": "jjk-edge-v17-hyperframes-editable.zip",
+          "sha256": "fa52f197e11d1df8a0272e3368c80bbac092a838d731398580591cfed5497773",
+          "restore_path": "outputs/jjk-edge-v17/HyperFrames可编辑工程.zip"
+        }
+      ],
+      "note": "保持outputs冻结文件原字节；依restore_path放回独立资产即可还原完整项目。"
+    },
+    "entries_manifest": "manifests/jjk-edge-v17-complete.zip.json"
+  },
+  "files": [
+    {
+      "path": "outputs/jjk-edge-v17/HyperFrames工程包核验.json",
+      "bytes": 434,
+      "sha256": "b4ec1457ffc07f6398eff0d7146b80ae9253e76e5242f2e1b4a57068349e940d",
+      "crc32": "7cb3b190"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/README.md",
+      "bytes": 4921,
+      "sha256": "9e7ec0a45866f81aaa75ae40fe7da6b110866660d105e282e36c382bee8ce4ad",
+      "crc32": "5d88f9ee"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/UI验收.json",
+      "bytes": 2117,
+      "sha256": "ba0794022ddc3750794209a644a565e67ef5916c4e2c07e05b18c36fbb9c7b25",
+      "crc32": "13309ffe"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/player-server.mjs",
+      "bytes": 1744,
+      "sha256": "cef342c1d52cd9563d60182bcf8ef21f1758c8811103d84fe2a3b1f19dc3ed61",
+      "crc32": "ea070e21"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/交付清单.json",
+      "bytes": 1272,
+      "sha256": "7d83baaa8d5a29eb94eb20e373fb6e7e45de5e6a2d772468974b11988461cf80",
+      "crc32": "444a1085"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/制作约定.json",
+      "bytes": 614,
+      "sha256": "65771d151334908d5e3ba16347d2af9078e51eef131fb044fc0a3bf75dd11e4d",
+      "crc32": "8cd7315b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/学习总结与命令.md",
+      "bytes": 25338,
+      "sha256": "0c41c0a0df7bf40081026686e737f62cb3bf15b94b7f090894804c96cce97fcb",
+      "crc32": "4c45141c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/封面.jpg",
+      "bytes": 250927,
+      "sha256": "c5e4d500ca5ca8c0d348e02113e846f4a602e79b8ecb8080bd6b634a88c5d9e1",
+      "crc32": "a79f766d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/成片验证.json",
+      "bytes": 4239,
+      "sha256": "64a04252f257f78ae75096cc39d05c9ac56f9eeae94be4663f2e30d8b233e7bc",
+      "crc32": "665199c0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/挚友_EDGE_一分钟.mp4",
+      "bytes": 55740694,
+      "sha256": "452ac2a76f60d27465e05336f20f44467899e6a3a13cee4967eae6f60bd83ed1",
+      "crc32": "185610a5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/观看与学习.html",
+      "bytes": 4333,
+      "sha256": "ff5b99a09c27e3f37a91ee954923b76cbe98dc7d95d4452ed8d48903aaf6a865",
+      "crc32": "52a251a2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/质量检查.json",
+      "bytes": 4398,
+      "sha256": "24a8eec9d6407d481ff6a1e6fb75407d3fb164b6fc154c881240c658d5531225",
+      "crc32": "ff369309"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/HyperFrames-lint.log",
+      "bytes": 3357,
+      "sha256": "0b893ffde5d2b787ac30a4992e307df60d5a758bbc201ea940a11bdc2bbb799e",
+      "crc32": "671d35bb"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/HyperFrames-runtime-validate.log",
+      "bytes": 397,
+      "sha256": "f1f8e4f4a3fb5768b3ceec556ab10475adc1739ec711f028aade8250b91dd789",
+      "crc32": "608bf19a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V02文字参考.md",
+      "bytes": 8577,
+      "sha256": "be20dcef8e46270ee95480e3879727c061fc429074b7a0032215f323e22faf9c",
+      "crc32": "39d0aaa1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17主参考与选镜.md",
+      "bytes": 10183,
+      "sha256": "2ad076be912f0c5a472f8576aaeb7a86263b7f00a1568347026e5e21587ef5b7",
+      "crc32": "e6e90a81"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/六组参考对照.jpg",
+      "bytes": 589763,
+      "sha256": "bdc8d9e6cf41b806de3aa1c89383b53645ac8744b17ec2cc73cc287e0c7d2dad",
+      "crc32": "2ee12b4f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/动态前景安全范围.md",
+      "bytes": 4295,
+      "sha256": "0a4ab3a7799fbee5e6944f4ce4a1e65f7bb4955be308eda572752516570aad9a",
+      "crc32": "1bf2f1a7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/双半脸对位底图.jpg",
+      "bytes": 124171,
+      "sha256": "65c44a4dc8e80f76b05339991c556c3f71dedd6d66671b995086afe751c116bf",
+      "crc32": "78361ee0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/声音响度实测.log",
+      "bytes": 107965,
+      "sha256": "ebb8314e25bf99dfb98f7ddf699270b3178c6c0d579165405c56de6a26462c2d",
+      "crc32": "0a6e0873"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/最终选镜修正.json",
+      "bytes": 2012,
+      "sha256": "628c24b4fa6cef992272736cee44f481b87adf8f5d33fc17c61a2a22934ed7d2",
+      "crc32": "607ef002"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/片源选择与时间表.json",
+      "bytes": 33911,
+      "sha256": "fd5db9456090cf49be4c9d38631a7c72aa40df7822155eaa90273ae4f587b9fe",
+      "crc32": "2b23c808"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/镜片记忆实渲染.jpg",
+      "bytes": 244664,
+      "sha256": "7d3f0bd5d7ba469abfce549786274968d689ff3b226dc5aeba2c4740b98dce6b",
+      "crc32": "b0adb3f2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/首批合成检查.jpg",
+      "bytes": 349665,
+      "sha256": "a1400ea484905c44ef9ae38520aeaf7292fe35cb2cfced39fae5843f76bb2ed8",
+      "crc32": "7f16e4da"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-awaken-F12-blue.jpg",
+      "bytes": 85558,
+      "sha256": "5ec5782c61c527c87a907d774ff63dca8461b996bfca2c74edf880d8b32b8003",
+      "crc32": "16afbe62"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-awaken-F12.png",
+      "bytes": 1231724,
+      "sha256": "a86e225529b3fa2b6b69d7bc7097c22dd47429f7cda990654634d764ca28d765",
+      "crc32": "28feece8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-awaken-allframes-01.png",
+      "bytes": 2570349,
+      "sha256": "84dd25d8d88fed3b61b01d37ee9be8eb7f66d51b86df9ebbf8d936f014db367a",
+      "crc32": "fab74d5e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-awaken-allframes-02.png",
+      "bytes": 2594081,
+      "sha256": "27348dc7b4a4466a32769a259693c6e74bd6940074601297e7a0184813d6f041",
+      "crc32": "9c4b3ff8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-awaken-allframes-03.png",
+      "bytes": 2575321,
+      "sha256": "2a326a092304392dd5ea2e313acbbffc0c49e0f1fcab23fd1b593af80d3bf2a4",
+      "crc32": "aa2c748f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-awaken-alpha-contact.png",
+      "bytes": 4028671,
+      "sha256": "702c263256bffeda4309a472878a4e86cd0ca28683e5c374f36a23af154a4992",
+      "crc32": "b4724322"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-awaken-alpha-report.json",
+      "bytes": 70357,
+      "sha256": "fa23ebcdc2ff8589cc573c3714fc4f6bf037965b75062636be4c4ab037ac6c24",
+      "crc32": "0ff35462"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-awaken-alpha-summary.png",
+      "bytes": 2427465,
+      "sha256": "b1f28f83a94e7ada85fb203affdb9db86e46a9342dc98a5f342e5071f5094aaa",
+      "crc32": "f997e701"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-awaken-source.jpg",
+      "bytes": 238306,
+      "sha256": "f55940690ed6f47178f872bdf0a09c27e7a9b5b429d86b88f8c2f9f5a1e8fca6",
+      "crc32": "0061abcd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-F12.png",
+      "bytes": 1439690,
+      "sha256": "d9567b5a93834347cf6a7fa8b231d82de0f5ef511873ce5da126a9bd76c691fd",
+      "crc32": "6d7eaf0c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-F18-red-corrected.png",
+      "bytes": 347016,
+      "sha256": "d26e69ddfed0cc4bf46ab180e1cf3df8247e71c989ccf5ddb6cb62132a58573d",
+      "crc32": "c677273a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-HF-before-correction-F780.png",
+      "bytes": 1086420,
+      "sha256": "27c8cfb66a6205116bbd7fba153c84f68a298cf8bebe5b04776f43a4b5012ba8",
+      "crc32": "fc609312"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-allframes-01.png",
+      "bytes": 2888020,
+      "sha256": "62aa59df4648979ec12a765debd44a6ee1b1c58bfbbd5c2d99a34b0fae094b8f",
+      "crc32": "62e28160"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-allframes-02.png",
+      "bytes": 3344832,
+      "sha256": "ec8514ff01b8718e4c83ac4ce51de440c07e9fa5264a8e2d21c3e4c76cb6be0a",
+      "crc32": "117c8931"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-allframes-03.png",
+      "bytes": 1482083,
+      "sha256": "f107488dd1d28c5155a3e037c71201094822cabd188900dddd069ba9af42753e",
+      "crc32": "42adc3da"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-alpha-report.json",
+      "bytes": 10412,
+      "sha256": "38db8288dad736fc15f4893c8d42d95c6eb0c365a2c1dac12cb1d2ba683fa44e",
+      "crc32": "ae0a4153"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-alpha-summary.png",
+      "bytes": 3232476,
+      "sha256": "8839df0e388667ceea60bd4f84f0bd83191aeb46e30fe37a720f4f9a9e9d10d9",
+      "crc32": "1a55758b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-color-correction.json",
+      "bytes": 5933,
+      "sha256": "220630ef3f0bd141af0a4d8a1e25af66771d9ba6d19e7bf8465c33de8356330b",
+      "crc32": "b1f6d348"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-gap-correction-01.png",
+      "bytes": 1017604,
+      "sha256": "640aa4a8566e58d02294f765d8143b7624635c83bf0116cc0d64fef78c505ec1",
+      "crc32": "043f7d18"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-gap-correction-02.png",
+      "bytes": 1020569,
+      "sha256": "ad101a528d0e3283f739bb380770bc681b3bd1f1de64a95d83e0cba784b0b60e",
+      "crc32": "8f37b099"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-gap-correction-03.png",
+      "bytes": 1021833,
+      "sha256": "17444842fce11e48edc4ae631bea1529fff075d80f0dafae1409a6889094ca13",
+      "crc32": "529466e0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/X-palm-source.jpg",
+      "bytes": 298401,
+      "sha256": "207b3fa2689d7b51e575ce23e85ac9a778bf773819acc50a4b850a4a8ac0331c",
+      "crc32": "4e667bb8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/alpha-integrity.json",
+      "bytes": 10799,
+      "sha256": "db1ed52821b99b86ad4688a1124afb114dfb7e26b1e7d116777099bdbd6545a4",
+      "crc32": "196eda67"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/alpha/palm18-detail.png",
+      "bytes": 106175,
+      "sha256": "20abcbc9f1758151100e3e0344b9a2961a3045fba751e8bf6a0b46bd1023feb1",
+      "crc32": "fb433b15"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/4k-e01.jpg",
+      "bytes": 135938,
+      "sha256": "8af60c8042a8a444e0a74acc25711de9c6346c5711c0ea96f762b425e1007495",
+      "crc32": "275b5fe6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C01-e01-954.000.jpg",
+      "bytes": 21239,
+      "sha256": "df4205960f5185559f5032ac94cea3ab7b2b8dfea0b65053c2a372e8e4a0b141",
+      "crc32": "3ef339ad"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C02-e01-962.250.jpg",
+      "bytes": 22761,
+      "sha256": "9400b17850208b39afcd81e1e8889899e07663f8c6f4d58ed231e822f92e449a",
+      "crc32": "2125720d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C03-e02-328.000.jpg",
+      "bytes": 13157,
+      "sha256": "bc9d2e40a4e6c372d883375283f159238021b24082e176b936c1a701854320cc",
+      "crc32": "efaf6064"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C04-e02-391.000.jpg",
+      "bytes": 20238,
+      "sha256": "1483a5628842871e0ac581ab2fddc323c8776385d53342c0d4fb9ee468369d0a",
+      "crc32": "f73d8230"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C05-e02-509.000.jpg",
+      "bytes": 21393,
+      "sha256": "74c20d45d2491bf01e5e241f2911399ee1794ba35db091409e1c57c13912b720",
+      "crc32": "ba681ba5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C06-e02-1169.750.jpg",
+      "bytes": 23581,
+      "sha256": "10daacdd0770a9165babc9df8b8f6e441cd0fbc63369ad22944c7323b1662120",
+      "crc32": "ee6415b1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C07-e02-1220.000.jpg",
+      "bytes": 21248,
+      "sha256": "d626b6308e832d8723cd2bde8b9a75542ea55ae94c76dbc10d1f35cb81714819",
+      "crc32": "66c1835d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C08-e02-1259.000.jpg",
+      "bytes": 22817,
+      "sha256": "ac8f116b0f294646e31f198aa2977698ec4632a78114420e16a56f8d7aff404b",
+      "crc32": "2aa87b4b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C08-e02-1259.500.jpg",
+      "bytes": 22792,
+      "sha256": "f28fe8dc22e0a18141cb5ec40f444283489b09d8f1b0127ee3bec253d8eae0ca",
+      "crc32": "4bb442a5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C09-e02-1287.000.jpg",
+      "bytes": 15681,
+      "sha256": "0ea2d43915aae67556f95b786ac9dd327e3656e8f91e6c96a7b78b5e012f44e2",
+      "crc32": "33d41365"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C09-e02-1289.000.jpg",
+      "bytes": 20579,
+      "sha256": "ba59750bf5a915cb8ad9d14c627a6bb8a1d501ee31538e42c3e459f8ac293a8e",
+      "crc32": "ab817764"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C10-e04-989.000.jpg",
+      "bytes": 15979,
+      "sha256": "21ba68db4da4caf019b1b38737c42fd2c3c50ee76873c9b88831374402586b44",
+      "crc32": "25fce029"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C11-e01-895.000.jpg",
+      "bytes": 22729,
+      "sha256": "08d0b02892c91eb311a16a320fc04d97f44d797cb70de2aa9426d64137905ab6",
+      "crc32": "db9022f6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C11-e01-895.500.jpg",
+      "bytes": 23580,
+      "sha256": "a9fb54fff7dddacc487133a18b911bb511d702a2cde221f7d35f8c2bee40c6a4",
+      "crc32": "8dc27818"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C12-e01-920.000.jpg",
+      "bytes": 22012,
+      "sha256": "190d6692c113c6a1fd12843df404ebe962c75dc317c7380e2d1e3edda9d25851",
+      "crc32": "119f970d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C13-e01-935.000.jpg",
+      "bytes": 18566,
+      "sha256": "dced595155c7b8fc59ce13b94e75d5470529dc9f8802eb65972d4a83cfd06fe9",
+      "crc32": "a8e74b00"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C14-e01-1290.000.jpg",
+      "bytes": 25486,
+      "sha256": "33f06b184081d455c33ceae8feb0330d6ceabe50737fa2df8cc41c05640a37d7",
+      "crc32": "0d1ffb0c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C15-e02-495.000.jpg",
+      "bytes": 16022,
+      "sha256": "e5cdf2569e24d586a5169fd0dfc7080ce7900c2e77544df191c05fc2f7b0a51f",
+      "crc32": "db60efed"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C16-e03-444.000.jpg",
+      "bytes": 22851,
+      "sha256": "f0208ce2139172e705704184b13f271ece82f6a1d7b87e8a0650fc5b78be7de2",
+      "crc32": "ca6f69ad"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C17-e03-454.000.jpg",
+      "bytes": 12463,
+      "sha256": "27b11fcea2ac62457274a09b0a2d0d9e0f97e330d2894e85c4af48787afdfc51",
+      "crc32": "d9270d10"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C18-e03-1170.000.jpg",
+      "bytes": 27216,
+      "sha256": "0b518fe58951e0e971180b619559e2f6ef7a10f47e8aea849954d0b1272192dd",
+      "crc32": "a2c5f98e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C19-e03-1175.000.jpg",
+      "bytes": 20820,
+      "sha256": "0b1f110e68e89ff168ad51cdb8af7d7cfd15bdad50b691852754c893f4bdb18b",
+      "crc32": "3cb838d7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C20-e04-1338.000.jpg",
+      "bytes": 20991,
+      "sha256": "f807ee4655418bab8d61d97d5a72cc43531ba4ca6874ac6e4b2bd63649db53dc",
+      "crc32": "7d1e0c42"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C20-e04-1340.000.jpg",
+      "bytes": 21405,
+      "sha256": "262ac9abdfcfaec9c37f7a8b1bd942e7d2e1f70d9b1a8ee8cf77776abd209b25",
+      "crc32": "79e62e90"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C21-e04-1280.000.jpg",
+      "bytes": 20688,
+      "sha256": "7a5a5475e353046219b59652ec89a6bc9af74b6486f7a6c5ae8bd1ec8fd96551",
+      "crc32": "216b1219"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C22-e04-1300.000.jpg",
+      "bytes": 10059,
+      "sha256": "685673a054aa2a7055f051e4f709c832b243e7956b07a767f5e53a06c3470319",
+      "crc32": "2087009d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C22-e04-1300.500.jpg",
+      "bytes": 10020,
+      "sha256": "2ff2a41809b884de889f101ada91cdaece05602e7b9c909b7a1c7a5b8504e186",
+      "crc32": "de0cd284"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C23-e05-978.000.jpg",
+      "bytes": 13304,
+      "sha256": "eae5173dc8cca68849dbcea374ae3a3f4563615de19cbcac59c5c2ada44ed6e8",
+      "crc32": "a1551d65"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C24-e05-1030.000.jpg",
+      "bytes": 21756,
+      "sha256": "feebd82e7ff33ec9b875d43d2642c91a293710038fba3fc6e506bd362cfaeb07",
+      "crc32": "3b4c568a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C25-e05-1080.000.jpg",
+      "bytes": 17743,
+      "sha256": "d50ae94cc1a7dc502e107241a9c12c274e0d3590703c32a65927037228795a0e",
+      "crc32": "8e92fc32"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C26-e03-689.000.jpg",
+      "bytes": 25327,
+      "sha256": "c04cf00027b8646d3f132c8a07314e2b3063f12d541561b377bd799d15cc17d5",
+      "crc32": "28cf0c9c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C27-e03-820.000.jpg",
+      "bytes": 24206,
+      "sha256": "3b3b1714c700d11af268be582ef76d77424e182676cb6378902fc3222a6dc24a",
+      "crc32": "ed9fcafd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C28-e03-879.000.jpg",
+      "bytes": 20349,
+      "sha256": "3e0d16c7cc93c772fdabee6c59cdc583f027e5d44611c0ea77d1339f6c462ec9",
+      "crc32": "7bf931fc"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C29-e03-889.000.jpg",
+      "bytes": 24330,
+      "sha256": "65ec62b45dd670d03909955638ce2a144d52b6d3de6bcace53c9f5c794a37865",
+      "crc32": "db5369f9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C29-e03-889.750.jpg",
+      "bytes": 22460,
+      "sha256": "4644739636d258a1c54f22558071c283970160019ec3de9e53a08c114eba6064",
+      "crc32": "1f9a0985"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C30-e03-920.000.jpg",
+      "bytes": 30568,
+      "sha256": "8b7836e395404bfe756223f8c616ac0400defb180eafeeb77fa1f97547d5bf0f",
+      "crc32": "3dd99c06"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C31-e03-930.000.jpg",
+      "bytes": 24717,
+      "sha256": "23a4361ae6cb1d9972c563c2534a5762fd254016dcb033c928cdee9066ff0ab0",
+      "crc32": "99f2a989"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C32-e04-209.000.jpg",
+      "bytes": 16098,
+      "sha256": "d41f7ddca8f2c420714c86622304579f266f7c2bf9e79b140dd8b84ec8c08ffa",
+      "crc32": "bec26298"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C33-e04-329.000.jpg",
+      "bytes": 18571,
+      "sha256": "272c986160f1762a25a0632d5040905f7f266ba885ee7520dab14195cef3eafd",
+      "crc32": "4bfb5592"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C34-e04-359.000.jpg",
+      "bytes": 23099,
+      "sha256": "ff75899e3bc6c5becc7b9a988a0dac8bfc21cfa2d9cb27e660d16a6834b19e85",
+      "crc32": "2f4ea539"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C35-e04-420.000.jpg",
+      "bytes": 13182,
+      "sha256": "19ebeadd03ee8f56ca876143d038885e186c0209487a180eb4edb5c579e5d2ea",
+      "crc32": "d6f18523"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C35-e04-420.500.jpg",
+      "bytes": 13283,
+      "sha256": "68d7831217657fe90d5146dfeb2589d3fa075791dfbcb3f0dce7957ba7369376",
+      "crc32": "e8f22c1c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C36-e04-429.000.jpg",
+      "bytes": 9115,
+      "sha256": "7c8181ce43ab9fc5ac62086e58a17ec45f3eda7006b3f4fdbd89aa6f70c28ad4",
+      "crc32": "f49cd5ef"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C36-e04-429.500.jpg",
+      "bytes": 11216,
+      "sha256": "9968324325d93244386e6474abba729820649a166c3c18f16bacc33c0d889065",
+      "crc32": "e7c703ff"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C37-e04-449.000.jpg",
+      "bytes": 20120,
+      "sha256": "606495c271b2f1cfa02c6151c10f683595acde66266234943e5bb5002a446bfe",
+      "crc32": "cc8e336e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C37-e04-449.750.jpg",
+      "bytes": 20291,
+      "sha256": "c27ca2d606aef1c9048036e050c3c1bc4ded68d5369c31c0829a39ffef601c45",
+      "crc32": "1eb7cd60"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C38-e04-787.000.jpg",
+      "bytes": 21525,
+      "sha256": "3f19148a1d2e64ebfd6b5f90fffb1d14124a0fab9b5174fcc72b107f328f8ade",
+      "crc32": "ea5743d3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C38-e04-789.500.jpg",
+      "bytes": 19306,
+      "sha256": "13ccbb35028e9a32c938a69d621683d34ff7199767b6a1ca6acce9079d72b3c4",
+      "crc32": "f0df6a32"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C39-e04-810.000.jpg",
+      "bytes": 27369,
+      "sha256": "40ff50fecb089b97e2a2f11e89cec304648ec9ff53a3ebf445b4556f706c3723",
+      "crc32": "c5aba5da"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C40-e04-820.000.jpg",
+      "bytes": 15970,
+      "sha256": "63e75bd3b0711fda2615259ba2d62563c79da0a82e01fb5de806109330a289f4",
+      "crc32": "37fc7581"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C41-e04-839.000.jpg",
+      "bytes": 13212,
+      "sha256": "64a73aeae13120b67fc1d0b51296783fb564f740b013412aa8f2f5472c2b7bd0",
+      "crc32": "d32dbf68"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C41-e04-839.500.jpg",
+      "bytes": 13313,
+      "sha256": "c6e1626f3823dba44e5b085c9fa73ad3d586478cbb13e25f3823012ad26c543c",
+      "crc32": "d809ba1d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C42-e04-859.000.jpg",
+      "bytes": 21509,
+      "sha256": "b3725e663b05cea1ccbf7ca750ddff16221a8180dc82b16c4e2ebc25978c8937",
+      "crc32": "d22c8064"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C43-e04-870.000.jpg",
+      "bytes": 17000,
+      "sha256": "46213606d30651318b62990f0e2d10617da0ad916811d8719fee672400b69925",
+      "crc32": "037f8ab0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C44-e04-879.000.jpg",
+      "bytes": 24766,
+      "sha256": "d868035fc0e79eadf3994530217433a1bf0cf0289f48f64385af24b0385bd40e",
+      "crc32": "bf90d069"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C45-e04-975.000.jpg",
+      "bytes": 19279,
+      "sha256": "52879df09fb121ac1d356a63631e92b0008a0d36d967c040a3e2bd135982c542",
+      "crc32": "26dac259"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C46-e04-994.000.jpg",
+      "bytes": 25240,
+      "sha256": "c1aa106bd932e53f8a2fb98af385d6dbb62236eaa039f9922a5f44d398ddfb33",
+      "crc32": "4cd162d4"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C47-e04-1014.000.jpg",
+      "bytes": 18583,
+      "sha256": "46e4fc479ca6fc2b838b9baa49bdb6236c379ce63f0bd3a89102b908b1f4df21",
+      "crc32": "6de94fe3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C48-e04-1029.000.jpg",
+      "bytes": 28542,
+      "sha256": "a702bff0b4df4c8b8989c7d861f0fb14738de0c0d510db95646c14b9d98c7022",
+      "crc32": "5c37eb38"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C49-e04-1049.000.jpg",
+      "bytes": 23729,
+      "sha256": "0ec73383dba8bc5c74d99d4a83a2773945277c6686c22f41e9f070c74438c67e",
+      "crc32": "396fd62d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C50-e04-1059.000.jpg",
+      "bytes": 20999,
+      "sha256": "43ad79926570fc8d4a6e8cff7c1b60d082f99649b10f185a3ffe33c3e57bb6c0",
+      "crc32": "0d933be1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C51-e04-1064.000.jpg",
+      "bytes": 23900,
+      "sha256": "c8a1fe09a944bbbf2dace07291f8cbadb29b4bc7c25b6488b5f4e7525126cddd",
+      "crc32": "f22ea88c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C52-e04-1070.000.jpg",
+      "bytes": 16987,
+      "sha256": "f8118c0bfd23378288563280410de341950c7a0819138be5ae2ccaa993abf8f1",
+      "crc32": "b73799af"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C53-e04-1074.000.jpg",
+      "bytes": 18205,
+      "sha256": "8ed45858f8eb3594085aed2284f0ae12adaf4b0700ff0a06cd4270137283ad06",
+      "crc32": "0997c6be"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C54-e04-1330.000.jpg",
+      "bytes": 16635,
+      "sha256": "f0ee6daf748805f0d3da7432fa87f4f1c4e1c2582866869b244643795fd0a1ba",
+      "crc32": "3354cf48"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/C55-e02-1261.500.jpg",
+      "bytes": 29724,
+      "sha256": "2a32e8fdcbe770face352da2e2abc8acd9023184011f183e1b4b86096c29305a",
+      "crc32": "2ddde971"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/blue-878-881.jpg",
+      "bytes": 464640,
+      "sha256": "e0d13bec942a4e4e6bf455b553479e1a183f00443d9cd59a4dc375be5d9c7791",
+      "crc32": "5a7ddd73"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/blue-888-891.jpg",
+      "bytes": 557744,
+      "sha256": "0aed9d4cac749bf1b72ea322357c38996059615b458695c22d340999bcd00cdd",
+      "crc32": "2dbc3e12"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/candidates-01.jpg",
+      "bytes": 625417,
+      "sha256": "7c4951274d7d4a699a82837ddd4a5ab25434683f2a5e5b7eb738dddd0e5034dd",
+      "crc32": "3961058f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/candidates-02.jpg",
+      "bytes": 618546,
+      "sha256": "367e378fecf6e80310cc92a14a12886f232c6992241462fd1302fd8c348eb2c4",
+      "crc32": "f9256c81"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/candidates-03.jpg",
+      "bytes": 592769,
+      "sha256": "a8b367cbef4350b84b7c1aa609f662aa19fbb42986a680a65747e80f7d34eda5",
+      "crc32": "c7d3409b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/candidates-04.jpg",
+      "bytes": 677720,
+      "sha256": "6cee91bbd16dd140eee8e3749c43eb2f16326a17c3c070e62ff9e22252f7dfdf",
+      "crc32": "f363e0e9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/candidates-05.jpg",
+      "bytes": 585900,
+      "sha256": "09ce7f11f79fe41e829b2dc4cfae77afe63aec6b43632caa4e8974c1257b9e38",
+      "crc32": "f1acd9c9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/candidates-06.jpg",
+      "bytes": 661755,
+      "sha256": "32afae4fa7217f441b4611c05976b45680820eaf4f665c90261b0ffd44a85eed",
+      "crc32": "5462bcfe"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/candidates-07.jpg",
+      "bytes": 487860,
+      "sha256": "3b42895c51b359c5653fd0163c281208b81d86b85dcb553cb4fe05dba2d4f5e1",
+      "crc32": "a3692601"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/e01.jpg",
+      "bytes": 134899,
+      "sha256": "20a9ffe459e430bfcf9493bb896124cb32daa5aca7a6b3a83af1f8eb385f098b",
+      "crc32": "261bab27"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/e02.jpg",
+      "bytes": 143723,
+      "sha256": "920c6ff7b56f3816135e6e39de26aa2bd3fe8460b51149ac64ca2be72ef1b6ec",
+      "crc32": "74f535e6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/e04.jpg",
+      "bytes": 132260,
+      "sha256": "2e4155136a2a00a63640876443fcd179637f9dcdd9e048e43faf91c46986b059",
+      "crc32": "df5bf59f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/e05.jpg",
+      "bytes": 151638,
+      "sha256": "ca4e19095a60469faf2ad42e34de67a624dbe9c17c2799c8a2bf3f354ecb0127",
+      "crc32": "b7ca2bfd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/e07.jpg",
+      "bytes": 156560,
+      "sha256": "0cacb1ee5fc855ab2bca5fe8bfa3df94b670ed378e9154f25548f571aa509a91",
+      "crc32": "51d52f01"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/e09.jpg",
+      "bytes": 151592,
+      "sha256": "8cf02c0455d42ecf1ca1eb228359d308de9ba90cf8f6d58731e75cc8bc13c7ce",
+      "crc32": "aa13b80a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/eye-1220-1920.jpg",
+      "bytes": 117388,
+      "sha256": "0551ae964a070ccac3a8ed6c87665f77563aca352818d1f5b6151328b8127e82",
+      "crc32": "dfb18599"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/final-01.jpg",
+      "bytes": 628475,
+      "sha256": "2beb603d1c47b702d95f42e5dc52fae49751ade415b7e91dea5f34f10f070b5f",
+      "crc32": "c5ab6d5d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/final-02.jpg",
+      "bytes": 638281,
+      "sha256": "dc3a20ed86ff23f49d517ed42a856adc4b960944269db775838daaa990110cbe",
+      "crc32": "dc742551"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/final-03.jpg",
+      "bytes": 574813,
+      "sha256": "6c08d22885a3ab5e3ee50f807529bbb38bc782e9f6105b82fd68b451eeef85ac",
+      "crc32": "30231762"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/final-04.jpg",
+      "bytes": 672343,
+      "sha256": "858e98a1c8d7b4ee624c4d06dea8459c170e9d8ec17dbbdb01c8125e796449a9",
+      "crc32": "88631c9b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/final-05.jpg",
+      "bytes": 552160,
+      "sha256": "e1449c18edd6f597bb62a5f2e46a44866deb0c7b82a68dc3fd3fa7b9d6bcb1d8",
+      "crc32": "f1981d6a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/final-06.jpg",
+      "bytes": 695163,
+      "sha256": "2eed9ca35f53dfe9adcd9f5e7aa600892f1973a0a120d1e48c00a3b2ed951a07",
+      "crc32": "4635a828"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/final-07.jpg",
+      "bytes": 318750,
+      "sha256": "db9abfb466641d172b117912b00c8a696b662bd404325ca756637b4a3ebd5524",
+      "crc32": "f7488250"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/first01-e01-954.jpg",
+      "bytes": 184304,
+      "sha256": "ab803523409f89ee85c4429ef1fa993a6aebe7422913ac5f5155fb12674997fe",
+      "crc32": "a8caadab"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/first02-e01-962.jpg",
+      "bytes": 189037,
+      "sha256": "7fa03a324e32ced70770e031d0ccc0ccd50a850865550749b6c621254682aebe",
+      "crc32": "3cdfd62a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/first03-e02-328.jpg",
+      "bytes": 124281,
+      "sha256": "e01b3f0f81d5888ebea4d27bb8829fab891c28a557ea22154e602c1ec193efd3",
+      "crc32": "61318a19"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/first04-e02-391.jpg",
+      "bytes": 169104,
+      "sha256": "2b5db94a4a1ce5c9456b8cf5d19a5ea26a37f494d55b34b7375bd6a6e53663e5",
+      "crc32": "794bbad6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/first05-e02-509.jpg",
+      "bytes": 186159,
+      "sha256": "1b643357f72fee921166645cf2517d2e963d95b71bb85eda8b1566ecb8ae2172",
+      "crc32": "97779319"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/first06-e02-1169.jpg",
+      "bytes": 168030,
+      "sha256": "4c28af2c2b10b2edfa7c2b5c9d2cb4a4d48b2c1045943ea69bca5d85384443f0",
+      "crc32": "a67015b0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/first07-e02-1220.jpg",
+      "bytes": 177447,
+      "sha256": "72e9e3f2186a5159aa6d5eac06444739124926a387eaf32f8481543d61fd868b",
+      "crc32": "df43a928"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/first08-e02-1259.jpg",
+      "bytes": 183352,
+      "sha256": "c71aa887cc64d71c4df20cfe94e293cfd3ab83f112a23ab6541d730616f33957",
+      "crc32": "96a08068"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/first09-e02-1287.jpg",
+      "bytes": 139850,
+      "sha256": "3ca906f7b1f95ad1361398f076e1407e82d906fcaed4f16c7ef4ad72b5b1eb8b",
+      "crc32": "a784b211"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/first10-e04-989.jpg",
+      "bytes": 146234,
+      "sha256": "d1f77dc6292853346dab7a2b4d276c4a56ad839254f554107295d905c1c0af8f",
+      "crc32": "bd4b0caa"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/geto-429-431.jpg",
+      "bytes": 191127,
+      "sha256": "794dc7924f0354191b0fe794830d63e968684a98f2077229b5a6bd6313fb4ccf",
+      "crc32": "f84f595e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/geto-449-451.jpg",
+      "bytes": 299171,
+      "sha256": "d0ea11c6c748be8d7f6c4cf0b29413f33ef22fb461f3381e83d6fa6662a3d37f",
+      "crc32": "6480d14d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/glass-1259-1268.jpg",
+      "bytes": 809791,
+      "sha256": "ab66e8dc96cea64dbb9744097d767c5927a7fba02f2af77cd2f02089e129e30c",
+      "crc32": "8977a0cc"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/hand-1260-1920.jpg",
+      "bytes": 161426,
+      "sha256": "62e276f05086b66d9fa4df8415127ad495625bb37c19fd46eb40f2ab11cecf8a",
+      "crc32": "73e55166"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/hurt-1338-1342.jpg",
+      "bytes": 341826,
+      "sha256": "7914de9948b1d43ba740bedb9b7f883d928deb0b3b2c1c0d59633a8a12e5b921",
+      "crc32": "89e724c8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/hurt-1338-1920.jpg",
+      "bytes": 181799,
+      "sha256": "9685419728c23a3de50a4960108fb4e2e57979e26a60492a845aa43ccfef56ef",
+      "crc32": "c7a1f4b3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/hurt-785-795.jpg",
+      "bytes": 403099,
+      "sha256": "792cf3ef76b9c4b8540858b0563dfd78facb9a28a93cf83aab90f37937e6de2c",
+      "crc32": "914f5f64"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/movie.jpg",
+      "bytes": 133561,
+      "sha256": "61e30fb123201fcf92337bf757a8cbd350bd15cf3ae95c4a2f1549ed4cd5ee5d",
+      "crc32": "4a98e91f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2-probes.json",
+      "bytes": 9873,
+      "sha256": "4295f1663cd8ef2582b6c2895da4b2bd0437d79a1ef49fdfd33aa19e0839a22e",
+      "crc32": "6e64c583"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e01-1260-1320.jpg",
+      "bytes": 248736,
+      "sha256": "371c2c3e0c55951913643ebd50d2b5d320f973b72464ac8b1d9af8e319106f71",
+      "crc32": "b39306f6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e01-600-660.jpg",
+      "bytes": 183723,
+      "sha256": "58e9d3c9fe71eb8e5c7556caf0864559092e3ccbf0bea38666b1efb97b9f8e89",
+      "crc32": "c89ccd17"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e01-840-970.jpg",
+      "bytes": 514637,
+      "sha256": "cb40d85e26edc8f433c483944b44e52f4e5b678ed056e417b8b1e1b353871058",
+      "crc32": "ae7fd5f4"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e01-coarse.jpg",
+      "bytes": 449498,
+      "sha256": "6ce4f7c50365f56ff9945e4a019ff1340a66ba4f69f9b9b5b5829ea1154babe1",
+      "crc32": "774477d2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e02-1140-1300.jpg",
+      "bytes": 653929,
+      "sha256": "4edf98773112268337427d773665d843ab49ea455502b02992d15b1b81a4dde6",
+      "crc32": "c27d6142"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e02-260-400.jpg",
+      "bytes": 490971,
+      "sha256": "990b4b2363fb5c20f8b70e62a70994e56bcd5cc51310c94dc79a020b5f8ba983",
+      "crc32": "4af8a8f7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e02-470-535.jpg",
+      "bytes": 258981,
+      "sha256": "0c9640ff67468ea3aafe9995634923338a9f7fa11424a143ea6dbde14eb7a0be",
+      "crc32": "fe397840"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e02-coarse.jpg",
+      "bytes": 435191,
+      "sha256": "7b7ceeb70edd995e34985a7e8fbd4c8714ee4bc5d540c83e624d8049ce685942",
+      "crc32": "9c7a8447"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e03-1140-1210.jpg",
+      "bytes": 262645,
+      "sha256": "d15b39d33836c5307635916d742e05738b7454ee4aadaa4429bc8661d12f76ae",
+      "crc32": "105a83c7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e03-20-160.jpg",
+      "bytes": 469389,
+      "sha256": "02f56471af62eda066710edb7e952d0f7e98b62995c616783fe409cb736736a0",
+      "crc32": "d6d80576"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e03-285-500.jpg",
+      "bytes": 474722,
+      "sha256": "0fc41a7c8b28b5339aaf34b80ce4611ad4084e0ef800ff49d5ddc1ef2528a98f",
+      "crc32": "794102bc"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e03-650-950.jpg",
+      "bytes": 609264,
+      "sha256": "c64413135477feca53b510e74ee4f9316d60d8135fe5699a5d5965fc6e434f2b",
+      "crc32": "ffa9dbf4"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e03-coarse.jpg",
+      "bytes": 418588,
+      "sha256": "5a46899f817b43c36d72ac2d9b8d51c339abf4a80a3f4eb7e396d22f3dc66620",
+      "crc32": "dc44582a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e04-1280-1370.jpg",
+      "bytes": 157676,
+      "sha256": "70c258772c45e4c6c3639aeead01a8fc584a5620fd14aa159152d5d73b26ab0f",
+      "crc32": "54c489f7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e04-180-250.jpg",
+      "bytes": 245901,
+      "sha256": "2a8001f9032738535ca284d9805532c438a9457ac262fa2c849b098c43079aa9",
+      "crc32": "51210170"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e04-300-465.jpg",
+      "bytes": 291717,
+      "sha256": "16c3d72c96710f9347f5f6d808c5c240837c2b756afa497a848d19060b4fd4d3",
+      "crc32": "eca1764f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e04-700-910.jpg",
+      "bytes": 443151,
+      "sha256": "b8f7fb74972fe28eae8134819fce2b08b12e5eac8a96a938b92dd39f48044322",
+      "crc32": "1df37b96"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e04-945-1085.jpg",
+      "bytes": 571999,
+      "sha256": "d74f5cdb221de6abcf4214f6b3792c43bd6400f9299d3d59a73e77b4580af711",
+      "crc32": "600016dd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e04-coarse.jpg",
+      "bytes": 387833,
+      "sha256": "3dd5dba9880f0d5c12d44079ed1bc945eca7b59663c31ebb0e27af21548ee1a9",
+      "crc32": "8d3df751"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e05-10-85.jpg",
+      "bytes": 281522,
+      "sha256": "e1dd99d4627082a25ccbc9a156d4c8c562a31793217b69e37ff05e78d52fc3a3",
+      "crc32": "8250d236"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e05-940-1090.jpg",
+      "bytes": 294031,
+      "sha256": "258fe70abfc294a9fee9f81e3b6fcfc721dc3bf4f8529af230831e818ce9512f",
+      "crc32": "a73cf249"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/s2e05-coarse.jpg",
+      "bytes": 336173,
+      "sha256": "35789b5222618fa4fca1d3a8150e8e4d3664ddc0d64950cda57fcf3d89de1f3b",
+      "crc32": "2fda271d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/scout/source-probes.json",
+      "bytes": 15363,
+      "sha256": "d5f33a66ee917bd689eacab1b0c62efc5a4ab9abf52a750badfc2928b4b1bc64",
+      "crc32": "e8d50c31"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/ui/HyperFrames可编辑文字.png",
+      "bytes": 116163,
+      "sha256": "bdca2249576f5d2f3937090938d1922c096ae093bdef2e1f3d7745382f6d0813",
+      "crc32": "a435d455"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/ui/OpenChatCut原生67镜.png",
+      "bytes": 105648,
+      "sha256": "225b5ddffe1c7b057954679350faa11b0b187c1014671daa318e3667c94b7c9d",
+      "crc32": "2388d785"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/ui/OpenChatCut片段属性.png",
+      "bytes": 103874,
+      "sha256": "9117ef41b309c7f07ad25f6c82434ff66095c7a38cc8488a039ce99668ec2e91",
+      "crc32": "48c98194"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/ui/OpenChatCut重开工程.png",
+      "bytes": 103002,
+      "sha256": "49f53720642f44ed4ce5d754bcf51de4e6a71f3a37f2278c6e7ad6b96989485f",
+      "crc32": "3e7655fa"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/ui/观看与学习播放器.png",
+      "bytes": 84356,
+      "sha256": "c725d5ad5313b5e7b4f3d93a12f865e58b6f955e5ea12e4e3bec33b7f3480aa8",
+      "crc32": "54d04257"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F000.jpg",
+      "bytes": 833094,
+      "sha256": "77230aa3a18234217e88addce5abe682ccef45596fe12fe537c889be29076984",
+      "crc32": "d09e0cda"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F002.jpg",
+      "bytes": 802790,
+      "sha256": "115d10c864fdf2fe6903552952292ce3fec47bb4f89082b72837678750cde4d1",
+      "crc32": "cdbac2b2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F003.jpg",
+      "bytes": 885317,
+      "sha256": "825d41717f12c4831a17edcb599055f29306d0f8113d8f92376f89322ff9b168",
+      "crc32": "529fedec"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F026.jpg",
+      "bytes": 396806,
+      "sha256": "599fec6dae0fbcbb135834be932800c9520b0479513f7591625c8163a959b24b",
+      "crc32": "ecb8b361"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F035.jpg",
+      "bytes": 394584,
+      "sha256": "8671df21c6e4461f9bcb7103c9b47e9caf7b6c9ab3232ded90e6bd4263cb733a",
+      "crc32": "ef34ed19"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F053.jpg",
+      "bytes": 380752,
+      "sha256": "4ff4ef8e6feccfb8023ca3caea5854d67a29d336071e733e9a53e781f2625b22",
+      "crc32": "ec06eb88"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F106.jpg",
+      "bytes": 66075,
+      "sha256": "d5e47a7089a591b31dd21db40ebf1b5442410dfaa85b61b9bdab273919141fc8",
+      "crc32": "88a1d6fc"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F109.jpg",
+      "bytes": 145182,
+      "sha256": "9619a9cd499d613ace596128f80900acf385f0fbd5693995127167a37d6d1d89",
+      "crc32": "6ae0d455"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F113.jpg",
+      "bytes": 203719,
+      "sha256": "d05d5dd4c9d7c4287c6b4e433423ee77c68afe46a299b5a645530f38bbfa8d6a",
+      "crc32": "d346dc62"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F120.jpg",
+      "bytes": 212971,
+      "sha256": "8ecd14829942a8edbfc90d074a219032d29dc1bd52dd0c9d119589bb9956b80c",
+      "crc32": "64ca3a73"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F124.jpg",
+      "bytes": 238579,
+      "sha256": "05fa09d3cefdb0aa5bd813077feb4979c228f8956fa37dc2e020f72a4b4f4bc2",
+      "crc32": "14c57569"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F137.jpg",
+      "bytes": 209671,
+      "sha256": "62e29ee738d757d060e7a0149de4055cee5f566fa780c3042a6ecd8c783d863d",
+      "crc32": "8b83c9ad"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F152.jpg",
+      "bytes": 242141,
+      "sha256": "c103a2665f6d10ddbc44a5073598747c765fe35c5dd39ae9ee0d013f484248c0",
+      "crc32": "d3407553"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F165.jpg",
+      "bytes": 275014,
+      "sha256": "ae1e9397440d9015cc3d92c4b6676e65231d7b8faac6991010eda9c76b2f7385",
+      "crc32": "1e4870f4"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F167.jpg",
+      "bytes": 297301,
+      "sha256": "44d34773f4fdef4c677f1c79ce8850511b40b5e50b6944d84258dd0fdf213c5a",
+      "crc32": "7797696a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F174.jpg",
+      "bytes": 283571,
+      "sha256": "750e5ca83d7c98b542786cbc918e71b83e62bd88b367d1806b51cfc9cc563d02",
+      "crc32": "972f7269"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F190.jpg",
+      "bytes": 319592,
+      "sha256": "2483a1303f3a23acd845da8fa237223df8f356f7860d6eb3e8923f3f887aa9e2",
+      "crc32": "1b581a36"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F193.jpg",
+      "bytes": 272256,
+      "sha256": "3ce131ea1db329adc065fca818db1c0c6c085f4951b69572221cdf9e463c3b96",
+      "crc32": "6af4a421"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F201.jpg",
+      "bytes": 267555,
+      "sha256": "6decad39c21f08912180595f07ae24dc16080e33e29241518ad26f469782ff30",
+      "crc32": "7a27d5c9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F207.jpg",
+      "bytes": 286427,
+      "sha256": "bb674bc6392564be53368c2ecc3ebb180217d85678536c4488677ae7dae6c41b",
+      "crc32": "85c901b3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-F208.jpg",
+      "bytes": 137446,
+      "sha256": "e70836638e95ee874a1dfa55b57662046b12df3bb986354e1a01ac635b4d132d",
+      "crc32": "a9de2448"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/V02-type-keyframes.jpg",
+      "bytes": 1755476,
+      "sha256": "75041be7228d892e7a9bc2bdc185b4a0c54d5d4b571e1ff441f0b13550140e64",
+      "crc32": "6a2bef86"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/preview-orbit.html",
+      "bytes": 29353,
+      "sha256": "0583c282de5ec38dd64e4179452ec2a663b1a09e0408c0a44106df8131950222",
+      "crc32": "f53f623c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/preview-ribbon.html",
+      "bytes": 14924,
+      "sha256": "1237b632da10e2f7e912ec608a416bbceac4d88cf41864298cf939a85978729d",
+      "crc32": "8ee25806"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/preview-slam.html",
+      "bytes": 11319,
+      "sha256": "8af05e56d98c1b2caa3451e3b29ca86c994df58c0ca09128b7798c32dfd098f5",
+      "crc32": "e06473f2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/v02-type/preview-twin.html",
+      "bytes": 26953,
+      "sha256": "c8d2cb3c75eb94cce77cd69a6befc165bf4e50f7d2a769326e992e807c83b7e6",
+      "crc32": "e1fe1580"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17-关键技法/V17-F150-5.000000s.jpg",
+      "bytes": 234508,
+      "sha256": "333605e7cff5f75a0cb185c0191364e3caeab4d2eeac1f09a791752237a08ec9",
+      "crc32": "9164c3bb"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17-关键技法/V17-F154-5.133333s.jpg",
+      "bytes": 311264,
+      "sha256": "4634bc803de0e7ab72d87460c42844c199df9a868f130267b93974e02a35b17d",
+      "crc32": "7d2236f6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17-关键技法/V17-F160-5.333333s.jpg",
+      "bytes": 356989,
+      "sha256": "f4a6b1bb5544223ea437b3a3fb5a5e393e3fdc618785525afc733bcd4e4490e1",
+      "crc32": "3987747d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17-关键技法/V17-F452-15.066667s.jpg",
+      "bytes": 397491,
+      "sha256": "c6a3572afc401c57f856ae9ba2be56e5e4c73b74cfa10b9aaf76f85998fa8c21",
+      "crc32": "1272e1d1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17-关键技法/V17-F453-15.100000s.jpg",
+      "bytes": 420956,
+      "sha256": "c3c05fa4e57113ccda8663c8d18974c1393125c49614224adbd33e486491b295",
+      "crc32": "53e38732"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17-关键技法/V17-F454-15.133333s.jpg",
+      "bytes": 444446,
+      "sha256": "103c41ec7f49735b5ad1ee6749203ad4f122b5769b7b65b7c3924979db48d74b",
+      "crc32": "bc37e9d5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17-关键技法/V17-F455-15.166667s.jpg",
+      "bytes": 461757,
+      "sha256": "d68829f4eee584f8254a44eb714267e9af3348b82fe61ade1e8e6e9a0922e838",
+      "crc32": "50f4b8e6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17-关键技法/V17-F456-15.200000s.jpg",
+      "bytes": 387365,
+      "sha256": "185d7e15af292c6a52eff8e92c233ba6cf7497fa564c5d261694ed6f1fee5964",
+      "crc32": "7a9f9aee"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17-关键技法/V17-F520-17.333333s.jpg",
+      "bytes": 293226,
+      "sha256": "ea554f94a864db9035a6d8f9debc51efe6755299ffb532e6851ddb19a691e1a4",
+      "crc32": "1ab99914"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17-关键技法/V17-F521-17.366667s.jpg",
+      "bytes": 232699,
+      "sha256": "a2099234c03a85c3126223aeccb150c66c99e3321ee60d84ad05b776dfd85792",
+      "crc32": "b7e57d94"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17-关键技法/V17-F522-17.400000s.jpg",
+      "bytes": 286932,
+      "sha256": "bc8f00ae7bf2aa39b3602a91a2321558063ba6df0152d30fa8b0a8f60eb971ed",
+      "crc32": "32632375"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/V17-关键技法/关键帧索引.json",
+      "bytes": 848,
+      "sha256": "81d83aec6a720cfbe5a90379fa97b609aa1f7e7e0d6a17feda844aeabda8b848",
+      "crc32": "a4e99e3c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/C07-lens-F12-1920.jpg",
+      "bytes": 192775,
+      "sha256": "03d7fc75bca72f3ff5d4a5a7b3588223cb91943c282b783bbda6ca52ac1202db",
+      "crc32": "c07130ab"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/C07-lens-F14-960.jpg",
+      "bytes": 74528,
+      "sha256": "4ba9f817c3085dd8e34bf530681b30d54da085a9f180d1aa5c63340dffd7637a",
+      "crc32": "486c2009"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/C07-lens-F16-960.jpg",
+      "bytes": 74259,
+      "sha256": "64c866276ecc22ae803b1eac54bb21b06dc987b6ee06a65a0f78fd7bb5691211",
+      "crc32": "71984d21"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/C07-lens-F18-960.jpg",
+      "bytes": 74861,
+      "sha256": "7a1bb2bc6da52d568bfc1d3dbe65bd0b856f1b54572bb7a90d4dd6bbd5cb0f1d",
+      "crc32": "ee7c1e6e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/C07-lens-F20-960.jpg",
+      "bytes": 75481,
+      "sha256": "9a3f241817d41b8e300be2e4a40c607402933c7f5edb0ba56284dd54ffc676eb",
+      "crc32": "ffb63f4c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/C07-lens-F21-960.jpg",
+      "bytes": 50573,
+      "sha256": "b9902c4fca0bce62aadaf2620a09bd9db5650058100ca8c7494f01cf0f6db0be",
+      "crc32": "10bb0369"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/C07-lens-F22-960.jpg",
+      "bytes": 83559,
+      "sha256": "f7b5a4b9c88e05e7c9ac96fc0300297f861bfb22061a51f37469cb3254c38d61",
+      "crc32": "cf09fd3d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/C07-lens-F23-960.jpg",
+      "bytes": 50580,
+      "sha256": "549f9b00ad9b123edee2b11218836f860cccce9697844670500b19edf8feeb47",
+      "crc32": "269299a5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/C07-lens-F24-1920.jpg",
+      "bytes": 226023,
+      "sha256": "82807fffc1139db273b4b48d21feb0ad659660f0b398ebe7a34aafbe7c8c6f55",
+      "crc32": "b0bda3b0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/C07-lens-F36-1920.jpg",
+      "bytes": 266510,
+      "sha256": "b4ee14cafbbc6eb4cdd3a743b79c226c3cf9f86abee2c261a3a04b7b9799e7cb",
+      "crc32": "4023f891"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/C07-lens-F47-1920.jpg",
+      "bytes": 282880,
+      "sha256": "bfd31f19bc8219c89cedb16c7137c021b55f0dec34ed96f177c37ba6e483e5eb",
+      "crc32": "73415d77"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/C52-cut-F36-47.jpg",
+      "bytes": 232890,
+      "sha256": "19d1e57842636e21bcd51644f2393a42b6ef46ce7ba3e692d761e05110da3840",
+      "crc32": "e71e1c1d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S01-a012.jpg",
+      "bytes": 24752,
+      "sha256": "3bdd397ecdb0def62288492d93e09f7db34868a90e3ca60f773557425c782be5",
+      "crc32": "bda33f5c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S01-a035.jpg",
+      "bytes": 25031,
+      "sha256": "c407239e445e5e06f8e61ae2dac3d1c484884a775ee54ad8544328c970f6f722",
+      "crc32": "6a4ae52a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S01-a059.jpg",
+      "bytes": 25005,
+      "sha256": "38bb6d5a9fa68ea6d5f8c8e07105c9d1804b5df3da75b461dfbed2e5046d409f",
+      "crc32": "6fa259ed"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S02-a012.jpg",
+      "bytes": 26234,
+      "sha256": "2f1f84edb882788359e0b60fc9e20c8a2d243615de6855e691d6d939f3bfc173",
+      "crc32": "8eb8eb6d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S02-a027.jpg",
+      "bytes": 26801,
+      "sha256": "3e76e9501496ad4fc5e83919d74f945fac8ff566d67686fbf92fbbad46d2ec6f",
+      "crc32": "3a336775"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S02-a042.jpg",
+      "bytes": 27191,
+      "sha256": "27c8e886ca7bb78a4612190feb860823344c0cbfeab5280cd6c019f4847b0b79",
+      "crc32": "2512f489"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S03-a012.jpg",
+      "bytes": 16432,
+      "sha256": "e18900ea654009e693387719db58cd31fb0e8a7a8acb81f1e0b8f803f135f265",
+      "crc32": "376ce76a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S03-a020.jpg",
+      "bytes": 16403,
+      "sha256": "0ec8d4130d9079cc014100ef42a4baadab410f255c3437a7a8857024fb1b6a42",
+      "crc32": "3abbbebd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S03-a028.jpg",
+      "bytes": 16400,
+      "sha256": "1ee16ae6046eb096ee1792e3d931993df115a88556a26add7a81909912a90cd0",
+      "crc32": "b0ae5598"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S04-a012.jpg",
+      "bytes": 28296,
+      "sha256": "1331a39e19fa0816daa86a4b9cc16077d65e2d7d4cd1777eb980eeb097953537",
+      "crc32": "fdc03537"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S04-a023.jpg",
+      "bytes": 28399,
+      "sha256": "a1dc8684d2e324ff083cecad4ed872deaeab7483f0f0c6657b820566c07915c3",
+      "crc32": "8f7e19bb"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S04-a035.jpg",
+      "bytes": 28079,
+      "sha256": "1d29d6f9da3ab1e823b8754717f5cad3f4bab24d2e8732b209ecd77a500caca0",
+      "crc32": "711612f1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S05-a012.jpg",
+      "bytes": 24381,
+      "sha256": "8c9827aec823e1eb7a7b455fa781abd7d611b1a92105089262a1582c0b8dfa03",
+      "crc32": "880a53a0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S05-a021.jpg",
+      "bytes": 24316,
+      "sha256": "3a52d649062fe761bd793087bc93b7906ef4b7b64067e32b16331390bad49601",
+      "crc32": "5054e388"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S05-a030.jpg",
+      "bytes": 23959,
+      "sha256": "afd7d0a1d47c24bafde1edc7b2c7ed4292985308cb549e644a46d82048a8aefc",
+      "crc32": "1418d62d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S06-a012.jpg",
+      "bytes": 27607,
+      "sha256": "6f01f6af272a818aae659cfbc8a3bc5fa5e26b5074b4932568d48349bfc35128",
+      "crc32": "de11dfb8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S06-a026.jpg",
+      "bytes": 27691,
+      "sha256": "24cff50c5bed22c6f979c56407e2bf4bcb60953a822d8bcf0465de7e185df727",
+      "crc32": "dddbf807"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S06-a041.jpg",
+      "bytes": 27639,
+      "sha256": "bdd63e0675c6c1cf1d7b09aa6e8676afa30eef2d9fce1778fe73922df611dd4f",
+      "crc32": "6e829bf4"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S07-a012.jpg",
+      "bytes": 27702,
+      "sha256": "e33ef8e039001310988f1daac9986a70beb4badf73409a8d65516b8dc36bedc5",
+      "crc32": "7b8251a1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S07-a020.jpg",
+      "bytes": 27786,
+      "sha256": "198cea81a1a44bc8dbef8b25bd5453b7917f56a609e4a9ab161708830dbe8606",
+      "crc32": "66cf90af"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S07-a029.jpg",
+      "bytes": 27407,
+      "sha256": "b1009224310de4e884db37867f3a7cb75b431162387a566214bc1de9b9be5dd1",
+      "crc32": "3bb600d3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S08-a012.jpg",
+      "bytes": 29881,
+      "sha256": "50c0bc99720a9713f3b71b706ffb44cd00c2f1f1c64a7a8be59d3692a2ac433d",
+      "crc32": "1d87e490"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S08-a026.jpg",
+      "bytes": 29827,
+      "sha256": "6fcf6136b9558b9d1862fd78de0a45d174831d369015d9fc7862f9ddde32e395",
+      "crc32": "903d0382"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S08-a040.jpg",
+      "bytes": 29334,
+      "sha256": "17d00bffe122baca14f1a185d5487773cfbb0e46ae22f9e3592ab3dbfbe9b392",
+      "crc32": "e71df48b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S09-a012.jpg",
+      "bytes": 16142,
+      "sha256": "416f312642c64e0552f07bc8acbcaab4f63c6b368c06975b70985d8b8561d5e0",
+      "crc32": "900c24f0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S09-a022.jpg",
+      "bytes": 16033,
+      "sha256": "cc9b82b3586bd8f33fa6de7d1015475419d5f774dd28bc24c6a604fbcc552887",
+      "crc32": "d0d63542"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S09-a032.jpg",
+      "bytes": 16046,
+      "sha256": "099754287b58999e467cb10060d75d28827903a9d87607f890b56aa9a9fa0965",
+      "crc32": "5fd4eab3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S10-a012.jpg",
+      "bytes": 35347,
+      "sha256": "34ad50e2f69b330eb62662bf3c08b5ce4c13caae7ebccc278f327004b2ec5956",
+      "crc32": "cb9df056"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S10-a025.jpg",
+      "bytes": 35298,
+      "sha256": "1ffa0e9730c0ec6193a1277458830ed62373ce1a8eaccf1deaa551dcceef4b24",
+      "crc32": "f9c70fe0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S10-a038.jpg",
+      "bytes": 34841,
+      "sha256": "37a02871b8ce509dcfd7ea87eaaf8c6092bc6de7cdbe42d3eabf85e0d450932b",
+      "crc32": "f2313505"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S11-a012.jpg",
+      "bytes": 21308,
+      "sha256": "c42fc46a0449738c497bbd8d9f164b3432f569160fcfd57a9b32d1166e253819",
+      "crc32": "2d963cd8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S11-a025.jpg",
+      "bytes": 21392,
+      "sha256": "e1dd325b4483c2592154a8b125f15bdc9cf9ccad612672ebb672c64b141a66bd",
+      "crc32": "0d9fb726"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S11-a039.jpg",
+      "bytes": 21429,
+      "sha256": "27b2f41f7a7e1502dcf00c0db8873548be90b6ea05b4ae42f9fad183a97ad53c",
+      "crc32": "7d5fd389"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S12-a012.jpg",
+      "bytes": 17005,
+      "sha256": "b3677710ed790b1083f79cd132cbddfd308bf4cc52c38b4b8d4f65389f95ac3c",
+      "crc32": "dc68863e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S12-a023.jpg",
+      "bytes": 17034,
+      "sha256": "0b9a7fd71899504e1a622f41d795917ca5c7ee41bb0d3ef056611f3476008bb7",
+      "crc32": "a7ad8741"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S12-a035.jpg",
+      "bytes": 17028,
+      "sha256": "46f923883507c15ecd5e0d719e67d24b5b6aa5a5314e646d8ca010e2c0486a10",
+      "crc32": "491bb064"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S13-a012.jpg",
+      "bytes": 27953,
+      "sha256": "88ed9fa545d892691c8dccaa15e7623fd449a16d64793cf067ede7352c3da140",
+      "crc32": "42861443"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S13-a021.jpg",
+      "bytes": 27882,
+      "sha256": "203c4eb45944bd539cd9fa631b095ae2f802194817d2c7df24bf429e3efa0e7a",
+      "crc32": "9dc2729b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S13-a030.jpg",
+      "bytes": 28053,
+      "sha256": "5a0832553e07d38baec829aa28397a52527fe05147c702ac76a1874f3375b6fa",
+      "crc32": "59185602"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S14-a012.jpg",
+      "bytes": 24677,
+      "sha256": "22a171cef1f755efb6ba2af758919aaedf5a7cccd44cb7daf152f9ca87dfac61",
+      "crc32": "bb64e81d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S14-a021.jpg",
+      "bytes": 24229,
+      "sha256": "5d6dac5fee7e179a387dc5807576e60371e516fbf6fac40d6794f3035e07ebd3",
+      "crc32": "6e8e278d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S14-a030.jpg",
+      "bytes": 24655,
+      "sha256": "45bdf749f6a10a5b6733af43daae0c328aff72c51df7de0cb206f7f3cf89e1e9",
+      "crc32": "a8d0cb3d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S15-a012.jpg",
+      "bytes": 31258,
+      "sha256": "7329e34fe1772e02805f9f63e866da6f8872827bc49f6988ec6a487cdd3d94b1",
+      "crc32": "f7be885d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S15-a026.jpg",
+      "bytes": 31990,
+      "sha256": "ccb0e31e408ef10b742e8b6a89daf9383adf4f2adf0b9f82604c408623fe3597",
+      "crc32": "142beec4"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S15-a041.jpg",
+      "bytes": 31371,
+      "sha256": "a0d717731ae0ee24c4572ca78951d580904c2701fc35d56a0e2392cc448aa9e0",
+      "crc32": "5da9d27f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S16-a012.jpg",
+      "bytes": 2669,
+      "sha256": "de4941d3fc034a4f7f0ab8096f3a59ef6997c080deadce8e6f4156fd8daa6b24",
+      "crc32": "525f83e8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S16-a032.jpg",
+      "bytes": 2669,
+      "sha256": "de4941d3fc034a4f7f0ab8096f3a59ef6997c080deadce8e6f4156fd8daa6b24",
+      "crc32": "525f83e8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S16-a052.jpg",
+      "bytes": 2669,
+      "sha256": "de4941d3fc034a4f7f0ab8096f3a59ef6997c080deadce8e6f4156fd8daa6b24",
+      "crc32": "525f83e8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S17-a012.jpg",
+      "bytes": 13566,
+      "sha256": "b2a2f3c9eaafde6a0d392a879d668f75e9ad5300b971eca32027465abe625be6",
+      "crc32": "6debfe6a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S17-a023.jpg",
+      "bytes": 13554,
+      "sha256": "603e3d5a197809fd9cf06712d71abba83c90649323edc8d8f7b3d06266e42f6b",
+      "crc32": "0a3cc492"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S17-a035.jpg",
+      "bytes": 13663,
+      "sha256": "87803720cdd19494ba9d83a04db76e2bc4e239509e30a1ae46ac120e4c297ab3",
+      "crc32": "1668e2a5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S18-a012.jpg",
+      "bytes": 25895,
+      "sha256": "0c1b7fdaf8904358ca58ee98b1a3920e46c526e28051062e344a2210ff520790",
+      "crc32": "9e3c1cd1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S18-a027.jpg",
+      "bytes": 25918,
+      "sha256": "eaadd1bec4981d6834f409181f13eaa90314ac9e15e12e6342341cd0d78cd15e",
+      "crc32": "b8a5a760"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S18-a042.jpg",
+      "bytes": 25891,
+      "sha256": "6ea5e6a3bbe5eb9ac5a094290dfb8d73f3235a17937253ca7eaf2c30fe4e9a50",
+      "crc32": "27fefe9c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S19-a012.jpg",
+      "bytes": 19424,
+      "sha256": "27afea4bf2cd637c83c7730e1c1b89a05d146715b34c9106e34a644d8e263271",
+      "crc32": "e7d24c57"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S19-a023.jpg",
+      "bytes": 19333,
+      "sha256": "f85d1c93eaa10cd0c16441f0e0e30b0c329be127a4b80868cbbd5106c56286fd",
+      "crc32": "998ddc3c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S19-a035.jpg",
+      "bytes": 20765,
+      "sha256": "fb4aed5ad87624b636b5b89808bb6c726a56fe549182566556320a7f44b84308",
+      "crc32": "a72590d4"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S20-a012.jpg",
+      "bytes": 26672,
+      "sha256": "8e4ba25c95230f11481e869b1b24a120a33598d1c6b21e9496b6ab97218130fa",
+      "crc32": "96ab665b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S20-a017.jpg",
+      "bytes": 26679,
+      "sha256": "4077e72e01708cd18406b5d6ecc5b1fda7adb41d324f0239814b50aac1995b83",
+      "crc32": "11019c37"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S20-a023.jpg",
+      "bytes": 25912,
+      "sha256": "bcba9636f22c7daa1505981a36915cb52674aa893b0b90eb02679979fbbfdbd2",
+      "crc32": "4d4e7326"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S21-a012.jpg",
+      "bytes": 12624,
+      "sha256": "9614cba4126425e2b56d75ecacfcec48545e4cc09c438ae457e7549c1a67aedb",
+      "crc32": "ed312b7a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S21-a017.jpg",
+      "bytes": 13155,
+      "sha256": "9cf673e0facd370a1f5aaccf64a6e9a789dc629982706c377b7c341d741d1287",
+      "crc32": "a107f641"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S21-a023.jpg",
+      "bytes": 11465,
+      "sha256": "e8358a0e549dc50a0351f4802253a0dfea48aa7eb926aaf1bb838435da4f64ec",
+      "crc32": "4c73478d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S22-a012.jpg",
+      "bytes": 24947,
+      "sha256": "ddd55334df86cb6f07f5a8cd36ec39dbe5e4ab446c5f4a03d0ceeee18c22d8f7",
+      "crc32": "1b4eac88"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S22-a021.jpg",
+      "bytes": 24606,
+      "sha256": "2954b235aab57bcf8ba647d4829e3065c2f3c22097f76e711af86692e0337e98",
+      "crc32": "6c0d277d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S22-a030.jpg",
+      "bytes": 24992,
+      "sha256": "c14680857bb0107088317a31745c1e51c0c89febfbdda14f39345752200b99f2",
+      "crc32": "340a6d3e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S23-a012.jpg",
+      "bytes": 29543,
+      "sha256": "796b6d4416a8cebd4c13c8b0d4a1b38df43041bd19e5c39d72494fd1c5df57f6",
+      "crc32": "08d4c304"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S23-a020.jpg",
+      "bytes": 31617,
+      "sha256": "feaaa974bb3ff99c7c4693834fa51f9810318dff457e1b6be6ae67706b1f7662",
+      "crc32": "2d2ebe88"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S23-a029.jpg",
+      "bytes": 22958,
+      "sha256": "666484991231e430102bc557674c92082ecb134ae3cebba9dfa4640448338fe1",
+      "crc32": "bb3376ba"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S24-a012.jpg",
+      "bytes": 38463,
+      "sha256": "100fd12cbe8adec67a615ebee8652d5aedbcd0732fd4ca6eee8f0f9d83dc1cf1",
+      "crc32": "fd6ef679"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S24-a017.jpg",
+      "bytes": 38635,
+      "sha256": "f371b2335e565e8f3d170faa5a31da8b801ea412e28a6aad1e3d233244fcb43b",
+      "crc32": "7494cf74"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S24-a022.jpg",
+      "bytes": 38497,
+      "sha256": "c177e6a8e11cfb4c80a26c10ad3d72c301efda9c235f740a0a4e24efadc1af66",
+      "crc32": "ed5a85ad"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S25-a012.jpg",
+      "bytes": 30430,
+      "sha256": "54daac53ab67ace77daca6377ace8998c7ade3301e22a28c347ff1f475e78168",
+      "crc32": "539ae163"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S25-a021.jpg",
+      "bytes": 30693,
+      "sha256": "26c347241c0f5b1a48a66588fca3bcf1caaf3f98e56f74b83d9ceb3aeb4588be",
+      "crc32": "cdc54655"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S25-a031.jpg",
+      "bytes": 30489,
+      "sha256": "643f651cc2a51f2dc04bcb87c4f7c2a16316ed34df9b3770bd373bff0faf48da",
+      "crc32": "f1d5f67c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S26-a012.jpg",
+      "bytes": 23995,
+      "sha256": "86241433ed342c1fb7353665518de4bb9164508b99b9649abae9aa570f7e600a",
+      "crc32": "b6bd085d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S26-a021.jpg",
+      "bytes": 29799,
+      "sha256": "95a99db7431ce658a8cf6e503357204f56df919f657cb4a3d41bee8c51039686",
+      "crc32": "84eb86d0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S26-a030.jpg",
+      "bytes": 29920,
+      "sha256": "28b8a1dfc2b1a757977227a1117528fb9513f020403213253fd9447c845bdee7",
+      "crc32": "61ecc335"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S27-a012.jpg",
+      "bytes": 16122,
+      "sha256": "c2b760af5ff2318269280e17f22dc4d3c09e02131bd78f31b7e706ff8a972b4e",
+      "crc32": "a7701c50"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S27-a019.jpg",
+      "bytes": 17211,
+      "sha256": "b9bf436aefb83f49b02312d69946b849cc0fb0de6870ec4f1273c4f921010be3",
+      "crc32": "f3dcdf5c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S27-a026.jpg",
+      "bytes": 17578,
+      "sha256": "d5ee245af189c0193ef847fc33a476006ec1fcc1f060de7e2f494a5726fda719",
+      "crc32": "6ded326d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S28-a012.jpg",
+      "bytes": 25007,
+      "sha256": "431bb51f374acbc40e287c7ef788805424017406e5e659df62a65720ce8d97d5",
+      "crc32": "650db72f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S28-a020.jpg",
+      "bytes": 24147,
+      "sha256": "6bb619e76386c21e9dc636f65f34a1a85d6e2c07627adb33df2b7d920b3e7ff3",
+      "crc32": "eed0167d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S28-a029.jpg",
+      "bytes": 24049,
+      "sha256": "80fd302bb19fa3096fc3f9d85cd22cee43c55cf0a02b185b3cb2a8a0e875543d",
+      "crc32": "4c217745"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S29-a012.jpg",
+      "bytes": 34197,
+      "sha256": "16397695a2918042108250f7d2298654dff42c6dbb24a5c509caa66dbed599ec",
+      "crc32": "407677a3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S29-a022.jpg",
+      "bytes": 34397,
+      "sha256": "55ffdcd06772e14658fef23baa8368786edcfe7c48ccc48e130f47c4cbaa0b4a",
+      "crc32": "160197b1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S29-a032.jpg",
+      "bytes": 33882,
+      "sha256": "b98c39b519bb49fb8eb49ac32cecfd91511e9926ae24e2e631549599a9a3eced",
+      "crc32": "e4138f10"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S30-a012.jpg",
+      "bytes": 20995,
+      "sha256": "1683ce627cc00d3638dd4ddaf9f2a576bc6d834495d94bd1062fa50d6295981e",
+      "crc32": "567c5f73"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S30-a035.jpg",
+      "bytes": 21093,
+      "sha256": "dbf5d9fc78aa74931d4ce7d37a11ec9daf9fc5a45b48f0780260c7fd49460493",
+      "crc32": "8de38bc8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S30-a059.jpg",
+      "bytes": 21024,
+      "sha256": "22beff80abbb1052c59712239e8596316826197daba4b0cf242cd3380b370300",
+      "crc32": "3e28c8b8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S31-a012.jpg",
+      "bytes": 34319,
+      "sha256": "1eedb6df58fd90825d91130f6fa70886aaffd6317d8513223df0876e1ef4ce16",
+      "crc32": "22656eb6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S31-a018.jpg",
+      "bytes": 34068,
+      "sha256": "ffb8822cd1dd8bbbf56455c6ed7a085cb4779bc4579755960c5b88b21ab26ab6",
+      "crc32": "b2f2970c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S31-a025.jpg",
+      "bytes": 33592,
+      "sha256": "c12315bbbf22796221dd9c37190ed26434eff802411221f1422d8f98383a8e03",
+      "crc32": "556dc975"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S32-a012.jpg",
+      "bytes": 19079,
+      "sha256": "090692842cd675c4de971dfbd0e191d553e3c1f9dc6464f1e63b7791ef239e21",
+      "crc32": "cdadfe9e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S32-a018.jpg",
+      "bytes": 21631,
+      "sha256": "f2b4c03925e62fa062157873be411783b8afdd540e38930fbd6ab9d00bfe6f41",
+      "crc32": "c0f14e84"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S32-a024.jpg",
+      "bytes": 16983,
+      "sha256": "832d6e714d6f80ebc45077bc9c65498b0e11ed6d2c5a581118a2c884108c2887",
+      "crc32": "49bfd69b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S33-a012.jpg",
+      "bytes": 23053,
+      "sha256": "47751be0f86c7564990db59beff0d9785bf8521b51c70b7eba838a5638c9616a",
+      "crc32": "77e563fd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S33-a023.jpg",
+      "bytes": 21412,
+      "sha256": "93958da809c6331d093fedd540c01a898a5cc622d3e3938104df8870f4878095",
+      "crc32": "0819745b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S33-a035.jpg",
+      "bytes": 20537,
+      "sha256": "4439eda7ab716e03a5702478f164a9165a5f1fc835325c14fcedb7075f00b221",
+      "crc32": "8cd9c447"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S34-a012.jpg",
+      "bytes": 26384,
+      "sha256": "3020d24d35a744399031f0cf1eed45731b3d2996ff5fc42f25c9d0ccf1164f74",
+      "crc32": "8724decb"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S34-a019.jpg",
+      "bytes": 26412,
+      "sha256": "67c7343dd2716f98befb58f164161c058ee07c578b91ef24996c9efa89a7fa32",
+      "crc32": "5004efc4"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S34-a026.jpg",
+      "bytes": 26317,
+      "sha256": "7c1d89a85ac7b912428a74c66b0f572114ecf08194128ca1072cc21e678cc169",
+      "crc32": "cedb930e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S35-a021.jpg",
+      "bytes": 29522,
+      "sha256": "42fb1d810e7de8a6cdbada82b0b7ccb3b9db059aad8dc08154b93abd5ac2f5ee",
+      "crc32": "d28ca335"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S35-a034.jpg",
+      "bytes": 29651,
+      "sha256": "de345b2bd67bc57c6f1097d82d070a2d05a73bb5ba3d9e948d2840b7a1075b89",
+      "crc32": "bc9a2900"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S35-a047.jpg",
+      "bytes": 29626,
+      "sha256": "a3cbd6b19e30dd0fb85b18e56ed273d12b18c49087b0dcbb4f1e511f89aec974",
+      "crc32": "cafef0d1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S36-a012.jpg",
+      "bytes": 22422,
+      "sha256": "ddf4f9007f1f7119ecec8e29e43eff623c8756d785568a580bca34de5ac99631",
+      "crc32": "0909519a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S36-a026.jpg",
+      "bytes": 36225,
+      "sha256": "ee219f0a02811a3c78dbd4cd9101bee5cee3c362441a8cb9d9451e36c2868a68",
+      "crc32": "9bb8156a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S36-a041.jpg",
+      "bytes": 35651,
+      "sha256": "df68bddae6c7f287aba460d94a95fa331aae3700e0d36a9ed564d74a533f9150",
+      "crc32": "9fe88e7a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S37-a012.jpg",
+      "bytes": 20420,
+      "sha256": "4dce8acf1cdfc1d7232d63247f1a4be6c0174f4c07138afa8577672f86048e3f",
+      "crc32": "f5b022dd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S37-a023.jpg",
+      "bytes": 23965,
+      "sha256": "41e1a976edf3c1594f29bd06e4876f5cff40a34d0e7a551ad7a63011b84e61f8",
+      "crc32": "0db683fa"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S37-a035.jpg",
+      "bytes": 24788,
+      "sha256": "02e0030104c4d597277ad3aa8fe389f46318eb20e2c4be06829ec578e111097d",
+      "crc32": "acf4be81"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S38-a017.jpg",
+      "bytes": 31671,
+      "sha256": "a78e9f203f49f9769ff5e2cbe186fa717b352be542624c57ccf8230663bc7b0a",
+      "crc32": "b89e4cdd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S38-a032.jpg",
+      "bytes": 28054,
+      "sha256": "87aea3db09fdc39836c5b21abe1aeb80b2d4b40dc78917eac2651c9bee383b49",
+      "crc32": "8db1eae2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S38-a047.jpg",
+      "bytes": 29290,
+      "sha256": "919634113be7b4ac294ceeb57459bbf86dee8bee178483375a9195a1d2f9275d",
+      "crc32": "b7c851aa"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S39-a017.jpg",
+      "bytes": 38635,
+      "sha256": "f371b2335e565e8f3d170faa5a31da8b801ea412e28a6aad1e3d233244fcb43b",
+      "crc32": "7494cf74"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S39-a022.jpg",
+      "bytes": 38497,
+      "sha256": "c177e6a8e11cfb4c80a26c10ad3d72c301efda9c235f740a0a4e24efadc1af66",
+      "crc32": "ed5a85ad"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S39-a027.jpg",
+      "bytes": 38409,
+      "sha256": "488629b8d982c28e9c1fa58b5ddaa55ea34d9af60842db9ccef1edf60fbc387b",
+      "crc32": "034da53a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S40-a017.jpg",
+      "bytes": 16855,
+      "sha256": "c614e98c9c59c437f224527d2d4a2b319bc967aa8403d16a3fe49a6219785e0b",
+      "crc32": "e0bdd2c3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S40-a024.jpg",
+      "bytes": 17492,
+      "sha256": "bfe6414d32628e0a6b27eedd623ffe0777db1c3c0ff1c6c1dcfab6047e8cb914",
+      "crc32": "0579a228"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S40-a031.jpg",
+      "bytes": 17792,
+      "sha256": "679ff47973056d99462e45a83ca1cc110021c4d3f80e5765d04d047fab9ae5d0",
+      "crc32": "d2c6298e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S41-a017.jpg",
+      "bytes": 13155,
+      "sha256": "9cf673e0facd370a1f5aaccf64a6e9a789dc629982706c377b7c341d741d1287",
+      "crc32": "a107f641"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S41-a024.jpg",
+      "bytes": 12341,
+      "sha256": "afa33f4873ceafcb16bf76d8f801c02cc12dc806e944d6d2d0020f5b93303eaa",
+      "crc32": "d5ddd789"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S41-a031.jpg",
+      "bytes": 16601,
+      "sha256": "e268b83606a9f02114e5ab20b5ede1fbca2214e337f128604b3c4088c4c2e0a4",
+      "crc32": "2987bdda"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S42-a017.jpg",
+      "bytes": 33702,
+      "sha256": "55f444dbb4fd4e82039ba07a1b2362dfd7b70875b37003164e649b54abf9010f",
+      "crc32": "ea75285b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S42-a023.jpg",
+      "bytes": 33500,
+      "sha256": "e4485307e1a6dba8effe359b7be13c0321673d04168d59e6fa46d7844ecea5e5",
+      "crc32": "3f99b883"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S42-a030.jpg",
+      "bytes": 34135,
+      "sha256": "61cf9c127958089a1c57717373b30263e458ba6e7dfc9f2fc3ad768784d76b43",
+      "crc32": "cac918fb"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S43-a017.jpg",
+      "bytes": 21964,
+      "sha256": "a7b02b93b3c1c3ec9544120f8637b293c489fd2d12788218f602768b2ae57a85",
+      "crc32": "5eaf8685"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S43-a024.jpg",
+      "bytes": 16983,
+      "sha256": "832d6e714d6f80ebc45077bc9c65498b0e11ed6d2c5a581118a2c884108c2887",
+      "crc32": "49bfd69b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S43-a032.jpg",
+      "bytes": 22364,
+      "sha256": "160dcf9e22f5e2b038f13f470eaa3e1cd4b3858e3b1fb1c45465f92ed8c788b8",
+      "crc32": "5fdb8552"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S44-a017.jpg",
+      "bytes": 26679,
+      "sha256": "4077e72e01708cd18406b5d6ecc5b1fda7adb41d324f0239814b50aac1995b83",
+      "crc32": "11019c37"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S44-a025.jpg",
+      "bytes": 25656,
+      "sha256": "fb9386aba741cba1eb718577730390533fa0ba8ce745a02e8ee1f1875acd02ea",
+      "crc32": "24b056bc"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S44-a034.jpg",
+      "bytes": 25300,
+      "sha256": "74c4169fbd51bc724eb22e146e57a8aee62c0f65e9326a35996d26163e9c94af",
+      "crc32": "cedf5615"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S45-a017.jpg",
+      "bytes": 19389,
+      "sha256": "7df5f6d05975edc26af34edaf51b29bc322de9d217726fbc6cfbfa72fa27be19",
+      "crc32": "aaeaa3ca"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S45-a025.jpg",
+      "bytes": 19388,
+      "sha256": "cc8d51075244e78a74c12e99d4d4d92a4e1c0c5357ab6025caea1c1de81c326c",
+      "crc32": "446b21e3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S45-a034.jpg",
+      "bytes": 20764,
+      "sha256": "08c04f91e7a8fb865f0637577972d5a52f4bb2f2ecc9cbf7ab79817078f90b72",
+      "crc32": "22d3a1fe"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S46-a017.jpg",
+      "bytes": 24548,
+      "sha256": "ade58fc5e26e7f2788ba3de621d0f7e5814daca503e35481f5191b76d2f3ef71",
+      "crc32": "2e2b187a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S46-a024.jpg",
+      "bytes": 24582,
+      "sha256": "eec7466783844289358efb77d72d6cf3a372492242b8ac6d9c93af8d294f6235",
+      "crc32": "330d4bed"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S46-a031.jpg",
+      "bytes": 25180,
+      "sha256": "63a1d4398a7c6f3061ae2cb76cec7d9ecb907c6b9ed0889d647a8a95abc91f2f",
+      "crc32": "f3ab5c9a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S47-a012.jpg",
+      "bytes": 25377,
+      "sha256": "5bbfdaeaaa0dcff24f1f479c181cd6c58e696076099122d2aa15c242e0364412",
+      "crc32": "2fcb22e2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S47-a022.jpg",
+      "bytes": 24975,
+      "sha256": "22b2479fd6dbde2f1f13f02a74f732b3781074340143f4bc0236c5ec25aa9c69",
+      "crc32": "f7dd2fb5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S47-a033.jpg",
+      "bytes": 28812,
+      "sha256": "58d1fe8adda5fffebe860abb848f48c30eeb1dfad8f19c26f2ad020f83001ddd",
+      "crc32": "7f933ef9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S48-a012.jpg",
+      "bytes": 31775,
+      "sha256": "ddff78165065388b16ab3ea9f3450c4ca8347d30c0e825a0424a892da4e6e8e8",
+      "crc32": "71dd41be"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S48-a020.jpg",
+      "bytes": 33241,
+      "sha256": "7d34fe5e409ca3110de51ba842052dab7b9dfea53e53fe7bd9afa7c84d241051",
+      "crc32": "49104ba5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S48-a028.jpg",
+      "bytes": 34777,
+      "sha256": "c1b2f04defadef96be52c1b0028ab007de236fde81dd859dfddae37c2ee34e77",
+      "crc32": "b5904f12"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S49-a012.jpg",
+      "bytes": 23377,
+      "sha256": "091204599a1b79282db06e2fff87c41daba8473b59cc8cf222d4ba6d49385097",
+      "crc32": "37eecc7b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S49-a023.jpg",
+      "bytes": 23215,
+      "sha256": "027cc76b21f91f2f26df89c45b7e8f8fbbaee9395b10229d969354bc71bc5687",
+      "crc32": "860bbe71"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S49-a035.jpg",
+      "bytes": 23425,
+      "sha256": "1236d454560f9e27aeeac007d10f1a56c629ce2264e8f3de090a5c1ed545bd0a",
+      "crc32": "bf29e190"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S50-a012.jpg",
+      "bytes": 29980,
+      "sha256": "1f0a814caf1dc2c8b9a4b618ba3b0d35ab1f480096473eb0651203c9aca5638c",
+      "crc32": "264484d4"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S50-a020.jpg",
+      "bytes": 32490,
+      "sha256": "887fae38442ebb6c0df95cfcab9110d6d29e51f81121e068adb8603fb08b60b6",
+      "crc32": "4e729479"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S50-a029.jpg",
+      "bytes": 25422,
+      "sha256": "b96fb2b5da463489be4b018120b125b9c8e26ee324fcd202dd19e0e19a4ca1a0",
+      "crc32": "e9bd4f16"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S51-a012.jpg",
+      "bytes": 31760,
+      "sha256": "dd4c30bdd2df08a894aef0d1952632791003be8c1df14ee0ea901dcf14244ca0",
+      "crc32": "3e79f3bd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S51-a023.jpg",
+      "bytes": 30292,
+      "sha256": "dac4aecd8f69245bf0834b375a2d64f6900879915019b6f66cc3a1547b78fdf8",
+      "crc32": "8df4b7c8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S51-a035.jpg",
+      "bytes": 29824,
+      "sha256": "56e84822711d0b599c43adf5f69fe5a15d5b2d0c54c73760db6692f399b0294d",
+      "crc32": "ced7eea4"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S52-a012.jpg",
+      "bytes": 21381,
+      "sha256": "43a3a788e4c60b606d0c9eeeac287aa1a3252a85ca939911dfe3ddc2f734ef0b",
+      "crc32": "e6c716a5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S52-a020.jpg",
+      "bytes": 24077,
+      "sha256": "d0a7cc72d60d221c349174c663cf4611290252d3e981eddda8d65ffd86af490f",
+      "crc32": "d4ce2188"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S52-a029.jpg",
+      "bytes": 24845,
+      "sha256": "6677f8b73a9230ccc5f436f3e68c35c4f958dc4eac7722ea32b96aa6b5c92033",
+      "crc32": "f012455c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S53-a012.jpg",
+      "bytes": 28178,
+      "sha256": "a8eb671c8b85935ad64f765f912ae5e85384857ea69ef41c2ff60484ed27f273",
+      "crc32": "6711e65c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S53-a017.jpg",
+      "bytes": 27184,
+      "sha256": "8edfcfec5adb6a77f2be397a630c19635759c5ab75ab66cbec7a24ed6c802647",
+      "crc32": "e3385097"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S53-a023.jpg",
+      "bytes": 25269,
+      "sha256": "13f9df4e5d960af05fcdfe957a984cc46d177e3feaa296807e6189bc9aa27aae",
+      "crc32": "a1f580eb"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S54-a012.jpg",
+      "bytes": 24857,
+      "sha256": "507f79111a7ebede3d415656bf601cb2e9bb98745735e5e62735b33b0dca296d",
+      "crc32": "72cf5969"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S54-a023.jpg",
+      "bytes": 22867,
+      "sha256": "20c7ad11f36bbfcf9cd08c4fa32286a249e7c5cd4043d0257ad55fbcedb59299",
+      "crc32": "d582f4db"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S54-a035.jpg",
+      "bytes": 25418,
+      "sha256": "61755c00c80f3899073370c1e3b0c66485d2ca28511f1f5e157d97592f9d4c22",
+      "crc32": "c10dd8bd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S55-a017.jpg",
+      "bytes": 34339,
+      "sha256": "d81678b993206ffa9bc8ac03960e1c89d6989fc86a930ca7877a4590ca33452d",
+      "crc32": "75a55699"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S55-a022.jpg",
+      "bytes": 34397,
+      "sha256": "55ffdcd06772e14658fef23baa8368786edcfe7c48ccc48e130f47c4cbaa0b4a",
+      "crc32": "160197b1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S55-a028.jpg",
+      "bytes": 34102,
+      "sha256": "4730e6767f2af6b86c440f183c41e03d5e3aaf9ebba0cfe5272e40750524193f",
+      "crc32": "30c78c80"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S56-a017.jpg",
+      "bytes": 24141,
+      "sha256": "f692ec13dc7d348a00fc577ccce705df80d006193ea90b9cf8d3724ef0f921a8",
+      "crc32": "988988dd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S56-a022.jpg",
+      "bytes": 23784,
+      "sha256": "86e11a987652074700cc3d09cb6d5ab8e53f8176d68e21ac5ab57399b2ed8e1b",
+      "crc32": "3f338e5e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S56-a028.jpg",
+      "bytes": 24087,
+      "sha256": "b9501a1e278f310a8a9d7ad1cb49e9100f63d26d0dfdbe2a43d68692b9575436",
+      "crc32": "b7d4492a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S57-a017.jpg",
+      "bytes": 30753,
+      "sha256": "baec9ecffed350015e3f78631d71b7a3de9547caa54f9d74933611b6009fec7a",
+      "crc32": "b06b4a1f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S57-a025.jpg",
+      "bytes": 30051,
+      "sha256": "8ce7dd1a69aac737eb7034871e93700bfa072567bfbce3015d85ee2b3b831399",
+      "crc32": "8340aa35"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S57-a033.jpg",
+      "bytes": 30649,
+      "sha256": "2d8fc5b7f7ec9fa024f622e3d07e6899cdb70e7c1dc3761c9dbf5e8e387b0cfd",
+      "crc32": "2bfc0f09"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S58-a017.jpg",
+      "bytes": 22749,
+      "sha256": "bdca02a426730f07a549b05c6d3c2f3f93bb76b33acae0cd32acd781d5a0d6dc",
+      "crc32": "08dd454d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S58-a026.jpg",
+      "bytes": 25005,
+      "sha256": "429c5870b71115022e84f89c0b5c8eee64bda8e1ed954bfb610fd9c7240c2d0d",
+      "crc32": "a91eec18"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S58-a035.jpg",
+      "bytes": 23263,
+      "sha256": "4ba8f9a6fcf51676571a2766cf862ea4b3f7e0256a36cf13c297c1adf23f1dc9",
+      "crc32": "c15623cc"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S59-a017.jpg",
+      "bytes": 22571,
+      "sha256": "6c38657010380c674b0c1d358d62318b4b694dc12eb49658cdf71cf5d6a8d908",
+      "crc32": "4d39eadf"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S59-a022.jpg",
+      "bytes": 22180,
+      "sha256": "ae1609dc3af5262f6763df2476b915a311f7bc77f22aa4069eb1917c4e553d00",
+      "crc32": "9ce88cbe"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S59-a028.jpg",
+      "bytes": 20573,
+      "sha256": "f830d4a2881a1469a5bc88d102be80d34cd0a689aa94fc82831dc520c17d004a",
+      "crc32": "df9a3b4a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S60-a017.jpg",
+      "bytes": 26423,
+      "sha256": "7a480c1beba085a3717838e37e9c9686950854f62e5e2f8eeef897fa7003b873",
+      "crc32": "6f8d28f8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S60-a022.jpg",
+      "bytes": 26403,
+      "sha256": "bde8c12c4c4ac1b19d6374a1dbf78072c64ba537219b2e754652ff1025edaa70",
+      "crc32": "e396044f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S60-a027.jpg",
+      "bytes": 26292,
+      "sha256": "59327900d848cdc319b4b6825b9ee755535961dfa7c715eb013e27cce50cfee7",
+      "crc32": "7fb5796d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S61-a017.jpg",
+      "bytes": 33076,
+      "sha256": "31af80cdf8fae58e5dc0f11e896f741497c5dd4c32b049f2f20b5a14b6d380d0",
+      "crc32": "b3c264a2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S61-a026.jpg",
+      "bytes": 36225,
+      "sha256": "ee219f0a02811a3c78dbd4cd9101bee5cee3c362441a8cb9d9451e36c2868a68",
+      "crc32": "9bb8156a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S61-a036.jpg",
+      "bytes": 36366,
+      "sha256": "54faabe966e41f80fda3f5f1cf2e7e3a394152235d40d70ded00e778157c52fd",
+      "crc32": "ae445ae9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S62-a017.jpg",
+      "bytes": 24978,
+      "sha256": "26878cfe9403b36d5b5a2f79930f6c854b60665f37b65983120ef40229c7061b",
+      "crc32": "c210ae3c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S62-a025.jpg",
+      "bytes": 25874,
+      "sha256": "475f9055241fae872390f0b514c3004931d0f6e5f673bf77d514a75a2bbbb83f",
+      "crc32": "8c26b86f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S62-a033.jpg",
+      "bytes": 28812,
+      "sha256": "58d1fe8adda5fffebe860abb848f48c30eeb1dfad8f19c26f2ad020f83001ddd",
+      "crc32": "7f933ef9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S63-a017.jpg",
+      "bytes": 34758,
+      "sha256": "cdd58062ec18a5749c7d936f07580bea87fadf5c458d108af74ea51bc7efa2cd",
+      "crc32": "32eadd6c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S63-a025.jpg",
+      "bytes": 33065,
+      "sha256": "1dc38a4ffb7aedf7ec4d506644af9b64031401131925eaaa98d14b54d89fd075",
+      "crc32": "7ae6329c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S63-a033.jpg",
+      "bytes": 35939,
+      "sha256": "82a3a2bc0416f195c13bbe24d11e808adb44df3e4b9e37fdd6567a67cff6eedc",
+      "crc32": "5352aa4e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S64-a022.jpg",
+      "bytes": 34397,
+      "sha256": "55ffdcd06772e14658fef23baa8368786edcfe7c48ccc48e130f47c4cbaa0b4a",
+      "crc32": "160197b1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S64-a031.jpg",
+      "bytes": 33878,
+      "sha256": "bb900868fddfd33a1d54ff886b5d7dbc437a23bcc5ff1c0558a8e42526da6589",
+      "crc32": "128ba6c5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S64-a040.jpg",
+      "bytes": 33566,
+      "sha256": "dde08cddb0ca1a5a949b315dd2b2ae04670a3e0ebb0bfcc69601140c784f2671",
+      "crc32": "0459df0e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S65-a017.jpg",
+      "bytes": 17012,
+      "sha256": "5291fcbe776af10ce007c6b03796749a7e7448da1dafd4988970dfdd8bffa7d8",
+      "crc32": "9ec1cd38"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S65-a028.jpg",
+      "bytes": 16921,
+      "sha256": "04554713bb92eb11023313d357b08521bf1307d80b8bdfce89a884dfb68fba35",
+      "crc32": "f8479f30"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S65-a039.jpg",
+      "bytes": 16961,
+      "sha256": "4c1f251a4a607a4985a1fb2cd97257f4124e5caf42ca1fe08cace3b2a3c6e538",
+      "crc32": "40ac77e0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S66-a012.jpg",
+      "bytes": 18449,
+      "sha256": "e5a407961ecabedc5179f18212a47570183481249059a03066cb39b267309719",
+      "crc32": "b532a71e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S66-a030.jpg",
+      "bytes": 22120,
+      "sha256": "90a3cf22b5545ec50a39f40c097fc0d828a00b29ad01e7cc4fc9fa85466d409b",
+      "crc32": "be5c445f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S66-a048.jpg",
+      "bytes": 27663,
+      "sha256": "795af3750a5d3fa74aa8a8b08a92aef3d7cba464a2aebfb47b59d8dfd9f87631",
+      "crc32": "6161668c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S67-a012.jpg",
+      "bytes": 24663,
+      "sha256": "95c7c81023562645cd7a141f3600ac8d518ee404b7b01a8b2a4e027fc1002522",
+      "crc32": "f9cfbbf5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S67-a035.jpg",
+      "bytes": 26931,
+      "sha256": "4205f1c17228af7bcc0edafd3a7a4e667d3124ea25e8fe00748b762268237c45",
+      "crc32": "2b27993f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/S67-a059.jpg",
+      "bytes": 27268,
+      "sha256": "43b56e3f354878615429356b5b202bdbd5d116e3dbce281e2ab75be863a489d5",
+      "crc32": "de1208e3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/delta-index.json",
+      "bytes": 5191,
+      "sha256": "394e0f098a2cfc20fcda0730e093658f43fd2a4ac2fc501d715d5081e152032c",
+      "crc32": "99daef51"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/sample-index.json",
+      "bytes": 36611,
+      "sha256": "bb3c747f4bb038276e97066bbf6f53952b46d2be19234f80c478a3cf2845862b",
+      "crc32": "913bad8d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S05-a018.jpg",
+      "bytes": 19079,
+      "sha256": "08c2622d8fb2a2e6b764214cade98ac333edde887652f3d3a087f5cb4431741a",
+      "crc32": "bc2d1569"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S05-a036.jpg",
+      "bytes": 19002,
+      "sha256": "c3fbc504f2a1fade88fa969b8a611d22433b2fe2187254ba2b6defc2e1fb2deb",
+      "crc32": "9a94609e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S09-a027.jpg",
+      "bytes": 19047,
+      "sha256": "e383764ef67cb86cadade7559a77c3a3cb368d900c418f7601edd19391b0be95",
+      "crc32": "d0b8e839"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S09-a047.jpg",
+      "bytes": 19242,
+      "sha256": "59a481bb4cd5e934c150162486302b9de0e8a93683a80c543235c9af727ec35c",
+      "crc32": "6e0d7551"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S39-a025.jpg",
+      "bytes": 45490,
+      "sha256": "c42f3b88fdbc0ff42f6c90902a44b120cec3346b35a1cc9ef8150743d40b47ee",
+      "crc32": "4f3f501e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S39-a035.jpg",
+      "bytes": 45023,
+      "sha256": "5e3b50ba371f40bbccdf45e7b8c9b7a7a5862dfefadeb4d9ec4cd01dc1be7686",
+      "crc32": "7966578e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S40-a021.jpg",
+      "bytes": 19959,
+      "sha256": "ea3a02d6ec2f9b46099ec62271ebd507d74465df6d67b809bddb987a199318a3",
+      "crc32": "a9a4bea5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S40-a035.jpg",
+      "bytes": 20398,
+      "sha256": "a516f42f43882a4ebbdfff1ccffdfbe57f0178deb257e950a712ca3e744b3037",
+      "crc32": "d6c7dbfa"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S41-a021.jpg",
+      "bytes": 15305,
+      "sha256": "020678f0eaa0d1f0fff935326e17530aa2a3f2c399075342a67b910ecf97291e",
+      "crc32": "4b56d678"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S41-a035.jpg",
+      "bytes": 20267,
+      "sha256": "1c80a06ebe984b8da8a3b4436b0aa3ebcc3e2db674fe81b15c812568cd08ccfd",
+      "crc32": "4a6435d8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S42-a034.jpg",
+      "bytes": 39893,
+      "sha256": "456e42076733ae90c7141986fbd218134b0851ccd8aaebe5ee2cb2170c016ce5",
+      "crc32": "e1148e9c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S42-a047.jpg",
+      "bytes": 39057,
+      "sha256": "905c48a8fcdc868d5f980378ac908af8bea696018c1ac227eb23a8b003a10d1e",
+      "crc32": "c164d799"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S43-a020.jpg",
+      "bytes": 24564,
+      "sha256": "55fd9d6c856e240f2dcb3b8e081dd06b25e1b7f482529831cd1a5d6c3e17ad43",
+      "crc32": "db4658d6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S43-a035.jpg",
+      "bytes": 24689,
+      "sha256": "5619ebf192c5a5bdf86f4bd17662094f83859d0ecda4132c53912c6218f93642",
+      "crc32": "8ec3387c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S44-a030.jpg",
+      "bytes": 30285,
+      "sha256": "757dd68bb0dfbafbd711009ca67a18a5cc1fb68c9feab1f799f1b9ddc8cde25b",
+      "crc32": "eaadbb3b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S44-a047.jpg",
+      "bytes": 27295,
+      "sha256": "6994c76a7bb921586195c0b987fbd9d976ebcb06ea758bb34eb8a8470c06d13a",
+      "crc32": "6cc5d71f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S45-a030.jpg",
+      "bytes": 23447,
+      "sha256": "2c6c1ea6dd4a664e5f278f94d378ef7cad6b3948cf969223c6ded1b568f024d3",
+      "crc32": "484c4173"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S45-a047.jpg",
+      "bytes": 27986,
+      "sha256": "065bffc5a130fc89c98b547c6b07f9da572f0d18fdc2f49814f152731c7fcd20",
+      "crc32": "ced367d7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S46-a021.jpg",
+      "bytes": 29076,
+      "sha256": "6423d7b501d8441c4135b85029777c1d18577358c450987079075232445e0829",
+      "crc32": "d03706ce"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S46-a035.jpg",
+      "bytes": 29581,
+      "sha256": "b592130d43332bd4e5d3a92e45bc5fc04d30a6723fdc4b679f98702a8e8c52d0",
+      "crc32": "4b384f40"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S55-a036.jpg",
+      "bytes": 39737,
+      "sha256": "45eace627127a0fc505f6c02fb1ea64bcdf9a53184f4f6f80261b0eafdd16829",
+      "crc32": "b632bb3d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S55-a047.jpg",
+      "bytes": 39022,
+      "sha256": "37b73bd76c06b2df1c3900db17b0fd48a641c4f0d176a55da7771779212fa748",
+      "crc32": "6994deff"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S56-a036.jpg",
+      "bytes": 29807,
+      "sha256": "b9dd347c0320c0a57d2d14361ff7aaede5844e2e5f381310b07e9a5cb30e42d7",
+      "crc32": "79f188df"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S56-a047.jpg",
+      "bytes": 29816,
+      "sha256": "2ff4f72456bb6b4dad2b9ecefc6270281f6270b4e8b0b88aec0923f71a0e53af",
+      "crc32": "c97f4006"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S57-a031.jpg",
+      "bytes": 36587,
+      "sha256": "89f6961fe4ed5890a21b5f1fa040a1a0f44cda4df663e12cb48dada8e849a7bb",
+      "crc32": "a430f1b6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S57-a047.jpg",
+      "bytes": 35978,
+      "sha256": "af292ddc11e0dc16ccaf35d172192dc5067f6a516a56179d9f100201fd61d2c6",
+      "crc32": "a1de4150"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S58-a029.jpg",
+      "bytes": 29094,
+      "sha256": "42fe7797987334618c079147babde68efec060cc44bfd7a8c04204508d54f743",
+      "crc32": "ca811dc9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S58-a047.jpg",
+      "bytes": 33464,
+      "sha256": "9c1dc8a9973025a7d66716e98b2f41d867828199cebe082622b3014a81908988",
+      "crc32": "8988519b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S59-a036.jpg",
+      "bytes": 24265,
+      "sha256": "46eb5717906a863fe77fb3e9e0f23b566401525702d69dbd0efe63939a208eb3",
+      "crc32": "cef43ad2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S59-a047.jpg",
+      "bytes": 25817,
+      "sha256": "a0d0d4b4da5f3556c807809f27bd53a448f609225152c2cf4ce43fde6d00f01a",
+      "crc32": "cc20b727"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S60-a025.jpg",
+      "bytes": 31575,
+      "sha256": "1e333358ae0b9d55c63a0dbee2f86853130c15247a07b52b50041e5fa55b2012",
+      "crc32": "9ab048a4"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S60-a035.jpg",
+      "bytes": 31274,
+      "sha256": "8700105b922458d7c237be7c53d378a7dfb3cbea18c6acb7cdfb74c65f872091",
+      "crc32": "0b5fb109"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S61-a034.jpg",
+      "bytes": 42701,
+      "sha256": "f1f443c104902ee2acb7732ed329858b5b3adc509b1c7aa714decb4d9eb84f63",
+      "crc32": "5eaf3f09"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S61-a053.jpg",
+      "bytes": 41554,
+      "sha256": "e53683a2c9d0e4e187e14bbf7c21ec6b709bb93d8200048b4089c7677bd94671",
+      "crc32": "89d826de"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S62-a031.jpg",
+      "bytes": 32947,
+      "sha256": "83ed0bfdeb5ad4e203990f8aae984d02993254ae4d5b5427f33a7a0b0f0f0a30",
+      "crc32": "f8aee6a2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S62-a047.jpg",
+      "bytes": 37214,
+      "sha256": "58545d83f5a4dc6ee0661bccd3e6dc388e08dc53e4ce67327f923995d5331f60",
+      "crc32": "33cd9bcc"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S63-a031.jpg",
+      "bytes": 41549,
+      "sha256": "6fd8ac445929d5e31475bb69840593f2015f35d1a76ef5c2b81326796e137dda",
+      "crc32": "953a07d9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S63-a047.jpg",
+      "bytes": 48009,
+      "sha256": "32dbe1d9530b4aa3c4e01391f17f682b7de7f8c83862a6bc7238d1a08b6a0409",
+      "crc32": "4c296a43"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S64-a029.jpg",
+      "bytes": 40021,
+      "sha256": "f10638a8037c753db3819cec00cdd86916dc5e23e7564b6fbebfb994bb36fdaa",
+      "crc32": "7b76cd83"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S64-a047.jpg",
+      "bytes": 39022,
+      "sha256": "37b73bd76c06b2df1c3900db17b0fd48a641c4f0d176a55da7771779212fa748",
+      "crc32": "6994deff"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S65-a025.jpg",
+      "bytes": 19905,
+      "sha256": "2fee9a7e2cb5aae3c7487d1cd4a42756790ac24460e7e690028b5f2e50de5b06",
+      "crc32": "e1c60024"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订-S65-a047.jpg",
+      "bytes": 20106,
+      "sha256": "99884b578c374a48761cedfd6c731f723ec98ec0654b54c2df7f21090fed0a8d",
+      "crc32": "b14db9ca"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订边界-01.jpg",
+      "bytes": 663537,
+      "sha256": "f46b5c8534756602535868745b8438241452e8f52e7e8d5b199456c6fc75c89b",
+      "crc32": "9b63b14a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订边界-02.jpg",
+      "bytes": 734392,
+      "sha256": "127d065f43892977e778a332c9b9e015fe45a1664e4c6b1ff7c9b6dbb5f47600",
+      "crc32": "6c1f1c8c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/修订边界-03.jpg",
+      "bytes": 533402,
+      "sha256": "944861bfc20ef6b956b82bb6aac0bb02f67a13fb908d43a6f28d1e25239ccf38",
+      "crc32": "828e6679"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/原生选镜-01.jpg",
+      "bytes": 693691,
+      "sha256": "f688df4bc937d39b976932c8c7c690b7741d6cb101cc830e6f9f1b9cf565fab9",
+      "crc32": "414ed882"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/原生选镜-02.jpg",
+      "bytes": 602963,
+      "sha256": "235c5192a03076975aff2efda07389a319d203f52d6d8317ff576ae890ce99e1",
+      "crc32": "52ffb5ff"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/原生选镜-03.jpg",
+      "bytes": 646282,
+      "sha256": "1cbf1135ceb1bc2c453769c72482b81af667b9f84ab65db606ca2a2e7e9dcdc2",
+      "crc32": "32e565cc"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/原生选镜-04.jpg",
+      "bytes": 702461,
+      "sha256": "5868abecf115d556aa746c231cef643b88e645354be1e8d5b2c5259e21c5d0ea",
+      "crc32": "3a996e07"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/原生选镜-05.jpg",
+      "bytes": 732822,
+      "sha256": "a57ea6b8d957d4845ae3c1b5367d7d92bfdf7c7fdfcd6be82bcaf2d6642f8302",
+      "crc32": "31540727"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/原生选镜-06.jpg",
+      "bytes": 673198,
+      "sha256": "7dbbb0f18eb9fa9f73e374bcae0f2cf4f425d5255bc171e048ea96be6246eba6",
+      "crc32": "ae6893ea"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/原生选镜-07.jpg",
+      "bytes": 728723,
+      "sha256": "1498704fce69f9d081a20158a81a92422169957c43278bb6de9e72bfa167871a",
+      "crc32": "4cd09d2d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/原生选镜-08.jpg",
+      "bytes": 778968,
+      "sha256": "7f45e5ee663eda3fe04b84c1d329c9ee29a3775441eac039ac53612442ca0497",
+      "crc32": "a51cb1ef"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/原生选镜-09.jpg",
+      "bytes": 225459,
+      "sha256": "4cd483affc828a283232557a5b29ab2942cf51a6a22748096829f27bfa532999",
+      "crc32": "dd07c124"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/evidence/原生选镜验收/验收结论.md",
+      "bytes": 3646,
+      "sha256": "6ab8cd75e2b9c1b6160f670a33b692e1ecbf81129d3a8bbe8d2a009d6b1ed810",
+      "crc32": "d38ccfed"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/DESIGN.md",
+      "bytes": 1445,
+      "sha256": "89c951ba6a0bfcb65983392e89b2304add9b7b93eac632c61d7bdd9ebf61c585",
+      "crc32": "013d54fa"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/README.md",
+      "bytes": 3079,
+      "sha256": "b6bb50fb7a74e4c7a0c85c08315426ef3196c0fdd763844e5ba6bca3ad74dded",
+      "crc32": "e4d71e20"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/beats.json",
+      "bytes": 4584,
+      "sha256": "d129fb0713edba1cb9c6e1efd77dba0a9e6769b7cab9492620155d32c78a984c",
+      "crc32": "941c576a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/composition.py",
+      "bytes": 11354,
+      "sha256": "a3b0188bf138ebe454a8f221159952167dde93f916d8a90b3d3470d2676980f9",
+      "crc32": "435bc00e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/edit.json",
+      "bytes": 42566,
+      "sha256": "69fc5c15701134f87b65339349377adaec45ea733e08bd7d794196a84f1a1e4d",
+      "crc32": "d3e72707"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/generated-index.sha256",
+      "bytes": 64,
+      "sha256": "97ff9e4d8d6637cbc2fa8e6c1a96047fb6e765dd2437b3114baff4a236980aab",
+      "crc32": "5fcc92f5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/hf.mjs",
+      "bytes": 979,
+      "sha256": "ff3af99fe8403d6119cb691d5ed62c0a8249cfe5842a468f08a6f86fe108189b",
+      "crc32": "0cf3b162"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "crc32": "9cfa7d16"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/index.html",
+      "bytes": 413053,
+      "sha256": "468df7c1f43827666151a8c47093953eb091e0095897b101198a074a1fc058c4",
+      "crc32": "a0054667"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/render.py",
+      "bytes": 6848,
+      "sha256": "ed0c45e838f1aad0c580dc1a7393ace515ea907bdbf815c7298d894e3d4aa70a",
+      "crc32": "f952549f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/typefx.py",
+      "bytes": 8732,
+      "sha256": "8b3a01a06844003d5b0af2ca9e57264a050c4c05b5091bd8f1c8e2746e9cb450",
+      "crc32": "164d8bbf"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/镜头表.csv",
+      "bytes": 2856,
+      "sha256": "351743f0f406e94461bc8533619f9560d9baa69c06538b9bb962c704a9249518",
+      "crc32": "7a8bd581"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.hyperframes/hf-ids-stamped.json",
+      "bytes": 44,
+      "sha256": "f4f037eac6f5cb20c07c2fe6af4937e771d7dccc99476ad6b1ec0ac88a784ce3",
+      "crc32": "62eac489"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.hyperframes/history-id",
+      "bytes": 37,
+      "sha256": "898bdb18a29a2fefff865d47ceb0446b4ff1fbed6291856254a5304a799c5286",
+      "crc32": "f2a635fe"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.hyperframes/video-state.json",
+      "bytes": 85035,
+      "sha256": "894912198165c6adfb4dc2f63cc8f6e3625c3df64eb75d53e9a7901fe9f36e7c",
+      "crc32": "360ce2a6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.hyperframes/preview/42b991fd19f4654aa64a6febaa0e00ab.html",
+      "bytes": 564408,
+      "sha256": "6384fecefa0bc798356f5c327e4d807f57aa65dc5a463c5693ee8d0ce046fb95",
+      "crc32": "e6024f0a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.source-backups/studio-19ccd8402aba.html.bak",
+      "bytes": 411164,
+      "sha256": "19ccd8402aba968cfef0efada839e75cb41ca129ab6214174663ab916481aeb4",
+      "crc32": "dbfe7c16"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.source-backups/studio-468df7c1f438.html.bak",
+      "bytes": 413053,
+      "sha256": "468df7c1f43827666151a8c47093953eb091e0095897b101198a074a1fc058c4",
+      "crc32": "a0054667"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.source-backups/studio-8166d30736ed.html.bak",
+      "bytes": 411193,
+      "sha256": "8166d30736edcec5b8a2c8098d6193ab421ed1f24a0b532a59b7c4f7d0b1b07e",
+      "crc32": "066da86d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.source-backups/studio-f8165af4a715.html.bak",
+      "bytes": 417051,
+      "sha256": "f8165af4a715cb24961f5522fd3aabc5fd7b086761c810e3ccc18c3f4a3b8a33",
+      "crc32": "5c654536"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.source-backups/studio-fa1194fef26c.html.bak",
+      "bytes": 411843,
+      "sha256": "fa1194fef26c4c5d0a7b09ebdbaf0f07644178a09a5e696d1278c74c7a6a24ee",
+      "crc32": "00dbc09a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.thumbnails/v5_v3_3037994ab3a426f4_934769897b22ef21_jpeg_preview_index.html_1920x1080_240x135_1793864513915_3.00.jpg",
+      "bytes": 7860,
+      "sha256": "7377476ab6ad9fbe11058ac2112815e372449e3fa30dd42ab36e3baa3e303475",
+      "crc32": "5ff06e38"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.thumbnails/v5_v3_6eac002adc6d506d_be3755c16f5a711e_jpeg_preview_index.html_1920x1080_240x135_1793864367650_3.00.jpg",
+      "bytes": 7860,
+      "sha256": "7377476ab6ad9fbe11058ac2112815e372449e3fa30dd42ab36e3baa3e303475",
+      "crc32": "5ff06e38"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.thumbnails/v5_v3_d07a06a4e906d290_934769897b22ef21_jpeg_preview_index.html_1920x1080_240x135_1793864560753_28.88_8f246f2c47c3a475_0.jpg",
+      "bytes": 4371,
+      "sha256": "d7153b3f4f6735645a7005985d9532cf6f7d98212455e086663576efda77aa47",
+      "crc32": "3da7cfbe"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.thumbnails/v5_v3_dd5e74c669aa5100_be3755c16f5a711e_jpeg_preview_index.html_1920x1080_240x135_1793864325399_3.00.jpg",
+      "bytes": 7860,
+      "sha256": "7377476ab6ad9fbe11058ac2112815e372449e3fa30dd42ab36e3baa3e303475",
+      "crc32": "5ff06e38"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/.thumbnails/v5_v3_ef38e6a726daddc0_934769897b22ef21_jpeg_preview_index.html_1920x1080_240x135_1793864560753_3.00.jpg",
+      "bytes": 7860,
+      "sha256": "7377476ab6ad9fbe11058ac2112815e372449e3fa30dd42ab36e3baa3e303475",
+      "crc32": "5ff06e38"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/gsap.min.js",
+      "bytes": 72927,
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "crc32": "87a303b4"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000000.png",
+      "bytes": 1406013,
+      "sha256": "b39a234d40b9e8d352241e44623b5b4baa65c33780ae1289fd660bc933bc3181",
+      "crc32": "363e4524"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000001.png",
+      "bytes": 1413144,
+      "sha256": "6e47074ef8f2e6fb60f40a040dc47333f0957b80a1c900b8f29c54963804a8e6",
+      "crc32": "38709c57"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000002.png",
+      "bytes": 1425890,
+      "sha256": "069ba5b4f741b991879fdbbc8bda810807b6adabcdd4f31b0c3fc31baf13144c",
+      "crc32": "ed317642"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000003.png",
+      "bytes": 1435301,
+      "sha256": "8686d2a4a21d3ead46a8468dbadeb3217cb1ae4dedb2fa3f74be16f06a3cbee1",
+      "crc32": "fdb8fc43"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000004.png",
+      "bytes": 1442919,
+      "sha256": "cf7f02656c929077145ad67ded1c44755d71e3944871ff4e907bcb0c3b88bc43",
+      "crc32": "d5743def"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000005.png",
+      "bytes": 1443033,
+      "sha256": "d183345f6a90bc2a3be87f923612159759fcc775bac998a481eee7485a8890be",
+      "crc32": "512e74c8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000006.png",
+      "bytes": 1445617,
+      "sha256": "06cdc1e3c4de640484325bb1c4bc613634102eef1ea583e400e03b3a3ebd4eae",
+      "crc32": "3585b575"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000007.png",
+      "bytes": 1446618,
+      "sha256": "96129298e155245cd98fa6490e434f55a124f4635921208446a4d5b52f726bea",
+      "crc32": "f0c6f884"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000008.png",
+      "bytes": 1451574,
+      "sha256": "c3d1ace9ce41c1b75ed18c4ca5c970bfe42db3bec091d51a8b8354a32807d401",
+      "crc32": "7f2b9856"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000009.png",
+      "bytes": 1454613,
+      "sha256": "7db05f292a0de8ec4572f27c5cbacffeb682760e3c5ac7e4a56dac22d7c02e8f",
+      "crc32": "d1615c3a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000010.png",
+      "bytes": 1456897,
+      "sha256": "0e8dc1323ad7598cc2cfe08728625a3a0b8cd993b008eb0ceea3008a89f55b7b",
+      "crc32": "fda77ac2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000011.png",
+      "bytes": 1453733,
+      "sha256": "d1161960fde19fe7b164676b11b102178c3f2b6b4e251ad4cb8853165e343844",
+      "crc32": "0c22fb16"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000012.png",
+      "bytes": 1453094,
+      "sha256": "f9236357e374e7653be63b8f214d19febe4803f783ba3aed75fc05525142d1b3",
+      "crc32": "1001ee16"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000013.png",
+      "bytes": 1453459,
+      "sha256": "a2dd4c2756facab081f8ee8ad38616ee3617001a53c86d169f0315453b7550ae",
+      "crc32": "e8f71472"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000014.png",
+      "bytes": 1455131,
+      "sha256": "be439e95a797881e62a3ba830e9dffc70d9443b8fa3306d24dbe588d33b7d64d",
+      "crc32": "ebea0e55"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000015.png",
+      "bytes": 1459465,
+      "sha256": "66c9b51c5114031d5d92330f6d541a42bd273488384a7b46beb3bf13bff49a7a",
+      "crc32": "6790c86a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000016.png",
+      "bytes": 1463948,
+      "sha256": "4870c049a506cd57d55884cb56937b475a442b1c1e59f9afab6b493c682b3469",
+      "crc32": "dadde9ca"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000017.png",
+      "bytes": 1455020,
+      "sha256": "2dff214b662998f9b3e91fed3e129e9e478544b833a9df9cdf286584e87e8951",
+      "crc32": "f8fec8e9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000018.png",
+      "bytes": 1454148,
+      "sha256": "75d9394ecc8066fa75bf7e17e2b683c73a66d4925856f38b990b2f604d7def94",
+      "crc32": "4dea228c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000019.png",
+      "bytes": 1453795,
+      "sha256": "5291e13bbbfd2de94475764f1f1dc78378a25f66b70b99fd1bab1c31460b48e8",
+      "crc32": "4478d0f7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000020.png",
+      "bytes": 1451303,
+      "sha256": "12bc4383b22e60e0191f37af4ff0e62dd41f7412b00602164855150cf9a31cfe",
+      "crc32": "0ac9c075"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000021.png",
+      "bytes": 1454962,
+      "sha256": "14a62f7175ec109ded18d5395b684b66e6804154de5557b1c6212244268a5f74",
+      "crc32": "41bc944f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000022.png",
+      "bytes": 1456558,
+      "sha256": "3a38745797f147c62a72155056937980e512f9166e34ae602c85471816d3924b",
+      "crc32": "040ce3a0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000023.png",
+      "bytes": 1450545,
+      "sha256": "b85e1d1a8358a5e7741bdfd54616d74709ba5b444e3d996d6a05460589cea6de",
+      "crc32": "0aeb0a3e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000024.png",
+      "bytes": 1451294,
+      "sha256": "caed84613b1092fd8cc5818617e70cd734c638117ac2439621def9097fc3e26d",
+      "crc32": "b348a408"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000025.png",
+      "bytes": 1451837,
+      "sha256": "696128fe572ae63102b0b58f1924422d2602b14dc1f7241e98f17b31152f4cd1",
+      "crc32": "6f753af0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000026.png",
+      "bytes": 1454205,
+      "sha256": "12133688c69f993cf4997f72c1c3aa0e7303dc61b69f2d843fa763d633111ebf",
+      "crc32": "828e89fd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000027.png",
+      "bytes": 1459180,
+      "sha256": "ae24fa7213f1866e288779149c73ab79cd39c0564ae6b2bc319eb84cabe752d6",
+      "crc32": "1f8a6d16"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000028.png",
+      "bytes": 1464347,
+      "sha256": "ac313e92f5cfc0fe70af4a52f7c7b72a2ab1df28ea34224e649879cb85855426",
+      "crc32": "0bc12c52"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000029.png",
+      "bytes": 1460647,
+      "sha256": "272fbedcdbd76f6441ccabe90ea3f6be1b5c6b16664c0848a6e161d761e7bd3a",
+      "crc32": "64f69803"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000030.png",
+      "bytes": 1462961,
+      "sha256": "836d4647b539dcba4592ef9089e4bc1bbe8b18253fe560274f5f4dc454c93e59",
+      "crc32": "834a5a8e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000031.png",
+      "bytes": 1465246,
+      "sha256": "dea75225b8f19693d5f8027cb64a04200507f1c51530aeb27d6988e7ca93d988",
+      "crc32": "f398f3c6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000032.png",
+      "bytes": 1465769,
+      "sha256": "497b62e4a333a97079c0791606e5e27ee437b19245b7eb5b259d08dceb30b19f",
+      "crc32": "25e8f134"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000033.png",
+      "bytes": 1467446,
+      "sha256": "94012587266f8ee435dbd6beec6ac7690b307087c70af319430f01897373fe9b",
+      "crc32": "7fd28aa0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000034.png",
+      "bytes": 1471047,
+      "sha256": "53b777bf07ccb089bb84e4892c724a7ff434b7f98317c314d84643ad6246a94e",
+      "crc32": "d0907ea3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000035.png",
+      "bytes": 1467028,
+      "sha256": "f90df8508e3f88b56774031a001ef964e65f9ddece9206be41e49e2152d8c8b5",
+      "crc32": "98e2c3d9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000036.png",
+      "bytes": 1468664,
+      "sha256": "6bf5c2be179f15b4ecfbff8d202c3c2c6e514754e77e11b5d1c82cf6be28e7fd",
+      "crc32": "9abc3bdf"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000037.png",
+      "bytes": 1470992,
+      "sha256": "0962e47da3347de5c5a7c1fb02047ce893f4adb1f441b740281741ad849421ae",
+      "crc32": "7abebcd0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000038.png",
+      "bytes": 1472611,
+      "sha256": "c173e527ae18b0ba18db3e815551174a833e5ee194395f1390d71b5970991d4a",
+      "crc32": "e207f86a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000039.png",
+      "bytes": 1475258,
+      "sha256": "a18b5ac0496501f0a6c3f7fab5ad06628962719340163cdec99fb7aac1b276ed",
+      "crc32": "ca598dd2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000040.png",
+      "bytes": 1482355,
+      "sha256": "bb8f91f0c232872b29121fb0c70ba3b0fa90f1a9ff24ac897a94661e3094a5c1",
+      "crc32": "f22fd0f9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000041.png",
+      "bytes": 1477560,
+      "sha256": "da05748a20abf979ef3f4a9eb99ffb5a9275684b726e20d6edc7b3ea75c3b1b8",
+      "crc32": "331ca70e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000042.png",
+      "bytes": 1479618,
+      "sha256": "5ad25b5a6f65dd4f3823cb8b0bd920407c3fc6663c6968ae0b59b18364da43f8",
+      "crc32": "462ab77d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000043.png",
+      "bytes": 1480602,
+      "sha256": "b04f3dffe1ea6aa939b2521107c334ff4626adddb17894a6e323d9179dac0b95",
+      "crc32": "70a4e76d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000044.png",
+      "bytes": 1479442,
+      "sha256": "367b18f807da6433166b8ad9d8e882decbdc27e8116dccbcc12e87d82fde5d53",
+      "crc32": "2c6068a0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000045.png",
+      "bytes": 1484663,
+      "sha256": "34997e1107ad4a3d3bc9ea5ca873cb677bc3dacea958076b6d32b2370f371597",
+      "crc32": "892e31db"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000046.png",
+      "bytes": 1488668,
+      "sha256": "39284f51c50799bb75cc004259ea9a7c5fb8d190acc7249f3f52474b32770674",
+      "crc32": "7cfbadc3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000047.png",
+      "bytes": 1483661,
+      "sha256": "b9c317aed0fdd5c10aa789bd4a0562968022e57bc5e2f0bf34d44a82d0107fba",
+      "crc32": "9448df5a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000048.png",
+      "bytes": 1482754,
+      "sha256": "938013a1f76725745cbcdb7170807e599b8e87db2ead864724b16defdf819e21",
+      "crc32": "b8ab0970"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000049.png",
+      "bytes": 1488115,
+      "sha256": "93a53c3598ea2021d929e231abef69a36f4f553637a546dbc67e315a1d216551",
+      "crc32": "03ce40ec"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000050.png",
+      "bytes": 1489365,
+      "sha256": "bce1a5d018c5d8a40a10610bcbae74f10ea3b9fa8a25ea68f18318e29268203a",
+      "crc32": "8aaadadf"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000051.png",
+      "bytes": 1493725,
+      "sha256": "8b87bc3da46c4bf197182ffdd402661a4c5f6588e246a31774e8bdc8afde3fee",
+      "crc32": "36d2fd8a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000052.png",
+      "bytes": 1497202,
+      "sha256": "2ad972401b48b8a885fd2b9434ad9a024b59996e078de7b5cba889bcb1898415",
+      "crc32": "1f0ca817"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000053.png",
+      "bytes": 1490698,
+      "sha256": "b4f5744c3d15e4da770a2406c110039355f05172011603aefca3d8f308ccdee9",
+      "crc32": "47bcdf95"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000054.png",
+      "bytes": 1490202,
+      "sha256": "61f2d1f2b725aecae14c0da258de65b0ba278479ccae4f79d44ce0738757bcdb",
+      "crc32": "b5aa7b26"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000055.png",
+      "bytes": 1491974,
+      "sha256": "e98ecb0342645e24ebc1ec9fabe9c57b8eb0027114d0af068baecae3431bb975",
+      "crc32": "4bc7d52c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000056.png",
+      "bytes": 1488856,
+      "sha256": "3159bf3576d21e4b672d43b67d64ce2439208623c05dbbcf6c677b404e58299c",
+      "crc32": "e6f0cf89"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000057.png",
+      "bytes": 1489656,
+      "sha256": "fa7469a9cce5945d5e66f3985245fa2aa79284f2ac5041e618fdaf86365a5731",
+      "crc32": "134fd904"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000058.png",
+      "bytes": 1490341,
+      "sha256": "b12575ce9669ca750759d42823e0d1e8278e03abce815e54b442e5b35e435368",
+      "crc32": "4126a0c7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000059.png",
+      "bytes": 1480810,
+      "sha256": "02ec21491fcd0426571ff52b0599984fb5cbadaca328852caa68e7c00a05c910",
+      "crc32": "ee747c15"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000060.png",
+      "bytes": 1480005,
+      "sha256": "1f8e38a2ed09221544af598c3c684e23d7bd380179e96cfe209155185533579f",
+      "crc32": "e102f29a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000061.png",
+      "bytes": 1480928,
+      "sha256": "10e6f549aa90cb6ba6ab3a0a557bd350b652e2ad04c69937a0d58a08f6128007",
+      "crc32": "6e1a75b2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000062.png",
+      "bytes": 1477879,
+      "sha256": "ea8b825b2cb5d7c80aa07eea78dabbc68c07b968f3e5e8cc53aa13a1610536a8",
+      "crc32": "422073c8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000063.png",
+      "bytes": 1484032,
+      "sha256": "8ee98be6dd79f13e217ad57542331b67332ee9a3d936f7d461b616b781c7c5e8",
+      "crc32": "28df17b0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000064.png",
+      "bytes": 1488151,
+      "sha256": "4103df50a2e883db6103eadd6c9288e144a6b4b60b475b0bd8d0954fde5a0a96",
+      "crc32": "477802eb"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000065.png",
+      "bytes": 1482738,
+      "sha256": "3e75ccdee4fc0d8166c62fa297263a9f353f1c4d65a2c1ab1b19d21c19e73501",
+      "crc32": "dbcf8ed5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000066.png",
+      "bytes": 1480095,
+      "sha256": "8a51fa4ff20bbaf4228c10aa84a272de2fa877e5c1cc8e413688ac7b2c577a6e",
+      "crc32": "c466fb55"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000067.png",
+      "bytes": 1479952,
+      "sha256": "e0758d0f3fe3b232e0de11e6ec1c72687e338f32c497d444d33dead502720f00",
+      "crc32": "bd75b832"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000068.png",
+      "bytes": 1477260,
+      "sha256": "29e534e4b51e7503c1c0bb64a005a48d7758bc87bd5d035c23c68ad746cf10e2",
+      "crc32": "722ec901"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000069.png",
+      "bytes": 1479899,
+      "sha256": "7cb6db4fd030b76ecdc907636b2ba3d2c2a91b40a52db8d7062926d537de3a9c",
+      "crc32": "b7dce23e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000070.png",
+      "bytes": 1483189,
+      "sha256": "75a14df78d7f380cbfbe7bb794e784434ffb414fcf48ecd907bf92963ec00e43",
+      "crc32": "d64ec48b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-awaken/000071.png",
+      "bytes": 1474884,
+      "sha256": "2f3ce7e556f16bdaae8ea1eb50cd02824b682fd6dc2216175d067a4dbb9e2f5b",
+      "crc32": "967220e0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000000.png",
+      "bytes": 909532,
+      "sha256": "17090a3b2e97c6117c5ac172f5f5afed6e6c5d50abedca134f08f5ab752a21e1",
+      "crc32": "9d582f4d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000001.png",
+      "bytes": 933379,
+      "sha256": "4a06d36b6aeb0c35a9c338daee2d567e7fb25dfd785ca04bee0fd36c087ec4df",
+      "crc32": "5f1a2734"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000002.png",
+      "bytes": 949719,
+      "sha256": "f059d2dc0be4e52287333fe2097a9ba5b797ce3138c71a4161bacc5cb26c8e46",
+      "crc32": "044adb72"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000003.png",
+      "bytes": 954242,
+      "sha256": "157a3b116ce57aa1806e819505ea9e42ee1a91b72a8fd07d1bd1b334eb212f0b",
+      "crc32": "25a39146"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000004.png",
+      "bytes": 971703,
+      "sha256": "76cc4d725ad1fe7bddb23a5f343f2c3db887d29d3c40a580ea74c4e585307254",
+      "crc32": "a133a708"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000005.png",
+      "bytes": 987736,
+      "sha256": "133da7da9fd8c6d23661292455bf49c3eab58dbab1c4957867ebd373c5a1e25b",
+      "crc32": "15572082"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000006.png",
+      "bytes": 976143,
+      "sha256": "c2ee16ba908182a5a432bab6e1c4b4e353bff13b9766145770d6bb45d0746806",
+      "crc32": "b2c84f7c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000007.png",
+      "bytes": 977374,
+      "sha256": "8866ce709b05c4df8fa4bdfb7598743817ac7e2960beda593a4d41b2bac2c665",
+      "crc32": "1cc5f228"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000008.png",
+      "bytes": 979035,
+      "sha256": "30b59819f1e7c3b071f21e16c7916f618eeb3b96416ce2063652e9b372683c43",
+      "crc32": "9f901246"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000009.png",
+      "bytes": 1000268,
+      "sha256": "4b14c9917a3dd4c53400240d43f633d6c97f08cf1d4d0ace16d0008c3544b64d",
+      "crc32": "c3d00262"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000010.png",
+      "bytes": 1721107,
+      "sha256": "34fb782d97b268bdd878e4a6ecf37169d11efdc922d9d0790df174e68c0a8496",
+      "crc32": "6cd83cc5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000011.png",
+      "bytes": 1721984,
+      "sha256": "34ee4a2f43a78fd9db7638711da9b0a2f1625ba8958e7730b3950e95164f2c5d",
+      "crc32": "8f8d88e0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000012.png",
+      "bytes": 1738982,
+      "sha256": "f8ecbebb543c5516abeba229dbf1c5249d778cfb34d14ec5f009677fd488d057",
+      "crc32": "8945a98e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000013.png",
+      "bytes": 1738617,
+      "sha256": "2ff14680b9b7628dfdbd4cfb52f51381e63228bf5943ee5f98ab484bc9a7b67f",
+      "crc32": "5351aea2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000014.png",
+      "bytes": 1740281,
+      "sha256": "5647c8c0d1efc7b8e943b30956461803ddff24228d67776704a493f8f8c8e59d",
+      "crc32": "5c01b1b1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000015.png",
+      "bytes": 1742063,
+      "sha256": "1dd057658ec0d543d9fa6c71e1c4f665d418d4d18314e02aab5d4fd7f3549cc2",
+      "crc32": "c41fb2a0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000016.png",
+      "bytes": 1745441,
+      "sha256": "8da7f47cc47c827699891e4516c83412300ff517565e722c8c218f9108898204",
+      "crc32": "2a0aa246"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000017.png",
+      "bytes": 1746005,
+      "sha256": "bc521112c406cae9b708a790b01c5d1c502ae2ff3da109e2f94a47a7df757602",
+      "crc32": "2252eff6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000018.png",
+      "bytes": 1749714,
+      "sha256": "d2f524c52f3e0f4f0aa82459eb915683c509f29b0169b3682536431feb3d0ff5",
+      "crc32": "d05eb6d3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000019.png",
+      "bytes": 1752961,
+      "sha256": "170916a1e713b5280e3e8a64770eb5a5f0fe04e2516bcf6a03f41089b09e8e5a",
+      "crc32": "e0ca34dc"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000020.png",
+      "bytes": 1758427,
+      "sha256": "f0b360bee395bbdfcdc5be1d6e1c85f3e70aebeda7179a679cf2a029d877d1bd",
+      "crc32": "df7fc3ae"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000021.png",
+      "bytes": 1763403,
+      "sha256": "4cc7a9b8cc21b181a46aead1893e89426237f4a580c72d331a038b2502b767fd",
+      "crc32": "22c72cd0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000022.png",
+      "bytes": 1763001,
+      "sha256": "b24051b056d96333772ce65618bbb57ed25568c5f5bb11c66b91356b195e6295",
+      "crc32": "bf1c5bc8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000023.png",
+      "bytes": 1766699,
+      "sha256": "9abe370e4e922a527e649da890e21af1cfedb3fc9ebebab22b4136211c275dbf",
+      "crc32": "f9c756c6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000024.png",
+      "bytes": 1767008,
+      "sha256": "febbf3716c18b27c1d0b6a6cf72b2274e3646ce72536779b8bfe540387fbd3a8",
+      "crc32": "05a44999"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000025.png",
+      "bytes": 1766016,
+      "sha256": "0fa1c1bb5c902860cb8b320f3e43a5d40ee4ecc6e373d21e9f4fb636ae9053e3",
+      "crc32": "093a6419"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000026.png",
+      "bytes": 1772033,
+      "sha256": "28fbd387953fffc1edccd84ac7a248d0da1f6ce3356829dd42db4f2dcea36dc0",
+      "crc32": "0eedf7d7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000027.png",
+      "bytes": 1776930,
+      "sha256": "0d8b4ce853d282155e27c5d2c193757d283c5855b18a8c0d720cad08b8a49af2",
+      "crc32": "91e743f5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000028.png",
+      "bytes": 1773434,
+      "sha256": "d66d5d0597ad8929cc9a64fac86984dbb9b66a71bd9fde78447be0113cb36083",
+      "crc32": "f2b3f6dd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000029.png",
+      "bytes": 1773988,
+      "sha256": "158919c0353e692816e14cb459d8adaa9cb18fbe638298afb77f710b72c75cba",
+      "crc32": "1bab82a0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000030.png",
+      "bytes": 1776179,
+      "sha256": "14316e038e6b4fc70ca0d2b9672cd5c5b274f8e97a2c5ca04d2e1796bdd677c6",
+      "crc32": "d7d5ba9a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000031.png",
+      "bytes": 1777265,
+      "sha256": "64af93aec07c257e83a7cf449f487c05a104dc5f8f019990f6c608cbe5e575e0",
+      "crc32": "f6c1a685"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000032.png",
+      "bytes": 1778357,
+      "sha256": "37a983b96a01f2f991f267e3f84a2b02eb4c3f6ba4cfbd1864502942db582c6c",
+      "crc32": "c681adf5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000033.png",
+      "bytes": 1781521,
+      "sha256": "aa2640c729505b046d0deb51153f52dc04dcfe048ea98a9f77ee4e61789df452",
+      "crc32": "02e94b16"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000034.png",
+      "bytes": 1778773,
+      "sha256": "716a28e737c4ae8a7929f40a43c3267fb9d315433bfb4cde919feebba5f122f6",
+      "crc32": "633ed07d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000035.png",
+      "bytes": 1782242,
+      "sha256": "01dce2fc6d3213ab29edef0fc1ef55a937bc2b54a0855ad29aef93e6ae2dd62f",
+      "crc32": "d86675cd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000036.png",
+      "bytes": 1783965,
+      "sha256": "e50eeaf6c4820245058505519b45f3d069b7cc0a07ed9ee79e904c6521af649a",
+      "crc32": "65b86fd6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000037.png",
+      "bytes": 1791756,
+      "sha256": "024db0a9dc8116d012c24833a0f4a6de7c0d07644b9acadd1703f1d64dd1ed0a",
+      "crc32": "8c6d67af"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000038.png",
+      "bytes": 1792038,
+      "sha256": "4540e7e196a6f32cd361f7f750e28a10d5e9ef69d2001980d2d4b0c78b1b46e9",
+      "crc32": "bd53962c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000039.png",
+      "bytes": 1796421,
+      "sha256": "38626e86b43ba91019f19207b5d3d3952af6f53488e8072a775e20f8c41f5a18",
+      "crc32": "0d25ef69"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000040.png",
+      "bytes": 1798696,
+      "sha256": "a95aed3e7a3df56761ab03117bcf8c9709f0f02bdcab029ee2f6743c06fd2015",
+      "crc32": "b40aba72"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000041.png",
+      "bytes": 1798321,
+      "sha256": "ea46e3501c8e21eb6d3cc8d9dce81eaf6e85c189bc831736e39f74cd67e438cb",
+      "crc32": "bdb89915"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000042.png",
+      "bytes": 1803442,
+      "sha256": "5cf31a1e4a7cdf958dc92ba8cf3080041dae2cb217a9f1232c4156009b86e2d5",
+      "crc32": "12ad0dd1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000043.png",
+      "bytes": 1809090,
+      "sha256": "56caaebe645dd856fcf447a55aa11a2b20ba9a4996be033890f426453fd6e121",
+      "crc32": "9a083c3e"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000044.png",
+      "bytes": 1804794,
+      "sha256": "563a1ea46823e4559858a7e40b4f74a0ff29d6e87397ac30d6992ae544aa5038",
+      "crc32": "4d557562"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000045.png",
+      "bytes": 1804970,
+      "sha256": "8e4e54cf0facc331beb1f39016d494cfa709812f2e7cbb27049923a9be5958f2",
+      "crc32": "edf2f657"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000046.png",
+      "bytes": 1806565,
+      "sha256": "e41a8ab82cc2c0990b573a0864bc4abe5e294bf983298f009f1199382e49d916",
+      "crc32": "4cebedfa"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000047.png",
+      "bytes": 1804444,
+      "sha256": "5eeecf84f6dcfe6b2ddd3e9759d2caedd7b573cfe5cf58c59bdde2512703cf4c",
+      "crc32": "16461144"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000048.png",
+      "bytes": 1791547,
+      "sha256": "bf4f580172cedb0047d1fff7a5e47c5e356de6ac236771897446675232cfe5c1",
+      "crc32": "338975eb"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000049.png",
+      "bytes": 1793875,
+      "sha256": "9dad0b0df65e66521d655688c4b0620dd036c50ab4b802a4f479e31a9d044aef",
+      "crc32": "d4ff5acb"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000050.png",
+      "bytes": 1791803,
+      "sha256": "1335b3ce7e9cda94f906c4adf75a43a8ce2a4e2b019523e5bd1265a301ba41a8",
+      "crc32": "d2b51767"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000051.png",
+      "bytes": 1791739,
+      "sha256": "ce3cf738a8996c8e6a0be8c11d7f29526e7ab5d74068d6b1c0ed749f9ea7e935",
+      "crc32": "86d0467f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000052.png",
+      "bytes": 1792380,
+      "sha256": "398c488861b1939bd0ecc70479a82866eebe304862e8c2c4a2fc03cfda85e3fd",
+      "crc32": "a01b2d30"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000053.png",
+      "bytes": 1791006,
+      "sha256": "53f1d2253ffd671813ace1240e5c222b37014f22a0da0b7f0a1fe1fcd9fc391f",
+      "crc32": "c68cc353"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000054.png",
+      "bytes": 1793129,
+      "sha256": "bd62e078b99077750d7392e7e9ee93e7615db0307230e78e4c64e29e6ab46479",
+      "crc32": "523681fd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000055.png",
+      "bytes": 1794988,
+      "sha256": "72f2c6de63004bd59cf24969801da603929942ae490d56d64ce47553e12ed092",
+      "crc32": "5a5f33f1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000056.png",
+      "bytes": 1793599,
+      "sha256": "1299dbdedebd5858e10ce756fb1e5ca5cce9455a259303a21d6d30dd1f2579f9",
+      "crc32": "287b9dbc"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000057.png",
+      "bytes": 1794073,
+      "sha256": "bbe80a65723b6b3e3475e7cce26601d73c449632e34b85ea91887c5d7705738f",
+      "crc32": "14cffdcf"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000058.png",
+      "bytes": 1460164,
+      "sha256": "52458baacca8ef74eeff31cd060978c3f0790a57bf2521cb2385ecd59969ff9f",
+      "crc32": "f5d42474"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/alpha/X-palm/000059.png",
+      "bytes": 1410098,
+      "sha256": "2076d5a7937708e4c71cbc8fa0049cdfd857962db1e64ad2c09c42e0a42d887c",
+      "crc32": "c8d89292"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/audio/edge-selected.wav",
+      "bytes": 11520044,
+      "sha256": "428b812c2473eca609df7b73ec67a9236f9ede317e31ba7a9be09f9d2211091a",
+      "crc32": "21382bf2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/audio/master.wav",
+      "bytes": 11520044,
+      "sha256": "428b812c2473eca609df7b73ec67a9236f9ede317e31ba7a9be09f9d2211091a",
+      "crc32": "21382bf2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/fonts/BarlowCondensed-ExtraBold.woff2",
+      "bytes": 23116,
+      "sha256": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+      "crc32": "1a43ba67"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/fonts/heavy.ttf",
+      "bytes": 37504,
+      "sha256": "75deada1f6eb9727e2f62bce105b9168c9183ac46d230b181f4b79a33d788403",
+      "crc32": "0ca3f468"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/BLACK.mp4",
+      "bytes": 7347,
+      "sha256": "31cca9f08a53c936144c886092877b731e992d9d574c7005ff46f3788c1807cd",
+      "crc32": "f661f882"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C01.mp4",
+      "bytes": 1689363,
+      "sha256": "a33edaa891fdc06978f593c311de9a0cc2eef476d1687c5f16015e8a05fc9023",
+      "crc32": "add38068"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C02.mp4",
+      "bytes": 1175388,
+      "sha256": "2a3d8807948825c4faf927ef4b0ac258c5f1bea983cc822a15aa38d6c24b00ed",
+      "crc32": "c873882d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C03.mp4",
+      "bytes": 1105709,
+      "sha256": "197c308eaaac76b0c29e9def2af8cdad28647be7fdc4b86b39599fbf6d78fd06",
+      "crc32": "4a23dd0a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C05.mp4",
+      "bytes": 854578,
+      "sha256": "62b2d86d04e06d9da18c6abeabdb8d9a8386c33709a03f8e54c56f548fd65a36",
+      "crc32": "88282d93"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C06.mp4",
+      "bytes": 1641861,
+      "sha256": "23b36e6ec7f0c7e94c3d9e95b7f257191d3975948d5efd1a56137b4adee8907f",
+      "crc32": "a1a1d3b2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C07.mp4",
+      "bytes": 1624405,
+      "sha256": "d30708480df3f2e6a70fbd8659cc28ac70cfd82440aa8493e9ca2a885ff35ea5",
+      "crc32": "15158bf7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C09.mp4",
+      "bytes": 4957945,
+      "sha256": "1b6b417e5ba7fb511032f22e629e56069caacae5790a44114d7d4d4802a9485b",
+      "crc32": "66ef84aa"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C12.mp4",
+      "bytes": 733409,
+      "sha256": "9a1722728dcfe9f5bc8639fc18ffd96e246ad6057d27ea711ae9e851cedf5903",
+      "crc32": "3566a693"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C13.mp4",
+      "bytes": 1074530,
+      "sha256": "445b2d7847f4b8396c9ed8d7c3b3d52cb9912796b58130e813cf82196a72bcbd",
+      "crc32": "2678894a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C14.mp4",
+      "bytes": 1913252,
+      "sha256": "f7321c818bdff8dbd85c7394af25e89af325309585ff621ed60c1fe6fc11dc14",
+      "crc32": "08a52e29"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C16.mp4",
+      "bytes": 1544970,
+      "sha256": "7dff454b5b64c484ce8c23136c0fb46cb07ed66959013a92a48be9619f614cb6",
+      "crc32": "ec41f454"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C17.mp4",
+      "bytes": 919017,
+      "sha256": "c95c8597012b4e7fffc4c3db3abf8ab47c39f8711366cb4c0eb2061465b1774e",
+      "crc32": "6b40f30d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C18.mp4",
+      "bytes": 1049444,
+      "sha256": "989cda06394fb8966652909cbc5577f9472d936bd3b1824613813b266c0715d1",
+      "crc32": "d24959cd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C20.mp4",
+      "bytes": 2342403,
+      "sha256": "e7947564660cad2fae6d46550f13a446faf0dae07dccdae3f058ee5b9dc086a5",
+      "crc32": "b9f5fdd5"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C21.mp4",
+      "bytes": 1620757,
+      "sha256": "1c346e9e3f828dc6a856eb5497ae5cbb1e0ae59f9cec5197ace1481a1467e6c1",
+      "crc32": "bd9f493f"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C22.mp4",
+      "bytes": 702359,
+      "sha256": "dcdde7fb7d0a14c405b9e6ff587ae6c201aff539418f7cd936173ec7f198be76",
+      "crc32": "75e4cf0b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C23.mp4",
+      "bytes": 869874,
+      "sha256": "5376e80b8bfd63223892c616f5df77c8eddbd877bd94325bd1461fafff8ca4c9",
+      "crc32": "de8431f6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C24.mp4",
+      "bytes": 754385,
+      "sha256": "44c37b0f33b93f927b9d9c51f30500f8346e47b63666bdd0c8c150c8efe0d190",
+      "crc32": "a9452bfe"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C25.mp4",
+      "bytes": 733257,
+      "sha256": "5b12bf406b6423156b7f7a612c704ddbfa437eab23a4037fb00f8d2ff53547b2",
+      "crc32": "64122e85"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C28.mp4",
+      "bytes": 3153904,
+      "sha256": "9e17d16ef291a4f313322302f7b968c27adcdc86e2df45fb6105449dc70cc6a7",
+      "crc32": "e0178d35"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C29.mp4",
+      "bytes": 4495399,
+      "sha256": "60bd91b8cb2f1c7a41a45e0e0c8390efba63295f4870ec92bded771e24ac5cb6",
+      "crc32": "b4d57b59"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C30.mp4",
+      "bytes": 1600428,
+      "sha256": "9708b618b294ec837a3b37c79e4ec36047b695f4ec492d0bc996fef31ef2462e",
+      "crc32": "f4ad64ab"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C31.mp4",
+      "bytes": 1194903,
+      "sha256": "72ff34d26fdf6ba9cff63a247ccecafd99b361a5c18f04da84624f78b8338c42",
+      "crc32": "b63b7be0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C32.mp4",
+      "bytes": 999454,
+      "sha256": "187554b519710428c9efe6d1b806718c7fa20e8a574a6e17e9633867c45bb1c8",
+      "crc32": "06f0322b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C33.mp4",
+      "bytes": 2541439,
+      "sha256": "9ff5cd1f79c09a80396767079f8be8a9af521bbc917dcb105b35e2879f192998",
+      "crc32": "648030dd"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C35.mp4",
+      "bytes": 815585,
+      "sha256": "34d3c5cb9c9fe55e2cff3d3bb2e9e3b57c25fa1eec2724b51ef53f45d15a0530",
+      "crc32": "c84d8fd9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C36.mp4",
+      "bytes": 1629129,
+      "sha256": "e6a5109091fa84b8ffd59eb4ee8051f5fbee3e4e8cadf2743b78b83808ae77ab",
+      "crc32": "9520cfca"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C37.mp4",
+      "bytes": 1721189,
+      "sha256": "9e39a72809eb707a7aa363c30852f010d2a13fee98bf63a9945b2def4430a107",
+      "crc32": "93e856b3"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C38.mp4",
+      "bytes": 1815217,
+      "sha256": "6fe04478df8d2a0e428e02ae90f636a7e64740da43a54c85a77968bba04a612e",
+      "crc32": "6f2aca7c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C39.mp4",
+      "bytes": 2703555,
+      "sha256": "b70cbaaab1f090a4d8d9e4465d83e478cf7150d30015d8dc63fa86aabe961cfb",
+      "crc32": "1ac211a8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C40.mp4",
+      "bytes": 1592712,
+      "sha256": "a27317387a02202fb74f39dece4552b2feeb0fd019b7ff3d8736da9453fd89d8",
+      "crc32": "c2e2b130"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C42.mp4",
+      "bytes": 1730497,
+      "sha256": "9a9d67557a943014a0a9332bec7587b7b542a2b2535c45b0774d1f156f68f750",
+      "crc32": "b336d22b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C43.mp4",
+      "bytes": 1983113,
+      "sha256": "1bf5289d13abec0a13bef82304fe302013a8262f39704477010cc2099021898e",
+      "crc32": "d90acaf8"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C45.mp4",
+      "bytes": 1761889,
+      "sha256": "fab45a94803e42ebcac57962776b7c35d06451aee6c8a77879184f4bd1136d7c",
+      "crc32": "7285ca38"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C46.mp4",
+      "bytes": 1514432,
+      "sha256": "ebb2bf98d6f8339c79442e39c2d38ebcad67073e3d8e856d2fe4ac6f6dd4f9a5",
+      "crc32": "7b343644"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C47.mp4",
+      "bytes": 2459581,
+      "sha256": "6ed13f54a2ade359f39b03131318558dda9751f19a7cdb4351385eaa573b695f",
+      "crc32": "377369e0"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C48.mp4",
+      "bytes": 2601799,
+      "sha256": "675e98265f238fea52850c93f55494eb0c4d6681cb30958b2ca3454f439ddc59",
+      "crc32": "1f421a37"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C49.mp4",
+      "bytes": 2198569,
+      "sha256": "b51fecbf6ef62f2eb54c6ebe228ab7ac20ba3d5cb565281d33f1a483e7bd7f8b",
+      "crc32": "6abbd32b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C50.mp4",
+      "bytes": 3119722,
+      "sha256": "110c79b4b4ff532f95f827a8e780050857a17ae5e5028b86cfa5b5db9b2f91d7",
+      "crc32": "dab7ba84"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C51.mp4",
+      "bytes": 5660795,
+      "sha256": "62cde583a87a381a885097d735894da89a59ebad4e9446c5d1f145289f4ece69",
+      "crc32": "67ea8222"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C52.mp4",
+      "bytes": 3031424,
+      "sha256": "c71e81648c2e5c4b07be0ad7253c9c042a5a06f67fd87c09702353ff34d43636",
+      "crc32": "ad6fc2f2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C53.mp4",
+      "bytes": 1967346,
+      "sha256": "f4423fb159007275d367fdedc3f8cbf3cbb7a420542e2de9a38b87759c326101",
+      "crc32": "b7bdfac7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C54.mp4",
+      "bytes": 1089167,
+      "sha256": "1b08c4f0ea7ad78befd0c07bb771d6524b3f267dfc4f21e103d88d9dfd6da1a2",
+      "crc32": "4d60e6d1"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/C55.mp4",
+      "bytes": 2601900,
+      "sha256": "033fc92f841581d029968a9cd615f99b2f2b6034a1c98dcfedb428f1f7c73c77",
+      "crc32": "84b37d10"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/X-awaken.mp4",
+      "bytes": 1092672,
+      "sha256": "10c4188cae3aa9ec481f622d1e58fcd16077048db5beb003371d7a6f872f9d98",
+      "crc32": "ada00e40"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/assets/shots/X-palm.mp4",
+      "bytes": 763515,
+      "sha256": "ee5ce6f228047014068255e5202aae6283b5cd85596f24ae3cdbae9bf65a3759",
+      "crc32": "843198e6"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/audio-report/full-track-analysis.json",
+      "bytes": 2561,
+      "sha256": "7c7165769dec3b2544e5d50b46132d199d7920111da595c6febcaeaed24d9415",
+      "crc32": "e814aec7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/audio-report/music-window-waveform.png",
+      "bytes": 11749,
+      "sha256": "5e2a039226f941ad6c44d62ec445ed708c89b8cac52b579023e4f382207bf653",
+      "crc32": "b4fb3bd7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/audio-report/selected-audio.json",
+      "bytes": 20326,
+      "sha256": "5c5c0da4c615572777981b0908024d40289d53ce19dc2b6b19b0ba64b1ddffb9",
+      "crc32": "4b15ca1a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/hyperframes/motion/lens-keyframes.json",
+      "bytes": 2311,
+      "sha256": "1da2a8ce4cf51e1e2dbd12b36180e384001d6ff514c0f1c44e3f311ef477d7e1",
+      "crc32": "907740e2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0000-0072.mp4",
+      "bytes": 2208442,
+      "sha256": "9600a93d462e78ce00962de0ab715370ec4e1f3461234575cd62639ccc6d6f76",
+      "crc32": "c2d6756c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0072-0144.mp4",
+      "bytes": 1893760,
+      "sha256": "49946ba3b26efca7492a30cf99d03687aeb0592f08fe0f06dc80dddf9af87bc9",
+      "crc32": "dffe1049"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0144-0216.mp4",
+      "bytes": 2296133,
+      "sha256": "d8749277c8bdb207895f8825cbe6c7931c5ed3f97ad8cc8b7622f3884042da1d",
+      "crc32": "fadda300"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0216-0288.mp4",
+      "bytes": 2033061,
+      "sha256": "37a247a32313cb496bebfad9ba54ad6ef1a8c4b4e2d6f54321d532b462485d09",
+      "crc32": "f2f2e625"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0288-0360.mp4",
+      "bytes": 2296964,
+      "sha256": "f5a5af6a60c0c604a5fab08815af10da527c9fd2230390c309869c26711dfead",
+      "crc32": "606b0c1c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0360-0432.mp4",
+      "bytes": 1135083,
+      "sha256": "2992a3bff5be1befd509f7c2912503db5ea3c7167c050516bf544303168abb77",
+      "crc32": "31f14d44"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0432-0504.mp4",
+      "bytes": 2192774,
+      "sha256": "d675472a7322288a00e71fc78213c7b23834b7d27c094bfe01883fabf8ad2269",
+      "crc32": "65000006"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0504-0576.mp4",
+      "bytes": 3417166,
+      "sha256": "a2b18749bdee01a521774404b03667d95357f4a9c0ee6ff512b16f2a096bd7e2",
+      "crc32": "5464c7eb"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0576-0648.mp4",
+      "bytes": 2019399,
+      "sha256": "14ca5d79f50bf1f234bca5eef1d560f0790cc6776518d748d3a3e3dec927314a",
+      "crc32": "e8553390"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0648-0720.mp4",
+      "bytes": 1676082,
+      "sha256": "ce5eb3dcce752a9bb11489ebdc4c069ca3d2511cd992d8a59c164f1b73bb192e",
+      "crc32": "3b6645cf"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0720-0792.mp4",
+      "bytes": 2914135,
+      "sha256": "11ed626bfd0354b601110ebf686f4cd0e1868190b9ef5708b536eb6fe7966ad4",
+      "crc32": "fcf93f3d"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0792-0864.mp4",
+      "bytes": 3303532,
+      "sha256": "a59749d5f3a2ddfaba3b48f25f8dcdaa267a14ad4fe11d1f0a8e19425e666d9f",
+      "crc32": "31bebbc2"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0864-0936.mp4",
+      "bytes": 3419022,
+      "sha256": "4bbeb6c30d73a17c173b1bda561659cc797f45c087064432764afe30dfd19899",
+      "crc32": "f46a26a7"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-0936-1008.mp4",
+      "bytes": 3234241,
+      "sha256": "511d0989b278ea462b8e6565f3288a36833d5e07abd0d7725275e93fc11b1f55",
+      "crc32": "f192c140"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-1008-1080.mp4",
+      "bytes": 3181983,
+      "sha256": "86256574694616cbfde68b5b14d93675ad333df3c65c488dbb22d5834ec934d2",
+      "crc32": "1e3330d9"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-1080-1152.mp4",
+      "bytes": 4805323,
+      "sha256": "73a2c9306eed8653b26a348d815c8685625d7c19c3f0014a20cdfcc6d1432794",
+      "crc32": "c3af27ac"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-1152-1224.mp4",
+      "bytes": 3741294,
+      "sha256": "857df861fb3abf85d81a7785c5f6cb342f0e12ae3766faf9f08ef2f468866665",
+      "crc32": "0cf83825"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-1224-1296.mp4",
+      "bytes": 3005415,
+      "sha256": "bce769566fd8d5f2e35147f98b848ce96c8ec2cb028dbf99264b62fc8ce2bc9e",
+      "crc32": "01ff3350"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-1296-1368.mp4",
+      "bytes": 2709047,
+      "sha256": "847f4ba644ae31a599f8109f5349be1a79aa23d9017a756d1f415c740b30acc0",
+      "crc32": "8a6f6755"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/occ-effects/HF-1368-1440.mp4",
+      "bytes": 2243513,
+      "sha256": "6edf209d9cd88543babfbf055c0e76391c378313c632a46e48ad97b7a2c4eb61",
+      "crc32": "7fdd1351"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/openchatcut/README_工程说明.md",
+      "bytes": 2047,
+      "sha256": "e4624d4319ecc3b637eed5af74aa6274454724e4d47cfcc70b11ab9ad463b173",
+      "crc32": "4f772e3c"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/openchatcut/原生时间线核验.json",
+      "bytes": 40970,
+      "sha256": "597bcf4c0b12a6e98d6c1cf17cb5a09bab09b00e7840c6d6b183c2ed2475bc8f",
+      "crc32": "331e8f7b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/openchatcut/官方工程包导入回验.json",
+      "bytes": 51182,
+      "sha256": "de5943ca6efc62d43d12388ecc74ba8de966f2e8ca29432f99e5ca5cb60be672",
+      "crc32": "efca281b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/openchatcut/官方工程包验证.json",
+      "bytes": 36496,
+      "sha256": "85a9ead291ebc4b152487222fcbfdb590c2d434f618e6a77246d76207a8c49f7",
+      "crc32": "3fd17acf"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/openchatcut/导入副本Doc.json",
+      "bytes": 114811,
+      "sha256": "2963054602b18cba7fb3ff95a0f3bac2ef21fe8cde93b288ab5ed31bcb056b21",
+      "crc32": "1d3f2428"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/openchatcut/工程Doc.json",
+      "bytes": 109316,
+      "sha256": "d1ba26c5a41127f224b3cbd7028a53afc551536a43c093ad8e8725aeaa964447",
+      "crc32": "00e4bc51"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/openchatcut/工程包最终回读.json",
+      "bytes": 2815,
+      "sha256": "657c08cf7f1fd6bfd2f7d244aa68b72d78c8400a27d5ce182806ec0c379e585d",
+      "crc32": "7ec4978a"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/openchatcut/挚友 · EDGE · V17主参考 _ V02字效.ccproj",
+      "bytes": 200824109,
+      "sha256": "c3aa875c9ce5be4890c4ddb1dd7dc110fdbb3bb3a11c4816eb910b84787889b4",
+      "crc32": "65b2945b"
+    },
+    {
+      "path": "outputs/jjk-edge-v17/openchatcut/时间线核验.json",
+      "bytes": 33016,
+      "sha256": "30449a052c849aa3c2cce4d8e7e643efbd8c68159e1bf1af650061ec7a719cf0",
+      "crc32": "367d232b"
+    }
+  ]
+}

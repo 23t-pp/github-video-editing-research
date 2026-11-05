@@ -1,0 +1,13 @@
+{
+  "schema": "reference-editing-study/recipe-v1",
+  "status": "分析配方；未执行复刻；不是OpenChatCut原生工程格式",
+  "parameter_policy": "所有帧数和参数都是建议初值，不是原作者参数。必须按源素材与声音试制。",
+  "recipes": [
+    {"id":"R01","name":"六格视频拼图","references":["V05:1.7-2.3"],"difficulty":2,"inputs":["A底片","B来镜"],"layers_bottom_to_top":["A全幅","B同步时间的3列2行裁切窗口","可选短亮度冲击"],"controls":["网格行列","出现顺序","格间错开帧数","总尺寸","位置"],"trial":{"fps":30,"stagger_frames":2},"tool":"HyperFrames裁切容器与时间线；OCC回装","verify":["六格源时间同步","接全幅时主体不跳","无裁切黑缝"]},
+    {"id":"R02","name":"圆形揭示","references":["V01:20.6-22.5","V10:6.4-8.9"],"difficulty":3,"inputs":["A旧镜","B来镜","可选前景轮廓"],"layers_bottom_to_top":["A全幅","B与圆形mask","可选边缘前景"],"controls":["圆心轨迹","半径曲线","B位置","B缩放","羽化"],"trial":{"duration_source_frames":[6,12],"feather_px":[1,3]},"tool":"HyperFrames；OCC圆形mask的动态参数需按界面实测","verify":["末帧覆盖四角","窗口与视频缩放分别检查","B接全幅无跳位"]},
+    {"id":"R03","name":"前景先入后换背景","references":["V03:15.4-17.9","V07:5.4-7.2","V08:7.2-8.65"],"difficulty":5,"inputs":["A旧镜","B全幅","B同源动态alpha"],"layers_bottom_to_top":["A全幅","延后显示的B全幅","提前显示的B前景alpha"],"controls":["前景领先秒数","背景换镜时刻","源时间同步","alpha边缘"],"trial":{"foreground_lead_sec":[0.2,0.5]},"tool":"遮罩单独准备；HF合成；OCC拼接","verify":["手指/袖口空洞无漏底","同源帧同步","合流无双影"]},
+    {"id":"R04","name":"眼形或指缝门户","references":["V04:11.65-13.15","V07:25.7-28.9","V10:8.9-10.8"],"difficulty":5,"inputs":["A旧镜","B来镜","内窗动态路径","A前景alpha"],"layers_bottom_to_top":["A全幅","内窗裁切的B","A眼罩边/手指/轮辐alpha"],"controls":["路径顶点随时间变化","B位置和尺度","窗口扩张","透视与遮挡"],"tool":"HyperFrames SVG路径与分层；复杂路径来源待制作","verify":["轮廓逐帧贴合","前后遮挡成立","全幅合流连续"],"limitation":"OCC简单位置跟踪不能等同于动态贝塞尔、三维或透视跟踪"},
+    {"id":"R05","name":"动作相位匹配","references":["V06:55.917","V06:81.750","V06:93.500","V06:94.083"],"difficulty":3,"inputs":["A同向动作","B同向动作","声音重点标记"],"controls":["位置锚点","大小","方向","动作相位","切口帧","可选短叠化"],"trial":{"trim_adjust_frames":[-3,3],"handshake_dissolve_frames_at_24fps":[3,5]},"tool":"OpenChatCut分割和基础关键帧","verify":["运动方向延续","视线不丢主体","声画重心一致"],"limitation":"枪示例为硬切，握手示例为短叠化，不统一套预设"},
+    {"id":"R06","name":"漫画人物与CRT尾声","references":["V02:3.6-5.6","V04:9.6-11.65","V05:21.9-23.1"],"difficulty":4,"inputs":["人物alpha","底色网点","可编辑文字","尾声全幅片段"],"submodules":["大字在人物后","alpha膨胀描边","白剪影","CRT扫描线/纵向压缩/横向收缩"],"trial":{"outline_px":[2,6],"white_silhouette_frames":[1,2],"crt_vertical_sec":0.2,"crt_horizontal_sec":[0.2,0.3]},"tool":"HyperFrames合成短段再回装OCC","verify":["描边只沿人物","文字可读","CRT压缩顺序正确"]}
+  ]
+}

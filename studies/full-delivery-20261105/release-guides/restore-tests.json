@@ -1,0 +1,39 @@
+{
+  "state": "PASS",
+  "results": [
+    {
+      "test": "越界拒绝/ZIP符号链接拒绝/缺独立资产预检/同SHA跳过/不同内容不覆盖",
+      "state": "PASS"
+    },
+    {
+      "test": "真实S1 2217源entry+正式HF/OCC+137补包文件，全部逐源SHA复核，第二次2356文件同SHA跳过",
+      "state": "PASS",
+      "first": {
+        "state": "complete",
+        "workspace": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\publish-all-20261105\\projects\\restore-smoke-workspace",
+        "packages": [
+          "jjk-s1-workflow-complete.zip",
+          "publication-supplement.zip"
+        ],
+        "written": 0,
+        "same": 2356,
+        "notices": [
+          "独立JPG库（可选）: release jjk-s1-jpg-60hz-2026-11-05 -> outputs/jjk-s1-workflow/素材集_60Hz_JPG"
+        ]
+      },
+      "second": {
+        "state": "complete",
+        "workspace": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\publish-all-20261105\\projects\\restore-smoke-workspace",
+        "packages": [
+          "jjk-s1-workflow-complete.zip",
+          "publication-supplement.zip"
+        ],
+        "written": 0,
+        "same": 2356,
+        "notices": [
+          "独立JPG库（可选）: release jjk-s1-jpg-60hz-2026-11-05 -> outputs/jjk-s1-workflow/素材集_60Hz_JPG"
+        ]
+      }
+    }
+  ]
+}

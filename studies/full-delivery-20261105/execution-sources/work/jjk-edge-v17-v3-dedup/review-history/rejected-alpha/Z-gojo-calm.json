@@ -1,0 +1,495 @@
+{
+  "id": "Z-gojo-calm",
+  "assetId": "N33",
+  "first": 12,
+  "endExclusive": 60,
+  "frames": 48,
+  "method": "manual silhouette anchors + constrained LK + narrow-band GrabCut; 0.7px feather; visible crop only",
+  "rgbExactPreparedFrame": true,
+  "sourceNativeFps": "24000/1001",
+  "preparedFps": 24,
+  "noGeneratedRGB": true,
+  "limitations": "人工轮廓近似，细发丝和制服边可能有窄边残留；不恢复原片裁切以外的人体。",
+  "samples": [
+    {
+      "fileFrame": 12,
+      "pixels": 212066,
+      "bounds": [
+        669,
+        118,
+        1096,
+        971
+      ]
+    },
+    {
+      "fileFrame": 13,
+      "pixels": 211937,
+      "bounds": [
+        669,
+        118,
+        1089,
+        971
+      ]
+    },
+    {
+      "fileFrame": 14,
+      "pixels": 219705,
+      "bounds": [
+        667,
+        126,
+        1101,
+        971
+      ]
+    },
+    {
+      "fileFrame": 15,
+      "pixels": 218855,
+      "bounds": [
+        667,
+        126,
+        1091,
+        971
+      ]
+    },
+    {
+      "fileFrame": 16,
+      "pixels": 223092,
+      "bounds": [
+        667,
+        126,
+        1109,
+        971
+      ]
+    },
+    {
+      "fileFrame": 17,
+      "pixels": 234999,
+      "bounds": [
+        675,
+        136,
+        1110,
+        971
+      ]
+    },
+    {
+      "fileFrame": 18,
+      "pixels": 240943,
+      "bounds": [
+        675,
+        136,
+        1115,
+        971
+      ]
+    },
+    {
+      "fileFrame": 19,
+      "pixels": 241243,
+      "bounds": [
+        669,
+        137,
+        1107,
+        971
+      ]
+    },
+    {
+      "fileFrame": 20,
+      "pixels": 242747,
+      "bounds": [
+        666,
+        137,
+        1110,
+        971
+      ]
+    },
+    {
+      "fileFrame": 21,
+      "pixels": 245529,
+      "bounds": [
+        662,
+        137,
+        1109,
+        971
+      ]
+    },
+    {
+      "fileFrame": 22,
+      "pixels": 259062,
+      "bounds": [
+        667,
+        136,
+        1112,
+        971
+      ]
+    },
+    {
+      "fileFrame": 23,
+      "pixels": 275692,
+      "bounds": [
+        658,
+        136,
+        1121,
+        971
+      ]
+    },
+    {
+      "fileFrame": 24,
+      "pixels": 297967,
+      "bounds": [
+        586,
+        140,
+        1122,
+        971
+      ]
+    },
+    {
+      "fileFrame": 25,
+      "pixels": 293151,
+      "bounds": [
+        629,
+        140,
+        1122,
+        971
+      ]
+    },
+    {
+      "fileFrame": 26,
+      "pixels": 309337,
+      "bounds": [
+        566,
+        139,
+        1123,
+        971
+      ]
+    },
+    {
+      "fileFrame": 27,
+      "pixels": 310543,
+      "bounds": [
+        572,
+        139,
+        1129,
+        971
+      ]
+    },
+    {
+      "fileFrame": 28,
+      "pixels": 316157,
+      "bounds": [
+        568,
+        139,
+        1127,
+        971
+      ]
+    },
+    {
+      "fileFrame": 29,
+      "pixels": 310259,
+      "bounds": [
+        569,
+        139,
+        1131,
+        971
+      ]
+    },
+    {
+      "fileFrame": 30,
+      "pixels": 305861,
+      "bounds": [
+        566,
+        140,
+        1137,
+        971
+      ]
+    },
+    {
+      "fileFrame": 31,
+      "pixels": 306358,
+      "bounds": [
+        568,
+        140,
+        1137,
+        971
+      ]
+    },
+    {
+      "fileFrame": 32,
+      "pixels": 303803,
+      "bounds": [
+        571,
+        146,
+        1147,
+        971
+      ]
+    },
+    {
+      "fileFrame": 33,
+      "pixels": 306601,
+      "bounds": [
+        570,
+        144,
+        1147,
+        971
+      ]
+    },
+    {
+      "fileFrame": 34,
+      "pixels": 306619,
+      "bounds": [
+        570,
+        146,
+        1151,
+        971
+      ]
+    },
+    {
+      "fileFrame": 35,
+      "pixels": 304921,
+      "bounds": [
+        570,
+        144,
+        1153,
+        971
+      ]
+    },
+    {
+      "fileFrame": 36,
+      "pixels": 304309,
+      "bounds": [
+        571,
+        149,
+        1155,
+        971
+      ]
+    },
+    {
+      "fileFrame": 37,
+      "pixels": 324922,
+      "bounds": [
+        571,
+        108,
+        1155,
+        971
+      ]
+    },
+    {
+      "fileFrame": 38,
+      "pixels": 306256,
+      "bounds": [
+        572,
+        149,
+        1186,
+        971
+      ]
+    },
+    {
+      "fileFrame": 39,
+      "pixels": 313027,
+      "bounds": [
+        571,
+        147,
+        1193,
+        971
+      ]
+    },
+    {
+      "fileFrame": 40,
+      "pixels": 318129,
+      "bounds": [
+        567,
+        148,
+        1199,
+        971
+      ]
+    },
+    {
+      "fileFrame": 41,
+      "pixels": 320151,
+      "bounds": [
+        568,
+        147,
+        1203,
+        971
+      ]
+    },
+    {
+      "fileFrame": 42,
+      "pixels": 336242,
+      "bounds": [
+        554,
+        140,
+        1212,
+        971
+      ]
+    },
+    {
+      "fileFrame": 43,
+      "pixels": 331567,
+      "bounds": [
+        560,
+        142,
+        1214,
+        971
+      ]
+    },
+    {
+      "fileFrame": 44,
+      "pixels": 340574,
+      "bounds": [
+        548,
+        136,
+        1221,
+        971
+      ]
+    },
+    {
+      "fileFrame": 45,
+      "pixels": 337329,
+      "bounds": [
+        555,
+        140,
+        1222,
+        971
+      ]
+    },
+    {
+      "fileFrame": 46,
+      "pixels": 332247,
+      "bounds": [
+        565,
+        137,
+        1227,
+        971
+      ]
+    },
+    {
+      "fileFrame": 47,
+      "pixels": 324788,
+      "bounds": [
+        565,
+        143,
+        1229,
+        971
+      ]
+    },
+    {
+      "fileFrame": 48,
+      "pixels": 339185,
+      "bounds": [
+        556,
+        108,
+        1240,
+        971
+      ]
+    },
+    {
+      "fileFrame": 49,
+      "pixels": 340088,
+      "bounds": [
+        558,
+        108,
+        1239,
+        971
+      ]
+    },
+    {
+      "fileFrame": 50,
+      "pixels": 355662,
+      "bounds": [
+        555,
+        108,
+        1234,
+        971
+      ]
+    },
+    {
+      "fileFrame": 51,
+      "pixels": 345178,
+      "bounds": [
+        554,
+        121,
+        1235,
+        971
+      ]
+    },
+    {
+      "fileFrame": 52,
+      "pixels": 355607,
+      "bounds": [
+        537,
+        119,
+        1242,
+        971
+      ]
+    },
+    {
+      "fileFrame": 53,
+      "pixels": 353602,
+      "bounds": [
+        540,
+        119,
+        1245,
+        971
+      ]
+    },
+    {
+      "fileFrame": 54,
+      "pixels": 333239,
+      "bounds": [
+        533,
+        125,
+        1241,
+        971
+      ]
+    },
+    {
+      "fileFrame": 55,
+      "pixels": 339854,
+      "bounds": [
+        536,
+        125,
+        1245,
+        971
+      ]
+    },
+    {
+      "fileFrame": 56,
+      "pixels": 336967,
+      "bounds": [
+        530,
+        141,
+        1258,
+        971
+      ]
+    },
+    {
+      "fileFrame": 57,
+      "pixels": 350080,
+      "bounds": [
+        532,
+        108,
+        1261,
+        971
+      ]
+    },
+    {
+      "fileFrame": 58,
+      "pixels": 352871,
+      "bounds": [
+        537,
+        108,
+        1243,
+        971
+      ]
+    },
+    {
+      "fileFrame": 59,
+      "pixels": 338286,
+      "bounds": [
+        533,
+        154,
+        1273,
+        971
+      ]
+    }
+  ]
+}

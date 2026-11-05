@@ -1,0 +1,478 @@
+{
+  "reviewed_at": "2026-11-04T12:11:12.969Z",
+  "method": "仅使用已登录GitHub CLI进行搜索、metadata/commit/tree/raw文件读取；未安装、不运行未知仓库代码，全部为静态源码审查。",
+  "searches": [
+    {
+      "query": "\"beat sync\" video",
+      "timestamp": "2026-11-04T12:05:38.5331662Z",
+      "count": 30,
+      "total_count": 269,
+      "raw_file": "work\\beat_montage\\search-1.json"
+    },
+    {
+      "query": "\"music video generator\"",
+      "timestamp": "2026-11-04T12:05:40.7032941Z",
+      "count": 30,
+      "total_count": 181,
+      "raw_file": "work\\beat_montage\\search-2.json"
+    },
+    {
+      "query": "\"beat detection\" montage",
+      "timestamp": "2026-11-04T12:05:43.1991843Z",
+      "count": 0,
+      "total_count": 0,
+      "raw_file": "work\\beat_montage\\search-3.json"
+    },
+    {
+      "query": "AMV generator",
+      "timestamp": "2026-11-04T12:05:44.2278023Z",
+      "count": 15,
+      "total_count": 15,
+      "raw_file": "work\\beat_montage\\search-4.json"
+    },
+    {
+      "query": "卡点",
+      "timestamp": "2026-11-04T12:05:46.0569531Z",
+      "count": 30,
+      "total_count": 2087,
+      "raw_file": "work\\beat_montage\\search-5.json"
+    },
+    {
+      "query": "混剪",
+      "timestamp": "2026-11-04T12:05:48.0864689Z",
+      "count": 30,
+      "total_count": 292,
+      "raw_file": "work\\beat_montage\\search-6.json"
+    },
+    {
+      "query": "\"lyric video\" generator",
+      "timestamp": "2026-11-04T12:05:50.0358409Z",
+      "count": 30,
+      "total_count": 92,
+      "raw_file": "work\\beat_montage\\search-7.json"
+    },
+    {
+      "query": "\"beat-synced\"",
+      "timestamp": "2026-11-04T12:05:52.5278129Z",
+      "count": 30,
+      "total_count": 508,
+      "raw_file": "work\\beat_montage\\search-8.json"
+    }
+  ],
+  "candidates_file": "candidates.json",
+  "candidate_count": 179,
+  "shortlisted": [
+    {
+      "repo": "blixvip/easyedit",
+      "category": "情绪影视混剪 / 可换素材视觉模板",
+      "is_template": true,
+      "beat_capability": "真音频分析：numpy谱通量、自相关估计70–180 BPM、动态规划beat tracker；按实际beat时间取短长镜头，慢歌会插入半拍。",
+      "dependencies": "Python 3.10+、Node 22+、FFmpeg；numpy、OpenCV、faster-whisper、yt-dlp；HyperFrames 0.8.40；可选Claude/Codex CLI。",
+      "windows": "README提供easyedit-web.cmd，仓库含Windows启动器。CPU路径和NVIDIA加速均有文档；本次未运行。",
+      "limitations": [
+        "专门做speech→music montage→hero的固定叙事结构，不是任意多轨编辑器。",
+        "本地素材可替换，但默认会下载YouTube素材；素材许可需自行确认。",
+        "节拍范围70–180 BPM与短长PATTERN是实现约束；不是经过实测的万能节拍/情绪识别。",
+        "README展示性能和样片，本次只静态审查，未验证渲染结果。"
+      ],
+      "recommendation": "本组最贴近情绪混剪和可换素材模板：先研究template/film.js，再用本地素材验证整条流程。",
+      "evidence": [
+        {
+          "claim": "谱通量+DP跟踪真实beat",
+          "path": "easyedit/beats.py",
+          "url": "https://github.com/blixvip/easyedit/blob/b0462b776b5ccd1a2225f35e09ffab2396448a0e/easyedit/beats.py",
+          "detail": "onset_envelope→tempo→track；find_drop结合前后响度与beat strength。"
+        },
+        {
+          "claim": "切镜实际消耗beat数组",
+          "path": "easyedit/assemble.py",
+          "url": "https://github.com/blixvip/easyedit/blob/b0462b776b5ccd1a2225f35e09ffab2396448a0e/easyedit/assemble.py",
+          "detail": "montage_slots使用beats[drop:]，PATTERN=[2,2,1,3,...]确定每个镜头跨几拍；不是仅按常数BPM切。"
+        },
+        {
+          "claim": "可复用视觉层",
+          "path": "template/film.js",
+          "url": "https://github.com/blixvip/easyedit/blob/b0462b776b5ccd1a2225f35e09ffab2396448a0e/template/film.js",
+          "detail": "beatPulse读取E.beats；镜头含push-in/whip/flash，Canvas含逐词字幕和按帧种子的grain。"
+        },
+        {
+          "claim": "可替换本地素材",
+          "path": "README.md",
+          "url": "https://github.com/blixvip/easyedit/blob/b0462b776b5ccd1a2225f35e09ffab2396448a0e/README.md",
+          "detail": "--speech / --montage / --music支持file、URL、search query；可修改curate.json和render/edit.js。"
+        }
+      ],
+      "url": "https://github.com/blixvip/easyedit",
+      "license": "MIT",
+      "stars": 167,
+      "pushed_at": "2026-10-31T20:59:55Z",
+      "sha": "b0462b776b5ccd1a2225f35e09ffab2396448a0e"
+    },
+    {
+      "repo": "ZiadAbdelkarim/beat-synced-edit",
+      "category": "卡点剪辑流水线 / JSON白闪模板",
+      "is_template": true,
+      "beat_capability": "主流水线真librosa beat_track→能量/scene标签→beat对齐EDL。独立flash_montage.py不检测节拍，只按seq.json时长拼接。",
+      "dependencies": "Python 3.10+、FFmpeg on PATH、librosa、PySceneDetect、OpenCV、NumPy、SciPy。CLI不用AI；skill由Claude编排。",
+      "windows": "通用Python/subprocess+FFmpeg路径；README主要用python3/brew示例，未见Windows专用验证。",
+      "limitations": [
+        "白闪模板没有beatmap输入，items[].dur与flash overlap决定切点；需要人工/agent预先计算时间。",
+        "主EDL对齐不等于最终成片已验证：plan_edit可能按源片长度缩短镜头；render_edit连续concat而不使用timeline_start补空隙，短镜头是否造成后续偏拍需要实际样例检查。",
+        "示例MP4存在，但本次未播放或渲染；视觉质量/Windows兼容性未实测。"
+      ],
+      "recommendation": "最适合拆成可维护的小型pipeline；拿beat_map/plan_edit/render_edit做原型，flash_montage单独当换图换视频的确定性模板。",
+      "evidence": [
+        {
+          "claim": "真实节拍检测",
+          "path": "beat_map.py",
+          "url": "https://github.com/ZiadAbdelkarim/beat-synced-edit/blob/48c09c92ee69c2d89b7e44b146bbd7b9c26fff08/beat_map.py",
+          "detail": "analyze_audio调用librosa.beat.beat_track，输出beat_times、RMS、峰谷和top segments。"
+        },
+        {
+          "claim": "可控beat剪辑计划",
+          "path": "plan_edit.py",
+          "url": "https://github.com/ZiadAbdelkarim/beat-synced-edit/blob/48c09c92ee69c2d89b7e44b146bbd7b9c26fff08/plan_edit.py",
+          "detail": "beats_relative用于timeline_start；--beat-stride稀疏切点，--lead/--pin手动指定素材。"
+        },
+        {
+          "claim": "白闪实际由配置决定",
+          "path": "flash_montage.py",
+          "url": "https://github.com/ZiadAbdelkarim/beat-synced-edit/blob/48c09c92ee69c2d89b7e44b146bbd7b9c26fff08/flash_montage.py",
+          "detail": "读取seq[items]；每个dur作为输入时长；xfade offset=acc-flash，总长=sum(dur)-(N-1)*flash。没有调用beat_map。"
+        },
+        {
+          "claim": "真实FFmpeg组装",
+          "path": "render_edit.py",
+          "url": "https://github.com/ZiadAbdelkarim/beat-synced-edit/blob/48c09c92ee69c2d89b7e44b146bbd7b9c26fff08/render_edit.py",
+          "detail": "extract_clip按源入出点编码，concat demuxer拼接，再混入音频；不会自动修复EDL时间空隙。"
+        }
+      ],
+      "url": "https://github.com/ZiadAbdelkarim/beat-synced-edit",
+      "license": "MIT",
+      "stars": 13,
+      "pushed_at": "2026-08-08T21:25:52Z",
+      "sha": "48c09c92ee69c2d89b7e44b146bbd7b9c26fff08"
+    },
+    {
+      "repo": "Merserk/BeatSync-Engine",
+      "category": "Windows自动AMV/GMV卡点编辑器",
+      "is_template": false,
+      "beat_capability": "真librosa onset strength+beat_track，失败可退onset_detect；后续音乐分段、能量切点选择、视觉片段规划，渲染按绝对帧量化。",
+      "dependencies": "便携Python 3.13、FFmpeg/ffprobe、Gradio、librosa 0.11、NumPy、OpenCV、cupy-cuda13x[ctk]；可选llama.cpp Vulkan+Qwen3-VL GGUF。",
+      "windows": "明确Windows目标且有install.bat/run.bat/install.ps1，贴合本机。安装器下载模型/CUDA相关依赖，最后执行CuPy GPU自检；不能凭CPU编码选项断言无GPU安装零障碍。",
+      "limitations": [
+        "AGPL-3.0，复制/修改/分发须先核对许可条款，不能当MIT素材包。",
+        "README提供CPU H.264输出，但安装脚本仍安装CuPy并执行GPU运算自检，CPU-only整条链路未证实。",
+        "Qwen模型、CUDA runtime、Vulkan与NVENC会增加环境成本；本次未安装、启动或渲染。",
+        "这是完整编辑应用，不是一个仅替换素材即可套出的固定成片工程。"
+      ],
+      "recommendation": "若优先Windows自动生成AMV/GMV，可列试用第一梯队；若要抽代码商用，先审AGPL与依赖。",
+      "evidence": [
+        {
+          "claim": "真实节拍检测与fallback",
+          "path": "src/auto_mode/stage1_audio.py",
+          "url": "https://github.com/Merserk/BeatSync-Engine/blob/06679c1f28c6d0b56c901495e52497cccebc744a/src/auto_mode/stage1_audio.py",
+          "detail": "计算onset_env，beat_track(start_bpm=120只是起始先验)，失败退onset_detect，并用frames_to_time取得时刻。"
+        },
+        {
+          "claim": "帧锁切点与片段规划",
+          "path": "src/video_processor.py",
+          "url": "https://github.com/Merserk/BeatSync-Engine/blob/06679c1f28c6d0b56c901495e52497cccebc744a/src/video_processor.py",
+          "detail": "build_frame_aligned_cut_timeline量化beat_times到输出帧；create_music_video调用build_planned_clip_sequence，失败才随机采样。"
+        },
+        {
+          "claim": "按音乐特征选择源片段",
+          "path": "src/auto_mode/stage6_av_planner.py",
+          "url": "https://github.com/Merserk/BeatSync-Engine/blob/06679c1f28c6d0b56c901495e52497cccebc744a/src/auto_mode/stage6_av_planner.py",
+          "detail": "每个slot采样能量、impact、rhythm、novelty等特征，形成target并materialize源片段。"
+        },
+        {
+          "claim": "Windows安装依赖成本",
+          "path": "scripts/install.ps1",
+          "url": "https://github.com/Merserk/BeatSync-Engine/blob/06679c1f28c6d0b56c901495e52497cccebc744a/scripts/install.ps1",
+          "detail": "下载便携Python、FFmpeg、llama.cpp、Qwen GGUF；pip装CuPy并在收尾执行cupy.arange和sum GPU检查。"
+        }
+      ],
+      "url": "https://github.com/Merserk/BeatSync-Engine",
+      "license": "AGPL-3.0",
+      "stars": 75,
+      "pushed_at": "2026-07-06T22:48:22Z",
+      "sha": "06679c1f28c6d0b56c901495e52497cccebc744a"
+    },
+    {
+      "repo": "guigulaoshi/music-video-director-skill",
+      "category": "歌词意象/情绪弧线的agent剪辑流程",
+      "is_template": false,
+      "beat_capability": "madmom可选，fallback为librosa HPSS节拍检测再退plain librosa；downbeat简化为每4拍，歌词转写有实现。创意匹配由agent产生EDL。",
+      "dependencies": "FFmpeg、Python、librosa、openai-whisper/stable-ts、scenedetect、ffmpeg-python、yt-dlp；可选madmom；外部能读图/执行shell的agent。",
+      "windows": "README列Windows winget FFmpeg入口，Python CLI跨平台；madmom编译与Whisper依赖较重，未运行Windows测试。",
+      "limitations": [
+        "没有自动语义剪辑模型内置在CLI：镜头描述、歌词意象匹配、情绪弧线由外部agent判断。",
+        "每四拍标downbeat是假定4/4，不是音乐学上已检测小节强拍。",
+        "renderer消费cuts并FFmpeg拼接，不能单靠说明保证agent生成EDL合理。"
+      ],
+      "recommendation": "更适合作为“如何带agent做音乐MV”的流程参考，不是现成套版；可复用EDL格式、音频分析和渲染器。",
+      "evidence": [
+        {
+          "claim": "检测有真实三级实现",
+          "path": "mvd/audio.py",
+          "url": "https://github.com/guigulaoshi/music-video-director-skill/blob/66de7f0dcc8d714c4f6cd9988a4d214387caee36/mvd/audio.py",
+          "detail": "_detect_beats依次尝试madmom、HPSS+librosa、plain librosa；downbeat_times=beat_times[::4]。"
+        },
+        {
+          "claim": "渲染器真实实现",
+          "path": "mvd/renderer.py",
+          "url": "https://github.com/guigulaoshi/music-video-director-skill/blob/66de7f0dcc8d714c4f6cd9988a4d214387caee36/mvd/renderer.py",
+          "detail": "读取EDL cuts/audio_file，为每个cut抽取编码、concat、混音。"
+        },
+        {
+          "claim": "创意分工边界明确",
+          "path": "README.md",
+          "url": "https://github.com/guigulaoshi/music-video-director-skill/blob/66de7f0dcc8d714c4f6cd9988a4d214387caee36/README.md",
+          "detail": "Division of labor明确Python CLI做技术工作，AI agent做scene description/edit planning/editorial judgment；CLI无AI API调用。"
+        }
+      ],
+      "url": "https://github.com/guigulaoshi/music-video-director-skill",
+      "license": "MIT",
+      "stars": 67,
+      "pushed_at": "2026-09-25T12:36:42Z",
+      "sha": "66de7f0dcc8d714c4f6cd9988a4d214387caee36"
+    },
+    {
+      "repo": "zhangzhanglaila/ai-montage-agent",
+      "category": "中文模块化混剪/AI素材筛选流水线",
+      "is_template": true,
+      "beat_capability": "librosa真beat/onset/RMS；sync优先用实际beats[end_idx]-beat_time。没检测到beat则120 BPM均匀网格；缺librosa则模拟20拍/10秒。",
+      "dependencies": "Python、FFmpeg、librosa、PySceneDetect、OpenCV、PyTorch/torchvision、transformers、open-clip、FastAPI、Playwright；可选Whisper/madmom/Redis。",
+      "windows": "Python/FFmpeg理论可移植；依赖较重。README与代码应按Windows路径/字体/编码实测，目前未安装执行。",
+      "limitations": [
+        "ImportError直接返回_mock_analysis的20个模拟beat，运行成功也不代表真实卡点。",
+        "未检出beat时生成120 BPM网格，应显式区分fallback输出。",
+        "模板JSON是风格参数（节奏、转场、颜色）而非带素材占位符的完整可视项目。",
+        "多模块广泛存在不代表每项端到端稳定；本次只审核心beat/sync/pipeline与export。"
+      ],
+      "recommendation": "中文二次开发可研究；需把mock/fallback变成显式质量警报并补真实素材端到端验证，再用于批量成片。",
+      "evidence": [
+        {
+          "claim": "节拍检测及模拟边界",
+          "path": "packages/montage/beat.py",
+          "url": "https://github.com/zhangzhanglaila/ai-montage-agent/blob/0a010202e2ede7c9b2e20e06d10520942e84a44c/packages/montage/beat.py",
+          "detail": "analyze使用librosa.beat_track和RMS；空检测np.arange(0,duration,0.5)，ImportError调用_mock_analysis固定10秒/120 BPM。"
+        },
+        {
+          "claim": "切镜优先真实边界",
+          "path": "packages/montage/sync.py",
+          "url": "https://github.com/zhangzhanglaila/ai-montage-agent/blob/0a010202e2ede7c9b2e20e06d10520942e84a44c/packages/montage/sync.py",
+          "detail": "sync按beats[end_idx].time-beat_time得duration，按可用画面和速度范围约束；短xfade最大0.08秒。"
+        },
+        {
+          "claim": "可复用风格预设",
+          "path": "packages/video_enhancement/src/styles/mtv.json",
+          "url": "https://github.com/zhangzhanglaila/ai-montage-agent/blob/0a010202e2ede7c9b2e20e06d10520942e84a44c/packages/video_enhancement/src/styles/mtv.json",
+          "detail": "JSON含very_fast、hard_cuts、vibrant、energy_mapping；是参数预设，不是完整成片模板。"
+        },
+        {
+          "claim": "流水线与交付格式",
+          "path": "packages/montage/pipeline.py",
+          "url": "https://github.com/zhangzhanglaila/ai-montage-agent/blob/0a010202e2ede7c9b2e20e06d10520942e84a44c/packages/montage/pipeline.py",
+          "detail": "存在镜头去重、BGM清理、音视频组装流程；目录另含timeline_export/otio_exporter.py。"
+        }
+      ],
+      "url": "https://github.com/zhangzhanglaila/ai-montage-agent",
+      "license": "MIT",
+      "stars": 39,
+      "pushed_at": "2026-10-22T02:25:25Z",
+      "sha": "0a010202e2ede7c9b2e20e06d10520942e84a44c"
+    },
+    {
+      "repo": "scherroman/mugen",
+      "category": "经典随机AMV节拍拼接库",
+      "is_template": false,
+      "beat_capability": "真librosa beat_track/onset检测；按events.segment_durations从源素材抽取片段，支持events-speed/offset和按段分组。",
+      "dependencies": "conda Python3.9、FFmpeg、libsndfile、Tesseract；锁MoviePy1.0.3/librosa0.8.1/NumPy1.22.2/Pillow9.3.0等旧依赖。",
+      "windows": "README声明支持Linux/macOS/Windows，用Miniconda安装；旧版本依赖不宜直接放入现有Python环境。",
+      "limitations": [
+        "最近推送2023-10-04，维护显著放缓；setup标Alpha。",
+        "核心是随机素材采样与过滤，没有歌词语义匹配/现代AI素材生成。",
+        "onset调用路径为librosa.beat.onset.onset_detect，是否兼容其锁定依赖需运行检查，不能凭静态读取视为已测试。",
+        "许可宽松与测试目录存在不等于现代Windows/最新Python可直接使用。"
+      ],
+      "recommendation": "保留作算法和API设计参考；新项目优先现代小pipeline，避免先移植整个旧依赖栈。",
+      "evidence": [
+        {
+          "claim": "真实beat/onset事件API",
+          "path": "mugen/audio/Audio.py",
+          "url": "https://github.com/scherroman/mugen/blob/d85c082a0ec0b68e458d7060d19d9b84893aa2ea/mugen/audio/Audio.py",
+          "detail": "_beats调用librosa.beat.beat_track(units=time)；_onsets尝试onset_detect；包装成EventList。"
+        },
+        {
+          "claim": "事件转真实源片段",
+          "path": "mugen/video/MusicVideoGenerator.py",
+          "url": "https://github.com/scherroman/mugen/blob/d85c082a0ec0b68e458d7060d19d9b84893aa2ea/mugen/video/MusicVideoGenerator.py",
+          "detail": "generate_from_events取events.segment_durations；SourceSampler.sample_with_filters选片段，再组MusicVideo。"
+        },
+        {
+          "claim": "旧栈与Alpha状态",
+          "path": "setup.py",
+          "url": "https://github.com/scherroman/mugen/blob/d85c082a0ec0b68e458d7060d19d9b84893aa2ea/setup.py",
+          "detail": "Development Status::3-Alpha；MoviePy1.0.3/librosa0.8.1/numpy1.22.2均明确锁定。"
+        }
+      ],
+      "url": "https://github.com/scherroman/mugen",
+      "license": "MIT",
+      "stars": 246,
+      "pushed_at": "2023-10-04T00:52:40Z",
+      "sha": "d85c082a0ec0b68e458d7060d19d9b84893aa2ea"
+    },
+    {
+      "repo": "mfahsold/montage-ai",
+      "category": "完整本地混剪系统 / 非商业源代码",
+      "is_template": true,
+      "license": "PolyForm Noncommercial License 1.0.0",
+      "beat_capability": "可选madmom RNN真beat/downbeat；默认FFmpeg分析用峰值推tempo/phase，再生成规则beat网格；峰不足则响度启发式规则网格。不可统称每拍都真实检测。",
+      "dependencies": "Python、FFmpeg、MoviePy2.2、OpenCV、scenedetect、Flask、Redis/RQ、Kubernetes客户端、OpenTimelineIO；madmom/VLM/GPU为可选。",
+      "windows": "主文档以Docker/Linux shell/容器部署为主；Windows可能经Docker Desktop/WSL接入，原生Windows未验证，系统规模和依赖重。",
+      "limitations": [
+        "实际LICENSE为PolyForm Noncommercial，GitHub API只有NOASSERTION；不适合未经授权抽取商业流水线。",
+        "默认requirements特意省略librosa/numba，madmom也可选；默认fallback是估计tempo后规则grid，不能当madmom质量宣传。",
+        "风格JSON可读，但完整系统复杂、目录和部署文档多；本次未执行测试或部署。"
+      ],
+      "recommendation": "只作非商业学习/设计比较；商业项目优先MIT候选。",
+      "evidence": [
+        {
+          "claim": "许可证实际限制",
+          "path": "LICENSE",
+          "url": "https://github.com/mfahsold/montage-ai/blob/2e9dc03bfd0c320cf30f2762791bcccfd1d12b06/LICENSE",
+          "detail": "标题PolyForm Noncommercial License 1.0.0，Noncommercial Use Only；不能把API NOASSERTION当无约束。"
+        },
+        {
+          "claim": "真beat与规则fallback区别",
+          "path": "src/montage_ai/audio_analysis.py",
+          "url": "https://github.com/mfahsold/montage-ai/blob/2e9dc03bfd0c320cf30f2762791bcccfd1d12b06/src/montage_ai/audio_analysis.py",
+          "detail": "get_beat_times优先cloud/madmom；_ffmpeg_estimate_tempo挑tempo/phase后np.arange，峰不足按响度heuristic生成网格。"
+        },
+        {
+          "claim": "风格配置可复用思路",
+          "path": "src/montage_ai/styles/mtv.json",
+          "url": "https://github.com/mfahsold/montage-ai/blob/2e9dc03bfd0c320cf30f2762791bcccfd1d12b06/src/montage_ai/styles/mtv.json",
+          "detail": "mtv preset有快速节奏、hard_cuts、vibrant、sync_to_beats参数。"
+        },
+        {
+          "claim": "依赖默认值",
+          "path": "requirements.txt",
+          "url": "https://github.com/mfahsold/montage-ai/blob/2e9dc03bfd0c320cf30f2762791bcccfd1d12b06/requirements.txt",
+          "detail": "注明audio_analysis FFmpeg-first、librosa/numba omitted，madmom仅optional。"
+        }
+      ],
+      "url": "https://github.com/mfahsold/montage-ai",
+      "stars": 63,
+      "pushed_at": "2026-03-09T23:44:39Z",
+      "sha": "2e9dc03bfd0c320cf30f2762791bcccfd1d12b06"
+    }
+  ],
+  "excluded": [
+    {
+      "repo": "Meteor8/beats-synced-video-generator",
+      "reason": "2021年旧demo、无LICENSE；beat1.py确有librosa真实检测，但vid.py硬编码./beats/a1.csv、./video/1.mp4、./music/a.mp3，随机抽20–480秒源片且节拍截到0.1秒。可学最小原理，不适合当可换素材模板或现代工具。",
+      "evidence": "https://github.com/Meteor8/beats-synced-video-generator/blob/436e2e27987240da57fbf5d947146cf6d3e13592/vid.py"
+    },
+    {
+      "repo": "Tanishk-11/BeatSync",
+      "reason": "描述为视频测心率健康应用，beat同词不同义，非音乐剪辑。"
+    },
+    {
+      "repo": "ialakey/music-video-generator",
+      "reason": "描述为单图+慢放混响+频谱可视化；未作源码审查，不列入真实切镜工具推荐。"
+    },
+    {
+      "repo": "riskcapital/ghost-arcade",
+      "reason": "VJ/投影映射与live可视化，不是本组需要的素材切镜模板。"
+    },
+    {
+      "repo": "for-he-s-loved/awesome-beat-sync-video-editors",
+      "reason": "资源目录，非可运行剪辑器；可做补充索引但不能作为已审实现。"
+    }
+  ],
+  "dedup": [
+    {
+      "repo": "scherroman/mugen",
+      "canonical": "scherroman/mugen",
+      "reason": "同仓库被扩展query重复召回：AMV generator"
+    },
+    {
+      "repo": "Vincentwei1021/video-shotcraft",
+      "canonical": "Vincentwei1021/video-shotcraft",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "Moessif/code-video-showcase",
+      "canonical": "Moessif/code-video-showcase",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "bestagentkits/motion-video-skill",
+      "canonical": "bestagentkits/motion-video-skill",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "guigulaoshi/music-video-director-skill",
+      "canonical": "guigulaoshi/music-video-director-skill",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "AbubakrChan/product-launch-motion",
+      "canonical": "AbubakrChan/product-launch-motion",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "mfahsold/montage-ai",
+      "canonical": "mfahsold/montage-ai",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "Merserk/BeatSync-Engine",
+      "canonical": "Merserk/BeatSync-Engine",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "Meteor8/beats-synced-video-generator",
+      "canonical": "Meteor8/beats-synced-video-generator",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "iart-ai/kinetic-typography-skills",
+      "canonical": "iart-ai/kinetic-typography-skills",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "ZiadAbdelkarim/beat-synced-edit",
+      "canonical": "ZiadAbdelkarim/beat-synced-edit",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "Win-Hao/knowledge-video",
+      "canonical": "Win-Hao/knowledge-video",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "syklayou-glitch/video-shotcraft",
+      "canonical": "syklayou-glitch/video-shotcraft",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "qingyunAGI/qingyun-cine-skill",
+      "canonical": "qingyunAGI/qingyun-cine-skill",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "fltman/aimusicvideo",
+      "canonical": "fltman/aimusicvideo",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    },
+    {
+      "repo": "NSK-394/ai-video-agent",
+      "canonical": "NSK-394/ai-video-agent",
+      "reason": "同仓库被扩展query重复召回：\"beat-synced\""
+    }
+  ]
+}

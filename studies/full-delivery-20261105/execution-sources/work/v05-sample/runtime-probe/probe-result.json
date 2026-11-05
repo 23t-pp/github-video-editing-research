@@ -1,0 +1,58 @@
+{
+  "at": "2026-11-04T14:57:26.451Z",
+  "node": "C:\\Users\\PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+  "ffmpeg": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+  "direct": {
+    "args": [
+      "-nostdin",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-f",
+      "lavfi",
+      "-i",
+      "color=c=black:s=64x64:r=30:d=0.1",
+      "-an",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "ultrafast",
+      "-pix_fmt",
+      "yuv420p",
+      "-y",
+      "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\v05-sample\\runtime-probe\\direct-file.mp4"
+    ],
+    "exit_code": 4294967283,
+    "stderr": "[out#0/mp4 @ 0000027ba5ed9940] Error opening output D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\v05-sample\\runtime-probe\\direct-file.mp4: Permission denied\r\nError opening output file D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\v05-sample\\runtime-probe\\direct-file.mp4.\r\nError opening output files: Permission denied\r\n",
+    "file_exists": false,
+    "bytes": 0
+  },
+  "stdout_mp4": {
+    "args": [
+      "-nostdin",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-f",
+      "lavfi",
+      "-i",
+      "color=c=black:s=64x64:r=30:d=0.1",
+      "-an",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "ultrafast",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "frag_keyframe+empty_moov",
+      "-f",
+      "mp4",
+      "pipe:1"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "bytes": 1622,
+    "file_exists": true
+  }
+}

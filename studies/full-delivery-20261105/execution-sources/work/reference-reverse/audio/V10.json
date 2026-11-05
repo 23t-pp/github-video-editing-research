@@ -1,0 +1,1386 @@
+{
+  "id": "V10",
+  "source_name": "丝滑BMW_M4剪辑_汽车剪辑_汽车摄影_caredit_BMW.mp4",
+  "source_sha256": "ef9eaf5e8affbf6aa26e4580925e963e9252c3dee31d614db4e4af2a469a115c",
+  "created_at": "2026-11-04T14:05:18.102Z",
+  "duration_sec": 18.069,
+  "actual_execution": {
+    "decoded": true,
+    "ffmpeg_exit_code": 0,
+    "listened": false,
+    "uploaded": false,
+    "installed_models": false,
+    "elapsed_ms": 266
+  },
+  "method": {
+    "primary": "HyperFrames 0.8.216本地signal provider：log-frequency band spectral flux、自相关tempo、DP beat tracking；sections为音色/chroma结构新颖度。直接调用本地库，无API和模型。",
+    "secondary": "本分析脚本：对HF频带的正谱差做±0.4s局部均值去趋势，自相关寻找40–240 BPM局部峰；0.25s RMS只用于响度变化。",
+    "baseline": "montage 0.4.1：20ms log-RMS正差、10ms hop的自相关/comb启发式；不是独立听觉确认。",
+    "timing": "onsets=谱通量局部峰(10ms hop)，beats=周期模型推断网格(含HF的15ms经验偏置)；均是原视频从0秒起的时间，未对人工感知确认。"
+  },
+  "hyperframes": {
+    "beats": {
+      "times": [
+        0.125,
+        0.875,
+        1.615,
+        2.195,
+        2.755,
+        3.495,
+        4.245,
+        4.995,
+        5.755,
+        6.495,
+        7.255,
+        7.995,
+        8.745,
+        9.495,
+        10.245,
+        10.995,
+        11.745,
+        12.505,
+        13.255,
+        13.995,
+        14.745,
+        15.495,
+        16.245,
+        16.995,
+        17.745
+      ],
+      "confidence": 0.657
+    },
+    "downbeats": {
+      "times": [
+        0.125,
+        2.755,
+        5.755,
+        8.745,
+        11.745,
+        14.745,
+        17.745
+      ],
+      "meter": 4,
+      "confidence": "low"
+    },
+    "tempo": {
+      "value": 80.1,
+      "curve": [
+        {
+          "t": 0.125,
+          "bpm": 80.7
+        },
+        {
+          "t": 4.125,
+          "bpm": 80.2
+        },
+        {
+          "t": 8.125,
+          "bpm": 80
+        },
+        {
+          "t": 12.125,
+          "bpm": 80
+        },
+        {
+          "t": 16.125,
+          "bpm": 80.2
+        }
+      ]
+    },
+    "interval_median_sec": 0.75,
+    "interval_mad_sec": 0,
+    "local_beat_evidence": [
+      {
+        "confidence": 0.456,
+        "lift": 7.151596369993046
+      },
+      {
+        "confidence": 0.451,
+        "lift": 2.684235965493456
+      },
+      {
+        "confidence": 0.511,
+        "lift": 3.9788600523471738
+      },
+      {
+        "confidence": 0.537,
+        "lift": 4.141557597513456
+      },
+      {
+        "confidence": 0.556,
+        "lift": 6.547705558113704
+      },
+      {
+        "confidence": 0.104,
+        "lift": 0.5061785907922591
+      },
+      {
+        "confidence": 0.589,
+        "lift": 4.559416226691202
+      },
+      {
+        "confidence": 0.571,
+        "lift": 4.171625885251038
+      },
+      {
+        "confidence": 0.58,
+        "lift": 3.131105909100328
+      },
+      {
+        "confidence": 0.244,
+        "lift": 1.056188296699236
+      },
+      {
+        "confidence": 0.557,
+        "lift": 2.4532716796669334
+      },
+      {
+        "confidence": 0.668,
+        "lift": 3.2226945275642773
+      },
+      {
+        "confidence": 0.65,
+        "lift": 4.397629914946278
+      },
+      {
+        "confidence": 0.249,
+        "lift": 1.135590401190537
+      },
+      {
+        "confidence": 0.588,
+        "lift": 2.7385555814431504
+      },
+      {
+        "confidence": 0.603,
+        "lift": 3.735747854451624
+      },
+      {
+        "confidence": 0.586,
+        "lift": 3.6691995368396055
+      },
+      {
+        "confidence": 0.209,
+        "lift": 0.9624198202428422
+      },
+      {
+        "confidence": 0.609,
+        "lift": 2.8780768744722787
+      },
+      {
+        "confidence": 0.639,
+        "lift": 3.2484336555016347
+      },
+      {
+        "confidence": 0.637,
+        "lift": 4.479680330578636
+      },
+      {
+        "confidence": 0.266,
+        "lift": 1.172060878023136
+      },
+      {
+        "confidence": 0.612,
+        "lift": 2.866572683578802
+      },
+      {
+        "confidence": 0.57,
+        "lift": 3.413322421265602
+      },
+      {
+        "confidence": 0.512,
+        "lift": 4.00215449089125
+      }
+    ]
+  },
+  "spectral_autocorrelation": {
+    "candidates": [
+      {
+        "bpm": 40,
+        "autocorrelation": 0.692,
+        "lagSec": 1.5
+      },
+      {
+        "bpm": 80,
+        "autocorrelation": 0.657,
+        "lagSec": 0.75
+      },
+      {
+        "bpm": 160.4,
+        "autocorrelation": 0.589,
+        "lagSec": 0.374
+      },
+      {
+        "bpm": 53.3,
+        "autocorrelation": 0.55,
+        "lagSec": 1.126
+      },
+      {
+        "bpm": 106.9,
+        "autocorrelation": 0.334,
+        "lagSec": 0.561
+      },
+      {
+        "bpm": 63.9,
+        "autocorrelation": 0.315,
+        "lagSec": 0.938
+      },
+      {
+        "bpm": 45.8,
+        "autocorrelation": 0.25,
+        "lagSec": 1.31
+      }
+    ],
+    "best": {
+      "bpm": 40,
+      "autocorrelation": 0.692,
+      "lagSec": 1.5
+    }
+  },
+  "window_tempos": [
+    {
+      "start": 0,
+      "end": 8,
+      "candidates": [
+        {
+          "bpm": 40,
+          "autocorrelation": 0.614,
+          "lagSec": 1.5
+        },
+        {
+          "bpm": 80,
+          "autocorrelation": 0.586,
+          "lagSec": 0.75
+        },
+        {
+          "bpm": 160.3,
+          "autocorrelation": 0.577,
+          "lagSec": 0.374
+        },
+        {
+          "bpm": 53.3,
+          "autocorrelation": 0.542,
+          "lagSec": 1.126
+        },
+        {
+          "bpm": 106.8,
+          "autocorrelation": 0.191,
+          "lagSec": 0.562
+        },
+        {
+          "bpm": 64,
+          "autocorrelation": 0.162,
+          "lagSec": 0.938
+        },
+        {
+          "bpm": 45.9,
+          "autocorrelation": 0.109,
+          "lagSec": 1.309
+        }
+      ],
+      "best": {
+        "bpm": 40,
+        "autocorrelation": 0.614,
+        "lagSec": 1.5
+      }
+    },
+    {
+      "start": 4,
+      "end": 12,
+      "candidates": [
+        {
+          "bpm": 80,
+          "autocorrelation": 0.672,
+          "lagSec": 0.75
+        },
+        {
+          "bpm": 160.4,
+          "autocorrelation": 0.598,
+          "lagSec": 0.374
+        },
+        {
+          "bpm": 40,
+          "autocorrelation": 0.573,
+          "lagSec": 1.5
+        },
+        {
+          "bpm": 53.3,
+          "autocorrelation": 0.456,
+          "lagSec": 1.125
+        },
+        {
+          "bpm": 107.1,
+          "autocorrelation": 0.359,
+          "lagSec": 0.56
+        },
+        {
+          "bpm": 63.9,
+          "autocorrelation": 0.327,
+          "lagSec": 0.939
+        },
+        {
+          "bpm": 45.8,
+          "autocorrelation": 0.262,
+          "lagSec": 1.31
+        }
+      ],
+      "best": {
+        "bpm": 80,
+        "autocorrelation": 0.672,
+        "lagSec": 0.75
+      }
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "candidates": [
+        {
+          "bpm": 80,
+          "autocorrelation": 0.639,
+          "lagSec": 0.75
+        },
+        {
+          "bpm": 40,
+          "autocorrelation": 0.62,
+          "lagSec": 1.5
+        },
+        {
+          "bpm": 160.4,
+          "autocorrelation": 0.572,
+          "lagSec": 0.374
+        },
+        {
+          "bpm": 53.3,
+          "autocorrelation": 0.498,
+          "lagSec": 1.127
+        },
+        {
+          "bpm": 63.9,
+          "autocorrelation": 0.438,
+          "lagSec": 0.938
+        },
+        {
+          "bpm": 106.9,
+          "autocorrelation": 0.428,
+          "lagSec": 0.561
+        },
+        {
+          "bpm": 45.8,
+          "autocorrelation": 0.345,
+          "lagSec": 1.31
+        }
+      ],
+      "best": {
+        "bpm": 80,
+        "autocorrelation": 0.639,
+        "lagSec": 0.75
+      }
+    },
+    {
+      "start": 12,
+      "end": 18.069,
+      "candidates": [
+        {
+          "bpm": 80,
+          "autocorrelation": 0.667,
+          "lagSec": 0.75
+        },
+        {
+          "bpm": 40,
+          "autocorrelation": 0.604,
+          "lagSec": 1.5
+        },
+        {
+          "bpm": 160.5,
+          "autocorrelation": 0.555,
+          "lagSec": 0.374
+        },
+        {
+          "bpm": 53.3,
+          "autocorrelation": 0.46,
+          "lagSec": 1.125
+        },
+        {
+          "bpm": 107,
+          "autocorrelation": 0.449,
+          "lagSec": 0.561
+        },
+        {
+          "bpm": 63.9,
+          "autocorrelation": 0.394,
+          "lagSec": 0.939
+        },
+        {
+          "bpm": 45.8,
+          "autocorrelation": 0.315,
+          "lagSec": 1.31
+        }
+      ],
+      "best": {
+        "bpm": 80,
+        "autocorrelation": 0.667,
+        "lagSec": 0.75
+      }
+    }
+  ],
+  "onset_events": [
+    {
+      "t": 0.1102,
+      "strength": 0.8392
+    },
+    {
+      "t": 0.4911,
+      "strength": 0.4725
+    },
+    {
+      "t": 0.862,
+      "strength": 0.7347
+    },
+    {
+      "t": 1.2428,
+      "strength": 0.6812
+    },
+    {
+      "t": 1.6137,
+      "strength": 0.9727
+    },
+    {
+      "t": 1.9945,
+      "strength": 0.4767
+    },
+    {
+      "t": 2.3654,
+      "strength": 0.6872
+    },
+    {
+      "t": 2.7362,
+      "strength": 0.6028
+    },
+    {
+      "t": 3.1171,
+      "strength": 0.8554
+    },
+    {
+      "t": 3.4879,
+      "strength": 0.3403
+    },
+    {
+      "t": 3.8587,
+      "strength": 0.3745
+    },
+    {
+      "t": 4.2296,
+      "strength": 0.4575
+    },
+    {
+      "t": 4.6104,
+      "strength": 1
+    },
+    {
+      "t": 4.9813,
+      "strength": 0.3953
+    },
+    {
+      "t": 5.1817,
+      "strength": 0.344
+    },
+    {
+      "t": 5.3621,
+      "strength": 0.4666
+    },
+    {
+      "t": 5.5626,
+      "strength": 0.2088
+    },
+    {
+      "t": 5.743,
+      "strength": 0.3113
+    },
+    {
+      "t": 5.9334,
+      "strength": 0.1698
+    },
+    {
+      "t": 6.1138,
+      "strength": 0.3368
+    },
+    {
+      "t": 6.3143,
+      "strength": 0.1984
+    },
+    {
+      "t": 6.4847,
+      "strength": 0.3641
+    },
+    {
+      "t": 6.6851,
+      "strength": 0.3455
+    },
+    {
+      "t": 6.8655,
+      "strength": 0.4286
+    },
+    {
+      "t": 7.0459,
+      "strength": 0.4299
+    },
+    {
+      "t": 7.2364,
+      "strength": 0.4601
+    },
+    {
+      "t": 7.6172,
+      "strength": 0.358
+    },
+    {
+      "t": 7.7876,
+      "strength": 0.4853
+    },
+    {
+      "t": 7.9881,
+      "strength": 0.6245
+    },
+    {
+      "t": 8.1685,
+      "strength": 0.3694
+    },
+    {
+      "t": 8.3689,
+      "strength": 0.5958
+    },
+    {
+      "t": 8.5393,
+      "strength": 0.5296
+    },
+    {
+      "t": 8.7398,
+      "strength": 0.7113
+    },
+    {
+      "t": 8.9202,
+      "strength": 0.2099
+    },
+    {
+      "t": 9.1206,
+      "strength": 0.2733
+    },
+    {
+      "t": 9.291,
+      "strength": 0.3381
+    },
+    {
+      "t": 9.4815,
+      "strength": 0.3907
+    },
+    {
+      "t": 9.6719,
+      "strength": 0.3505
+    },
+    {
+      "t": 9.8623,
+      "strength": 0.3835
+    },
+    {
+      "t": 10.0427,
+      "strength": 0.4235
+    },
+    {
+      "t": 10.2332,
+      "strength": 0.4464
+    },
+    {
+      "t": 10.614,
+      "strength": 0.2583
+    },
+    {
+      "t": 10.8044,
+      "strength": 0.5667
+    },
+    {
+      "t": 10.9849,
+      "strength": 0.4699
+    },
+    {
+      "t": 11.1853,
+      "strength": 0.7981
+    },
+    {
+      "t": 11.3657,
+      "strength": 0.3749
+    },
+    {
+      "t": 11.5561,
+      "strength": 0.3017
+    },
+    {
+      "t": 11.7366,
+      "strength": 0.4403
+    },
+    {
+      "t": 11.937,
+      "strength": 0.253
+    },
+    {
+      "t": 12.1174,
+      "strength": 0.7306
+    },
+    {
+      "t": 12.3179,
+      "strength": 0.2057
+    },
+    {
+      "t": 12.4883,
+      "strength": 0.5281
+    },
+    {
+      "t": 12.6687,
+      "strength": 0.283
+    },
+    {
+      "t": 12.8691,
+      "strength": 0.4857
+    },
+    {
+      "t": 13.0395,
+      "strength": 0.4647
+    },
+    {
+      "t": 13.24,
+      "strength": 0.5983
+    },
+    {
+      "t": 13.4204,
+      "strength": 0.1947
+    },
+    {
+      "t": 13.6208,
+      "strength": 0.374
+    },
+    {
+      "t": 13.7912,
+      "strength": 0.5036
+    },
+    {
+      "t": 13.9917,
+      "strength": 0.5736
+    },
+    {
+      "t": 14.162,
+      "strength": 0.3738
+    },
+    {
+      "t": 14.3625,
+      "strength": 0.4125
+    },
+    {
+      "t": 14.5429,
+      "strength": 0.5409
+    },
+    {
+      "t": 14.7434,
+      "strength": 0.6758
+    },
+    {
+      "t": 14.9238,
+      "strength": 0.1827
+    },
+    {
+      "t": 15.1142,
+      "strength": 0.3266
+    },
+    {
+      "t": 15.2946,
+      "strength": 0.279
+    },
+    {
+      "t": 15.4951,
+      "strength": 0.33
+    },
+    {
+      "t": 15.6654,
+      "strength": 0.3596
+    },
+    {
+      "t": 15.8659,
+      "strength": 0.3706
+    },
+    {
+      "t": 16.0463,
+      "strength": 0.3706
+    },
+    {
+      "t": 16.2367,
+      "strength": 0.5072
+    },
+    {
+      "t": 16.6176,
+      "strength": 0.3431
+    },
+    {
+      "t": 16.808,
+      "strength": 0.4527
+    },
+    {
+      "t": 16.9884,
+      "strength": 0.4381
+    },
+    {
+      "t": 17.1889,
+      "strength": 0.4499
+    },
+    {
+      "t": 17.3693,
+      "strength": 0.327
+    },
+    {
+      "t": 17.5698,
+      "strength": 0.2459
+    },
+    {
+      "t": 17.7401,
+      "strength": 0.5045
+    },
+    {
+      "t": 18.0308,
+      "strength": 0.185
+    }
+  ],
+  "strong_onset_examples": [
+    {
+      "t": 0.1102,
+      "strength": 0.8392
+    },
+    {
+      "t": 1.6137,
+      "strength": 0.9727
+    },
+    {
+      "t": 2.3654,
+      "strength": 0.6872
+    },
+    {
+      "t": 3.1171,
+      "strength": 0.8554
+    },
+    {
+      "t": 4.6104,
+      "strength": 1
+    },
+    {
+      "t": 5.3621,
+      "strength": 0.4666
+    },
+    {
+      "t": 7.9881,
+      "strength": 0.6245
+    },
+    {
+      "t": 8.7398,
+      "strength": 0.7113
+    },
+    {
+      "t": 10.8044,
+      "strength": 0.5667
+    },
+    {
+      "t": 11.1853,
+      "strength": 0.7981
+    },
+    {
+      "t": 12.1174,
+      "strength": 0.7306
+    },
+    {
+      "t": 13.24,
+      "strength": 0.5983
+    },
+    {
+      "t": 13.9917,
+      "strength": 0.5736
+    },
+    {
+      "t": 14.7434,
+      "strength": 0.6758
+    },
+    {
+      "t": 16.2367,
+      "strength": 0.5072
+    },
+    {
+      "t": 17.7401,
+      "strength": 0.5045
+    }
+  ],
+  "structure_candidates": {
+    "spans": [
+      {
+        "start": 0,
+        "end": 5.755,
+        "label": "A"
+      },
+      {
+        "start": 5.755,
+        "end": 18.069,
+        "label": "B"
+      }
+    ],
+    "snap": {
+      "reference": "signal beats",
+      "toleranceMs": 375,
+      "snapped": 1,
+      "unsnapped": [],
+      "medianShiftMs": 245
+    }
+  },
+  "silence_below_minus50dbfs_200ms": [],
+  "energy_changes": [
+    {
+      "t": 1.75,
+      "beforeDbFS": -11.3,
+      "afterDbFS": -14.9,
+      "deltaDb": -3.7,
+      "kind": "响度下降候选"
+    },
+    {
+      "t": 4,
+      "beforeDbFS": -9.4,
+      "afterDbFS": -14.4,
+      "deltaDb": -4.9,
+      "kind": "响度下降候选"
+    },
+    {
+      "t": 5.751,
+      "beforeDbFS": -14.4,
+      "afterDbFS": -8,
+      "deltaDb": 6.4,
+      "kind": "响度上升候选"
+    }
+  ],
+  "rms_250ms": [
+    {
+      "start": 0,
+      "end": 0.25,
+      "dbFS": -7.7
+    },
+    {
+      "start": 0.25,
+      "end": 0.5,
+      "dbFS": -12.9
+    },
+    {
+      "start": 0.5,
+      "end": 0.75,
+      "dbFS": -10.5
+    },
+    {
+      "start": 0.75,
+      "end": 1,
+      "dbFS": -7.5
+    },
+    {
+      "start": 1,
+      "end": 1.25,
+      "dbFS": -18.1
+    },
+    {
+      "start": 1.25,
+      "end": 1.5,
+      "dbFS": -11.6
+    },
+    {
+      "start": 1.5,
+      "end": 1.75,
+      "dbFS": -7.9
+    },
+    {
+      "start": 1.75,
+      "end": 2,
+      "dbFS": -20.2
+    },
+    {
+      "start": 2,
+      "end": 2.25,
+      "dbFS": -11.1
+    },
+    {
+      "start": 2.25,
+      "end": 2.5,
+      "dbFS": -7.7
+    },
+    {
+      "start": 2.5,
+      "end": 2.75,
+      "dbFS": -20.8
+    },
+    {
+      "start": 2.75,
+      "end": 3,
+      "dbFS": -12
+    },
+    {
+      "start": 3,
+      "end": 3.25,
+      "dbFS": -7.6
+    },
+    {
+      "start": 3.25,
+      "end": 3.5,
+      "dbFS": -12.9
+    },
+    {
+      "start": 3.5,
+      "end": 3.75,
+      "dbFS": -10
+    },
+    {
+      "start": 3.75,
+      "end": 4,
+      "dbFS": -7.2
+    },
+    {
+      "start": 4,
+      "end": 4.25,
+      "dbFS": -18.9
+    },
+    {
+      "start": 4.25,
+      "end": 4.5,
+      "dbFS": -11.2
+    },
+    {
+      "start": 4.5,
+      "end": 4.75,
+      "dbFS": -7.8
+    },
+    {
+      "start": 4.75,
+      "end": 5,
+      "dbFS": -19.6
+    },
+    {
+      "start": 5,
+      "end": 5.25,
+      "dbFS": -12.5
+    },
+    {
+      "start": 5.25,
+      "end": 5.5,
+      "dbFS": -12.1
+    },
+    {
+      "start": 5.5,
+      "end": 5.751,
+      "dbFS": -13.2
+    },
+    {
+      "start": 5.751,
+      "end": 6.001,
+      "dbFS": -10.3
+    },
+    {
+      "start": 6.001,
+      "end": 6.251,
+      "dbFS": -8.3
+    },
+    {
+      "start": 6.251,
+      "end": 6.501,
+      "dbFS": -7
+    },
+    {
+      "start": 6.501,
+      "end": 6.751,
+      "dbFS": -6.2
+    },
+    {
+      "start": 6.751,
+      "end": 7.001,
+      "dbFS": -6.3
+    },
+    {
+      "start": 7.001,
+      "end": 7.251,
+      "dbFS": -10.4
+    },
+    {
+      "start": 7.251,
+      "end": 7.501,
+      "dbFS": -10.5
+    },
+    {
+      "start": 7.501,
+      "end": 7.751,
+      "dbFS": -8
+    },
+    {
+      "start": 7.751,
+      "end": 8.001,
+      "dbFS": -6.1
+    },
+    {
+      "start": 8.001,
+      "end": 8.251,
+      "dbFS": -6
+    },
+    {
+      "start": 8.251,
+      "end": 8.501,
+      "dbFS": -6
+    },
+    {
+      "start": 8.501,
+      "end": 8.751,
+      "dbFS": -6
+    },
+    {
+      "start": 8.751,
+      "end": 9.001,
+      "dbFS": -6.3
+    },
+    {
+      "start": 9.001,
+      "end": 9.251,
+      "dbFS": -6.5
+    },
+    {
+      "start": 9.251,
+      "end": 9.501,
+      "dbFS": -7
+    },
+    {
+      "start": 9.501,
+      "end": 9.751,
+      "dbFS": -6.5
+    },
+    {
+      "start": 9.751,
+      "end": 10.001,
+      "dbFS": -6.3
+    },
+    {
+      "start": 10.001,
+      "end": 10.251,
+      "dbFS": -10.1
+    },
+    {
+      "start": 10.251,
+      "end": 10.501,
+      "dbFS": -10.2
+    },
+    {
+      "start": 10.501,
+      "end": 10.751,
+      "dbFS": -7.7
+    },
+    {
+      "start": 10.751,
+      "end": 11.001,
+      "dbFS": -6.1
+    },
+    {
+      "start": 11.001,
+      "end": 11.251,
+      "dbFS": -6.1
+    },
+    {
+      "start": 11.251,
+      "end": 11.501,
+      "dbFS": -5.7
+    },
+    {
+      "start": 11.501,
+      "end": 11.751,
+      "dbFS": -5.1
+    },
+    {
+      "start": 11.751,
+      "end": 12.001,
+      "dbFS": -6.4
+    },
+    {
+      "start": 12.001,
+      "end": 12.251,
+      "dbFS": -6.4
+    },
+    {
+      "start": 12.251,
+      "end": 12.501,
+      "dbFS": -7.2
+    },
+    {
+      "start": 12.501,
+      "end": 12.751,
+      "dbFS": -6.4
+    },
+    {
+      "start": 12.751,
+      "end": 13.001,
+      "dbFS": -6.1
+    },
+    {
+      "start": 13.001,
+      "end": 13.251,
+      "dbFS": -10.5
+    },
+    {
+      "start": 13.251,
+      "end": 13.501,
+      "dbFS": -10.4
+    },
+    {
+      "start": 13.501,
+      "end": 13.751,
+      "dbFS": -7.6
+    },
+    {
+      "start": 13.751,
+      "end": 14.001,
+      "dbFS": -6.2
+    },
+    {
+      "start": 14.001,
+      "end": 14.251,
+      "dbFS": -5.9
+    },
+    {
+      "start": 14.251,
+      "end": 14.501,
+      "dbFS": -6
+    },
+    {
+      "start": 14.501,
+      "end": 14.751,
+      "dbFS": -6.1
+    },
+    {
+      "start": 14.751,
+      "end": 15.001,
+      "dbFS": -6.4
+    },
+    {
+      "start": 15.001,
+      "end": 15.251,
+      "dbFS": -6.7
+    },
+    {
+      "start": 15.251,
+      "end": 15.501,
+      "dbFS": -7.2
+    },
+    {
+      "start": 15.501,
+      "end": 15.751,
+      "dbFS": -6.6
+    },
+    {
+      "start": 15.751,
+      "end": 16.001,
+      "dbFS": -6.4
+    },
+    {
+      "start": 16.001,
+      "end": 16.251,
+      "dbFS": -10.3
+    },
+    {
+      "start": 16.251,
+      "end": 16.501,
+      "dbFS": -10
+    },
+    {
+      "start": 16.501,
+      "end": 16.752,
+      "dbFS": -7.1
+    },
+    {
+      "start": 16.752,
+      "end": 17.002,
+      "dbFS": -4.7
+    },
+    {
+      "start": 17.002,
+      "end": 17.252,
+      "dbFS": -6
+    },
+    {
+      "start": 17.252,
+      "end": 17.502,
+      "dbFS": -5.8
+    },
+    {
+      "start": 17.502,
+      "end": 17.752,
+      "dbFS": -5.1
+    },
+    {
+      "start": 17.752,
+      "end": 18.002,
+      "dbFS": -6.5
+    },
+    {
+      "start": 18.002,
+      "end": 18.069,
+      "dbFS": -8.4
+    }
+  ],
+  "montage_baseline": {
+    "bpm": 80,
+    "beat_sec": 0.75,
+    "candidates": [
+      {
+        "index": 1,
+        "start": 0,
+        "end": 18,
+        "label": "0:00–0:18",
+        "headDb": -11.1,
+        "tailDb": -6.9,
+        "contrast": 4.2,
+        "score": -5,
+        "lyrics": []
+      }
+    ]
+  },
+  "caution": [
+    "这是已混合的最终音轨，起音可能来自对白音节、打击声、whoosh、引擎声或音乐，算法没有分离来源。",
+    "谱通量起音不等同音乐节拍；响度上升/下降不等同副歌/drop/段落标签。",
+    "BPM有半倍/倍速、切段和tempo漂移歧义；本轮没有实际监听，所有BPM及强拍位置均为候选。",
+    "结构边界由音色/chroma统计而非歌词/听觉语义确定，4秒最短段也会忽略更快变化。"
+  ],
+  "provenance": {
+    "hyperframes_source_sha256": "a08fedbb3a133d5c7e9ae7e4727ab316315a78d6a01c2bbcace13caa344798cb",
+    "montage_source_sha256": "d611bc2fd9150f30ca45b0ccd2a4e4abcc142a9a4800536166284dac54193192"
+  },
+  "interpretation": {
+    "bpm": [
+      80.1,
+      160.2,
+      40
+    ],
+    "confidence": "较高（本组最易建立节拍骨架）",
+    "reason": "HF80.1、能量基线80、4秒后滑窗均80；谱峰40、80、160都是同族倍半速。HF confidence0.657为本组最高，仍不代表人工确认100%正确。",
+    "structure": "5.755秒音色边界，与5.75秒前后约6.4dB响度抬升一致；4.0秒前后有约4.9dB回落。",
+    "study": "以0.749秒一拍，0.375秒半拍建立网格；先练2–4镜头在0.751秒间隔起音上的切换，再添加画面速度/变形。"
+  },
+  "visual_audio_candidates": {
+    "method": "按视觉scene score从高到低选最多12个、相互间隔>150ms，然后才计算最近起音/推断beat距离，未按音频对齐好坏筛选。未将这些未清洗候选算命中率。",
+    "warning": "这些可包含闪白、形变、动作、镜头内运动；不是人工确认cut。delta_ms=视觉候选时间-音频事件时间，正数表示画面变化稍后。",
+    "examples": [
+      {
+        "visual_candidate_sec": 0.033,
+        "scene_score": 0.188,
+        "nearest_observed_spectral_onset": {
+          "time": 0.11,
+          "delta_ms": -76.867,
+          "strength": 0.8392
+        },
+        "nearest_inferred_beat": {
+          "time": 0.125,
+          "delta_ms": -91.667
+        }
+      },
+      {
+        "visual_candidate_sec": 6.1,
+        "scene_score": 0.214,
+        "nearest_observed_spectral_onset": {
+          "time": 6.114,
+          "delta_ms": -13.8,
+          "strength": 0.3368
+        },
+        "nearest_inferred_beat": {
+          "time": 5.755,
+          "delta_ms": 345
+        }
+      },
+      {
+        "visual_candidate_sec": 12.867,
+        "scene_score": 0.407,
+        "nearest_observed_spectral_onset": {
+          "time": 12.869,
+          "delta_ms": -2.433,
+          "strength": 0.4857
+        },
+        "nearest_inferred_beat": {
+          "time": 12.505,
+          "delta_ms": 361.667
+        }
+      },
+      {
+        "visual_candidate_sec": 13.567,
+        "scene_score": 0.106,
+        "nearest_observed_spectral_onset": {
+          "time": 13.621,
+          "delta_ms": -54.133,
+          "strength": 0.374
+        },
+        "nearest_inferred_beat": {
+          "time": 13.255,
+          "delta_ms": 311.667
+        }
+      },
+      {
+        "visual_candidate_sec": 14.333,
+        "scene_score": 0.23,
+        "nearest_observed_spectral_onset": {
+          "time": 14.363,
+          "delta_ms": -29.167,
+          "strength": 0.4125
+        },
+        "nearest_inferred_beat": {
+          "time": 13.995,
+          "delta_ms": 338.333
+        }
+      },
+      {
+        "visual_candidate_sec": 15.2,
+        "scene_score": 0.299,
+        "nearest_observed_spectral_onset": {
+          "time": 15.114,
+          "delta_ms": 85.8,
+          "strength": 0.3266
+        },
+        "nearest_inferred_beat": {
+          "time": 15.495,
+          "delta_ms": -295
+        }
+      },
+      {
+        "visual_candidate_sec": 16.633,
+        "scene_score": 0.302,
+        "nearest_observed_spectral_onset": {
+          "time": 16.618,
+          "delta_ms": 15.733,
+          "strength": 0.3431
+        },
+        "nearest_inferred_beat": {
+          "time": 16.995,
+          "delta_ms": -361.667
+        }
+      },
+      {
+        "visual_candidate_sec": 17.033,
+        "scene_score": 0.199,
+        "nearest_observed_spectral_onset": {
+          "time": 16.988,
+          "delta_ms": 44.933,
+          "strength": 0.4381
+        },
+        "nearest_inferred_beat": {
+          "time": 16.995,
+          "delta_ms": 38.333
+        }
+      },
+      {
+        "visual_candidate_sec": 17.4,
+        "scene_score": 0.177,
+        "nearest_observed_spectral_onset": {
+          "time": 17.369,
+          "delta_ms": 30.7,
+          "strength": 0.327
+        },
+        "nearest_inferred_beat": {
+          "time": 17.745,
+          "delta_ms": -345
+        }
+      }
+    ]
+  }
+}

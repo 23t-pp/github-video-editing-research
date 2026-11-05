@@ -1,0 +1,69 @@
+{
+  "projectId": "c094cd11-6065-497c-aaf4-232bc61c9360",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_track",
+      "result": {
+        "ok": true,
+        "created": [
+          {
+            "id": "track_28cd3a59-edf7-412f-a6d9-905a7e85e319",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "A1 edge · 独立master",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ],
+        "tracks": [
+          {
+            "id": "track_7efa5790-eb2f-4666-b5a2-2914c5b09d79",
+            "alias": "V1",
+            "trackType": "video",
+            "order": 0,
+            "name": null,
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          },
+          {
+            "id": "track_28cd3a59-edf7-412f-a6d9-905a7e85e319",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "A1 edge · 独立master",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "9f0c82cd-c54c-466c-b75f-dfe34e311464",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-28c34457",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_1067cf3547094d00",
+    "editorUrl": "http://localhost:5199/#/editor/c094cd11-6065-497c-aaf4-232bc61c9360",
+    "updatedAt": "2026-11-05T08:40:13.906Z"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "state": "pass",
+  "source": "first six actual S1E01 samples; two original JPEG bytes",
+  "verifiedHardlinkIdentity": true,
+  "verifiedForcedCopyFallback": true,
+  "results": [
+    {
+      "mode": "hardlinks",
+      "episode": "S1E99",
+      "state": "pass",
+      "jpgPaths": 6,
+      "sourceFrameIds": 2,
+      "createdHardlinks": 4,
+      "copiedFallbacks": 0,
+      "allPathsExist": true,
+      "nativeJpegSha256Verified": true,
+      "elapsedSeconds": 0.013827800750732422
+    },
+    {
+      "mode": "copies",
+      "episode": "S1E99",
+      "state": "pass",
+      "jpgPaths": 6,
+      "sourceFrameIds": 2,
+      "createdHardlinks": 0,
+      "copiedFallbacks": 4,
+      "allPathsExist": true,
+      "nativeJpegSha256Verified": true,
+      "elapsedSeconds": 0.009120702743530273
+    }
+  ],
+  "testDirectory": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\publish-all-20261105\\jpg\\restore-smoke\\1793886244514126100"
+}

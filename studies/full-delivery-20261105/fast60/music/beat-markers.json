@@ -1,0 +1,7514 @@
+{
+  "title": "NIGHT RELAY / 夜行接力",
+  "original_composition": true,
+  "bpm": 128,
+  "time_signature": "4/4",
+  "bars": 32,
+  "sample_rate": 48000,
+  "sample_frames": 2880000,
+  "duration_sec": 60,
+  "timing_basis": "Deterministic composed score clock; not an inferred tempo from a mixed recording. Not every grid beat has an audible attack.",
+  "sections": [
+    {
+      "start": 0,
+      "end": 7.5,
+      "label": "夜间上车 / 启动"
+    },
+    {
+      "start": 7.5,
+      "end": 22.5,
+      "label": "街头主律动 / 加速"
+    },
+    {
+      "start": 22.5,
+      "end": 30,
+      "label": "危险 / 短抽空 / 回升"
+    },
+    {
+      "start": 30,
+      "end": 45,
+      "label": "高速主段"
+    },
+    {
+      "start": 45,
+      "end": 52.5,
+      "label": "最强段 / 引擎留白"
+    },
+    {
+      "start": 52.5,
+      "end": 58.125,
+      "label": "减法尾声"
+    },
+    {
+      "start": 58.125,
+      "end": 60,
+      "label": "有力尾音 / 收束"
+    }
+  ],
+  "beats": [
+    {
+      "index": 0,
+      "bar": 1,
+      "beat_in_bar": 1,
+      "time_sec": 0.0,
+      "sample": 0
+    },
+    {
+      "index": 1,
+      "bar": 1,
+      "beat_in_bar": 2,
+      "time_sec": 0.46875,
+      "sample": 22500
+    },
+    {
+      "index": 2,
+      "bar": 1,
+      "beat_in_bar": 3,
+      "time_sec": 0.9375,
+      "sample": 45000
+    },
+    {
+      "index": 3,
+      "bar": 1,
+      "beat_in_bar": 4,
+      "time_sec": 1.40625,
+      "sample": 67500
+    },
+    {
+      "index": 4,
+      "bar": 2,
+      "beat_in_bar": 1,
+      "time_sec": 1.875,
+      "sample": 90000
+    },
+    {
+      "index": 5,
+      "bar": 2,
+      "beat_in_bar": 2,
+      "time_sec": 2.34375,
+      "sample": 112500
+    },
+    {
+      "index": 6,
+      "bar": 2,
+      "beat_in_bar": 3,
+      "time_sec": 2.8125,
+      "sample": 135000
+    },
+    {
+      "index": 7,
+      "bar": 2,
+      "beat_in_bar": 4,
+      "time_sec": 3.28125,
+      "sample": 157500
+    },
+    {
+      "index": 8,
+      "bar": 3,
+      "beat_in_bar": 1,
+      "time_sec": 3.75,
+      "sample": 180000
+    },
+    {
+      "index": 9,
+      "bar": 3,
+      "beat_in_bar": 2,
+      "time_sec": 4.21875,
+      "sample": 202500
+    },
+    {
+      "index": 10,
+      "bar": 3,
+      "beat_in_bar": 3,
+      "time_sec": 4.6875,
+      "sample": 225000
+    },
+    {
+      "index": 11,
+      "bar": 3,
+      "beat_in_bar": 4,
+      "time_sec": 5.15625,
+      "sample": 247500
+    },
+    {
+      "index": 12,
+      "bar": 4,
+      "beat_in_bar": 1,
+      "time_sec": 5.625,
+      "sample": 270000
+    },
+    {
+      "index": 13,
+      "bar": 4,
+      "beat_in_bar": 2,
+      "time_sec": 6.09375,
+      "sample": 292500
+    },
+    {
+      "index": 14,
+      "bar": 4,
+      "beat_in_bar": 3,
+      "time_sec": 6.5625,
+      "sample": 315000
+    },
+    {
+      "index": 15,
+      "bar": 4,
+      "beat_in_bar": 4,
+      "time_sec": 7.03125,
+      "sample": 337500
+    },
+    {
+      "index": 16,
+      "bar": 5,
+      "beat_in_bar": 1,
+      "time_sec": 7.5,
+      "sample": 360000
+    },
+    {
+      "index": 17,
+      "bar": 5,
+      "beat_in_bar": 2,
+      "time_sec": 7.96875,
+      "sample": 382500
+    },
+    {
+      "index": 18,
+      "bar": 5,
+      "beat_in_bar": 3,
+      "time_sec": 8.4375,
+      "sample": 405000
+    },
+    {
+      "index": 19,
+      "bar": 5,
+      "beat_in_bar": 4,
+      "time_sec": 8.90625,
+      "sample": 427500
+    },
+    {
+      "index": 20,
+      "bar": 6,
+      "beat_in_bar": 1,
+      "time_sec": 9.375,
+      "sample": 450000
+    },
+    {
+      "index": 21,
+      "bar": 6,
+      "beat_in_bar": 2,
+      "time_sec": 9.84375,
+      "sample": 472500
+    },
+    {
+      "index": 22,
+      "bar": 6,
+      "beat_in_bar": 3,
+      "time_sec": 10.3125,
+      "sample": 495000
+    },
+    {
+      "index": 23,
+      "bar": 6,
+      "beat_in_bar": 4,
+      "time_sec": 10.78125,
+      "sample": 517500
+    },
+    {
+      "index": 24,
+      "bar": 7,
+      "beat_in_bar": 1,
+      "time_sec": 11.25,
+      "sample": 540000
+    },
+    {
+      "index": 25,
+      "bar": 7,
+      "beat_in_bar": 2,
+      "time_sec": 11.71875,
+      "sample": 562500
+    },
+    {
+      "index": 26,
+      "bar": 7,
+      "beat_in_bar": 3,
+      "time_sec": 12.1875,
+      "sample": 585000
+    },
+    {
+      "index": 27,
+      "bar": 7,
+      "beat_in_bar": 4,
+      "time_sec": 12.65625,
+      "sample": 607500
+    },
+    {
+      "index": 28,
+      "bar": 8,
+      "beat_in_bar": 1,
+      "time_sec": 13.125,
+      "sample": 630000
+    },
+    {
+      "index": 29,
+      "bar": 8,
+      "beat_in_bar": 2,
+      "time_sec": 13.59375,
+      "sample": 652500
+    },
+    {
+      "index": 30,
+      "bar": 8,
+      "beat_in_bar": 3,
+      "time_sec": 14.0625,
+      "sample": 675000
+    },
+    {
+      "index": 31,
+      "bar": 8,
+      "beat_in_bar": 4,
+      "time_sec": 14.53125,
+      "sample": 697500
+    },
+    {
+      "index": 32,
+      "bar": 9,
+      "beat_in_bar": 1,
+      "time_sec": 15.0,
+      "sample": 720000
+    },
+    {
+      "index": 33,
+      "bar": 9,
+      "beat_in_bar": 2,
+      "time_sec": 15.46875,
+      "sample": 742500
+    },
+    {
+      "index": 34,
+      "bar": 9,
+      "beat_in_bar": 3,
+      "time_sec": 15.9375,
+      "sample": 765000
+    },
+    {
+      "index": 35,
+      "bar": 9,
+      "beat_in_bar": 4,
+      "time_sec": 16.40625,
+      "sample": 787500
+    },
+    {
+      "index": 36,
+      "bar": 10,
+      "beat_in_bar": 1,
+      "time_sec": 16.875,
+      "sample": 810000
+    },
+    {
+      "index": 37,
+      "bar": 10,
+      "beat_in_bar": 2,
+      "time_sec": 17.34375,
+      "sample": 832500
+    },
+    {
+      "index": 38,
+      "bar": 10,
+      "beat_in_bar": 3,
+      "time_sec": 17.8125,
+      "sample": 855000
+    },
+    {
+      "index": 39,
+      "bar": 10,
+      "beat_in_bar": 4,
+      "time_sec": 18.28125,
+      "sample": 877500
+    },
+    {
+      "index": 40,
+      "bar": 11,
+      "beat_in_bar": 1,
+      "time_sec": 18.75,
+      "sample": 900000
+    },
+    {
+      "index": 41,
+      "bar": 11,
+      "beat_in_bar": 2,
+      "time_sec": 19.21875,
+      "sample": 922500
+    },
+    {
+      "index": 42,
+      "bar": 11,
+      "beat_in_bar": 3,
+      "time_sec": 19.6875,
+      "sample": 945000
+    },
+    {
+      "index": 43,
+      "bar": 11,
+      "beat_in_bar": 4,
+      "time_sec": 20.15625,
+      "sample": 967500
+    },
+    {
+      "index": 44,
+      "bar": 12,
+      "beat_in_bar": 1,
+      "time_sec": 20.625,
+      "sample": 990000
+    },
+    {
+      "index": 45,
+      "bar": 12,
+      "beat_in_bar": 2,
+      "time_sec": 21.09375,
+      "sample": 1012500
+    },
+    {
+      "index": 46,
+      "bar": 12,
+      "beat_in_bar": 3,
+      "time_sec": 21.5625,
+      "sample": 1035000
+    },
+    {
+      "index": 47,
+      "bar": 12,
+      "beat_in_bar": 4,
+      "time_sec": 22.03125,
+      "sample": 1057500
+    },
+    {
+      "index": 48,
+      "bar": 13,
+      "beat_in_bar": 1,
+      "time_sec": 22.5,
+      "sample": 1080000
+    },
+    {
+      "index": 49,
+      "bar": 13,
+      "beat_in_bar": 2,
+      "time_sec": 22.96875,
+      "sample": 1102500
+    },
+    {
+      "index": 50,
+      "bar": 13,
+      "beat_in_bar": 3,
+      "time_sec": 23.4375,
+      "sample": 1125000
+    },
+    {
+      "index": 51,
+      "bar": 13,
+      "beat_in_bar": 4,
+      "time_sec": 23.90625,
+      "sample": 1147500
+    },
+    {
+      "index": 52,
+      "bar": 14,
+      "beat_in_bar": 1,
+      "time_sec": 24.375,
+      "sample": 1170000
+    },
+    {
+      "index": 53,
+      "bar": 14,
+      "beat_in_bar": 2,
+      "time_sec": 24.84375,
+      "sample": 1192500
+    },
+    {
+      "index": 54,
+      "bar": 14,
+      "beat_in_bar": 3,
+      "time_sec": 25.3125,
+      "sample": 1215000
+    },
+    {
+      "index": 55,
+      "bar": 14,
+      "beat_in_bar": 4,
+      "time_sec": 25.78125,
+      "sample": 1237500
+    },
+    {
+      "index": 56,
+      "bar": 15,
+      "beat_in_bar": 1,
+      "time_sec": 26.25,
+      "sample": 1260000
+    },
+    {
+      "index": 57,
+      "bar": 15,
+      "beat_in_bar": 2,
+      "time_sec": 26.71875,
+      "sample": 1282500
+    },
+    {
+      "index": 58,
+      "bar": 15,
+      "beat_in_bar": 3,
+      "time_sec": 27.1875,
+      "sample": 1305000
+    },
+    {
+      "index": 59,
+      "bar": 15,
+      "beat_in_bar": 4,
+      "time_sec": 27.65625,
+      "sample": 1327500
+    },
+    {
+      "index": 60,
+      "bar": 16,
+      "beat_in_bar": 1,
+      "time_sec": 28.125,
+      "sample": 1350000
+    },
+    {
+      "index": 61,
+      "bar": 16,
+      "beat_in_bar": 2,
+      "time_sec": 28.59375,
+      "sample": 1372500
+    },
+    {
+      "index": 62,
+      "bar": 16,
+      "beat_in_bar": 3,
+      "time_sec": 29.0625,
+      "sample": 1395000
+    },
+    {
+      "index": 63,
+      "bar": 16,
+      "beat_in_bar": 4,
+      "time_sec": 29.53125,
+      "sample": 1417500
+    },
+    {
+      "index": 64,
+      "bar": 17,
+      "beat_in_bar": 1,
+      "time_sec": 30.0,
+      "sample": 1440000
+    },
+    {
+      "index": 65,
+      "bar": 17,
+      "beat_in_bar": 2,
+      "time_sec": 30.46875,
+      "sample": 1462500
+    },
+    {
+      "index": 66,
+      "bar": 17,
+      "beat_in_bar": 3,
+      "time_sec": 30.9375,
+      "sample": 1485000
+    },
+    {
+      "index": 67,
+      "bar": 17,
+      "beat_in_bar": 4,
+      "time_sec": 31.40625,
+      "sample": 1507500
+    },
+    {
+      "index": 68,
+      "bar": 18,
+      "beat_in_bar": 1,
+      "time_sec": 31.875,
+      "sample": 1530000
+    },
+    {
+      "index": 69,
+      "bar": 18,
+      "beat_in_bar": 2,
+      "time_sec": 32.34375,
+      "sample": 1552500
+    },
+    {
+      "index": 70,
+      "bar": 18,
+      "beat_in_bar": 3,
+      "time_sec": 32.8125,
+      "sample": 1575000
+    },
+    {
+      "index": 71,
+      "bar": 18,
+      "beat_in_bar": 4,
+      "time_sec": 33.28125,
+      "sample": 1597500
+    },
+    {
+      "index": 72,
+      "bar": 19,
+      "beat_in_bar": 1,
+      "time_sec": 33.75,
+      "sample": 1620000
+    },
+    {
+      "index": 73,
+      "bar": 19,
+      "beat_in_bar": 2,
+      "time_sec": 34.21875,
+      "sample": 1642500
+    },
+    {
+      "index": 74,
+      "bar": 19,
+      "beat_in_bar": 3,
+      "time_sec": 34.6875,
+      "sample": 1665000
+    },
+    {
+      "index": 75,
+      "bar": 19,
+      "beat_in_bar": 4,
+      "time_sec": 35.15625,
+      "sample": 1687500
+    },
+    {
+      "index": 76,
+      "bar": 20,
+      "beat_in_bar": 1,
+      "time_sec": 35.625,
+      "sample": 1710000
+    },
+    {
+      "index": 77,
+      "bar": 20,
+      "beat_in_bar": 2,
+      "time_sec": 36.09375,
+      "sample": 1732500
+    },
+    {
+      "index": 78,
+      "bar": 20,
+      "beat_in_bar": 3,
+      "time_sec": 36.5625,
+      "sample": 1755000
+    },
+    {
+      "index": 79,
+      "bar": 20,
+      "beat_in_bar": 4,
+      "time_sec": 37.03125,
+      "sample": 1777500
+    },
+    {
+      "index": 80,
+      "bar": 21,
+      "beat_in_bar": 1,
+      "time_sec": 37.5,
+      "sample": 1800000
+    },
+    {
+      "index": 81,
+      "bar": 21,
+      "beat_in_bar": 2,
+      "time_sec": 37.96875,
+      "sample": 1822500
+    },
+    {
+      "index": 82,
+      "bar": 21,
+      "beat_in_bar": 3,
+      "time_sec": 38.4375,
+      "sample": 1845000
+    },
+    {
+      "index": 83,
+      "bar": 21,
+      "beat_in_bar": 4,
+      "time_sec": 38.90625,
+      "sample": 1867500
+    },
+    {
+      "index": 84,
+      "bar": 22,
+      "beat_in_bar": 1,
+      "time_sec": 39.375,
+      "sample": 1890000
+    },
+    {
+      "index": 85,
+      "bar": 22,
+      "beat_in_bar": 2,
+      "time_sec": 39.84375,
+      "sample": 1912500
+    },
+    {
+      "index": 86,
+      "bar": 22,
+      "beat_in_bar": 3,
+      "time_sec": 40.3125,
+      "sample": 1935000
+    },
+    {
+      "index": 87,
+      "bar": 22,
+      "beat_in_bar": 4,
+      "time_sec": 40.78125,
+      "sample": 1957500
+    },
+    {
+      "index": 88,
+      "bar": 23,
+      "beat_in_bar": 1,
+      "time_sec": 41.25,
+      "sample": 1980000
+    },
+    {
+      "index": 89,
+      "bar": 23,
+      "beat_in_bar": 2,
+      "time_sec": 41.71875,
+      "sample": 2002500
+    },
+    {
+      "index": 90,
+      "bar": 23,
+      "beat_in_bar": 3,
+      "time_sec": 42.1875,
+      "sample": 2025000
+    },
+    {
+      "index": 91,
+      "bar": 23,
+      "beat_in_bar": 4,
+      "time_sec": 42.65625,
+      "sample": 2047500
+    },
+    {
+      "index": 92,
+      "bar": 24,
+      "beat_in_bar": 1,
+      "time_sec": 43.125,
+      "sample": 2070000
+    },
+    {
+      "index": 93,
+      "bar": 24,
+      "beat_in_bar": 2,
+      "time_sec": 43.59375,
+      "sample": 2092500
+    },
+    {
+      "index": 94,
+      "bar": 24,
+      "beat_in_bar": 3,
+      "time_sec": 44.0625,
+      "sample": 2115000
+    },
+    {
+      "index": 95,
+      "bar": 24,
+      "beat_in_bar": 4,
+      "time_sec": 44.53125,
+      "sample": 2137500
+    },
+    {
+      "index": 96,
+      "bar": 25,
+      "beat_in_bar": 1,
+      "time_sec": 45.0,
+      "sample": 2160000
+    },
+    {
+      "index": 97,
+      "bar": 25,
+      "beat_in_bar": 2,
+      "time_sec": 45.46875,
+      "sample": 2182500
+    },
+    {
+      "index": 98,
+      "bar": 25,
+      "beat_in_bar": 3,
+      "time_sec": 45.9375,
+      "sample": 2205000
+    },
+    {
+      "index": 99,
+      "bar": 25,
+      "beat_in_bar": 4,
+      "time_sec": 46.40625,
+      "sample": 2227500
+    },
+    {
+      "index": 100,
+      "bar": 26,
+      "beat_in_bar": 1,
+      "time_sec": 46.875,
+      "sample": 2250000
+    },
+    {
+      "index": 101,
+      "bar": 26,
+      "beat_in_bar": 2,
+      "time_sec": 47.34375,
+      "sample": 2272500
+    },
+    {
+      "index": 102,
+      "bar": 26,
+      "beat_in_bar": 3,
+      "time_sec": 47.8125,
+      "sample": 2295000
+    },
+    {
+      "index": 103,
+      "bar": 26,
+      "beat_in_bar": 4,
+      "time_sec": 48.28125,
+      "sample": 2317500
+    },
+    {
+      "index": 104,
+      "bar": 27,
+      "beat_in_bar": 1,
+      "time_sec": 48.75,
+      "sample": 2340000
+    },
+    {
+      "index": 105,
+      "bar": 27,
+      "beat_in_bar": 2,
+      "time_sec": 49.21875,
+      "sample": 2362500
+    },
+    {
+      "index": 106,
+      "bar": 27,
+      "beat_in_bar": 3,
+      "time_sec": 49.6875,
+      "sample": 2385000
+    },
+    {
+      "index": 107,
+      "bar": 27,
+      "beat_in_bar": 4,
+      "time_sec": 50.15625,
+      "sample": 2407500
+    },
+    {
+      "index": 108,
+      "bar": 28,
+      "beat_in_bar": 1,
+      "time_sec": 50.625,
+      "sample": 2430000
+    },
+    {
+      "index": 109,
+      "bar": 28,
+      "beat_in_bar": 2,
+      "time_sec": 51.09375,
+      "sample": 2452500
+    },
+    {
+      "index": 110,
+      "bar": 28,
+      "beat_in_bar": 3,
+      "time_sec": 51.5625,
+      "sample": 2475000
+    },
+    {
+      "index": 111,
+      "bar": 28,
+      "beat_in_bar": 4,
+      "time_sec": 52.03125,
+      "sample": 2497500
+    },
+    {
+      "index": 112,
+      "bar": 29,
+      "beat_in_bar": 1,
+      "time_sec": 52.5,
+      "sample": 2520000
+    },
+    {
+      "index": 113,
+      "bar": 29,
+      "beat_in_bar": 2,
+      "time_sec": 52.96875,
+      "sample": 2542500
+    },
+    {
+      "index": 114,
+      "bar": 29,
+      "beat_in_bar": 3,
+      "time_sec": 53.4375,
+      "sample": 2565000
+    },
+    {
+      "index": 115,
+      "bar": 29,
+      "beat_in_bar": 4,
+      "time_sec": 53.90625,
+      "sample": 2587500
+    },
+    {
+      "index": 116,
+      "bar": 30,
+      "beat_in_bar": 1,
+      "time_sec": 54.375,
+      "sample": 2610000
+    },
+    {
+      "index": 117,
+      "bar": 30,
+      "beat_in_bar": 2,
+      "time_sec": 54.84375,
+      "sample": 2632500
+    },
+    {
+      "index": 118,
+      "bar": 30,
+      "beat_in_bar": 3,
+      "time_sec": 55.3125,
+      "sample": 2655000
+    },
+    {
+      "index": 119,
+      "bar": 30,
+      "beat_in_bar": 4,
+      "time_sec": 55.78125,
+      "sample": 2677500
+    },
+    {
+      "index": 120,
+      "bar": 31,
+      "beat_in_bar": 1,
+      "time_sec": 56.25,
+      "sample": 2700000
+    },
+    {
+      "index": 121,
+      "bar": 31,
+      "beat_in_bar": 2,
+      "time_sec": 56.71875,
+      "sample": 2722500
+    },
+    {
+      "index": 122,
+      "bar": 31,
+      "beat_in_bar": 3,
+      "time_sec": 57.1875,
+      "sample": 2745000
+    },
+    {
+      "index": 123,
+      "bar": 31,
+      "beat_in_bar": 4,
+      "time_sec": 57.65625,
+      "sample": 2767500
+    },
+    {
+      "index": 124,
+      "bar": 32,
+      "beat_in_bar": 1,
+      "time_sec": 58.125,
+      "sample": 2790000
+    },
+    {
+      "index": 125,
+      "bar": 32,
+      "beat_in_bar": 2,
+      "time_sec": 58.59375,
+      "sample": 2812500
+    },
+    {
+      "index": 126,
+      "bar": 32,
+      "beat_in_bar": 3,
+      "time_sec": 59.0625,
+      "sample": 2835000
+    },
+    {
+      "index": 127,
+      "bar": 32,
+      "beat_in_bar": 4,
+      "time_sec": 59.53125,
+      "sample": 2857500
+    }
+  ],
+  "events": [
+    {
+      "instrument": "minor-pad",
+      "time_sec": 0.0,
+      "sample": 0,
+      "amplitude": 0.105,
+      "note": null
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 0.0,
+      "sample": 0,
+      "amplitude": 0.0315,
+      "note": 62
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 0.703125,
+      "sample": 33750,
+      "amplitude": 0.0315,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 1.875,
+      "sample": 90000,
+      "amplitude": 0.0315,
+      "note": 77
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 2.578125,
+      "sample": 123750,
+      "amplitude": 0.0315,
+      "note": 74
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 1.875,
+      "sample": 90000,
+      "amplitude": 0.105,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 3.046875,
+      "sample": 146250,
+      "amplitude": 0.105,
+      "note": 38
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 1.875,
+      "sample": 90000,
+      "amplitude": 0.3285,
+      "note": 36
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 3.75,
+      "sample": 180000,
+      "amplitude": 0.105,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 3.75,
+      "sample": 180000,
+      "amplitude": 0.17639999999999997,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 4.921875,
+      "sample": 236250,
+      "amplitude": 0.17639999999999997,
+      "note": 38
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 3.75,
+      "sample": 180000,
+      "amplitude": 0.0735,
+      "note": 62
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 4.453125,
+      "sample": 213750,
+      "amplitude": 0.0735,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 5.625,
+      "sample": 270000,
+      "amplitude": 0.0735,
+      "note": 77
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 6.328125,
+      "sample": 303750,
+      "amplitude": 0.0735,
+      "note": 74
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 3.867188,
+      "sample": 185625,
+      "amplitude": 0.014700000000000001,
+      "note": 74
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 4.101562,
+      "sample": 196875,
+      "amplitude": 0.014700000000000001,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 4.335938,
+      "sample": 208125,
+      "amplitude": 0.014700000000000001,
+      "note": 86
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 4.570312,
+      "sample": 219375,
+      "amplitude": 0.014700000000000001,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 4.804688,
+      "sample": 230625,
+      "amplitude": 0.014700000000000001,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 5.039062,
+      "sample": 241875,
+      "amplitude": 0.014700000000000001,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 5.273438,
+      "sample": 253125,
+      "amplitude": 0.014700000000000001,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 5.507812,
+      "sample": 264375,
+      "amplitude": 0.014700000000000001,
+      "note": 84
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 3.75,
+      "sample": 180000,
+      "amplitude": 0.3285,
+      "note": 36
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 3.75,
+      "sample": 180000,
+      "amplitude": 0.024401890453792725,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 3.992375,
+      "sample": 191634,
+      "amplitude": 0.017729770920007396,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 4.21875,
+      "sample": 202500,
+      "amplitude": 0.02633719084658818,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 4.461125,
+      "sample": 214134,
+      "amplitude": 0.01813355041307956,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 4.6875,
+      "sample": 225000,
+      "amplitude": 0.029328005804044762,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 4.929875,
+      "sample": 236634,
+      "amplitude": 0.015205057706522794,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 5.15625,
+      "sample": 247500,
+      "amplitude": 0.030814337399565416,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 5.398625,
+      "sample": 259134,
+      "amplitude": 0.015562489112829356,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 4.453125,
+      "sample": 213750,
+      "amplitude": 0.02184,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 5.390625,
+      "sample": 258750,
+      "amplitude": 0.02184,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 5.625,
+      "sample": 270000,
+      "amplitude": 0.24359999999999998,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 6.796875,
+      "sample": 326250,
+      "amplitude": 0.24359999999999998,
+      "note": 38
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 5.742188,
+      "sample": 275625,
+      "amplitude": 0.020300000000000002,
+      "note": 74
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 5.976562,
+      "sample": 286875,
+      "amplitude": 0.020300000000000002,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 6.210938,
+      "sample": 298125,
+      "amplitude": 0.020300000000000002,
+      "note": 86
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 6.445312,
+      "sample": 309375,
+      "amplitude": 0.020300000000000002,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 6.679688,
+      "sample": 320625,
+      "amplitude": 0.020300000000000002,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 6.914062,
+      "sample": 331875,
+      "amplitude": 0.020300000000000002,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 7.148438,
+      "sample": 343125,
+      "amplitude": 0.020300000000000002,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 7.382812,
+      "sample": 354375,
+      "amplitude": 0.020300000000000002,
+      "note": 84
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 5.625,
+      "sample": 270000,
+      "amplitude": 0.42339999999999994,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 6.796875,
+      "sample": 326250,
+      "amplitude": 0.42339999999999994,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 7.03125,
+      "sample": 337500,
+      "amplitude": 0.19720000000000001,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 5.625,
+      "sample": 270000,
+      "amplitude": 0.041772066736285716,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 5.867375,
+      "sample": 281634,
+      "amplitude": 0.021629852934655625,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 6.09375,
+      "sample": 292500,
+      "amplitude": 0.03647876285221259,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 6.336125,
+      "sample": 304134,
+      "amplitude": 0.02271516501695512,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 6.5625,
+      "sample": 315000,
+      "amplitude": 0.04065571734972575,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 6.804875,
+      "sample": 326634,
+      "amplitude": 0.022226330410731833,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 7.03125,
+      "sample": 337500,
+      "amplitude": 0.0342818952289325,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 7.273625,
+      "sample": 349134,
+      "amplitude": 0.025127653619498855,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 6.328125,
+      "sample": 303750,
+      "amplitude": 0.030159999999999996,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 7.265625,
+      "sample": 348750,
+      "amplitude": 0.030159999999999996,
+      "note": 46
+    },
+    {
+      "instrument": "noise-riser",
+      "time_sec": 5.625,
+      "sample": 270000,
+      "amplitude": 0.07,
+      "note": null
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 7.5,
+      "sample": 360000,
+      "amplitude": 0.105,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 7.5,
+      "sample": 360000,
+      "amplitude": 0.3276,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 7.851562,
+      "sample": 376875,
+      "amplitude": 0.3276,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 8.203125,
+      "sample": 393750,
+      "amplitude": 0.3276,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 8.554688,
+      "sample": 410625,
+      "amplitude": 0.3276,
+      "note": 50
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 8.789062,
+      "sample": 421875,
+      "amplitude": 0.3276,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 9.140625,
+      "sample": 438750,
+      "amplitude": 0.3276,
+      "note": 45
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 7.5,
+      "sample": 360000,
+      "amplitude": 0.13649999999999998,
+      "note": 62
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 7.851562,
+      "sample": 376875,
+      "amplitude": 0.13649999999999998,
+      "note": 69
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 8.203125,
+      "sample": 393750,
+      "amplitude": 0.13649999999999998,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 8.671875,
+      "sample": 416250,
+      "amplitude": 0.13649999999999998,
+      "note": 74
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 9.023438,
+      "sample": 433125,
+      "amplitude": 0.13649999999999998,
+      "note": 69
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 9.375,
+      "sample": 450000,
+      "amplitude": 0.13649999999999998,
+      "note": 77
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 9.726562,
+      "sample": 466875,
+      "amplitude": 0.13649999999999998,
+      "note": 76
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 10.078125,
+      "sample": 483750,
+      "amplitude": 0.13649999999999998,
+      "note": 74
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 10.429688,
+      "sample": 500625,
+      "amplitude": 0.13649999999999998,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 10.78125,
+      "sample": 517500,
+      "amplitude": 0.13649999999999998,
+      "note": 69
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 7.617188,
+      "sample": 365625,
+      "amplitude": 0.027300000000000005,
+      "note": 74
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 7.851562,
+      "sample": 376875,
+      "amplitude": 0.027300000000000005,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 8.085938,
+      "sample": 388125,
+      "amplitude": 0.027300000000000005,
+      "note": 86
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 8.320312,
+      "sample": 399375,
+      "amplitude": 0.027300000000000005,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 8.554688,
+      "sample": 410625,
+      "amplitude": 0.027300000000000005,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 8.789062,
+      "sample": 421875,
+      "amplitude": 0.027300000000000005,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 9.023438,
+      "sample": 433125,
+      "amplitude": 0.027300000000000005,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 9.257812,
+      "sample": 444375,
+      "amplitude": 0.027300000000000005,
+      "note": 84
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 7.5,
+      "sample": 360000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 7.96875,
+      "sample": 382500,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 8.4375,
+      "sample": 405000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 9.023438,
+      "sample": 433125,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 7.96875,
+      "sample": 382500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 8.90625,
+      "sample": 427500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 7.5,
+      "sample": 360000,
+      "amplitude": 0.052439351541477906,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 7.742375,
+      "sample": 371634,
+      "amplitude": 0.03311051742891941,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 7.96875,
+      "sample": 382500,
+      "amplitude": 0.050697201476254415,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 8.211125,
+      "sample": 394134,
+      "amplitude": 0.02996906706013272,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 8.4375,
+      "sample": 405000,
+      "amplitude": 0.04760504870885065,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 8.679875,
+      "sample": 416634,
+      "amplitude": 0.03338018705221527,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 8.90625,
+      "sample": 427500,
+      "amplitude": 0.05420132585178547,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 9.148625,
+      "sample": 439134,
+      "amplitude": 0.02788032033995191,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 8.203125,
+      "sample": 393750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 9.140625,
+      "sample": 438750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "section-impact",
+      "time_sec": 7.5,
+      "sample": 360000,
+      "amplitude": 0.46,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 9.375,
+      "sample": 450000,
+      "amplitude": 0.3276,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 9.726562,
+      "sample": 466875,
+      "amplitude": 0.3276,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 10.078125,
+      "sample": 483750,
+      "amplitude": 0.3276,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 10.429688,
+      "sample": 500625,
+      "amplitude": 0.3276,
+      "note": 50
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 10.664062,
+      "sample": 511875,
+      "amplitude": 0.3276,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 11.015625,
+      "sample": 528750,
+      "amplitude": 0.3276,
+      "note": 45
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 9.492188,
+      "sample": 455625,
+      "amplitude": 0.027300000000000005,
+      "note": 74
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 9.726562,
+      "sample": 466875,
+      "amplitude": 0.027300000000000005,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 9.960938,
+      "sample": 478125,
+      "amplitude": 0.027300000000000005,
+      "note": 86
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 10.195312,
+      "sample": 489375,
+      "amplitude": 0.027300000000000005,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 10.429688,
+      "sample": 500625,
+      "amplitude": 0.027300000000000005,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 10.664062,
+      "sample": 511875,
+      "amplitude": 0.027300000000000005,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 10.898438,
+      "sample": 523125,
+      "amplitude": 0.027300000000000005,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 11.132812,
+      "sample": 534375,
+      "amplitude": 0.027300000000000005,
+      "note": 84
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 9.375,
+      "sample": 450000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 10.078125,
+      "sample": 483750,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 10.3125,
+      "sample": 495000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 10.664062,
+      "sample": 511875,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 11.015625,
+      "sample": 528750,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 9.84375,
+      "sample": 472500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 10.78125,
+      "sample": 517500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 9.375,
+      "sample": 450000,
+      "amplitude": 0.056851883952449486,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 9.617375,
+      "sample": 461634,
+      "amplitude": 0.031866540493945945,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 9.84375,
+      "sample": 472500,
+      "amplitude": 0.050692055759397225,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 10.086125,
+      "sample": 484134,
+      "amplitude": 0.031758272399450775,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 10.3125,
+      "sample": 495000,
+      "amplitude": 0.047889041923508624,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 10.554875,
+      "sample": 506634,
+      "amplitude": 0.027541995737155003,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 10.78125,
+      "sample": 517500,
+      "amplitude": 0.04839745518567562,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 11.023625,
+      "sample": 529134,
+      "amplitude": 0.029416820577760502,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 10.078125,
+      "sample": 483750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 11.015625,
+      "sample": 528750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 11.25,
+      "sample": 540000,
+      "amplitude": 0.105,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 11.25,
+      "sample": 540000,
+      "amplitude": 0.3276,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 11.601562,
+      "sample": 556875,
+      "amplitude": 0.3276,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 11.953125,
+      "sample": 573750,
+      "amplitude": 0.3276,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 12.304688,
+      "sample": 590625,
+      "amplitude": 0.3276,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 12.539062,
+      "sample": 601875,
+      "amplitude": 0.3276,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 12.890625,
+      "sample": 618750,
+      "amplitude": 0.3276,
+      "note": 41
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 11.25,
+      "sample": 540000,
+      "amplitude": 0.13649999999999998,
+      "note": 58
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 11.601562,
+      "sample": 556875,
+      "amplitude": 0.13649999999999998,
+      "note": 65
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 11.953125,
+      "sample": 573750,
+      "amplitude": 0.13649999999999998,
+      "note": 68
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 12.421875,
+      "sample": 596250,
+      "amplitude": 0.13649999999999998,
+      "note": 70
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 12.773438,
+      "sample": 613125,
+      "amplitude": 0.13649999999999998,
+      "note": 65
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 13.125,
+      "sample": 630000,
+      "amplitude": 0.13649999999999998,
+      "note": 73
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 13.476562,
+      "sample": 646875,
+      "amplitude": 0.13649999999999998,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 13.828125,
+      "sample": 663750,
+      "amplitude": 0.13649999999999998,
+      "note": 70
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 14.179688,
+      "sample": 680625,
+      "amplitude": 0.13649999999999998,
+      "note": 68
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 14.53125,
+      "sample": 697500,
+      "amplitude": 0.13649999999999998,
+      "note": 65
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 11.367188,
+      "sample": 545625,
+      "amplitude": 0.027300000000000005,
+      "note": 70
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 11.601562,
+      "sample": 556875,
+      "amplitude": 0.027300000000000005,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 11.835938,
+      "sample": 568125,
+      "amplitude": 0.027300000000000005,
+      "note": 82
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 12.070312,
+      "sample": 579375,
+      "amplitude": 0.027300000000000005,
+      "note": 80
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 12.304688,
+      "sample": 590625,
+      "amplitude": 0.027300000000000005,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 12.539062,
+      "sample": 601875,
+      "amplitude": 0.027300000000000005,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 12.773438,
+      "sample": 613125,
+      "amplitude": 0.027300000000000005,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 13.007812,
+      "sample": 624375,
+      "amplitude": 0.027300000000000005,
+      "note": 80
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 11.25,
+      "sample": 540000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 11.71875,
+      "sample": 562500,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 12.1875,
+      "sample": 585000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 12.773438,
+      "sample": 613125,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 11.71875,
+      "sample": 562500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 12.65625,
+      "sample": 607500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 11.25,
+      "sample": 540000,
+      "amplitude": 0.054842932753036165,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 11.492375,
+      "sample": 551634,
+      "amplitude": 0.032510596244947364,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 11.71875,
+      "sample": 562500,
+      "amplitude": 0.04657755834614694,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 11.961125,
+      "sample": 574134,
+      "amplitude": 0.027725607696067692,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 12.1875,
+      "sample": 585000,
+      "amplitude": 0.055377502908631665,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 12.429875,
+      "sample": 596634,
+      "amplitude": 0.028231385300042315,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 12.65625,
+      "sample": 607500,
+      "amplitude": 0.04702247024204481,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 12.898625,
+      "sample": 619134,
+      "amplitude": 0.029218893548752862,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 11.953125,
+      "sample": 573750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 12.890625,
+      "sample": 618750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 13.125,
+      "sample": 630000,
+      "amplitude": 0.3276,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 13.476562,
+      "sample": 646875,
+      "amplitude": 0.3276,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 13.828125,
+      "sample": 663750,
+      "amplitude": 0.3276,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 14.179688,
+      "sample": 680625,
+      "amplitude": 0.3276,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 14.414062,
+      "sample": 691875,
+      "amplitude": 0.3276,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 14.765625,
+      "sample": 708750,
+      "amplitude": 0.3276,
+      "note": 41
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 13.242188,
+      "sample": 635625,
+      "amplitude": 0.027300000000000005,
+      "note": 70
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 13.476562,
+      "sample": 646875,
+      "amplitude": 0.027300000000000005,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 13.710938,
+      "sample": 658125,
+      "amplitude": 0.027300000000000005,
+      "note": 82
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 13.945312,
+      "sample": 669375,
+      "amplitude": 0.027300000000000005,
+      "note": 80
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 14.179688,
+      "sample": 680625,
+      "amplitude": 0.027300000000000005,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 14.414062,
+      "sample": 691875,
+      "amplitude": 0.027300000000000005,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 14.648438,
+      "sample": 703125,
+      "amplitude": 0.027300000000000005,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 14.882812,
+      "sample": 714375,
+      "amplitude": 0.027300000000000005,
+      "note": 80
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 13.125,
+      "sample": 630000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 13.828125,
+      "sample": 663750,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 14.0625,
+      "sample": 675000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 14.414062,
+      "sample": 691875,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 14.765625,
+      "sample": 708750,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 13.59375,
+      "sample": 652500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 14.53125,
+      "sample": 697500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 13.125,
+      "sample": 630000,
+      "amplitude": 0.04425434093660624,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 13.367375,
+      "sample": 641634,
+      "amplitude": 0.03216668151611827,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 13.59375,
+      "sample": 652500,
+      "amplitude": 0.05628256572522622,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 13.836125,
+      "sample": 664134,
+      "amplitude": 0.030604289404020588,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 14.0625,
+      "sample": 675000,
+      "amplitude": 0.04989707690976757,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 14.304875,
+      "sample": 686634,
+      "amplitude": 0.03251722165186962,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 14.53125,
+      "sample": 697500,
+      "amplitude": 0.055941057187663165,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 14.773625,
+      "sample": 709134,
+      "amplitude": 0.0312879750868026,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 13.828125,
+      "sample": 663750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 14.765625,
+      "sample": 708750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 14.53125,
+      "sample": 697500,
+      "amplitude": 0.16,
+      "note": 48
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 14.648438,
+      "sample": 703125,
+      "amplitude": 0.185,
+      "note": 45
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 14.765625,
+      "sample": 708750,
+      "amplitude": 0.21000000000000002,
+      "note": 42
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 14.882812,
+      "sample": 714375,
+      "amplitude": 0.23500000000000001,
+      "note": 39
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 15.0,
+      "sample": 720000,
+      "amplitude": 0.105,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 15.0,
+      "sample": 720000,
+      "amplitude": 0.3276,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 15.351562,
+      "sample": 736875,
+      "amplitude": 0.3276,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 15.703125,
+      "sample": 753750,
+      "amplitude": 0.3276,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 16.054688,
+      "sample": 770625,
+      "amplitude": 0.3276,
+      "note": 53
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 16.289062,
+      "sample": 781875,
+      "amplitude": 0.3276,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 16.640625,
+      "sample": 798750,
+      "amplitude": 0.3276,
+      "note": 48
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 15.0,
+      "sample": 720000,
+      "amplitude": 0.13649999999999998,
+      "note": 65
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 15.351562,
+      "sample": 736875,
+      "amplitude": 0.13649999999999998,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 15.703125,
+      "sample": 753750,
+      "amplitude": 0.13649999999999998,
+      "note": 75
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 16.171875,
+      "sample": 776250,
+      "amplitude": 0.13649999999999998,
+      "note": 77
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 16.523438,
+      "sample": 793125,
+      "amplitude": 0.13649999999999998,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 16.875,
+      "sample": 810000,
+      "amplitude": 0.13649999999999998,
+      "note": 80
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 17.226562,
+      "sample": 826875,
+      "amplitude": 0.13649999999999998,
+      "note": 79
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 17.578125,
+      "sample": 843750,
+      "amplitude": 0.13649999999999998,
+      "note": 77
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 17.929688,
+      "sample": 860625,
+      "amplitude": 0.13649999999999998,
+      "note": 75
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 18.28125,
+      "sample": 877500,
+      "amplitude": 0.13649999999999998,
+      "note": 72
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 15.117188,
+      "sample": 725625,
+      "amplitude": 0.027300000000000005,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 15.351562,
+      "sample": 736875,
+      "amplitude": 0.027300000000000005,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 15.585938,
+      "sample": 748125,
+      "amplitude": 0.027300000000000005,
+      "note": 89
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 15.820312,
+      "sample": 759375,
+      "amplitude": 0.027300000000000005,
+      "note": 87
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 16.054688,
+      "sample": 770625,
+      "amplitude": 0.027300000000000005,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 16.289062,
+      "sample": 781875,
+      "amplitude": 0.027300000000000005,
+      "note": 80
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 16.523438,
+      "sample": 793125,
+      "amplitude": 0.027300000000000005,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 16.757812,
+      "sample": 804375,
+      "amplitude": 0.027300000000000005,
+      "note": 87
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 15.0,
+      "sample": 720000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 15.46875,
+      "sample": 742500,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 15.9375,
+      "sample": 765000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 16.523438,
+      "sample": 793125,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 15.46875,
+      "sample": 742500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 16.40625,
+      "sample": 787500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 15.0,
+      "sample": 720000,
+      "amplitude": 0.05722480677376814,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 15.242375,
+      "sample": 731634,
+      "amplitude": 0.03279456366716075,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 15.46875,
+      "sample": 742500,
+      "amplitude": 0.04449519160950671,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 15.711125,
+      "sample": 754134,
+      "amplitude": 0.02711362880192452,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 15.9375,
+      "sample": 765000,
+      "amplitude": 0.05615287374700817,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 16.179875,
+      "sample": 776634,
+      "amplitude": 0.03365722314750282,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 16.40625,
+      "sample": 787500,
+      "amplitude": 0.056502954649334206,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 16.648625,
+      "sample": 799134,
+      "amplitude": 0.03168916310396875,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 15.703125,
+      "sample": 753750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 16.640625,
+      "sample": 798750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 16.875,
+      "sample": 810000,
+      "amplitude": 0.3276,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 17.226562,
+      "sample": 826875,
+      "amplitude": 0.3276,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 17.578125,
+      "sample": 843750,
+      "amplitude": 0.3276,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 17.929688,
+      "sample": 860625,
+      "amplitude": 0.3276,
+      "note": 53
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 18.164062,
+      "sample": 871875,
+      "amplitude": 0.3276,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 18.515625,
+      "sample": 888750,
+      "amplitude": 0.3276,
+      "note": 48
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 16.992188,
+      "sample": 815625,
+      "amplitude": 0.027300000000000005,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 17.226562,
+      "sample": 826875,
+      "amplitude": 0.027300000000000005,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 17.460938,
+      "sample": 838125,
+      "amplitude": 0.027300000000000005,
+      "note": 89
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 17.695312,
+      "sample": 849375,
+      "amplitude": 0.027300000000000005,
+      "note": 87
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 17.929688,
+      "sample": 860625,
+      "amplitude": 0.027300000000000005,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 18.164062,
+      "sample": 871875,
+      "amplitude": 0.027300000000000005,
+      "note": 80
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 18.398438,
+      "sample": 883125,
+      "amplitude": 0.027300000000000005,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 18.632812,
+      "sample": 894375,
+      "amplitude": 0.027300000000000005,
+      "note": 87
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 16.875,
+      "sample": 810000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 17.578125,
+      "sample": 843750,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 17.8125,
+      "sample": 855000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 18.164062,
+      "sample": 871875,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 18.515625,
+      "sample": 888750,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 17.34375,
+      "sample": 832500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 18.28125,
+      "sample": 877500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 16.875,
+      "sample": 810000,
+      "amplitude": 0.04731606327958536,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 17.117375,
+      "sample": 821634,
+      "amplitude": 0.03276853426005977,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 17.34375,
+      "sample": 832500,
+      "amplitude": 0.05542490867014313,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 17.586125,
+      "sample": 844134,
+      "amplitude": 0.032630260028697775,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 17.8125,
+      "sample": 855000,
+      "amplitude": 0.048790241735196985,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 18.054875,
+      "sample": 866634,
+      "amplitude": 0.030265206154451225,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 18.28125,
+      "sample": 877500,
+      "amplitude": 0.055917455523428077,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 18.523625,
+      "sample": 889134,
+      "amplitude": 0.028649368108632625,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 17.578125,
+      "sample": 843750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 18.515625,
+      "sample": 888750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 18.75,
+      "sample": 900000,
+      "amplitude": 0.105,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 18.75,
+      "sample": 900000,
+      "amplitude": 0.3276,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 19.101562,
+      "sample": 916875,
+      "amplitude": 0.3276,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 19.453125,
+      "sample": 933750,
+      "amplitude": 0.3276,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 19.804688,
+      "sample": 950625,
+      "amplitude": 0.3276,
+      "note": 45
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 20.039062,
+      "sample": 961875,
+      "amplitude": 0.3276,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 20.390625,
+      "sample": 978750,
+      "amplitude": 0.3276,
+      "note": 40
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 18.75,
+      "sample": 900000,
+      "amplitude": 0.13649999999999998,
+      "note": 57
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 19.101562,
+      "sample": 916875,
+      "amplitude": 0.13649999999999998,
+      "note": 64
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 19.453125,
+      "sample": 933750,
+      "amplitude": 0.13649999999999998,
+      "note": 67
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 19.921875,
+      "sample": 956250,
+      "amplitude": 0.13649999999999998,
+      "note": 69
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 20.273438,
+      "sample": 973125,
+      "amplitude": 0.13649999999999998,
+      "note": 64
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 20.625,
+      "sample": 990000,
+      "amplitude": 0.13649999999999998,
+      "note": 73
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 20.976562,
+      "sample": 1006875,
+      "amplitude": 0.13649999999999998,
+      "note": 71
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 21.328125,
+      "sample": 1023750,
+      "amplitude": 0.13649999999999998,
+      "note": 69
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 21.679688,
+      "sample": 1040625,
+      "amplitude": 0.13649999999999998,
+      "note": 67
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 22.03125,
+      "sample": 1057500,
+      "amplitude": 0.13649999999999998,
+      "note": 64
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 18.867188,
+      "sample": 905625,
+      "amplitude": 0.027300000000000005,
+      "note": 69
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 19.101562,
+      "sample": 916875,
+      "amplitude": 0.027300000000000005,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 19.335938,
+      "sample": 928125,
+      "amplitude": 0.027300000000000005,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 19.570312,
+      "sample": 939375,
+      "amplitude": 0.027300000000000005,
+      "note": 79
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 19.804688,
+      "sample": 950625,
+      "amplitude": 0.027300000000000005,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 20.039062,
+      "sample": 961875,
+      "amplitude": 0.027300000000000005,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 20.273438,
+      "sample": 973125,
+      "amplitude": 0.027300000000000005,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 20.507812,
+      "sample": 984375,
+      "amplitude": 0.027300000000000005,
+      "note": 79
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 18.75,
+      "sample": 900000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 19.21875,
+      "sample": 922500,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 19.6875,
+      "sample": 945000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 20.273438,
+      "sample": 973125,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 19.21875,
+      "sample": 922500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 20.15625,
+      "sample": 967500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 18.75,
+      "sample": 900000,
+      "amplitude": 0.05070752292609156,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 18.992375,
+      "sample": 911634,
+      "amplitude": 0.030656519058419967,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 19.21875,
+      "sample": 922500,
+      "amplitude": 0.047446293986319485,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 19.461125,
+      "sample": 934134,
+      "amplitude": 0.031396768693041026,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 19.6875,
+      "sample": 945000,
+      "amplitude": 0.049501756462583014,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 19.929875,
+      "sample": 956634,
+      "amplitude": 0.03393205330295871,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 20.15625,
+      "sample": 967500,
+      "amplitude": 0.04734085255026027,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 20.398625,
+      "sample": 979134,
+      "amplitude": 0.03314906420039522,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 19.453125,
+      "sample": 933750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 20.390625,
+      "sample": 978750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 20.625,
+      "sample": 990000,
+      "amplitude": 0.3276,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 20.976562,
+      "sample": 1006875,
+      "amplitude": 0.3276,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 21.328125,
+      "sample": 1023750,
+      "amplitude": 0.3276,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 21.679688,
+      "sample": 1040625,
+      "amplitude": 0.3276,
+      "note": 45
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 21.914062,
+      "sample": 1051875,
+      "amplitude": 0.3276,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 22.265625,
+      "sample": 1068750,
+      "amplitude": 0.3276,
+      "note": 40
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 20.742188,
+      "sample": 995625,
+      "amplitude": 0.027300000000000005,
+      "note": 69
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 20.976562,
+      "sample": 1006875,
+      "amplitude": 0.027300000000000005,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 21.210938,
+      "sample": 1018125,
+      "amplitude": 0.027300000000000005,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 21.445312,
+      "sample": 1029375,
+      "amplitude": 0.027300000000000005,
+      "note": 79
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 21.679688,
+      "sample": 1040625,
+      "amplitude": 0.027300000000000005,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 21.914062,
+      "sample": 1051875,
+      "amplitude": 0.027300000000000005,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 22.148438,
+      "sample": 1063125,
+      "amplitude": 0.027300000000000005,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 22.382812,
+      "sample": 1074375,
+      "amplitude": 0.027300000000000005,
+      "note": 79
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 20.625,
+      "sample": 990000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 21.328125,
+      "sample": 1023750,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 21.5625,
+      "sample": 1035000,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 21.914062,
+      "sample": 1051875,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 22.265625,
+      "sample": 1068750,
+      "amplitude": 0.5694,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 21.09375,
+      "sample": 1012500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 22.03125,
+      "sample": 1057500,
+      "amplitude": 0.26520000000000005,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 20.625,
+      "sample": 990000,
+      "amplitude": 0.05024394803648706,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 20.867375,
+      "sample": 1001634,
+      "amplitude": 0.032532645090011754,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 21.09375,
+      "sample": 1012500,
+      "amplitude": 0.05442202383041592,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 21.336125,
+      "sample": 1024134,
+      "amplitude": 0.03354210222997767,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 21.5625,
+      "sample": 1035000,
+      "amplitude": 0.053854037849516,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 21.804875,
+      "sample": 1046634,
+      "amplitude": 0.03257157265145691,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 22.03125,
+      "sample": 1057500,
+      "amplitude": 0.05349695622631713,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 22.273625,
+      "sample": 1069134,
+      "amplitude": 0.026788178865500636,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 21.328125,
+      "sample": 1023750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 22.265625,
+      "sample": 1068750,
+      "amplitude": 0.04056,
+      "note": 46
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 22.03125,
+      "sample": 1057500,
+      "amplitude": 0.16,
+      "note": 48
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 22.148438,
+      "sample": 1063125,
+      "amplitude": 0.185,
+      "note": 45
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 22.265625,
+      "sample": 1068750,
+      "amplitude": 0.21000000000000002,
+      "note": 42
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 22.382812,
+      "sample": 1074375,
+      "amplitude": 0.23500000000000001,
+      "note": 39
+    },
+    {
+      "instrument": "noise-riser",
+      "time_sec": 20.625,
+      "sample": 990000,
+      "amplitude": 0.12,
+      "note": null
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 22.5,
+      "sample": 1080000,
+      "amplitude": 0.105,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 22.5,
+      "sample": 1080000,
+      "amplitude": 0.17639999999999997,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 23.4375,
+      "sample": 1125000,
+      "amplitude": 0.17639999999999997,
+      "note": 34
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 22.5,
+      "sample": 1080000,
+      "amplitude": 0.0735,
+      "note": 58
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 22.851562,
+      "sample": 1096875,
+      "amplitude": 0.0735,
+      "note": 65
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 23.203125,
+      "sample": 1113750,
+      "amplitude": 0.0735,
+      "note": 68
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 22.617188,
+      "sample": 1085625,
+      "amplitude": 0.014700000000000001,
+      "note": 70
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 22.851562,
+      "sample": 1096875,
+      "amplitude": 0.014700000000000001,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 23.085938,
+      "sample": 1108125,
+      "amplitude": 0.014700000000000001,
+      "note": 82
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 23.320312,
+      "sample": 1119375,
+      "amplitude": 0.014700000000000001,
+      "note": 80
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 23.554688,
+      "sample": 1130625,
+      "amplitude": 0.014700000000000001,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 23.789062,
+      "sample": 1141875,
+      "amplitude": 0.014700000000000001,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 24.023438,
+      "sample": 1153125,
+      "amplitude": 0.014700000000000001,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 24.257812,
+      "sample": 1164375,
+      "amplitude": 0.014700000000000001,
+      "note": 80
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 22.5,
+      "sample": 1080000,
+      "amplitude": 0.3285,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 23.671875,
+      "sample": 1136250,
+      "amplitude": 0.3285,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 23.4375,
+      "sample": 1125000,
+      "amplitude": 0.1428,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 22.5,
+      "sample": 1080000,
+      "amplitude": 0.026129326419331626,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 22.742375,
+      "sample": 1091634,
+      "amplitude": 0.018019172594941565,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 22.96875,
+      "sample": 1102500,
+      "amplitude": 0.02505700252938644,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 23.211125,
+      "sample": 1114134,
+      "amplitude": 0.017974043642131964,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 23.4375,
+      "sample": 1125000,
+      "amplitude": 0.02934943813781159,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 23.679875,
+      "sample": 1136634,
+      "amplitude": 0.01730234357524357,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 23.90625,
+      "sample": 1147500,
+      "amplitude": 0.024857463230449173,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 24.148625,
+      "sample": 1159134,
+      "amplitude": 0.014903499263924029,
+      "note": 42
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 24.375,
+      "sample": 1170000,
+      "amplitude": 0.126,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 25.3125,
+      "sample": 1215000,
+      "amplitude": 0.126,
+      "note": 33
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 24.492188,
+      "sample": 1175625,
+      "amplitude": 0.0105,
+      "note": 69
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 24.726562,
+      "sample": 1186875,
+      "amplitude": 0.0105,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 24.960938,
+      "sample": 1198125,
+      "amplitude": 0.0105,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 25.195312,
+      "sample": 1209375,
+      "amplitude": 0.0105,
+      "note": 79
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 25.429688,
+      "sample": 1220625,
+      "amplitude": 0.0105,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 25.664062,
+      "sample": 1231875,
+      "amplitude": 0.0105,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 25.898438,
+      "sample": 1243125,
+      "amplitude": 0.0105,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 26.132812,
+      "sample": 1254375,
+      "amplitude": 0.0105,
+      "note": 79
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 24.375,
+      "sample": 1170000,
+      "amplitude": 0.3285,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 25.546875,
+      "sample": 1226250,
+      "amplitude": 0.3285,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 25.3125,
+      "sample": 1215000,
+      "amplitude": 0.10200000000000001,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 24.375,
+      "sample": 1170000,
+      "amplitude": 0.01968207544238442,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 24.617375,
+      "sample": 1181634,
+      "amplitude": 0.011078624343320242,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 24.84375,
+      "sample": 1192500,
+      "amplitude": 0.020143545795951217,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 25.086125,
+      "sample": 1204134,
+      "amplitude": 0.010368583951088596,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 25.3125,
+      "sample": 1215000,
+      "amplitude": 0.017728393327944195,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 25.554875,
+      "sample": 1226634,
+      "amplitude": 0.013161768016114734,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 25.78125,
+      "sample": 1237500,
+      "amplitude": 0.02053001371162103,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 26.023625,
+      "sample": 1249134,
+      "amplitude": 0.011622662961038817,
+      "note": 42
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 29.765625,
+      "sample": 1428750,
+      "amplitude": 0.1596,
+      "note": 33
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 29.765625,
+      "sample": 1428750,
+      "amplitude": 0.3285,
+      "note": 36
+    },
+    {
+      "instrument": "build-snare",
+      "time_sec": 29.0625,
+      "sample": 1395000,
+      "amplitude": 0.06,
+      "note": 38
+    },
+    {
+      "instrument": "build-snare",
+      "time_sec": 29.296875,
+      "sample": 1406250,
+      "amplitude": 0.08199999999999999,
+      "note": 38
+    },
+    {
+      "instrument": "build-snare",
+      "time_sec": 29.53125,
+      "sample": 1417500,
+      "amplitude": 0.104,
+      "note": 38
+    },
+    {
+      "instrument": "build-snare",
+      "time_sec": 29.648438,
+      "sample": 1423125,
+      "amplitude": 0.126,
+      "note": 38
+    },
+    {
+      "instrument": "build-snare",
+      "time_sec": 29.765625,
+      "sample": 1428750,
+      "amplitude": 0.148,
+      "note": 38
+    },
+    {
+      "instrument": "build-snare",
+      "time_sec": 29.882812,
+      "sample": 1434375,
+      "amplitude": 0.16999999999999998,
+      "note": 38
+    },
+    {
+      "instrument": "noise-riser",
+      "time_sec": 28.125,
+      "sample": 1350000,
+      "amplitude": 0.12,
+      "note": null
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 30.0,
+      "sample": 1440000,
+      "amplitude": 0.15,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 30.0,
+      "sample": 1440000,
+      "amplitude": 0.3864,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 30.351562,
+      "sample": 1456875,
+      "amplitude": 0.3864,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 30.703125,
+      "sample": 1473750,
+      "amplitude": 0.3864,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 31.054688,
+      "sample": 1490625,
+      "amplitude": 0.3864,
+      "note": 50
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 31.289062,
+      "sample": 1501875,
+      "amplitude": 0.3864,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 31.640625,
+      "sample": 1518750,
+      "amplitude": 0.3864,
+      "note": 45
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 30.0,
+      "sample": 1440000,
+      "amplitude": 0.161,
+      "note": 62
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 30.351562,
+      "sample": 1456875,
+      "amplitude": 0.161,
+      "note": 69
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 30.703125,
+      "sample": 1473750,
+      "amplitude": 0.161,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 31.171875,
+      "sample": 1496250,
+      "amplitude": 0.161,
+      "note": 74
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 31.523438,
+      "sample": 1513125,
+      "amplitude": 0.161,
+      "note": 69
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 31.875,
+      "sample": 1530000,
+      "amplitude": 0.161,
+      "note": 77
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 32.226562,
+      "sample": 1546875,
+      "amplitude": 0.161,
+      "note": 76
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 32.578125,
+      "sample": 1563750,
+      "amplitude": 0.161,
+      "note": 74
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 32.929688,
+      "sample": 1580625,
+      "amplitude": 0.161,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 33.28125,
+      "sample": 1597500,
+      "amplitude": 0.161,
+      "note": 69
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 30.117188,
+      "sample": 1445625,
+      "amplitude": 0.032200000000000006,
+      "note": 74
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 30.351562,
+      "sample": 1456875,
+      "amplitude": 0.032200000000000006,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 30.585938,
+      "sample": 1468125,
+      "amplitude": 0.032200000000000006,
+      "note": 86
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 30.820312,
+      "sample": 1479375,
+      "amplitude": 0.032200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 31.054688,
+      "sample": 1490625,
+      "amplitude": 0.032200000000000006,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 31.289062,
+      "sample": 1501875,
+      "amplitude": 0.032200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 31.523438,
+      "sample": 1513125,
+      "amplitude": 0.032200000000000006,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 31.757812,
+      "sample": 1524375,
+      "amplitude": 0.032200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 30.0,
+      "sample": 1440000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 30.46875,
+      "sample": 1462500,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 30.9375,
+      "sample": 1485000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 31.523438,
+      "sample": 1513125,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 30.46875,
+      "sample": 1462500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 31.40625,
+      "sample": 1507500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 30.0,
+      "sample": 1440000,
+      "amplitude": 0.059967296074246224,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 30.242375,
+      "sample": 1451634,
+      "amplitude": 0.03902179241854936,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 30.46875,
+      "sample": 1462500,
+      "amplitude": 0.06750989399102385,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 30.711125,
+      "sample": 1474134,
+      "amplitude": 0.038935627606339354,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 30.9375,
+      "sample": 1485000,
+      "amplitude": 0.05247506179130849,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 31.179875,
+      "sample": 1496634,
+      "amplitude": 0.03572714101905339,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 31.40625,
+      "sample": 1507500,
+      "amplitude": 0.06072580799029404,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 31.648625,
+      "sample": 1519134,
+      "amplitude": 0.033884506642896044,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 30.703125,
+      "sample": 1473750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 31.640625,
+      "sample": 1518750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "section-impact",
+      "time_sec": 30.0,
+      "sample": 1440000,
+      "amplitude": 0.64,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 31.875,
+      "sample": 1530000,
+      "amplitude": 0.3864,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 32.226562,
+      "sample": 1546875,
+      "amplitude": 0.3864,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 32.578125,
+      "sample": 1563750,
+      "amplitude": 0.3864,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 32.929688,
+      "sample": 1580625,
+      "amplitude": 0.3864,
+      "note": 50
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 33.164062,
+      "sample": 1591875,
+      "amplitude": 0.3864,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 33.515625,
+      "sample": 1608750,
+      "amplitude": 0.3864,
+      "note": 45
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 31.992188,
+      "sample": 1535625,
+      "amplitude": 0.032200000000000006,
+      "note": 74
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 32.226562,
+      "sample": 1546875,
+      "amplitude": 0.032200000000000006,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 32.460938,
+      "sample": 1558125,
+      "amplitude": 0.032200000000000006,
+      "note": 86
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 32.695312,
+      "sample": 1569375,
+      "amplitude": 0.032200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 32.929688,
+      "sample": 1580625,
+      "amplitude": 0.032200000000000006,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 33.164062,
+      "sample": 1591875,
+      "amplitude": 0.032200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 33.398438,
+      "sample": 1603125,
+      "amplitude": 0.032200000000000006,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 33.632812,
+      "sample": 1614375,
+      "amplitude": 0.032200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 31.875,
+      "sample": 1530000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 32.578125,
+      "sample": 1563750,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 32.8125,
+      "sample": 1575000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 33.164062,
+      "sample": 1591875,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 33.515625,
+      "sample": 1608750,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 32.34375,
+      "sample": 1552500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 33.28125,
+      "sample": 1597500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 31.875,
+      "sample": 1530000,
+      "amplitude": 0.05755204030795994,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 32.117375,
+      "sample": 1541634,
+      "amplitude": 0.03444879387393141,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 32.34375,
+      "sample": 1552500,
+      "amplitude": 0.05899339352639555,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 32.586125,
+      "sample": 1564134,
+      "amplitude": 0.034850230912294416,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 32.8125,
+      "sample": 1575000,
+      "amplitude": 0.06667916445502216,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 33.054875,
+      "sample": 1586634,
+      "amplitude": 0.03257403962522698,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 33.28125,
+      "sample": 1597500,
+      "amplitude": 0.06416904112270992,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 33.523625,
+      "sample": 1609134,
+      "amplitude": 0.04051542408258557,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 32.578125,
+      "sample": 1563750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 33.515625,
+      "sample": 1608750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 33.75,
+      "sample": 1620000,
+      "amplitude": 0.15,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 33.75,
+      "sample": 1620000,
+      "amplitude": 0.3864,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 34.101562,
+      "sample": 1636875,
+      "amplitude": 0.3864,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 34.453125,
+      "sample": 1653750,
+      "amplitude": 0.3864,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 34.804688,
+      "sample": 1670625,
+      "amplitude": 0.3864,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 35.039062,
+      "sample": 1681875,
+      "amplitude": 0.3864,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 35.390625,
+      "sample": 1698750,
+      "amplitude": 0.3864,
+      "note": 41
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 33.75,
+      "sample": 1620000,
+      "amplitude": 0.161,
+      "note": 58
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 34.101562,
+      "sample": 1636875,
+      "amplitude": 0.161,
+      "note": 65
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 34.453125,
+      "sample": 1653750,
+      "amplitude": 0.161,
+      "note": 68
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 34.921875,
+      "sample": 1676250,
+      "amplitude": 0.161,
+      "note": 70
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 35.273438,
+      "sample": 1693125,
+      "amplitude": 0.161,
+      "note": 65
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 35.625,
+      "sample": 1710000,
+      "amplitude": 0.161,
+      "note": 73
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 35.976562,
+      "sample": 1726875,
+      "amplitude": 0.161,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 36.328125,
+      "sample": 1743750,
+      "amplitude": 0.161,
+      "note": 70
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 36.679688,
+      "sample": 1760625,
+      "amplitude": 0.161,
+      "note": 68
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 37.03125,
+      "sample": 1777500,
+      "amplitude": 0.161,
+      "note": 65
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 33.867188,
+      "sample": 1625625,
+      "amplitude": 0.032200000000000006,
+      "note": 70
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 34.101562,
+      "sample": 1636875,
+      "amplitude": 0.032200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 34.335938,
+      "sample": 1648125,
+      "amplitude": 0.032200000000000006,
+      "note": 82
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 34.570312,
+      "sample": 1659375,
+      "amplitude": 0.032200000000000006,
+      "note": 80
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 34.804688,
+      "sample": 1670625,
+      "amplitude": 0.032200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 35.039062,
+      "sample": 1681875,
+      "amplitude": 0.032200000000000006,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 35.273438,
+      "sample": 1693125,
+      "amplitude": 0.032200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 35.507812,
+      "sample": 1704375,
+      "amplitude": 0.032200000000000006,
+      "note": 80
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 33.75,
+      "sample": 1620000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 34.21875,
+      "sample": 1642500,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 34.6875,
+      "sample": 1665000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 35.273438,
+      "sample": 1693125,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 34.21875,
+      "sample": 1642500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 35.15625,
+      "sample": 1687500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 33.75,
+      "sample": 1620000,
+      "amplitude": 0.06141577999298085,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 33.992375,
+      "sample": 1631634,
+      "amplitude": 0.039441053086610445,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 34.21875,
+      "sample": 1642500,
+      "amplitude": 0.06496945042352534,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 34.461125,
+      "sample": 1654134,
+      "amplitude": 0.034864001509192305,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 34.6875,
+      "sample": 1665000,
+      "amplitude": 0.05888345660928285,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 34.929875,
+      "sample": 1676634,
+      "amplitude": 0.0399810375126677,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 35.15625,
+      "sample": 1687500,
+      "amplitude": 0.060418127705884256,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 35.398625,
+      "sample": 1699134,
+      "amplitude": 0.03279438330773082,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 34.453125,
+      "sample": 1653750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 35.390625,
+      "sample": 1698750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 35.625,
+      "sample": 1710000,
+      "amplitude": 0.3864,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 35.976562,
+      "sample": 1726875,
+      "amplitude": 0.3864,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 36.328125,
+      "sample": 1743750,
+      "amplitude": 0.3864,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 36.679688,
+      "sample": 1760625,
+      "amplitude": 0.3864,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 36.914062,
+      "sample": 1771875,
+      "amplitude": 0.3864,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 37.265625,
+      "sample": 1788750,
+      "amplitude": 0.3864,
+      "note": 41
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 35.742188,
+      "sample": 1715625,
+      "amplitude": 0.032200000000000006,
+      "note": 70
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 35.976562,
+      "sample": 1726875,
+      "amplitude": 0.032200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 36.210938,
+      "sample": 1738125,
+      "amplitude": 0.032200000000000006,
+      "note": 82
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 36.445312,
+      "sample": 1749375,
+      "amplitude": 0.032200000000000006,
+      "note": 80
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 36.679688,
+      "sample": 1760625,
+      "amplitude": 0.032200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 36.914062,
+      "sample": 1771875,
+      "amplitude": 0.032200000000000006,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 37.148438,
+      "sample": 1783125,
+      "amplitude": 0.032200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 37.382812,
+      "sample": 1794375,
+      "amplitude": 0.032200000000000006,
+      "note": 80
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 35.625,
+      "sample": 1710000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 36.328125,
+      "sample": 1743750,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 36.5625,
+      "sample": 1755000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 36.914062,
+      "sample": 1771875,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 37.265625,
+      "sample": 1788750,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 36.09375,
+      "sample": 1732500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 37.03125,
+      "sample": 1777500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 35.625,
+      "sample": 1710000,
+      "amplitude": 0.06313392205670175,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 35.867375,
+      "sample": 1721634,
+      "amplitude": 0.0384857986823659,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 36.09375,
+      "sample": 1732500,
+      "amplitude": 0.053543838297266666,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 36.336125,
+      "sample": 1744134,
+      "amplitude": 0.03370691490883644,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 36.5625,
+      "sample": 1755000,
+      "amplitude": 0.056549228350032614,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 36.804875,
+      "sample": 1766634,
+      "amplitude": 0.039564839560134506,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 37.03125,
+      "sample": 1777500,
+      "amplitude": 0.05943438109302266,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 37.273625,
+      "sample": 1789134,
+      "amplitude": 0.03791200060298438,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 36.328125,
+      "sample": 1743750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 37.265625,
+      "sample": 1788750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 37.03125,
+      "sample": 1777500,
+      "amplitude": 0.16,
+      "note": 48
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 37.148438,
+      "sample": 1783125,
+      "amplitude": 0.185,
+      "note": 45
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 37.265625,
+      "sample": 1788750,
+      "amplitude": 0.21000000000000002,
+      "note": 42
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 37.382812,
+      "sample": 1794375,
+      "amplitude": 0.23500000000000001,
+      "note": 39
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 37.5,
+      "sample": 1800000,
+      "amplitude": 0.15,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 37.5,
+      "sample": 1800000,
+      "amplitude": 0.3864,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 37.851562,
+      "sample": 1816875,
+      "amplitude": 0.3864,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 38.203125,
+      "sample": 1833750,
+      "amplitude": 0.3864,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 38.554688,
+      "sample": 1850625,
+      "amplitude": 0.3864,
+      "note": 53
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 38.789062,
+      "sample": 1861875,
+      "amplitude": 0.3864,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 39.140625,
+      "sample": 1878750,
+      "amplitude": 0.3864,
+      "note": 48
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 37.5,
+      "sample": 1800000,
+      "amplitude": 0.161,
+      "note": 65
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 37.851562,
+      "sample": 1816875,
+      "amplitude": 0.161,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 38.203125,
+      "sample": 1833750,
+      "amplitude": 0.161,
+      "note": 75
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 38.671875,
+      "sample": 1856250,
+      "amplitude": 0.161,
+      "note": 77
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 39.023438,
+      "sample": 1873125,
+      "amplitude": 0.161,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 39.375,
+      "sample": 1890000,
+      "amplitude": 0.161,
+      "note": 80
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 39.726562,
+      "sample": 1906875,
+      "amplitude": 0.161,
+      "note": 79
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 40.078125,
+      "sample": 1923750,
+      "amplitude": 0.161,
+      "note": 77
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 40.429688,
+      "sample": 1940625,
+      "amplitude": 0.161,
+      "note": 75
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 40.78125,
+      "sample": 1957500,
+      "amplitude": 0.161,
+      "note": 72
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 37.617188,
+      "sample": 1805625,
+      "amplitude": 0.032200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 37.851562,
+      "sample": 1816875,
+      "amplitude": 0.032200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 38.085938,
+      "sample": 1828125,
+      "amplitude": 0.032200000000000006,
+      "note": 89
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 38.320312,
+      "sample": 1839375,
+      "amplitude": 0.032200000000000006,
+      "note": 87
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 38.554688,
+      "sample": 1850625,
+      "amplitude": 0.032200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 38.789062,
+      "sample": 1861875,
+      "amplitude": 0.032200000000000006,
+      "note": 80
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 39.023438,
+      "sample": 1873125,
+      "amplitude": 0.032200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 39.257812,
+      "sample": 1884375,
+      "amplitude": 0.032200000000000006,
+      "note": 87
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 37.5,
+      "sample": 1800000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 37.96875,
+      "sample": 1822500,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 38.4375,
+      "sample": 1845000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 39.023438,
+      "sample": 1873125,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 37.96875,
+      "sample": 1822500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 38.90625,
+      "sample": 1867500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 37.5,
+      "sample": 1800000,
+      "amplitude": 0.06549225954706538,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 37.742375,
+      "sample": 1811634,
+      "amplitude": 0.036673598222532584,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 37.96875,
+      "sample": 1822500,
+      "amplitude": 0.06126405544697314,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 38.211125,
+      "sample": 1834134,
+      "amplitude": 0.0403971666529434,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 38.4375,
+      "sample": 1845000,
+      "amplitude": 0.06366420945073037,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 38.679875,
+      "sample": 1856634,
+      "amplitude": 0.036311471903528195,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 38.90625,
+      "sample": 1867500,
+      "amplitude": 0.06577202302019086,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 39.148625,
+      "sample": 1879134,
+      "amplitude": 0.03446933703430498,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 38.203125,
+      "sample": 1833750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 39.140625,
+      "sample": 1878750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 39.375,
+      "sample": 1890000,
+      "amplitude": 0.3864,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 39.726562,
+      "sample": 1906875,
+      "amplitude": 0.3864,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 40.078125,
+      "sample": 1923750,
+      "amplitude": 0.3864,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 40.429688,
+      "sample": 1940625,
+      "amplitude": 0.3864,
+      "note": 53
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 40.664062,
+      "sample": 1951875,
+      "amplitude": 0.3864,
+      "note": 41
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 41.015625,
+      "sample": 1968750,
+      "amplitude": 0.3864,
+      "note": 48
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 39.492188,
+      "sample": 1895625,
+      "amplitude": 0.032200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 39.726562,
+      "sample": 1906875,
+      "amplitude": 0.032200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 39.960938,
+      "sample": 1918125,
+      "amplitude": 0.032200000000000006,
+      "note": 89
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 40.195312,
+      "sample": 1929375,
+      "amplitude": 0.032200000000000006,
+      "note": 87
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 40.429688,
+      "sample": 1940625,
+      "amplitude": 0.032200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 40.664062,
+      "sample": 1951875,
+      "amplitude": 0.032200000000000006,
+      "note": 80
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 40.898438,
+      "sample": 1963125,
+      "amplitude": 0.032200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 41.132812,
+      "sample": 1974375,
+      "amplitude": 0.032200000000000006,
+      "note": 87
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 39.375,
+      "sample": 1890000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 40.078125,
+      "sample": 1923750,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 40.3125,
+      "sample": 1935000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 40.664062,
+      "sample": 1951875,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 41.015625,
+      "sample": 1968750,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 39.84375,
+      "sample": 1912500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 40.78125,
+      "sample": 1957500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 39.375,
+      "sample": 1890000,
+      "amplitude": 0.053992881473861276,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 39.617375,
+      "sample": 1901634,
+      "amplitude": 0.0381983080929063,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 39.84375,
+      "sample": 1912500,
+      "amplitude": 0.053125438611065,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 40.086125,
+      "sample": 1924134,
+      "amplitude": 0.03233537515449512,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 40.3125,
+      "sample": 1935000,
+      "amplitude": 0.06740951009313127,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 40.554875,
+      "sample": 1946634,
+      "amplitude": 0.036041282674065256,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 40.78125,
+      "sample": 1957500,
+      "amplitude": 0.061155737386180305,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 41.023625,
+      "sample": 1969134,
+      "amplitude": 0.0355024428719029,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 40.078125,
+      "sample": 1923750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 41.015625,
+      "sample": 1968750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 41.25,
+      "sample": 1980000,
+      "amplitude": 0.15,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 41.25,
+      "sample": 1980000,
+      "amplitude": 0.3864,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 41.601562,
+      "sample": 1996875,
+      "amplitude": 0.3864,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 41.953125,
+      "sample": 2013750,
+      "amplitude": 0.3864,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 42.304688,
+      "sample": 2030625,
+      "amplitude": 0.3864,
+      "note": 45
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 42.539062,
+      "sample": 2041875,
+      "amplitude": 0.3864,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 42.890625,
+      "sample": 2058750,
+      "amplitude": 0.3864,
+      "note": 40
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 41.25,
+      "sample": 1980000,
+      "amplitude": 0.161,
+      "note": 57
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 41.601562,
+      "sample": 1996875,
+      "amplitude": 0.161,
+      "note": 64
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 41.953125,
+      "sample": 2013750,
+      "amplitude": 0.161,
+      "note": 67
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 42.421875,
+      "sample": 2036250,
+      "amplitude": 0.161,
+      "note": 69
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 42.773438,
+      "sample": 2053125,
+      "amplitude": 0.161,
+      "note": 64
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 43.125,
+      "sample": 2070000,
+      "amplitude": 0.161,
+      "note": 73
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 43.476562,
+      "sample": 2086875,
+      "amplitude": 0.161,
+      "note": 71
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 43.828125,
+      "sample": 2103750,
+      "amplitude": 0.161,
+      "note": 69
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 44.179688,
+      "sample": 2120625,
+      "amplitude": 0.161,
+      "note": 67
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 44.53125,
+      "sample": 2137500,
+      "amplitude": 0.161,
+      "note": 64
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 41.367188,
+      "sample": 1985625,
+      "amplitude": 0.032200000000000006,
+      "note": 69
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 41.601562,
+      "sample": 1996875,
+      "amplitude": 0.032200000000000006,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 41.835938,
+      "sample": 2008125,
+      "amplitude": 0.032200000000000006,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 42.070312,
+      "sample": 2019375,
+      "amplitude": 0.032200000000000006,
+      "note": 79
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 42.304688,
+      "sample": 2030625,
+      "amplitude": 0.032200000000000006,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 42.539062,
+      "sample": 2041875,
+      "amplitude": 0.032200000000000006,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 42.773438,
+      "sample": 2053125,
+      "amplitude": 0.032200000000000006,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 43.007812,
+      "sample": 2064375,
+      "amplitude": 0.032200000000000006,
+      "note": 79
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 41.25,
+      "sample": 1980000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 41.71875,
+      "sample": 2002500,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 42.1875,
+      "sample": 2025000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 42.773438,
+      "sample": 2053125,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 41.71875,
+      "sample": 2002500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 42.65625,
+      "sample": 2047500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 41.25,
+      "sample": 1980000,
+      "amplitude": 0.06414854207671203,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 41.492375,
+      "sample": 1991634,
+      "amplitude": 0.03207686514272615,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 41.71875,
+      "sample": 2002500,
+      "amplitude": 0.063857154877002,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 41.961125,
+      "sample": 2014134,
+      "amplitude": 0.03680168517208432,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 42.1875,
+      "sample": 2025000,
+      "amplitude": 0.05604519761429056,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 42.429875,
+      "sample": 2036634,
+      "amplitude": 0.040364479809452285,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 42.65625,
+      "sample": 2047500,
+      "amplitude": 0.05650806928526137,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 42.898625,
+      "sample": 2059134,
+      "amplitude": 0.03619946348769247,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 41.953125,
+      "sample": 2013750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 42.890625,
+      "sample": 2058750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 43.125,
+      "sample": 2070000,
+      "amplitude": 0.3864,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 43.476562,
+      "sample": 2086875,
+      "amplitude": 0.3864,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 43.828125,
+      "sample": 2103750,
+      "amplitude": 0.3864,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 44.179688,
+      "sample": 2120625,
+      "amplitude": 0.3864,
+      "note": 45
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 44.414062,
+      "sample": 2131875,
+      "amplitude": 0.3864,
+      "note": 33
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 44.765625,
+      "sample": 2148750,
+      "amplitude": 0.3864,
+      "note": 40
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 43.242188,
+      "sample": 2075625,
+      "amplitude": 0.032200000000000006,
+      "note": 69
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 43.476562,
+      "sample": 2086875,
+      "amplitude": 0.032200000000000006,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 43.710938,
+      "sample": 2098125,
+      "amplitude": 0.032200000000000006,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 43.945312,
+      "sample": 2109375,
+      "amplitude": 0.032200000000000006,
+      "note": 79
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 44.179688,
+      "sample": 2120625,
+      "amplitude": 0.032200000000000006,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 44.414062,
+      "sample": 2131875,
+      "amplitude": 0.032200000000000006,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 44.648438,
+      "sample": 2143125,
+      "amplitude": 0.032200000000000006,
+      "note": 76
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 44.882812,
+      "sample": 2154375,
+      "amplitude": 0.032200000000000006,
+      "note": 79
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 43.125,
+      "sample": 2070000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 43.828125,
+      "sample": 2103750,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 44.0625,
+      "sample": 2115000,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 44.414062,
+      "sample": 2131875,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 44.765625,
+      "sample": 2148750,
+      "amplitude": 0.6716,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 43.59375,
+      "sample": 2092500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 44.53125,
+      "sample": 2137500,
+      "amplitude": 0.3128,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 43.125,
+      "sample": 2070000,
+      "amplitude": 0.06726388988236091,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 43.367375,
+      "sample": 2081634,
+      "amplitude": 0.03345206871419414,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 43.59375,
+      "sample": 2092500,
+      "amplitude": 0.06610395014224764,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 43.836125,
+      "sample": 2104134,
+      "amplitude": 0.03678242710584613,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 44.0625,
+      "sample": 2115000,
+      "amplitude": 0.06645519469563925,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 44.304875,
+      "sample": 2126634,
+      "amplitude": 0.03340810402178705,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 44.53125,
+      "sample": 2137500,
+      "amplitude": 0.05791040952217871,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 44.773625,
+      "sample": 2149134,
+      "amplitude": 0.03670659898579213,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 43.828125,
+      "sample": 2103750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 44.765625,
+      "sample": 2148750,
+      "amplitude": 0.04784,
+      "note": 46
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 44.53125,
+      "sample": 2137500,
+      "amplitude": 0.16,
+      "note": 48
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 44.648438,
+      "sample": 2143125,
+      "amplitude": 0.185,
+      "note": 45
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 44.765625,
+      "sample": 2148750,
+      "amplitude": 0.21000000000000002,
+      "note": 42
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 44.882812,
+      "sample": 2154375,
+      "amplitude": 0.23500000000000001,
+      "note": 39
+    },
+    {
+      "instrument": "noise-riser",
+      "time_sec": 43.125,
+      "sample": 2070000,
+      "amplitude": 0.12,
+      "note": null
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 45.0,
+      "sample": 2160000,
+      "amplitude": 0.15,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 45.0,
+      "sample": 2160000,
+      "amplitude": 0.47040000000000004,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 45.351562,
+      "sample": 2176875,
+      "amplitude": 0.47040000000000004,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 45.703125,
+      "sample": 2193750,
+      "amplitude": 0.47040000000000004,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 46.054688,
+      "sample": 2210625,
+      "amplitude": 0.47040000000000004,
+      "note": 50
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 46.289062,
+      "sample": 2221875,
+      "amplitude": 0.47040000000000004,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 46.640625,
+      "sample": 2238750,
+      "amplitude": 0.47040000000000004,
+      "note": 45
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 45.0,
+      "sample": 2160000,
+      "amplitude": 0.196,
+      "note": 62
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 45.351562,
+      "sample": 2176875,
+      "amplitude": 0.196,
+      "note": 69
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 45.703125,
+      "sample": 2193750,
+      "amplitude": 0.196,
+      "note": 72
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 45.9375,
+      "sample": 2205000,
+      "amplitude": 0.055,
+      "note": 84
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 46.171875,
+      "sample": 2216250,
+      "amplitude": 0.196,
+      "note": 74
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 46.523438,
+      "sample": 2233125,
+      "amplitude": 0.196,
+      "note": 69
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 46.875,
+      "sample": 2250000,
+      "amplitude": 0.196,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 47.109375,
+      "sample": 2261250,
+      "amplitude": 0.055,
+      "note": 89
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 47.226562,
+      "sample": 2266875,
+      "amplitude": 0.196,
+      "note": 76
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 47.578125,
+      "sample": 2283750,
+      "amplitude": 0.196,
+      "note": 74
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 47.929688,
+      "sample": 2300625,
+      "amplitude": 0.196,
+      "note": 72
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 48.164062,
+      "sample": 2311875,
+      "amplitude": 0.055,
+      "note": 84
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 48.28125,
+      "sample": 2317500,
+      "amplitude": 0.196,
+      "note": 69
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 45.117188,
+      "sample": 2165625,
+      "amplitude": 0.039200000000000006,
+      "note": 74
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 45.351562,
+      "sample": 2176875,
+      "amplitude": 0.039200000000000006,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 45.820312,
+      "sample": 2199375,
+      "amplitude": 0.039200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 46.054688,
+      "sample": 2210625,
+      "amplitude": 0.039200000000000006,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 46.289062,
+      "sample": 2221875,
+      "amplitude": 0.039200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 46.757812,
+      "sample": 2244375,
+      "amplitude": 0.039200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 45.0,
+      "sample": 2160000,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 45.46875,
+      "sample": 2182500,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 45.9375,
+      "sample": 2205000,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 46.523438,
+      "sample": 2233125,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 45.46875,
+      "sample": 2182500,
+      "amplitude": 0.3808000000000001,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 46.40625,
+      "sample": 2227500,
+      "amplitude": 0.3808000000000001,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 45.0,
+      "sample": 2160000,
+      "amplitude": 0.07525454803218316,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 45.125188,
+      "sample": 2166009,
+      "amplitude": 0.0398681859163405,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 45.234375,
+      "sample": 2171250,
+      "amplitude": 0.06476250208504508,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 45.359562,
+      "sample": 2177259,
+      "amplitude": 0.04468662155103193,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 45.46875,
+      "sample": 2182500,
+      "amplitude": 0.06849293917815748,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 45.593938,
+      "sample": 2188509,
+      "amplitude": 0.043726270741705514,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 45.703125,
+      "sample": 2193750,
+      "amplitude": 0.07655286547449835,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 45.828312,
+      "sample": 2199759,
+      "amplitude": 0.049255438117609726,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 45.9375,
+      "sample": 2205000,
+      "amplitude": 0.07051816526330665,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 46.062688,
+      "sample": 2211009,
+      "amplitude": 0.04202643209389673,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 46.171875,
+      "sample": 2216250,
+      "amplitude": 0.0697618260034829,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 46.297062,
+      "sample": 2222259,
+      "amplitude": 0.041674709818339394,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 46.40625,
+      "sample": 2227500,
+      "amplitude": 0.08210632405699325,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 46.531438,
+      "sample": 2233509,
+      "amplitude": 0.03827332382787675,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 46.640625,
+      "sample": 2238750,
+      "amplitude": 0.0770615593355415,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 46.765812,
+      "sample": 2244759,
+      "amplitude": 0.042103582963996494,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 45.703125,
+      "sample": 2193750,
+      "amplitude": 0.05824,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 46.640625,
+      "sample": 2238750,
+      "amplitude": 0.05824,
+      "note": 46
+    },
+    {
+      "instrument": "section-impact",
+      "time_sec": 45.0,
+      "sample": 2160000,
+      "amplitude": 0.46,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 46.875,
+      "sample": 2250000,
+      "amplitude": 0.47040000000000004,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 47.226562,
+      "sample": 2266875,
+      "amplitude": 0.47040000000000004,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 47.578125,
+      "sample": 2283750,
+      "amplitude": 0.47040000000000004,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 47.929688,
+      "sample": 2300625,
+      "amplitude": 0.47040000000000004,
+      "note": 50
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 48.164062,
+      "sample": 2311875,
+      "amplitude": 0.47040000000000004,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 48.515625,
+      "sample": 2328750,
+      "amplitude": 0.47040000000000004,
+      "note": 45
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 46.992188,
+      "sample": 2255625,
+      "amplitude": 0.039200000000000006,
+      "note": 74
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 47.226562,
+      "sample": 2266875,
+      "amplitude": 0.039200000000000006,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 47.695312,
+      "sample": 2289375,
+      "amplitude": 0.039200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 47.929688,
+      "sample": 2300625,
+      "amplitude": 0.039200000000000006,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 48.164062,
+      "sample": 2311875,
+      "amplitude": 0.039200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 48.632812,
+      "sample": 2334375,
+      "amplitude": 0.039200000000000006,
+      "note": 84
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 46.875,
+      "sample": 2250000,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 47.578125,
+      "sample": 2283750,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 47.8125,
+      "sample": 2295000,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 48.164062,
+      "sample": 2311875,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 48.515625,
+      "sample": 2328750,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 47.34375,
+      "sample": 2272500,
+      "amplitude": 0.3808000000000001,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 48.28125,
+      "sample": 2317500,
+      "amplitude": 0.3808000000000001,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 46.875,
+      "sample": 2250000,
+      "amplitude": 0.07616303525685972,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 47.000188,
+      "sample": 2256009,
+      "amplitude": 0.046841306202675986,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 47.109375,
+      "sample": 2261250,
+      "amplitude": 0.08154623023069839,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 47.234562,
+      "sample": 2267259,
+      "amplitude": 0.04280898601680418,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 47.34375,
+      "sample": 2272500,
+      "amplitude": 0.07927380767152362,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 47.468938,
+      "sample": 2278509,
+      "amplitude": 0.04555313746350967,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 47.578125,
+      "sample": 2283750,
+      "amplitude": 0.07908301406915118,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 47.703312,
+      "sample": 2289759,
+      "amplitude": 0.03871418290640457,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 47.8125,
+      "sample": 2295000,
+      "amplitude": 0.08000741525126807,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 47.937688,
+      "sample": 2301009,
+      "amplitude": 0.04837149842469649,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 48.046875,
+      "sample": 2306250,
+      "amplitude": 0.0712917645697828,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 48.172062,
+      "sample": 2312259,
+      "amplitude": 0.040814246178905736,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 48.28125,
+      "sample": 2317500,
+      "amplitude": 0.06563896425363004,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 48.406438,
+      "sample": 2323509,
+      "amplitude": 0.04681365950371903,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 48.515625,
+      "sample": 2328750,
+      "amplitude": 0.07801885371629566,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 48.640812,
+      "sample": 2334759,
+      "amplitude": 0.04767385025191853,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 47.578125,
+      "sample": 2283750,
+      "amplitude": 0.05824,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 48.515625,
+      "sample": 2328750,
+      "amplitude": 0.05824,
+      "note": 46
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 48.75,
+      "sample": 2340000,
+      "amplitude": 0.15,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 48.75,
+      "sample": 2340000,
+      "amplitude": 0.47040000000000004,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 49.101562,
+      "sample": 2356875,
+      "amplitude": 0.47040000000000004,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 49.453125,
+      "sample": 2373750,
+      "amplitude": 0.47040000000000004,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 49.804688,
+      "sample": 2390625,
+      "amplitude": 0.47040000000000004,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 50.039062,
+      "sample": 2401875,
+      "amplitude": 0.47040000000000004,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 50.390625,
+      "sample": 2418750,
+      "amplitude": 0.47040000000000004,
+      "note": 41
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 48.75,
+      "sample": 2340000,
+      "amplitude": 0.196,
+      "note": 58
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 49.101562,
+      "sample": 2356875,
+      "amplitude": 0.196,
+      "note": 65
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 49.453125,
+      "sample": 2373750,
+      "amplitude": 0.196,
+      "note": 68
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 49.6875,
+      "sample": 2385000,
+      "amplitude": 0.055,
+      "note": 80
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 49.921875,
+      "sample": 2396250,
+      "amplitude": 0.196,
+      "note": 70
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 50.273438,
+      "sample": 2413125,
+      "amplitude": 0.196,
+      "note": 65
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 50.625,
+      "sample": 2430000,
+      "amplitude": 0.196,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 50.859375,
+      "sample": 2441250,
+      "amplitude": 0.055,
+      "note": 85
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 50.976562,
+      "sample": 2446875,
+      "amplitude": 0.196,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 51.328125,
+      "sample": 2463750,
+      "amplitude": 0.196,
+      "note": 70
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 51.679688,
+      "sample": 2480625,
+      "amplitude": 0.196,
+      "note": 68
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 51.914062,
+      "sample": 2491875,
+      "amplitude": 0.055,
+      "note": 80
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 52.03125,
+      "sample": 2497500,
+      "amplitude": 0.196,
+      "note": 65
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 48.867188,
+      "sample": 2345625,
+      "amplitude": 0.039200000000000006,
+      "note": 70
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 49.101562,
+      "sample": 2356875,
+      "amplitude": 0.039200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 49.570312,
+      "sample": 2379375,
+      "amplitude": 0.039200000000000006,
+      "note": 80
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 49.804688,
+      "sample": 2390625,
+      "amplitude": 0.039200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 50.039062,
+      "sample": 2401875,
+      "amplitude": 0.039200000000000006,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 50.507812,
+      "sample": 2424375,
+      "amplitude": 0.039200000000000006,
+      "note": 80
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 48.75,
+      "sample": 2340000,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 49.21875,
+      "sample": 2362500,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 49.6875,
+      "sample": 2385000,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 50.273438,
+      "sample": 2413125,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 49.21875,
+      "sample": 2362500,
+      "amplitude": 0.3808000000000001,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 50.15625,
+      "sample": 2407500,
+      "amplitude": 0.3808000000000001,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 48.75,
+      "sample": 2340000,
+      "amplitude": 0.06633753200163278,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 48.875188,
+      "sample": 2346009,
+      "amplitude": 0.041868473020962686,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 48.984375,
+      "sample": 2351250,
+      "amplitude": 0.06841767578613088,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 49.109562,
+      "sample": 2357259,
+      "amplitude": 0.04144560474980357,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 49.21875,
+      "sample": 2362500,
+      "amplitude": 0.07829677189556238,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 49.343938,
+      "sample": 2368509,
+      "amplitude": 0.048985798765022584,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 49.453125,
+      "sample": 2373750,
+      "amplitude": 0.07302224664416805,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 49.578312,
+      "sample": 2379759,
+      "amplitude": 0.04204826232061445,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 49.6875,
+      "sample": 2385000,
+      "amplitude": 0.07776029075890806,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 49.812688,
+      "sample": 2391009,
+      "amplitude": 0.04176203624169052,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 49.921875,
+      "sample": 2396250,
+      "amplitude": 0.06748117594141315,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 50.047062,
+      "sample": 2402259,
+      "amplitude": 0.0444291839808184,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 50.15625,
+      "sample": 2407500,
+      "amplitude": 0.07379723690300229,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 50.281438,
+      "sample": 2413509,
+      "amplitude": 0.04733895417399779,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 50.390625,
+      "sample": 2418750,
+      "amplitude": 0.075465811091179,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 50.515812,
+      "sample": 2424759,
+      "amplitude": 0.04741304402267321,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 49.453125,
+      "sample": 2373750,
+      "amplitude": 0.05824,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 50.390625,
+      "sample": 2418750,
+      "amplitude": 0.05824,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 50.625,
+      "sample": 2430000,
+      "amplitude": 0.47040000000000004,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 50.976562,
+      "sample": 2446875,
+      "amplitude": 0.47040000000000004,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 51.328125,
+      "sample": 2463750,
+      "amplitude": 0.47040000000000004,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 51.679688,
+      "sample": 2480625,
+      "amplitude": 0.47040000000000004,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 51.914062,
+      "sample": 2491875,
+      "amplitude": 0.47040000000000004,
+      "note": 34
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 52.265625,
+      "sample": 2508750,
+      "amplitude": 0.47040000000000004,
+      "note": 41
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 50.742188,
+      "sample": 2435625,
+      "amplitude": 0.039200000000000006,
+      "note": 70
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 50.976562,
+      "sample": 2446875,
+      "amplitude": 0.039200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 51.445312,
+      "sample": 2469375,
+      "amplitude": 0.039200000000000006,
+      "note": 80
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 51.679688,
+      "sample": 2480625,
+      "amplitude": 0.039200000000000006,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 51.914062,
+      "sample": 2491875,
+      "amplitude": 0.039200000000000006,
+      "note": 73
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 52.382812,
+      "sample": 2514375,
+      "amplitude": 0.039200000000000006,
+      "note": 80
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 50.625,
+      "sample": 2430000,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 51.328125,
+      "sample": 2463750,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 51.5625,
+      "sample": 2475000,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 51.914062,
+      "sample": 2491875,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 52.265625,
+      "sample": 2508750,
+      "amplitude": 0.8176000000000001,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 51.09375,
+      "sample": 2452500,
+      "amplitude": 0.3808000000000001,
+      "note": 38
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 52.03125,
+      "sample": 2497500,
+      "amplitude": 0.3808000000000001,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 50.625,
+      "sample": 2430000,
+      "amplitude": 0.06801120859608265,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 50.750188,
+      "sample": 2436009,
+      "amplitude": 0.04529435631321052,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 50.859375,
+      "sample": 2441250,
+      "amplitude": 0.07677728485702437,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 50.984562,
+      "sample": 2447259,
+      "amplitude": 0.04697149054967337,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 51.09375,
+      "sample": 2452500,
+      "amplitude": 0.06617891596792021,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 51.218938,
+      "sample": 2458509,
+      "amplitude": 0.04577313736967819,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 51.328125,
+      "sample": 2463750,
+      "amplitude": 0.07311706795567983,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 51.453312,
+      "sample": 2469759,
+      "amplitude": 0.044553911164012694,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 51.5625,
+      "sample": 2475000,
+      "amplitude": 0.07549900548395819,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 51.687688,
+      "sample": 2481009,
+      "amplitude": 0.04665146674784791,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 51.796875,
+      "sample": 2486250,
+      "amplitude": 0.08000312209889919,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 51.922062,
+      "sample": 2492259,
+      "amplitude": 0.04748649479520124,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 52.03125,
+      "sample": 2497500,
+      "amplitude": 0.0757960589026807,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 52.156438,
+      "sample": 2503509,
+      "amplitude": 0.04028027958707634,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 52.265625,
+      "sample": 2508750,
+      "amplitude": 0.06740555976713158,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 52.390812,
+      "sample": 2514759,
+      "amplitude": 0.04762125481523869,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 51.328125,
+      "sample": 2463750,
+      "amplitude": 0.05824,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 52.265625,
+      "sample": 2508750,
+      "amplitude": 0.05824,
+      "note": 46
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 52.03125,
+      "sample": 2497500,
+      "amplitude": 0.16,
+      "note": 48
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 52.148438,
+      "sample": 2503125,
+      "amplitude": 0.185,
+      "note": 45
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 52.265625,
+      "sample": 2508750,
+      "amplitude": 0.21000000000000002,
+      "note": 42
+    },
+    {
+      "instrument": "tom-fill",
+      "time_sec": 52.382812,
+      "sample": 2514375,
+      "amplitude": 0.23500000000000001,
+      "note": 39
+    },
+    {
+      "instrument": "minor-pad",
+      "time_sec": 52.5,
+      "sample": 2520000,
+      "amplitude": 0.105,
+      "note": null
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 52.5,
+      "sample": 2520000,
+      "amplitude": 0.231,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 53.4375,
+      "sample": 2565000,
+      "amplitude": 0.231,
+      "note": 38
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 52.5,
+      "sample": 2520000,
+      "amplitude": 0.09625,
+      "note": 62
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 52.851562,
+      "sample": 2536875,
+      "amplitude": 0.09625,
+      "note": 69
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 53.203125,
+      "sample": 2553750,
+      "amplitude": 0.09625,
+      "note": 72
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 53.671875,
+      "sample": 2576250,
+      "amplitude": 0.09625,
+      "note": 74
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 54.023438,
+      "sample": 2593125,
+      "amplitude": 0.09625,
+      "note": 69
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 54.375,
+      "sample": 2610000,
+      "amplitude": 0.09625,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 52.617188,
+      "sample": 2525625,
+      "amplitude": 0.019250000000000003,
+      "note": 74
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 52.851562,
+      "sample": 2536875,
+      "amplitude": 0.019250000000000003,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 53.085938,
+      "sample": 2548125,
+      "amplitude": 0.019250000000000003,
+      "note": 86
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 53.320312,
+      "sample": 2559375,
+      "amplitude": 0.019250000000000003,
+      "note": 84
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 53.554688,
+      "sample": 2570625,
+      "amplitude": 0.019250000000000003,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 53.789062,
+      "sample": 2581875,
+      "amplitude": 0.019250000000000003,
+      "note": 77
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 54.023438,
+      "sample": 2593125,
+      "amplitude": 0.019250000000000003,
+      "note": 81
+    },
+    {
+      "instrument": "bell",
+      "time_sec": 54.257812,
+      "sample": 2604375,
+      "amplitude": 0.019250000000000003,
+      "note": 84
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 52.5,
+      "sample": 2520000,
+      "amplitude": 0.4015,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 53.4375,
+      "sample": 2565000,
+      "amplitude": 0.4015,
+      "note": 36
+    },
+    {
+      "instrument": "snare-clap",
+      "time_sec": 53.4375,
+      "sample": 2565000,
+      "amplitude": 0.18700000000000003,
+      "note": 38
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 52.5,
+      "sample": 2520000,
+      "amplitude": 0.03304325763918758,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 52.742375,
+      "sample": 2531634,
+      "amplitude": 0.024036386029641997,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 52.96875,
+      "sample": 2542500,
+      "amplitude": 0.03879924925853821,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 53.211125,
+      "sample": 2554134,
+      "amplitude": 0.021006964089619058,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 53.4375,
+      "sample": 2565000,
+      "amplitude": 0.03747005366532572,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 53.679875,
+      "sample": 2576634,
+      "amplitude": 0.020036751253085835,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 53.90625,
+      "sample": 2587500,
+      "amplitude": 0.03480231247966667,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 54.148625,
+      "sample": 2599134,
+      "amplitude": 0.020326091808918402,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 53.203125,
+      "sample": 2553750,
+      "amplitude": 0.0286,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 54.140625,
+      "sample": 2598750,
+      "amplitude": 0.0286,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 54.375,
+      "sample": 2610000,
+      "amplitude": 0.1596,
+      "note": 38
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 55.3125,
+      "sample": 2655000,
+      "amplitude": 0.1596,
+      "note": 38
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 54.375,
+      "sample": 2610000,
+      "amplitude": 0.3285,
+      "note": 36
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 55.3125,
+      "sample": 2655000,
+      "amplitude": 0.3285,
+      "note": 36
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 54.375,
+      "sample": 2610000,
+      "amplitude": 0.026386356580896678,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 54.617375,
+      "sample": 2621634,
+      "amplitude": 0.014522390971199095,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 54.84375,
+      "sample": 2632500,
+      "amplitude": 0.023839589436280288,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 55.086125,
+      "sample": 2644134,
+      "amplitude": 0.014955041449892304,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 55.3125,
+      "sample": 2655000,
+      "amplitude": 0.022386133489950364,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 55.554875,
+      "sample": 2666634,
+      "amplitude": 0.01493743055458952,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 55.78125,
+      "sample": 2677500,
+      "amplitude": 0.022293246967621576,
+      "note": 42
+    },
+    {
+      "instrument": "closed-hat",
+      "time_sec": 56.023625,
+      "sample": 2689134,
+      "amplitude": 0.016206450714509733,
+      "note": 42
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 55.078125,
+      "sample": 2643750,
+      "amplitude": 0.01976,
+      "note": 46
+    },
+    {
+      "instrument": "open-hat",
+      "time_sec": 56.015625,
+      "sample": 2688750,
+      "amplitude": 0.01976,
+      "note": 46
+    },
+    {
+      "instrument": "bass",
+      "time_sec": 58.125,
+      "sample": 2790000,
+      "amplitude": 0.273,
+      "note": 38
+    },
+    {
+      "instrument": "kick",
+      "time_sec": 58.125,
+      "sample": 2790000,
+      "amplitude": 0.4745,
+      "note": 36
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 58.125,
+      "sample": 2790000,
+      "amplitude": 0.34,
+      "note": 38
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 58.125,
+      "sample": 2790000,
+      "amplitude": 0.15,
+      "note": 50
+    },
+    {
+      "instrument": "lead",
+      "time_sec": 58.125,
+      "sample": 2790000,
+      "amplitude": 0.09,
+      "note": 57
+    },
+    {
+      "instrument": "section-impact",
+      "time_sec": 58.125,
+      "sample": 2790000,
+      "amplitude": 0.44,
+      "note": null
+    }
+  ]
+}

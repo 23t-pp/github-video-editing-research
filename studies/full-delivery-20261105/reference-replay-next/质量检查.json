@@ -1,0 +1,48 @@
+{
+  "file": "越界_V07复刻.mp4",
+  "sha256": "19853bd61e954158988d4f1b474d93462528b393947f860e37b070989e232cdf",
+  "videoFramesDecoded": 750,
+  "pictureSize": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "durationSeconds": 30,
+  "cutCount": 32,
+  "continuousCutTimeline": true,
+  "libraryCopySha256": "ab3f9d2cba177aa62d7d3bc3fd63d06ae17607ac5b9ee4f37e3655a709163654",
+  "libraryCopyByteIdentical": true,
+  "masterSampleFrames": 1440000,
+  "aacDecodedSampleFrames": 1440000,
+  "sameTimeAudioCorrelation": 0.999799812990458,
+  "audioComparison": "At zero offset; AAC is lossy, correlation is not a bit-identical claim. No auditory listening was performed.",
+  "unexpectedFullyBlackFramesBeforeFinalGesture": [],
+  "fullyBlackFrames": [
+    736,
+    737,
+    738,
+    739,
+    740,
+    741,
+    742,
+    743,
+    744,
+    745,
+    746,
+    747,
+    748,
+    749
+  ],
+  "endingFrameMeanRGB": {
+    "691": 30.262934027777778,
+    "705": 122.54522569444444,
+    "715": 2.7908420138888888,
+    "725": 1.6549913194444446,
+    "735": 0.033680555555555554,
+    "736": 0.0,
+    "737": 0.0,
+    "749": 0.0
+  },
+  "portalLastTargetIsFullFrame": true,
+  "checksScope": "All frames decoded at 192x80 active area; 6 effect sequences reviewed via rendered contact sheets; selected full-size frames visually inspected; not a full-resolution manual review of all 750 frames."
+}

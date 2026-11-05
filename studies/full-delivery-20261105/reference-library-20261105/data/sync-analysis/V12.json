@@ -1,0 +1,118 @@
+{
+  "id": "V12",
+  "method": "视觉事件或机器变化候选与谱通量起音/模型拍点的最近邻。正误差=视觉晚于声音。未听辨来源，不把接近当因果或卡点成功。",
+  "humanVisualEvents": [
+    {
+      "frame": 30,
+      "time": 1,
+      "claim": "六块白色建筑/倒影形状可见",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 1.0323,
+      "onsetDeltaMs": -32.3,
+      "nearestModelBeat": 1.055,
+      "beatDeltaMs": -55
+    },
+    {
+      "frame": 32,
+      "time": 1.066667,
+      "claim": "正向建筑全幅",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 1.0323,
+      "onsetDeltaMs": 34.37,
+      "nearestModelBeat": 1.055,
+      "beatDeltaMs": 11.67
+    },
+    {
+      "frame": 102,
+      "time": 3.4,
+      "claim": "中央水面矩形窗出现",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 3.3877,
+      "onsetDeltaMs": 12.3,
+      "nearestModelBeat": 3.395,
+      "beatDeltaMs": 5
+    },
+    {
+      "frame": 113,
+      "time": 3.766667,
+      "claim": "水面已铺满",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 3.6683,
+      "onsetDeltaMs": 98.37,
+      "nearestModelBeat": 3.975,
+      "beatDeltaMs": -208.33
+    },
+    {
+      "frame": 143,
+      "time": 4.766667,
+      "claim": "佛头像提前出现在水面前",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 4.851,
+      "onsetDeltaMs": -84.33,
+      "nearestModelBeat": 4.575,
+      "beatDeltaMs": 191.67
+    },
+    {
+      "frame": 158,
+      "time": 5.266667,
+      "claim": "佛头仍在，背景已换竹林平台",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 5.292,
+      "onsetDeltaMs": -25.33,
+      "nearestModelBeat": 5.195,
+      "beatDeltaMs": 71.67
+    },
+    {
+      "frame": 172,
+      "time": 5.733333,
+      "claim": "白色人形出现",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 5.743,
+      "onsetDeltaMs": -9.67,
+      "nearestModelBeat": 5.755,
+      "beatDeltaMs": -21.67
+    },
+    {
+      "frame": 245,
+      "time": 8.166667,
+      "claim": "水面人形之后恢复黑色人形",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 8.1083,
+      "onsetDeltaMs": 58.37,
+      "nearestModelBeat": 8.395,
+      "beatDeltaMs": -228.33
+    },
+    {
+      "frame": 252,
+      "time": 8.4,
+      "claim": "粉色图像填进人体轮廓",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 8.379,
+      "onsetDeltaMs": 21,
+      "nearestModelBeat": 8.395,
+      "beatDeltaMs": 5
+    }
+  ],
+  "machineCandidates": [
+    {
+      "frame": 32,
+      "time": 1.06667,
+      "score": 0.30395,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 1.0323,
+      "onsetDeltaMs": 34.37,
+      "nearestModelBeat": 1.055,
+      "beatDeltaMs": 11.67
+    },
+    {
+      "frame": 112,
+      "time": 3.73333,
+      "score": 0.2437,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 3.6683,
+      "onsetDeltaMs": 65.03,
+      "nearestModelBeat": 3.975,
+      "beatDeltaMs": -241.67
+    }
+  ]
+}

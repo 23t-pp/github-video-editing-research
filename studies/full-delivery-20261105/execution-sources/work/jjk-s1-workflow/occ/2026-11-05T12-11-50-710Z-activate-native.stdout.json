@@ -1,0 +1,37 @@
+{
+  "projectId": "cd443d87-8dbd-4a57-a216-5a50374c3893",
+  "applied": false,
+  "noChanges": true,
+  "ops": [
+    {
+      "tool": "manage_timelines",
+      "result": {
+        "ok": true,
+        "active": {
+          "id": "tl_c63b92cc-5811-42ad-b207-d0a6201938aa",
+          "name": "02 原生逐镜 · 59镜 · 第一季",
+          "width": 1920,
+          "height": 1080,
+          "ratio": "16:9",
+          "active": true,
+          "hidden": false,
+          "clips": 64,
+          "nestedInstances": 0,
+          "durationInFrames": 1440
+        }
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "8805a194-0134-402b-bc01-760abb870ca9",
+    "status": "cancelled",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-74b183ff",
+    "operationCount": 0,
+    "bindingMode": "offline",
+    "agentRunId": "run_58c770b403dd4297",
+    "editorUrl": "http://localhost:5199/#/editor/cd443d87-8dbd-4a57-a216-5a50374c3893",
+    "updatedAt": "2026-11-05T12:11:51.930Z"
+  }
+}

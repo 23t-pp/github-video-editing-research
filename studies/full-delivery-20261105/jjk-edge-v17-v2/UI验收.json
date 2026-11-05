@@ -1,0 +1,51 @@
+{
+  "recordedAt": "2026-11-05T16:46:58+08:00",
+  "method": "实际本机界面操作与截图；播放不等同听觉试听",
+  "moviePlayer": {
+    "url": "http://127.0.0.1:5241",
+    "durationSeconds": 60,
+    "observedMainPlaybackTimeSeconds": 33.224998,
+    "mainPaused": false,
+    "mainReadyState": 4,
+    "mainError": null,
+    "mainMuted": false,
+    "v1TimeSeconds": 33.243027,
+    "v1Muted": true,
+    "frameStep": "定位460帧后点击下一帧，显示19.208秒/F461，步进1/24秒",
+    "comparisonScreenshot": "evidence/ui/V1-V2播放器.png"
+  },
+  "hyperframes": {
+    "url": "http://127.0.0.1:5240",
+    "durationSeconds": 60,
+    "observedPlayhead": 28.75,
+    "selectedLayer": "V02v2 Awake",
+    "canEditGroupStyles": true,
+    "canMoveGroup": true,
+    "groupDirectTextEditing": false,
+    "observed": "大字、漫画板与独立动态前景可见；复杂文字通过edit.json与生成器修改；不以图层组可选中冒充直接可输入文字。",
+    "screenshot": "evidence/ui/HyperFrames精修图层.png"
+  },
+  "openchatcut": {
+    "url": "http://127.0.0.1:5199/#/editor/9ec9cec9-0a71-43fb-99be-adec9b564c60",
+    "importedProjectId": "9ec9cec9-0a71-43fb-99be-adec9b564c60",
+    "hfPlaybackObservedSeconds": 51.16,
+    "hfLocatedSeconds": 28.79,
+    "nativeSequenceOpened": true,
+    "nativeClipInspected": "C05.mp4",
+    "observedSourceFrameRange": [
+      12,
+      41
+    ],
+    "observedPlaybackRate": 1,
+    "nativeSmallLabelFontSize": 36,
+    "fps": 24,
+    "totalSeconds": 60,
+    "screenshots": [
+      "evidence/ui/OpenChatCut完整效果.png",
+      "evidence/ui/OpenChatCut原生片段属性.png"
+    ]
+  },
+  "auditoryListeningPerformed": false,
+  "dragOrParameterMutationTestPerformed": false,
+  "scope": "实际打开、播放、定位、逐帧与属性查看；工程重导入和媒体指纹见OCC回读报告。未在UI执行试拖或修改片段参数。"
+}

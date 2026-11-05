@@ -1,0 +1,666 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-05T02:46:59.172Z",
+  "status": "已完成九片10区概览与重点多帧选镜；按主流程优先好镜头，未硬凑每片用量",
+  "overview": {
+    "films": 9,
+    "areas_per_film": 10,
+    "files": [
+      "02/overview.jpg",
+      "03/overview.jpg",
+      "04/overview.jpg",
+      "05/overview.jpg",
+      "06/overview.jpg",
+      "07/overview.jpg",
+      "08/overview.jpg",
+      "09/overview.jpg",
+      "10/overview.jpg"
+    ],
+    "warning": "概览采用仅关键帧解码提速，标示请求时间附近，不能直接当精确入点；selected根据普通连续解码密查。"
+  },
+  "sampling": "密查每约0.5秒选择实际原帧，非把120fps降帧后宣称逐帧；每页文字为实际输出相对PTS加源seek起点。",
+  "selected": [
+    {
+      "id": "F02-color-cars",
+      "film": "02",
+      "source_file": "D:/速度与激情/02 速度与激情2（2003）4K 60帧 .mkv",
+      "source_fps": "24000/1001",
+      "in_sec": 1612.7,
+      "out_sec": 1616.4,
+      "duration_sec": 3.7,
+      "visual": "俯拍横移经过黄色敞篷、红色跑车与人物，跑车准备氛围",
+      "motion_direction": "相机向右横移，车辆停放",
+      "role": "准备/彩色车",
+      "priority": "A",
+      "evidence": [
+        "02/red-car.jpg",
+        "02/red-car.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "避免1612.5之前的原切；不是高速行驶。"
+    },
+    {
+      "id": "F03-night-tail",
+      "film": "03",
+      "source_file": "D:/速度与激情/03 速度与激情3：东京漂移（2006）4K 60帧 .mp4",
+      "source_fps": "60/1",
+      "in_sec": 5780,
+      "out_sec": 5783.4,
+      "duration_sec": 3.4,
+      "visual": "夜间聚会中的肌肉车尾与红尾灯，人群经过，相机推近横移",
+      "motion_direction": "车体基本静止；镜头向右/前推",
+      "role": "片头/车尾/氛围",
+      "priority": "A",
+      "evidence": [
+        "03/wheel.jpg",
+        "03/wheel.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "主流程已优先选择该镜。"
+    },
+    {
+      "id": "F03-mountain-pair",
+      "film": "03",
+      "source_file": "D:/速度与激情/03 速度与激情3：东京漂移（2006）4K 60帧 .mp4",
+      "source_fps": "60/1",
+      "in_sec": 5340,
+      "out_sec": 5341.5,
+      "duration_sec": 1.5,
+      "visual": "两台车夜间并排沿灯带山路驶远",
+      "motion_direction": "由画面下方向上远去",
+      "role": "双车/道路",
+      "priority": "B",
+      "evidence": [
+        "03/pedal.jpg",
+        "03/pedal.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "1.5秒短插镜，5342已换正面。"
+    },
+    {
+      "id": "F03-drift-short",
+      "film": "03",
+      "source_file": "D:/速度与激情/03 速度与激情3：东京漂移（2006）4K 60帧 .mp4",
+      "source_fps": "60/1",
+      "in_sec": 5348.85,
+      "out_sec": 5349.65,
+      "duration_sec": 0.8,
+      "visual": "黑色跑车尾部横摆、胎烟/尾灯与轮胎侧向运动",
+      "motion_direction": "近景侧后方扫过，尾部向画面右侧甩动",
+      "role": "侧滑短插镜",
+      "priority": "B",
+      "evidence": [
+        "03/drift-follow.jpg",
+        "03/drift-follow.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "不足1秒；密查后再定精确端点，不能按2–4秒长镜用。"
+    },
+    {
+      "id": "F04-convoy",
+      "film": "04",
+      "source_file": "D:/速度与激情/04 速度与激情4（2009）4K 60帧 .mp4",
+      "source_fps": "60/1",
+      "in_sec": 5863.1,
+      "out_sec": 5865.55,
+      "duration_sec": 2.45,
+      "visual": "三辆车沿起伏公路并排行驶，车尾逐渐远去，暖色沙地",
+      "motion_direction": "由近到远/画面上方；横向换位",
+      "role": "车队/公路",
+      "priority": "A",
+      "evidence": [
+        "04/car-convoy.jpg",
+        "04/car-convoy.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "5866已换驾驶员。"
+    },
+    {
+      "id": "F04-driver-clean",
+      "film": "04",
+      "source_file": "D:/速度与激情/04 速度与激情4（2009）4K 60帧 .mp4",
+      "source_fps": "60/1",
+      "in_sec": 5866.1,
+      "out_sec": 5868.1,
+      "duration_sec": 2,
+      "visual": "Paul透过挡风玻璃直视前方，发动机进气口在前景",
+      "motion_direction": "脸稳定，车辆前行背景后移",
+      "role": "干净人物/视线",
+      "priority": "A",
+      "evidence": [
+        "04/car-convoy.jpg",
+        "04/car-convoy.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "约2秒，无字幕；不要延到5868.5换车外镜。"
+    },
+    {
+      "id": "F04-truck-shelf",
+      "film": "04",
+      "source_file": "D:/速度与激情/04 速度与激情4（2009）4K 60帧 .mp4",
+      "source_fps": "60/1",
+      "in_sec": 346.05,
+      "out_sec": 348.05,
+      "duration_sec": 2,
+      "visual": "两节油罐拖车在悬崖道路横向穿行",
+      "motion_direction": "沿屏幕向左行驶，镜头跟随",
+      "role": "公路动势/大型车",
+      "priority": "B",
+      "evidence": [
+        "04/canyon-action.jpg",
+        "04/canyon-action.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "不是跑车，348.5已换司机。"
+    },
+    {
+      "id": "F05-landing",
+      "film": "05",
+      "source_file": "D:/速度与激情/05 速度与激情5（2011）4K 60帧 .mkv",
+      "source_fps": "60/1",
+      "in_sec": 6686.5,
+      "out_sec": 6688.5,
+      "duration_sec": 2,
+      "visual": "损坏黑车短暂腾空后落地，车体压低，尘土碎片",
+      "motion_direction": "主要垂直向下落地，轻微向左",
+      "role": "跨片落地/高潮",
+      "priority": "A",
+      "evidence": [
+        "05/vault.jpg",
+        "05/vault.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "车体明显损坏，6689已换俯拍；落地效果来自电影源镜。"
+    },
+    {
+      "id": "F05-soft-emotion",
+      "film": "05",
+      "source_file": "D:/速度与激情/05 速度与激情5（2011）4K 60帧 .mkv",
+      "source_fps": "60/1",
+      "in_sec": 7232.15,
+      "out_sec": 7234,
+      "duration_sec": 1.85,
+      "visual": "Vin低头微笑，暖色门廊近景，表情缓和",
+      "motion_direction": "人物脸部轻微向下转",
+      "role": "情绪停顿",
+      "priority": "B",
+      "evidence": [
+        "05/two-cars.jpg",
+        "05/two-cars.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "1.85秒短镜；7234.5换Paul。"
+    },
+    {
+      "id": "F05-street-profile",
+      "film": "05",
+      "source_file": "D:/速度与激情/05 速度与激情5（2011）4K 60帧 .mkv",
+      "source_fps": "60/1",
+      "in_sec": 2736.65,
+      "out_sec": 2740.25,
+      "duration_sec": 3.6,
+      "visual": "从咖啡馆内看窗外黑色轿车经过，黑色前景人物与建筑框线",
+      "motion_direction": "车从右向左通过，相机横摇跟随",
+      "role": "街道/汽车经过",
+      "priority": "B",
+      "evidence": [
+        "05/street-car.jpg",
+        "05/street-car.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "前景有遮挡但不是黑帧；不是纯贴地跑车镜。"
+    },
+    {
+      "id": "F06-neon-race",
+      "film": "06",
+      "source_file": "D:/速度与激情/06 速度与激情6（2013）4K 120帧.mp4",
+      "source_fps": "120/1",
+      "in_sec": 7309.15,
+      "out_sec": 7311.5,
+      "duration_sec": 2.35,
+      "visual": "霓虹夜街橙色/深色跑车横向掠过，人群在前景，胎烟",
+      "motion_direction": "连续侧向运动和相机横摇；建议按画面观察对齐而非强定真实道路朝向",
+      "role": "彩色跑车/霓虹/加速",
+      "priority": "A",
+      "evidence": [
+        "06/night-race.jpg",
+        "06/night-race.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "前景行人会短暂遮挡；7312已换驾驶员。"
+    },
+    {
+      "id": "F06-road-convoy",
+      "film": "06",
+      "source_file": "D:/速度与激情/06 速度与激情6（2013）4K 120帧.mp4",
+      "source_fps": "120/1",
+      "in_sec": 5137.55,
+      "out_sec": 5139.15,
+      "duration_sec": 1.6,
+      "visual": "日间公路军绿色车队从远处迎面靠近，巨车掠过",
+      "motion_direction": "向镜头靠近并向右下出画",
+      "role": "车队/速度",
+      "priority": "B",
+      "evidence": [
+        "06/driver.jpg",
+        "06/driver.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "1.6秒短插镜，5139.5换车内；如需更长须声明内切。"
+    },
+    {
+      "id": "F07-smoke-charge",
+      "film": "07",
+      "source_file": "D:/速度与激情/07 速度与激情7（2015）4K 120帧.mp4",
+      "source_fps": "120/1",
+      "in_sec": 7066.05,
+      "out_sec": 7068.5,
+      "duration_sec": 2.45,
+      "visual": "黑色肌肉车正面从停车楼烟尘/碎石爆点中冲来，车灯很亮",
+      "motion_direction": "由远到近，基本沿画面中心向前",
+      "role": "高潮/正面冲刺",
+      "priority": "A",
+      "evidence": [
+        "07/night-cars.jpg",
+        "07/night-cars.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "暗调有画面细节；7069换后方角度。"
+    },
+    {
+      "id": "F07-warm-look",
+      "film": "07",
+      "source_file": "D:/速度与激情/07 速度与激情7（2015）4K 120帧.mp4",
+      "source_fps": "120/1",
+      "in_sec": 7642,
+      "out_sec": 7643.65,
+      "duration_sec": 1.65,
+      "visual": "暖色驾驶位侧拍，Vin带微笑看向旁侧",
+      "motion_direction": "脸朝画面右侧/相邻车，背景沿车窗后移",
+      "role": "人物对视/收束",
+      "priority": "B",
+      "evidence": [
+        "07/ending-driver.jpg",
+        "07/ending-driver.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "1.65秒短插镜；7644出现硬字幕，保持out在前。"
+    },
+    {
+      "id": "F07-key-gift",
+      "film": "07",
+      "source_file": "D:/速度与激情/07 速度与激情7（2015）4K 120帧.mp4",
+      "source_fps": "120/1",
+      "in_sec": 7661.05,
+      "out_sec": 7663,
+      "duration_sec": 1.95,
+      "visual": "暖色双人中景，Paul递车钥匙，Vin看向对方",
+      "motion_direction": "手部中部接触/两人对视",
+      "role": "人物情感/手",
+      "priority": "B",
+      "evidence": [
+        "07/ending-7660.jpg",
+        "07/ending-7660.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "约2秒，7663.5转暗；片尾电影内已有回忆叠化，避开本段开始前。"
+    },
+    {
+      "id": "F07-golden-road",
+      "film": "07",
+      "source_file": "D:/速度与激情/07 速度与激情7（2015）4K 120帧.mp4",
+      "source_fps": "120/1",
+      "in_sec": 7720,
+      "out_sec": 7724,
+      "duration_sec": 4,
+      "visual": "金黄山坡俯拍，两台车在双车道公路并行远去，树影很长",
+      "motion_direction": "由画面下方向上驶远；相机俯拍后退/升高",
+      "role": "结尾暖色/公路/双车",
+      "priority": "A",
+      "evidence": [
+        "07/ending-7720.jpg",
+        "07/ending-7720.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "四秒连续无字幕样本，后续7724–7726.5沿弯道继续。优先收束镜。"
+    },
+    {
+      "id": "F10-blue-side",
+      "film": "10",
+      "source_file": "D:/速度与激情/10 速度与激情9（2021）4K 120帧.mkv",
+      "source_fps": "120/1",
+      "in_sec": 4684.15,
+      "out_sec": 4686.65,
+      "duration_sec": 2.5,
+      "visual": "低机位近距离平行拍蓝色汽车侧窗与车门，车随后掠出并露出后车",
+      "motion_direction": "车辆沿画面向右掠出；摄影机并行跟拍",
+      "role": "彩色车/贴近运动",
+      "priority": "A",
+      "evidence": [
+        "10/street-chase.jpg",
+        "10/street-chase.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "4687.5换另一驾驶员，out提前留余量。"
+    },
+    {
+      "id": "F10-driver-stare",
+      "film": "10",
+      "source_file": "D:/速度与激情/10 速度与激情9（2021）4K 120帧.mkv",
+      "source_fps": "120/1",
+      "in_sec": 4687.55,
+      "out_sec": 4688.8,
+      "duration_sec": 1.25,
+      "visual": "John Cena在方向盘后凝视前方，冷色车窗光",
+      "motion_direction": "车身前行，脸稳定朝前",
+      "role": "干净人物/方向盘",
+      "priority": "B",
+      "evidence": [
+        "10/street-chase.jpg",
+        "10/street-chase.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "1.25秒插镜；4689换贴地街道镜。"
+    },
+    {
+      "id": "F07-fork",
+      "film": "07",
+      "source_file": "D:/速度与激情/07 速度与激情7（2015）4K 120帧.mp4",
+      "source_fps": "120/1",
+      "in_sec": 7725,
+      "out_sec": 7729,
+      "duration_sec": 4,
+      "visual": "金色山坡航拍，白车向左分岔，深色车沿右侧公路；两车逐渐远离",
+      "motion_direction": "分向左上/右上两路，镜头升高",
+      "role": "最终收束/分道",
+      "priority": "A",
+      "evidence": [
+        "07/fork-complete.jpg",
+        "07/fork-complete.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "连续4秒无字幕样本；不是新做特效，直接采用电影完整镜头。"
+    },
+    {
+      "id": "F07-wide-landscape",
+      "film": "07",
+      "source_file": "D:/速度与激情/07 速度与激情7（2015）4K 120帧.mp4",
+      "source_fps": "120/1",
+      "in_sec": 7730,
+      "out_sec": 7733.5,
+      "duration_sec": 3.5,
+      "visual": "两车已分别远去，山坡公路与暖色远景展开，太阳光晕",
+      "motion_direction": "镜头升高拉远，公路由下至远处",
+      "role": "尾部留白/暖色远景",
+      "priority": "A",
+      "evidence": [
+        "07/fork-7733.jpg",
+        "07/fork-7733.json",
+        "07/fork-7727.jpg",
+        "07/fork-7727.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "连续无字幕；与fork是同一长镜的后续，避免重复使用显得拖长。"
+    },
+    {
+      "id": "F04-female-look",
+      "film": "04",
+      "source_file": "D:/速度与激情/04 速度与激情4（2009）4K 60帧 .mp4",
+      "source_fps": "60/1",
+      "in_sec": 5870.85,
+      "out_sec": 5872.7,
+      "duration_sec": 1.85,
+      "visual": "女性驾驶员在红色座椅中微笑并望向前方，金色山路背景",
+      "motion_direction": "脸轻微向画面左侧转回前方，背景横移",
+      "role": "人物对视/情绪",
+      "priority": "A",
+      "evidence": [
+        "04/sports-pass.jpg",
+        "04/sports-pass.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "1.85秒；可与本片Paul驾驶镜匹配，5873.25已换车外镜。"
+    },
+    {
+      "id": "F02-neon-tail",
+      "film": "02",
+      "source_file": "D:/速度与激情/02 速度与激情2（2003）4K 60帧 .mkv",
+      "source_fps": "24000/1001",
+      "in_sec": 720.05,
+      "out_sec": 722.1,
+      "duration_sec": 2.05,
+      "visual": "夜间两台改装车尾，蓝绿底灯，黄车喷出短亮火焰并加速",
+      "motion_direction": "车从近处向画面深处驶去，银车尾占前景",
+      "role": "夜间加速/尾灯/轮胎",
+      "priority": "A",
+      "evidence": [
+        "02/bridge-land.jpg",
+        "02/bridge-land.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "已看样本为同一镜头延续；未对所有原帧做切镜判定。",
+      "notes": "连续2秒已查看无字幕样本，722.5换司机。火焰来自电影源镜，源音未试听。"
+    },
+    {
+      "id": "F02-air-landing-sequence",
+      "film": "02",
+      "source_file": "D:/速度与激情/02 速度与激情2（2003）4K 60帧 .mkv",
+      "source_fps": "24000/1001",
+      "in_sec": 750.85,
+      "out_sec": 753.5,
+      "duration_sec": 2.65,
+      "visual": "两台车空中飞过，银蓝车落地并擦出火花/烟尘",
+      "motion_direction": "由远处腾空向镜头靠近，再向前下方落地",
+      "role": "跨片空中动作/落地",
+      "priority": "A",
+      "evidence": [
+        "02/jump-746.jpg",
+        "02/jump-746.json",
+        "02/jump-752.jpg",
+        "02/jump-752.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "明确存在电影原有机位切换；正面腾空约751.0–751.7，后侧落地约752.6–753.5。",
+      "notes": "这2.65秒含电影原有空中正面→后侧落地机位切换。必须声明原镜组，不能当单一连续长镜。"
+    },
+    {
+      "id": "F02-gold-neon-sequence",
+      "film": "02",
+      "source_file": "D:/速度与激情/02 速度与激情2（2003）4K 60帧 .mkv",
+      "source_fps": "24000/1001",
+      "in_sec": 537.55,
+      "out_sec": 539.45,
+      "duration_sec": 1.9,
+      "visual": "黄色改装车迎面近景转轮胎/车侧，后方红银车，彩色底灯及短喷火",
+      "motion_direction": "迎面靠近后侧向掠过",
+      "role": "彩色车高速/轮胎",
+      "priority": "B",
+      "evidence": [
+        "02/gold-car.jpg",
+        "02/gold-car.json"
+      ],
+      "verification": "已实际查看普通解码0.5秒间隔多帧证据；属于安全取材建议范围，不声称全分辨率逐帧看过整个区间。正式输出仍应检查切点附近原帧。",
+      "source_audio": {
+        "listened": false,
+        "nature": "未知：未试听，不按画面推断引擎/对白/音乐。"
+      },
+      "burned_subtitles": "所建议区间的已查看样本未见字幕；可能存在样本间短字，最终剪辑须回看。",
+      "original_cut": "包含原片机位切换，不是同一镜头。",
+      "notes": "1.9秒；含原片迎面→侧面切角，若需单镜只取538.55–539.4短轮胎插镜。"
+    }
+  ],
+  "not_selected": [
+    {
+      "film": "08",
+      "reason": "当前两个密查区是脚手架破坏/冰面尘雾且有短字幕，尚无优于已选的干净2–4秒镜。"
+    },
+    {
+      "film": "09",
+      "reason": "已看车库超跑但主区硬字幕持续；另一雨中区为人物打斗/残车，当前目标不优先，未强凑。"
+    }
+  ],
+  "validation": {
+    "selected_count": 24,
+    "evidence_files_exist": true,
+    "overview_films_actually_viewed": [
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "full_resolution_every_frame_viewed": false,
+    "audio_listened": false,
+    "all_in_out_within_probed_duration": true,
+    "selected_by_film": {
+      "10": 2,
+      "02": 4,
+      "03": 3,
+      "04": 4,
+      "05": 3,
+      "06": 2,
+      "07": 6
+    },
+    "movie_02_fps_note": "实测24000/1001；文件名的60帧不作为技术依据。"
+  }
+}

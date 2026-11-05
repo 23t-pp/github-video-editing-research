@@ -1,0 +1,20 @@
+// Executed only after explicit root L4 film-pass authorization.
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+import {taskWork,taskRoot,authorizationPath,fileSha} from './task-config.mjs';
+import {loadManifest,manifestPath} from './manifest.mjs';
+const expectedPlan='51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e';
+const expectedMedia='7dfae8a6070e9a38b9f70f8bd72c81d8812b1549f4b195d98726da62a5a2f642';
+const expectedFilm='90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d';
+const reviewPath=path.join(taskRoot,'loops/loop-04/review.json'),review=JSON.parse(fs.readFileSync(reviewPath,'utf8'));
+assert.equal(review.status,'pass');assert.equal(review.filmApproved,true);assert.equal(review.blockingP1Count,0);
+assert.equal(fileSha(path.join(taskRoot,'咒力接力_一分钟.mp4')),expectedFilm);
+const m=loadManifest({hf:true,probe:true});assert.equal(m.manifestSha256,expectedPlan);assert.equal(m.assets.length,64);assert.equal(m.shots.length,59);assert.equal(m.hfChunks.length,20);
+const fingerprints=[...[...m.videos.values()].map(v=>[path.relative(taskRoot,v.file).replaceAll('\\','/'),v.sha256]),[path.relative(taskRoot,m.master).replaceAll('\\','/'),fileSha(m.master)]];
+const actual=crypto.createHash('sha256').update(JSON.stringify(fingerprints)).digest('hex');assert.equal(actual,expectedMedia);
+const auth={approvedByOrchestrator:'/root',approvedAt:new Date().toISOString(),authorizationBasis:'Explicit root task message: L4 film pass and fixed plan/media/canonical SHA; project-delivery gate still pending real roundtrip',designBApproved:true,finalMediaLocked:true,allowedStages:['native','hf','mutate','export','import','finalize'],manifestPath,manifestSha256:expectedPlan,mediaFingerprintSha256:actual,canonicalMovieSha256:expectedFilm,filmReviewPath:reviewPath,filmReviewSha256:fileSha(reviewPath),preparedReplayPolicy:'1x of already retimed/resampled 24fps prepared assets; ignore nominal original-source playbackRate for OCC replay',expectedMediaTotal:85,expectedNativeClips:59,expectedHfClips:20,createdNewProjectOnly:true};
+assert(!fs.existsSync(path.join(taskWork,'state.json')),'Unexpected existing S1 state before initial authorization');
+fs.writeFileSync(authorizationPath,JSON.stringify(auth,null,2));
+console.log(JSON.stringify({authorized:true,manifestSha256:expectedPlan,mediaFingerprintSha256:actual,expectedMedia:85,preparedPlaybackRate:1}));

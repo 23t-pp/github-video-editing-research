@@ -1,0 +1,15 @@
+{
+  "state": "pass_fault_injection_and_secondary_staleness_detection",
+  "originalFailure": "observed WinError5 in orchestrator monitor session89828; UI stale heartbeat detected in final inspection",
+  "transientLockSucceededOnAttempt": 3,
+  "persistentLockRaisesAfterAttempts": 6,
+  "lastCommittedStatePreserved": true,
+  "staleAge181Detected": true,
+  "age180NotStale": true,
+  "sealedMonitorNotMisclassifiedAsStale": true,
+  "actualModuleFunctionsTested": true,
+  "newMonitorSession": 9820,
+  "monitorSourceSha256": "594fc13af426b74cfcb596fa56a6c2cd55790a417e2d177721eb790d807725f8",
+  "serverSourceSha256": "38b64545cd20f1e4631ca6d8b132374336ac52d85d7e83e8781cfafcd6bd430d",
+  "policy": "bounded retries; persistent failure remains visible by independent API age check, no false heartbeat success"
+}

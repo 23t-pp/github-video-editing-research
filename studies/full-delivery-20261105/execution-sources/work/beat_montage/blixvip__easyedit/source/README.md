@@ -1,0 +1,275 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="easyedit/web/assets/logo.svg">
+    <img alt="easyedit" src="easyedit/web/assets/logo-light.svg" height="72">
+  </picture>
+</p>
+
+<p align="center"><b>Type a movie. Get a captioned speech + beat-cut fan edit.</b><br>
+Local-first · no API keys · works with your AI bot</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-111?style=flat-square" alt="MIT license"></a>
+  <img src="https://img.shields.io/badge/python-3.10%2B-111?style=flat-square" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/node-22%2B-111?style=flat-square" alt="Node.js 22+">
+  <img src="https://img.shields.io/badge/render-HyperFrames-111?style=flat-square" alt="Rendered with HyperFrames">
+  <a href="https://github.com/blixvip/easyedit/stargazers"><img src="https://img.shields.io/github/stars/blixvip/easyedit?style=flat-square&color=111" alt="GitHub stars"></a>
+  <a href="https://discord.gg/zEB4VjmfSb"><img src="https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"></a>
+</p>
+
+<p align="center">
+  <img src="docs/ui.png" width="860" alt="easyedit web UI">
+</p>
+
+<p align="center">
+  <a href="#example-edits">Example edits</a> ·
+  <a href="#what-it-does">What it does</a> ·
+  <a href="#setup">Setup</a> ·
+  <a href="#give-it-to-your-bot">Give it to your bot</a> ·
+  <a href="#web-ui">Web UI</a> ·
+  <a href="#usage">Usage</a> ·
+  <a href="#when-something-goes-wrong">Troubleshooting</a> ·
+  <a href="#how-it-fits-together">How it fits together</a> ·
+  <a href="#community">Community</a>
+</p>
+
+---
+
+Type a movie name and get a finished fan edit. It makes the kind that's all over social media: the film's best
+speech with animated word-by-word captions, then a fast montage cut to the beat of a song.
+
+```bash
+python -m easyedit "The Wolf of Wall Street"
+```
+
+The finished video is saved to `jobs/<movie>/<movie>.mp4` as 1920×1080 at 60fps.
+
+## Example edits
+
+Every one of these came out of a single command. Click a thumbnail to get the full 1080p60 video (all of them are on the [Example edits release](https://github.com/blixvip/easyedit/releases/tag/examples)).
+
+<table>
+  <tr>
+    <td align="center" width="33%"><a href="https://github.com/blixvip/easyedit/releases/download/examples/the-wolf-of-wall-street.mp4"><img src="docs/gallery/the-wolf-of-wall-street.jpg" alt="The Wolf of Wall Street"><br><b>The Wolf of Wall Street</b></a></td>
+    <td align="center" width="33%"><a href="https://github.com/blixvip/easyedit/releases/download/examples/interstellar.mp4"><img src="docs/gallery/interstellar.jpg" alt="Interstellar"><br><b>Interstellar</b></a></td>
+    <td align="center" width="33%"><a href="https://github.com/blixvip/easyedit/releases/download/examples/fight-club.mp4"><img src="docs/gallery/fight-club.jpg" alt="Fight Club"><br><b>Fight Club</b></a></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><a href="https://github.com/blixvip/easyedit/releases/download/examples/inception.mp4"><img src="docs/gallery/inception.jpg" alt="Inception"><br><b>Inception</b></a></td>
+    <td align="center" width="33%"><a href="https://github.com/blixvip/easyedit/releases/download/examples/blade-runner-2049.mp4"><img src="docs/gallery/blade-runner-2049.jpg" alt="Blade Runner 2049"><br><b>Blade Runner 2049</b></a></td>
+    <td align="center" width="33%"><a href="https://github.com/blixvip/easyedit/releases/download/examples/obsession.mp4"><img src="docs/gallery/obsession.jpg" alt="Obsession"><br><b>Obsession</b></a></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><a href="https://github.com/blixvip/easyedit/releases/download/examples/spider-man-brand-new-day.mp4"><img src="docs/gallery/spider-man-brand-new-day.jpg" alt="Spider-Man: Brand New Day"><br><b>Spider-Man: Brand New Day</b></a></td>
+    <td align="center" width="33%"><a href="https://github.com/blixvip/easyedit/releases/download/examples/the-odyssey.mp4"><img src="docs/gallery/the-odyssey.jpg" alt="The Odyssey"><br><b>The Odyssey</b></a></td>
+    <td align="center" width="33%"><a href="https://github.com/blixvip/easyedit/releases/download/examples/backrooms.mp4"><img src="docs/gallery/backrooms.jpg" alt="Backrooms"><br><b>Backrooms</b></a></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><a href="https://github.com/blixvip/easyedit/releases/download/examples/resident-evil-2026.mp4"><img src="docs/gallery/resident-evil-2026.jpg" alt="Resident Evil (2026)"><br><b>Resident Evil (2026)</b></a></td>
+    <td align="center" width="33%"><a href="https://github.com/blixvip/easyedit/releases/download/examples/buddy.mp4"><img src="docs/gallery/buddy.jpg" alt="Buddy"><br><b>Buddy</b></a></td>
+  </tr>
+</table>
+
+**Why it's fun:** one command does the whole edit. It picks the speech and the song, transcribes every word, tracks the face, finds the drop, and cuts to the beat. Everything runs on your own machine with your existing Claude Code or Codex login, and every stage is cached and editable, so you can steer it as much or as little as you like.
+
+## What it does
+
+| Stage | How |
+|---|---|
+| **Plan** | An LLM picks the film's most iconic speech, search queries for the scene and montage footage, a song that fits the mood, a color palette for the captions and a color grade. It uses your Claude Code login or the `codex` CLI, so you don't need API keys. If neither is available it uses built-in defaults. |
+| **Source** | `yt-dlp` searches YouTube and downloads the speech scene, 1–2 montage sources and the song. Any of these can be replaced with a local file or a URL. |
+| **Transcribe** | `faster-whisper` gives a timestamp for every word, on the GPU when one is available. |
+| **Quote** | The LLM picks the best continuous 9–24s passage and marks emphasis words by role: positive, negative, gold or cool. The passage is split into caption lines at pauses. A heuristic takes over if the LLM fails. |
+| **Faces** | OpenCV YuNet tracks the speaker at 10Hz so the camera can push in and follow their face. |
+| **Shots** | Finds scene cuts in the montage sources and scores each shot on motion, sharpness, contrast, color and faces. It removes black bars, title cards and near-duplicate shots. |
+| **Beats** | A numpy beat tracker (spectral flux plus dynamic programming) finds the song's tempo, its beats and the drop. The montage starts exactly on the drop. |
+| **Assemble** | Cuts land exactly on real beats in a repeating short/long pattern. It encodes the footage frame-accurately, and the song stays quiet under the speech, then jumps to full volume on the drop. |
+| **Render** | A [HyperFrames](https://github.com/heygen-com/hyperframes) composition (`template/`) adds the effects: face-follow camera, captions that go from blur to outline to glowing fill, echo text behind emphasis words, whip transitions with directional motion blur, flashes, beat-synced zoom pulses, film grain, and a black-and-white final shot with the title card. It renders as parallel sections (each one streams its frames straight into the encoder, so nothing piles up on disk), then the soundtrack is muxed in and the video is encoded once for delivery. |
+
+## Setup
+
+Requirements: Python 3.10+, Node.js 22+, FFmpeg on `PATH`. An NVIDIA GPU is optional: it makes transcription
+and the final encode faster. Everything else (fonts, the face model, Chrome for rendering) downloads on first
+run into `.cache/`.
+
+```bash
+git clone https://github.com/blixvip/easyedit && cd easyedit
+npm install
+pip install -r requirements.txt
+python -m easyedit.doctor     # checks everything and tells you what to fix
+```
+
+Connect an AI account so it can pick the scene, the quote and the song. One is enough, and there are no API keys:
+sign in to Claude Code (`claude auth login`) or Codex (`codex login`), or click **Connect** in the web UI. With no
+account connected you still get an edit, but it runs on heuristics.
+
+## Give it to your bot
+
+easyedit is built so an AI agent can run the whole thing for you, from install to curating the shots to the
+final render. Paste this into Claude Code, Codex or any agent that can use a terminal:
+
+```text
+Install easyedit from https://github.com/blixvip/easyedit. Read its AGENTS.md first and follow it.
+Run "python -m easyedit.doctor" and fix anything it flags.
+Then make a fan edit of "Gladiator" and tell me where the finished video is.
+```
+
+[`AGENTS.md`](AGENTS.md) is the agent's playbook. It covers setup, checking the quote, reading the shot contact
+sheets, writing `curate.json`, rendering, and checking the stills afterwards. For Claude Code there's also a skill:
+
+```bash
+python -m easyedit.skill install    # then: /easyedit Gladiator
+```
+
+The web UI's **Bot** section has these prompts ready to copy, with your movie filled in. A bot on the same
+computer can also drive the running app through its local API (`POST /api/new`, `GET /api/jobs`). See AGENTS.md.
+
+## Web UI
+
+```bash
+python -m easyedit.web      # http://127.0.0.1:4331 (easyedit-web.cmd on Windows)
+```
+
+A gallery of every edit you have made (thumbnail, length, the line it captions) plus a box to start a new
+one. Running jobs show a live stage/progress bar and their log, and can be stopped from the page. Click a
+thumbnail to watch the edit in the browser.
+
+**Design from a picture** turns an imported PNG, JPEG or WebP (up to 25 MB) into a poster built from that
+picture's own colors and light (`POST /api/design`, implemented in `easyedit/design.py`).
+
+Set `EASYEDIT_PORT` to use a different port.
+
+**Connect** shows which AI accounts are signed in and checks this computer's tools. Its buttons open the sign-in
+for Claude or Codex. **Give it to your bot** has copy-ready prompts for an agent.
+
+## Usage
+
+```bash
+# fully automatic
+python -m easyedit "Fight Club"
+
+# steer any stage: local file, URL, or your own search query
+python -m easyedit "Interstellar" \
+  --speech "interstellar do not go gentle scene" \
+  --montage ~/clips/interstellar-trailer.mp4 \
+  --music "https://www.youtube.com/watch?v=..."
+
+# fast iteration
+python -m easyedit "Scarface" --draft                 # 30fps, draft quality
+python -m easyedit "Scarface" --preview 15 25         # render only 15s-25s
+python -m easyedit "Scarface" --no-render             # build footage + edit.js only
+```
+
+| Flag | Default | |
+|---|---|---|
+| `--speech / --montage / --music` | auto | file, URL or search query (`--montage` can be repeated) |
+| `--llm` | `auto` | `claude`, `codex` or `none` |
+| `--fps` | `60` | 24, 30 or 60 |
+| `--montage-length` | `21` | seconds of beat cuts |
+| `--hero-length` | `3.4` | seconds of the final black-and-white shot |
+| `--language` | `en` | speech language (non-English uses whisper `large-v3`) |
+| `--cookies-from-browser` | | for age-restricted YouTube clips, e.g. `chrome` |
+| `--fresh` | | re-plan and re-pick instead of reusing the cache |
+| `-o, --output` | | write the finished MP4 to this path |
+
+Every stage caches its results in `jobs/<movie>/`: downloads, transcripts, shot and beat analysis, `plan.json`,
+`quote.json` and `sources.json` (which pins the chosen downloads, since YouTube search results drift).
+Re-running is quick, and you can edit `quote.json` or `render/edit.js` by hand and render again.
+
+To hand-pick the montage, add `jobs/<movie>/curate.json`. Shot ids are `<source stem>@<start seconds>`, and
+they're listed in `work/shots-*.json`:
+
+```json
+{"pin": ["TaaDkbG3I7g@110.52", "ebjTAHwSWMw@73.60"], "exclude": ["TaaDkbG3I7g@32.77"], "hero": "ebjTAHwSWMw@163.10"}
+```
+
+To see the shots, run `python -m easyedit.sheet "<movie>"`. It writes `qa/report.txt` (a text summary of the
+quote and the shot pool, with flags for suspect shots), `qa/suggest-curate.json` (a ready-to-edit curate
+draft), `qa/candidates.jpg` (every shot, numbered), `qa/candidates.txt` (number → id) and `qa/footage.jpg`
+(the cut in order). Use `--report` for just the text, no images. Add `--final` to get stills from the
+rendered video.
+
+`pin` shots are used first, in that order. `exclude` shots are never used, and `hero` is the final black-and-white shot.
+
+Environment overrides: `EASYEDIT_CLAUDE_MODEL`, `EASYEDIT_WHISPER` (a faster-whisper model name),
+`EASYEDIT_PARALLEL` (render processes, default 2 - raise it if you have RAM to spare) and
+`EASYEDIT_ENCODER=x264` (the default uses NVENC when the GPU has it).
+
+Rendering is the slow part: roughly 5 frames/second at 1080p60 on a GTX 1650, so about 8 minutes
+for a 40-second edit. `--fps 30` halves it.
+
+## Tweaking the look
+
+Everything visual is in `template/film.js`. It's a pure function of time, so any frame renders on its own.
+To preview a built job in the browser:
+
+```bash
+cd jobs/<movie>/render && npx hyperframes preview
+```
+
+## Notes
+
+Use footage and music you have the right to use. easyedit doesn't include any film or music content; it only
+processes what you point it at or what it downloads into your local `jobs/` folder.
+
+## When something goes wrong
+
+| Symptom | Fix |
+|---|---|
+| YouTube downloads fail with HTTP 403 | `pip install -U "yt-dlp[default]"`. easyedit runs yt-dlp's JS challenges through Node, so Node must be on `PATH`. |
+| "every download failed" | The clip is age-restricted: `--cookies-from-browser chrome`. Or pass the scene yourself with `--speech <file|url>`. |
+| The quote is dull, or the wrong scene | Both LLM routes were rate-limited and the heuristic ran. Check the log for `quote (heuristic)`, then delete `jobs/<movie>/quote.json` and run again. |
+| Render dies on temp space | Disk capture needs ~9 MB per frame. easyedit already streams frames instead, so if you see this, something forced the old path - make sure `PRODUCER_FORCE_SCREENSHOT` is not set. |
+| Render is killed / the machine thrashes | Lower `EASYEDIT_PARALLEL` to 1. Each section is a separate Chrome. |
+| Captions stall on silence | The passage spans dead air. `MAX_GAP` in `quote.py` controls how much is allowed. |
+| Black bars or a channel watermark survive | `letterbox()` in `vision.py` keeps only rows lit across the frame. Sources taller than 16:9 keep the top of the frame, so corner watermarks at the bottom get cropped off. If one still survives, exclude that shot in `curate.json` or crop the source yourself. |
+| The montage is weak or repetitive | Run `python -m easyedit.sheet "<movie>"`, then pin a sequence and exclude text cards in `curate.json`. |
+
+## How it fits together
+
+```
+easyedit/
+  __main__.py   CLI and the per-stage cache keys
+  plan.py       movie title  -> scene / montage / music queries, palette, grade
+  fetch.py      yt-dlp search + download (or your own files and URLs)
+  transcribe.py faster-whisper word timings
+  quote.py      the passage to caption, its lines and emphasis words
+  vision.py     frame sampling, picture-area detection, YuNet faces
+  shots.py      scene cuts and how edit-worthy each shot is
+  beats.py      onset envelope, tempo, beat tracking, the drop
+  assemble.py   frame-exact timeline, footage cut, ducked soundtrack, edit.js
+  render.py     parallel HyperFrames sections, mux, delivery encode
+  web.py        the local web UI (web/index.html, web/assets/ logo + icon)
+  design.py     poster design from an imported picture (used by the web UI)
+  doctor.py     setup check: AI accounts + tools (used by the UI and by agents)
+  sheet.py      contact sheets (and a text-only QA report) for checking shots and the final render
+  skill.py      installs the Claude Code skill
+template/       index.html + film.js: every visual effect, as a function of time
+skills/         the /easyedit skill for Claude Code
+tests/          unit tests (python -m pytest)
+AGENTS.md       the playbook for AI agents
+```
+
+## Community
+
+💬 [Join the Discord](https://discord.gg/zEB4VjmfSb) for questions, help, feedback, and updates.
+
+<!-- more-from-blixvip:start -->
+## More from blixvip
+
+| Project | What it does |
+| --- | --- |
+| **[GenMotion](https://github.com/blixvip/GenMotion)** | Type an idea, get a finished motion-graphics video. Top Western + Chinese image models, your own API keys. |
+| **[NullMotion](https://github.com/blixvip/NullMotion)** | Play a finished motion-graphics ad in sync with the rough drafts it grew from. Export the breakdown as MP4. |
+| **[MotionClone](https://github.com/blixvip/MotionClone)** | Rebuild any reference video as an editable HyperFrames project and compare it against the original. |
+| **[html-anime](https://github.com/blixvip/html-anime)** | Turn a scene prompt into a shot sheet, then have a coding agent draw the film in HTML. No video model. |
+| **[stick](https://github.com/blixvip/stick)** | Free, open-source stick figure animation software for Windows, Linux and the web. |
+| **[thumbnail-studio](https://github.com/blixvip/thumbnail-studio)** | A minimal Windows workspace for YouTube thumbnails: ChatGPT beside your references. |
+| **[blixtrade](https://github.com/blixvip/blixtrade)** | Open-source core of BLIX, the AI memecoin terminal for Solana, with a public API and MCP server. |
+
+<sub>If one of these helped you, a ⭐ helps other people find it. Follow [@waselyyy](https://x.com/waselyyy) for new drops.</sub>
+<!-- more-from-blixvip:end -->
+
+## License
+
+[MIT](LICENSE).

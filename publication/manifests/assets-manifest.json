@@ -1,0 +1,324 @@
+[
+  {
+    "asset": "openchatcut-local-complete.zip",
+    "source_file_count": 4,
+    "bytes": 103061,
+    "sha256": "594f89647653bd6f1ec28ac6135a0e781ce9e5dadba68685f22478ff9e9a5532",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": []
+    },
+    "entries_manifest": "manifests/openchatcut-local-complete.zip.json"
+  },
+  {
+    "asset": "reference-editing-study-complete.zip",
+    "source_file_count": 146,
+    "bytes": 24004193,
+    "sha256": "37dbad3872740ccfd1fb77ec8b269e1725ffbaad2f61dacf7852f4766d9e42cd",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": []
+    },
+    "entries_manifest": "manifests/reference-editing-study-complete.zip.json"
+  },
+  {
+    "asset": "reference-library-20261105-complete.zip",
+    "source_file_count": 623,
+    "bytes": 114380140,
+    "sha256": "1357b73538e1c641ddff2896f1d3d77907c96f923624b5f42b8d6009487f5625",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": []
+    },
+    "entries_manifest": "manifests/reference-library-20261105-complete.zip.json"
+  },
+  {
+    "asset": "v05-six-panel-hyperframes-editable.zip",
+    "source": "outputs/v05-six-panel/HyperFrames可编辑工程.zip",
+    "bytes": 6203035,
+    "sha256": "0602ef9cfd37fad33f51a97975b69ba58126fc826841d71494a8bcbd10587b58",
+    "validation": "PASS: 复制后源与资产SHA256一致",
+    "restore_path": "outputs/v05-six-panel/HyperFrames可编辑工程.zip",
+    "zip_crc": "PASS: 所有内层ZIP entries CRC"
+  },
+  {
+    "asset": "v05-six-panel-complete.zip",
+    "source_file_count": 328,
+    "bytes": 68653698,
+    "sha256": "5fa4bab493d93c93e14f2ef47990583670303e503086a9780fbdd440b6110960",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": [
+        {
+          "asset": "v05-six-panel-hyperframes-editable.zip",
+          "sha256": "0602ef9cfd37fad33f51a97975b69ba58126fc826841d71494a8bcbd10587b58",
+          "restore_path": "outputs/v05-six-panel/HyperFrames可编辑工程.zip"
+        }
+      ],
+      "note": "保持outputs冻结文件原字节；依restore_path放回独立资产即可还原完整项目。"
+    },
+    "entries_manifest": "manifests/v05-six-panel-complete.zip.json"
+  },
+  {
+    "asset": "fast60-hyperframes-editable.zip",
+    "source": "outputs/fast60/HyperFrames可编辑工程.zip",
+    "bytes": 210016571,
+    "sha256": "41a6a96dda1cded2abe26f5f03257c74a69fc583a57b502e4bfccfc487653a80",
+    "validation": "PASS: 复制后源与资产SHA256一致",
+    "restore_path": "outputs/fast60/HyperFrames可编辑工程.zip",
+    "zip_crc": "PASS: 所有内层ZIP entries CRC"
+  },
+  {
+    "asset": "fast60-complete.zip",
+    "source_file_count": 168,
+    "bytes": 448596020,
+    "sha256": "9157380f1deb5bf98a0423efe741e8b4669abcbdec22ed357e8355f2f0a5390f",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": [
+        {
+          "asset": "fast60-hyperframes-editable.zip",
+          "sha256": "41a6a96dda1cded2abe26f5f03257c74a69fc583a57b502e4bfccfc487653a80",
+          "restore_path": "outputs/fast60/HyperFrames可编辑工程.zip"
+        }
+      ],
+      "note": "保持outputs冻结文件原字节；依restore_path放回独立资产即可还原完整项目。"
+    },
+    "entries_manifest": "manifests/fast60-complete.zip.json"
+  },
+  {
+    "asset": "reference-replay-next-hyperframes-editable.zip",
+    "source": "outputs/reference-replay-next/HyperFrames可编辑工程.zip",
+    "bytes": 130284224,
+    "sha256": "5ddac13173457bfcd458689da81a3f03e6e89779cc21b71debea6c5dafee013e",
+    "validation": "PASS: 复制后源与资产SHA256一致",
+    "restore_path": "outputs/reference-replay-next/HyperFrames可编辑工程.zip",
+    "zip_crc": "PASS: 所有内层ZIP entries CRC"
+  },
+  {
+    "asset": "reference-replay-next-complete.zip",
+    "source_file_count": 226,
+    "bytes": 304853398,
+    "sha256": "b5aec3a0f1cb07dfb575259b96674f4f238620cb704d9f7cb0d4307da1dfbafa",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": [
+        {
+          "asset": "reference-replay-next-hyperframes-editable.zip",
+          "sha256": "5ddac13173457bfcd458689da81a3f03e6e89779cc21b71debea6c5dafee013e",
+          "restore_path": "outputs/reference-replay-next/HyperFrames可编辑工程.zip"
+        }
+      ],
+      "note": "保持outputs冻结文件原字节；依restore_path放回独立资产即可还原完整项目。"
+    },
+    "entries_manifest": "manifests/reference-replay-next-complete.zip.json"
+  },
+  {
+    "asset": "jjk-edge-v17-hyperframes-editable.zip",
+    "source": "outputs/jjk-edge-v17/HyperFrames可编辑工程.zip",
+    "bytes": 355436380,
+    "sha256": "fa52f197e11d1df8a0272e3368c80bbac092a838d731398580591cfed5497773",
+    "validation": "PASS: 复制后源与资产SHA256一致",
+    "restore_path": "outputs/jjk-edge-v17/HyperFrames可编辑工程.zip",
+    "zip_crc": "PASS: 所有内层ZIP entries CRC"
+  },
+  {
+    "asset": "jjk-edge-v17-complete.zip",
+    "source_file_count": 736,
+    "bytes": 709681763,
+    "sha256": "f2ffea6a357877a0d5b7bbf6530294ba3404a16f9c1b5556dc0384b68afe5c95",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": [
+        {
+          "asset": "jjk-edge-v17-hyperframes-editable.zip",
+          "sha256": "fa52f197e11d1df8a0272e3368c80bbac092a838d731398580591cfed5497773",
+          "restore_path": "outputs/jjk-edge-v17/HyperFrames可编辑工程.zip"
+        }
+      ],
+      "note": "保持outputs冻结文件原字节；依restore_path放回独立资产即可还原完整项目。"
+    },
+    "entries_manifest": "manifests/jjk-edge-v17-complete.zip.json"
+  },
+  {
+    "asset": "jjk-edge-v17-v2-hyperframes-editable.zip",
+    "source": "outputs/jjk-edge-v17-v2/HyperFrames可编辑工程.zip",
+    "bytes": 483961987,
+    "sha256": "96068bdb40cbda298a072516dd2126feeb8e985a4e15e9158c7afcf97b364e9a",
+    "validation": "PASS: 复制后源与资产SHA256一致",
+    "restore_path": "outputs/jjk-edge-v17-v2/HyperFrames可编辑工程.zip",
+    "zip_crc": "PASS: 所有内层ZIP entries CRC"
+  },
+  {
+    "asset": "jjk-edge-v17-v2-complete.zip",
+    "source_file_count": 465,
+    "bytes": 862593458,
+    "sha256": "1b8655cfd31d7e7d4b73513d2606385dc175846791164c5b2bc5c4bd302760be",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": [
+        {
+          "asset": "jjk-edge-v17-v2-hyperframes-editable.zip",
+          "sha256": "96068bdb40cbda298a072516dd2126feeb8e985a4e15e9158c7afcf97b364e9a",
+          "restore_path": "outputs/jjk-edge-v17-v2/HyperFrames可编辑工程.zip"
+        }
+      ],
+      "note": "保持outputs冻结文件原字节；依restore_path放回独立资产即可还原完整项目。"
+    },
+    "entries_manifest": "manifests/jjk-edge-v17-v2-complete.zip.json"
+  },
+  {
+    "asset": "jjk-edge-v17-v3-dedup-hyperframes-editable.zip",
+    "source": "outputs/jjk-edge-v17-v3-dedup/HyperFrames可编辑工程.zip",
+    "bytes": 654843431,
+    "sha256": "2d237eb80f9934bfb0254377f0e405199103bdf4cec417dc879317594b2e0714",
+    "validation": "PASS: 复制后源与资产SHA256一致",
+    "restore_path": "outputs/jjk-edge-v17-v3-dedup/HyperFrames可编辑工程.zip",
+    "zip_crc": "PASS: 所有内层ZIP entries CRC"
+  },
+  {
+    "asset": "jjk-edge-v17-v3-dedup-complete.zip",
+    "source_file_count": 586,
+    "bytes": 1178716359,
+    "sha256": "cb408f3148b46022031279f45ed9f5c81815fe48c1e3d6769918c4e9bab60837",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": [
+        {
+          "asset": "jjk-edge-v17-v3-dedup-hyperframes-editable.zip",
+          "sha256": "2d237eb80f9934bfb0254377f0e405199103bdf4cec417dc879317594b2e0714",
+          "restore_path": "outputs/jjk-edge-v17-v3-dedup/HyperFrames可编辑工程.zip"
+        }
+      ],
+      "note": "保持outputs冻结文件原字节；依restore_path放回独立资产即可还原完整项目。"
+    },
+    "entries_manifest": "manifests/jjk-edge-v17-v3-dedup-complete.zip.json"
+  },
+  {
+    "asset": "reference-library-release-20261105-complete.zip",
+    "source_file_count": 5,
+    "bytes": 147636311,
+    "sha256": "5a1f8764bb14dc4366d88f704c54ac8577b09ab79a530fb66973371ea44ed139",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": []
+    },
+    "entries_manifest": "manifests/reference-library-release-20261105-complete.zip.json"
+  },
+  {
+    "asset": "jjk-s1-hyperframes-editable.zip",
+    "source": "outputs/jjk-s1-workflow/HyperFrames可编辑工程.zip",
+    "bytes": 172690102,
+    "sha256": "f849b667e079542fee7a7ce5657f193a33d525c508fc1f1ea4ad44d81be30a71",
+    "validation": "PASS: 复制后源与资产SHA256一致",
+    "restore_path": "outputs/jjk-s1-workflow/HyperFrames可编辑工程.zip",
+    "zip_crc": "PASS: 所有内层ZIP entries CRC"
+  },
+  {
+    "asset": "jjk-s1-openchatcut.ccproj",
+    "source": "outputs/jjk-s1-workflow/openchatcut/咒力接力 · CURSED FLOW.ccproj",
+    "bytes": 205861867,
+    "sha256": "d5e59043e75417f13383547d382ee98d7b9e065c657e515d3f7a6ff54e51d043",
+    "validation": "PASS: 复制后源与资产SHA256一致",
+    "restore_path": "outputs/jjk-s1-workflow/openchatcut/咒力接力 · CURSED FLOW.ccproj"
+  },
+  {
+    "asset": "jjk-s1-workflow-complete.zip",
+    "source_file_count": 2217,
+    "bytes": 842336606,
+    "sha256": "5dc0203a96ecbb0ba70a47d253cc7e753543f73ff9cf3d115b5bb65054be7ee8",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": [
+        {
+          "asset": "jjk-s1-hyperframes-editable.zip",
+          "sha256": "f849b667e079542fee7a7ce5657f193a33d525c508fc1f1ea4ad44d81be30a71",
+          "restore_path": "outputs/jjk-s1-workflow/HyperFrames可编辑工程.zip"
+        },
+        {
+          "asset": "jjk-s1-openchatcut.ccproj",
+          "sha256": "d5e59043e75417f13383547d382ee98d7b9e065c657e515d3f7a6ff54e51d043",
+          "restore_path": "outputs/jjk-s1-workflow/openchatcut/咒力接力 · CURSED FLOW.ccproj"
+        },
+        {
+          "release": "jjk-s1-jpg-60hz-2026-11-05",
+          "restore_path": "outputs/jjk-s1-workflow/素材集_60Hz_JPG",
+          "reason": "2,061,018 JPG路径由独立JPG release交付，不在工程包重复存储"
+        }
+      ],
+      "note": "只将项目根级HF ZIP及正式OCC工程拆出；测试fixture ZIP原字节保留于本包。"
+    },
+    "entries_manifest": "manifests/jjk-s1-workflow-complete.zip.json"
+  },
+  {
+    "asset": "execution-and-research-sources.zip",
+    "source_file_count": 2285,
+    "bytes": 10815583,
+    "sha256": "4836881a1d3f3ddb336beeb840c15bbd2028eaeb64756900e8f729d33846cd07",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "note": "完整自写执行代码、OCC客户端、render-runner、取片脚本和上游取证局部快照；已保留所有已下载LICENSE/NOTICE及固定commit SHA，见research-snapshot-provenance.json。"
+    },
+    "entries_manifest": "manifests/execution-and-research-sources.zip.json"
+  },
+  {
+    "asset": "openchatcut-app-source-snapshot.zip",
+    "source": "C:\\Users\\PC\\Desktop\\OpenChatCut-main",
+    "source_file_count": 2805,
+    "bytes": 62707855,
+    "sha256": "c282d79ec971e792570247fc056be476f76cdc9d69f05d52a36dbb8d77ea8116",
+    "validation": "PASS: 全entry bytes/SHA256/CRC32与源读取一致；高置信凭据扫描零命中",
+    "entries_manifest": "manifests/openchatcut-app-source-snapshot.zip.json",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "archive_prefix": "dependencies/OpenChatCut-main"
+    }
+  },
+  {
+    "asset": "publication-supplement.zip",
+    "source_file_count": 169,
+    "bytes": 1029155,
+    "sha256": "03aa2f95860865eb04ac71a4f69e7bcb2d9643cdaeca8b4d405680634a8d0baf",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": [],
+      "note": "补回先前仅因key/profile/token命名误排的169个非秘密源文件；原路径保留。64位.key是缓存指纹，profile角色图是侧脸证据，OCC profile是命令/路径日志。"
+    },
+    "entries_manifest": "manifests/publication-supplement.zip.json"
+  },
+  {
+    "asset": "restore_projects.py",
+    "source": "work/publish-all-20261105/projects/restore_projects.py",
+    "bytes": 8421,
+    "sha256": "fb8d925f4d97bcb847740424dcad148fd0ee4f98018b0637e349db22c08f97ab",
+    "validation": "PASS: 源与发布副本bytes/SHA256一致"
+  },
+  {
+    "asset": "download-and-restore.zh-CN.md",
+    "source": "work/publish-all-20261105/projects/docs/download-and-restore.zh-CN.md",
+    "bytes": 5057,
+    "sha256": "4abc4278af73d54e432aec30c9b8c503061535efb1d152f35e1e4e228d1c0f0f",
+    "validation": "PASS: 源与发布副本bytes/SHA256一致"
+  },
+  {
+    "asset": "project-release-tools-and-manifests.zip",
+    "source_file_count": 42,
+    "bytes": 1055064,
+    "sha256": "5748ca325f08a8587c736905accd1bf05b23a31709d922388c13e25bf82976ea",
+    "validation": "PASS: 每entry bytes/SHA256/CRC32 与封存元数据源逐字节核验",
+    "entries_manifest": "manifests/project-release-tools-and-manifests.zip.json"
+  }
+]

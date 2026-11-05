@@ -1,0 +1,28 @@
+{
+  "id": "V10",
+  "start": 6.4,
+  "end": 8.9,
+  "source_fps": 30,
+  "every_nth_source_frame": 3,
+  "timestamp": "source PTS",
+  "source_sha256": "ef9eaf5e8affbf6aa26e4580925e963e9252c3dee31d614db4e4af2a469a115c",
+  "ffmpeg_args": [
+    "-v",
+    "error",
+    "-nostdin",
+    "-threads",
+    "2",
+    "-i",
+    "C:\\Users\\PC\\Downloads\\丝滑BMW_M4剪辑_汽车剪辑_汽车摄影_caredit_BMW.mp4",
+    "-an",
+    "-vf",
+    "select='between(t,6.4,8.9)*not(mod(n,3))',scale=400:226:force_original_aspect_ratio=decrease:force_divisible_by=2,pad=400:226:(ow-iw)/2:(oh-ih)/2:black,drawtext=fontfile='C\\:/Windows/Fonts/consola.ttf':text='%{pts\\:hms}':fontsize=19:fontcolor=white:box=1:boxcolor=black@0.8:x=5:y=5,tile=4x7:padding=3:margin=3",
+    "-frames:v",
+    "1",
+    "-q:v",
+    "2",
+    "-f",
+    "image2pipe",
+    "pipe:1"
+  ]
+}

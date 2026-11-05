@@ -1,0 +1,221 @@
+{
+  "id": "V03",
+  "sourceSha256": "e585508df0e02d555d7038af51e2a5d51b71dd9595215d8fa9da7f36fd6f8b80",
+  "nativeFrameCount": 750,
+  "fps": "25/1",
+  "firstPts": 0,
+  "lastPts": 29.96,
+  "ptsDeltaMin": 0.04,
+  "ptsDeltaMax": 0.04,
+  "variableFrameRateObserved": false,
+  "policy": "Decode native frames, preserve source PTS. No fps conversion, duplication or interpolation. 60 native frames per atlas page is a page size, not 60fps.",
+  "machineCoverage": {
+    "decodedFrames": 750,
+    "metricsRows": 750,
+    "atlasFrames": 750,
+    "atlasPages": 13
+  },
+  "thumbnailIdenticalAdjacentCount": 5,
+  "thumbnailIdenticalCaution": "Exact identity only at the decoded 96x54 RGB analysis representation; not proof of identical full-resolution source frames.",
+  "candidateMethod": "96x54 RGB temporal MAD and 8-bin-per-channel histogram change. Candidates also include fast movement, flashes, composite changes; not verified cuts.",
+  "cutOrEffectCandidates": [
+    {
+      "frame": 17,
+      "time": 0.68,
+      "score": 0.2277,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 27,
+      "time": 1.08,
+      "score": 0.18386,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 68,
+      "time": 2.72,
+      "score": 0.21914,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 90,
+      "time": 3.6,
+      "score": 0.2715,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 118,
+      "time": 4.72,
+      "score": 0.4746,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 120,
+      "time": 4.8,
+      "score": 0.33511,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 135,
+      "time": 5.4,
+      "score": 0.18953,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 186,
+      "time": 7.44,
+      "score": 0.27251,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 305,
+      "time": 12.2,
+      "score": 0.44183,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 338,
+      "time": 13.52,
+      "score": 0.21556,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 388,
+      "time": 15.52,
+      "score": 0.32973,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 405,
+      "time": 16.2,
+      "score": 0.33685,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 472,
+      "time": 18.88,
+      "score": 0.33161,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 475,
+      "time": 19,
+      "score": 0.24767,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 507,
+      "time": 20.28,
+      "score": 0.18464,
+      "kind": "cut-or-motion"
+    }
+  ],
+  "pages": [
+    {
+      "file": "native-001.jpg",
+      "firstFrame": 0,
+      "lastFrame": 59,
+      "start": 0,
+      "end": 2.36,
+      "count": 60
+    },
+    {
+      "file": "native-002.jpg",
+      "firstFrame": 60,
+      "lastFrame": 119,
+      "start": 2.4,
+      "end": 4.76,
+      "count": 60
+    },
+    {
+      "file": "native-003.jpg",
+      "firstFrame": 120,
+      "lastFrame": 179,
+      "start": 4.8,
+      "end": 7.16,
+      "count": 60
+    },
+    {
+      "file": "native-004.jpg",
+      "firstFrame": 180,
+      "lastFrame": 239,
+      "start": 7.2,
+      "end": 9.56,
+      "count": 60
+    },
+    {
+      "file": "native-005.jpg",
+      "firstFrame": 240,
+      "lastFrame": 299,
+      "start": 9.6,
+      "end": 11.96,
+      "count": 60
+    },
+    {
+      "file": "native-006.jpg",
+      "firstFrame": 300,
+      "lastFrame": 359,
+      "start": 12,
+      "end": 14.36,
+      "count": 60
+    },
+    {
+      "file": "native-007.jpg",
+      "firstFrame": 360,
+      "lastFrame": 419,
+      "start": 14.4,
+      "end": 16.76,
+      "count": 60
+    },
+    {
+      "file": "native-008.jpg",
+      "firstFrame": 420,
+      "lastFrame": 479,
+      "start": 16.8,
+      "end": 19.16,
+      "count": 60
+    },
+    {
+      "file": "native-009.jpg",
+      "firstFrame": 480,
+      "lastFrame": 539,
+      "start": 19.2,
+      "end": 21.56,
+      "count": 60
+    },
+    {
+      "file": "native-010.jpg",
+      "firstFrame": 540,
+      "lastFrame": 599,
+      "start": 21.6,
+      "end": 23.96,
+      "count": 60
+    },
+    {
+      "file": "native-011.jpg",
+      "firstFrame": 600,
+      "lastFrame": 659,
+      "start": 24,
+      "end": 26.36,
+      "count": 60
+    },
+    {
+      "file": "native-012.jpg",
+      "firstFrame": 660,
+      "lastFrame": 719,
+      "start": 26.4,
+      "end": 28.76,
+      "count": 60
+    },
+    {
+      "file": "native-013.jpg",
+      "firstFrame": 720,
+      "lastFrame": 749,
+      "start": 28.8,
+      "end": 29.96,
+      "count": 30
+    }
+  ],
+  "timelineSheets": 1,
+  "elapsedMs": 9009
+}

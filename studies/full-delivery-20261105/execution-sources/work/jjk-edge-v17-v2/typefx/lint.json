@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "errorCount": 0,
+  "warningCount": 4,
+  "infoCount": 0,
+  "findings": [
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"v02v2-slam\"> is a timeline element that contains nested <svg>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "v02v2-slam",
+      "fixHint": "Move <div id=\"v02v2-slam\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-edge-v17-v2\\typefx\\sample-project\\index.html",
+      "line": 8,
+      "column": 131
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"v02v2-ring\"> is a timeline element that contains nested <svg>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "v02v2-ring",
+      "fixHint": "Move <div id=\"v02v2-ring\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-edge-v17-v2\\typefx\\sample-project\\index.html",
+      "line": 15,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"v02v2-twin\"> is a timeline element that contains nested <svg>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "v02v2-twin",
+      "fixHint": "Move <div id=\"v02v2-twin\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-edge-v17-v2\\typefx\\sample-project\\index.html",
+      "line": 22,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"v02v2-ribbon\"> is a timeline element that contains nested <svg>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "v02v2-ribbon",
+      "fixHint": "Move <div id=\"v02v2-ribbon\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-edge-v17-v2\\typefx\\sample-project\\index.html",
+      "line": 29,
+      "column": 1
+    }
+  ],
+  "filesScanned": 1,
+  "_meta": {
+    "version": "0.8.216",
+    "latestVersion": "0.9.15",
+    "updateAvailable": true
+  }
+}

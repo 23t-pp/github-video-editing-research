@@ -1,0 +1,157 @@
+{
+  "projectId": "db290905-d92d-40c3-bf6d-b978bc074d9e",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_item",
+      "result": {
+        "ok": true,
+        "atomic": true,
+        "validateOnly": false,
+        "ripple": false,
+        "results": [
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_a4072812-4e17-420c-bb3f-afa870803e64"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_0a5f5837-20ad-4d2e-a63b-a5a1bff7382f"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_3381c220-331b-4dd8-8b0b-b21a110b1b4e"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_258c5296-2db9-4914-a761-fdf33dbe1880"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_1782e80a-e090-4b4e-9d63-0c9eb24a0287"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_712236ae-5100-486e-b8f4-57f825ff85f6"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_04ad16d6-2f56-4f14-8d37-d53654703446"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_35e8070d-4ff8-4e98-a588-132767cf8cda"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_7218d609-868b-407d-b278-e03297d7eba6"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_50c2574f-f189-44c6-8b0c-4e68b2e5d8c9"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_8aaa7325-d0ae-4ab8-8d54-bf7b3644e3ff"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_ab20e0ba-15ac-4214-b2dd-501d999eb53f"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_8fdbe988-ab43-4ac4-a7a5-798bac717dac"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_7513b5d8-d3ba-4bda-ae30-a7dd286839c4"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_4853ec6f-1683-4095-9657-f24202dc614f"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_057fa5ee-6502-418b-8f94-8fa6cf832e16"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_03b57acd-2122-4e3a-a5c9-667936482db0"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_3e4fe341-ed9a-47b7-a3c7-955a13ed917f"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_fe204ef1-3a4d-4ade-bd82-0cda96b6b35e"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_f51db290-e577-4b7a-8a04-17f935742c03"
+          },
+          {
+            "ok": true,
+            "kind": "audio",
+            "plan": "genericUpdate",
+            "itemId": "item_5528a763-21f2-4c50-a83b-79004b0ec7ec"
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "a9af6658-d9c8-4b9b-afa1-ece418fafb3c",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-8ccf8202",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_25acf839abf44c3d",
+    "editorUrl": "http://localhost:5199/#/editor/db290905-d92d-40c3-bf6d-b978bc074d9e",
+    "updatedAt": "2026-11-05T07:47:28.816Z"
+  }
+}

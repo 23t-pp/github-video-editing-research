@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "V16",
+    "title": "灵笼角色 · 记忆卡片、人物剪影与情绪回切",
+    "difficulty": "4/5",
+    "starter": "先复刻0.867–1.033秒撕边脸部卡片；只需两段人物正面镜头和一张撕边mask。",
+    "summary": "以相近正脸、伸手、人物遭遇串起情绪；撕边卡片、半脸矩形、白色人物形状和竖向拼图反复出现。后半段多暗灰画面与少量红/蓝亮色，最后保留动作画面至文件结束。",
+    "text_analysis": "底部白色中文句子分段出现，部分有黑边；不是全片居中冲击大字。小图谱不足以辨认的字没有补写。字幕可能源片已有，复刻应单独准备文本与时间，不靠压缩截图猜完整台词。",
+    "source": {
+      "sha256": "d4e9e99fd6e185adf9d4baef7a64ca502a1626df23c792138df8c0c2d99f8bd8",
+      "duration": 24.533333,
+      "container_duration": 24.533333,
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "native_frame_count": 736,
+      "last_frame_pts": 24.5,
+      "variable_frame_rate_observed": false
+    },
+    "analysis_scope": "先实际查看全片overview及全部逐秒timeline，再查看下列关键原生帧页。每页60个原生帧仅是排版数量；未转60fps、未复制或插值。没有声称逐张人工精读全部原生帧。章节是连续学习区间，不是逐镜EDL；原生帧页中的具体帧事实另列evidence_frames。",
+    "source_boundary": "仅有成片与原生帧证据，没有作者工程及未剪原片对照。不能唯一推定软件、插件、字体、抠像方式或原速度曲线；源电影/动画的电光、爆炸、粒子、摄影运动可能已存在。配方是等效实现建议，不是恢复出的作者参数。本分支不分析音频。",
+    "human_viewed": {
+      "overview": true,
+      "timeline": 1,
+      "native_pages": [
+        "native-001.jpg",
+        "native-002.jpg",
+        "native-003.jpg",
+        "native-006.jpg",
+        "native-007.jpg",
+        "native-009.jpg",
+        "native-011.jpg",
+        "native-012.jpg",
+        "native-013.jpg"
+      ],
+      "native_pages_total": 13,
+      "all_native_frames_individually_reviewed": false
+    },
+    "materials": [
+      "同一人物不同状态的正脸镜头",
+      "相片盒/握手/人物经历的源片段",
+      "人物动态alpha（白剪影处）",
+      "撕边SVG/灰度mask、矩形卡片、中文文本"
+    ],
+    "techniques": [
+      "正脸锚点匹配",
+      "撕边画中画",
+      "矩形半脸分区",
+      "白剪影先入",
+      "竖条拼图",
+      "明暗与彩色/灰度对照"
+    ],
+    "capability_alignment": [
+      "OCC可安排原片、基础裁切/位置/透明度与几何mask；撕边不等于其矩形mask。",
+      "HF/GSAP可把撕边窗口、白底卡片、分区显现做成组件。",
+      "人物剪影需对应源帧alpha；已有HF单帧人物分割未在此动画上测试，不能承诺直接干净抠出。"
+    ],
+    "fast_furious_application": "速激人物关系可用同一驾驶者的平静/受伤正脸作位置匹配；回忆照片卡只放在角色关系节点，不能每个车镜头都插卡。",
+    "segments": [
+      {
+        "start": 0,
+        "end": 1.9,
+        "label": "正脸停留与撕边脸卡",
+        "observed": "开头深色正脸保持中央；F26/0.867秒出现带白色撕边的小脸卡，F30/1.0仍在，F31/1.033秒已换成裸肩人物完整镜头。正脸位置相近。",
+        "recipe": "A正脸置底→B脸部区域做撕边mask小卡→卡片短显示后接B全幅。先对齐双眼高度和脸宽，撕边用静态路径即可；不要先做整个人物抠像。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V16/native-001.jpg"
+        ],
+        "source_frame_start": 0,
+        "source_frame_end_exclusive": 57,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 26,
+            "pts": 0.866667,
+            "description": "撕边小脸卡出现"
+          },
+          {
+            "frame": 31,
+            "pts": 1.033333,
+            "description": "B全幅出现"
+          }
+        ],
+        "match": {
+          "shape": "正脸/眼线",
+          "color": "蓝黑低明度",
+          "direction": "主体居中，主要是尺度替换"
+        }
+      },
+      {
+        "start": 1.9,
+        "end": 3.133333,
+        "label": "半脸矩形与手部白形换入",
+        "observed": "F57起竖向半幅亮矩形，随后两张相近正脸分区；F78/2.6秒白色手形覆盖面部，逐渐显露真实手和相片盒。",
+        "recipe": "脸部镜头分成左右矩形分别显现；手形部分用B手部alpha先填白，再淡入B彩色手和完整镜。相片盒内部已有照片属于画面物件，不能只看成片认定照片全为后加。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V16/native-002.jpg"
+        ],
+        "source_frame_start": 57,
+        "source_frame_end_exclusive": 94,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 60,
+            "pts": 2,
+            "description": "半脸分区"
+          },
+          {
+            "frame": 78,
+            "pts": 2.6,
+            "description": "白色手形"
+          },
+          {
+            "frame": 87,
+            "pts": 2.9,
+            "description": "相片盒占前景"
+          }
+        ],
+        "match": {
+          "shape": "半脸竖边→手/盒轮廓",
+          "direction": "面部中心转到近处手部"
+        }
+      },
+      {
+        "start": 3.133333,
+        "end": 4.5,
+        "label": "盒中人物放大与前景双手",
+        "observed": "F94附近小人物先出现在相片盒中央，接着变大并换成房间人物全景；F117/3.9秒白色双手形状先盖在旧房间上，F120–126显露手套和锁链，后底图变暗红空间。",
+        "recipe": "把B人物先作为小前景置在盒内中心，放大到全幅衔接；下一次用C双手alpha提前盖旧景，白形→正常手→C全幅。B/C的alpha和全幅必须同源同帧，避免合流跳位。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V16/native-002.jpg",
+          "evidence/V16/native-003.jpg"
+        ],
+        "source_frame_start": 94,
+        "source_frame_end_exclusive": 135,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 94,
+            "pts": 3.133333,
+            "description": "小人物进入盒中"
+          },
+          {
+            "frame": 117,
+            "pts": 3.9,
+            "description": "双手白形先入"
+          },
+          {
+            "frame": 126,
+            "pts": 4.2,
+            "description": "手在新背景上"
+          }
+        ],
+        "match": {
+          "shape": "盒中人/全幅人；双手交叠",
+          "direction": "中心放大、前景手向中部覆盖"
+        }
+      },
+      {
+        "start": 4.5,
+        "end": 5.8,
+        "label": "白卡扩张、暖色亮场与圆脸叠入",
+        "observed": "F135/4.5秒大面积白卡，随后金色强亮人物场景从一侧扩展；约5.3秒圆形脸部区域叠在暖亮底图上，5.567秒左右又出现竖向亮卡。",
+        "recipe": "用矩形窗口控制新景显现方向，亮度层与窗口分开；圆脸是另一局部窗口，可用圆mask试制。先保留源片强光/碎屑，不把它们误当必须重做的粒子。",
+        "confidence": "高：卡片/圆形叠层；未知：强光与碎屑的原生/后加归属",
+        "evidence": [
+          "evidence/V16/native-003.jpg"
+        ],
+        "source_frame_start": 135,
+        "source_frame_end_exclusive": 174,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 135,
+            "pts": 4.5,
+            "description": "白卡盖屏"
+          },
+          {
+            "frame": 160,
+            "pts": 5.333333,
+            "description": "圆脸叠层"
+          },
+          {
+            "frame": 167,
+            "pts": 5.566667,
+            "description": "竖亮卡"
+          }
+        ],
+        "match": {
+          "shape": "矩形→圆脸→竖框",
+          "color": "暗红过渡到金白"
+        }
+      },
+      {
+        "start": 5.8,
+        "end": 10.233333,
+        "label": "烈光长停留与表情回切",
+        "observed": "5.8秒后完整竖向金色光柱和室内宽景持续到8秒附近；随后笑脸、低头人物和暗处近景依次出现。全片逐秒样本表明这里有明显长短镜头差异，不能把光柱内运动都归为编辑。",
+        "recipe": "保留一个较长环境镜让前段碎切落稳，再用表情特写回到人物情绪。强亮源镜后接暗面部时调曝光衔接；无需给每次脸部切换都套花式转场。",
+        "confidence": "中高：逐秒样本覆盖；未知：未查每一切口及源速度曲线",
+        "evidence": [
+          "evidence/V16/timeline-01.jpg"
+        ],
+        "source_frame_start": 174,
+        "source_frame_end_exclusive": 307,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 10.233333,
+        "end": 11.966667,
+        "label": "婚礼回忆与连续矩形来镜卡",
+        "observed": "F307/10.233秒婚礼画面，F317附近底图已换暗灰人物；F324/10.8白矩形出现，随后内含婚礼镜头；F336/11.2右侧竖卡出现另一蓝色人物动作，F348/11.6已接完整动作镜。",
+        "recipe": "A暗灰镜→B婚礼矩形窗→C蓝色动作矩形窗。每个来镜先用白底短显，再显内容并扩到全幅；窗口尺寸与视频内部缩放分开控制。小卡和全幅采用同一源时刻。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V16/native-006.jpg"
+        ],
+        "source_frame_start": 307,
+        "source_frame_end_exclusive": 359,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 324,
+            "pts": 10.8,
+            "description": "白卡起点"
+          },
+          {
+            "frame": 336,
+            "pts": 11.2,
+            "description": "第二张竖卡"
+          },
+          {
+            "frame": 348,
+            "pts": 11.6,
+            "description": "第二来镜全幅"
+          }
+        ],
+        "match": {
+          "shape": "矩形窗口连续接力",
+          "color": "灰/白回忆与蓝色动作对照"
+        }
+      },
+      {
+        "start": 11.966667,
+        "end": 13.633333,
+        "label": "枪口亮线接伸手宽景",
+        "observed": "枪械近景后出现横向蓝色光束；F382/12.733秒变成巨型手臂与人物对位宽景。枪口/光束方向为大致横向，下一镜伸臂也横贯画面。",
+        "recipe": "先保留源光束动作，按横向主线连接下一伸臂宽景；只修切口的裁切/位置。蓝色能量更应从源镜取得，没有证据证明本片后加了完整能量特效。",
+        "confidence": "高：方向/镜头切换；未知：能量效果来源",
+        "evidence": [
+          "evidence/V16/native-007.jpg"
+        ],
+        "source_frame_start": 359,
+        "source_frame_end_exclusive": 409,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 366,
+            "pts": 12.2,
+            "description": "蓝色光束"
+          },
+          {
+            "frame": 382,
+            "pts": 12.733333,
+            "description": "伸手宽景"
+          }
+        ],
+        "match": {
+          "direction": "横向光束→横向伸臂",
+          "color": "蓝光/灰暗环境"
+        }
+      },
+      {
+        "start": 13.633333,
+        "end": 15.1,
+        "label": "女孩白剪影与真实前景",
+        "observed": "F409/13.633附近出现灰白人物形状，F412后真实女孩接入；F417/13.9秒又有白形人物从前景显现。14–15秒逐秒样本是女孩抓杆、伸手与白亮覆盖。",
+        "recipe": "给来镜女孩动态alpha复制填白作前导，再显正常人物和底图。修手臂/杆件间空洞；OCC简单矩形mask不能自动生成这个轮廓。",
+        "confidence": "高：白形先后层；中：14–15秒仅逐秒观察",
+        "evidence": [
+          "evidence/V16/native-007.jpg",
+          "evidence/V16/timeline-01.jpg"
+        ],
+        "source_frame_start": 409,
+        "source_frame_end_exclusive": 453,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 409,
+            "pts": 13.633333,
+            "description": "白形层"
+          },
+          {
+            "frame": 417,
+            "pts": 13.9,
+            "description": "第二次白形"
+          }
+        ]
+      },
+      {
+        "start": 15.1,
+        "end": 17.5,
+        "label": "倒地人物、斜卡与身体白形",
+        "observed": "15.1秒起倒地女孩停留；F492/16.4秒倾斜白卡显现蓝色生物场景，F495/16.5秒全幅切入；F520/17.333秒白色坐姿形状先出现，F525进入另一坐姿镜。",
+        "recipe": "倒地镜作底→来镜矩形卡加轻微平面旋转→接全幅；下次改用人物alpha填白过桥。斜卡可模板化，身体轮廓必须另外准备。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V16/native-009.jpg"
+        ],
+        "source_frame_start": 453,
+        "source_frame_end_exclusive": 525,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 492,
+            "pts": 16.4,
+            "description": "倾斜卡片"
+          },
+          {
+            "frame": 495,
+            "pts": 16.5,
+            "description": "卡片后接全幅"
+          },
+          {
+            "frame": 520,
+            "pts": 17.333333,
+            "description": "坐姿白形"
+          }
+        ],
+        "match": {
+          "shape": "卡片与身体形状两种过门交替",
+          "color": "暗灰底上蓝色亮点"
+        }
+      },
+      {
+        "start": 17.5,
+        "end": 20.133333,
+        "label": "坐姿停留、灰度化与受伤面部",
+        "observed": "坐姿俯视画面保留一段时间，逐秒18–19秒可见由红色局部转为较灰的画面；19.5秒前后换到浅发人物受伤近景。具体灰度变化是否源片已有未核实。",
+        "recipe": "保留姿态停留，不把此处继续切碎。等效方案可对整镜逐渐降低饱和度，再接面部；先检查源片是否已带灰度处理，避免二次压黑。",
+        "confidence": "中高：粗样本；未知：灰度来源与精确渐变曲线",
+        "evidence": [
+          "evidence/V16/timeline-01.jpg"
+        ],
+        "source_frame_start": 525,
+        "source_frame_end_exclusive": 604,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 20.133333,
+        "end": 21.033333,
+        "label": "竖向三块拼图换到宇宙场景",
+        "observed": "F604/20.133秒左部先有白竖卡，接着另外两条补进；F614/20.467左右三条形成新画面，F630/21秒已全幅。不同条块显现顺序清楚。",
+        "recipe": "用同一B源时刻分成3个竖向裁切窗口，各条错时从白底显内容；三条铺满后接B全幅。各条不是各自完整播放一份人物，裁切区域必须互补。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V16/native-011.jpg"
+        ],
+        "source_frame_start": 604,
+        "source_frame_end_exclusive": 631,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 604,
+            "pts": 20.133333,
+            "description": "第一条白卡"
+          },
+          {
+            "frame": 614,
+            "pts": 20.466667,
+            "description": "三条新画面"
+          },
+          {
+            "frame": 630,
+            "pts": 21,
+            "description": "B全幅"
+          }
+        ],
+        "match": {
+          "shape": "竖矩形错时补齐",
+          "color": "亮白过门→灰底红粒子"
+        }
+      },
+      {
+        "start": 21.033333,
+        "end": 24.533333,
+        "label": "人物动作与局部画中画收尾",
+        "observed": "21秒后双人/长触须宇宙镜头；22秒起左侧竖区出现更近的机械人物，逐渐扩入新镜。最后24–24.5秒仍有暗色人物动作与红青边缘，没有额外黑底尾卡。",
+        "recipe": "保持红点/灰底作为尾段统一色彩，局部近景窗口只用于把主体移近；末镜可直接保持动作到结束。不能为了常规格式添加参考没有的纯黑尾卡，也不能断言最后是定格。",
+        "confidence": "高：最后帧与局部窗口可见；未知：后期色散与原镜归属",
+        "evidence": [
+          "evidence/V16/native-011.jpg",
+          "evidence/V16/native-012.jpg",
+          "evidence/V16/native-013.jpg"
+        ],
+        "source_frame_start": 631,
+        "source_frame_end_exclusive": 736,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 660,
+            "pts": 22,
+            "description": "左侧局部新镜"
+          },
+          {
+            "frame": 689,
+            "pts": 22.966667,
+            "description": "新镜占大部画面"
+          },
+          {
+            "frame": 735,
+            "pts": 24.5,
+            "description": "末帧仍有画面"
+          }
+        ],
+        "match": {
+          "color": "灰黑底+少量红光",
+          "direction": "宽景切近景，左侧窗口先入"
+        }
+      }
+    ]
+  },
+  {
+    "id": "V17",
+    "title": "夏油杰与五条悟 · 记忆对照、心电线与镜片窗口",
+    "difficulty": "4/5",
+    "starter": "先练1.733–2.6秒黑底短字与发光折线；再练10.8–11.333秒矩形记忆窗。",
+    "summary": "开头以受伤人物面对镜头进入，黑场短字和蓝色折线打断；大量日常回忆与冷色战斗互相对照。面部前景、矩形/撕边窗口和尾部圆镜片窗口让两个角色保持视觉联系。",
+    "text_analysis": "黑场中有很小的中文感叹文字，部分源镜留有画内日文；整体没有持续的大字字幕。蓝色折线可见，但不能只凭视觉称其与真实心跳或音频波形一致。",
+    "source": {
+      "sha256": "930dc45504a41a71fdc368ac89471a62883483efc389bdaf09e1cb6022421ff8",
+      "duration": 25.8,
+      "container_duration": 25.812993,
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "native_frame_count": 774,
+      "last_frame_pts": 25.766667,
+      "variable_frame_rate_observed": false
+    },
+    "analysis_scope": "先实际查看全片overview及全部逐秒timeline，再查看下列关键原生帧页。每页60个原生帧仅是排版数量；未转60fps、未复制或插值。没有声称逐张人工精读全部原生帧。章节是连续学习区间，不是逐镜EDL；原生帧页中的具体帧事实另列evidence_frames。",
+    "source_boundary": "仅有成片与原生帧证据，没有作者工程及未剪原片对照。不能唯一推定软件、插件、字体、抠像方式或原速度曲线；源电影/动画的电光、爆炸、粒子、摄影运动可能已存在。配方是等效实现建议，不是恢复出的作者参数。本分支不分析音频。",
+    "human_viewed": {
+      "overview": true,
+      "timeline": 1,
+      "native_pages": [
+        "native-001.jpg",
+        "native-002.jpg",
+        "native-003.jpg",
+        "native-006.jpg",
+        "native-008.jpg",
+        "native-009.jpg",
+        "native-013.jpg"
+      ],
+      "native_pages_total": 13,
+      "all_native_frames_individually_reviewed": false
+    },
+    "materials": [
+      "两角色日常与战斗源片段",
+      "面部/手部alpha",
+      "撕边长条与矩形窗口",
+      "蓝色折线路径与发光层",
+      "圆镜片/眼部内窗mask"
+    ],
+    "techniques": [
+      "明暗段落",
+      "记忆蒙太奇",
+      "前景保留换背景",
+      "折线叠层",
+      "手势先入",
+      "半脸并置",
+      "镜片圆窗",
+      "暖橙与冷蓝对照"
+    ],
+    "capability_alignment": [
+      "HF/GSAP可原生动画SVG折线描边、透明度、几何窗与发光副本。",
+      "OCC可做基本叠化/变换和分屏；复杂脸部/手部前景要先备alpha。",
+      "尾部镜片需要局部路径和前景层，不能用已有portal演示声称自动识别眼镜或跟踪。"
+    ],
+    "fast_furious_application": "速激搭档叙事可先并列轻松日常与危险驾驶的面部镜头；保留同一眼线和双人位置，少量回忆窗说明关系，避免把友谊完全淹在快切中。",
+    "segments": [
+      {
+        "start": 0,
+        "end": 1.733333,
+        "label": "由身体到受伤面部的靠近",
+        "observed": "画面从人物躯干变为全身/上半身，再到带伤的白发面部。F23–29可见同一人物不同尺度短暂叠在一起，F30以后大脸完整。",
+        "recipe": "先用原镜运动，再把相近姿态近景叠化进来；对齐鼻梁/眼线。此处有叠影证据，但不能把全部靠近都归为额外数字推镜。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V17/native-001.jpg"
+        ],
+        "source_frame_start": 0,
+        "source_frame_end_exclusive": 52,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 23,
+            "pts": 0.766667,
+            "description": "尺度叠影"
+          },
+          {
+            "frame": 30,
+            "pts": 1,
+            "description": "面部近景稳定"
+          }
+        ],
+        "match": {
+          "shape": "同人脸与领口",
+          "direction": "身体→脸，视觉中心上移"
+        }
+      },
+      {
+        "start": 1.733333,
+        "end": 2.6,
+        "label": "黑场小字与蓝色折线",
+        "observed": "F52/1.733秒转黑底小字；F69/2.3秒后蓝折线从左横向延伸，F75/2.5秒可见完整尖峰发光形状。",
+        "recipe": "黑底文字单独一层，折线用SVG路径stroke-dashoffset显示；用模糊副本做低强度光晕。它是手工图形路线，不是已识别出的实际音频可视化。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V17/native-001.jpg",
+          "evidence/V17/native-002.jpg"
+        ],
+        "source_frame_start": 52,
+        "source_frame_end_exclusive": 78,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 52,
+            "pts": 1.733333,
+            "description": "黑底短字"
+          },
+          {
+            "frame": 69,
+            "pts": 2.3,
+            "description": "折线开始显现"
+          },
+          {
+            "frame": 75,
+            "pts": 2.5,
+            "description": "蓝折线尖峰"
+          }
+        ]
+      },
+      {
+        "start": 2.6,
+        "end": 4.7,
+        "label": "前景受伤大脸与日常背景交替",
+        "observed": "F78/2.6秒大脸在前，背后日常人物/人群；约3.2秒底图变室内冷景；3.4–3.633秒又换其他日常背景，大脸透明度变化；3.733秒后切到两人普通相处镜。",
+        "recipe": "大脸alpha保持上层，几组回忆全幅放下层依次替换，再让大脸淡走。源帧的面部动作须同步，不把静态贴图放大当完整人物动画。",
+        "confidence": "高：同时出现不同背景与大脸；未知：alpha来源",
+        "evidence": [
+          "evidence/V17/native-002.jpg",
+          "evidence/V17/native-003.jpg"
+        ],
+        "source_frame_start": 78,
+        "source_frame_end_exclusive": 141,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 78,
+            "pts": 2.6,
+            "description": "双层大脸/人群"
+          },
+          {
+            "frame": 96,
+            "pts": 3.2,
+            "description": "大脸上层而背景变化"
+          },
+          {
+            "frame": 107,
+            "pts": 3.566667,
+            "description": "另一回忆底图"
+          }
+        ],
+        "match": {
+          "shape": "面部锚点稳定",
+          "color": "亮回忆与冷暗现实"
+        }
+      },
+      {
+        "start": 4.7,
+        "end": 6.2,
+        "label": "撕边细长人像与折线连接红色两景",
+        "observed": "F141/4.7秒红色室内开始，蓝线横贯；F150/5秒竖向撕边人像卡出现，随后移到/显露红色天空人物，F166附近红天空全景成为主画面。",
+        "recipe": "A红室内→B人物撕边细条→B红天空全镜；蓝折线置独立顶层跨越切换。等效实现用撕边mask、透明度/位置，不必先做复杂三维门。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V17/native-003.jpg"
+        ],
+        "source_frame_start": 141,
+        "source_frame_end_exclusive": 186,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 150,
+            "pts": 5,
+            "description": "撕边竖条人物"
+          },
+          {
+            "frame": 161,
+            "pts": 5.366667,
+            "description": "折线与两景交叠"
+          },
+          {
+            "frame": 166,
+            "pts": 5.533333,
+            "description": "来镜全幅"
+          }
+        ],
+        "match": {
+          "color": "同属红橙色连接",
+          "shape": "细长人物轮廓"
+        }
+      },
+      {
+        "start": 6.2,
+        "end": 10.533333,
+        "label": "日常回忆快切与两人姿态对照",
+        "observed": "6.2–10.533秒逐秒样本见海边、新闻纸、人物面部、倚靠/大笑与并肩走路；10.133和10.333附近原生帧仍是日常片段相接。没有证据把这些全部称作复杂转场。",
+        "recipe": "先按两人关系挑日常镜头，保持双人构图或反打眼线；以硬切为基础，只给有可见叠影的位置用叠化。报纸文字属于画内物件，不当额外字幕重建。",
+        "confidence": "中高：全片粗采样与局部原生页；未知：每个快切的细节",
+        "evidence": [
+          "evidence/V17/timeline-01.jpg",
+          "evidence/V17/native-006.jpg"
+        ],
+        "source_frame_start": 186,
+        "source_frame_end_exclusive": 316,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 10.533333,
+        "end": 11.333333,
+        "label": "大脸到冷色室内的矩形小窗",
+        "observed": "F316/10.533秒受伤脸近景；F324/10.8秒下左部白矩形开始显露冷色室内，F330/11秒该背景铺开，面部到F339仍渐淡，随后室内完整。",
+        "recipe": "B室内先以小矩形窗在A脸旁显现并扩展，A脸alpha置上层渐淡；内容的缩放与窗口大小分开，合流后不再叠重复脸。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V17/native-006.jpg"
+        ],
+        "source_frame_start": 316,
+        "source_frame_end_exclusive": 340,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 324,
+            "pts": 10.8,
+            "description": "小矩形白窗"
+          },
+          {
+            "frame": 330,
+            "pts": 11,
+            "description": "室内铺开/脸仍在前"
+          },
+          {
+            "frame": 339,
+            "pts": 11.3,
+            "description": "脸接近淡走"
+          }
+        ]
+      },
+      {
+        "start": 11.333333,
+        "end": 14.833333,
+        "label": "冷色对峙与暖色日常回忆并置",
+        "observed": "冷色室内两人拉开距离，随后日常围坐和街边片段，14秒附近出现暖橙夕阳笑脸，14.467秒后白亮双人剪影段。色温与关系距离明显对照。",
+        "recipe": "把关系紧张的冷色宽景与亲密暖色近景分组；选相近眼线保持人物识别。过曝白段可等效用曝光变化，但其源动画是否本来如此未知。",
+        "confidence": "高：色温/人物距离；未知：原生白亮画面归属",
+        "evidence": [
+          "evidence/V17/timeline-01.jpg",
+          "evidence/V17/native-008.jpg"
+        ],
+        "source_frame_start": 340,
+        "source_frame_end_exclusive": 445,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 14.833333,
+        "end": 16.333333,
+        "label": "双人笑脸到伸掌动作",
+        "observed": "F445/14.833秒两张笑脸同屏；F453/15.1秒中央伸掌先出现在笑脸之间，F457起强白/碎片画面接入，随后完整伸掌动作。",
+        "recipe": "B手部alpha置于两张A人物脸中间，再接B全幅。保留B源镜玻璃/碎片，只有需要时增加短曝光过桥；不能把碎片称作已确认后加插件。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V17/native-008.jpg"
+        ],
+        "source_frame_start": 445,
+        "source_frame_end_exclusive": 490,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 453,
+            "pts": 15.1,
+            "description": "手先出现在笑脸之间"
+          },
+          {
+            "frame": 457,
+            "pts": 15.233333,
+            "description": "强白过渡"
+          },
+          {
+            "frame": 466,
+            "pts": 15.533333,
+            "description": "伸掌完整镜"
+          }
+        ],
+        "match": {
+          "shape": "脸间空位→掌心",
+          "direction": "手朝镜头前伸"
+        }
+      },
+      {
+        "start": 16.333333,
+        "end": 17.433333,
+        "label": "另一人物和怪物先入、竖线并脸",
+        "observed": "F490/16.333秒切到另一人物与怪物；怪物占画面后，17.067秒左右有竖向窄区出现双人形象，17.4秒两张半脸沿中线拼接。",
+        "recipe": "怪物源镜保留整体动作；中线窄窗用左右裁切分别放两角色，人物眼线在同一高度。半脸拼接是画面构图复刻，不需模拟怪物。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V17/native-009.jpg"
+        ],
+        "source_frame_start": 490,
+        "source_frame_end_exclusive": 523,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 512,
+            "pts": 17.066667,
+            "description": "竖窄窗"
+          },
+          {
+            "frame": 522,
+            "pts": 17.4,
+            "description": "双半脸拼接"
+          }
+        ],
+        "match": {
+          "shape": "竖中线/眼睛高度",
+          "color": "深底脸部高对比"
+        }
+      },
+      {
+        "start": 17.433333,
+        "end": 25.166667,
+        "label": "冷蓝战斗交错与相近手势",
+        "observed": "17.433秒进入蓝色空间，随后伸掌、碎墙、人物俯身/抬手、怪物与能量镜头交错。两角色反复轮换，但大量碎片、电光、怪物运动是动画画面组成，不能仅凭成片分为后加。",
+        "recipe": "先按起手→攻击→反应排动作链，维持伸掌方向和人物视线；用蓝色源镜统一段落。只修连接处的位置/裁切，不给所有爆炸再加一层同类特效。",
+        "confidence": "高：动作/色彩序列；中：未看此段每页原生图",
+        "evidence": [
+          "evidence/V17/timeline-01.jpg",
+          "evidence/V17/native-009.jpg",
+          "evidence/V17/native-013.jpg"
+        ],
+        "source_frame_start": 523,
+        "source_frame_end_exclusive": 755,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 25.166667,
+        "end": 25.8,
+        "label": "圆镜片内保留上一动作并淡暗",
+        "observed": "F755/25.167秒新人物脸/眼镜开始盖入，F758/25.267秒圆形镜片内仍能看见前一蓝天动作；F760后变为眼睛近景，尾帧25.767秒仍有很暗的脸。",
+        "recipe": "旧动作作为内窗B，镜片路径作mask，新脸/镜框alpha放顶层；窗口与脸的尺度变化同步。结束用整幅淡暗。现有简易位置跟踪不等于镜片透视/路径跟随，需手工关键帧或外部处理。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V17/native-013.jpg"
+        ],
+        "source_frame_start": 755,
+        "source_frame_end_exclusive": 774,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 755,
+            "pts": 25.166667,
+            "description": "新脸盖入"
+          },
+          {
+            "frame": 758,
+            "pts": 25.266667,
+            "description": "镜片内仍有旧动作"
+          },
+          {
+            "frame": 773,
+            "pts": 25.766667,
+            "description": "末帧暗脸"
+          }
+        ],
+        "match": {
+          "shape": "圆镜片/瞳孔",
+          "color": "蓝天动作转暖脸再变暗"
+        }
+      }
+    ]
+  },
+  {
+    "id": "V18",
+    "title": "复仇者集结 · 系列序列、人物章节与冷暖记忆",
+    "difficulty": "3/5（结构）；标题/故障局部4/5",
+    "starter": "先做1.8–6.167秒的“年份+代表镜头”序列，再做一个角色的过去/现在对照，暂不追求完整59秒。",
+    "summary": "开头以系列标志网格、年份镜头和演员姓名/签名字样建立群像；红色AVENGERS/ASSEMBLE标题后，分钢铁侠、美国队长、雷神与群体告别几个视觉章节。彩色动作与灰度回忆反复对照，重点是组织角色历史，而非每刀套复杂转场。",
+    "text_analysis": "开头有年份/片名小字、演员英文姓名与签名字样；中段以底部中文+很小英文排版为主。已有素材可能带原片字幕/片尾设计，不能据成片归因于本次作者的字体或签名动画。",
+    "source": {
+      "sha256": "22717fe69c12cd92da8a205a9cf68ad4df5161ca5a233441c35fc6ebe57324be",
+      "duration": 59,
+      "container_duration": 59,
+      "width": 1440,
+      "height": 1080,
+      "fps": "30/1",
+      "native_frame_count": 1770,
+      "last_frame_pts": 58.966667,
+      "variable_frame_rate_observed": false
+    },
+    "analysis_scope": "先实际查看全片overview及全部逐秒timeline，再查看下列关键原生帧页。每页60个原生帧仅是排版数量；未转60fps、未复制或插值。没有声称逐张人工精读全部原生帧。章节是连续学习区间，不是逐镜EDL；原生帧页中的具体帧事实另列evidence_frames。",
+    "source_boundary": "仅有成片与原生帧证据，没有作者工程及未剪原片对照。不能唯一推定软件、插件、字体、抠像方式或原速度曲线；源电影/动画的电光、爆炸、粒子、摄影运动可能已存在。配方是等效实现建议，不是恢复出的作者参数。本分支不分析音频。",
+    "human_viewed": {
+      "overview": true,
+      "timeline": 2,
+      "native_pages": [
+        "native-001.jpg",
+        "native-004.jpg",
+        "native-005.jpg",
+        "native-006.jpg",
+        "native-012.jpg",
+        "native-013.jpg",
+        "native-014.jpg",
+        "native-018.jpg",
+        "native-024.jpg",
+        "native-030.jpg"
+      ],
+      "native_pages_total": 30,
+      "all_native_frames_individually_reviewed": false
+    },
+    "materials": [
+      "各角色可识别的起源/重要选择/战斗/表情镜头",
+      "系列标志卡、人物姓名与年份资料",
+      "中英文本（另行核对，不能只从小图OCR猜）",
+      "红色标题、短故障层和可选光漏素材"
+    ],
+    "techniques": [
+      "系列网格",
+      "年份序列",
+      "人物章节",
+      "签名卡",
+      "RGB故障",
+      "红色总标题",
+      "过去/现在交叉剪辑",
+      "彩色/灰度对照",
+      "长白场连接"
+    ],
+    "capability_alignment": [
+      "OCC适合主片章、基础切镜、恒速/字幕与基础色彩效果；无需先抠所有英雄。",
+      "HF/GSAP适合可编辑标志网格、年份字、红标题与短RGB文字副本。",
+      "整幅视频故障需要媒体纹理实现或预渲染；rgb-glitch-text仅处理字。不能把片尾签名源镜误说成已恢复同款字体/插件。"
+    ],
+    "fast_furious_application": "速激2分钟可按“人物/车队建立→个人选择→行动兑现→团队关系”分章节；用同一人物早期/后期画面形成意义对照，避免每辆车平均露脸而缺乏主线。",
+    "segments": [
+      {
+        "start": 0,
+        "end": 1.8,
+        "label": "系列标志网格建立世界",
+        "observed": "多张影片/角色标志排成约三列网格，同一区域内的标志有更新与轻微尺寸变化；F54/1.8秒以后切入人物。",
+        "recipe": "把标志作为独立卡片统一网格、留一致边距；每卡可小幅缩放或切换，但不必全卡同时乱动。使用用户实际项目标题/车队名称替代影片商标也可保留结构。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V18/native-001.jpg"
+        ],
+        "source_frame_start": 0,
+        "source_frame_end_exclusive": 54,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 0,
+            "pts": 0,
+            "description": "标志网格初始"
+          },
+          {
+            "frame": 30,
+            "pts": 1,
+            "description": "网格内容变化"
+          },
+          {
+            "frame": 54,
+            "pts": 1.8,
+            "description": "进入人物源镜"
+          }
+        ]
+      },
+      {
+        "start": 1.8,
+        "end": 6.166667,
+        "label": "年份与代表人物镜头序列",
+        "observed": "从张臂人物、雷神、队长、其他英雄到群体大战依次出现，中央有年份/影片名小字。逐秒样本与候选提示快速换镜，但变化候选包含动作和光变，不能视作真实镜头数量。",
+        "recipe": "先做一张年份/事件镜头表，每个时间点只保留一个代表镜；文字位置和字号固定。让同系列红金/冷蓝镜头成组，不用把每个年份卡都做转场。",
+        "confidence": "高：全片粗样本中的顺序/排版；中：未逐刀核对",
+        "evidence": [
+          "evidence/V18/timeline-01.jpg"
+        ],
+        "source_frame_start": 54,
+        "source_frame_end_exclusive": 185,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 6.166667,
+        "end": 7.733333,
+        "label": "演员名与签名字样、短RGB故障",
+        "observed": "F185/6.167秒后人物片段上横排英文姓名和白色签名；6.9–7.5秒有红绿蓝错位、颗粒/扫描感，之后斜矩形旧画片段短暂出现再转群像。",
+        "recipe": "把姓名、签名和人物镜分层设计；故障集中在结尾少量帧，先用文字RGB副本或整幅位移作近似。若直接使用片尾素材，应保留其源设计身份，不能声称签名为自动手写生成。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V18/native-004.jpg"
+        ],
+        "source_frame_start": 185,
+        "source_frame_end_exclusive": 232,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 185,
+            "pts": 6.166667,
+            "description": "姓名签名版式"
+          },
+          {
+            "frame": 216,
+            "pts": 7.2,
+            "description": "整幅错色"
+          },
+          {
+            "frame": 228,
+            "pts": 7.6,
+            "description": "斜向小画片"
+          }
+        ]
+      },
+      {
+        "start": 7.733333,
+        "end": 10.533333,
+        "label": "红色群体总标题",
+        "observed": "群像画面中部有大红色AVENGERS；换到另一大战场景后同标题继续，F292/9.733秒起换成队长近景与ASSEMBLE字样，短红色亮层跨过连接。",
+        "recipe": "大标题保持中心基线，底下切群像；第二个词与第一词用相同色系/字重。红色光层短过渡，不要让字长期挡住关键面部。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V18/native-004.jpg",
+          "evidence/V18/native-005.jpg",
+          "evidence/V18/native-006.jpg"
+        ],
+        "source_frame_start": 232,
+        "source_frame_end_exclusive": 316,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 232,
+            "pts": 7.733333,
+            "description": "群像红标题"
+          },
+          {
+            "frame": 261,
+            "pts": 8.7,
+            "description": "更换底图保留标题"
+          },
+          {
+            "frame": 292,
+            "pts": 9.733333,
+            "description": "ASSEMBLE接入"
+          }
+        ],
+        "match": {
+          "color": "红标题作为连续锚点",
+          "shape": "同一文字基线"
+        }
+      },
+      {
+        "start": 10.533333,
+        "end": 11.233333,
+        "label": "终点手势与可见长白场",
+        "observed": "F316/10.533秒后是宝石手势/面部；F324–336约10.8–11.2秒呈白场，F337/11.233秒切入洞穴装甲。可以确认白场存在，无法仅凭成片证明这是编辑额外插白还是电影源镜已有。",
+        "recipe": "使用该源镜本身的白场收束，再切起源镜头；若换自己的素材，可用曝光层连接。参考中的可见白场约13源帧，但这是观察事实，不是认定作者用了13帧白色转场预设。",
+        "confidence": "高：原生帧状态与切口；未知：白场来源",
+        "evidence": [
+          "evidence/V18/native-006.jpg"
+        ],
+        "source_frame_start": 316,
+        "source_frame_end_exclusive": 337,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 324,
+            "pts": 10.8,
+            "description": "白场开始样本"
+          },
+          {
+            "frame": 336,
+            "pts": 11.2,
+            "description": "白场末样本"
+          },
+          {
+            "frame": 337,
+            "pts": 11.233333,
+            "description": "洞穴装甲入镜"
+          }
+        ]
+      },
+      {
+        "start": 11.233333,
+        "end": 17.433333,
+        "label": "装甲与面部的个人章节",
+        "observed": "洞穴装甲→不同装甲/人物面部→面罩内HUD→装甲群体；约17.4秒开始转灰度人物/回忆。红金装甲、发光胸口和面部近景重复形成身份锚点。",
+        "recipe": "同一角色从起源到成熟状态排列，穿插内部面部与外部装甲，避免全是同一景别。HUD/胸口光多为源镜组成，复现不应重做三维装甲。",
+        "confidence": "高：章节与重复形状；中：每个切口未密查",
+        "evidence": [
+          "evidence/V18/timeline-01.jpg"
+        ],
+        "source_frame_start": 337,
+        "source_frame_end_exclusive": 523,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 17.433333,
+        "end": 22.8,
+        "label": "过去的面部与最后手势交叉对照",
+        "observed": "灰度人物后，多次回到正式着装面部与持宝石手势；F660/22秒是早期正脸，F663/22.1秒切末期手势。字幕排版在底部延续。",
+        "recipe": "A早期脸与B末期脸做交叉剪辑，尽量保留相近面部大小/视线；冷色窗边和暖灰战场差异可保留。让人物意义建立剪辑关系，不必制造物理连续的假空间。",
+        "confidence": "高：原生页中22秒回切；中：前半仅逐秒样本",
+        "evidence": [
+          "evidence/V18/timeline-01.jpg",
+          "evidence/V18/native-012.jpg"
+        ],
+        "source_frame_start": 523,
+        "source_frame_end_exclusive": 684,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 660,
+            "pts": 22,
+            "description": "早期面部"
+          },
+          {
+            "frame": 663,
+            "pts": 22.1,
+            "description": "末期手势"
+          }
+        ],
+        "match": {
+          "shape": "同人脸/抬手身份锚点",
+          "color": "彩色现在与灰度记忆"
+        }
+      },
+      {
+        "start": 22.8,
+        "end": 25.466667,
+        "label": "再一次白场转灰度记忆",
+        "observed": "F684/22.8秒起白亮增加，随后白场，F704/23.467附近进入灰度室内二人，再到胸部/灰度年长人物，末期手势前的回忆章节由此分开。",
+        "recipe": "亮度过门后用灰度组镜统一回忆；字幕独立置上，不与光层一起变得不可读。来源已有灰度/白场仍须与原片对照，不能只据成片认定滤镜参数。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V18/native-012.jpg",
+          "evidence/V18/native-013.jpg"
+        ],
+        "source_frame_start": 684,
+        "source_frame_end_exclusive": 764,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 684,
+            "pts": 22.8,
+            "description": "亮度上升"
+          },
+          {
+            "frame": 704,
+            "pts": 23.466667,
+            "description": "灰度室内"
+          },
+          {
+            "frame": 735,
+            "pts": 24.5,
+            "description": "灰度人物"
+          }
+        ]
+      },
+      {
+        "start": 25.466667,
+        "end": 35.2,
+        "label": "队长章节：盾牌形状与行动兑现",
+        "observed": "25.467秒盾牌近景后有舞台、盾面特写、历史战斗，再到当下大战。28秒左右圆形/星条盾重复出现，34–35秒举锤攻击宽景与雷神反应相连。",
+        "recipe": "按盾牌→人物→行动建立角色段落；匹配盾的圆形位置和攻击方向，但不强行把不同场景当同一连续镜。34秒接近横向攻击后保留对手反应，保证动作因果。",
+        "confidence": "高：章节、盾牌锚点与34秒动作；中：部分镜头仅粗样本",
+        "evidence": [
+          "evidence/V18/native-013.jpg",
+          "evidence/V18/native-014.jpg",
+          "evidence/V18/native-018.jpg",
+          "evidence/V18/timeline-01.jpg",
+          "evidence/V18/timeline-02.jpg"
+        ],
+        "source_frame_start": 764,
+        "source_frame_end_exclusive": 1056,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 764,
+            "pts": 25.466667,
+            "description": "队长盾入镜"
+          },
+          {
+            "frame": 826,
+            "pts": 27.533333,
+            "description": "盾面构图"
+          },
+          {
+            "frame": 1039,
+            "pts": 34.633333,
+            "description": "攻击接触亮点"
+          }
+        ],
+        "match": {
+          "shape": "圆盾/星徽",
+          "direction": "动作与反应相接"
+        }
+      },
+      {
+        "start": 35.2,
+        "end": 46.8,
+        "label": "雷神章节：亲近、失去与伸手",
+        "observed": "F1056/35.2秒转母亲面部，随后亲近场面、灰度受伤人物、人物微笑、冲突与伸手召锤；后接举手/能量画面。红橙强光和冷蓝环境对比鲜明。",
+        "recipe": "为同一角色组织“亲近关系→损失→动作反应”，情绪近景与动作镜之间保留反应时间。保留源镜闪电/能量，额外红色光漏只用于章节接缝。",
+        "confidence": "高：35.2边界与章节内容；中：源/后加光效未知",
+        "evidence": [
+          "evidence/V18/native-018.jpg",
+          "evidence/V18/native-024.jpg",
+          "evidence/V18/timeline-02.jpg"
+        ],
+        "source_frame_start": 1056,
+        "source_frame_end_exclusive": 1404,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 1056,
+            "pts": 35.2,
+            "description": "母亲脸部章节开始"
+          },
+          {
+            "frame": 1380,
+            "pts": 46,
+            "description": "后段能量/举手构图"
+          }
+        ]
+      },
+      {
+        "start": 46.8,
+        "end": 57.233333,
+        "label": "群体告别、彩色与灰度对照",
+        "observed": "46.8秒前后暖亮过门后出现队长、红发人物、绿肤人物、红色能量人物与双人额头相抵；约53–54秒灰度人物/落地全景，后回到彩色能量与群体镜头。",
+        "recipe": "每个关系只取一个明确反应/接触动作，保留面部阅读时间；彩色/灰度分组说明记忆层次。先把镜头顺序排通，再考虑光漏/闪变，避免让群像只剩随机英雄露脸。",
+        "confidence": "高：全片样本的关系与色彩组；中：未逐帧核查各段转场",
+        "evidence": [
+          "evidence/V18/native-024.jpg",
+          "evidence/V18/timeline-02.jpg"
+        ],
+        "source_frame_start": 1404,
+        "source_frame_end_exclusive": 1717,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 57.233333,
+        "end": 59,
+        "label": "灰黑署名收束",
+        "observed": "57.233秒后转为低对比灰黑底和很小的署名字样；原生尾页58–58.967秒均保留小字，末尾没有大片动作。",
+        "recipe": "单独做自己的小署名层，底图缓慢变暗。字体与字形不能从小压缩图唯一确认；保持尾卡留白即可。",
+        "confidence": "高：尾页状态；中：57.233附近切口仅粗样本",
+        "evidence": [
+          "evidence/V18/native-030.jpg",
+          "evidence/V18/timeline-02.jpg"
+        ],
+        "source_frame_start": 1717,
+        "source_frame_end_exclusive": 1770,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 1740,
+            "pts": 58,
+            "description": "低对比尾卡"
+          },
+          {
+            "frame": 1769,
+            "pts": 58.966667,
+            "description": "末帧小署名"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V19",
+    "title": "Is it better to speak or die · 形状联想与克制文字",
+    "difficulty": "3/5（结构）；复杂网格局部4/5",
+    "starter": "先做3.9–4.85秒虹膜与银河同心叠化；只需眼睛与银河两段素材，不必人物抠像。",
+    "summary": "以转身、奔跑、手与花等印象镜头快速连接，虹膜和银河的圆形纹理构成主要视觉联想；后段舞者与背光人物搭配极小文字，最后留较长黑场/问题字卡。20fps原生节奏应保留，不补成60fps。",
+    "text_analysis": "约8.5秒后细小横向词组分散在画面，舞者段可见AT ALL等小字；尾部出现英文问题句。小图未辨清的手写署名未转写。字小、空白多是风格的一部分，不是识别失败后应自动补满字幕。",
+    "source": {
+      "sha256": "f44062a1ad5a74637e36edb0bc67955c902b3a1e9d4a9f3aa5bdda32640e0de7",
+      "duration": 19.4,
+      "container_duration": 19.4,
+      "width": 1500,
+      "height": 1080,
+      "fps": "20/1",
+      "native_frame_count": 388,
+      "last_frame_pts": 19.35,
+      "variable_frame_rate_observed": false
+    },
+    "analysis_scope": "先实际查看全片overview及全部逐秒timeline，再查看下列关键原生帧页。每页60个原生帧仅是排版数量；未转60fps、未复制或插值。没有声称逐张人工精读全部原生帧。章节是连续学习区间，不是逐镜EDL；原生帧页中的具体帧事实另列evidence_frames。",
+    "source_boundary": "仅有成片与原生帧证据，没有作者工程及未剪原片对照。不能唯一推定软件、插件、字体、抠像方式或原速度曲线；源电影/动画的电光、爆炸、粒子、摄影运动可能已存在。配方是等效实现建议，不是恢复出的作者参数。本分支不分析音频。",
+    "human_viewed": {
+      "overview": true,
+      "timeline": 1,
+      "native_pages": [
+        "native-002.jpg",
+        "native-003.jpg",
+        "native-005.jpg",
+        "native-006.jpg",
+        "native-007.jpg"
+      ],
+      "native_pages_total": 7,
+      "all_native_frames_individually_reviewed": false
+    },
+    "materials": [
+      "跑动/转身/伸手的印象镜头",
+      "虹膜与银河中心清晰的两段素材",
+      "花/人像两段用于网格揭示",
+      "舞者或背光人物镜头",
+      "少量英文词句与黑底尾卡"
+    ],
+    "techniques": [
+      "运动方向联想",
+      "圆形纹理匹配",
+      "同心叠化",
+      "不规则矩形网格",
+      "短黑帧/单白帧",
+      "留白小字",
+      "尾卡停留"
+    ],
+    "capability_alignment": [
+      "OCC/HF可做同心位置缩放与透明度叠化，基础路线无需人物alpha。",
+      "网格揭示需定制多个互补裁切窗口；grid-pixelate-wipe默认纯色方格不能直接当视频拼图。",
+      "不从20fps成片推断作者一定用了光流/抽帧；原始摄制帧率与变速曲线未知。"
+    ],
+    "fast_furious_application": "速激可用方向盘/轮毂/仪表等圆形构图做跨镜联想；只在少数重要位置用形状对照。奔跑、上车、转头可通过动作方向连接，留一两个安静人物镜避免两分钟全程同密度。",
+    "segments": [
+      {
+        "start": 0,
+        "end": 1.85,
+        "label": "跑动与横移印象镜头",
+        "observed": "逐秒与总览可见岸边人物向右跑、花枝横向拖影、室内人物转动等快速片段；大部分没有长时间独立文字。运动模糊来源未比对。",
+        "recipe": "选具有相近横向运动的源镜，优先用切点和动作方向接续；每组以同向移动为准，不给所有模糊再叠方向滤镜。",
+        "confidence": "中高：粗采样构图/方向；未知：各切口和模糊来源",
+        "evidence": [
+          "evidence/V19/overview.jpg",
+          "evidence/V19/timeline-01.jpg"
+        ],
+        "source_frame_start": 0,
+        "source_frame_end_exclusive": 37,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 1.85,
+        "end": 3.3,
+        "label": "吸烟面部到暗底舞者",
+        "observed": "1.85–3.3秒从面部近景转暗底舞者抬臂/转身，舞者边缘受侧光勾勒，黑背景把人物轮廓突出。",
+        "recipe": "用面部/手势的视觉焦点接舞者手臂，保留原镜暗背景和边缘光。人物本身若已有纯黑背景，不必先做AI抠像。",
+        "confidence": "高：舞者原生页；中：1.85–3秒镜头仅粗采样",
+        "evidence": [
+          "evidence/V19/timeline-01.jpg",
+          "evidence/V19/native-002.jpg"
+        ],
+        "source_frame_start": 37,
+        "source_frame_end_exclusive": 66,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 3.3,
+        "end": 4.85,
+        "label": "白亮过门、虹膜与银河同心连接",
+        "observed": "F66/3.3秒舞者变亮，F68/3.4秒虹膜近景；F78/3.9秒开始虹膜与银河纹理同心叠合，F84/4.2秒银河逐渐成为主体，F96/4.8秒有一帧亮色眼图感过门，随后转下一个宽景。",
+        "recipe": "A虹膜与B银河按瞳孔/旋涡中心对齐，分别调整尺度；用短透明度交叠把纹理连起来，必要时圆mask限制内窗。成片不足以证明用了“真实形变morph”，普通叠化+尺度匹配即可先试。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V19/native-002.jpg"
+        ],
+        "source_frame_start": 66,
+        "source_frame_end_exclusive": 97,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 68,
+            "pts": 3.4,
+            "description": "虹膜近景"
+          },
+          {
+            "frame": 78,
+            "pts": 3.9,
+            "description": "虹膜/银河叠合"
+          },
+          {
+            "frame": 84,
+            "pts": 4.2,
+            "description": "银河主导"
+          },
+          {
+            "frame": 96,
+            "pts": 4.8,
+            "description": "亮眼图过门"
+          }
+        ],
+        "match": {
+          "shape": "圆形瞳孔/螺旋中心",
+          "color": "青蓝边缘+金白中心"
+        }
+      },
+      {
+        "start": 4.85,
+        "end": 7.5,
+        "label": "宽景独行、甩动与伸手轮廓",
+        "observed": "4.85秒后人物在宽阔暗地/天空中停留，再接街道跑动和多段暗色横移、手掌剪影与明亮人物。6–7秒的模糊很强，但不能据此确认全部是后期甩镜。",
+        "recipe": "保留一个宽景作为释放，再把同向横移片段成组；手掌黑形与后续人物明亮背景形成明暗对比。先硬切试接，只有方向不连时调整出入点。",
+        "confidence": "高：原生页镜头序列；未知：相机/后期模糊归属",
+        "evidence": [
+          "evidence/V19/native-002.jpg",
+          "evidence/V19/native-003.jpg"
+        ],
+        "source_frame_start": 97,
+        "source_frame_end_exclusive": 150,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 7.5,
+        "end": 8.3,
+        "label": "细黑矩形网格连接人物与花",
+        "observed": "F150/7.5秒人物上出现不规则矩形黑线；F153/7.65秒花枝与前镜同时/分区可见，F159/7.95秒花景基本完整。不是六份重复花图。",
+        "recipe": "将B花景切成多块互补矩形，错时揭示并在边界短留黑线；A底片仍可见。要保持每块同一源时刻与正确空间区域，网格疏密按画面主体调整。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V19/native-003.jpg"
+        ],
+        "source_frame_start": 150,
+        "source_frame_end_exclusive": 166,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 150,
+            "pts": 7.5,
+            "description": "网格线出现"
+          },
+          {
+            "frame": 153,
+            "pts": 7.65,
+            "description": "网格内花景换入"
+          },
+          {
+            "frame": 159,
+            "pts": 7.95,
+            "description": "花景铺开"
+          }
+        ],
+        "match": {
+          "shape": "矩形错位边界",
+          "color": "深色人物过渡到浅天空花枝"
+        }
+      },
+      {
+        "start": 8.3,
+        "end": 9.05,
+        "label": "短黑帧与风景/人物切换",
+        "observed": "F166/8.3秒为黑帧，F167又见花，F168/8.4秒再次黑；F169起海边人物，8.6秒后草地/夕阳，9秒前换夜景高塔。小词组横向分布。",
+        "recipe": "将几帧黑场作为独立剪辑事件而非随机丢帧；用1个原生20fps帧即0.05秒作为已观察的最小事件单位。小字固定在安全区域，别随每个镜头抢运动。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V19/native-003.jpg"
+        ],
+        "source_frame_start": 166,
+        "source_frame_end_exclusive": 181,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 166,
+            "pts": 8.3,
+            "description": "黑帧"
+          },
+          {
+            "frame": 167,
+            "pts": 8.35,
+            "description": "花景返回"
+          },
+          {
+            "frame": 168,
+            "pts": 8.4,
+            "description": "再次黑帧"
+          },
+          {
+            "frame": 169,
+            "pts": 8.45,
+            "description": "海边人物"
+          }
+        ]
+      },
+      {
+        "start": 9.05,
+        "end": 11.15,
+        "label": "暗底舞者与留白小字",
+        "observed": "9.05秒后回到暗底舞者，白色轮廓照明与AT ALL等小字形成留白；10.2秒附近总览很亮，11秒又是抬臂舞者。此段没有查看全部native-004页，不能给亮段逐帧长度。",
+        "recipe": "用源镜暗底保留轮廓，文字放在不压脸的位置；亮度冲击只在核实源帧后定位。优先重建黑/白/肤色的层次，不增加大标题。",
+        "confidence": "中高：全片粗采样；未知：亮段精确帧数/来源",
+        "evidence": [
+          "evidence/V19/overview.jpg",
+          "evidence/V19/timeline-01.jpg"
+        ],
+        "source_frame_start": 181,
+        "source_frame_end_exclusive": 223,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 11.15,
+        "end": 12.55,
+        "label": "背光人物与小手写字",
+        "observed": "11.15–12.55秒为背光站立人物、烟雾/亮边与很小的手写字；12秒后人物转身，字的位置维持在暗区。",
+        "recipe": "在原镜暗区放很小的独立手写文本层；烟雾与背光优先保留源镜，不能从成片确定是编辑新增。与舞者段用同类亮轮廓连接。",
+        "confidence": "高：12秒原生页；中：11.15–12秒为粗采样",
+        "evidence": [
+          "evidence/V19/native-005.jpg",
+          "evidence/V19/timeline-01.jpg"
+        ],
+        "source_frame_start": 223,
+        "source_frame_end_exclusive": 251,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 12.55,
+        "end": 13.65,
+        "label": "牵引/转身镜头与单帧白场",
+        "observed": "F251/12.55秒切到人物被牵引/转身的近景，保留明显拖影；F261/13.05秒有暗帧，F272/13.6秒整幅白，下一帧F273已黑底小字。",
+        "recipe": "保留人物转身动作的路径，结束前用已确认的单帧白场结构连接尾卡。若换素材，先以20fps一帧白作试验，再查正常速度观感；不是把所有高亮都拉长成闪白。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V19/native-005.jpg"
+        ],
+        "source_frame_start": 251,
+        "source_frame_end_exclusive": 273,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 251,
+            "pts": 12.55,
+            "description": "新人物动作"
+          },
+          {
+            "frame": 261,
+            "pts": 13.05,
+            "description": "暗帧"
+          },
+          {
+            "frame": 272,
+            "pts": 13.6,
+            "description": "整幅白帧"
+          },
+          {
+            "frame": 273,
+            "pts": 13.65,
+            "description": "黑底尾卡"
+          }
+        ]
+      },
+      {
+        "start": 13.65,
+        "end": 15.7,
+        "label": "黑底小署名停留",
+        "observed": "13.65秒后黑底中央附近有很小的手写署名，持续到15.6秒附近；不是视频素材缺失。",
+        "recipe": "黑底与署名单独两层，保留足够空白与停留；字体不唯一可辨，应换成自己的署名或近似手写体。",
+        "confidence": "高：原生页连续状态",
+        "evidence": [
+          "evidence/V19/native-005.jpg",
+          "evidence/V19/native-006.jpg"
+        ],
+        "source_frame_start": 273,
+        "source_frame_end_exclusive": 314,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 15.7,
+        "end": 18,
+        "label": "英文问题句尾卡与渐暗",
+        "observed": "15.7秒附近手写字换为极小的横向英文问题句，16–17秒可见，随后逐渐很暗；18秒原生页已近纯黑。",
+        "recipe": "文本层保持固定位置，只做透明度渐变。留黑场是节奏选择，不用自动补片段或把文字放满全屏。英文句子须从清晰单帧核对后再准确抄录。",
+        "confidence": "高：小句与渐暗；未知：最末可见字像素的准确帧",
+        "evidence": [
+          "evidence/V19/native-006.jpg",
+          "evidence/V19/native-007.jpg"
+        ],
+        "source_frame_start": 314,
+        "source_frame_end_exclusive": 360,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 18,
+        "end": 19.4,
+        "label": "黑场文件尾",
+        "observed": "原生F360/18秒至F387/19.35秒图谱呈黑场，视频时长19.4秒；没有继续人物画面。",
+        "recipe": "保留黑场结束，不根据文件尾黑场猜测音轨或添加别的图像。",
+        "confidence": "高：原生尾页",
+        "evidence": [
+          "evidence/V19/native-007.jpg"
+        ],
+        "source_frame_start": 360,
+        "source_frame_end_exclusive": 388,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 360,
+            "pts": 18,
+            "description": "黑场开始本节"
+          },
+          {
+            "frame": 387,
+            "pts": 19.35,
+            "description": "文件末帧黑场"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V20",
+    "title": "蜘蛛侠与彼得帕克 · 动作跨版本、屏中素材与段落留白",
+    "difficulty": "3/5（动作组织）；屏幕合成4/5",
+    "starter": "先复刻0–1.967秒的射网/甩手动作串联，尽量先用原镜硬切；手机屏幕作为第二个独立练习。",
+    "summary": "动画、真人和不同风格版本之间依靠射网、伸手、侧闪与坠落动作连接。约7秒插入校园/手机画面形成明显停顿，屏内素材依次切换，随后直接回到完整动作；最后借闪避动作接自己的尾卡。",
+    "text_analysis": "校园与手机段有底部白条黑字说明，部分动作尾段也有短句；不是全片持续歌词大字。手机、手和校园背景是否整段取自已有二次素材，只有原片对照才能确认。",
+    "source": {
+      "sha256": "0971017494179c2bdffc88c69996f2025eda9a2ac5eab07de5480320625b0d79",
+      "duration": 30.666667,
+      "container_duration": 30.666667,
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "native_frame_count": 920,
+      "last_frame_pts": 30.633333,
+      "variable_frame_rate_observed": false
+    },
+    "analysis_scope": "先实际查看全片overview及全部逐秒timeline，再查看下列关键原生帧页。每页60个原生帧仅是排版数量；未转60fps、未复制或插值。没有声称逐张人工精读全部原生帧。章节是连续学习区间，不是逐镜EDL；原生帧页中的具体帧事实另列evidence_frames。",
+    "source_boundary": "仅有成片与原生帧证据，没有作者工程及未剪原片对照。不能唯一推定软件、插件、字体、抠像方式或原速度曲线；源电影/动画的电光、爆炸、粒子、摄影运动可能已存在。配方是等效实现建议，不是恢复出的作者参数。本分支不分析音频。",
+    "human_viewed": {
+      "overview": true,
+      "timeline": 2,
+      "native_pages": [
+        "native-001.jpg",
+        "native-004.jpg",
+        "native-005.jpg",
+        "native-006.jpg",
+        "native-007.jpg",
+        "native-015.jpg",
+        "native-016.jpg"
+      ],
+      "native_pages_total": 16,
+      "all_native_frames_individually_reviewed": false
+    },
+    "materials": [
+      "射网/手势/挥击/坠落方向相容的动画和真人源片段",
+      "校园手机镜头或自制手机框",
+      "屏内人物视频/肖像/动作片段",
+      "屏幕四角轨迹或静态近似位置",
+      "少量中文条牌与尾卡"
+    ],
+    "techniques": [
+      "动作相位匹配",
+      "跨媒介硬切",
+      "黑场停顿",
+      "屏中画面",
+      "短叠化",
+      "侧闪接切",
+      "尾卡淡暗"
+    ],
+    "capability_alignment": [
+      "OCC原生切镜/基础位置裁切适合先做动作串联。",
+      "HF可将屏幕mask、视频四点变换与顶层手机手部做合成；四角轨迹仍需得到/校正。",
+      "OCC已核实的位置跟踪不是四角透视跟踪；不能承诺自动贴好倾斜手机。",
+      "电影/动画的蛛丝、电光、碎窗与相机运动优先视作源镜内容，不能笼统列为后期新增。"
+    ],
+    "fast_furious_application": "速激的方向盘转动、换挡、开门、甩尾可以像射网手势一样做动作接力；先匹配动作阶段和屏幕方向，再考虑转场。中段用一段较长的车内人物/仪表镜形成呼吸，不必两分钟一直高频切。",
+    "segments": [
+      {
+        "start": 0,
+        "end": 1.966667,
+        "label": "射网与甩手跨媒介接力",
+        "observed": "F0–5为动画射网，F6/0.2秒换真人射网构图；F13/0.433秒换人物抬/甩手，F33/1.1秒回动画攻击，F40/1.333秒真人室内反应，F45/1.5秒到另一真人动作。可见多处直接换画面，而非全部蒙版穿越。",
+        "recipe": "给A出点与B入点标手腕方向、手的屏幕位置和动作相位；先直接硬切，主体偏位再少量裁切/缩放。保留源蛛丝，不重做整条蛛丝特效。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V20/native-001.jpg"
+        ],
+        "source_frame_start": 0,
+        "source_frame_end_exclusive": 59,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 6,
+            "pts": 0.2,
+            "description": "动画到真人"
+          },
+          {
+            "frame": 13,
+            "pts": 0.433333,
+            "description": "甩手动作接入"
+          },
+          {
+            "frame": 33,
+            "pts": 1.1,
+            "description": "回到动画动作"
+          },
+          {
+            "frame": 45,
+            "pts": 1.5,
+            "description": "真人动作继续"
+          }
+        ],
+        "match": {
+          "shape": "伸掌/射网手势",
+          "direction": "手朝外伸、身体后撤相位对应"
+        }
+      },
+      {
+        "start": 1.966667,
+        "end": 4.733333,
+        "label": "反应、攻击与城市摆荡",
+        "observed": "1.967秒人物笑脸反应，随后蜥蜴对打和城市摆荡；逐秒3、4秒显示攻防与悬空身体。跨素材成立依靠人物身份与动作方向，不要求同一现实空间。",
+        "recipe": "把反应镜和下一攻击镜配对，保留人物朝向；宽景摆荡用来重建空间。不要为了统一风格将所有不同版本硬套同一蓝色滤镜。",
+        "confidence": "高：粗样本中的镜头序列；未知：每切口细节",
+        "evidence": [
+          "evidence/V20/timeline-01.jpg"
+        ],
+        "source_frame_start": 59,
+        "source_frame_end_exclusive": 142,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 4.733333,
+        "end": 6.766667,
+        "label": "电光动作、坠落与脸部靠近",
+        "observed": "4.733秒后电光源镜连接动画坠落；F182/6.067秒换为粉紫城市场景，F189/6.3秒换黑暗坠落人物，之后脸向镜头靠近。",
+        "recipe": "把摆荡/坠落的身体长轴和运动方向作锚点，按源镜节奏硬切。能量、电光和城市碎片都是源画面可见内容，后加与否不能仅据成片证明。",
+        "confidence": "高：6秒原生页；中：4.7–6秒粗样本",
+        "evidence": [
+          "evidence/V20/native-004.jpg",
+          "evidence/V20/timeline-01.jpg"
+        ],
+        "source_frame_start": 142,
+        "source_frame_end_exclusive": 203,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 182,
+            "pts": 6.066667,
+            "description": "粉紫坠落镜"
+          },
+          {
+            "frame": 189,
+            "pts": 6.3,
+            "description": "暗场坠落镜"
+          },
+          {
+            "frame": 202,
+            "pts": 6.733333,
+            "description": "脸靠近画面"
+          }
+        ]
+      },
+      {
+        "start": 6.766667,
+        "end": 7.133333,
+        "label": "黑场停顿",
+        "observed": "F203/6.767秒之后进入黑场，F210/7秒仍黑；F214/7.133秒校园人物开始显现。",
+        "recipe": "把黑场作为明确段落边界保留，之后用较长校园镜改变观看密度。这里不是要补转场花纹。",
+        "confidence": "高：原生页状态",
+        "evidence": [
+          "evidence/V20/native-004.jpg"
+        ],
+        "source_frame_start": 203,
+        "source_frame_end_exclusive": 214,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 203,
+            "pts": 6.766667,
+            "description": "进入黑场"
+          },
+          {
+            "frame": 210,
+            "pts": 7,
+            "description": "黑场持续"
+          },
+          {
+            "frame": 214,
+            "pts": 7.133333,
+            "description": "校园来镜起点"
+          }
+        ]
+      },
+      {
+        "start": 7.133333,
+        "end": 8.633333,
+        "label": "校园人物与递手机准备",
+        "observed": "7.133秒后校园人物渐亮，前景手伸向人物；F256/8.533秒手机画面开始叠入，F259/8.633已是手机占主画面。",
+        "recipe": "保留源校园人物和手部动作；如重建，先做递手机镜头，再将手机框作为上层与屏内内容分开。不能从这一个成片确定手机框/校园段的原始制作来源。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V20/native-004.jpg",
+          "evidence/V20/native-005.jpg"
+        ],
+        "source_frame_start": 214,
+        "source_frame_end_exclusive": 259,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 256,
+            "pts": 8.533333,
+            "description": "手机开始叠入"
+          },
+          {
+            "frame": 259,
+            "pts": 8.633333,
+            "description": "手机占主画面"
+          }
+        ]
+      },
+      {
+        "start": 8.633333,
+        "end": 12.966667,
+        "label": "手机屏内人物、肖像和动作替换",
+        "observed": "手机外框/手/校园背景维持，屏内先是真人面部；F327/10.9秒附近过渡到微笑肖像，F353/11.767秒屏内换成城市动作，F388/12.933秒仍在手机里。",
+        "recipe": "屏幕四边形作mask/透视面，B1面部→B2肖像→B3动作按同一屏幕区域切换；手机边框和手置顶。相邻帧有短叠化可用透明度复现。若原素材本来已是成品手机合成，不要重复贴一层。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V20/native-005.jpg",
+          "evidence/V20/native-006.jpg",
+          "evidence/V20/native-007.jpg"
+        ],
+        "source_frame_start": 259,
+        "source_frame_end_exclusive": 389,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 327,
+            "pts": 10.9,
+            "description": "屏内面部向肖像过渡"
+          },
+          {
+            "frame": 353,
+            "pts": 11.766667,
+            "description": "屏内动作片切入"
+          },
+          {
+            "frame": 388,
+            "pts": 12.933333,
+            "description": "切出前手机仍完整"
+          }
+        ],
+        "match": {
+          "shape": "倾斜矩形屏边固定",
+          "direction": "屏外手与框保持，屏内内容换镜"
+        }
+      },
+      {
+        "start": 12.966667,
+        "end": 18.966667,
+        "label": "直接切全幅与动作跨风格续接",
+        "observed": "F389/12.967秒直接变为院落/车上人物全幅；此前手机框没有逐帧扩大铺满画面。13.567秒切彩色动画，后续真人攻击、旧动画射击与多彩动作交替。",
+        "recipe": "手机内动作后用直接硬切回全幅，保持主体醒目即可；后段按挥臂、躲闪、攻击来源分动作组。这里不复刻不存在证据的“穿手机门户”。",
+        "confidence": "高：12.967硬切已原生确认；中：后续段仅粗样本",
+        "evidence": [
+          "evidence/V20/native-007.jpg",
+          "evidence/V20/timeline-01.jpg"
+        ],
+        "source_frame_start": 389,
+        "source_frame_end_exclusive": 569,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 388,
+            "pts": 12.933333,
+            "description": "仍是手机框"
+          },
+          {
+            "frame": 389,
+            "pts": 12.966667,
+            "description": "直接完整新场景"
+          },
+          {
+            "frame": 407,
+            "pts": 13.566667,
+            "description": "切多彩动画"
+          }
+        ],
+        "match": {
+          "direction": "主要跟随手臂挥击/攻防，不强求屏幕内场景连续"
+        }
+      },
+      {
+        "start": 18.966667,
+        "end": 23,
+        "label": "摆荡、闪避与攻击动作链",
+        "observed": "18.967秒后真人侧向飞跃，随后水边射网/电光、训练式对打等镜头。约23秒粗样本为黑场，但具体长度没有在本轮查该原生页，不能按1秒截图认定整秒黑。",
+        "recipe": "源镜先按飞跃→射网→闪避→反击排序；细查每个接触点再调裁切。若复用这段黑场，先查原生页确定长度，不凭逐秒样本直接插一秒黑。",
+        "confidence": "中高：全片粗样本；未知：23秒黑场长度和每个动作切点",
+        "evidence": [
+          "evidence/V20/timeline-01.jpg"
+        ],
+        "source_frame_start": 569,
+        "source_frame_end_exclusive": 690,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "label": "短句、动画摆荡与碎窗动作",
+        "observed": "23秒后人物近景与短字幕，随后动画摆荡、快速移动和碎窗/坠落，再回人物面部。没有足够证据把源碎玻璃解释为后加转场粒子。",
+        "recipe": "保留一个面部/短句镜作动作前停顿，再接身体方向相容的摆荡与落体。源玻璃与物理碰撞从原镜获得，不使用通用碎片模板硬替。",
+        "confidence": "中高：全片采样；未知：玻璃效果来源与实际速度曲线",
+        "evidence": [
+          "evidence/V20/overview.jpg",
+          "evidence/V20/timeline-01.jpg"
+        ],
+        "source_frame_start": 690,
+        "source_frame_end_exclusive": 840,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true
+      },
+      {
+        "start": 28,
+        "end": 30.666667,
+        "label": "闪避动作接光束尾卡并淡暗",
+        "observed": "28秒人物躲闪到回头，F875/29.167秒切走廊光束与小署名，随后背景变暗；30–30.633秒小字也逐渐变弱。",
+        "recipe": "让闪避动作完成后切自己的尾卡，背景光束与文字分层，末尾只做透明度渐暗。没有证据需要额外人物抠像或循环接回开头。",
+        "confidence": "高：可见结构；中：等效复现，未试制",
+        "evidence": [
+          "evidence/V20/native-015.jpg",
+          "evidence/V20/native-016.jpg"
+        ],
+        "source_frame_start": 840,
+        "source_frame_end_exclusive": 920,
+        "source_frame_indexing": "0基；结束帧不含；时间读取原生PTS",
+        "proposed_parameters": true,
+        "evidence_frames": [
+          {
+            "frame": 875,
+            "pts": 29.166667,
+            "description": "尾卡切入"
+          },
+          {
+            "frame": 900,
+            "pts": 30,
+            "description": "小署名黑底"
+          },
+          {
+            "frame": 919,
+            "pts": 30.633333,
+            "description": "末帧近黑小字"
+          }
+        ]
+      }
+    ]
+  }
+]

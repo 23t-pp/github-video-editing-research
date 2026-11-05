@@ -1,0 +1,50 @@
+[
+  {
+    "query": "\"AI video editor\" in:name,description,readme stars:>50",
+    "count": 30,
+    "total_count": 45,
+    "raw_file": "search-01.json"
+  },
+  {
+    "query": "\"video highlight\" \"AI\" in:name,description,readme stars:>20",
+    "count": 30,
+    "total_count": 67,
+    "raw_file": "search-02.json"
+  },
+  {
+    "query": "\"short clips\" \"whisper\" in:readme stars:>50",
+    "count": 30,
+    "total_count": 85,
+    "raw_file": "search-03.json"
+  },
+  {
+    "query": "\"automatic video editing\" in:name,description,readme stars:>20",
+    "count": 18,
+    "total_count": 18,
+    "raw_file": "search-04.json"
+  },
+  {
+    "query": "\"video clipping\" \"LLM\" in:readme stars:>20",
+    "count": 30,
+    "total_count": 35,
+    "raw_file": "search-05.json"
+  },
+  {
+    "query": "\"subtitle\" \"video editing\" \"AI\" in:name,description stars:>20",
+    "count": 0,
+    "total_count": 0,
+    "raw_file": "search-06.json"
+  },
+  {
+    "query": "\"ClipAnything\" in:name,description,readme",
+    "count": 28,
+    "total_count": 29,
+    "raw_file": "search-07.json"
+  },
+  {
+    "query": "\"MoneyPrinterTurbo\" OR \"ShortGPT\" in:name stars:>100",
+    "count": 4,
+    "total_count": 4,
+    "raw_file": "search-08.json"
+  }
+]

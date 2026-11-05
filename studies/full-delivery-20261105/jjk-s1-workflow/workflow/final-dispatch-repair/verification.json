@@ -1,0 +1,430 @@
+{
+  "scope": "17 isolated synthetic dispatch fixtures only; no real agent called/UI passed/seal executed by these fixtures. Real current next captured separately.",
+  "fixtures": [
+    {
+      "case": "01_missing_occ",
+      "expectedStage": "OCC_pending",
+      "actual": {
+        "stage": "OCC_pending",
+        "actions": [
+          {
+            "role": "occ_export_agent",
+            "action": "OCC_export_roundtrip",
+            "reasons": [
+              {
+                "code": "missing_report",
+                "path": "openchatcut/工程包最终回读.json"
+              }
+            ],
+            "scope": "官方导出→真实导入副本→逐媒体SHA及主音轨回读，不能用文件存在代替通过"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "02_occ_missing_media_even_count_claims_pass",
+      "expectedStage": "OCC_pending",
+      "actual": {
+        "stage": "OCC_pending",
+        "actions": [
+          {
+            "role": "occ_export_agent",
+            "action": "OCC_export_roundtrip",
+            "reasons": [
+              {
+                "code": "occ_missing_or_unverified_media",
+                "path": "openchatcut/工程包最终回读.json"
+              }
+            ],
+            "scope": "官方导出→真实导入副本→逐媒体SHA及主音轨回读，不能用文件存在代替通过"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "03_occ_empty_per_media_hashes",
+      "expectedStage": "OCC_pending",
+      "actual": {
+        "stage": "OCC_pending",
+        "actions": [
+          {
+            "role": "occ_export_agent",
+            "action": "OCC_export_roundtrip",
+            "reasons": [
+              {
+                "code": "occ_per_media_hash_evidence_incomplete",
+                "path": "openchatcut/官方工程包导入回验.json"
+              }
+            ],
+            "scope": "官方导出→真实导入副本→逐媒体SHA及主音轨回读，不能用文件存在代替通过"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "04_occ_package_changed",
+      "expectedStage": "OCC_pending",
+      "actual": {
+        "stage": "OCC_pending",
+        "actions": [
+          {
+            "role": "occ_export_agent",
+            "action": "OCC_export_roundtrip",
+            "reasons": [
+              {
+                "code": "artifact_hash_or_size_changed",
+                "path": "openchatcut/test.ccproj"
+              }
+            ],
+            "scope": "官方导出→真实导入副本→逐媒体SHA及主音轨回读，不能用文件存在代替通过"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "05_occ_malformed_master",
+      "expectedStage": "OCC_pending",
+      "actual": {
+        "stage": "OCC_pending",
+        "actions": [
+          {
+            "role": "occ_export_agent",
+            "action": "OCC_export_roundtrip",
+            "reasons": [
+              {
+                "code": "occ_imported_master_not_current",
+                "path": "openchatcut/工程包最终回读.json"
+              }
+            ],
+            "scope": "官方导出→真实导入副本→逐媒体SHA及主音轨回读，不能用文件存在代替通过"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "06_missing_zip_report",
+      "expectedStage": "UI_delivery_pending",
+      "actual": {
+        "stage": "UI_delivery_pending",
+        "actions": [
+          {
+            "role": "orchestrator_ui_verifier",
+            "action": "UI/media_delivery_verify",
+            "reasons": [
+              {
+                "code": "missing_report",
+                "path": "data/hyperframes-package-verification.json"
+              },
+              {
+                "code": "stale_or_missing_binding",
+                "path": "evidence/ui/最终交付界面验收.json",
+                "artifact": "data/hyperframes-package-verification.json"
+              }
+            ],
+            "scope": "当前成片实际播放、HF/OCC实际工程、ZIP逐成员和真实媒体核验；不声称试听"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "07_zip_member_changed_even_new_archive_hash",
+      "expectedStage": "UI_delivery_pending",
+      "actual": {
+        "stage": "UI_delivery_pending",
+        "actions": [
+          {
+            "role": "orchestrator_ui_verifier",
+            "action": "UI/media_delivery_verify",
+            "reasons": [
+              {
+                "code": "hf_archived_member_changed",
+                "path": "HyperFrames可编辑工程.zip",
+                "artifact": "hyperframes/index.html"
+              },
+              {
+                "code": "stale_or_missing_binding",
+                "path": "evidence/ui/最终交付界面验收.json",
+                "artifact": "data/hyperframes-package-verification.json"
+              }
+            ],
+            "scope": "当前成片实际播放、HF/OCC实际工程、ZIP逐成员和真实媒体核验；不声称试听"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "08_ui_exists_true_but_empty_bindings",
+      "expectedStage": "UI_delivery_pending",
+      "actual": {
+        "stage": "UI_delivery_pending",
+        "actions": [
+          {
+            "role": "orchestrator_ui_verifier",
+            "action": "UI/media_delivery_verify",
+            "reasons": [
+              {
+                "code": "empty_review_bindings",
+                "path": "evidence/ui/最终交付界面验收.json"
+              }
+            ],
+            "scope": "当前成片实际播放、HF/OCC实际工程、ZIP逐成员和真实媒体核验；不声称试听"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "09_ui_boolean_failure",
+      "expectedStage": "UI_delivery_pending",
+      "actual": {
+        "stage": "UI_delivery_pending",
+        "actions": [
+          {
+            "role": "orchestrator_ui_verifier",
+            "action": "UI/media_delivery_verify",
+            "reasons": [
+              {
+                "code": "final_ui_evidence_not_pass",
+                "path": "evidence/ui/最终交付界面验收.json"
+              }
+            ],
+            "scope": "当前成片实际播放、HF/OCC实际工程、ZIP逐成员和真实媒体核验；不声称试听"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "10_ui_stale_binding",
+      "expectedStage": "UI_delivery_pending",
+      "actual": {
+        "stage": "UI_delivery_pending",
+        "actions": [
+          {
+            "role": "orchestrator_ui_verifier",
+            "action": "UI/media_delivery_verify",
+            "reasons": [
+              {
+                "code": "stale_or_missing_binding",
+                "path": "evidence/ui/最终交付界面验收.json",
+                "artifact": "咒力接力_一分钟.mp4"
+              }
+            ],
+            "scope": "当前成片实际播放、HF/OCC实际工程、ZIP逐成员和真实媒体核验；不声称试听"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "11_quality_report_wrong_frame_count",
+      "expectedStage": "UI_delivery_pending",
+      "actual": {
+        "stage": "UI_delivery_pending",
+        "actions": [
+          {
+            "role": "orchestrator_ui_verifier",
+            "action": "UI/media_delivery_verify",
+            "reasons": [
+              {
+                "code": "final_movie_quality_report_failed_or_stale",
+                "path": "成片质量检查.json"
+              }
+            ],
+            "scope": "当前成片实际播放、HF/OCC实际工程、ZIP逐成员和真实媒体核验；不声称试听"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "12_final_status_pass_empty_bindings",
+      "expectedStage": "final_acceptance_pending",
+      "actual": {
+        "stage": "final_acceptance_pending",
+        "actions": [
+          {
+            "role": "independent_reviewer",
+            "action": "independent_final_acceptance",
+            "reasons": [
+              {
+                "code": "empty_review_bindings",
+                "path": "reviews/最终验收.json"
+              }
+            ],
+            "requiredBindings": [
+              "咒力接力_一分钟.mp4",
+              "hyperframes/edit.json",
+              "openchatcut/工程包最终回读.json",
+              "data/hyperframes-package-verification.json",
+              "evidence/ui/最终交付界面验收.json",
+              "HyperFrames可编辑工程.zip",
+              "openchatcut/test.ccproj",
+              "loops/loop-04/review.json"
+            ],
+            "scope": "独立验收当前真实交付与SHA绑定；不能沿用影片局部pass当全项目pass"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "13_final_not_independent",
+      "expectedStage": "final_acceptance_pending",
+      "actual": {
+        "stage": "final_acceptance_pending",
+        "actions": [
+          {
+            "role": "independent_reviewer",
+            "action": "independent_final_acceptance",
+            "reasons": [
+              {
+                "code": "final_acceptance_not_independent_pass",
+                "path": "reviews/最终验收.json"
+              }
+            ],
+            "requiredBindings": [
+              "咒力接力_一分钟.mp4",
+              "hyperframes/edit.json",
+              "openchatcut/工程包最终回读.json",
+              "data/hyperframes-package-verification.json",
+              "evidence/ui/最终交付界面验收.json",
+              "HyperFrames可编辑工程.zip",
+              "openchatcut/test.ccproj",
+              "loops/loop-04/review.json"
+            ],
+            "scope": "独立验收当前真实交付与SHA绑定；不能沿用影片局部pass当全项目pass"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "14_final_stale_package_binding",
+      "expectedStage": "final_acceptance_pending",
+      "actual": {
+        "stage": "final_acceptance_pending",
+        "actions": [
+          {
+            "role": "independent_reviewer",
+            "action": "independent_final_acceptance",
+            "reasons": [
+              {
+                "code": "stale_or_missing_binding",
+                "path": "reviews/最终验收.json",
+                "artifact": "openchatcut/test.ccproj"
+              }
+            ],
+            "requiredBindings": [
+              "咒力接力_一分钟.mp4",
+              "hyperframes/edit.json",
+              "openchatcut/工程包最终回读.json",
+              "data/hyperframes-package-verification.json",
+              "evidence/ui/最终交付界面验收.json",
+              "HyperFrames可编辑工程.zip",
+              "openchatcut/test.ccproj",
+              "loops/loop-04/review.json"
+            ],
+            "scope": "独立验收当前真实交付与SHA绑定；不能沿用影片局部pass当全项目pass"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "15_all_reviews_pass_but_not_sealed",
+      "expectedStage": "seal_pending",
+      "actual": {
+        "stage": "seal_pending",
+        "actions": [
+          {
+            "role": "orchestrator",
+            "action": "seal",
+            "command": "scripts/workflow.py seal",
+            "reasons": [
+              {
+                "code": "missing_report",
+                "path": "workflow/delivered.json"
+              }
+            ],
+            "scope": "实际运行现有seal；next未写入delivered，也未代调用代理"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "16_sealed_current_complete",
+      "expectedStage": "complete",
+      "actual": {
+        "stage": "complete",
+        "workflowComplete": true,
+        "actions": [
+          {
+            "role": "orchestrator",
+            "action": "complete",
+            "evidence": [
+              "workflow/delivered.json",
+              "reviews/最终验收.json"
+            ],
+            "scope": "所有当前交付门已验证，且既有seal已实际生成delivered"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "case": "17_delivered_file_is_not_completion",
+      "expectedStage": "seal_pending",
+      "actual": {
+        "stage": "seal_pending",
+        "actions": [
+          {
+            "role": "orchestrator",
+            "action": "seal",
+            "command": "scripts/workflow.py seal",
+            "reasons": [
+              {
+                "code": "delivered_state_stale",
+                "path": "workflow/delivered.json"
+              }
+            ],
+            "scope": "实际运行现有seal；next未写入delivered，也未代调用代理"
+          }
+        ]
+      },
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "changedExistingFunctions": [
+    "next_action"
+  ],
+  "sealAstUnchanged": true,
+  "workflowSha256": "7f33a8153726b72eccef8ae20699e5cd30d204dacc6f06dd6f58b88dee492a51",
+  "realCurrentDispatch": {
+    "dispatchMode": "编排层据此实际调用对应代理；CLI只验证证据并派发，不伪造代理执行或审核",
+    "stage": "UI_delivery_pending",
+    "actions": [
+      {
+        "role": "orchestrator_ui_verifier",
+        "action": "UI/media_delivery_verify",
+        "reasons": [
+          {
+            "code": "missing_report",
+            "path": "evidence/ui/最终交付界面验收.json"
+          }
+        ],
+        "scope": "当前成片实际播放、HF/OCC实际工程、ZIP逐成员和真实媒体核验；不声称试听"
+      }
+    ]
+  },
+  "realNextExitCode": 0
+}

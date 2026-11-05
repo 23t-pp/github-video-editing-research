@@ -1,0 +1,37 @@
+{
+  "projectId": "9f2a9af5-654d-4384-adfd-c7dc88b222a9",
+  "applied": false,
+  "noChanges": true,
+  "ops": [
+    {
+      "tool": "manage_timelines",
+      "result": {
+        "ok": true,
+        "active": {
+          "id": "tl_20f8778a-483a-4d10-a99d-341f2ffb273f",
+          "name": "02 原生逐镜 · 67镜 · edge",
+          "width": 1920,
+          "height": 1080,
+          "ratio": "16:9",
+          "active": true,
+          "hidden": false,
+          "clips": 76,
+          "nestedInstances": 0,
+          "durationInFrames": 1440
+        }
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "1680932e-9b06-4165-a296-1ec9c1476edc",
+    "status": "cancelled",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-059a6937",
+    "operationCount": 0,
+    "bindingMode": "offline",
+    "agentRunId": "run_ecf8e1ef426e443f",
+    "editorUrl": "http://localhost:5199/#/editor/9f2a9af5-654d-4384-adfd-c7dc88b222a9",
+    "updatedAt": "2026-11-05T10:38:09.921Z"
+  }
+}

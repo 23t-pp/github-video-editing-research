@@ -1,0 +1,40 @@
+{
+  "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "manage_timelines",
+      "result": {
+        "ok": true,
+        "created": [
+          {
+            "id": "tl_a0ae5ccd-1299-4d26-9289-285df57432f3",
+            "name": "02 HF成片整合 · 108帧 · 内含Master音轨",
+            "width": 1920,
+            "height": 1080,
+            "ratio": "16:9",
+            "active": true,
+            "hidden": false,
+            "clips": 0,
+            "nestedInstances": 0,
+            "durationInFrames": 24
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "0ecac3ae-2719-48cf-ad57-b4d5c7f7ebc8",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-58a8bb50",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_3fc8e938acf84dbe",
+    "editorUrl": "http://localhost:5199/#/editor/0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "updatedAt": "2026-11-04T15:09:35.231Z"
+  }
+}

@@ -1,0 +1,3502 @@
+{
+  "passed": true,
+  "sample_rate": 48000,
+  "sample_frames": 2880000,
+  "channels": 2,
+  "duration_sec": 60.0,
+  "pcm_subtype": "PCM_24",
+  "finite_samples": true,
+  "sample_peak_dbfs": -2.1871769428253174,
+  "last_sample_channels": [
+    0.0,
+    0.0
+  ],
+  "stereo_correlation": 0.9789177336651277,
+  "sha256": "2362fd21c7d9ced0b30f8e88fadc9a325a70b6e3ee53ffc2d3768bafe3a3a68d",
+  "midi": {
+    "format": 1,
+    "tracks": 5,
+    "ppq": 960,
+    "note_messages": 1916,
+    "maximum_end_tick": 122880,
+    "duration_beats": 128.0,
+    "passed": true
+  },
+  "section_measurements": [
+    {
+      "start": 0,
+      "end": 7.5,
+      "label": "夜间上车 / 启动",
+      "rms_dbfs": -27.13,
+      "sample_peak_dbfs": -8.81
+    },
+    {
+      "start": 7.5,
+      "end": 22.5,
+      "label": "街头主律动 / 加速",
+      "rms_dbfs": -16.3,
+      "sample_peak_dbfs": -2.32
+    },
+    {
+      "start": 22.5,
+      "end": 30,
+      "label": "危险 / 短抽空 / 回升",
+      "rms_dbfs": -25.54,
+      "sample_peak_dbfs": -8.61
+    },
+    {
+      "start": 30,
+      "end": 45,
+      "label": "高速主段",
+      "rms_dbfs": -16.01,
+      "sample_peak_dbfs": -2.2
+    },
+    {
+      "start": 45,
+      "end": 52.5,
+      "label": "最强段 / 引擎留白",
+      "rms_dbfs": -15.19,
+      "sample_peak_dbfs": -2.2
+    },
+    {
+      "start": 52.5,
+      "end": 58.125,
+      "label": "减法尾声",
+      "rms_dbfs": -25.81,
+      "sample_peak_dbfs": -7.91
+    },
+    {
+      "start": 58.125,
+      "end": 60,
+      "label": "有力尾音 / 收束",
+      "rms_dbfs": -20.66,
+      "sample_peak_dbfs": -2.19
+    }
+  ],
+  "audible_onset_candidates": [
+    {
+      "time_sec": 1.875667,
+      "spectral_flux": 0.018521,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 1.875,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 3.745667,
+      "spectral_flux": 0.021528,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 3.75,
+      "offset_ms": -4.333
+    },
+    {
+      "time_sec": 3.990667,
+      "spectral_flux": 0.005984,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 3.992375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 4.455667,
+      "spectral_flux": 0.010521,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 4.453125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 4.685667,
+      "spectral_flux": 0.006452,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 4.6875,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 4.920667,
+      "spectral_flux": 0.006405,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 4.921875,
+      "offset_ms": -1.208
+    },
+    {
+      "time_sec": 5.155667,
+      "spectral_flux": 0.006494,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 5.15625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 5.390667,
+      "spectral_flux": 0.005937,
+      "nearest_composed_event": "open-hat",
+      "nearest_event_time_sec": 5.390625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 5.625667,
+      "spectral_flux": 0.028461,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 5.625,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 5.865667,
+      "spectral_flux": 0.006401,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 5.867375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 6.095667,
+      "spectral_flux": 0.006665,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 6.09375,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 6.330667,
+      "spectral_flux": 0.012771,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 6.328125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 6.445667,
+      "spectral_flux": 0.006025,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 6.445312,
+      "offset_ms": 0.355
+    },
+    {
+      "time_sec": 6.560667,
+      "spectral_flux": 0.006481,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 6.5625,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 6.635667,
+      "spectral_flux": 0.00662,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 6.679688,
+      "offset_ms": -44.021
+    },
+    {
+      "time_sec": 6.795667,
+      "spectral_flux": 0.031278,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 6.796875,
+      "offset_ms": -1.208
+    },
+    {
+      "time_sec": 6.860667,
+      "spectral_flux": 0.005736,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 6.914062,
+      "offset_ms": -53.395
+    },
+    {
+      "time_sec": 6.945667,
+      "spectral_flux": 0.013067,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 6.914062,
+      "offset_ms": 31.605
+    },
+    {
+      "time_sec": 7.030667,
+      "spectral_flux": 0.043914,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 7.03125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 7.105667,
+      "spectral_flux": 0.015991,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 7.148438,
+      "offset_ms": -42.771
+    },
+    {
+      "time_sec": 7.235667,
+      "spectral_flux": 0.014554,
+      "nearest_composed_event": "open-hat",
+      "nearest_event_time_sec": 7.265625,
+      "offset_ms": -29.958
+    },
+    {
+      "time_sec": 7.340667,
+      "spectral_flux": 0.017076,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 7.382812,
+      "offset_ms": -42.145
+    },
+    {
+      "time_sec": 7.405667,
+      "spectral_flux": 0.008088,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 7.382812,
+      "offset_ms": 22.855
+    },
+    {
+      "time_sec": 7.500667,
+      "spectral_flux": 0.061854,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 7.5,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 7.565667,
+      "spectral_flux": 0.021086,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 7.617188,
+      "offset_ms": -51.521
+    },
+    {
+      "time_sec": 7.675667,
+      "spectral_flux": 0.018707,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 7.617188,
+      "offset_ms": 58.479
+    },
+    {
+      "time_sec": 7.750667,
+      "spectral_flux": 0.012476,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 7.742375,
+      "offset_ms": 8.292
+    },
+    {
+      "time_sec": 7.850667,
+      "spectral_flux": 0.022645,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 7.851562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 7.970667,
+      "spectral_flux": 0.065948,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 7.96875,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 8.050667,
+      "spectral_flux": 0.017458,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 8.085938,
+      "offset_ms": -35.271
+    },
+    {
+      "time_sec": 8.115667,
+      "spectral_flux": 0.008978,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 8.085938,
+      "offset_ms": 29.729
+    },
+    {
+      "time_sec": 8.205667,
+      "spectral_flux": 0.025897,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 8.203125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 8.285667,
+      "spectral_flux": 0.007773,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 8.320312,
+      "offset_ms": -34.645
+    },
+    {
+      "time_sec": 8.435667,
+      "spectral_flux": 0.045941,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 8.4375,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 8.555667,
+      "spectral_flux": 0.013206,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 8.554688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 8.675667,
+      "spectral_flux": 0.016309,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 8.671875,
+      "offset_ms": 3.792
+    },
+    {
+      "time_sec": 8.790667,
+      "spectral_flux": 0.009932,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 8.789062,
+      "offset_ms": 1.605
+    },
+    {
+      "time_sec": 8.905667,
+      "spectral_flux": 0.065279,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 8.90625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 9.020667,
+      "spectral_flux": 0.037774,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 9.023438,
+      "offset_ms": -2.771
+    },
+    {
+      "time_sec": 9.140667,
+      "spectral_flux": 0.016286,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 9.140625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 9.375667,
+      "spectral_flux": 0.044934,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 9.375,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 9.440667,
+      "spectral_flux": 0.006504,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 9.492188,
+      "offset_ms": -51.521
+    },
+    {
+      "time_sec": 9.615667,
+      "spectral_flux": 0.010038,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 9.617375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 9.725667,
+      "spectral_flux": 0.027125,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 9.726562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 9.845667,
+      "spectral_flux": 0.067079,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 9.84375,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 10.075667,
+      "spectral_flux": 0.048689,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 10.078125,
+      "offset_ms": -2.458
+    },
+    {
+      "time_sec": 10.145667,
+      "spectral_flux": 0.007202,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 10.195312,
+      "offset_ms": -49.645
+    },
+    {
+      "time_sec": 10.225667,
+      "spectral_flux": 0.006187,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 10.195312,
+      "offset_ms": 30.355
+    },
+    {
+      "time_sec": 10.310667,
+      "spectral_flux": 0.046777,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 10.3125,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 10.430667,
+      "spectral_flux": 0.025932,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 10.429688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 10.550667,
+      "spectral_flux": 0.006962,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 10.554875,
+      "offset_ms": -4.208
+    },
+    {
+      "time_sec": 10.660667,
+      "spectral_flux": 0.043439,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 10.664062,
+      "offset_ms": -3.395
+    },
+    {
+      "time_sec": 10.780667,
+      "spectral_flux": 0.078426,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 10.78125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 10.945667,
+      "spectral_flux": 0.007232,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 10.898438,
+      "offset_ms": 47.229
+    },
+    {
+      "time_sec": 11.015667,
+      "spectral_flux": 0.045878,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 11.015625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 11.135667,
+      "spectral_flux": 0.008599,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 11.132812,
+      "offset_ms": 2.855
+    },
+    {
+      "time_sec": 11.250667,
+      "spectral_flux": 0.043902,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 11.25,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 11.315667,
+      "spectral_flux": 0.007144,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 11.367188,
+      "offset_ms": -51.521
+    },
+    {
+      "time_sec": 11.490667,
+      "spectral_flux": 0.01062,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 11.492375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 11.600667,
+      "spectral_flux": 0.025564,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 11.601562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 11.720667,
+      "spectral_flux": 0.077417,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 11.71875,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 11.800667,
+      "spectral_flux": 0.019316,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 11.835938,
+      "offset_ms": -35.271
+    },
+    {
+      "time_sec": 11.865667,
+      "spectral_flux": 0.009862,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 11.835938,
+      "offset_ms": 29.729
+    },
+    {
+      "time_sec": 11.955667,
+      "spectral_flux": 0.027634,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 11.953125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 12.020667,
+      "spectral_flux": 0.006546,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 12.070312,
+      "offset_ms": -49.645
+    },
+    {
+      "time_sec": 12.185667,
+      "spectral_flux": 0.050838,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 12.1875,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 12.310667,
+      "spectral_flux": 0.01081,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 12.304688,
+      "offset_ms": 5.979
+    },
+    {
+      "time_sec": 12.425667,
+      "spectral_flux": 0.013442,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 12.421875,
+      "offset_ms": 3.792
+    },
+    {
+      "time_sec": 12.540667,
+      "spectral_flux": 0.008953,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 12.539062,
+      "offset_ms": 1.605
+    },
+    {
+      "time_sec": 12.655667,
+      "spectral_flux": 0.067245,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 12.65625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 12.770667,
+      "spectral_flux": 0.037658,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 12.773438,
+      "offset_ms": -2.771
+    },
+    {
+      "time_sec": 12.900667,
+      "spectral_flux": 0.016957,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 12.898625,
+      "offset_ms": 2.042
+    },
+    {
+      "time_sec": 13.005667,
+      "spectral_flux": 0.008128,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 13.007812,
+      "offset_ms": -2.145
+    },
+    {
+      "time_sec": 13.125667,
+      "spectral_flux": 0.040474,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 13.125,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 13.365667,
+      "spectral_flux": 0.008168,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 13.367375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 13.475667,
+      "spectral_flux": 0.024918,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 13.476562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 13.595667,
+      "spectral_flux": 0.061317,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 13.59375,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 13.825667,
+      "spectral_flux": 0.044102,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 13.828125,
+      "offset_ms": -2.458
+    },
+    {
+      "time_sec": 13.945667,
+      "spectral_flux": 0.00738,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 13.945312,
+      "offset_ms": 0.355
+    },
+    {
+      "time_sec": 14.060667,
+      "spectral_flux": 0.042249,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 14.0625,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 14.180667,
+      "spectral_flux": 0.019616,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 14.179688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 14.305667,
+      "spectral_flux": 0.00758,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 14.304875,
+      "offset_ms": 0.792
+    },
+    {
+      "time_sec": 14.410667,
+      "spectral_flux": 0.036793,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 14.414062,
+      "offset_ms": -3.395
+    },
+    {
+      "time_sec": 14.530667,
+      "spectral_flux": 0.069035,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 14.53125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 14.600667,
+      "spectral_flux": 0.018291,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 14.648438,
+      "offset_ms": -47.771
+    },
+    {
+      "time_sec": 14.765667,
+      "spectral_flux": 0.039451,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 14.765625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 14.885667,
+      "spectral_flux": 0.013175,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 14.882812,
+      "offset_ms": 2.855
+    },
+    {
+      "time_sec": 15.000667,
+      "spectral_flux": 0.038089,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 15.0,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 15.090667,
+      "spectral_flux": 0.007879,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 15.117188,
+      "offset_ms": -26.521
+    },
+    {
+      "time_sec": 15.240667,
+      "spectral_flux": 0.009391,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 15.242375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 15.350667,
+      "spectral_flux": 0.025152,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 15.351562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 15.470667,
+      "spectral_flux": 0.063974,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 15.46875,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 15.550667,
+      "spectral_flux": 0.017156,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 15.585938,
+      "offset_ms": -35.271
+    },
+    {
+      "time_sec": 15.615667,
+      "spectral_flux": 0.007939,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 15.585938,
+      "offset_ms": 29.729
+    },
+    {
+      "time_sec": 15.705667,
+      "spectral_flux": 0.026263,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 15.703125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 15.935667,
+      "spectral_flux": 0.04369,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 15.9375,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 16.055667,
+      "spectral_flux": 0.014851,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 16.054688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 16.170667,
+      "spectral_flux": 0.012906,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 16.171875,
+      "offset_ms": -1.208
+    },
+    {
+      "time_sec": 16.290667,
+      "spectral_flux": 0.009364,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 16.289062,
+      "offset_ms": 1.605
+    },
+    {
+      "time_sec": 16.405667,
+      "spectral_flux": 0.061554,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 16.40625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 16.520667,
+      "spectral_flux": 0.03436,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 16.523438,
+      "offset_ms": -2.771
+    },
+    {
+      "time_sec": 16.640667,
+      "spectral_flux": 0.016664,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 16.640625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 16.710667,
+      "spectral_flux": 0.005951,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 16.757812,
+      "offset_ms": -47.145
+    },
+    {
+      "time_sec": 16.875667,
+      "spectral_flux": 0.041491,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 16.875,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 16.965667,
+      "spectral_flux": 0.008567,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 16.992188,
+      "offset_ms": -26.521
+    },
+    {
+      "time_sec": 17.115667,
+      "spectral_flux": 0.008665,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 17.117375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 17.225667,
+      "spectral_flux": 0.024267,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 17.226562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 17.345667,
+      "spectral_flux": 0.060219,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 17.34375,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 17.490667,
+      "spectral_flux": 0.006426,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 17.460938,
+      "offset_ms": 29.729
+    },
+    {
+      "time_sec": 17.575667,
+      "spectral_flux": 0.043336,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 17.578125,
+      "offset_ms": -2.458
+    },
+    {
+      "time_sec": 17.670667,
+      "spectral_flux": 0.006688,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 17.695312,
+      "offset_ms": -24.645
+    },
+    {
+      "time_sec": 17.810667,
+      "spectral_flux": 0.0393,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 17.8125,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 17.930667,
+      "spectral_flux": 0.024794,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 17.929688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 18.055667,
+      "spectral_flux": 0.006561,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 18.054875,
+      "offset_ms": 0.792
+    },
+    {
+      "time_sec": 18.160667,
+      "spectral_flux": 0.035954,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 18.164062,
+      "offset_ms": -3.395
+    },
+    {
+      "time_sec": 18.280667,
+      "spectral_flux": 0.06503,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 18.28125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 18.515667,
+      "spectral_flux": 0.037912,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 18.515625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 18.635667,
+      "spectral_flux": 0.008186,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 18.632812,
+      "offset_ms": 2.855
+    },
+    {
+      "time_sec": 18.750667,
+      "spectral_flux": 0.035717,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 18.75,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 18.860667,
+      "spectral_flux": 0.005753,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 18.867188,
+      "offset_ms": -6.521
+    },
+    {
+      "time_sec": 18.990667,
+      "spectral_flux": 0.008122,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 18.992375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 19.100667,
+      "spectral_flux": 0.02101,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 19.101562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 19.220667,
+      "spectral_flux": 0.065056,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 19.21875,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 19.300667,
+      "spectral_flux": 0.01609,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 19.335938,
+      "offset_ms": -35.271
+    },
+    {
+      "time_sec": 19.365667,
+      "spectral_flux": 0.008141,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 19.335938,
+      "offset_ms": 29.729
+    },
+    {
+      "time_sec": 19.455667,
+      "spectral_flux": 0.023496,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 19.453125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 19.540667,
+      "spectral_flux": 0.006359,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 19.570312,
+      "offset_ms": -29.645
+    },
+    {
+      "time_sec": 19.685667,
+      "spectral_flux": 0.04409,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 19.6875,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 19.805667,
+      "spectral_flux": 0.009408,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 19.804688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 19.925667,
+      "spectral_flux": 0.012706,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 19.921875,
+      "offset_ms": 3.792
+    },
+    {
+      "time_sec": 20.040667,
+      "spectral_flux": 0.009726,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 20.039062,
+      "offset_ms": 1.605
+    },
+    {
+      "time_sec": 20.155667,
+      "spectral_flux": 0.058745,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 20.15625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 20.270667,
+      "spectral_flux": 0.033866,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 20.273438,
+      "offset_ms": -2.771
+    },
+    {
+      "time_sec": 20.390667,
+      "spectral_flux": 0.014614,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 20.390625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 20.625667,
+      "spectral_flux": 0.039217,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 20.625,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 20.865667,
+      "spectral_flux": 0.006933,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 20.867375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 20.975667,
+      "spectral_flux": 0.02083,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 20.976562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 21.095667,
+      "spectral_flux": 0.058243,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 21.09375,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 21.185667,
+      "spectral_flux": 0.012108,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 21.210938,
+      "offset_ms": -25.271
+    },
+    {
+      "time_sec": 21.325667,
+      "spectral_flux": 0.04007,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 21.328125,
+      "offset_ms": -2.458
+    },
+    {
+      "time_sec": 21.420667,
+      "spectral_flux": 0.008451,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 21.445312,
+      "offset_ms": -24.645
+    },
+    {
+      "time_sec": 21.485667,
+      "spectral_flux": 0.009708,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 21.445312,
+      "offset_ms": 40.355
+    },
+    {
+      "time_sec": 21.560667,
+      "spectral_flux": 0.036643,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 21.5625,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 21.680667,
+      "spectral_flux": 0.021221,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 21.679688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 21.805667,
+      "spectral_flux": 0.016551,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 21.804875,
+      "offset_ms": 0.792
+    },
+    {
+      "time_sec": 21.910667,
+      "spectral_flux": 0.034301,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 21.914062,
+      "offset_ms": -3.395
+    },
+    {
+      "time_sec": 22.030667,
+      "spectral_flux": 0.054381,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 22.03125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 22.125667,
+      "spectral_flux": 0.017326,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 22.148438,
+      "offset_ms": -22.771
+    },
+    {
+      "time_sec": 22.195667,
+      "spectral_flux": 0.023251,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 22.148438,
+      "offset_ms": 47.229
+    },
+    {
+      "time_sec": 22.265667,
+      "spectral_flux": 0.035772,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 22.265625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 22.340667,
+      "spectral_flux": 0.026811,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 22.382812,
+      "offset_ms": -42.145
+    },
+    {
+      "time_sec": 22.500667,
+      "spectral_flux": 0.02369,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 22.5,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 22.565667,
+      "spectral_flux": 0.006375,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 22.617188,
+      "offset_ms": -51.521
+    },
+    {
+      "time_sec": 22.850667,
+      "spectral_flux": 0.007491,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 22.851562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 23.205667,
+      "spectral_flux": 0.008205,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 23.203125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 23.435667,
+      "spectral_flux": 0.033664,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 23.4375,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 23.520667,
+      "spectral_flux": 0.01106,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 23.554688,
+      "offset_ms": -34.021
+    },
+    {
+      "time_sec": 23.670667,
+      "spectral_flux": 0.024701,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 23.671875,
+      "offset_ms": -1.208
+    },
+    {
+      "time_sec": 23.905667,
+      "spectral_flux": 0.005838,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 23.90625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 24.375667,
+      "spectral_flux": 0.025778,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 24.375,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 25.310667,
+      "spectral_flux": 0.036721,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 25.3125,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 25.380667,
+      "spectral_flux": 0.013254,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 25.429688,
+      "offset_ms": -49.021
+    },
+    {
+      "time_sec": 25.545667,
+      "spectral_flux": 0.036793,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 25.546875,
+      "offset_ms": -1.208
+    },
+    {
+      "time_sec": 25.665667,
+      "spectral_flux": 0.005784,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 25.664062,
+      "offset_ms": 1.605
+    },
+    {
+      "time_sec": 25.780667,
+      "spectral_flux": 0.00829,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 25.78125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 28.825667,
+      "spectral_flux": 0.008038,
+      "nearest_composed_event": "build-snare",
+      "nearest_event_time_sec": 29.0625,
+      "offset_ms": -236.833
+    },
+    {
+      "time_sec": 28.985667,
+      "spectral_flux": 0.012231,
+      "nearest_composed_event": "build-snare",
+      "nearest_event_time_sec": 29.0625,
+      "offset_ms": -76.833
+    },
+    {
+      "time_sec": 29.065667,
+      "spectral_flux": 0.018275,
+      "nearest_composed_event": "build-snare",
+      "nearest_event_time_sec": 29.0625,
+      "offset_ms": 3.167
+    },
+    {
+      "time_sec": 29.135667,
+      "spectral_flux": 0.014911,
+      "nearest_composed_event": "build-snare",
+      "nearest_event_time_sec": 29.0625,
+      "offset_ms": 73.167
+    },
+    {
+      "time_sec": 29.295667,
+      "spectral_flux": 0.023036,
+      "nearest_composed_event": "build-snare",
+      "nearest_event_time_sec": 29.296875,
+      "offset_ms": -1.208
+    },
+    {
+      "time_sec": 29.365667,
+      "spectral_flux": 0.010119,
+      "nearest_composed_event": "build-snare",
+      "nearest_event_time_sec": 29.296875,
+      "offset_ms": 68.792
+    },
+    {
+      "time_sec": 29.450667,
+      "spectral_flux": 0.018964,
+      "nearest_composed_event": "build-snare",
+      "nearest_event_time_sec": 29.53125,
+      "offset_ms": -80.583
+    },
+    {
+      "time_sec": 29.535667,
+      "spectral_flux": 0.023761,
+      "nearest_composed_event": "build-snare",
+      "nearest_event_time_sec": 29.53125,
+      "offset_ms": 4.417
+    },
+    {
+      "time_sec": 29.650667,
+      "spectral_flux": 0.024239,
+      "nearest_composed_event": "build-snare",
+      "nearest_event_time_sec": 29.648438,
+      "offset_ms": 2.229
+    },
+    {
+      "time_sec": 29.765667,
+      "spectral_flux": 0.033301,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 29.765625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 29.840667,
+      "spectral_flux": 0.02855,
+      "nearest_composed_event": "build-snare",
+      "nearest_event_time_sec": 29.882812,
+      "offset_ms": -42.145
+    },
+    {
+      "time_sec": 30.000667,
+      "spectral_flux": 0.077174,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 30.0,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 30.080667,
+      "spectral_flux": 0.024858,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 30.117188,
+      "offset_ms": -36.521
+    },
+    {
+      "time_sec": 30.175667,
+      "spectral_flux": 0.020046,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 30.117188,
+      "offset_ms": 58.479
+    },
+    {
+      "time_sec": 30.250667,
+      "spectral_flux": 0.015822,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 30.242375,
+      "offset_ms": 8.292
+    },
+    {
+      "time_sec": 30.350667,
+      "spectral_flux": 0.02342,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 30.351562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 30.470667,
+      "spectral_flux": 0.072068,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 30.46875,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 30.550667,
+      "spectral_flux": 0.020404,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 30.585938,
+      "offset_ms": -35.271
+    },
+    {
+      "time_sec": 30.615667,
+      "spectral_flux": 0.010018,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 30.585938,
+      "offset_ms": 29.729
+    },
+    {
+      "time_sec": 30.705667,
+      "spectral_flux": 0.026913,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 30.703125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 30.825667,
+      "spectral_flux": 0.007882,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 30.820312,
+      "offset_ms": 5.355
+    },
+    {
+      "time_sec": 30.935667,
+      "spectral_flux": 0.047393,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 30.9375,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 31.055667,
+      "spectral_flux": 0.012906,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 31.054688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 31.175667,
+      "spectral_flux": 0.016912,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 31.171875,
+      "offset_ms": 3.792
+    },
+    {
+      "time_sec": 31.290667,
+      "spectral_flux": 0.010056,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 31.289062,
+      "offset_ms": 1.605
+    },
+    {
+      "time_sec": 31.405667,
+      "spectral_flux": 0.067432,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 31.40625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 31.520667,
+      "spectral_flux": 0.038122,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 31.523438,
+      "offset_ms": -2.771
+    },
+    {
+      "time_sec": 31.640667,
+      "spectral_flux": 0.016556,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 31.640625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 31.715667,
+      "spectral_flux": 0.006165,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 31.757812,
+      "offset_ms": -42.145
+    },
+    {
+      "time_sec": 31.875667,
+      "spectral_flux": 0.044306,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 31.875,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 31.940667,
+      "spectral_flux": 0.006386,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 31.992188,
+      "offset_ms": -51.521
+    },
+    {
+      "time_sec": 32.115667,
+      "spectral_flux": 0.009568,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 32.117375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 32.225667,
+      "spectral_flux": 0.026454,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 32.226562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 32.345667,
+      "spectral_flux": 0.065773,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 32.34375,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 32.575667,
+      "spectral_flux": 0.046679,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 32.578125,
+      "offset_ms": -2.458
+    },
+    {
+      "time_sec": 32.645667,
+      "spectral_flux": 0.006946,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 32.695312,
+      "offset_ms": -49.645
+    },
+    {
+      "time_sec": 32.715667,
+      "spectral_flux": 0.005898,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 32.695312,
+      "offset_ms": 20.355
+    },
+    {
+      "time_sec": 32.810667,
+      "spectral_flux": 0.045232,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 32.8125,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 32.930667,
+      "spectral_flux": 0.024655,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 32.929688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 33.050667,
+      "spectral_flux": 0.00649,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 33.054875,
+      "offset_ms": -4.208
+    },
+    {
+      "time_sec": 33.160667,
+      "spectral_flux": 0.04035,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 33.164062,
+      "offset_ms": -3.395
+    },
+    {
+      "time_sec": 33.280667,
+      "spectral_flux": 0.072715,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 33.28125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 33.445667,
+      "spectral_flux": 0.006773,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 33.398438,
+      "offset_ms": 47.229
+    },
+    {
+      "time_sec": 33.515667,
+      "spectral_flux": 0.042419,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 33.515625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 33.625667,
+      "spectral_flux": 0.00806,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 33.632812,
+      "offset_ms": -7.145
+    },
+    {
+      "time_sec": 33.750667,
+      "spectral_flux": 0.039703,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 33.75,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 33.815667,
+      "spectral_flux": 0.006795,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 33.867188,
+      "offset_ms": -51.521
+    },
+    {
+      "time_sec": 33.990667,
+      "spectral_flux": 0.009742,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 33.992375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 34.100667,
+      "spectral_flux": 0.022887,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 34.101562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 34.220667,
+      "spectral_flux": 0.070132,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 34.21875,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 34.300667,
+      "spectral_flux": 0.017772,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 34.335938,
+      "offset_ms": -35.271
+    },
+    {
+      "time_sec": 34.365667,
+      "spectral_flux": 0.009091,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 34.335938,
+      "offset_ms": 29.729
+    },
+    {
+      "time_sec": 34.455667,
+      "spectral_flux": 0.025259,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 34.453125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 34.520667,
+      "spectral_flux": 0.005707,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 34.570312,
+      "offset_ms": -49.645
+    },
+    {
+      "time_sec": 34.685667,
+      "spectral_flux": 0.047181,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 34.6875,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 34.810667,
+      "spectral_flux": 0.010594,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 34.804688,
+      "offset_ms": 5.979
+    },
+    {
+      "time_sec": 34.925667,
+      "spectral_flux": 0.013996,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 34.921875,
+      "offset_ms": 3.792
+    },
+    {
+      "time_sec": 35.040667,
+      "spectral_flux": 0.008674,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 35.039062,
+      "offset_ms": 1.605
+    },
+    {
+      "time_sec": 35.155667,
+      "spectral_flux": 0.068471,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 35.15625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 35.270667,
+      "spectral_flux": 0.037965,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 35.273438,
+      "offset_ms": -2.771
+    },
+    {
+      "time_sec": 35.400667,
+      "spectral_flux": 0.017253,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 35.398625,
+      "offset_ms": 2.042
+    },
+    {
+      "time_sec": 35.505667,
+      "spectral_flux": 0.008399,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 35.507812,
+      "offset_ms": -2.145
+    },
+    {
+      "time_sec": 35.625667,
+      "spectral_flux": 0.042881,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 35.625,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 35.865667,
+      "spectral_flux": 0.008672,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 35.867375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 35.975667,
+      "spectral_flux": 0.025679,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 35.976562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 36.095667,
+      "spectral_flux": 0.063785,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 36.09375,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 36.325667,
+      "spectral_flux": 0.045571,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 36.328125,
+      "offset_ms": -2.458
+    },
+    {
+      "time_sec": 36.445667,
+      "spectral_flux": 0.007488,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 36.445312,
+      "offset_ms": 0.355
+    },
+    {
+      "time_sec": 36.560667,
+      "spectral_flux": 0.044066,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 36.5625,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 36.680667,
+      "spectral_flux": 0.020466,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 36.679688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 36.805667,
+      "spectral_flux": 0.00833,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 36.804875,
+      "offset_ms": 0.792
+    },
+    {
+      "time_sec": 36.910667,
+      "spectral_flux": 0.038409,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 36.914062,
+      "offset_ms": -3.395
+    },
+    {
+      "time_sec": 37.030667,
+      "spectral_flux": 0.073008,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 37.03125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 37.100667,
+      "spectral_flux": 0.019041,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 37.148438,
+      "offset_ms": -47.771
+    },
+    {
+      "time_sec": 37.265667,
+      "spectral_flux": 0.041536,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 37.265625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 37.385667,
+      "spectral_flux": 0.013137,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 37.382812,
+      "offset_ms": 2.855
+    },
+    {
+      "time_sec": 37.500667,
+      "spectral_flux": 0.040238,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 37.5,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 37.590667,
+      "spectral_flux": 0.008254,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 37.617188,
+      "offset_ms": -26.521
+    },
+    {
+      "time_sec": 37.740667,
+      "spectral_flux": 0.009793,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 37.742375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 37.850667,
+      "spectral_flux": 0.026149,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 37.851562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 37.970667,
+      "spectral_flux": 0.068385,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 37.96875,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 38.050667,
+      "spectral_flux": 0.018777,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 38.085938,
+      "offset_ms": -35.271
+    },
+    {
+      "time_sec": 38.115667,
+      "spectral_flux": 0.00858,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 38.085938,
+      "offset_ms": 29.729
+    },
+    {
+      "time_sec": 38.205667,
+      "spectral_flux": 0.028098,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 38.203125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 38.435667,
+      "spectral_flux": 0.045248,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 38.4375,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 38.555667,
+      "spectral_flux": 0.014921,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 38.554688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 38.670667,
+      "spectral_flux": 0.013819,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 38.671875,
+      "offset_ms": -1.208
+    },
+    {
+      "time_sec": 38.790667,
+      "spectral_flux": 0.009392,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 38.789062,
+      "offset_ms": 1.605
+    },
+    {
+      "time_sec": 38.905667,
+      "spectral_flux": 0.065359,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 38.90625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 39.020667,
+      "spectral_flux": 0.035481,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 39.023438,
+      "offset_ms": -2.771
+    },
+    {
+      "time_sec": 39.140667,
+      "spectral_flux": 0.017681,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 39.140625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 39.210667,
+      "spectral_flux": 0.006415,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 39.257812,
+      "offset_ms": -47.145
+    },
+    {
+      "time_sec": 39.375667,
+      "spectral_flux": 0.0435,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 39.375,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 39.465667,
+      "spectral_flux": 0.00892,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 39.492188,
+      "offset_ms": -26.521
+    },
+    {
+      "time_sec": 39.615667,
+      "spectral_flux": 0.009178,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 39.617375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 39.725667,
+      "spectral_flux": 0.025326,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 39.726562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 39.845667,
+      "spectral_flux": 0.063544,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 39.84375,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 39.990667,
+      "spectral_flux": 0.006989,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 39.960938,
+      "offset_ms": 29.729
+    },
+    {
+      "time_sec": 40.075667,
+      "spectral_flux": 0.045402,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 40.078125,
+      "offset_ms": -2.458
+    },
+    {
+      "time_sec": 40.170667,
+      "spectral_flux": 0.00708,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 40.195312,
+      "offset_ms": -24.645
+    },
+    {
+      "time_sec": 40.310667,
+      "spectral_flux": 0.042147,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 40.3125,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 40.430667,
+      "spectral_flux": 0.02606,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 40.429688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 40.555667,
+      "spectral_flux": 0.007164,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 40.554875,
+      "offset_ms": 0.792
+    },
+    {
+      "time_sec": 40.660667,
+      "spectral_flux": 0.037584,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 40.664062,
+      "offset_ms": -3.395
+    },
+    {
+      "time_sec": 40.780667,
+      "spectral_flux": 0.069117,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 40.78125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 41.015667,
+      "spectral_flux": 0.040088,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 41.015625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 41.135667,
+      "spectral_flux": 0.0086,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 41.132812,
+      "offset_ms": 2.855
+    },
+    {
+      "time_sec": 41.250667,
+      "spectral_flux": 0.038238,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 41.25,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 41.360667,
+      "spectral_flux": 0.006011,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 41.367188,
+      "offset_ms": -6.521
+    },
+    {
+      "time_sec": 41.490667,
+      "spectral_flux": 0.008109,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 41.492375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 41.600667,
+      "spectral_flux": 0.021818,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 41.601562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 41.720667,
+      "spectral_flux": 0.069343,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 41.71875,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 41.800667,
+      "spectral_flux": 0.017005,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 41.835938,
+      "offset_ms": -35.271
+    },
+    {
+      "time_sec": 41.865667,
+      "spectral_flux": 0.008874,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 41.835938,
+      "offset_ms": 29.729
+    },
+    {
+      "time_sec": 41.955667,
+      "spectral_flux": 0.024836,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 41.953125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 42.040667,
+      "spectral_flux": 0.006494,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 42.070312,
+      "offset_ms": -29.645
+    },
+    {
+      "time_sec": 42.185667,
+      "spectral_flux": 0.04619,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 42.1875,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 42.305667,
+      "spectral_flux": 0.009922,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 42.304688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 42.425667,
+      "spectral_flux": 0.013504,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 42.421875,
+      "offset_ms": 3.792
+    },
+    {
+      "time_sec": 42.540667,
+      "spectral_flux": 0.01002,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 42.539062,
+      "offset_ms": 1.605
+    },
+    {
+      "time_sec": 42.655667,
+      "spectral_flux": 0.062612,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 42.65625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 42.770667,
+      "spectral_flux": 0.035056,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 42.773438,
+      "offset_ms": -2.771
+    },
+    {
+      "time_sec": 42.890667,
+      "spectral_flux": 0.015626,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 42.890625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 43.125667,
+      "spectral_flux": 0.042181,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 43.125,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 43.235667,
+      "spectral_flux": 0.005788,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 43.242188,
+      "offset_ms": -6.521
+    },
+    {
+      "time_sec": 43.365667,
+      "spectral_flux": 0.00664,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 43.367375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 43.475667,
+      "spectral_flux": 0.021583,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 43.476562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 43.595667,
+      "spectral_flux": 0.061882,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 43.59375,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 43.685667,
+      "spectral_flux": 0.013324,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 43.710938,
+      "offset_ms": -25.271
+    },
+    {
+      "time_sec": 43.825667,
+      "spectral_flux": 0.04147,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 43.828125,
+      "offset_ms": -2.458
+    },
+    {
+      "time_sec": 43.900667,
+      "spectral_flux": 0.006326,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 43.945312,
+      "offset_ms": -44.645
+    },
+    {
+      "time_sec": 43.975667,
+      "spectral_flux": 0.009037,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 43.945312,
+      "offset_ms": 30.355
+    },
+    {
+      "time_sec": 44.060667,
+      "spectral_flux": 0.039834,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 44.0625,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 44.180667,
+      "spectral_flux": 0.019619,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 44.179688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 44.270667,
+      "spectral_flux": 0.014856,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 44.304875,
+      "offset_ms": -34.208
+    },
+    {
+      "time_sec": 44.345667,
+      "spectral_flux": 0.008982,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 44.304875,
+      "offset_ms": 40.792
+    },
+    {
+      "time_sec": 44.410667,
+      "spectral_flux": 0.036434,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 44.414062,
+      "offset_ms": -3.395
+    },
+    {
+      "time_sec": 44.530667,
+      "spectral_flux": 0.058939,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 44.53125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 44.600667,
+      "spectral_flux": 0.024967,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 44.648438,
+      "offset_ms": -47.771
+    },
+    {
+      "time_sec": 44.695667,
+      "spectral_flux": 0.019118,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 44.648438,
+      "offset_ms": 47.229
+    },
+    {
+      "time_sec": 44.765667,
+      "spectral_flux": 0.035389,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 44.765625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 44.835667,
+      "spectral_flux": 0.025974,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 44.882812,
+      "offset_ms": -47.145
+    },
+    {
+      "time_sec": 44.905667,
+      "spectral_flux": 0.012509,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 44.882812,
+      "offset_ms": 22.855
+    },
+    {
+      "time_sec": 45.000667,
+      "spectral_flux": 0.064677,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 45.0,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 45.065667,
+      "spectral_flux": 0.019037,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 45.117188,
+      "offset_ms": -51.521
+    },
+    {
+      "time_sec": 45.175667,
+      "spectral_flux": 0.017025,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 45.125188,
+      "offset_ms": 50.479
+    },
+    {
+      "time_sec": 45.250667,
+      "spectral_flux": 0.01002,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 45.234375,
+      "offset_ms": 16.292
+    },
+    {
+      "time_sec": 45.350667,
+      "spectral_flux": 0.026591,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 45.351562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 45.470667,
+      "spectral_flux": 0.076471,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 45.46875,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 45.550667,
+      "spectral_flux": 0.020218,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 45.593938,
+      "offset_ms": -43.271
+    },
+    {
+      "time_sec": 45.615667,
+      "spectral_flux": 0.009557,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 45.593938,
+      "offset_ms": 21.729
+    },
+    {
+      "time_sec": 45.705667,
+      "spectral_flux": 0.032641,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 45.703125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 45.825667,
+      "spectral_flux": 0.011483,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 45.828312,
+      "offset_ms": -2.645
+    },
+    {
+      "time_sec": 45.935667,
+      "spectral_flux": 0.052268,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 45.9375,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 46.060667,
+      "spectral_flux": 0.017302,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 46.062688,
+      "offset_ms": -2.021
+    },
+    {
+      "time_sec": 46.170667,
+      "spectral_flux": 0.021949,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 46.171875,
+      "offset_ms": -1.208
+    },
+    {
+      "time_sec": 46.290667,
+      "spectral_flux": 0.011908,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 46.289062,
+      "offset_ms": 1.605
+    },
+    {
+      "time_sec": 46.405667,
+      "spectral_flux": 0.07196,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 46.40625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 46.520667,
+      "spectral_flux": 0.040419,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 46.523438,
+      "offset_ms": -2.771
+    },
+    {
+      "time_sec": 46.640667,
+      "spectral_flux": 0.023168,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 46.640625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 46.765667,
+      "spectral_flux": 0.008812,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 46.765812,
+      "offset_ms": -0.145
+    },
+    {
+      "time_sec": 46.875667,
+      "spectral_flux": 0.047024,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 46.875,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 47.000667,
+      "spectral_flux": 0.009276,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 47.000188,
+      "offset_ms": 0.479
+    },
+    {
+      "time_sec": 47.110667,
+      "spectral_flux": 0.019631,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 47.109375,
+      "offset_ms": 1.292
+    },
+    {
+      "time_sec": 47.225667,
+      "spectral_flux": 0.027603,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 47.226562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 47.345667,
+      "spectral_flux": 0.069602,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 47.34375,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 47.575667,
+      "spectral_flux": 0.055298,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 47.578125,
+      "offset_ms": -2.458
+    },
+    {
+      "time_sec": 47.700667,
+      "spectral_flux": 0.007964,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 47.703312,
+      "offset_ms": -2.645
+    },
+    {
+      "time_sec": 47.810667,
+      "spectral_flux": 0.048081,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 47.8125,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 47.930667,
+      "spectral_flux": 0.026784,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 47.929688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 48.045667,
+      "spectral_flux": 0.012278,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 48.046875,
+      "offset_ms": -1.208
+    },
+    {
+      "time_sec": 48.160667,
+      "spectral_flux": 0.043159,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 48.164062,
+      "offset_ms": -3.395
+    },
+    {
+      "time_sec": 48.280667,
+      "spectral_flux": 0.076498,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 48.28125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 48.445667,
+      "spectral_flux": 0.006955,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 48.406438,
+      "offset_ms": 39.229
+    },
+    {
+      "time_sec": 48.515667,
+      "spectral_flux": 0.049531,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 48.515625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 48.635667,
+      "spectral_flux": 0.009211,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 48.632812,
+      "offset_ms": 2.855
+    },
+    {
+      "time_sec": 48.750667,
+      "spectral_flux": 0.040987,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 48.75,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 48.875667,
+      "spectral_flux": 0.008103,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 48.875188,
+      "offset_ms": 0.479
+    },
+    {
+      "time_sec": 48.985667,
+      "spectral_flux": 0.01192,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 48.984375,
+      "offset_ms": 1.292
+    },
+    {
+      "time_sec": 49.100667,
+      "spectral_flux": 0.024665,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 49.101562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 49.220667,
+      "spectral_flux": 0.073939,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 49.21875,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 49.300667,
+      "spectral_flux": 0.018471,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 49.343938,
+      "offset_ms": -43.271
+    },
+    {
+      "time_sec": 49.365667,
+      "spectral_flux": 0.009579,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 49.343938,
+      "offset_ms": 21.729
+    },
+    {
+      "time_sec": 49.455667,
+      "spectral_flux": 0.029567,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 49.453125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 49.575667,
+      "spectral_flux": 0.007662,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 49.578312,
+      "offset_ms": -2.645
+    },
+    {
+      "time_sec": 49.685667,
+      "spectral_flux": 0.051023,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 49.6875,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 49.810667,
+      "spectral_flux": 0.016564,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 49.812688,
+      "offset_ms": -2.021
+    },
+    {
+      "time_sec": 49.920667,
+      "spectral_flux": 0.020764,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 49.921875,
+      "offset_ms": -1.208
+    },
+    {
+      "time_sec": 50.040667,
+      "spectral_flux": 0.011178,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 50.039062,
+      "offset_ms": 1.605
+    },
+    {
+      "time_sec": 50.155667,
+      "spectral_flux": 0.072762,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 50.15625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 50.270667,
+      "spectral_flux": 0.040323,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 50.273438,
+      "offset_ms": -2.771
+    },
+    {
+      "time_sec": 50.390667,
+      "spectral_flux": 0.020516,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 50.390625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 50.515667,
+      "spectral_flux": 0.009298,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 50.515812,
+      "offset_ms": -0.145
+    },
+    {
+      "time_sec": 50.625667,
+      "spectral_flux": 0.044323,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 50.625,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 50.750667,
+      "spectral_flux": 0.008817,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 50.750188,
+      "offset_ms": 0.479
+    },
+    {
+      "time_sec": 50.860667,
+      "spectral_flux": 0.016276,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 50.859375,
+      "offset_ms": 1.292
+    },
+    {
+      "time_sec": 50.975667,
+      "spectral_flux": 0.026574,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 50.976562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 51.095667,
+      "spectral_flux": 0.067517,
+      "nearest_composed_event": "snare-clap",
+      "nearest_event_time_sec": 51.09375,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 51.325667,
+      "spectral_flux": 0.053885,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 51.328125,
+      "offset_ms": -2.458
+    },
+    {
+      "time_sec": 51.455667,
+      "spectral_flux": 0.009234,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 51.453312,
+      "offset_ms": 2.355
+    },
+    {
+      "time_sec": 51.560667,
+      "spectral_flux": 0.047445,
+      "nearest_composed_event": "kick",
+      "nearest_event_time_sec": 51.5625,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 51.680667,
+      "spectral_flux": 0.022644,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 51.679688,
+      "offset_ms": 0.979
+    },
+    {
+      "time_sec": 51.795667,
+      "spectral_flux": 0.014063,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 51.796875,
+      "offset_ms": -1.208
+    },
+    {
+      "time_sec": 51.910667,
+      "spectral_flux": 0.041034,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 51.914062,
+      "offset_ms": -3.395
+    },
+    {
+      "time_sec": 52.030667,
+      "spectral_flux": 0.077129,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 52.03125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 52.100667,
+      "spectral_flux": 0.019838,
+      "nearest_composed_event": "tom-fill",
+      "nearest_event_time_sec": 52.148438,
+      "offset_ms": -47.771
+    },
+    {
+      "time_sec": 52.265667,
+      "spectral_flux": 0.047603,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 52.265625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 52.385667,
+      "spectral_flux": 0.014006,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 52.382812,
+      "offset_ms": 2.855
+    },
+    {
+      "time_sec": 52.500667,
+      "spectral_flux": 0.024122,
+      "nearest_composed_event": "minor-pad",
+      "nearest_event_time_sec": 52.5,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 52.740667,
+      "spectral_flux": 0.006945,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 52.742375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 52.850667,
+      "spectral_flux": 0.009407,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 52.851562,
+      "offset_ms": -0.895
+    },
+    {
+      "time_sec": 52.970667,
+      "spectral_flux": 0.005824,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 52.96875,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 53.205667,
+      "spectral_flux": 0.013642,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 53.203125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 53.435667,
+      "spectral_flux": 0.051079,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 53.4375,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 53.585667,
+      "spectral_flux": 0.008145,
+      "nearest_composed_event": "bell",
+      "nearest_event_time_sec": 53.554688,
+      "offset_ms": 30.979
+    },
+    {
+      "time_sec": 53.675667,
+      "spectral_flux": 0.008408,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 53.671875,
+      "offset_ms": 3.792
+    },
+    {
+      "time_sec": 53.905667,
+      "spectral_flux": 0.006658,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 53.90625,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 54.025667,
+      "spectral_flux": 0.011114,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 54.023438,
+      "offset_ms": 2.229
+    },
+    {
+      "time_sec": 54.140667,
+      "spectral_flux": 0.007707,
+      "nearest_composed_event": "open-hat",
+      "nearest_event_time_sec": 54.140625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 54.375667,
+      "spectral_flux": 0.026529,
+      "nearest_composed_event": "lead",
+      "nearest_event_time_sec": 54.375,
+      "offset_ms": 0.667
+    },
+    {
+      "time_sec": 54.615667,
+      "spectral_flux": 0.005863,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 54.617375,
+      "offset_ms": -1.708
+    },
+    {
+      "time_sec": 54.845667,
+      "spectral_flux": 0.006008,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 54.84375,
+      "offset_ms": 1.917
+    },
+    {
+      "time_sec": 55.080667,
+      "spectral_flux": 0.006887,
+      "nearest_composed_event": "open-hat",
+      "nearest_event_time_sec": 55.078125,
+      "offset_ms": 2.542
+    },
+    {
+      "time_sec": 55.310667,
+      "spectral_flux": 0.035271,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 55.3125,
+      "offset_ms": -1.833
+    },
+    {
+      "time_sec": 55.780667,
+      "spectral_flux": 0.007977,
+      "nearest_composed_event": "closed-hat",
+      "nearest_event_time_sec": 55.78125,
+      "offset_ms": -0.583
+    },
+    {
+      "time_sec": 56.015667,
+      "spectral_flux": 0.009545,
+      "nearest_composed_event": "open-hat",
+      "nearest_event_time_sec": 56.015625,
+      "offset_ms": 0.042
+    },
+    {
+      "time_sec": 58.120667,
+      "spectral_flux": 0.063469,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 58.125,
+      "offset_ms": -4.333
+    },
+    {
+      "time_sec": 58.245667,
+      "spectral_flux": 0.026842,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 58.125,
+      "offset_ms": 120.667
+    },
+    {
+      "time_sec": 58.330667,
+      "spectral_flux": 0.019031,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 58.125,
+      "offset_ms": 205.667
+    },
+    {
+      "time_sec": 58.395667,
+      "spectral_flux": 0.021893,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 58.125,
+      "offset_ms": 270.667
+    },
+    {
+      "time_sec": 58.465667,
+      "spectral_flux": 0.015471,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 58.125,
+      "offset_ms": 340.667
+    },
+    {
+      "time_sec": 58.560667,
+      "spectral_flux": 0.009697,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 58.125,
+      "offset_ms": 435.667
+    },
+    {
+      "time_sec": 58.655667,
+      "spectral_flux": 0.00892,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 58.125,
+      "offset_ms": 530.667
+    },
+    {
+      "time_sec": 58.750667,
+      "spectral_flux": 0.006773,
+      "nearest_composed_event": "bass",
+      "nearest_event_time_sec": 58.125,
+      "offset_ms": 625.667
+    }
+  ],
+  "kick_attack_measurements": [
+    {
+      "scheduled_sec": 1.875,
+      "measured_drum_peak_sec": 1.876562,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 3.75,
+      "measured_drum_peak_sec": 3.751396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 5.625,
+      "measured_drum_peak_sec": 5.625979,
+      "offset_ms": 0.979,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 6.796875,
+      "measured_drum_peak_sec": 6.798438,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 7.5,
+      "measured_drum_peak_sec": 7.500979,
+      "offset_ms": 0.979,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 7.96875,
+      "measured_drum_peak_sec": 7.970396,
+      "offset_ms": 1.646,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 8.4375,
+      "measured_drum_peak_sec": 8.438896,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 9.023438,
+      "measured_drum_peak_sec": 9.024979,
+      "offset_ms": 1.542,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 9.375,
+      "measured_drum_peak_sec": 9.376396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 10.078125,
+      "measured_drum_peak_sec": 10.079792,
+      "offset_ms": 1.667,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 10.3125,
+      "measured_drum_peak_sec": 10.317104,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 10.664062,
+      "measured_drum_peak_sec": 10.665625,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 11.015625,
+      "measured_drum_peak_sec": 11.017292,
+      "offset_ms": 1.667,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 11.25,
+      "measured_drum_peak_sec": 11.254604,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 11.71875,
+      "measured_drum_peak_sec": 11.720396,
+      "offset_ms": 1.646,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 12.1875,
+      "measured_drum_peak_sec": 12.188479,
+      "offset_ms": 0.979,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 12.773438,
+      "measured_drum_peak_sec": 12.774979,
+      "offset_ms": 1.542,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 13.125,
+      "measured_drum_peak_sec": 13.126396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 13.828125,
+      "measured_drum_peak_sec": 13.829792,
+      "offset_ms": 1.667,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 14.0625,
+      "measured_drum_peak_sec": 14.067104,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 14.414062,
+      "measured_drum_peak_sec": 14.415625,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 14.765625,
+      "measured_drum_peak_sec": 14.767417,
+      "offset_ms": 1.792,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 15.0,
+      "measured_drum_peak_sec": 15.004604,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 15.46875,
+      "measured_drum_peak_sec": 15.470396,
+      "offset_ms": 1.646,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 15.9375,
+      "measured_drum_peak_sec": 15.938479,
+      "offset_ms": 0.979,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 16.523438,
+      "measured_drum_peak_sec": 16.524979,
+      "offset_ms": 1.542,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 16.875,
+      "measured_drum_peak_sec": 16.876396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 17.578125,
+      "measured_drum_peak_sec": 17.579792,
+      "offset_ms": 1.667,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 17.8125,
+      "measured_drum_peak_sec": 17.817104,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 18.164062,
+      "measured_drum_peak_sec": 18.165625,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 18.515625,
+      "measured_drum_peak_sec": 18.517292,
+      "offset_ms": 1.667,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 18.75,
+      "measured_drum_peak_sec": 18.754604,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 19.21875,
+      "measured_drum_peak_sec": 19.220396,
+      "offset_ms": 1.646,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 19.6875,
+      "measured_drum_peak_sec": 19.688479,
+      "offset_ms": 0.979,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 20.273438,
+      "measured_drum_peak_sec": 20.274979,
+      "offset_ms": 1.542,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 20.625,
+      "measured_drum_peak_sec": 20.626396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 21.328125,
+      "measured_drum_peak_sec": 21.329792,
+      "offset_ms": 1.667,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 21.5625,
+      "measured_drum_peak_sec": 21.567104,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 21.914062,
+      "measured_drum_peak_sec": 21.915625,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 22.265625,
+      "measured_drum_peak_sec": 22.267417,
+      "offset_ms": 1.792,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 22.5,
+      "measured_drum_peak_sec": 22.504604,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 23.671875,
+      "measured_drum_peak_sec": 23.673437,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 24.375,
+      "measured_drum_peak_sec": 24.376396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 25.546875,
+      "measured_drum_peak_sec": 25.548437,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 29.765625,
+      "measured_drum_peak_sec": 29.767271,
+      "offset_ms": 1.646,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 30.0,
+      "measured_drum_peak_sec": 30.004729,
+      "offset_ms": 4.729,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 30.46875,
+      "measured_drum_peak_sec": 30.470396,
+      "offset_ms": 1.646,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 30.9375,
+      "measured_drum_peak_sec": 30.938896,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 31.523438,
+      "measured_drum_peak_sec": 31.524979,
+      "offset_ms": 1.542,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 31.875,
+      "measured_drum_peak_sec": 31.876396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 32.578125,
+      "measured_drum_peak_sec": 32.579792,
+      "offset_ms": 1.667,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 32.8125,
+      "measured_drum_peak_sec": 32.817104,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 33.164062,
+      "measured_drum_peak_sec": 33.165625,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 33.515625,
+      "measured_drum_peak_sec": 33.517292,
+      "offset_ms": 1.667,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 33.75,
+      "measured_drum_peak_sec": 33.754604,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 34.21875,
+      "measured_drum_peak_sec": 34.220396,
+      "offset_ms": 1.646,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 34.6875,
+      "measured_drum_peak_sec": 34.688479,
+      "offset_ms": 0.979,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 35.273438,
+      "measured_drum_peak_sec": 35.274979,
+      "offset_ms": 1.542,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 35.625,
+      "measured_drum_peak_sec": 35.626396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 36.328125,
+      "measured_drum_peak_sec": 36.329792,
+      "offset_ms": 1.667,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 36.5625,
+      "measured_drum_peak_sec": 36.567104,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 36.914062,
+      "measured_drum_peak_sec": 36.915625,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 37.265625,
+      "measured_drum_peak_sec": 37.267417,
+      "offset_ms": 1.792,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 37.5,
+      "measured_drum_peak_sec": 37.504604,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 37.96875,
+      "measured_drum_peak_sec": 37.970396,
+      "offset_ms": 1.646,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 38.4375,
+      "measured_drum_peak_sec": 38.438479,
+      "offset_ms": 0.979,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 39.023438,
+      "measured_drum_peak_sec": 39.024979,
+      "offset_ms": 1.542,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 39.375,
+      "measured_drum_peak_sec": 39.376396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 40.078125,
+      "measured_drum_peak_sec": 40.079792,
+      "offset_ms": 1.667,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 40.3125,
+      "measured_drum_peak_sec": 40.317104,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 40.664062,
+      "measured_drum_peak_sec": 40.665625,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 41.015625,
+      "measured_drum_peak_sec": 41.017292,
+      "offset_ms": 1.667,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 41.25,
+      "measured_drum_peak_sec": 41.254604,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 41.71875,
+      "measured_drum_peak_sec": 41.720396,
+      "offset_ms": 1.646,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 42.1875,
+      "measured_drum_peak_sec": 42.188896,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 42.773438,
+      "measured_drum_peak_sec": 42.774979,
+      "offset_ms": 1.542,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 43.125,
+      "measured_drum_peak_sec": 43.126396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 43.828125,
+      "measured_drum_peak_sec": 43.829792,
+      "offset_ms": 1.667,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 44.0625,
+      "measured_drum_peak_sec": 44.067104,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 44.414062,
+      "measured_drum_peak_sec": 44.415625,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 44.765625,
+      "measured_drum_peak_sec": 44.767417,
+      "offset_ms": 1.792,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 45.0,
+      "measured_drum_peak_sec": 45.004604,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 45.46875,
+      "measured_drum_peak_sec": 45.470396,
+      "offset_ms": 1.646,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 45.9375,
+      "measured_drum_peak_sec": 45.938479,
+      "offset_ms": 0.979,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 46.523438,
+      "measured_drum_peak_sec": 46.531896,
+      "offset_ms": 8.458,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 46.875,
+      "measured_drum_peak_sec": 46.876396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 47.578125,
+      "measured_drum_peak_sec": 47.579521,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 47.8125,
+      "measured_drum_peak_sec": 47.817104,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 48.164062,
+      "measured_drum_peak_sec": 48.165625,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 48.515625,
+      "measured_drum_peak_sec": 48.517021,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 48.75,
+      "measured_drum_peak_sec": 48.754604,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 49.21875,
+      "measured_drum_peak_sec": 49.220396,
+      "offset_ms": 1.646,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 49.6875,
+      "measured_drum_peak_sec": 49.688479,
+      "offset_ms": 0.979,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 50.273438,
+      "measured_drum_peak_sec": 50.281896,
+      "offset_ms": 8.458,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 50.625,
+      "measured_drum_peak_sec": 50.626396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 51.328125,
+      "measured_drum_peak_sec": 51.329521,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 51.5625,
+      "measured_drum_peak_sec": 51.567104,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 51.914062,
+      "measured_drum_peak_sec": 51.915625,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 52.265625,
+      "measured_drum_peak_sec": 52.267417,
+      "offset_ms": 1.792,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 52.5,
+      "measured_drum_peak_sec": 52.504604,
+      "offset_ms": 4.604,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 53.4375,
+      "measured_drum_peak_sec": 53.439146,
+      "offset_ms": 1.646,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 54.375,
+      "measured_drum_peak_sec": 54.376396,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 55.3125,
+      "measured_drum_peak_sec": 55.313896,
+      "offset_ms": 1.396,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    },
+    {
+      "scheduled_sec": 58.125,
+      "measured_drum_peak_sec": 58.126562,
+      "offset_ms": 1.562,
+      "definition": "Maximum stereo sample energy in first 45ms of drum stem; may include simultaneous percussion."
+    }
+  ],
+  "method": {
+    "onsets": "Positive log-STFT spectral flux, 1024 samples / 240-hop (5ms), separated by >=65ms. STFT timestamps are window centers and not sample-accurate attack starts.",
+    "kick": "Independent drum-stem waveform peak after each scheduled kick; musical grid is not inferred from these peaks.",
+    "listening": "Not listened to by the authoring agent. Signal QA cannot certify musical taste, timbre or the final interaction with engine/dialogue audio."
+  }
+}

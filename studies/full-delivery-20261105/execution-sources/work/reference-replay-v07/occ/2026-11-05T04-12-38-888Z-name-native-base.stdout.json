@@ -1,0 +1,67 @@
+{
+  "projectId": "5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_track",
+      "result": {
+        "ok": true,
+        "track": {
+          "id": "track_v1",
+          "alias": "V1",
+          "trackType": "video",
+          "order": 0,
+          "name": "V1 逐镜素材 · 32个独立剪辑",
+          "hidden": false,
+          "muted": false,
+          "locked": false,
+          "role": null,
+          "audioRouting": null,
+          "clips": 32
+        },
+        "tracks": [
+          {
+            "id": "track_v1",
+            "alias": "V1",
+            "trackType": "video",
+            "order": 0,
+            "name": "V1 逐镜素材 · 32个独立剪辑",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 32
+          },
+          {
+            "id": "track_bf48c46b-43b3-4223-ae62-30a96f95af82",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "A1 V07库内BGM · master",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 1
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "562f14c5-2cda-4213-8c00-3632198881c8",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-22299eb6",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_b979aba6a1d54db1",
+    "editorUrl": "http://localhost:5199/#/editor/5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+    "updatedAt": "2026-11-05T04:12:40.562Z"
+  }
+}

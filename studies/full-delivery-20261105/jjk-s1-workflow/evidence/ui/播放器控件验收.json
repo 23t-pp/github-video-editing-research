@@ -1,0 +1,21 @@
+{
+  "state": "pass_player_controls_only",
+  "testedMovie": "loops/loop-03/loop-03-high-quality.mp4",
+  "movieSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b",
+  "actualBrowserTab": "IAB 2 / tab 13",
+  "actualPlaybackObserved": {
+    "paused": false,
+    "currentTime": 0.583208,
+    "duration": 60,
+    "readyState": 4,
+    "error": null
+  },
+  "seekSeconds": 26,
+  "observedFrame": 624,
+  "afterNextObservedSeconds": 26.041666,
+  "afterNextObservedFrame": 625,
+  "screenshot": "evidence/ui/成片逐帧控件.png",
+  "screenshotSha256": "6fd52f062d2dba2fb5d8795769f30c6dfa5870a6591da92ec29fa4271d7f5cef",
+  "auditoryListeningPerformed": false,
+  "notFinalFilmApproval": true
+}

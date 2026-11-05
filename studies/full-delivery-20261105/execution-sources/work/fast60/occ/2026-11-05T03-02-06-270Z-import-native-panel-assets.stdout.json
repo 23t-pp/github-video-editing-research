@@ -1,0 +1,36 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "import_assets",
+      "result": {
+        "ok": true,
+        "imported": [
+          {
+            "id": "12b55b48-d163-4238-9bc4-a874b9f4a955",
+            "name": "P03.mp4",
+            "kind": "video",
+            "src": "/media/uploads/7cff2d2a-5736-49a9-a1fd-90d21230449d.mp4"
+          }
+        ],
+        "duplicateCount": 0,
+        "skippedDuplicates": false
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "c42ce550-7847-4692-973a-b61c16f89801",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-3c63c169",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_d0e39b5be0634cb3",
+    "editorUrl": "http://localhost:5199/#/editor/8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "updatedAt": "2026-11-05T03:02:07.473Z"
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 6,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 29.4,
+        "selector": "#panel-0 > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -852,
+          "top": 0,
+          "right": 1068,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "containerSelector": "#panel-0",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 140,
+          "right": 638,
+          "bottom": 940,
+          "width": 638,
+          "height": 800
+        },
+        "overflow": {
+          "left": 852,
+          "right": 430,
+          "top": 140,
+          "bottom": 140
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -852,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "firstSeen": 29.4,
+        "lastSeen": 29.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          29.4
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 29.4,
+        "selector": "#panel-1 > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 19,
+          "top": 0,
+          "right": 1939,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "containerSelector": "#panel-1",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 642,
+          "top": 140,
+          "right": 1278,
+          "bottom": 940,
+          "width": 636,
+          "height": 800
+        },
+        "overflow": {
+          "left": 623,
+          "right": 661,
+          "top": 140,
+          "bottom": 140
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 19,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "firstSeen": 29.4,
+        "lastSeen": 29.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          29.4
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 29.4,
+        "selector": "#panel-2 > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 852,
+          "top": 0,
+          "right": 2772,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "containerSelector": "#panel-2",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1282,
+          "top": 140,
+          "right": 1920,
+          "bottom": 940,
+          "width": 638,
+          "height": 800
+        },
+        "overflow": {
+          "left": 430,
+          "right": 852,
+          "top": 140,
+          "bottom": 140
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 852,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "firstSeen": 29.4,
+        "lastSeen": 29.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          29.4
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "info",
+        "time": 29.4,
+        "selector": "#panel-0 > div:nth-of-type(1)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": -852,
+          "top": 0,
+          "right": 1068,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "containerSelector": "#panel-0",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 140,
+          "right": 638,
+          "bottom": 940,
+          "width": 638,
+          "height": 800
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -852,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "firstSeen": 29.4,
+        "lastSeen": 29.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          29.4
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "info",
+        "time": 29.4,
+        "selector": "#panel-1 > div:nth-of-type(1)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": 19,
+          "top": 0,
+          "right": 1939,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "containerSelector": "#panel-1",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 642,
+          "top": 140,
+          "right": 1278,
+          "bottom": 940,
+          "width": 636,
+          "height": 800
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 19,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "firstSeen": 29.4,
+        "lastSeen": 29.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          29.4
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "info",
+        "time": 29.4,
+        "selector": "#panel-2 > div:nth-of-type(1)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": 852,
+          "top": 0,
+          "right": 2772,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "containerSelector": "#panel-2",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1282,
+          "top": 140,
+          "right": 1920,
+          "bottom": 940,
+          "width": 638,
+          "height": 800
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 852,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "firstSeen": 29.4,
+        "lastSeen": 29.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          29.4
+        ]
+      }
+    ],
+    "duration": 60,
+    "samples": [
+      0.9,
+      12.2,
+      29.4,
+      43.8,
+      58.6
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 6,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0.9,
+      12.2,
+      29.4,
+      43.8,
+      58.6
+    ],
+    "checked": 2,
+    "passed": 2
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 480
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

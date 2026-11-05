@@ -1,0 +1,61 @@
+{
+  "projectId": "db290905-d92d-40c3-bf6d-b978bc074d9e",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_item",
+      "result": {
+        "ok": true,
+        "atomic": true,
+        "validateOnly": false,
+        "ripple": false,
+        "results": [
+          {
+            "ok": true,
+            "kind": "text",
+            "plan": "genericUpdate",
+            "itemId": "item_86261591-4eed-4d82-b2bf-b2e9c933620c"
+          },
+          {
+            "ok": true,
+            "kind": "text",
+            "plan": "genericUpdate",
+            "itemId": "item_2732ef18-ed8a-4201-87b0-5e231966375a"
+          },
+          {
+            "ok": true,
+            "kind": "text",
+            "plan": "genericUpdate",
+            "itemId": "item_99dfc0f0-086f-4435-99f1-5d4c15845155"
+          },
+          {
+            "ok": true,
+            "kind": "text",
+            "plan": "genericUpdate",
+            "itemId": "item_9e258f06-1b31-49a0-8f0c-7e6cf86df803"
+          },
+          {
+            "ok": true,
+            "kind": "text",
+            "plan": "genericUpdate",
+            "itemId": "item_ea57add3-b9db-4cbb-a4f3-05007ef9b5f7"
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "464c268f-db00-4f9b-b066-e290b66350f2",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-1e43c416",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_6a04b1c59937479e",
+    "editorUrl": "http://localhost:5199/#/editor/db290905-d92d-40c3-bf6d-b978bc074d9e",
+    "updatedAt": "2026-11-05T07:29:46.824Z"
+  }
+}

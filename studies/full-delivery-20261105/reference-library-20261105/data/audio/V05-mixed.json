@@ -1,0 +1,54 @@
+{
+  "id": "V05",
+  "title": "V05 · 原始混合音轨",
+  "source_video_name": "势均力敌不我要绝对碾压_歌曲反击_反击CounterAttack_咒术回战_了不起的混剪团_被选召的.mp4",
+  "source_video_sha256": "ba5bfc70ab1405b0f2b0e0e6eb54d1f54a2095c18c5f8ceb5689da3d6c539961",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V05__mixed.m4a",
+  "bytes": 185051,
+  "sha256": "54db9d7c3968b7cc7b8b32ce3d8a3fe4498b1be1c687050e297f235cf1b0cb64",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 23.105260770975057,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -9.48,
+    "true_peak_dbtp": 0.75,
+    "loudness_range_lu": 1.8,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 23.241814,
+  "source_decoded_duration_sec": 23.079954648526076,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "a15b337f95eb70f4a3a859b4aa6cd087b9ed1b3e339cc923835bcea49d97f678",
+    "output_sha256": "9595661ba6b4cd3db954d12db5cbf27d228e1e02cea6c3927205f8b36ee6b2be",
+    "shared_prefix_samples": 508913,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 25.306,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "3b72f3fe7fb94132d1a122c2d9dacf7bf696e950a80b806099290d592d1e666f",
+  "source_aac_adts_sha256": "3b72f3fe7fb94132d1a122c2d9dacf7bf696e950a80b806099290d592d1e666f",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "429c5e148c19a4652bbf53581535bc6e7aa83e16514d1e332f311f88282e3a92",
+  "source_native_pcm_sha256": "18c8132a3277730b3ef9c3d9bba2eaf0103d938a7f41104f6bc6cac7fa6533be",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V05__music-candidate.m4a"
+}

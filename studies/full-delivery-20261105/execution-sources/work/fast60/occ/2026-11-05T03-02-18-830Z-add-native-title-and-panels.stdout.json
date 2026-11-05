@@ -1,0 +1,116 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_item",
+      "result": {
+        "ok": true,
+        "atomic": true,
+        "validateOnly": false,
+        "ripple": false,
+        "results": [
+          {
+            "ok": true,
+            "kind": "solid",
+            "placed": {
+              "itemId": "item_383d9238-ac6f-414c-93f0-69678a9d2c8e",
+              "name": "三联底色 · 可编辑",
+              "color": "#090b0c",
+              "track": "track_a432c3e2-bab2-471f-ba7a-7f8438abc9cf",
+              "startFrame": 675,
+              "durationInFrames": 45
+            },
+            "ripple": false
+          },
+          {
+            "ok": true,
+            "kind": "text",
+            "placed": {
+              "itemId": "item_dd3a2adc-89a5-4d40-ab5e-0ea171c5befb",
+              "name": "片名 弯心 · 可改文字",
+              "text": "弯心",
+              "track": "track_c834a8da-9ec4-4483-af6e-6b4ddbc7cfe4",
+              "startFrame": 7,
+              "durationInFrames": 68,
+              "color": "#eee9df",
+              "fontSize": 120
+            },
+            "ripple": false
+          },
+          {
+            "ok": true,
+            "kind": "text",
+            "placed": {
+              "itemId": "item_d702c951-61cf-4906-a4a2-d9e44624db49",
+              "name": "英文 APEX · 可改文字",
+              "text": "APEX",
+              "track": "track_948844bf-94f2-4219-ad71-aca0c71947b0",
+              "startFrame": 7,
+              "durationInFrames": 68,
+              "color": "#e75733",
+              "fontSize": 34
+            },
+            "ripple": false
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "25d49f49-30a2-42f4-a66f-9d7a67b59045",
+              "itemId": "item_28a1dc98-7b47-4842-9ab7-4269ba6e797a",
+              "name": "S21.mp4",
+              "kind": "video",
+              "track": "track_1eb12ea4-ca4d-4402-8d8b-4fa94c60a604",
+              "startFrame": 675,
+              "durationInFrames": 45,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "c6794f31-b138-4be9-ad83-7d65db2cad1c",
+              "itemId": "item_5a2287d5-105a-4db9-bfdc-0930a586783c",
+              "name": "S22.mp4",
+              "kind": "video",
+              "track": "track_bb0a797c-80de-4a2b-ab42-184486560630",
+              "startFrame": 675,
+              "durationInFrames": 45,
+              "srcInFrame": 12
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "12b55b48-d163-4238-9bc4-a874b9f4a955",
+              "itemId": "item_86e4c254-2384-4f9a-8108-8e819cbf8b2f",
+              "name": "P03.mp4",
+              "kind": "video",
+              "track": "track_9efb601c-df0b-486e-a503-c130956be168",
+              "startFrame": 675,
+              "durationInFrames": 45,
+              "srcInFrame": 12
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "385d2d04-6138-4e83-91c0-075846fefce5",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-440f133f",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_773779b8cc9f4f01",
+    "editorUrl": "http://localhost:5199/#/editor/8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "updatedAt": "2026-11-05T03:02:21.139Z"
+  }
+}

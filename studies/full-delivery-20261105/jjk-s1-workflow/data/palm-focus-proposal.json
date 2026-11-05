@@ -1,0 +1,66 @@
+{
+  "status": "proposal_needs_independent_visual_recheck",
+  "measurements": [
+    {
+      "shot": "S001",
+      "anchorDefinition": "人工粗标掌心中心，用于裁切设计，不是自动检测或亚像素跟踪",
+      "preparedFrame": 24,
+      "beforeAnchor": [
+        1300,
+        560
+      ],
+      "transform": {
+        "scale": 1.6,
+        "x": -434,
+        "y": 228
+      },
+      "afterAnchor": [
+        1070.0,
+        800.0
+      ],
+      "evidence": "evidence/palm-focus-AB.jpg",
+      "cropRisks": "宏观手部特写，脸与手指端部部分出画；未扩图或重绘"
+    },
+    {
+      "shot": "S002",
+      "anchorDefinition": "人工粗标掌心中心，用于裁切设计，不是自动检测或亚像素跟踪",
+      "preparedFrame": 12,
+      "beforeAnchor": [
+        1100,
+        680
+      ],
+      "transform": {
+        "scale": 1.8,
+        "x": -142,
+        "y": 8
+      },
+      "afterAnchor": [
+        1070.0,
+        800.0
+      ],
+      "evidence": "evidence/palm-focus-AB.jpg",
+      "cropRisks": "宏观手部特写，脸与手指端部部分出画；未扩图或重绘"
+    },
+    {
+      "shot": "S003",
+      "anchorDefinition": "人工粗标掌心中心，用于裁切设计，不是自动检测或亚像素跟踪",
+      "preparedFrame": 12,
+      "beforeAnchor": [
+        570,
+        930
+      ],
+      "transform": {
+        "scale": 2.4,
+        "x": 1046,
+        "y": -676
+      },
+      "afterAnchor": [
+        1070.0,
+        800.0
+      ],
+      "evidence": "evidence/palm-focus-AB.jpg",
+      "cropRisks": "宏观手部特写，脸与手指端部部分出画；未扩图或重绘"
+    }
+  ],
+  "note": "变换后近似锚点接近1070,800；手掌不是相同朝向，保留形状变奏不冒称逐像素相同"
+}

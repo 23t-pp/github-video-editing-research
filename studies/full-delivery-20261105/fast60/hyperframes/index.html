@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=1920,height=1080"><title>弯心 / APEX</title>
+<script src="assets/gsap.min.js"></script><style>* { box-sizing: border-box }
+html, body, #root { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: #000 }
+#root { position: relative }
+.plane, .title-layer, .panels, .fade { position: absolute; inset: 0 }
+.source, .panel-source { position: absolute; width: 1920px; height: 1080px; max-width: none }
+.source { inset: 0; object-fit: fill }
+.title-layer { visibility: hidden; z-index: 3; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start; padding: 0 0 258px 132px }
+.lockup { color: #eee9df; text-shadow: 0 2px 14px #130c0a70; transform: skewX(-6deg) }
+.word-mask { overflow: hidden; padding: 0 14px 4px 0 }
+.word { font: 900 120px/1.12 "Microsoft YaHei","Noto Sans CJK SC",sans-serif; letter-spacing: -7px }
+.signature { display: flex; align-items: center; gap: 14px; margin: 8px 0 0 8px; color: #e75733 }
+.stroke { width: 46px; height: 6px; background: currentColor }
+.latin { font: italic 900 34px/1 Arial,sans-serif; letter-spacing: 6px }
+.panels { z-index: 2; visibility: hidden; overflow: hidden; top: 140px; height: 800px; background: linear-gradient(to right, transparent 638px, #090b0c 638px 642px, transparent 642px 1278px, #090b0c 1278px 1282px, transparent 1282px) }
+.panel { position: absolute; top: 0; height: 800px; overflow: hidden; opacity: 0 }
+.panel-source { top: -140px }
+.fade { pointer-events: none; z-index: 4; background: #000; opacity: 0 }
+</style></head><body>
+<main id="root" data-composition-id="apex" data-start="0" data-duration="60.000000000" data-width="1920" data-height="1080" data-fps="24" data-layout-allow-overlap="true">
+<div class="plane" id="footage"><video id="base-S01" class="clip source" src="assets/shots/S01.mp4" muted playsinline preload="metadata" data-start="0.000000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S02" class="clip source" src="assets/shots/S02.mp4" muted playsinline preload="metadata" data-start="1.875000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S03" class="clip source" src="assets/shots/S03.mp4" muted playsinline preload="metadata" data-start="3.750000000" data-duration="0.958333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S04" class="clip source" src="assets/shots/S04.mp4" muted playsinline preload="metadata" data-start="4.708333333" data-duration="0.458333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S05" class="clip source" src="assets/shots/S05.mp4" muted playsinline preload="metadata" data-start="5.166666667" data-duration="0.458333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S06" class="clip source" src="assets/shots/S06.mp4" muted playsinline preload="metadata" data-start="5.625000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S07" class="clip source" src="assets/shots/S07.mp4" muted playsinline preload="metadata" data-start="7.500000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S08" class="clip source" src="assets/shots/S08.mp4" muted playsinline preload="metadata" data-start="9.375000000" data-duration="0.958333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S09" class="clip source" src="assets/shots/S09.mp4" muted playsinline preload="metadata" data-start="10.333333333" data-duration="0.458333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S10" class="clip source" src="assets/shots/S10.mp4" muted playsinline preload="metadata" data-start="10.791666667" data-duration="0.458333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S11" class="clip source" src="assets/shots/S11.mp4" muted playsinline preload="metadata" data-start="11.250000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S12" class="clip source" src="assets/shots/S12.mp4" muted playsinline preload="metadata" data-start="13.125000000" data-duration="0.958333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S13" class="clip source" src="assets/shots/S13.mp4" muted playsinline preload="metadata" data-start="14.083333333" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S14" class="clip source" src="assets/shots/S14.mp4" muted playsinline preload="metadata" data-start="15.958333333" data-duration="0.916666667" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S15" class="clip source" src="assets/shots/S15.mp4" muted playsinline preload="metadata" data-start="16.875000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S16" class="clip source" src="assets/shots/S16.mp4" muted playsinline preload="metadata" data-start="18.750000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S17" class="clip source" src="assets/shots/S17.mp4" muted playsinline preload="metadata" data-start="20.625000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S18" class="clip source" src="assets/shots/S18.mp4" muted playsinline preload="metadata" data-start="22.500000000" data-duration="0.958333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S19" class="clip source" src="assets/shots/S19.mp4" muted playsinline preload="metadata" data-start="23.458333333" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S20" class="clip source" src="assets/shots/S20.mp4" muted playsinline preload="metadata" data-start="25.333333333" data-duration="0.916666667" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S21" class="clip source" src="assets/shots/S21.mp4" muted playsinline preload="metadata" data-start="26.250000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S22" class="clip source" src="assets/shots/S22.mp4" muted playsinline preload="metadata" data-start="28.125000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S23" class="clip source" src="assets/shots/S23.mp4" muted playsinline preload="metadata" data-start="30.000000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S24" class="clip source" src="assets/shots/S24.mp4" muted playsinline preload="metadata" data-start="31.875000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S25" class="clip source" src="assets/shots/S25.mp4" muted playsinline preload="metadata" data-start="33.750000000" data-duration="0.958333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S26" class="clip source" src="assets/shots/S26.mp4" muted playsinline preload="metadata" data-start="34.708333333" data-duration="0.916666667" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S27" class="clip source" src="assets/shots/S27.mp4" muted playsinline preload="metadata" data-start="35.625000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S28" class="clip source" src="assets/shots/S28.mp4" muted playsinline preload="metadata" data-start="37.500000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S29" class="clip source" src="assets/shots/S29.mp4" muted playsinline preload="metadata" data-start="39.375000000" data-duration="0.958333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S30" class="clip source" src="assets/shots/S30.mp4" muted playsinline preload="metadata" data-start="40.333333333" data-duration="0.916666667" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S31" class="clip source" src="assets/shots/S31.mp4" muted playsinline preload="metadata" data-start="41.250000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S32" class="clip source" src="assets/shots/S32.mp4" muted playsinline preload="metadata" data-start="43.125000000" data-duration="0.958333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S33" class="clip source" src="assets/shots/S33.mp4" muted playsinline preload="metadata" data-start="44.083333333" data-duration="0.916666667" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S34" class="clip source" src="assets/shots/S34.mp4" muted playsinline preload="metadata" data-start="45.000000000" data-duration="0.958333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S35" class="clip source" src="assets/shots/S35.mp4" muted playsinline preload="metadata" data-start="45.958333333" data-duration="0.916666667" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S36" class="clip source" src="assets/shots/S36.mp4" muted playsinline preload="metadata" data-start="46.875000000" data-duration="0.958333333" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S37" class="clip source" src="assets/shots/S37.mp4" muted playsinline preload="metadata" data-start="47.833333333" data-duration="0.916666667" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S38" class="clip source" src="assets/shots/S38.mp4" muted playsinline preload="metadata" data-start="48.750000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S39" class="clip source" src="assets/shots/S39.mp4" muted playsinline preload="metadata" data-start="50.625000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S40" class="clip source" src="assets/shots/S40.mp4" muted playsinline preload="metadata" data-start="52.500000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S41" class="clip source" src="assets/shots/S41.mp4" muted playsinline preload="metadata" data-start="54.375000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video>
+<video id="base-S42" class="clip source" src="assets/shots/S42.mp4" muted playsinline preload="metadata" data-start="56.250000000" data-duration="3.750000000" data-media-start="0.500000000" data-track-index="0" data-volume="0" data-layout-allow-overlap="true"></video></div>
+<div id="titles" class="title-layer" data-layout-allow-overlap="true"><div class="lockup"><div class="word-mask"><div class="word">弯心</div></div><div class="signature"><span class="stroke"></span><span class="latin">APEX</span></div></div></div>
+<div class="panels" id="panels" data-layout-allow-overlap="true"><div id="panel-0" class="panel" style="left:0px;width:638px"><div class="panel-source" style="left:-852px"><video id="look-0" class="clip source" src="assets/shots/S21.mp4" muted playsinline preload="metadata" data-start="28.125000000" data-duration="1.875000000" data-media-start="0.500000000" data-track-index="1" data-volume="0" data-layout-allow-overlap="true"></video></div></div><div id="panel-1" class="panel" style="left:642px;width:636px"><div class="panel-source" style="left:-623px"><video id="look-1" class="clip source" src="assets/shots/S22.mp4" muted playsinline preload="metadata" data-start="28.333333333" data-duration="1.666666667" data-media-start="0.500000000" data-track-index="2" data-volume="0" data-layout-allow-overlap="true"></video></div></div><div id="panel-2" class="panel" style="left:1282px;width:638px"><div class="panel-source" style="left:-430px"><video id="look-2" class="clip source" src="assets/shots/P03.mp4" muted playsinline preload="metadata" data-start="28.541666667" data-duration="1.458333333" data-media-start="0.500000000" data-track-index="3" data-volume="0" data-layout-allow-overlap="true"></video></div></div></div>
+<div id="fade" class="fade"></div>
+<audio id="master-audio" src="assets/audio/master.wav" data-start="0" data-duration="60.000000000" data-track-index="6" data-volume="1"></audio>
+</main><script>window.__timelines=window.__timelines||{};const tl=gsap.timeline({paused:true});tl.set('#titles',{visibility:'visible'},0.291666667);
+tl.fromTo('.word',{y:112,skewY:5},{y:0,skewY:0,duration:0.500000000,ease:'power3.out'},0.291666667);
+tl.fromTo('.signature',{opacity:0,x:-24},{opacity:1,x:0,duration:0.416666667,ease:'power2.out'},0.458333333);
+tl.to('.lockup',{opacity:0,x:14,duration:0.375000000,ease:'power2.in'},2.750000000);
+tl.set('#titles',{visibility:'hidden'},3.125000000);
+tl.fromTo('#panel-0',{opacity:0,x:18},{opacity:1,x:0,duration:0.125000000,ease:'power2.out'},28.125000000);
+tl.fromTo('#panel-1',{opacity:0,x:0},{opacity:1,x:0,duration:0.125000000,ease:'power2.out'},28.333333333);
+tl.fromTo('#panel-2',{opacity:0,x:-18},{opacity:1,x:0,duration:0.125000000,ease:'power2.out'},28.541666667);
+tl.set('#panels',{visibility:'visible'},28.125000000);
+tl.set('#panels',{visibility:'hidden'},30.000000000);
+tl.fromTo('#fade',{opacity:0},{opacity:1,duration:0.875000000,ease:'power1.inOut'},59.083333333);
+window.__timelines.apex=tl;</script></body></html>

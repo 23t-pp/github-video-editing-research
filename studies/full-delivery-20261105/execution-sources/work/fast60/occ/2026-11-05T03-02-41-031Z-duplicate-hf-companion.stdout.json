@@ -1,0 +1,38 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "manage_timelines",
+      "result": {
+        "ok": true,
+        "duplicated": {
+          "id": "tl_a775a55a-cc45-4903-a092-e62b6a1aa140",
+          "name": "01 HF精确特效 · 42镜逐镜可剪",
+          "width": 1920,
+          "height": 1080,
+          "ratio": "16:9",
+          "active": true,
+          "hidden": false,
+          "clips": 50,
+          "nestedInstances": 0,
+          "durationInFrames": 1440
+        }
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "012d0e3c-9178-4297-94ab-8d4dba8b6d6c",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-409db278",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_a1c6457e7b1a41ba",
+    "editorUrl": "http://localhost:5199/#/editor/8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "updatedAt": "2026-11-05T03:02:42.455Z"
+  }
+}

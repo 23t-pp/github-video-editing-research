@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "specVersion": "SPEC-0.2",
+  "status": "draft_pending_independent_review",
+  "createdDateShanghai": "2026-11-05",
+  "authorRole": "design_agent",
+  "reviewerMustDifferFromAuthorAndExecutor": true,
+  "sourceSeasonRequired": 1,
+  "targetSeconds": 60,
+  "sampling": {
+    "gridRateNumerator": 60,
+    "gridRateDenominator": 1,
+    "gridOrigin": "normalized_video_effective_start",
+    "gridEnd": "strictly_less_than_effective_video_end",
+    "arithmetic": "rational",
+    "mapping": "source_frame_visible_at_grid_time_using_actual_PTS",
+    "interpolationAllowed": false,
+    "physicalJpgRequiredForFullCompletion": true,
+    "repeatedSourceFramesMustBeMarked": true,
+    "requiredIndexFields": [
+      "sourceId",
+      "sampleId",
+      "sampleTimeRational",
+      "sourceFrame",
+      "sourcePtsRational",
+      "isRepeatedSourceFrame",
+      "repeatOfSampleId",
+      "relativeJpgPath",
+      "width",
+      "height",
+      "jpegQuality",
+      "bucketId",
+      "storageMode",
+      "hardlinkTarget"
+    ],
+    "jpgWidth": 640,
+    "jpgQuality": 6,
+    "outputFpsIndependentFromSamplingGrid": true,
+    "jpgHeight": 360,
+    "jpegQualityScale": "ffmpeg_q",
+    "storageMode": "NTFS_hardlinked_repeated_source_frames",
+    "fallback": "independent_JPG_copy_on_hardlink_failure_with_runtime_80GiB_gate_and_explicit_storage_mapping",
+    "mappingStore": "SQLite_with_JSONL_export",
+    "hardlinkLogicalAndPhysicalSizeMustBeReported": true,
+    "ptsPolicy": "same_FFmpeg_decode_showinfo_integer_PTS_and_n_paired_1_to_1_with_JPEG_and_stream_time_base"
+  },
+  "capacityGate": {
+    "probeRequiredBeforeBulkExtraction": true,
+    "estimateBasis": "expectedJpgCount * pilotP95JpgBytes + index_and_temp_and_render_allowance",
+    "freeSpaceMultiplier": 1.25,
+    "minimumReserveGiB": 80,
+    "deleteUserFilesToMakeSpaceAllowed": false,
+    "configurationChangesRequireRecordedReview": true,
+    "workerCountProposal": 2,
+    "pilotReport": "data/frame-pilot.json",
+    "pilotP95Bytes": null,
+    "meanCannotBeReportedAsP95": true,
+    "ifP95Missing": "reviewed_conservative_bound_and_80GiB_runtime_pause_gate",
+    "resumeUnit": "episode"
+  },
+  "frameDatasetGate": {
+    "expectedCountFromNativePtsAndLastFrameDuration": true,
+    "actualMustEqualExpected": true,
+    "allowedMissing": 0,
+    "allowedExtra": 0,
+    "allowedCorruptJpg": 0,
+    "allEpisodesRequiredForSeasonComplete": true,
+    "bucketManifestAndChecksumsRequired": true,
+    "resumeRequiresSourceAndConfigHashMatch": true,
+    "mappingOnlyCountsAsPhysicalDatasetComplete": false,
+    "uniqueJpegAllDecodeRequired": true,
+    "allSampleAliasFileIdAndMappingCheckRequired": true
+  },
+  "tagging": {
+    "shotTimeRange": "left_closed_right_open_source_PTS",
+    "stableShotIds": true,
+    "unknownValuesMustRemainNullOrUnknown": true,
+    "requiredFields": [
+      "shotId",
+      "sourceId",
+      "inPTS",
+      "outPTS",
+      "nativeFrameRange",
+      "sampleIdRange",
+      "characters",
+      "action",
+      "actionPhase",
+      "screenDirection",
+      "shotScale",
+      "focusAnchor",
+      "subjectBBox",
+      "colorMood",
+      "foregroundQuality",
+      "occlusion",
+      "cleanPlate",
+      "sourceVFX",
+      "subtitleRisk",
+      "technicalQuality",
+      "confidence",
+      "evidence",
+      "reviewer",
+      "status"
+    ],
+    "actionVocabulary": [
+      "punch",
+      "kick",
+      "turn",
+      "run",
+      "reach",
+      "fall",
+      "energy",
+      "static",
+      "other",
+      "unknown"
+    ],
+    "phaseVocabulary": [
+      "anticipation",
+      "contact",
+      "followThrough",
+      "hold",
+      "unknown"
+    ],
+    "directionVocabulary": [
+      "L_to_R",
+      "R_to_L",
+      "up",
+      "down",
+      "towardCamera",
+      "away",
+      "static",
+      "ambiguous"
+    ],
+    "shotScaleVocabulary": [
+      "ECU",
+      "CU",
+      "MCU",
+      "MS",
+      "FS",
+      "WS",
+      "unknown"
+    ],
+    "confidenceStates": {
+      "verified": "independent_reviewer_viewed_timestamped_evidence_and_no_material_ambiguity",
+      "candidate": "evidence_viewed_but_identity_phase_or_boundary_uncertain",
+      "unreviewed": "machine_candidate_or_not_visually_reviewed",
+      "rejected": "evidence_does_not_support_tag"
+    },
+    "criticalFinalEditTagsMustBe": "verified",
+    "machineAndHumanReviewRangesRecordedSeparately": true
+  },
+  "designGate": {
+    "requiredFrozenValues": [
+      "sourceManifest",
+      "referenceDraw",
+      "jpgConfiguration",
+      "capacityEstimate",
+      "musicSelection",
+      "outputFps",
+      "outputResolution",
+      "colorPipeline",
+      "shotPlan",
+      "techniqueEvents"
+    ],
+    "independentSignedReviewRequired": true,
+    "bulkExtractionBeforeCapacityApprovalAllowed": false,
+    "formalAssemblyBeforeDesignApprovalAllowed": false,
+    "referenceRedrawOnRetryAllowed": false,
+    "approvalStages": {
+      "A_material_preparation": [
+        "sourceManifest",
+        "jpgConfiguration",
+        "capacityEstimate",
+        "samplingMapping",
+        "resumePolicy",
+        "monitorPolicy"
+      ],
+      "B_creative_edit": [
+        "referenceDraw",
+        "musicSelection",
+        "outputFps",
+        "outputResolution",
+        "colorPipeline",
+        "shotPlan",
+        "techniqueEvents"
+      ]
+    },
+    "AApprovalAllowsDatasetRunWhileBCreativeDesignPending": true
+  },
+  "loopGate": {
+    "minimumCompletedLoops": 4,
+    "repeatIdenticalChecksCountAsNewLoop": false,
+    "requiredArtifactsPerLoop": [
+      "plan.json",
+      "execution.json",
+      "review.json",
+      "revision-diff.json",
+      "actual_playable_or_visual_execution_artifact"
+    ],
+    "loops": [
+      {
+        "id": "LOOP_1",
+        "purpose": "material_understanding_and_hardest_technique_feasibility",
+        "requiredExecution": [
+          "verified_candidate_tags",
+          "action_AB_sample",
+          "3_to_8_second_complex_effect_sample",
+          "first_JPG_bucket_and_index"
+        ],
+        "reviewFocus": [
+          "correct_season",
+          "60Hz_to_native_mapping",
+          "tags",
+          "source_ranges",
+          "real_dynamic_alpha_or_tracking"
+        ]
+      },
+      {
+        "id": "LOOP_2",
+        "purpose": "full_minute_structure_rough_cut",
+        "requiredExecution": [
+          "full_60_second_rough_cut",
+          "EDL",
+          "music_window_and_onset_candidates",
+          "at_least_two_action_match_transitions"
+        ],
+        "reviewFocus": [
+          "focus_continuity",
+          "action_phase",
+          "music_phrase_structure",
+          "unnecessary_repetition"
+        ]
+      },
+      {
+        "id": "LOOP_3",
+        "purpose": "complex_compositing_and_typography",
+        "requiredExecution": [
+          "rendered_technique_events",
+          "updated_full_cut",
+          "alpha_and_tracking_assets",
+          "transition_contact_sheets"
+        ],
+        "reviewFocus": [
+          "occlusion_order",
+          "alpha_edges",
+          "legibility",
+          "source_clock_and_geometry",
+          "reference_mapping"
+        ]
+      },
+      {
+        "id": "LOOP_4",
+        "purpose": "full_film_polish_and_project_portability",
+        "requiredExecution": [
+          "final_render",
+          "OpenChatCut_official_roundtrip",
+          "HyperFrames_source_package",
+          "Chinese_learning_docs",
+          "quality_report"
+        ],
+        "reviewFocus": [
+          "whole_film_flow",
+          "visual_density_and_breathing",
+          "audio_numeric_alignment",
+          "all_frame_decode",
+          "media_restore",
+          "editable_scope"
+        ]
+      }
+    ],
+    "failureReturnsToCurrentLoopExecution": true,
+    "continueBeyondFourIfP0OrP1Remains": true
+  },
+  "monitor": {
+    "eventLog": "workflow/events.jsonl",
+    "requiredEventFields": [
+      "timestampUTC",
+      "timestampShanghai",
+      "runId",
+      "loopId",
+      "taskId",
+      "agentId",
+      "state",
+      "outputs",
+      "exitCode",
+      "elapsedSeconds",
+      "heartbeatAt",
+      "nextDependency",
+      "error",
+      "retry"
+    ],
+    "recommendedHeartbeatIntervalSeconds": [
+      15,
+      60
+    ],
+    "stalledProgressWindowsBeforeDiagnosis": 3,
+    "checkOutputGrowthAndDecodeNotOnlyProcessPresence": true,
+    "parallelWritersToSameOutputDirectoryAllowed": false
+  },
+  "numericAssists": {
+    "actionMatchAnchorMaxDiagonalFraction": 0.12,
+    "actionMatchSubjectAreaRatioRange": [
+      0.67,
+      1.5
+    ],
+    "trackingAnchorMaxShortEdgeFraction": 0.02,
+    "typicalStaticTextMinimumVisibleSeconds": 0.25,
+    "numericPassDoesNotReplaceVisualReview": true,
+    "exceptionsRequireSpecificEvidenceAndReview": true
+  },
+  "filmGate": {
+    "outputFps": 24,
+    "outputWidth": 1920,
+    "outputHeight": 1080,
+    "expectedFramesFormula": "60 * frozen_output_fps",
+    "expectedMasterSampleFrames": 2880000,
+    "masterSampleRate": 48000,
+    "masterChannels": 2,
+    "allFramesMustDecode": true,
+    "unexplainedNearBlackFramesAllowed": 0,
+    "EDLGapOrUnplannedOverlapFramesAllowed": 0,
+    "sourceRangesMustBeVerified": true,
+    "auditoryListeningStatusMustBeExplicit": true,
+    "unlistenedAudioAestheticsMayBeMarkedPassed": false
+  },
+  "editorialGate": {
+    "scale": {
+      "0": "missing_or_wrong",
+      "1": "present_but_materially_distracting",
+      "2": "clear_intent_and_main_sections_work_with_only_local_minor_differences",
+      "3": "stable_within_recorded_review_scope"
+    },
+    "dimensions": [
+      "action_and_focus_continuity",
+      "rhythm_and_phrase_structure",
+      "occlusion_and_edges",
+      "layout_legibility_and_hierarchy",
+      "reference_structure_to_source_mapping"
+    ],
+    "minimumEachDimension": 2,
+    "aggregateScoreCannotHideFailedDimension": true,
+    "eachRatingRequiresTimestampedEvidenceAndReviewScope": true,
+    "P0OrP1UnresolvedAllowed": 0
+  },
+  "projectGate": {
+    "OpenChatCutOfficialExportAndRealImportRequired": true,
+    "restoredMediaMustEqualPackagedMedia": true,
+    "missingMediaAllowed": 0,
+    "mediaHashesAndEditStructureMustMatch": true,
+    "nativeShotAndCompositeSequenceRequired": true,
+    "HyperFramesLocalAssetsMustBeIncluded": true,
+    "zipCRCAndLocalLinksMustPass": true,
+    "flattenedClipInternalEffectsMustNotBeCalledNativeEditable": true,
+    "crossEditorSyncIsManualAndMustBeDocumented": true
+  },
+  "finalStatusPolicy": {
+    "datasetIncompleteMeansWholeTaskNotComplete": true,
+    "noUnqualified100PercentReplicaClaim": true,
+    "sourceVFXMustBeDistinguishedFromNewEffects": true,
+    "independentFinalReviewRequired": true,
+    "designApproval": "pending",
+    "executionApproval": "pending",
+    "finalApproval": "pending"
+  },
+  "currentBaseline": {
+    "inventory": "data/source-inventory.json",
+    "episodesDeclared": 24,
+    "mainReference": "V20",
+    "drawEvidence": "data/随机参考抽选.json",
+    "drawMustNotRepeat": true,
+    "estimated60HzSamplePaths": 2061018,
+    "estimatedNativeUniqueJpgs": 823577,
+    "musicalReuseProposal": "V20 30.679206s with ~1.358412s crossfade to exact 2880000 samples; implementation pending B artifact",
+    "sourceSeasonVisualConfirmation": "pending",
+    "AApproval": "pending",
+    "BApproval": "pending",
+    "runConfig": "data/run-config.json",
+    "output": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "frames": 1440,
+      "seconds": 60
+    },
+    "designReviewPath": "reviews/设计审核.json",
+    "musicReport": "music/music-report.json"
+  }
+}

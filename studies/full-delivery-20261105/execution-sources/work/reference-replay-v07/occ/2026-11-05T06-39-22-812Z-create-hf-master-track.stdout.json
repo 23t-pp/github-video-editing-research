@@ -1,0 +1,69 @@
+{
+  "projectId": "5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_track",
+      "result": {
+        "ok": true,
+        "created": [
+          {
+            "id": "track_7c55134c-b58e-4f69-a1d5-d1c3ca34b43f",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "A1 V07库内BGM · master",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ],
+        "tracks": [
+          {
+            "id": "track_b419f490-9a7a-4bdc-b5a8-587bbfd1870c",
+            "alias": "V1",
+            "trackType": "video",
+            "order": 0,
+            "name": null,
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          },
+          {
+            "id": "track_7c55134c-b58e-4f69-a1d5-d1c3ca34b43f",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "A1 V07库内BGM · master",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "62817c77-6e87-410d-95c9-defd4cb346c5",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-804e3b63",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_4fe0bb6d02804ce8",
+    "editorUrl": "http://localhost:5199/#/editor/5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+    "updatedAt": "2026-11-05T06:39:23.991Z"
+  }
+}

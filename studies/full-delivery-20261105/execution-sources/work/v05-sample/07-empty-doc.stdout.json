@@ -1,0 +1,106 @@
+{
+  "project": {
+    "id": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "name": "V05六格卡片学习小样-2026-11-04T15-00-57-302Z",
+    "updatedAt": 1793804462409
+  },
+  "timelines": [
+    {
+      "id": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+      "name": "01 OCC原生六格教学 · 24fps",
+      "active": true,
+      "fps": 24,
+      "width": 1920,
+      "height": 1080,
+      "itemCount": 0,
+      "durationFrames": 0,
+      "duration": "0s",
+      "trackSummary": "track_362eaeb6-fa41-4d08-97a4-f76825898772:0 track_6613898d-e835-4d82-9310-affdc4c81763:0 track_92d6e775-8dc0-4dd4-85be-46b5c23870ec:0 track_b4c1051e-40dc-4b84-8c51-fe2aecd5e7ef:0 track_e45672dd-1e39-4fae-a1c4-c5c82a8afaee:0 track_974c45a3-c9e9-49eb-8cbd-81a265a07739:0 track_v1:0"
+    }
+  ],
+  "doc": {
+    "version": 3,
+    "assets": [
+      {
+        "id": "b236dab0-54b5-4f96-b5b7-dc22c08e8718",
+        "name": "shot-a-road.mp4",
+        "kind": "video",
+        "src": "/media/uploads/b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4",
+        "durationInFrames": 55,
+        "width": 1920,
+        "height": 1080,
+        "sourceFilename": "shot-a-road.mp4",
+        "sourceSize": 2273955,
+        "sourceModifiedAt": 1793804222123.6533,
+        "sourceContentHash": "8ca9dac1399c53325a880c774a289a889dd5c06b60bd6f7abdf718659abb1eda",
+        "sourceRevision": "source-sha256-8ca9dac1399c53325a880c774a289a889dd5c06b60bd6f7abdf718659abb1eda"
+      },
+      {
+        "id": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+        "name": "shot-b-driver-aerial.mp4",
+        "kind": "video",
+        "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+        "durationInFrames": 91,
+        "width": 1920,
+        "height": 1080,
+        "sourceFilename": "shot-b-driver-aerial.mp4",
+        "sourceSize": 3496332,
+        "sourceModifiedAt": 1793804225388.0273,
+        "sourceContentHash": "0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d",
+        "sourceRevision": "source-sha256-0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d"
+      }
+    ],
+    "mediaFolders": [],
+    "timelines": [
+      {
+        "id": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+        "name": "01 OCC原生六格教学 · 24fps",
+        "order": 0,
+        "fps": 24,
+        "width": 1920,
+        "height": 1080,
+        "items": [],
+        "selectedId": null,
+        "trackOrder": [
+          "track_362eaeb6-fa41-4d08-97a4-f76825898772",
+          "track_6613898d-e835-4d82-9310-affdc4c81763",
+          "track_92d6e775-8dc0-4dd4-85be-46b5c23870ec",
+          "track_b4c1051e-40dc-4b84-8c51-fe2aecd5e7ef",
+          "track_e45672dd-1e39-4fae-a1c4-c5c82a8afaee",
+          "track_974c45a3-c9e9-49eb-8cbd-81a265a07739",
+          "track_v1"
+        ],
+        "tracks": {
+          "track_v1": {
+            "kind": "video"
+          },
+          "track_974c45a3-c9e9-49eb-8cbd-81a265a07739": {
+            "kind": "video",
+            "name": "六格独立片段"
+          },
+          "track_e45672dd-1e39-4fae-a1c4-c5c82a8afaee": {
+            "kind": "video",
+            "name": "六格独立片段"
+          },
+          "track_b4c1051e-40dc-4b84-8c51-fe2aecd5e7ef": {
+            "kind": "video",
+            "name": "六格独立片段"
+          },
+          "track_92d6e775-8dc0-4dd4-85be-46b5c23870ec": {
+            "kind": "video",
+            "name": "六格独立片段"
+          },
+          "track_6613898d-e835-4d82-9310-affdc4c81763": {
+            "kind": "video",
+            "name": "六格独立片段"
+          },
+          "track_362eaeb6-fa41-4d08-97a4-f76825898772": {
+            "kind": "video",
+            "name": "六格独立片段"
+          }
+        }
+      }
+    ],
+    "activeTimelineId": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7"
+  }
+}

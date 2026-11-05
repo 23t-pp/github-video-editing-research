@@ -1,0 +1,54 @@
+{
+  "id": "V15",
+  "title": "V15 · 原始混合音轨",
+  "source_video_name": "只要有以太的存在人类就能够飞翔关于莉莉周的一切_岩井俊二_电影美学_了不起的混剪团_抖音精选.mp4",
+  "source_video_sha256": "56ea516f92af14fc5d26f25f03631eee35c85837b681aa9165cb5076e66bcbb3",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V15__mixed.m4a",
+  "bytes": 211761,
+  "sha256": "309cd9921a8fa0183f9bb0b935f2fe31e4ac4320b3a6bf5ab165690a005e6dfb",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 26.63469387755102,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -6.44,
+    "true_peak_dbtp": 2.63,
+    "loudness_range_lu": 3.3,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 26.763379,
+  "source_decoded_duration_sec": 26.602403628117912,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "4718502ff0adfe8cb4925b2cdb5ed4526d73ba51e10986d65074864ea3e5861e",
+    "output_sha256": "bbe3c3068359fe8a8e9a93f7f606efcbc8a45000a90c2bf6c4381e901963a119",
+    "shared_prefix_samples": 586583,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 32.29,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "0e34c2e278b772a9539d310ff9aaa26d9047075d78eb22dbe555cd058bddc897",
+  "source_aac_adts_sha256": "0e34c2e278b772a9539d310ff9aaa26d9047075d78eb22dbe555cd058bddc897",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "2e37faba5deb9c279f3ae556d795a05afba120b65337e33a809347919b15acfd",
+  "source_native_pcm_sha256": "e9d4692461627f37edc656c7fff616dbc3faad57a8a598a73dfa067cef3774e3",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V15__music-candidate.m4a"
+}

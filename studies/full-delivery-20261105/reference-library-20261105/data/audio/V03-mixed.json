@@ -1,0 +1,54 @@
+{
+  "id": "V03",
+  "title": "V03 · 原始混合音轨",
+  "source_video_name": "国漫无缝转场帅是一种感觉抖音漫剪团_国漫_抖音ACG新春会0帧起手百位作者接力迎新年.mp4",
+  "source_video_sha256": "e585508df0e02d555d7038af51e2a5d51b71dd9595215d8fa9da7f36fd6f8b80",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V03__mixed.m4a",
+  "bytes": 236104,
+  "sha256": "28a4bb7c2cf3a2957ad0df880740f46702d7fcaa69fe7873f11362e4781f0e33",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 30.024807256235828,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -7.9,
+    "true_peak_dbtp": 5.25,
+    "loudness_range_lu": 12.2,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 30.161315,
+  "source_decoded_duration_sec": 30,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "7276decc2bd52c6fad24f9132f1b35565e1d34c32d4ae2fb26fc4c37dbfbed7c",
+    "output_sha256": "64da2d5de4df3bf26a759f2c284950e284a1fe3a7ec744aa63de1e8e17f52b01",
+    "shared_prefix_samples": 661500,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 24.807,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "2b133f99f71a87fd53c949cbbda9a72fb2a24d9309c4d20dbfd4a7d12b5c5336",
+  "source_aac_adts_sha256": "2b133f99f71a87fd53c949cbbda9a72fb2a24d9309c4d20dbfd4a7d12b5c5336",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "6e54e6eab983d67e6bc39d986c632f85dfaa348ef02cbe8436d7406c78c533d6",
+  "source_native_pcm_sha256": "ed14b3bcd5edf50b5a4b0330f0ff9b68745d7bbe8c85b5f678f1428ee07087d1",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V03__music-candidate.m4a"
+}

@@ -1,0 +1,528 @@
+{
+  "project": {
+    "id": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "name": "V05六格卡片学习小样-2026-11-04T15-00-57-302Z",
+    "updatedAt": 1793804557543
+  },
+  "timelines": [
+    {
+      "id": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+      "name": "01 OCC原生六格教学 · 24fps",
+      "active": true,
+      "fps": 24,
+      "width": 1920,
+      "height": 1080,
+      "itemCount": 9,
+      "durationFrames": 108,
+      "duration": "4.50s",
+      "trackSummary": "track_362eaeb6-fa41-4d08-97a4-f76825898772:1 track_6613898d-e835-4d82-9310-affdc4c81763:1 track_92d6e775-8dc0-4dd4-85be-46b5c23870ec:1 track_b4c1051e-40dc-4b84-8c51-fe2aecd5e7ef:1 track_e45672dd-1e39-4fae-a1c4-c5c82a8afaee:1 track_974c45a3-c9e9-49eb-8cbd-81a265a07739:1 track_v1:2 track_e88fc9ea-3b6a-4629-ab3c-97f0bbdd6cec:1"
+    }
+  ],
+  "doc": {
+    "version": 3,
+    "assets": [
+      {
+        "id": "b236dab0-54b5-4f96-b5b7-dc22c08e8718",
+        "name": "shot-a-road.mp4",
+        "kind": "video",
+        "src": "/media/uploads/b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4",
+        "durationInFrames": 55,
+        "width": 1920,
+        "height": 1080,
+        "sourceFilename": "shot-a-road.mp4",
+        "sourceSize": 2273955,
+        "sourceModifiedAt": 1793804222123.6533,
+        "sourceContentHash": "8ca9dac1399c53325a880c774a289a889dd5c06b60bd6f7abdf718659abb1eda",
+        "sourceRevision": "source-sha256-8ca9dac1399c53325a880c774a289a889dd5c06b60bd6f7abdf718659abb1eda"
+      },
+      {
+        "id": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+        "name": "shot-b-driver-aerial.mp4",
+        "kind": "video",
+        "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+        "durationInFrames": 91,
+        "width": 1920,
+        "height": 1080,
+        "sourceFilename": "shot-b-driver-aerial.mp4",
+        "sourceSize": 3496332,
+        "sourceModifiedAt": 1793804225388.0273,
+        "sourceContentHash": "0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d",
+        "sourceRevision": "source-sha256-0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d"
+      },
+      {
+        "id": "2e9fd18f-ec48-4d84-990f-2e6a56e88406",
+        "name": "master-audio.wav",
+        "kind": "audio",
+        "src": "/media/uploads/775d80eb-a115-4206-88a4-01aa432b86d7.wav",
+        "durationInFrames": 108,
+        "sourceFilename": "master-audio.wav",
+        "sourceSize": 432044,
+        "sourceModifiedAt": 1793804442243.8298,
+        "sourceContentHash": "bc11a2644bcb6976fdbe86cd442ffbecbb0757559544a0dc7f9a585d3da07146",
+        "sourceRevision": "source-sha256-bc11a2644bcb6976fdbe86cd442ffbecbb0757559544a0dc7f9a585d3da07146"
+      }
+    ],
+    "mediaFolders": [],
+    "timelines": [
+      {
+        "id": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+        "name": "01 OCC原生六格教学 · 24fps",
+        "order": 0,
+        "fps": 24,
+        "width": 1920,
+        "height": 1080,
+        "items": [
+          {
+            "id": "item_36484ebe-f459-41be-a1c8-dec890f43b84",
+            "track": "track_v1",
+            "durationInFrames": 48,
+            "kind": "video",
+            "sourceAssetId": "b236dab0-54b5-4f96-b5b7-dc22c08e8718",
+            "name": "shot-a-road.mp4",
+            "src": "/media/uploads/b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4",
+            "srcInFrame": 0,
+            "volume": 0,
+            "width": 1920,
+            "height": 1080,
+            "startFrame": 0,
+            "sourceFilename": "shot-a-road.mp4",
+            "sourceContentHash": "8ca9dac1399c53325a880c774a289a889dd5c06b60bd6f7abdf718659abb1eda",
+            "sourceRevision": "source-sha256-8ca9dac1399c53325a880c774a289a889dd5c06b60bd6f7abdf718659abb1eda"
+          },
+          {
+            "id": "item_3faccf23-a66c-4b7e-bfce-51bb4852b0b8",
+            "track": "track_362eaeb6-fa41-4d08-97a4-f76825898772",
+            "durationInFrames": 18,
+            "kind": "video",
+            "sourceAssetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+            "name": "shot-b-driver-aerial.mp4",
+            "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+            "srcInFrame": 0,
+            "volume": 0,
+            "width": 1920,
+            "height": 1080,
+            "startFrame": 30,
+            "keyframes": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 2,
+                  "value": 1
+                }
+              ],
+              "y": [
+                {
+                  "frame": 0,
+                  "value": -0.8,
+                  "easing": "easeOut"
+                },
+                {
+                  "frame": 3,
+                  "value": 0
+                }
+              ]
+            },
+            "transform": {
+              "scale": 0.72,
+              "x": 0,
+              "y": 0,
+              "crop": {
+                "left": 0,
+                "top": 0,
+                "right": 0.6666666666666666,
+                "bottom": 0.5
+              }
+            },
+            "sourceFilename": "shot-b-driver-aerial.mp4",
+            "sourceContentHash": "0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d",
+            "sourceRevision": "source-sha256-0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d"
+          },
+          {
+            "id": "item_cedf240f-886a-4fb6-8bf1-115226f77e66",
+            "track": "track_6613898d-e835-4d82-9310-affdc4c81763",
+            "durationInFrames": 18,
+            "kind": "video",
+            "sourceAssetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+            "name": "shot-b-driver-aerial.mp4",
+            "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+            "srcInFrame": 0,
+            "volume": 0,
+            "width": 1920,
+            "height": 1080,
+            "startFrame": 30,
+            "keyframes": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 4,
+                  "value": 0
+                },
+                {
+                  "frame": 6,
+                  "value": 1
+                }
+              ],
+              "y": [
+                {
+                  "frame": 0,
+                  "value": -0.8,
+                  "easing": "easeOut"
+                },
+                {
+                  "frame": 4,
+                  "value": -0.8,
+                  "easing": "easeOut"
+                },
+                {
+                  "frame": 7,
+                  "value": 0
+                }
+              ]
+            },
+            "transform": {
+              "scale": 0.72,
+              "x": 0,
+              "y": 0,
+              "crop": {
+                "left": 0.3333333333333333,
+                "top": 0,
+                "right": 0.3333333333333333,
+                "bottom": 0.5
+              }
+            },
+            "sourceFilename": "shot-b-driver-aerial.mp4",
+            "sourceContentHash": "0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d",
+            "sourceRevision": "source-sha256-0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d"
+          },
+          {
+            "id": "item_41dd1fee-3e14-4edc-b61b-be05457161a9",
+            "track": "track_92d6e775-8dc0-4dd4-85be-46b5c23870ec",
+            "durationInFrames": 18,
+            "kind": "video",
+            "sourceAssetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+            "name": "shot-b-driver-aerial.mp4",
+            "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+            "srcInFrame": 0,
+            "volume": 0,
+            "width": 1920,
+            "height": 1080,
+            "startFrame": 30,
+            "keyframes": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 8,
+                  "value": 0
+                },
+                {
+                  "frame": 10,
+                  "value": 1
+                }
+              ],
+              "y": [
+                {
+                  "frame": 0,
+                  "value": -0.8,
+                  "easing": "easeOut"
+                },
+                {
+                  "frame": 8,
+                  "value": -0.8,
+                  "easing": "easeOut"
+                },
+                {
+                  "frame": 11,
+                  "value": 0
+                }
+              ]
+            },
+            "transform": {
+              "scale": 0.72,
+              "x": 0,
+              "y": 0,
+              "crop": {
+                "left": 0.6666666666666666,
+                "top": 0,
+                "right": 0,
+                "bottom": 0.5
+              }
+            },
+            "sourceFilename": "shot-b-driver-aerial.mp4",
+            "sourceContentHash": "0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d",
+            "sourceRevision": "source-sha256-0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d"
+          },
+          {
+            "id": "item_0904e8ca-9e38-473a-8aeb-edbf7fcd1726",
+            "track": "track_b4c1051e-40dc-4b84-8c51-fe2aecd5e7ef",
+            "durationInFrames": 18,
+            "kind": "video",
+            "sourceAssetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+            "name": "shot-b-driver-aerial.mp4",
+            "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+            "srcInFrame": 0,
+            "volume": 0,
+            "width": 1920,
+            "height": 1080,
+            "startFrame": 30,
+            "keyframes": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 2,
+                  "value": 0
+                },
+                {
+                  "frame": 4,
+                  "value": 1
+                }
+              ],
+              "y": [
+                {
+                  "frame": 0,
+                  "value": 0.8,
+                  "easing": "easeOut"
+                },
+                {
+                  "frame": 2,
+                  "value": 0.8,
+                  "easing": "easeOut"
+                },
+                {
+                  "frame": 5,
+                  "value": 0
+                }
+              ]
+            },
+            "transform": {
+              "scale": 0.72,
+              "x": 0,
+              "y": 0,
+              "crop": {
+                "left": 0,
+                "top": 0.5,
+                "right": 0.6666666666666666,
+                "bottom": 0
+              }
+            },
+            "sourceFilename": "shot-b-driver-aerial.mp4",
+            "sourceContentHash": "0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d",
+            "sourceRevision": "source-sha256-0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d"
+          },
+          {
+            "id": "item_eea36686-e732-4142-a3a0-622418d216f3",
+            "track": "track_e45672dd-1e39-4fae-a1c4-c5c82a8afaee",
+            "durationInFrames": 18,
+            "kind": "video",
+            "sourceAssetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+            "name": "shot-b-driver-aerial.mp4",
+            "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+            "srcInFrame": 0,
+            "volume": 0,
+            "width": 1920,
+            "height": 1080,
+            "startFrame": 30,
+            "keyframes": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 6,
+                  "value": 0
+                },
+                {
+                  "frame": 8,
+                  "value": 1
+                }
+              ],
+              "y": [
+                {
+                  "frame": 0,
+                  "value": 0.8,
+                  "easing": "easeOut"
+                },
+                {
+                  "frame": 6,
+                  "value": 0.8,
+                  "easing": "easeOut"
+                },
+                {
+                  "frame": 9,
+                  "value": 0
+                }
+              ]
+            },
+            "transform": {
+              "scale": 0.72,
+              "x": 0,
+              "y": 0,
+              "crop": {
+                "left": 0.3333333333333333,
+                "top": 0.5,
+                "right": 0.3333333333333333,
+                "bottom": 0
+              }
+            },
+            "sourceFilename": "shot-b-driver-aerial.mp4",
+            "sourceContentHash": "0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d",
+            "sourceRevision": "source-sha256-0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d"
+          },
+          {
+            "id": "item_2afdb599-f92a-4707-9bba-c57996ddf171",
+            "track": "track_974c45a3-c9e9-49eb-8cbd-81a265a07739",
+            "durationInFrames": 18,
+            "kind": "video",
+            "sourceAssetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+            "name": "shot-b-driver-aerial.mp4",
+            "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+            "srcInFrame": 0,
+            "volume": 0,
+            "width": 1920,
+            "height": 1080,
+            "startFrame": 30,
+            "keyframes": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 10,
+                  "value": 0
+                },
+                {
+                  "frame": 12,
+                  "value": 1
+                }
+              ],
+              "y": [
+                {
+                  "frame": 0,
+                  "value": 0.8,
+                  "easing": "easeOut"
+                },
+                {
+                  "frame": 10,
+                  "value": 0.8,
+                  "easing": "easeOut"
+                },
+                {
+                  "frame": 13,
+                  "value": 0
+                }
+              ]
+            },
+            "transform": {
+              "scale": 0.72,
+              "x": 0,
+              "y": 0,
+              "crop": {
+                "left": 0.6666666666666666,
+                "top": 0.5,
+                "right": 0,
+                "bottom": 0
+              }
+            },
+            "sourceFilename": "shot-b-driver-aerial.mp4",
+            "sourceContentHash": "0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d",
+            "sourceRevision": "source-sha256-0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d"
+          },
+          {
+            "id": "item_f1af392a-1b3e-43f4-bc2b-dd4412405bc6",
+            "track": "track_v1",
+            "durationInFrames": 60,
+            "kind": "video",
+            "sourceAssetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+            "name": "shot-b-driver-aerial.mp4",
+            "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4",
+            "srcInFrame": 18,
+            "volume": 0,
+            "width": 1920,
+            "height": 1080,
+            "startFrame": 48,
+            "fadeOutFrames": 6,
+            "sourceFilename": "shot-b-driver-aerial.mp4",
+            "sourceContentHash": "0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d",
+            "sourceRevision": "source-sha256-0e5839e634ab35362140327d582bb581deb168bb11b4369ecad754c6143a090d"
+          },
+          {
+            "id": "item_8a18bfa3-6341-47b4-876e-95f1aa60652e",
+            "track": "track_e88fc9ea-3b6a-4629-ab3c-97f0bbdd6cec",
+            "durationInFrames": 108,
+            "kind": "audio",
+            "sourceAssetId": "2e9fd18f-ec48-4d84-990f-2e6a56e88406",
+            "name": "master-audio.wav",
+            "src": "/media/uploads/775d80eb-a115-4206-88a4-01aa432b86d7.wav",
+            "srcInFrame": 0,
+            "volume": 1,
+            "startFrame": 0,
+            "sourceFilename": "master-audio.wav",
+            "sourceContentHash": "bc11a2644bcb6976fdbe86cd442ffbecbb0757559544a0dc7f9a585d3da07146",
+            "sourceRevision": "source-sha256-bc11a2644bcb6976fdbe86cd442ffbecbb0757559544a0dc7f9a585d3da07146"
+          }
+        ],
+        "selectedId": "item_8a18bfa3-6341-47b4-876e-95f1aa60652e",
+        "trackOrder": [
+          "track_362eaeb6-fa41-4d08-97a4-f76825898772",
+          "track_6613898d-e835-4d82-9310-affdc4c81763",
+          "track_92d6e775-8dc0-4dd4-85be-46b5c23870ec",
+          "track_b4c1051e-40dc-4b84-8c51-fe2aecd5e7ef",
+          "track_e45672dd-1e39-4fae-a1c4-c5c82a8afaee",
+          "track_974c45a3-c9e9-49eb-8cbd-81a265a07739",
+          "track_v1",
+          "track_e88fc9ea-3b6a-4629-ab3c-97f0bbdd6cec"
+        ],
+        "tracks": {
+          "track_v1": {
+            "kind": "video"
+          },
+          "track_974c45a3-c9e9-49eb-8cbd-81a265a07739": {
+            "kind": "video",
+            "name": "六格独立片段"
+          },
+          "track_e45672dd-1e39-4fae-a1c4-c5c82a8afaee": {
+            "kind": "video",
+            "name": "六格独立片段"
+          },
+          "track_b4c1051e-40dc-4b84-8c51-fe2aecd5e7ef": {
+            "kind": "video",
+            "name": "六格独立片段"
+          },
+          "track_92d6e775-8dc0-4dd4-85be-46b5c23870ec": {
+            "kind": "video",
+            "name": "六格独立片段"
+          },
+          "track_6613898d-e835-4d82-9310-affdc4c81763": {
+            "kind": "video",
+            "name": "六格独立片段"
+          },
+          "track_362eaeb6-fa41-4d08-97a4-f76825898772": {
+            "kind": "video",
+            "name": "六格独立片段"
+          },
+          "track_e88fc9ea-3b6a-4629-ab3c-97f0bbdd6cec": {
+            "kind": "audio",
+            "name": "Master · A/B各一次 + 六次轻提示"
+          }
+        },
+        "selectedIds": [
+          "item_8a18bfa3-6341-47b4-876e-95f1aa60652e"
+        ]
+      }
+    ],
+    "activeTimelineId": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7"
+  }
+}

@@ -1,0 +1,44 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import os from 'node:os';
+import crypto from 'node:crypto';
+import {spawnSync} from 'node:child_process';
+const project=path.resolve(import.meta.dirname,'../..');
+const workspace=path.resolve(project,'../..');
+const args=process.argv.slice(2),option=(key,fallback)=>{const i=args.indexOf(key);return i>=0?path.resolve(args[i+1]):fallback};
+const manifestPath=option('--manifest',path.join(workspace,'work/reference-library-20261105/manifest.local.json'));
+const work=path.join(workspace,'work/reference-library-20261105/audio-work');
+const output=path.join(project,'audio/mixed'),data=path.join(project,'data/audio');
+for(const dir of [work,output,data])fs.mkdirSync(dir,{recursive:true});
+const ffmpeg=process.env.FFMPEG_PATH||path.join(os.homedir(),'Apps/ffmpeg/bin/ffmpeg.exe');
+const ffprobe=process.env.FFPROBE_PATH||path.join(os.homedir(),'Apps/ffmpeg/bin/ffprobe.exe');
+const manifest=JSON.parse(fs.readFileSync(manifestPath,'utf8').replace(/^\uFEFF/,''));
+const selected=args.filter(a=>/^V\d{2}$/.test(a));
+const operations=[];
+function run(program,argv,maxBuffer=256*1024*1024){const start=Date.now();const result=spawnSync(program,argv,{windowsHide:true,timeout:180000,maxBuffer});operations.push({program,args:argv,exit_code:result.status,elapsed_ms:Date.now()-start,stderr:result.stderr?.toString()});if(result.status!==0)throw Error(result.stderr?.toString()||result.error?.message||'Subprocess failed');return result;}
+const hash=buffer=>crypto.createHash('sha256').update(buffer).digest('hex');
+const number=v=>Number.isFinite(Number(v))?Number(v):String(v);
+const records=[];
+for(const item of manifest.filter(v=>!selected.length||selected.includes(v.id))){
+ const file=`${item.id}__mixed.m4a`,destination=path.join(output,file);
+ const copy=item.audioCodec==='aac';
+ const argv=['-nostdin','-hide_banner','-loglevel','error','-i',item.path,'-map','0:a:0','-vn',...(copy?['-c:a','copy']:['-c:a','aac','-b:a','256k']),'-movflags','frag_keyframe+delay_moov','-f','mp4','pipe:1'];
+ const audio=run(ffmpeg,argv).stdout;fs.writeFileSync(destination,audio);
+ const probe=JSON.parse(run(ffprobe,['-v','error','-show_entries','stream=codec_name,sample_rate,channels,start_time,duration','-show_entries','format=duration,size','-of','json',destination],8*1024*1024).stdout.toString());
+ const pcmArgs=input=>['-nostdin','-v','error','-i',input,'-map','0:a:0','-ac','1','-ar','22050','-f','f32le','pipe:1'];
+ const sourcePcm=run(ffmpeg,pcmArgs(item.path)).stdout,outputPcm=run(ffmpeg,pcmArgs(destination)).stdout;
+ const shared=Math.min(sourcePcm.length,outputPcm.length);
+ const decodedDuration=outputPcm.length/(22050*4),sourceDecodedDuration=sourcePcm.length/(22050*4);
+ const norm=run(ffmpeg,['-nostdin','-hide_banner','-i',destination,'-vn','-af','loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json','-f','null','-'],8*1024*1024).stderr.toString();
+ const match=norm.match(/\{\s*"input_i"[\s\S]*?\}/);const measured=match?JSON.parse(match[0]):null;
+ const record={id:item.id,title:`${item.id} · 原始混合音轨`,source_video_name:item.name,source_video_sha256:item.sha256,music_name:null,music_name_status:'未识别；未根据视频文件名宣称曲名',file:`audio/mixed/${file}`,bytes:audio.length,sha256:hash(audio),codec:probe.streams?.[0]?.codec_name,sample_rate:Number(probe.streams?.[0]?.sample_rate),channels:probe.streams?.[0]?.channels,duration_sec:Number(probe.format.duration),output_audio_start_time:probe.streams?.[0]?.start_time,extraction:{audio_reencoded:!copy,method:copy?'FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码':'非AAC源转AAC 256kbps',stdout_saved_by_node:true},loudness:measured?{integrated_lufs:number(measured.input_i),true_peak_dbtp:number(measured.input_tp),loudness_range_lu:number(measured.input_lra),method:'FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化'}:null,content_status:'原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。',separation_status:'pending',listened:false};
+ record.encoded_container_duration_sec=record.duration_sec;
+ record.duration_sec=decodedDuration;
+ record.source_decoded_duration_sec=sourceDecodedDuration;
+ record.pcm_integrity={format:'mono float32 22050Hz',source_sha256:hash(sourcePcm),output_sha256:hash(outputPcm),shared_prefix_samples:shared/4,shared_prefix_bit_identical:sourcePcm.subarray(0,shared).equals(outputPcm.subarray(0,shared)),decoded_duration_delta_ms:Number(((decodedDuration-sourceDecodedDuration)*1000).toFixed(3)),note:'delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone.'};
+ fs.writeFileSync(path.join(data,`${item.id}-mixed.json`),JSON.stringify(record,null,2));records.push(record);
+ fs.writeFileSync(path.join(work,'extract-operations.local.json'),JSON.stringify(operations,null,2));
+ console.log(JSON.stringify({id:item.id,bytes:audio.length,duration:record.duration_sec,lufs:record.loudness?.integrated_lufs,copy}));
+}
+fs.writeFileSync(path.join(data,'mixed-index.json'),JSON.stringify(records,null,2));
+

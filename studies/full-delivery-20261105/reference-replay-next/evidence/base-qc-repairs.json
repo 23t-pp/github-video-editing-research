@@ -1,0 +1,42 @@
+{
+  "scope": "仅检查既有P15/P16，不改素材或时间表；新增独立P17-replacement.mp4",
+  "frame_index": "0-based，25fps；fileF12对应既有名义sourceIn",
+  "P15": {
+    "pedal_same_camera_file_frames_inclusive": [7, 17],
+    "burned_subtitle_file_frames_inclusive": [7, 9],
+    "clean_pedal_file_frames_inclusive": [10, 17],
+    "clean_frames": 8,
+    "first_exterior_frame": 18,
+    "suggestion": "若保持9帧槽，8帧干净踏板需轻微重定时/重复一帧；不能直接取F9..17却称无字幕。若不重定时则槽缩成8帧，由主流程决定。",
+    "nominal_clean_sourceIn": 1710.005,
+    "evidence": "qc/P15-all-native.jpg"
+  },
+  "P16": {
+    "same_camera_file_frames_inclusive": [1, 29],
+    "first_next_camera_frame": 30,
+    "suggested_24_frame_use_inclusive": [6, 29],
+    "suggested_assetStartFrame": 6,
+    "suggested_nominal_sourceIn": 2249.54,
+    "evidence": "qc/P16-all-native.jpg"
+  },
+  "P17": {
+    "new_asset": "outputs/reference-replay-next/hyperframes/assets/shots/P17-replacement.mp4",
+    "film": "02",
+    "nominal_sourceIn": 1610.64,
+    "assetStartFrame": 12,
+    "used_file_frames_inclusive": [12, 37],
+    "frames": 26,
+    "totalFrames": 50,
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "active_rect": [0, 140, 1920, 800],
+    "visual": "黄色改装轿车与紫色敞篷跑车侧面并行，车头朝左，相机平行跟拍，背景快速横移；使用段内只有短暂树干擦过，车体始终易辨，无人群整段遮挡。",
+    "qc": "已实际看完50帧接触图及使用首F12/中F25/末F37全尺寸图。使用26帧内无原镜硬切、黑帧或对白字幕。首尾12帧余量只作素材余量，不自动扩大可用范围。",
+    "sampling": "源24000/1001fps，采样到25fps，无光流插帧；少数输出帧可能重复邻近原帧。",
+    "sourceAudio": "未知，未试听；新资产无音轨。",
+    "evidence": ["qc/P17-replacement-all.jpg", "qc/P17-replacement-F12.png", "qc/P17-replacement-F25.png", "qc/P17-replacement-F37.png"],
+    "metadata": "P17-replacement.json",
+    "original_P17_overwritten": false
+  }
+}

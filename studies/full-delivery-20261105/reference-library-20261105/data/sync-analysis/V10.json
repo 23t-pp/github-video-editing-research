@@ -1,0 +1,37 @@
+{
+  "id": "V10",
+  "method": "视觉事件或机器变化候选与谱通量起音/模型拍点的最近邻。正误差=视觉晚于声音。未听辨来源，不把接近当因果或卡点成功。",
+  "humanVisualEvents": [],
+  "machineCandidates": [
+    {
+      "frame": 183,
+      "time": 6.1,
+      "score": 0.25016,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 6.1138,
+      "onsetDeltaMs": -13.8,
+      "nearestModelBeat": 5.755,
+      "beatDeltaMs": 345
+    },
+    {
+      "frame": 407,
+      "time": 13.56667,
+      "score": 0.24509,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 13.6208,
+      "onsetDeltaMs": -54.13,
+      "nearestModelBeat": 13.255,
+      "beatDeltaMs": 311.67
+    },
+    {
+      "frame": 456,
+      "time": 15.2,
+      "score": 0.21123,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 15.1142,
+      "onsetDeltaMs": 85.8,
+      "nearestModelBeat": 15.495,
+      "beatDeltaMs": -295
+    }
+  ]
+}

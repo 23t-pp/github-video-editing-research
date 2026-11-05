@@ -1,0 +1,1027 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b",
+  "planSha256": "a3d5e0168863d94ba9ba66a008894ad9f286c7e9c1dbca05fdf0f588bf884087",
+  "decodedThumbnailFrames": 1440,
+  "thumbnailSize": [
+    320,
+    180
+  ],
+  "motionCriteria": "RGB mean absolute frame difference inside y10:170, excluding shot boundaries; median and <0.5 fraction are technical hold candidates, never automatic aesthetic fail. Source animation holds can be intentional. Actual images must be viewed.",
+  "perShot": [
+    {
+      "shot": "S001",
+      "range": [
+        0,
+        13
+      ],
+      "seconds": 0.5416666666666666,
+      "medianFrameMAD": 20.025352478027344,
+      "meanFrameMAD": 20.662307739257812,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [
+        "opening-slam"
+      ],
+      "sourceId": "S1E04",
+      "focus": "张掌靠近镜头"
+    },
+    {
+      "shot": "S002",
+      "range": [
+        13,
+        31
+      ],
+      "seconds": 0.75,
+      "medianFrameMAD": 4.986712455749512,
+      "meanFrameMAD": 5.360596656799316,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [
+        "opening-slam"
+      ],
+      "sourceId": "S1E05",
+      "focus": "青光手掌张开"
+    },
+    {
+      "shot": "S003",
+      "range": [
+        31,
+        45
+      ],
+      "seconds": 0.5833333333333334,
+      "medianFrameMAD": 14.617044448852539,
+      "meanFrameMAD": 13.837836265563965,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [
+        "opening-slam"
+      ],
+      "sourceId": "S1E07",
+      "focus": "手掌朝镜头"
+    },
+    {
+      "shot": "S004",
+      "range": [
+        45,
+        57
+      ],
+      "seconds": 0.5,
+      "medianFrameMAD": 11.855501174926758,
+      "meanFrameMAD": 15.441539764404297,
+      "nearHoldFractionMADbelow05": 0.09090909090909091,
+      "overlayIds": [],
+      "sourceId": "S1E24",
+      "focus": "手持钉子"
+    },
+    {
+      "shot": "S005",
+      "range": [
+        57,
+        80
+      ],
+      "seconds": 0.9583333333333334,
+      "medianFrameMAD": 16.933847427368164,
+      "meanFrameMAD": 24.121854782104492,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E17",
+      "focus": "横向挥杆"
+    },
+    {
+      "shot": "S006",
+      "range": [
+        80,
+        102
+      ],
+      "seconds": 0.9166666666666666,
+      "medianFrameMAD": 6.797031402587891,
+      "meanFrameMAD": 6.831860542297363,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E17",
+      "focus": "三轮腾空跨步（纠正最初静帧人物标签）"
+    },
+    {
+      "shot": "S007",
+      "range": [
+        102,
+        124
+      ],
+      "seconds": 0.9166666666666666,
+      "medianFrameMAD": 9.950559616088867,
+      "meanFrameMAD": 12.507485389709473,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E20",
+      "focus": "旋转腾空"
+    },
+    {
+      "shot": "S008",
+      "range": [
+        124,
+        146
+      ],
+      "seconds": 0.9166666666666666,
+      "medianFrameMAD": 18.57210922241211,
+      "meanFrameMAD": 23.679166793823242,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E23",
+      "focus": "离地跃起"
+    },
+    {
+      "shot": "S009",
+      "range": [
+        146,
+        168
+      ],
+      "seconds": 0.9166666666666666,
+      "medianFrameMAD": 0.7969791889190674,
+      "meanFrameMAD": 0.7615968585014343,
+      "nearHoldFractionMADbelow05": 0.2857142857142857,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "红眼近景"
+    },
+    {
+      "shot": "S010",
+      "range": [
+        168,
+        176
+      ],
+      "seconds": 0.3333333333333333,
+      "medianFrameMAD": 0.0,
+      "meanFrameMAD": 0.0,
+      "nearHoldFractionMADbelow05": 1.0,
+      "overlayIds": [],
+      "sourceId": null,
+      "focus": null
+    },
+    {
+      "shot": "S011",
+      "range": [
+        176,
+        210
+      ],
+      "seconds": 1.4166666666666667,
+      "medianFrameMAD": 1.0127995014190674,
+      "meanFrameMAD": 3.1738014221191406,
+      "nearHoldFractionMADbelow05": 0.18181818181818182,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "正面微笑"
+    },
+    {
+      "shot": "S012",
+      "range": [
+        210,
+        244
+      ],
+      "seconds": 1.4166666666666667,
+      "medianFrameMAD": 0.28924480080604553,
+      "meanFrameMAD": 0.29708054661750793,
+      "nearHoldFractionMADbelow05": 0.9090909090909091,
+      "overlayIds": [],
+      "sourceId": "S1E17",
+      "focus": "正面自信微笑"
+    },
+    {
+      "shot": "S013",
+      "range": [
+        244,
+        278
+      ],
+      "seconds": 1.4166666666666667,
+      "medianFrameMAD": 0.2436979115009308,
+      "meanFrameMAD": 0.30528998374938965,
+      "nearHoldFractionMADbelow05": 0.8787878787878788,
+      "overlayIds": [],
+      "sourceId": "S1E07",
+      "focus": "抬头正面"
+    },
+    {
+      "shot": "S014",
+      "range": [
+        278,
+        312
+      ],
+      "seconds": 1.4166666666666667,
+      "medianFrameMAD": 0.48803386092185974,
+      "meanFrameMAD": 4.144105434417725,
+      "nearHoldFractionMADbelow05": 0.5454545454545454,
+      "overlayIds": [],
+      "sourceId": "S1E20",
+      "focus": "双指黑白近景"
+    },
+    {
+      "shot": "S015",
+      "range": [
+        312,
+        336
+      ],
+      "seconds": 1.0,
+      "medianFrameMAD": 2.6963541507720947,
+      "meanFrameMAD": 3.310560703277588,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "近身交击"
+    },
+    {
+      "shot": "S016",
+      "range": [
+        336,
+        360
+      ],
+      "seconds": 1.0,
+      "medianFrameMAD": 1.6488215923309326,
+      "meanFrameMAD": 2.5715084075927734,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "挥拳背面"
+    },
+    {
+      "shot": "S017",
+      "range": [
+        360,
+        386
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 4.102200508117676,
+      "meanFrameMAD": 4.633694648742676,
+      "nearHoldFractionMADbelow05": 0.24,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "拳臂交击"
+    },
+    {
+      "shot": "S018",
+      "range": [
+        386,
+        411
+      ],
+      "seconds": 1.0416666666666667,
+      "medianFrameMAD": 0.6401822566986084,
+      "meanFrameMAD": 2.4593887329101562,
+      "nearHoldFractionMADbelow05": 0.25,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "双臂向两侧展开"
+    },
+    {
+      "shot": "S019",
+      "range": [
+        411,
+        436
+      ],
+      "seconds": 1.0416666666666667,
+      "medianFrameMAD": 11.532021522521973,
+      "meanFrameMAD": 11.165633201599121,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "低姿前探"
+    },
+    {
+      "shot": "S020",
+      "range": [
+        436,
+        460
+      ],
+      "seconds": 1.0,
+      "medianFrameMAD": 10.851373672485352,
+      "meanFrameMAD": 10.702860832214355,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "青光手势近景"
+    },
+    {
+      "shot": "S021",
+      "range": [
+        460,
+        486
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 0.5298241972923279,
+      "meanFrameMAD": 0.4999723732471466,
+      "nearHoldFractionMADbelow05": 0.48,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "双手指节相合"
+    },
+    {
+      "shot": "S022",
+      "range": [
+        486,
+        510
+      ],
+      "seconds": 1.0,
+      "medianFrameMAD": 1.6467642784118652,
+      "meanFrameMAD": 10.412530899047852,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E07",
+      "focus": "双指抬起"
+    },
+    {
+      "shot": "S023",
+      "range": [
+        510,
+        536
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 13.34603500366211,
+      "meanFrameMAD": 17.58716583251953,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "白蛇与鵺雷光展翼"
+    },
+    {
+      "shot": "S024",
+      "range": [
+        536,
+        561
+      ],
+      "seconds": 1.0416666666666667,
+      "medianFrameMAD": 0.008964844048023224,
+      "meanFrameMAD": 0.11421984434127808,
+      "nearHoldFractionMADbelow05": 0.9166666666666666,
+      "overlayIds": [],
+      "sourceId": "S1E07",
+      "focus": "抬指靠近额头"
+    },
+    {
+      "shot": "S025",
+      "range": [
+        561,
+        588
+      ],
+      "seconds": 1.125,
+      "medianFrameMAD": 7.12059211730957,
+      "meanFrameMAD": 8.732246398925781,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [
+        "weapon-triptych"
+      ],
+      "sourceId": "S1E17",
+      "focus": "长杆横挥"
+    },
+    {
+      "shot": "S026",
+      "range": [
+        588,
+        612
+      ],
+      "seconds": 1.0,
+      "medianFrameMAD": 4.932363510131836,
+      "meanFrameMAD": 3.824622869491577,
+      "nearHoldFractionMADbelow05": 0.08695652173913043,
+      "overlayIds": [],
+      "sourceId": "S1E17",
+      "focus": "发光刀刃横贯中部，刃尖朝左，轻微水平位移；不是大幅身体动作"
+    },
+    {
+      "shot": "S027",
+      "range": [
+        612,
+        638
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 3.3346939086914062,
+      "meanFrameMAD": 5.216602325439453,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [
+        "strike-type",
+        "palm-before-weapon"
+      ],
+      "sourceId": "S1E17",
+      "focus": "手持武器侧视"
+    },
+    {
+      "shot": "S028",
+      "range": [
+        638,
+        662
+      ],
+      "seconds": 1.0,
+      "medianFrameMAD": 8.997063636779785,
+      "meanFrameMAD": 11.241454124450684,
+      "nearHoldFractionMADbelow05": 0.391304347826087,
+      "overlayIds": [],
+      "sourceId": "S1E17",
+      "focus": "长杆前击"
+    },
+    {
+      "shot": "S029",
+      "range": [
+        662,
+        688
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 9.444414138793945,
+      "meanFrameMAD": 8.461254119873047,
+      "nearHoldFractionMADbelow05": 0.24,
+      "overlayIds": [],
+      "sourceId": "S1E17",
+      "focus": "背面挥锤"
+    },
+    {
+      "shot": "S030",
+      "range": [
+        688,
+        714
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 2.3769466876983643,
+      "meanFrameMAD": 2.3777172565460205,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E17",
+      "focus": "正面怒视"
+    },
+    {
+      "shot": "S031",
+      "range": [
+        714,
+        740
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 5.456738471984863,
+      "meanFrameMAD": 6.537041664123535,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E24",
+      "focus": "带伤正面笑"
+    },
+    {
+      "shot": "S032",
+      "range": [
+        740,
+        765
+      ],
+      "seconds": 1.0416666666666667,
+      "medianFrameMAD": 0.028642578050494194,
+      "meanFrameMAD": 3.6390609741210938,
+      "nearHoldFractionMADbelow05": 0.5416666666666666,
+      "overlayIds": [],
+      "sourceId": "S1E24",
+      "focus": "手臂举起斜身"
+    },
+    {
+      "shot": "S033",
+      "range": [
+        765,
+        790
+      ],
+      "seconds": 1.0416666666666667,
+      "medianFrameMAD": 2.4579784870147705,
+      "meanFrameMAD": 3.506706953048706,
+      "nearHoldFractionMADbelow05": 0.16666666666666666,
+      "overlayIds": [],
+      "sourceId": "S1E24",
+      "focus": "抬指面前"
+    },
+    {
+      "shot": "S034",
+      "range": [
+        790,
+        816
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 2.6380012035369873,
+      "meanFrameMAD": 2.9435863494873047,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E24",
+      "focus": "红黑冲击"
+    },
+    {
+      "shot": "S035",
+      "range": [
+        816,
+        842
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 1.423828125,
+      "meanFrameMAD": 7.282991886138916,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [
+        "paired-eyes"
+      ],
+      "sourceId": "S1E24",
+      "focus": "侧面微笑"
+    },
+    {
+      "shot": "S036",
+      "range": [
+        842,
+        866
+      ],
+      "seconds": 1.0,
+      "medianFrameMAD": 5.664297103881836,
+      "meanFrameMAD": 10.711138725280762,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E24",
+      "focus": "低头蓄势咬牙"
+    },
+    {
+      "shot": "S037",
+      "range": [
+        866,
+        892
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 2.560286521911621,
+      "meanFrameMAD": 4.03102970123291,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E19",
+      "focus": "正面脸部/眼神特写，周边蓝黑气息轻微变化，主体接近保持帧"
+    },
+    {
+      "shot": "S038",
+      "range": [
+        892,
+        918
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 12.907194137573242,
+      "meanFrameMAD": 12.056049346923828,
+      "nearHoldFractionMADbelow05": 0.28,
+      "overlayIds": [],
+      "sourceId": "S1E20",
+      "focus": "前倾准备"
+    },
+    {
+      "shot": "S039",
+      "range": [
+        918,
+        944
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 4.063665390014648,
+      "meanFrameMAD": 4.705199718475342,
+      "nearHoldFractionMADbelow05": 0.24,
+      "overlayIds": [],
+      "sourceId": "S1E20",
+      "focus": "并肩奔跑"
+    },
+    {
+      "shot": "S040",
+      "range": [
+        944,
+        970
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 5.356210708618164,
+      "meanFrameMAD": 5.113460063934326,
+      "nearHoldFractionMADbelow05": 0.2,
+      "overlayIds": [],
+      "sourceId": "S1E20",
+      "focus": "脚掌向镜头"
+    },
+    {
+      "shot": "S041",
+      "range": [
+        970,
+        996
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 2.077285051345825,
+      "meanFrameMAD": 3.3835861682891846,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [
+        "palm-energy-paper",
+        "palm-over-paper"
+      ],
+      "sourceId": "S1E20",
+      "focus": "前伸拳头"
+    },
+    {
+      "shot": "S042",
+      "range": [
+        996,
+        1022
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 0.1419791728258133,
+      "meanFrameMAD": 1.9225770235061646,
+      "nearHoldFractionMADbelow05": 0.8,
+      "overlayIds": [],
+      "sourceId": "S1E20",
+      "focus": "侧身合掌"
+    },
+    {
+      "shot": "S043",
+      "range": [
+        1022,
+        1048
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 25.590442657470703,
+      "meanFrameMAD": 32.195796966552734,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E19",
+      "focus": "红黑爆发中的人物"
+    },
+    {
+      "shot": "S044",
+      "range": [
+        1048,
+        1074
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 4.078014373779297,
+      "meanFrameMAD": 5.642338752746582,
+      "nearHoldFractionMADbelow05": 0.12,
+      "overlayIds": [
+        "same-source-leaves"
+      ],
+      "sourceId": "S1E19",
+      "focus": "战斗中正面"
+    },
+    {
+      "shot": "S045",
+      "range": [
+        1074,
+        1100
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 1.823886752128601,
+      "meanFrameMAD": 2.512871742248535,
+      "nearHoldFractionMADbelow05": 0.4,
+      "overlayIds": [],
+      "sourceId": "S1E19",
+      "focus": "蓝光拳指近景"
+    },
+    {
+      "shot": "S046",
+      "range": [
+        1100,
+        1126
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 2.07680344581604,
+      "meanFrameMAD": 5.977033615112305,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [],
+      "sourceId": "S1E19",
+      "focus": "蓝色气焰举拳"
+    },
+    {
+      "shot": "S047",
+      "range": [
+        1126,
+        1152
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 0.4884830713272095,
+      "meanFrameMAD": 0.8803825378417969,
+      "nearHoldFractionMADbelow05": 0.52,
+      "overlayIds": [
+        "limitless-type"
+      ],
+      "sourceId": "S1E20",
+      "focus": "双拳相合侧身"
+    },
+    {
+      "shot": "S048",
+      "range": [
+        1152,
+        1178
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 1.596360683441162,
+      "meanFrameMAD": 1.5881608724594116,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [
+        "limitless-type"
+      ],
+      "sourceId": "S1E20",
+      "focus": "合掌侧身"
+    },
+    {
+      "shot": "S049",
+      "range": [
+        1178,
+        1204
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 1.6644206047058105,
+      "meanFrameMAD": 16.991661071777344,
+      "nearHoldFractionMADbelow05": 0.36,
+      "overlayIds": [],
+      "sourceId": "S1E20",
+      "focus": "双指黑白近景"
+    },
+    {
+      "shot": "S050",
+      "range": [
+        1204,
+        1230
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 4.111568927764893,
+      "meanFrameMAD": 7.188376426696777,
+      "nearHoldFractionMADbelow05": 0.12,
+      "overlayIds": [],
+      "sourceId": "S1E20",
+      "focus": "术式双手与蓝球"
+    },
+    {
+      "shot": "S051",
+      "range": [
+        1230,
+        1256
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 16.79266929626465,
+      "meanFrameMAD": 19.023332595825195,
+      "nearHoldFractionMADbelow05": 0.04,
+      "overlayIds": [],
+      "sourceId": "S1E20",
+      "focus": "紫光照亮蓝眼"
+    },
+    {
+      "shot": "S052",
+      "range": [
+        1256,
+        1282
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 8.599472999572754,
+      "meanFrameMAD": 8.49642562866211,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [
+        "memory-windows"
+      ],
+      "sourceId": "S1E07",
+      "focus": "手指抓握号角的局部特写，号角略由左向中推进；原切后开始，后段急移前结束"
+    },
+    {
+      "shot": "S053",
+      "range": [
+        1282,
+        1308
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 0.1791536509990692,
+      "meanFrameMAD": 0.17058151960372925,
+      "nearHoldFractionMADbelow05": 1.0,
+      "overlayIds": [],
+      "sourceId": "S1E23",
+      "focus": "紫色单眼极近景，虹膜轻变，长睫毛轮廓；人物身份不以猜测命名"
+    },
+    {
+      "shot": "S054",
+      "range": [
+        1308,
+        1334
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 0.7623893022537231,
+      "meanFrameMAD": 1.5215768814086914,
+      "nearHoldFractionMADbelow05": 0.16,
+      "overlayIds": [],
+      "sourceId": "S1E23",
+      "focus": "朝左侧脸，小幅口型与头部变化，非跃起动作"
+    },
+    {
+      "shot": "S055",
+      "range": [
+        1334,
+        1360
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 0.8524218797683716,
+      "meanFrameMAD": 3.949549674987793,
+      "nearHoldFractionMADbelow05": 0.04,
+      "overlayIds": [],
+      "sourceId": "S1E23",
+      "focus": "睁眼"
+    },
+    {
+      "shot": "S056",
+      "range": [
+        1360,
+        1386
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 16.45150375366211,
+      "meanFrameMAD": 16.562969207763672,
+      "nearHoldFractionMADbelow05": 0.0,
+      "overlayIds": [
+        "yuji-runs-ahead"
+      ],
+      "sourceId": "S1E17",
+      "focus": "腕部抬至额头附近，小幅转头/发丝摆动，焦点在脸和腕部"
+    },
+    {
+      "shot": "S057",
+      "range": [
+        1386,
+        1416
+      ],
+      "seconds": 1.25,
+      "medianFrameMAD": 0.23919270932674408,
+      "meanFrameMAD": 10.35507869720459,
+      "nearHoldFractionMADbelow05": 0.6551724137931034,
+      "overlayIds": [],
+      "sourceId": "S1E24",
+      "focus": "橙色单眼极近景，黑色咒纹与瞳孔为焦点，镜头小幅推进；仅凭眼睛不定人物"
+    },
+    {
+      "shot": "S058",
+      "range": [
+        1416,
+        1440
+      ],
+      "seconds": 1.0,
+      "medianFrameMAD": 4.6615753173828125,
+      "meanFrameMAD": 4.704573631286621,
+      "nearHoldFractionMADbelow05": 0.043478260869565216,
+      "overlayIds": [],
+      "sourceId": "S1E20",
+      "focus": "紫色能量球扩张/发亮；1215.5处已切成闪电，严格止于更早"
+    }
+  ],
+  "lowestNoOverlayShots": [
+    {
+      "shot": "S024",
+      "range": [
+        536,
+        561
+      ],
+      "seconds": 1.0416666666666667,
+      "medianFrameMAD": 0.008964844048023224,
+      "meanFrameMAD": 0.11421984434127808,
+      "nearHoldFractionMADbelow05": 0.9166666666666666,
+      "overlayIds": [],
+      "sourceId": "S1E07",
+      "focus": "抬指靠近额头"
+    },
+    {
+      "shot": "S032",
+      "range": [
+        740,
+        765
+      ],
+      "seconds": 1.0416666666666667,
+      "medianFrameMAD": 0.028642578050494194,
+      "meanFrameMAD": 3.6390609741210938,
+      "nearHoldFractionMADbelow05": 0.5416666666666666,
+      "overlayIds": [],
+      "sourceId": "S1E24",
+      "focus": "手臂举起斜身"
+    },
+    {
+      "shot": "S042",
+      "range": [
+        996,
+        1022
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 0.1419791728258133,
+      "meanFrameMAD": 1.9225770235061646,
+      "nearHoldFractionMADbelow05": 0.8,
+      "overlayIds": [],
+      "sourceId": "S1E20",
+      "focus": "侧身合掌"
+    },
+    {
+      "shot": "S053",
+      "range": [
+        1282,
+        1308
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 0.1791536509990692,
+      "meanFrameMAD": 0.17058151960372925,
+      "nearHoldFractionMADbelow05": 1.0,
+      "overlayIds": [],
+      "sourceId": "S1E23",
+      "focus": "紫色单眼极近景，虹膜轻变，长睫毛轮廓；人物身份不以猜测命名"
+    },
+    {
+      "shot": "S057",
+      "range": [
+        1386,
+        1416
+      ],
+      "seconds": 1.25,
+      "medianFrameMAD": 0.23919270932674408,
+      "meanFrameMAD": 10.35507869720459,
+      "nearHoldFractionMADbelow05": 0.6551724137931034,
+      "overlayIds": [],
+      "sourceId": "S1E24",
+      "focus": "橙色单眼极近景，黑色咒纹与瞳孔为焦点，镜头小幅推进；仅凭眼睛不定人物"
+    },
+    {
+      "shot": "S013",
+      "range": [
+        244,
+        278
+      ],
+      "seconds": 1.4166666666666667,
+      "medianFrameMAD": 0.2436979115009308,
+      "meanFrameMAD": 0.30528998374938965,
+      "nearHoldFractionMADbelow05": 0.8787878787878788,
+      "overlayIds": [],
+      "sourceId": "S1E07",
+      "focus": "抬头正面"
+    },
+    {
+      "shot": "S012",
+      "range": [
+        210,
+        244
+      ],
+      "seconds": 1.4166666666666667,
+      "medianFrameMAD": 0.28924480080604553,
+      "meanFrameMAD": 0.29708054661750793,
+      "nearHoldFractionMADbelow05": 0.9090909090909091,
+      "overlayIds": [],
+      "sourceId": "S1E17",
+      "focus": "正面自信微笑"
+    },
+    {
+      "shot": "S014",
+      "range": [
+        278,
+        312
+      ],
+      "seconds": 1.4166666666666667,
+      "medianFrameMAD": 0.48803386092185974,
+      "meanFrameMAD": 4.144105434417725,
+      "nearHoldFractionMADbelow05": 0.5454545454545454,
+      "overlayIds": [],
+      "sourceId": "S1E20",
+      "focus": "双指黑白近景"
+    },
+    {
+      "shot": "S021",
+      "range": [
+        460,
+        486
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 0.5298241972923279,
+      "meanFrameMAD": 0.4999723732471466,
+      "nearHoldFractionMADbelow05": 0.48,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "双手指节相合"
+    },
+    {
+      "shot": "S018",
+      "range": [
+        386,
+        411
+      ],
+      "seconds": 1.0416666666666667,
+      "medianFrameMAD": 0.6401822566986084,
+      "meanFrameMAD": 2.4593887329101562,
+      "nearHoldFractionMADbelow05": 0.25,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "双臂向两侧展开"
+    },
+    {
+      "shot": "S054",
+      "range": [
+        1308,
+        1334
+      ],
+      "seconds": 1.0833333333333333,
+      "medianFrameMAD": 0.7623893022537231,
+      "meanFrameMAD": 1.5215768814086914,
+      "nearHoldFractionMADbelow05": 0.16,
+      "overlayIds": [],
+      "sourceId": "S1E23",
+      "focus": "朝左侧脸，小幅口型与头部变化，非跃起动作"
+    },
+    {
+      "shot": "S009",
+      "range": [
+        146,
+        168
+      ],
+      "seconds": 0.9166666666666666,
+      "medianFrameMAD": 0.7969791889190674,
+      "meanFrameMAD": 0.7615968585014343,
+      "nearHoldFractionMADbelow05": 0.2857142857142857,
+      "overlayIds": [],
+      "sourceId": "S1E05",
+      "focus": "红眼近景"
+    }
+  ],
+  "metadataErrors": [],
+  "contacts": {
+    "loops/loop-03/reviewer-evidence/actual-film-01.jpg": "bcd497617a1ae4febcf1ecb9dd74c325d8bfd0915f09d4e502baa7fb296c2926",
+    "loops/loop-03/reviewer-evidence/actual-film-02.jpg": "71b41ab3d72bd7149018757f740c61c48c99c071d2f76163199d7e2cc8afa0a4",
+    "loops/loop-03/reviewer-evidence/low-motion-candidates-first-mid-last.jpg": "fa303779b33a12ec9f926d7dd339c3539d3e2c9bbb112bba1dbf85ed9c4e6f7a"
+  }
+}

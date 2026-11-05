@@ -1,0 +1,47 @@
+{
+  "project": {
+    "id": "9f2a9af5-654d-4384-adfd-c7dc88b222a9",
+    "name": "挚友 · EDGE · 画面去重V3",
+    "updatedAt": 1793873882454
+  },
+  "timelines": [
+    {
+      "id": "tl_20f8778a-483a-4d10-a99d-341f2ffb273f",
+      "name": "序列 1",
+      "active": true,
+      "fps": 24,
+      "width": 1920,
+      "height": 1080,
+      "itemCount": 0,
+      "durationFrames": 0,
+      "duration": "0s",
+      "trackSummary": "track_v1:0"
+    }
+  ],
+  "doc": {
+    "version": 3,
+    "assets": [],
+    "mediaFolders": [],
+    "timelines": [
+      {
+        "id": "tl_20f8778a-483a-4d10-a99d-341f2ffb273f",
+        "name": "序列 1",
+        "order": 0,
+        "fps": 24,
+        "width": 1920,
+        "height": 1080,
+        "items": [],
+        "selectedId": null,
+        "trackOrder": [
+          "track_v1"
+        ],
+        "tracks": {
+          "track_v1": {
+            "kind": "video"
+          }
+        }
+      }
+    ],
+    "activeTimelineId": "tl_20f8778a-483a-4d10-a99d-341f2ffb273f"
+  }
+}

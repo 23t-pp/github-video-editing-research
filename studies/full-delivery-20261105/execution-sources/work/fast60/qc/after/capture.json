@@ -1,0 +1,2285 @@
+{
+  "fps": 24,
+  "method": "实际使用文件帧 assetStartFrame + 0 / floor((frames-1)/2) / frames-1；非全文件首尾。成片秒为startFrame加局部帧除24。",
+  "rows": [
+    {
+      "id": "S01",
+      "film": "03",
+      "label": "夜间车聚，红色尾灯与人群",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S01.mp4",
+      "asset_bytes": 2737384,
+      "asset_mtime": "2026-11-05T02:45:29.676Z",
+      "changed_during_capture": false,
+      "source_in_sec": 5780.24,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 0,
+      "timeline_end_frame_exclusive": 45,
+      "timeline_samples_sec": [
+        0,
+        0.9166666666666666,
+        1.8333333333333333
+      ],
+      "output": "S01-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S01.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S01 FIRST OUT 0.000s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S01 MID OUT 0.917s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S01 LAST OUT 1.833s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "film": "11",
+      "label": "起跑线前的脚步和车灯",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S02.mp4",
+      "asset_bytes": 2715785,
+      "asset_mtime": "2026-11-05T02:45:25.230Z",
+      "changed_during_capture": false,
+      "source_in_sec": 3869.17,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 45,
+      "timeline_end_frame_exclusive": 90,
+      "timeline_samples_sec": [
+        1.875,
+        2.7916666666666665,
+        3.7083333333333335
+      ],
+      "output": "S02-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S02.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S02 FIRST OUT 1.875s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S02 MID OUT 2.792s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S02 LAST OUT 3.708s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "film": "11",
+      "label": "手指打开红色氮气开关",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S03.mp4",
+      "asset_bytes": 1154714,
+      "asset_mtime": "2026-11-05T02:54:31.765Z",
+      "changed_during_capture": false,
+      "source_in_sec": 3929.25,
+      "used_file_frames": [
+        12,
+        23,
+        34
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9583333333333334,
+        1.4166666666666667
+      ],
+      "used_range_inclusive": [
+        12,
+        34
+      ],
+      "timeline_start_frame": 90,
+      "timeline_end_frame_exclusive": 113,
+      "timeline_samples_sec": [
+        3.75,
+        4.208333333333333,
+        4.666666666666667
+      ],
+      "output": "S03-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S03.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,23)+eq(n\\,34)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S03 FIRST OUT 3.750s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S03 MID OUT 4.208s FILE F23':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S03 LAST OUT 4.667s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "film": "11",
+      "label": "氮气瓶响应开关",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S04.mp4",
+      "asset_bytes": 791155,
+      "asset_mtime": "2026-11-05T02:54:31.917Z",
+      "changed_during_capture": false,
+      "source_in_sec": 3930.613333,
+      "used_file_frames": [
+        12,
+        17,
+        22
+      ],
+      "used_file_pts": [
+        0.5,
+        0.7083333333333334,
+        0.9166666666666666
+      ],
+      "used_range_inclusive": [
+        12,
+        22
+      ],
+      "timeline_start_frame": 113,
+      "timeline_end_frame_exclusive": 124,
+      "timeline_samples_sec": [
+        4.708333333333333,
+        4.916666666666667,
+        5.125
+      ],
+      "output": "S04-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S04.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,17)+eq(n\\,22)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S04 FIRST OUT 4.708s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S04 MID OUT 4.917s FILE F17':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S04 LAST OUT 5.125s FILE F22':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "film": "11",
+      "label": "转速表指针",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S05.mp4",
+      "asset_bytes": 1079542,
+      "asset_mtime": "2026-11-05T02:54:35.772Z",
+      "changed_during_capture": false,
+      "source_in_sec": 3931.576667,
+      "used_file_frames": [
+        12,
+        17,
+        22
+      ],
+      "used_file_pts": [
+        0.5,
+        0.7083333333333334,
+        0.9166666666666666
+      ],
+      "used_range_inclusive": [
+        12,
+        22
+      ],
+      "timeline_start_frame": 124,
+      "timeline_end_frame_exclusive": 135,
+      "timeline_samples_sec": [
+        5.166666666666667,
+        5.375,
+        5.583333333333333
+      ],
+      "output": "S05-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S05.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,17)+eq(n\\,22)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S05 FIRST OUT 5.167s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S05 MID OUT 5.375s FILE F17':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S05 LAST OUT 5.583s FILE F22':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "film": "11",
+      "label": "彩色跑车并排射出",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S06.mp4",
+      "asset_bytes": 2506048,
+      "asset_mtime": "2026-11-05T02:54:36.923Z",
+      "changed_during_capture": false,
+      "source_in_sec": 3932.2,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 135,
+      "timeline_end_frame_exclusive": 180,
+      "timeline_samples_sec": [
+        5.625,
+        6.541666666666667,
+        7.458333333333333
+      ],
+      "output": "S06-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S06.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S06 FIRST OUT 5.625s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S06 MID OUT 6.542s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S06 LAST OUT 7.458s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "film": "06",
+      "label": "橙色跑车冲过夜间人群",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S07.mp4",
+      "asset_bytes": 4469725,
+      "asset_mtime": "2026-11-05T02:45:43.917Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7309.21,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 180,
+      "timeline_end_frame_exclusive": 225,
+      "timeline_samples_sec": [
+        7.5,
+        8.416666666666666,
+        9.333333333333334
+      ],
+      "output": "S07-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S07.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S07 FIRST OUT 7.500s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S07 MID OUT 8.417s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S07 LAST OUT 9.333s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "film": "03",
+      "label": "两车沿灯带山路并行",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S08.mp4",
+      "asset_bytes": 1165265,
+      "asset_mtime": "2026-11-05T02:45:42.327Z",
+      "changed_during_capture": false,
+      "source_in_sec": 5340.08,
+      "used_file_frames": [
+        12,
+        23,
+        34
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9583333333333334,
+        1.4166666666666667
+      ],
+      "used_range_inclusive": [
+        12,
+        34
+      ],
+      "timeline_start_frame": 225,
+      "timeline_end_frame_exclusive": 248,
+      "timeline_samples_sec": [
+        9.375,
+        9.833333333333334,
+        10.291666666666666
+      ],
+      "output": "S08-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S08.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,23)+eq(n\\,34)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S08 FIRST OUT 9.375s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S08 MID OUT 9.833s FILE F23':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S08 LAST OUT 10.292s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "film": "03",
+      "label": "漂移车尾收正",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S09.mp4",
+      "asset_bytes": 1093235,
+      "asset_mtime": "2026-11-05T02:54:41.596Z",
+      "changed_during_capture": false,
+      "source_in_sec": 5349.021667,
+      "used_file_frames": [
+        12,
+        17,
+        22
+      ],
+      "used_file_pts": [
+        0.5,
+        0.7083333333333334,
+        0.9166666666666666
+      ],
+      "used_range_inclusive": [
+        12,
+        22
+      ],
+      "timeline_start_frame": 248,
+      "timeline_end_frame_exclusive": 259,
+      "timeline_samples_sec": [
+        10.333333333333334,
+        10.541666666666666,
+        10.75
+      ],
+      "output": "S09-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S09.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,17)+eq(n\\,22)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S09 FIRST OUT 10.333s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S09 MID OUT 10.542s FILE F17':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S09 LAST OUT 10.750s FILE F22':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "film": "11",
+      "label": "脚踩踏板",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S10.mp4",
+      "asset_bytes": 1271112,
+      "asset_mtime": "2026-11-05T02:54:41.320Z",
+      "changed_during_capture": false,
+      "source_in_sec": 1710.085,
+      "used_file_frames": [
+        12,
+        17,
+        22
+      ],
+      "used_file_pts": [
+        0.5,
+        0.7083333333333334,
+        0.9166666666666666
+      ],
+      "used_range_inclusive": [
+        12,
+        22
+      ],
+      "timeline_start_frame": 259,
+      "timeline_end_frame_exclusive": 270,
+      "timeline_samples_sec": [
+        10.791666666666666,
+        11,
+        11.208333333333334
+      ],
+      "output": "S10-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S10.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,17)+eq(n\\,22)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S10 FIRST OUT 10.792s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S10 MID OUT 11.000s FILE F17':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S10 LAST OUT 11.208s FILE F22':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "film": "10",
+      "label": "贴车门追拍，蓝车向前掠出",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S11.mp4",
+      "asset_bytes": 1613955,
+      "asset_mtime": "2026-11-05T02:45:55.270Z",
+      "changed_during_capture": false,
+      "source_in_sec": 4684.37,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 270,
+      "timeline_end_frame_exclusive": 315,
+      "timeline_samples_sec": [
+        11.25,
+        12.166666666666666,
+        13.083333333333334
+      ],
+      "output": "S11-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S11.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S11 FIRST OUT 11.250s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S11 MID OUT 12.167s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S11 LAST OUT 13.083s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "film": "02",
+      "label": "黄紫两台改装车横向掠过",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S12.mp4",
+      "asset_bytes": 3841990,
+      "asset_mtime": "2026-11-05T02:45:51.074Z",
+      "changed_during_capture": false,
+      "source_in_sec": 1611.08,
+      "used_file_frames": [
+        12,
+        23,
+        34
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9583333333333334,
+        1.4166666666666667
+      ],
+      "used_range_inclusive": [
+        12,
+        34
+      ],
+      "timeline_start_frame": 315,
+      "timeline_end_frame_exclusive": 338,
+      "timeline_samples_sec": [
+        13.125,
+        13.583333333333334,
+        14.041666666666666
+      ],
+      "output": "S12-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S12.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,23)+eq(n\\,34)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S12 FIRST OUT 13.125s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S12 MID OUT 13.583s FILE F23':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S12 LAST OUT 14.042s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "film": "11",
+      "label": "街口转弯接到迎面公路",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S13.mp4",
+      "asset_bytes": 3553886,
+      "asset_mtime": "2026-11-05T02:45:55.649Z",
+      "changed_during_capture": false,
+      "source_in_sec": 2249.78,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 338,
+      "timeline_end_frame_exclusive": 383,
+      "timeline_samples_sec": [
+        14.083333333333334,
+        15,
+        15.916666666666666
+      ],
+      "output": "S13-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S13.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S13 FIRST OUT 14.083s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S13 MID OUT 15.000s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S13 LAST OUT 15.917s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "film": "11",
+      "label": "换挡手部动作",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S14.mp4",
+      "asset_bytes": 1773447,
+      "asset_mtime": "2026-11-05T02:56:29.839Z",
+      "changed_during_capture": false,
+      "source_in_sec": 1949.7,
+      "used_file_frames": [
+        12,
+        22,
+        33
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9166666666666666,
+        1.375
+      ],
+      "used_range_inclusive": [
+        12,
+        33
+      ],
+      "timeline_start_frame": 383,
+      "timeline_end_frame_exclusive": 405,
+      "timeline_samples_sec": [
+        15.958333333333334,
+        16.375,
+        16.833333333333332
+      ],
+      "output": "S14-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S14.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,22)+eq(n\\,33)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S14 FIRST OUT 15.958s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S14 MID OUT 16.375s FILE F22':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S14 LAST OUT 16.833s FILE F33':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "film": "08",
+      "label": "黑车擦过施工架，钢管倒下",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S15.mp4",
+      "asset_bytes": 3328345,
+      "asset_mtime": "2026-11-05T02:46:04.366Z",
+      "changed_during_capture": false,
+      "source_in_sec": 4485.91,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 405,
+      "timeline_end_frame_exclusive": 450,
+      "timeline_samples_sec": [
+        16.875,
+        17.791666666666668,
+        18.708333333333332
+      ],
+      "output": "S15-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S15.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S15 FIRST OUT 16.875s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S15 MID OUT 17.792s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S15 LAST OUT 18.708s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "film": "04",
+      "label": "三车穿过起伏公路",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S16.mp4",
+      "asset_bytes": 1489394,
+      "asset_mtime": "2026-11-05T02:46:01.947Z",
+      "changed_during_capture": false,
+      "source_in_sec": 5863.27,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 450,
+      "timeline_end_frame_exclusive": 495,
+      "timeline_samples_sec": [
+        18.75,
+        19.666666666666668,
+        20.583333333333332
+      ],
+      "output": "S16-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S16.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S16 FIRST OUT 18.750s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S16 MID OUT 19.667s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S16 LAST OUT 20.583s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S17",
+      "film": "05",
+      "label": "透过咖啡馆窗框看车驶过",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S17.mp4",
+      "asset_bytes": 2259752,
+      "asset_mtime": "2026-11-05T02:46:07.036Z",
+      "changed_during_capture": false,
+      "source_in_sec": 2737.1,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 495,
+      "timeline_end_frame_exclusive": 540,
+      "timeline_samples_sec": [
+        20.625,
+        21.541666666666668,
+        22.458333333333332
+      ],
+      "output": "S17-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S17.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S17 FIRST OUT 20.625s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S17 MID OUT 21.542s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S17 LAST OUT 22.458s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S18",
+      "film": "09",
+      "label": "静下来的拱形车库",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S18.mp4",
+      "asset_bytes": 985452,
+      "asset_mtime": "2026-11-05T02:46:09.742Z",
+      "changed_during_capture": false,
+      "source_in_sec": 2805.14,
+      "used_file_frames": [
+        12,
+        23,
+        34
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9583333333333334,
+        1.4166666666666667
+      ],
+      "used_range_inclusive": [
+        12,
+        34
+      ],
+      "timeline_start_frame": 540,
+      "timeline_end_frame_exclusive": 563,
+      "timeline_samples_sec": [
+        22.5,
+        22.958333333333332,
+        23.416666666666668
+      ],
+      "output": "S18-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S18.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,23)+eq(n\\,34)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S18 FIRST OUT 22.500s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S18 MID OUT 22.958s FILE F23':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S18 LAST OUT 23.417s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S19",
+      "film": "02",
+      "label": "从黄色敞篷横摇至红色跑车",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S19.mp4",
+      "asset_bytes": 3147899,
+      "asset_mtime": "2026-11-05T02:46:11.119Z",
+      "changed_during_capture": false,
+      "source_in_sec": 1613.19,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 563,
+      "timeline_end_frame_exclusive": 608,
+      "timeline_samples_sec": [
+        23.458333333333332,
+        24.375,
+        25.291666666666668
+      ],
+      "output": "S19-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S19.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S19 FIRST OUT 23.458s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S19 MID OUT 24.375s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S19 LAST OUT 25.292s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S20",
+      "film": "05",
+      "label": "人低下头轻轻笑",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S20.mp4",
+      "asset_bytes": 619410,
+      "asset_mtime": "2026-11-05T02:46:11.613Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7232.4,
+      "used_file_frames": [
+        12,
+        22,
+        33
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9166666666666666,
+        1.375
+      ],
+      "used_range_inclusive": [
+        12,
+        33
+      ],
+      "timeline_start_frame": 608,
+      "timeline_end_frame_exclusive": 630,
+      "timeline_samples_sec": [
+        25.333333333333332,
+        25.75,
+        26.208333333333332
+      ],
+      "output": "S20-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S20.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,22)+eq(n\\,33)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S20 FIRST OUT 25.333s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S20 MID OUT 25.750s FILE F22':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S20 LAST OUT 26.208s FILE F33':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S21",
+      "film": "04",
+      "label": "布莱恩从挡风玻璃后看向前方",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S21.mp4",
+      "asset_bytes": 1883875,
+      "asset_mtime": "2026-11-05T02:46:15.136Z",
+      "changed_during_capture": false,
+      "source_in_sec": 5866.16,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 630,
+      "timeline_end_frame_exclusive": 675,
+      "timeline_samples_sec": [
+        26.25,
+        27.166666666666668,
+        28.083333333333332
+      ],
+      "output": "S21-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S21.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S21 FIRST OUT 26.250s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S21 MID OUT 27.167s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S21 LAST OUT 28.083s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S22",
+      "film": "11",
+      "label": "驾驶者目光与三联窗口",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S22.mp4",
+      "asset_bytes": 2375974,
+      "asset_mtime": "2026-11-05T02:46:15.428Z",
+      "changed_during_capture": false,
+      "source_in_sec": 6961.49,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 675,
+      "timeline_end_frame_exclusive": 720,
+      "timeline_samples_sec": [
+        28.125,
+        29.041666666666668,
+        29.958333333333332
+      ],
+      "output": "S22-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S22.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S22 FIRST OUT 28.125s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S22 MID OUT 29.042s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S22 LAST OUT 29.958s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S23",
+      "film": "07",
+      "label": "黑车从烟尘和碎石中迎面冲出",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S23.mp4",
+      "asset_bytes": 1534308,
+      "asset_mtime": "2026-11-05T02:46:21.726Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7066.14,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 720,
+      "timeline_end_frame_exclusive": 765,
+      "timeline_samples_sec": [
+        30,
+        30.916666666666668,
+        31.833333333333332
+      ],
+      "output": "S23-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S23.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S23 FIRST OUT 30.000s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S23 MID OUT 30.917s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S23 LAST OUT 31.833s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S24",
+      "film": "05",
+      "label": "腾起的车身落地，悬挂压低",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S24.mp4",
+      "asset_bytes": 2059099,
+      "asset_mtime": "2026-11-05T02:46:20.179Z",
+      "changed_during_capture": false,
+      "source_in_sec": 6686.56,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 765,
+      "timeline_end_frame_exclusive": 810,
+      "timeline_samples_sec": [
+        31.875,
+        32.791666666666664,
+        33.708333333333336
+      ],
+      "output": "S24-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S24.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S24 FIRST OUT 31.875s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S24 MID OUT 32.792s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S24 LAST OUT 33.708s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S25",
+      "film": "11",
+      "label": "车轮摩擦路面，烟尘升起",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S25.mp4",
+      "asset_bytes": 1689226,
+      "asset_mtime": "2026-11-05T02:46:23.156Z",
+      "changed_during_capture": false,
+      "source_in_sec": 6060.95,
+      "used_file_frames": [
+        12,
+        23,
+        34
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9583333333333334,
+        1.4166666666666667
+      ],
+      "used_range_inclusive": [
+        12,
+        34
+      ],
+      "timeline_start_frame": 810,
+      "timeline_end_frame_exclusive": 833,
+      "timeline_samples_sec": [
+        33.75,
+        34.208333333333336,
+        34.666666666666664
+      ],
+      "output": "S25-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S25.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,23)+eq(n\\,34)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S25 FIRST OUT 33.750s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S25 MID OUT 34.208s FILE F23':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S25 LAST OUT 34.667s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S26",
+      "film": "08",
+      "label": "冰水中的轮胎，沿用上一镜圆形轮廓",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S26.mp4",
+      "asset_bytes": 1272781,
+      "asset_mtime": "2026-11-05T02:46:26.942Z",
+      "changed_during_capture": false,
+      "source_in_sec": 6973.86,
+      "used_file_frames": [
+        12,
+        22,
+        33
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9166666666666666,
+        1.375
+      ],
+      "used_range_inclusive": [
+        12,
+        33
+      ],
+      "timeline_start_frame": 833,
+      "timeline_end_frame_exclusive": 855,
+      "timeline_samples_sec": [
+        34.708333333333336,
+        35.125,
+        35.583333333333336
+      ],
+      "output": "S26-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S26.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,22)+eq(n\\,33)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S26 FIRST OUT 34.708s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S26 MID OUT 35.125s FILE F22':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S26 LAST OUT 35.583s FILE F33':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S27",
+      "film": "08",
+      "label": "车辆穿过冰水向镜头驶来",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S27.mp4",
+      "asset_bytes": 2039243,
+      "asset_mtime": "2026-11-05T02:46:31.622Z",
+      "changed_during_capture": false,
+      "source_in_sec": 6976.98,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 855,
+      "timeline_end_frame_exclusive": 900,
+      "timeline_samples_sec": [
+        35.625,
+        36.541666666666664,
+        37.458333333333336
+      ],
+      "output": "S27-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S27.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S27 FIRST OUT 35.625s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S27 MID OUT 36.542s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S27 LAST OUT 37.458s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S28",
+      "film": "04",
+      "label": "油罐车沿悬崖公路横移",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S28.mp4",
+      "asset_bytes": 3169546,
+      "asset_mtime": "2026-11-05T02:46:31.465Z",
+      "changed_during_capture": false,
+      "source_in_sec": 346.1,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 900,
+      "timeline_end_frame_exclusive": 945,
+      "timeline_samples_sec": [
+        37.5,
+        38.416666666666664,
+        39.333333333333336
+      ],
+      "output": "S28-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S28.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S28 FIRST OUT 37.500s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S28 MID OUT 38.417s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S28 LAST OUT 39.333s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S29",
+      "film": "11",
+      "label": "车身擦过，火花落地",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S29.mp4",
+      "asset_bytes": 2666204,
+      "asset_mtime": "2026-11-05T02:58:30.166Z",
+      "changed_during_capture": false,
+      "source_in_sec": 1889.583333,
+      "used_file_frames": [
+        12,
+        23,
+        34
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9583333333333334,
+        1.4166666666666667
+      ],
+      "used_range_inclusive": [
+        12,
+        34
+      ],
+      "timeline_start_frame": 945,
+      "timeline_end_frame_exclusive": 968,
+      "timeline_samples_sec": [
+        39.375,
+        39.833333333333336,
+        40.291666666666664
+      ],
+      "output": "S29-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S29.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,23)+eq(n\\,34)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S29 FIRST OUT 39.375s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S29 MID OUT 39.833s FILE F23':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S29 LAST OUT 40.292s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S30",
+      "film": "11",
+      "label": "贴地车轮掠过石阶",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S30.mp4",
+      "asset_bytes": 1738117,
+      "asset_mtime": "2026-11-05T02:46:36.080Z",
+      "changed_during_capture": false,
+      "source_in_sec": 2131.5,
+      "used_file_frames": [
+        12,
+        22,
+        33
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9166666666666666,
+        1.375
+      ],
+      "used_range_inclusive": [
+        12,
+        33
+      ],
+      "timeline_start_frame": 968,
+      "timeline_end_frame_exclusive": 990,
+      "timeline_samples_sec": [
+        40.333333333333336,
+        40.75,
+        41.208333333333336
+      ],
+      "output": "S30-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S30.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,22)+eq(n\\,33)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S30 FIRST OUT 40.333s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S30 MID OUT 40.750s FILE F22':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S30 LAST OUT 41.208s FILE F33':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S31",
+      "film": "11",
+      "label": "双直升机与高速公路平行追逐",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S31.mp4",
+      "asset_bytes": 3220028,
+      "asset_mtime": "2026-11-05T02:46:37.505Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7038.51,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 990,
+      "timeline_end_frame_exclusive": 1035,
+      "timeline_samples_sec": [
+        41.25,
+        42.166666666666664,
+        43.083333333333336
+      ],
+      "output": "S31-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S31.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S31 FIRST OUT 41.250s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S31 MID OUT 42.167s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S31 LAST OUT 43.083s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S32",
+      "film": "11",
+      "label": "驾驶者抬眼看向侧面",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S32.mp4",
+      "asset_bytes": 1701323,
+      "asset_mtime": "2026-11-05T02:46:41.504Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7037.39,
+      "used_file_frames": [
+        12,
+        23,
+        34
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9583333333333334,
+        1.4166666666666667
+      ],
+      "used_range_inclusive": [
+        12,
+        34
+      ],
+      "timeline_start_frame": 1035,
+      "timeline_end_frame_exclusive": 1058,
+      "timeline_samples_sec": [
+        43.125,
+        43.583333333333336,
+        44.041666666666664
+      ],
+      "output": "S32-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S32.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,23)+eq(n\\,34)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S32 FIRST OUT 43.125s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S32 MID OUT 43.583s FILE F23':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S32 LAST OUT 44.042s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S33",
+      "film": "11",
+      "label": "孩子回头看向窗外",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S33.mp4",
+      "asset_bytes": 1654025,
+      "asset_mtime": "2026-11-05T02:54:43.669Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7099.586667,
+      "used_file_frames": [
+        12,
+        22,
+        33
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9166666666666666,
+        1.375
+      ],
+      "used_range_inclusive": [
+        12,
+        33
+      ],
+      "timeline_start_frame": 1058,
+      "timeline_end_frame_exclusive": 1080,
+      "timeline_samples_sec": [
+        44.083333333333336,
+        44.5,
+        44.958333333333336
+      ],
+      "output": "S33-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S33.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,22)+eq(n\\,33)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S33 FIRST OUT 44.083s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S33 MID OUT 44.500s FILE F22':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S33 LAST OUT 44.958s FILE F33':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S34",
+      "film": "11",
+      "label": "牵引索从车身延伸到天空",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S34.mp4",
+      "asset_bytes": 1516125,
+      "asset_mtime": "2026-11-05T02:46:41.523Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7078.94,
+      "used_file_frames": [
+        12,
+        23,
+        34
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9583333333333334,
+        1.4166666666666667
+      ],
+      "used_range_inclusive": [
+        12,
+        34
+      ],
+      "timeline_start_frame": 1080,
+      "timeline_end_frame_exclusive": 1103,
+      "timeline_samples_sec": [
+        45,
+        45.458333333333336,
+        45.916666666666664
+      ],
+      "output": "S34-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S34.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,23)+eq(n\\,34)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S34 FIRST OUT 45.000s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S34 MID OUT 45.458s FILE F23':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S34 LAST OUT 45.917s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S35",
+      "film": "11",
+      "label": "仪表与握紧方向盘的手",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S35.mp4",
+      "asset_bytes": 1286328,
+      "asset_mtime": "2026-11-05T02:46:42.906Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7077.71,
+      "used_file_frames": [
+        12,
+        22,
+        33
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9166666666666666,
+        1.375
+      ],
+      "used_range_inclusive": [
+        12,
+        33
+      ],
+      "timeline_start_frame": 1103,
+      "timeline_end_frame_exclusive": 1125,
+      "timeline_samples_sec": [
+        45.958333333333336,
+        46.375,
+        46.833333333333336
+      ],
+      "output": "S35-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S35.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,22)+eq(n\\,33)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S35 FIRST OUT 45.958s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S35 MID OUT 46.375s FILE F22':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S35 LAST OUT 46.833s FILE F33':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S36",
+      "film": "11",
+      "label": "俯视桥面，车辆与直升机对位",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S36.mp4",
+      "asset_bytes": 2423047,
+      "asset_mtime": "2026-11-05T02:46:43.971Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7070.54,
+      "used_file_frames": [
+        12,
+        23,
+        34
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9583333333333334,
+        1.4166666666666667
+      ],
+      "used_range_inclusive": [
+        12,
+        34
+      ],
+      "timeline_start_frame": 1125,
+      "timeline_end_frame_exclusive": 1148,
+      "timeline_samples_sec": [
+        46.875,
+        47.333333333333336,
+        47.791666666666664
+      ],
+      "output": "S36-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S36.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,23)+eq(n\\,34)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S36 FIRST OUT 46.875s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S36 MID OUT 47.333s FILE F23':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S36 LAST OUT 47.792s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S37",
+      "film": "11",
+      "label": "黑车迎向镜头，车头迅速变大",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S37.mp4",
+      "asset_bytes": 2087483,
+      "asset_mtime": "2026-11-05T02:46:45.244Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7049.81,
+      "used_file_frames": [
+        12,
+        22,
+        33
+      ],
+      "used_file_pts": [
+        0.5,
+        0.9166666666666666,
+        1.375
+      ],
+      "used_range_inclusive": [
+        12,
+        33
+      ],
+      "timeline_start_frame": 1148,
+      "timeline_end_frame_exclusive": 1170,
+      "timeline_samples_sec": [
+        47.833333333333336,
+        48.25,
+        48.708333333333336
+      ],
+      "output": "S37-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S37.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,22)+eq(n\\,33)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S37 FIRST OUT 47.833s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S37 MID OUT 48.250s FILE F22':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S37 LAST OUT 48.708s FILE F33':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S38",
+      "film": "11",
+      "label": "车辆跃起，在两架直升机之间悬空",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S38.mp4",
+      "asset_bytes": 2494837,
+      "asset_mtime": "2026-11-05T02:46:49.480Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7097.52,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 1170,
+      "timeline_end_frame_exclusive": 1215,
+      "timeline_samples_sec": [
+        48.75,
+        49.666666666666664,
+        50.583333333333336
+      ],
+      "output": "S38-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S38.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S38 FIRST OUT 48.750s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S38 MID OUT 49.667s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S38 LAST OUT 50.583s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S39",
+      "film": "11",
+      "label": "车辆逃出爆炸，火焰在车后追来",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S39.mp4",
+      "asset_bytes": 3852341,
+      "asset_mtime": "2026-11-05T02:54:44.764Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7110.143333,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 1215,
+      "timeline_end_frame_exclusive": 1260,
+      "timeline_samples_sec": [
+        50.625,
+        51.541666666666664,
+        52.458333333333336
+      ],
+      "output": "S39-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S39.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S39 FIRST OUT 50.625s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S39 MID OUT 51.542s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S39 LAST OUT 52.458s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S40",
+      "film": "07",
+      "label": "两位驾驶者相视，夕阳下微笑",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S40.mp4",
+      "asset_bytes": 1082651,
+      "asset_mtime": "2026-11-05T02:54:46.607Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7641.32,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 1260,
+      "timeline_end_frame_exclusive": 1305,
+      "timeline_samples_sec": [
+        52.5,
+        53.416666666666664,
+        54.333333333333336
+      ],
+      "output": "S40-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S40.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S40 FIRST OUT 52.500s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S40 MID OUT 53.417s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S40 LAST OUT 54.333s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S41",
+      "film": "07",
+      "label": "递出钥匙，双人镜头停留",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S41.mp4",
+      "asset_bytes": 2471177,
+      "asset_mtime": "2026-11-05T02:46:53.275Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7661.06,
+      "used_file_frames": [
+        12,
+        34,
+        56
+      ],
+      "used_file_pts": [
+        0.5,
+        1.4166666666666667,
+        2.3333333333333335
+      ],
+      "used_range_inclusive": [
+        12,
+        56
+      ],
+      "timeline_start_frame": 1305,
+      "timeline_end_frame_exclusive": 1350,
+      "timeline_samples_sec": [
+        54.375,
+        55.291666666666664,
+        56.208333333333336
+      ],
+      "output": "S41-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S41.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,34)+eq(n\\,56)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S41 FIRST OUT 54.375s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S41 MID OUT 55.292s FILE F34':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S41 LAST OUT 56.208s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "S42",
+      "film": "07",
+      "label": "金色山坡，两台车驶向不同方向",
+      "origin": "primary-timeline",
+      "asset": "assets/shots/S42.mp4",
+      "asset_bytes": 5168445,
+      "asset_mtime": "2026-11-05T02:47:00.804Z",
+      "changed_during_capture": false,
+      "source_in_sec": 7724.62,
+      "used_file_frames": [
+        12,
+        56,
+        101
+      ],
+      "used_file_pts": [
+        0.5,
+        2.3333333333333335,
+        4.208333333333333
+      ],
+      "used_range_inclusive": [
+        12,
+        101
+      ],
+      "timeline_start_frame": 1350,
+      "timeline_end_frame_exclusive": 1440,
+      "timeline_samples_sec": [
+        56.25,
+        58.083333333333336,
+        59.958333333333336
+      ],
+      "output": "S42-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\S42.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,56)+eq(n\\,101)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S42 FIRST OUT 56.250s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S42 MID OUT 58.083s FILE F56':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='S42 LAST OUT 59.958s FILE F101':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    },
+    {
+      "id": "P03",
+      "film": "04",
+      "label": "三联右侧女性驾驶员",
+      "origin": "triptych-right-panel",
+      "asset": "assets/shots/P03.mp4",
+      "asset_bytes": 1499262,
+      "asset_mtime": "2026-11-05T02:50:12.040Z",
+      "changed_during_capture": false,
+      "source_in_sec": 5870.98,
+      "used_file_frames": [
+        12,
+        29,
+        46
+      ],
+      "used_file_pts": [
+        0.5,
+        1.2083333333333333,
+        1.9166666666666667
+      ],
+      "used_range_inclusive": [
+        12,
+        46
+      ],
+      "timeline_start_frame": 685,
+      "timeline_end_frame_exclusive": 720,
+      "timeline_samples_sec": [
+        28.541666666666668,
+        29.25,
+        29.958333333333332
+      ],
+      "output": "P03-used.jpg",
+      "command": {
+        "program": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+        "args": [
+          "-i",
+          "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\fast60\\hyperframes\\assets\\shots\\P03.mp4",
+          "-an",
+          "-sn",
+          "-vf",
+          "select='eq(n\\,12)+eq(n\\,29)+eq(n\\,46)',scale=384:216,pad=384:250:0:0:black,drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='P03 FIRST OUT 28.542s FILE F12':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,0)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='P03 MID OUT 29.250s FILE F29':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,1)',drawtext=fontfile='C\\:/Windows/Fonts/arial.ttf':text='P03 LAST OUT 29.958s FILE F46':x=4:y=223:fontsize=14:fontcolor=white:enable='eq(n\\,2)',tile=3x1:nb_frames=3:color=0x993300",
+          "-frames:v",
+          "1",
+          "-c:v",
+          "mjpeg",
+          "-q:v",
+          "3",
+          "-f",
+          "image2pipe",
+          "pipe:1"
+        ]
+      }
+    }
+  ]
+}

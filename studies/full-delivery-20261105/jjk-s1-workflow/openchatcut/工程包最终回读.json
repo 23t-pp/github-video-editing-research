@@ -1,0 +1,3584 @@
+{
+  "projectId": "cd443d87-8dbd-4a57-a216-5a50374c3893",
+  "importedProjectId": "be8d1fea-8e60-4e84-9e6d-43c0b5051640",
+  "packageFilename": "咒力接力 · CURSED FLOW.ccproj",
+  "packageBytes": 205861867,
+  "packageSha256": "d5e59043e75417f13383547d382ee98d7b9e065c657e515d3f7a6ff54e51d043",
+  "packageFormat": "openchatcut-project@2",
+  "mediaAssets": 85,
+  "mediaAvailableAndByteVerified": 85,
+  "mediaMissing": [],
+  "observed": [
+    {
+      "role": "source",
+      "id": "cd443d87-8dbd-4a57-a216-5a50374c3893",
+      "assets": 85,
+      "sequences": [
+        {
+          "id": "tl_c63b92cc-5811-42ad-b207-d0a6201938aa",
+          "name": "02 原生逐镜 · 59镜 · 第一季",
+          "fps": 24,
+          "width": 1920,
+          "height": 1080,
+          "frames": 1440,
+          "seconds": 60,
+          "videoClips": 59,
+          "audioClips": 1,
+          "textClips": 4,
+          "contiguousVideo": true,
+          "allMediaLinked": true,
+          "allVideoMuted": true,
+          "allPreparedPlaybackRateOne": true,
+          "masterPlaybackRateOne": true,
+          "allNativeReframesReadbackMatch": true,
+          "reframeQuantization": "OCC x/y .01 canvas percent; scale .001, from pixel plan"
+        },
+        {
+          "id": "tl_27da842d-b2ab-4986-90aa-ac0bc5233118",
+          "name": "01 HF完整效果 · 20段可替换",
+          "fps": 24,
+          "width": 1920,
+          "height": 1080,
+          "frames": 1440,
+          "seconds": 60,
+          "videoClips": 20,
+          "audioClips": 1,
+          "textClips": 0,
+          "contiguousVideo": true,
+          "allMediaLinked": true,
+          "allVideoMuted": true,
+          "allPreparedPlaybackRateOne": true,
+          "masterPlaybackRateOne": true
+        }
+      ]
+    },
+    {
+      "role": "officialImportedCopy",
+      "id": "be8d1fea-8e60-4e84-9e6d-43c0b5051640",
+      "assets": 85,
+      "sequences": [
+        {
+          "id": "tl_c63b92cc-5811-42ad-b207-d0a6201938aa",
+          "name": "02 原生逐镜 · 59镜 · 第一季",
+          "fps": 24,
+          "width": 1920,
+          "height": 1080,
+          "frames": 1440,
+          "seconds": 60,
+          "videoClips": 59,
+          "audioClips": 1,
+          "textClips": 4,
+          "contiguousVideo": true,
+          "allMediaLinked": true,
+          "allVideoMuted": true,
+          "allPreparedPlaybackRateOne": true,
+          "masterPlaybackRateOne": true,
+          "allNativeReframesReadbackMatch": true,
+          "reframeQuantization": "OCC x/y .01 canvas percent; scale .001, from pixel plan"
+        },
+        {
+          "id": "tl_27da842d-b2ab-4986-90aa-ac0bc5233118",
+          "name": "01 HF完整效果 · 20段可替换",
+          "fps": 24,
+          "width": 1920,
+          "height": 1080,
+          "frames": 1440,
+          "seconds": 60,
+          "videoClips": 20,
+          "audioClips": 1,
+          "textClips": 0,
+          "contiguousVideo": true,
+          "allMediaLinked": true,
+          "allVideoMuted": true,
+          "allPreparedPlaybackRateOne": true,
+          "masterPlaybackRateOne": true
+        }
+      ]
+    }
+  ],
+  "reframeChecks": [
+    {
+      "role": "source",
+      "shotId": "S001",
+      "itemId": "item_0dc7df90-8503-4315-a4e9-d2b7d05d9e67",
+      "assetId": "S001",
+      "sourcePixels": {
+        "scale": 1.6,
+        "x": -434,
+        "y": 228
+      },
+      "expectedOccTransform": {
+        "x": -22.6,
+        "y": 21.11,
+        "scale": 1.6
+      },
+      "actualOccTransform": {
+        "scale": 1.6,
+        "x": -22.6,
+        "y": 21.11
+      },
+      "actualPixelTranslation": {
+        "x": -433.92,
+        "y": 227.98799999999997
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 13,
+      "preparedSourceEndFrameExclusive": 25
+    },
+    {
+      "role": "source",
+      "shotId": "S002",
+      "itemId": "item_83a04002-ad44-435f-8134-ed73c71a9404",
+      "assetId": "S002",
+      "sourcePixels": {
+        "scale": 1.8,
+        "x": -142,
+        "y": 8
+      },
+      "expectedOccTransform": {
+        "x": -7.4,
+        "y": 0.74,
+        "scale": 1.8
+      },
+      "actualOccTransform": {
+        "scale": 1.8,
+        "x": -7.4,
+        "y": 0.74
+      },
+      "actualPixelTranslation": {
+        "x": -142.08,
+        "y": 7.992
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 18,
+      "preparedSourceEndFrameExclusive": 30
+    },
+    {
+      "role": "source",
+      "shotId": "S003",
+      "itemId": "item_95236ce1-2c10-482a-8367-90ac768620a3",
+      "assetId": "S003",
+      "sourcePixels": {
+        "scale": 2.4,
+        "x": 1046,
+        "y": -676
+      },
+      "expectedOccTransform": {
+        "x": 54.48,
+        "y": -62.59,
+        "scale": 2.4
+      },
+      "actualOccTransform": {
+        "scale": 2.4,
+        "x": 54.48,
+        "y": -62.59
+      },
+      "actualPixelTranslation": {
+        "x": 1046.0159999999998,
+        "y": -675.972
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 14,
+      "preparedSourceEndFrameExclusive": 26
+    },
+    {
+      "role": "source",
+      "shotId": "S004",
+      "itemId": "item_92f391e7-0922-40e6-a49d-505e2f3916a6",
+      "assetId": "S004",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 12,
+      "preparedSourceEndFrameExclusive": 24
+    },
+    {
+      "role": "source",
+      "shotId": "S005",
+      "itemId": "item_164ab808-1665-4bf6-a516-c5c2b4e32a66",
+      "assetId": "S005",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 23,
+      "preparedSourceEndFrameExclusive": 35
+    },
+    {
+      "role": "source",
+      "shotId": "S006",
+      "itemId": "item_7d19b25e-b435-4bee-b6dc-8a0af789a913",
+      "assetId": "S006",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 22,
+      "preparedSourceEndFrameExclusive": 34
+    },
+    {
+      "role": "source",
+      "shotId": "S007",
+      "itemId": "item_318b60c1-b7ba-4318-a0ae-ad223dd56a79",
+      "assetId": "S007",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 22,
+      "preparedSourceEndFrameExclusive": 34
+    },
+    {
+      "role": "source",
+      "shotId": "S008",
+      "itemId": "item_06a9c206-02e0-4b52-838d-f59bc7b3e404",
+      "assetId": "S008",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 22,
+      "preparedSourceEndFrameExclusive": 34
+    },
+    {
+      "role": "source",
+      "shotId": "S009",
+      "itemId": "item_e94da3a7-2229-4cd0-a538-7cde00b6bcdf",
+      "assetId": "S009",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 22,
+      "preparedSourceEndFrameExclusive": 34
+    },
+    {
+      "role": "source",
+      "shotId": "S010",
+      "itemId": "item_8f7f4ac0-e788-4247-a88e-2dcbe54a38c0",
+      "assetId": "S010",
+      "sourcePixels": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 8,
+      "preparedSourceEndFrameExclusive": 20
+    },
+    {
+      "role": "source",
+      "shotId": "S011",
+      "itemId": "item_e62ae725-b41a-46cb-8ed1-b900db6de261",
+      "assetId": "S011",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 34,
+      "preparedSourceEndFrameExclusive": 46
+    },
+    {
+      "role": "source",
+      "shotId": "S012",
+      "itemId": "item_7ebfc0ec-87bc-4b82-9e72-9d2ef7b7271c",
+      "assetId": "S012",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 34,
+      "preparedSourceEndFrameExclusive": 46
+    },
+    {
+      "role": "source",
+      "shotId": "S013",
+      "itemId": "item_0a88d094-cbb1-4638-9d96-eae902d04923",
+      "assetId": "S013",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 34,
+      "preparedSourceEndFrameExclusive": 46
+    },
+    {
+      "role": "source",
+      "shotId": "S014",
+      "itemId": "item_55f702bb-73bb-48b8-aa09-9d507faaa83e",
+      "assetId": "S014",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 34,
+      "preparedSourceEndFrameExclusive": 46
+    },
+    {
+      "role": "source",
+      "shotId": "S015",
+      "itemId": "item_01deb940-b099-4ebe-aa2a-aee803829251",
+      "assetId": "S015",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "source",
+      "shotId": "S016",
+      "itemId": "item_ec58518c-d805-45a3-8c86-bc892e33ee86",
+      "assetId": "S016",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "source",
+      "shotId": "S017",
+      "itemId": "item_0c198d5d-6132-4abe-a010-e8f6e7caaacd",
+      "assetId": "S017",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S018",
+      "itemId": "item_d1ee5de8-5d2c-4ccd-b0a3-a7f558169db8",
+      "assetId": "S018",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 25,
+      "preparedSourceEndFrameExclusive": 37
+    },
+    {
+      "role": "source",
+      "shotId": "S019",
+      "itemId": "item_c34c10c3-ed79-4523-ab41-e65918bbe7ba",
+      "assetId": "S019",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 25,
+      "preparedSourceEndFrameExclusive": 37
+    },
+    {
+      "role": "source",
+      "shotId": "S020",
+      "itemId": "item_f9f6e46b-ddb8-48a6-b93f-4b4f3171fba3",
+      "assetId": "S020",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "source",
+      "shotId": "S021",
+      "itemId": "item_6fa9285d-cc4c-46a8-a35c-d4184986a5a9",
+      "assetId": "S021",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S022",
+      "itemId": "item_778ca743-dfc6-4f26-a4f4-4166d6629be8",
+      "assetId": "S053",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "source",
+      "shotId": "S023",
+      "itemId": "item_4914057f-e252-4f76-b35a-72ff078d82c5",
+      "assetId": "S023",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S024",
+      "itemId": "item_c158cd3c-3e0a-42bc-b447-1517d3adda5f",
+      "assetId": "S024",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 25,
+      "preparedSourceEndFrameExclusive": 37
+    },
+    {
+      "role": "source",
+      "shotId": "S025",
+      "itemId": "item_3836b99c-22c5-4614-ae97-a68924c19676",
+      "assetId": "S025",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 27,
+      "preparedSourceEndFrameExclusive": 39
+    },
+    {
+      "role": "source",
+      "shotId": "S026",
+      "itemId": "item_72b998f1-b24f-460b-824d-77186d165358",
+      "assetId": "N026",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "source",
+      "shotId": "S027",
+      "itemId": "item_1102a2a0-56e7-45bf-89d3-fa418b1eccb0",
+      "assetId": "S027",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S028",
+      "itemId": "item_55691e7c-ac25-4ecf-bac6-2a634b09e4f5",
+      "assetId": "S028",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "source",
+      "shotId": "S029",
+      "itemId": "item_1696072b-72f3-4e7b-b27d-2a2966983d5e",
+      "assetId": "S029",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S030",
+      "itemId": "item_bc072f9f-5c87-4c6d-a0e6-7676a59fc91d",
+      "assetId": "S030",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S031",
+      "itemId": "item_51c3ef90-c010-4761-b870-b028925c786e",
+      "assetId": "S031",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S032",
+      "itemId": "item_410eed8e-8672-442a-a89c-0fc7dd0a2b7a",
+      "assetId": "S032",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 25,
+      "preparedSourceEndFrameExclusive": 37
+    },
+    {
+      "role": "source",
+      "shotId": "S033",
+      "itemId": "item_57613327-b66a-4b37-bfe6-056176578742",
+      "assetId": "S033",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 25,
+      "preparedSourceEndFrameExclusive": 37
+    },
+    {
+      "role": "source",
+      "shotId": "S034",
+      "itemId": "item_933a4554-f3c9-454c-87d1-e5ce410c9810",
+      "assetId": "S034",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S035",
+      "itemId": "item_039181e5-bc5f-4a20-a5a3-245765d1b610",
+      "assetId": "S035",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S036",
+      "itemId": "item_fef92de2-7445-4459-be5f-53fc871f4f3b",
+      "assetId": "S036",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "source",
+      "shotId": "S037",
+      "itemId": "item_f3c744aa-0132-4f7f-9ad6-417346361a9a",
+      "assetId": "N037",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S038",
+      "itemId": "item_54330ff4-961f-4f2c-8481-38589f7d25a7",
+      "assetId": "S038",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S039",
+      "itemId": "item_430442f1-669b-46d8-bef9-f7555183f2a9",
+      "assetId": "S039",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S040",
+      "itemId": "item_1322939b-6015-457d-b2c3-9fc52a173418",
+      "assetId": "S040",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S041",
+      "itemId": "item_e1751ccf-7639-481e-b928-c89df22739b6",
+      "assetId": "S041",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S042",
+      "itemId": "item_ab278945-55c1-4ef1-b022-019827e329e8",
+      "assetId": "S042",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S043",
+      "itemId": "item_9616af70-6e27-44cd-a628-0bfcd3e8fce8",
+      "assetId": "S043",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S044",
+      "itemId": "item_072abf1e-40d1-4c53-a999-8801203d181a",
+      "assetId": "S044",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S045",
+      "itemId": "item_aebadd0c-46cb-442d-93d7-61f8891da3d7",
+      "assetId": "S045",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S046",
+      "itemId": "item_036a8804-efb0-4f39-acbc-9134b247078b",
+      "assetId": "S046",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S047",
+      "itemId": "item_39171d38-a26e-4c57-87d5-4583d695afec",
+      "assetId": "S047",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S048",
+      "itemId": "item_3d650af6-faa7-41d7-93de-16846b959d62",
+      "assetId": "S048",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S049",
+      "itemId": "item_68e10363-6db3-4df1-b1e4-42885a7ad2d4",
+      "assetId": "S049",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S050",
+      "itemId": "item_e428bf8e-9323-4ad3-ac61-dead63bb91e5",
+      "assetId": "S050",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S051",
+      "itemId": "item_0a475b77-1e4c-4b17-ba4c-01c0cc64248a",
+      "assetId": "S051",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S052",
+      "itemId": "item_055691f5-b353-403f-937a-f896b44dc5af",
+      "assetId": "N052",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S053",
+      "itemId": "item_0cef9074-7938-4ee5-9194-cbb4ee1794ff",
+      "assetId": "N053",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 8,
+      "preparedSourceEndFrameExclusive": 20
+    },
+    {
+      "role": "source",
+      "shotId": "R4A01",
+      "itemId": "item_83e0caa5-bdce-41e7-8c1a-62ae595dd661",
+      "assetId": "T062",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 0,
+      "outputFrames": 22,
+      "preparedSourceEndFrameExclusive": 22
+    },
+    {
+      "role": "source",
+      "shotId": "R4A02",
+      "itemId": "item_24247db9-cca6-4995-bfa1-6f544f20b834",
+      "assetId": "T091",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 0,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 24
+    },
+    {
+      "role": "source",
+      "shotId": "R4A03",
+      "itemId": "item_4f33ed7f-6ce0-47a6-bfa5-9a2f1362ba69",
+      "assetId": "T007",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 0,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 24
+    },
+    {
+      "role": "source",
+      "shotId": "S056",
+      "itemId": "item_4efb4d85-f0a3-4b50-ba52-d920e438ffa5",
+      "assetId": "N056B",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "source",
+      "shotId": "S057",
+      "itemId": "item_5c24447a-da42-4423-a38d-deb6bdba46fa",
+      "assetId": "N057",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 30,
+      "preparedSourceEndFrameExclusive": 42
+    },
+    {
+      "role": "source",
+      "shotId": "S058",
+      "itemId": "item_84d07b1c-0328-4058-9312-731d5cffc0c2",
+      "assetId": "N058",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S001",
+      "itemId": "item_0dc7df90-8503-4315-a4e9-d2b7d05d9e67",
+      "assetId": "S001",
+      "sourcePixels": {
+        "scale": 1.6,
+        "x": -434,
+        "y": 228
+      },
+      "expectedOccTransform": {
+        "x": -22.6,
+        "y": 21.11,
+        "scale": 1.6
+      },
+      "actualOccTransform": {
+        "scale": 1.6,
+        "x": -22.6,
+        "y": 21.11
+      },
+      "actualPixelTranslation": {
+        "x": -433.92,
+        "y": 227.98799999999997
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 13,
+      "preparedSourceEndFrameExclusive": 25
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S002",
+      "itemId": "item_83a04002-ad44-435f-8134-ed73c71a9404",
+      "assetId": "S002",
+      "sourcePixels": {
+        "scale": 1.8,
+        "x": -142,
+        "y": 8
+      },
+      "expectedOccTransform": {
+        "x": -7.4,
+        "y": 0.74,
+        "scale": 1.8
+      },
+      "actualOccTransform": {
+        "scale": 1.8,
+        "x": -7.4,
+        "y": 0.74
+      },
+      "actualPixelTranslation": {
+        "x": -142.08,
+        "y": 7.992
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 18,
+      "preparedSourceEndFrameExclusive": 30
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S003",
+      "itemId": "item_95236ce1-2c10-482a-8367-90ac768620a3",
+      "assetId": "S003",
+      "sourcePixels": {
+        "scale": 2.4,
+        "x": 1046,
+        "y": -676
+      },
+      "expectedOccTransform": {
+        "x": 54.48,
+        "y": -62.59,
+        "scale": 2.4
+      },
+      "actualOccTransform": {
+        "scale": 2.4,
+        "x": 54.48,
+        "y": -62.59
+      },
+      "actualPixelTranslation": {
+        "x": 1046.0159999999998,
+        "y": -675.972
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 14,
+      "preparedSourceEndFrameExclusive": 26
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S004",
+      "itemId": "item_92f391e7-0922-40e6-a49d-505e2f3916a6",
+      "assetId": "S004",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 12,
+      "preparedSourceEndFrameExclusive": 24
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S005",
+      "itemId": "item_164ab808-1665-4bf6-a516-c5c2b4e32a66",
+      "assetId": "S005",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 23,
+      "preparedSourceEndFrameExclusive": 35
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S006",
+      "itemId": "item_7d19b25e-b435-4bee-b6dc-8a0af789a913",
+      "assetId": "S006",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 22,
+      "preparedSourceEndFrameExclusive": 34
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S007",
+      "itemId": "item_318b60c1-b7ba-4318-a0ae-ad223dd56a79",
+      "assetId": "S007",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 22,
+      "preparedSourceEndFrameExclusive": 34
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S008",
+      "itemId": "item_06a9c206-02e0-4b52-838d-f59bc7b3e404",
+      "assetId": "S008",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 22,
+      "preparedSourceEndFrameExclusive": 34
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S009",
+      "itemId": "item_e94da3a7-2229-4cd0-a538-7cde00b6bcdf",
+      "assetId": "S009",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 22,
+      "preparedSourceEndFrameExclusive": 34
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S010",
+      "itemId": "item_8f7f4ac0-e788-4247-a88e-2dcbe54a38c0",
+      "assetId": "S010",
+      "sourcePixels": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 8,
+      "preparedSourceEndFrameExclusive": 20
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S011",
+      "itemId": "item_e62ae725-b41a-46cb-8ed1-b900db6de261",
+      "assetId": "S011",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 34,
+      "preparedSourceEndFrameExclusive": 46
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S012",
+      "itemId": "item_7ebfc0ec-87bc-4b82-9e72-9d2ef7b7271c",
+      "assetId": "S012",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 34,
+      "preparedSourceEndFrameExclusive": 46
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S013",
+      "itemId": "item_0a88d094-cbb1-4638-9d96-eae902d04923",
+      "assetId": "S013",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 34,
+      "preparedSourceEndFrameExclusive": 46
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S014",
+      "itemId": "item_55f702bb-73bb-48b8-aa09-9d507faaa83e",
+      "assetId": "S014",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 34,
+      "preparedSourceEndFrameExclusive": 46
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S015",
+      "itemId": "item_01deb940-b099-4ebe-aa2a-aee803829251",
+      "assetId": "S015",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S016",
+      "itemId": "item_ec58518c-d805-45a3-8c86-bc892e33ee86",
+      "assetId": "S016",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S017",
+      "itemId": "item_0c198d5d-6132-4abe-a010-e8f6e7caaacd",
+      "assetId": "S017",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S018",
+      "itemId": "item_d1ee5de8-5d2c-4ccd-b0a3-a7f558169db8",
+      "assetId": "S018",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 25,
+      "preparedSourceEndFrameExclusive": 37
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S019",
+      "itemId": "item_c34c10c3-ed79-4523-ab41-e65918bbe7ba",
+      "assetId": "S019",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 25,
+      "preparedSourceEndFrameExclusive": 37
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S020",
+      "itemId": "item_f9f6e46b-ddb8-48a6-b93f-4b4f3171fba3",
+      "assetId": "S020",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S021",
+      "itemId": "item_6fa9285d-cc4c-46a8-a35c-d4184986a5a9",
+      "assetId": "S021",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S022",
+      "itemId": "item_778ca743-dfc6-4f26-a4f4-4166d6629be8",
+      "assetId": "S053",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S023",
+      "itemId": "item_4914057f-e252-4f76-b35a-72ff078d82c5",
+      "assetId": "S023",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S024",
+      "itemId": "item_c158cd3c-3e0a-42bc-b447-1517d3adda5f",
+      "assetId": "S024",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 25,
+      "preparedSourceEndFrameExclusive": 37
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S025",
+      "itemId": "item_3836b99c-22c5-4614-ae97-a68924c19676",
+      "assetId": "S025",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 27,
+      "preparedSourceEndFrameExclusive": 39
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S026",
+      "itemId": "item_72b998f1-b24f-460b-824d-77186d165358",
+      "assetId": "N026",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S027",
+      "itemId": "item_1102a2a0-56e7-45bf-89d3-fa418b1eccb0",
+      "assetId": "S027",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S028",
+      "itemId": "item_55691e7c-ac25-4ecf-bac6-2a634b09e4f5",
+      "assetId": "S028",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S029",
+      "itemId": "item_1696072b-72f3-4e7b-b27d-2a2966983d5e",
+      "assetId": "S029",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S030",
+      "itemId": "item_bc072f9f-5c87-4c6d-a0e6-7676a59fc91d",
+      "assetId": "S030",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S031",
+      "itemId": "item_51c3ef90-c010-4761-b870-b028925c786e",
+      "assetId": "S031",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S032",
+      "itemId": "item_410eed8e-8672-442a-a89c-0fc7dd0a2b7a",
+      "assetId": "S032",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 25,
+      "preparedSourceEndFrameExclusive": 37
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S033",
+      "itemId": "item_57613327-b66a-4b37-bfe6-056176578742",
+      "assetId": "S033",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 25,
+      "preparedSourceEndFrameExclusive": 37
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S034",
+      "itemId": "item_933a4554-f3c9-454c-87d1-e5ce410c9810",
+      "assetId": "S034",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S035",
+      "itemId": "item_039181e5-bc5f-4a20-a5a3-245765d1b610",
+      "assetId": "S035",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S036",
+      "itemId": "item_fef92de2-7445-4459-be5f-53fc871f4f3b",
+      "assetId": "S036",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S037",
+      "itemId": "item_f3c744aa-0132-4f7f-9ad6-417346361a9a",
+      "assetId": "N037",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S038",
+      "itemId": "item_54330ff4-961f-4f2c-8481-38589f7d25a7",
+      "assetId": "S038",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S039",
+      "itemId": "item_430442f1-669b-46d8-bef9-f7555183f2a9",
+      "assetId": "S039",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S040",
+      "itemId": "item_1322939b-6015-457d-b2c3-9fc52a173418",
+      "assetId": "S040",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S041",
+      "itemId": "item_e1751ccf-7639-481e-b928-c89df22739b6",
+      "assetId": "S041",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S042",
+      "itemId": "item_ab278945-55c1-4ef1-b022-019827e329e8",
+      "assetId": "S042",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S043",
+      "itemId": "item_9616af70-6e27-44cd-a628-0bfcd3e8fce8",
+      "assetId": "S043",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S044",
+      "itemId": "item_072abf1e-40d1-4c53-a999-8801203d181a",
+      "assetId": "S044",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S045",
+      "itemId": "item_aebadd0c-46cb-442d-93d7-61f8891da3d7",
+      "assetId": "S045",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S046",
+      "itemId": "item_036a8804-efb0-4f39-acbc-9134b247078b",
+      "assetId": "S046",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S047",
+      "itemId": "item_39171d38-a26e-4c57-87d5-4583d695afec",
+      "assetId": "S047",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S048",
+      "itemId": "item_3d650af6-faa7-41d7-93de-16846b959d62",
+      "assetId": "S048",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S049",
+      "itemId": "item_68e10363-6db3-4df1-b1e4-42885a7ad2d4",
+      "assetId": "S049",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S050",
+      "itemId": "item_e428bf8e-9323-4ad3-ac61-dead63bb91e5",
+      "assetId": "S050",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S051",
+      "itemId": "item_0a475b77-1e4c-4b17-ba4c-01c0cc64248a",
+      "assetId": "S051",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S052",
+      "itemId": "item_055691f5-b353-403f-937a-f896b44dc5af",
+      "assetId": "N052",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S053",
+      "itemId": "item_0cef9074-7938-4ee5-9194-cbb4ee1794ff",
+      "assetId": "N053",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 8,
+      "preparedSourceEndFrameExclusive": 20
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "R4A01",
+      "itemId": "item_83e0caa5-bdce-41e7-8c1a-62ae595dd661",
+      "assetId": "T062",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 0,
+      "outputFrames": 22,
+      "preparedSourceEndFrameExclusive": 22
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "R4A02",
+      "itemId": "item_24247db9-cca6-4995-bfa1-6f544f20b834",
+      "assetId": "T091",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 0,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 24
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "R4A03",
+      "itemId": "item_4f33ed7f-6ce0-47a6-bfa5-9a2f1362ba69",
+      "assetId": "T007",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 0,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 24
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S056",
+      "itemId": "item_4efb4d85-f0a3-4b50-ba52-d920e438ffa5",
+      "assetId": "N056B",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 26,
+      "preparedSourceEndFrameExclusive": 38
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S057",
+      "itemId": "item_5c24447a-da42-4423-a38d-deb6bdba46fa",
+      "assetId": "N057",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 30,
+      "preparedSourceEndFrameExclusive": 42
+    },
+    {
+      "role": "officialImportedCopy",
+      "shotId": "S058",
+      "itemId": "item_84d07b1c-0328-4058-9312-731d5cffc0c2",
+      "assetId": "N058",
+      "sourcePixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "expectedOccTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "actualOccTransform": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "actualPixelTranslation": {
+        "x": 0,
+        "y": 0
+      },
+      "preparedPlaybackRate": 1,
+      "preparedSourceInFrame": 12,
+      "outputFrames": 24,
+      "preparedSourceEndFrameExclusive": 36
+    }
+  ],
+  "masterChecks": [
+    {
+      "role": "source",
+      "timelineId": "tl_c63b92cc-5811-42ad-b207-d0a6201938aa",
+      "assetId": "20d4af78-7daa-4373-97ab-e2a8391a28cd",
+      "name": "master.wav",
+      "sha256": "6cf7a21e53a8e160473de82f8193f3af2069627bb8812fda47baec160e3e89aa",
+      "startFrame": 0,
+      "frames": 1440,
+      "playbackRate": 1,
+      "volume": 1
+    },
+    {
+      "role": "source",
+      "timelineId": "tl_27da842d-b2ab-4986-90aa-ac0bc5233118",
+      "assetId": "20d4af78-7daa-4373-97ab-e2a8391a28cd",
+      "name": "master.wav",
+      "sha256": "6cf7a21e53a8e160473de82f8193f3af2069627bb8812fda47baec160e3e89aa",
+      "startFrame": 0,
+      "frames": 1440,
+      "playbackRate": 1,
+      "volume": 1
+    },
+    {
+      "role": "officialImportedCopy",
+      "timelineId": "tl_c63b92cc-5811-42ad-b207-d0a6201938aa",
+      "assetId": "20d4af78-7daa-4373-97ab-e2a8391a28cd",
+      "name": "master.wav",
+      "sha256": "6cf7a21e53a8e160473de82f8193f3af2069627bb8812fda47baec160e3e89aa",
+      "startFrame": 0,
+      "frames": 1440,
+      "playbackRate": 1,
+      "volume": 1
+    },
+    {
+      "role": "officialImportedCopy",
+      "timelineId": "tl_27da842d-b2ab-4986-90aa-ac0bc5233118",
+      "assetId": "20d4af78-7daa-4373-97ab-e2a8391a28cd",
+      "name": "master.wav",
+      "sha256": "6cf7a21e53a8e160473de82f8193f3af2069627bb8812fda47baec160e3e89aa",
+      "startFrame": 0,
+      "frames": 1440,
+      "playbackRate": 1,
+      "volume": 1
+    }
+  ],
+  "actualImportedMaster": {
+    "sha256": "6cf7a21e53a8e160473de82f8193f3af2069627bb8812fda47baec160e3e89aa",
+    "format": 1,
+    "channels": 2,
+    "sampleRate": 48000,
+    "bits": 16,
+    "sampleFrames": 2880000,
+    "seconds": 60
+  },
+  "preparedReplayPolicy": "All native and HF clips replay already prepared media 1x; original-source nominal rate is not applied a second time",
+  "method": "Live HTTP ProjectDoc readback and official exporter/importer SHA256 per-media verification; actual imported WAV RIFF sample count; UI playback and audition recorded separately.",
+  "actualUiPlaybackVerified": false,
+  "actualUiDragVerified": false,
+  "actualUiAudioAuditionVerified": false,
+  "verifiedAt": "2026-11-05T12:13:33.185Z"
+}

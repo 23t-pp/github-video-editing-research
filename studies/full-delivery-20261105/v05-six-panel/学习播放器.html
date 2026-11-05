@@ -1,0 +1,21 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>V05 六格卡片 · 跟着成片学</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#10141b;color:#e9eef6;font:16px/1.7 system-ui,'Microsoft YaHei',sans-serif}main{max-width:1120px;margin:auto;padding:32px 24px 70px}small{color:#9faec1}h1{font-size:32px;line-height:1.25;margin:8px 0 18px}p{max-width:800px}video{width:100%;display:block;background:black;border:1px solid #344150;border-radius:8px}.bar{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}button,a{font:inherit}button{cursor:pointer;background:#253547;color:#fff;border:1px solid #50677d;border-radius:6px;padding:8px 12px}button:hover{background:#3b536d}a{color:#9bd9ff}#detail{padding:16px 20px;border-left:4px solid #ffb56b;background:#1b2632;min-height:92px}table{border-collapse:collapse;width:100%;margin:20px 0}td,th{text-align:left;border-bottom:1px solid #344150;padding:10px}img{width:100%;border-radius:6px}.status{font-variant-numeric:tabular-nums;color:#ffca93}</style>
+<main><small>速度与激情10素材 · 1080p / 24fps · 本地制作</small><h1>六格卡片，逐帧看懂</h1><p>先播放4.5秒小样，再点下方按钮停在关键位置。六个窗口共用同一个镜头时钟，逐格露出不同区域，最后接到全画幅。</p>
+<video id="film" controls playsinline preload="metadata" src="V05六格卡片_成片.mp4" poster="evidence/final-f038.jpg"></video>
+<div class="bar"><button id="play">从头播放</button><button id="slow">0.25倍慢放</button><button id="normal">恢复正常速度</button><button id="prev">上一帧</button><button id="next">下一帧</button><span class="status" id="position" aria-live="polite"></span></div>
+<div class="bar" id="steps"></div><div id="detail" aria-live="polite"></div>
+<h2>先认识三个动作</h2><table><thead><tr><th>动作</th><th>你看到什么</th><th>工程里改什么</th></tr></thead><tbody><tr><td>矩形裁切</td><td>同一画面分成3列×2行</td><td>每格的裁切范围</td></tr><tr><td>错峰入场</td><td>每隔2帧增加一个窗口</td><td>透明度与位置关键帧</td></tr><tr><td>接全画幅</td><td>第48帧换成完整的同一镜头</td><td>后段源入点为18帧，保持动作连续</td></tr></tbody></table>
+<p>轻敲音标记六次入场，来自本次合成；原片声音只混合一次。这个小样复刻卡片结构，没有加入人物抠像、光流补帧或复杂音乐分析。</p>
+<h2>打开工程继续练习</h2><div class="bar"><a href="openchatcut/V05六格卡片_可编辑工程.ccproj" download>下载 OpenChatCut 工程</a> · <a href="HyperFrames可编辑工程.zip" download>下载 HyperFrames 源码包</a> · <a href="README_中文学习指南.md">阅读中文教程</a> · <a href="V05六格卡片_四倍慢放_无声.mp4">打开18秒慢放视频</a></div><p>OpenChatCut 工程有两条序列：原生六格教学用于逐格改动，HF成片整合用于继续剪辑已渲染画面。导入时显示“素材4/4”才是素材完整。</p>
+<h2>成片关键帧</h2><img src="evidence/成片逐帧拆解.jpg" alt="按帧号展示底图、卡片逐步出现、合拢与全画幅切换">
+</main><script>
+const film=document.querySelector('#film'),info=document.querySelector('#detail'),position=document.querySelector('#position');
+const steps=[{f:0,n:'0 帧：底图',d:'A镜头：车辆迎面驶来。六格此时不可见。'},{f:32,n:'32 帧：左上',d:'左上格完成淡入。六格的视频时钟都已经从第30帧启动，只有窗口显现时间不同。'},{f:36,n:'36 帧：左列＋中上',d:'格子按左上、左下、中上、中下、右上、右下的次序出现，间隔2帧，约0.083秒。'},{f:40,n:'40 帧：右列入场',d:'右列最后进入。每格的位移在3帧内收敛到0，避免相邻区域永久错位。'},{f:43,n:'43 帧：完整拼图',d:'六格已经合拢。观察脸部、车窗与方向盘穿过格子边界时是否接得上。'},{f:48,n:'48 帧：全画幅',d:'从卡片切到完整B镜头。B源时间从18帧继续，不倒回0；这让动作保持连贯。'},{f:102,n:'102 帧：收尾',d:'最后6帧逐渐淡出。后续航拍/车内镜头来自所选原片片段内部已有剪辑。'}];
+for(const step of steps){const b=document.createElement('button');b.textContent=step.n;b.onclick=()=>{film.pause();film.currentTime=step.f/24;update()};document.querySelector('#steps').append(b)}
+function update(){const f=Math.min(107,Math.floor(film.currentTime*24+1e-3));position.textContent=`第 ${f} 帧 · ${film.currentTime.toFixed(3)} 秒`;const s=[...steps].reverse().find(x=>x.f<=f)||steps[0];info.textContent=s.d}
+film.addEventListener('timeupdate',update);film.addEventListener('seeked',update);
+document.querySelector('#play').onclick=()=>{film.currentTime=0;film.playbackRate=1;film.play()};
+document.querySelector('#slow').onclick=()=>{film.currentTime=0;film.playbackRate=.25;film.play()};
+document.querySelector('#normal').onclick=()=>{film.playbackRate=1};
+for(const [id,offset]of[['prev',-1],['next',1]])document.querySelector('#'+id).onclick=()=>{film.pause();film.currentTime=Math.max(0,Math.min(107/24,(Math.round(film.currentTime*24)+offset)/24));update()};update();
+</script></html>

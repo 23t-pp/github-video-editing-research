@@ -1,0 +1,106 @@
+{
+  "projectId": "db290905-d92d-40c3-bf6d-b978bc074d9e",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_item",
+      "result": {
+        "ok": true,
+        "atomic": true,
+        "validateOnly": false,
+        "ripple": false,
+        "results": [
+          {
+            "ok": true,
+            "kind": "text",
+            "placed": {
+              "itemId": "item_86261591-4eed-4d82-b2bf-b2e9c933620c",
+              "name": "bond",
+              "text": "唯一 / 挚友",
+              "track": "track_1dbce108-1d25-43b0-a30b-6f18c2480346",
+              "startFrame": 127,
+              "durationInFrames": 33,
+              "color": "#fffaf0",
+              "fontSize": 36
+            },
+            "ripple": false
+          },
+          {
+            "ok": true,
+            "kind": "text",
+            "placed": {
+              "itemId": "item_2732ef18-ed8a-4201-87b0-5e231966375a",
+              "name": "strongest",
+              "text": "最强",
+              "track": "track_1dbce108-1d25-43b0-a30b-6f18c2480346",
+              "startFrame": 432,
+              "durationInFrames": 19,
+              "color": "#fffaf0",
+              "fontSize": 36
+            },
+            "ripple": false
+          },
+          {
+            "ok": true,
+            "kind": "text",
+            "placed": {
+              "itemId": "item_99dfc0f0-086f-4435-99f1-5d4c15845155",
+              "name": "awake",
+              "text": "最强 / 觉醒",
+              "track": "track_1dbce108-1d25-43b0-a30b-6f18c2480346",
+              "startFrame": 669,
+              "durationInFrames": 48,
+              "color": "#fffaf0",
+              "fontSize": 36
+            },
+            "ripple": false
+          },
+          {
+            "ok": true,
+            "kind": "text",
+            "placed": {
+              "itemId": "item_9e258f06-1b31-49a0-8f0c-7e6cf86df803",
+              "name": "limitless",
+              "text": "无下限",
+              "track": "track_1dbce108-1d25-43b0-a30b-6f18c2480346",
+              "startFrame": 1017,
+              "durationInFrames": 30,
+              "color": "#fffaf0",
+              "fontSize": 36
+            },
+            "ripple": false
+          },
+          {
+            "ok": true,
+            "kind": "text",
+            "placed": {
+              "itemId": "item_ea57add3-b9db-4cbb-a4f3-05007ef9b5f7",
+              "name": "purple",
+              "text": "茈",
+              "track": "track_1dbce108-1d25-43b0-a30b-6f18c2480346",
+              "startFrame": 1098,
+              "durationInFrames": 18,
+              "color": "#fffaf0",
+              "fontSize": 36
+            },
+            "ripple": false
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "85b55fb3-1fca-4144-ad77-0cf31b3a9da9",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-444aab60",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_f5a32381aaf14491",
+    "editorUrl": "http://localhost:5199/#/editor/db290905-d92d-40c3-bf6d-b978bc074d9e",
+    "updatedAt": "2026-11-05T07:29:43.941Z"
+  }
+}

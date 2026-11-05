@@ -1,0 +1,197 @@
+[
+  {
+    "name": "add_audio",
+    "headless": true,
+    "description": "Add an audio asset (music/SFX) as a clip on an audio track (A1/A2). Appended to the track end unless startFrame is given. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "add_motion_graphic",
+    "headless": true,
+    "description": "Add a motion-graphic template as a new clip. Placed at the end of the track unless startFrame is given. ripple:true makes room — same-track clips at/after startFrame shift right by the new clip's length instead of overlapping (an insert edit). Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "apply_script",
+    "headless": true,
+    "description": "Commit an edited timeline.md back to the timeline (atomic; any invalid row rejects the whole script). Edit grammar: strike words inside a [sN] row with ~~word~~ (delete text = delete video); strike or delete a whole row to remove it; reorder rows to reorder clips (frames are re-derived from body order — never write frame numbers); deleting a [gap Nf] row closes the gap. Re-adding previously deleted words restores them. Do NOT change spoken words. preview=true validates and reports without changing anything. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "begin_edit_session",
+    "headless": true,
+    "description": "Start an offline server draft. approvalMode must be auto; open the editor URL for manual approval."
+  },
+  {
+    "name": "browse_library",
+    "headless": true,
+    "description": "Browse the OpenChatCut Library (not the user media pool). Categories match Library tabs: motion-graphics, luts, zoom, fx, audio-fx, sound-effects, transitions. Modes: (1) category only → group overview; (2) category+group or query → list of id/name/description; (3) id → full detail + edit_item usage. After discovery, place with edit_item (effect/transition/zoom/audio). Reads the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "browse_local_media",
+    "headless": true,
+    "description": "Browse local directories or search local media filenames before importing into the media pool. Desktop access is enabled by default and an explicit AGENT_IMPORT_ROOTS setting restricts it; a browser session requires that allowlist. Defaults to the home directory; pass an absolute path to browse a specific folder or drive. Returns directories and supported media paths, sizes, and modification times without importing. Use recursive with query/kind to find candidates, then import_assets for selected files. Follow nextOffset for more results. If truncated, browse narrower subdirectories; symlinks are not followed. Reads the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "clear_timeline",
+    "headless": true,
+    "description": "Remove ALL clips from the timeline. Only when the user clearly asks to start over / clear everything. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "discard_edit_session",
+    "headless": true,
+    "description": "Cancel a draft or pending review without changing the live OpenChatCut project."
+  },
+  {
+    "name": "duplicate_item",
+    "headless": true,
+    "description": "Duplicate a clip (the copy is appended to the end of its track). Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "edit_captions",
+    "headless": true,
+    "description": "Edit built-in caption template, style, layout, text, source, and language data. preset_* actions require the browser editor."
+  },
+  {
+    "name": "edit_item",
+    "headless": true,
+    "description": "Unified item-level operations across video, image, audio, gif, svg, motion-graphic, text, solid, effect, and transition types. Flex crop (flexcrop) is a spatial inset crop — not a timeline trim. Use edit_item updates.transform.crop or transform.flexCrop {left?,right?,top?,bottom?} in composition pixels (Crop Left/Right 0..canvas width, Crop Top/Bottom 0..canvas height; cropped pixels are fully transparent; null clears). The user does not need to say \"one pass\", \"do not recheck frames\", or \"do not use run_code\" — those are the default. \"Keep only the dashboard/panel/region\" = crop the selected clip (omit itemId or pass \"selected\") so only that region remains, then stop. Set every needed edge in one update. Do not call run_code, probe_media, e2b, or edit_asset. adds place library items (effect/transition/zoom/MG/SFX), a POOL asset as a clip (type=video|image|gif|svg|audio, assetId=…), OR authored clips without assetId: type=text (text/fontSize/color/fontWeight/align?) or type=solid (color?). updates move/trim/retime by itemId|id. Omit itemId or pass \"selected\" to target the inspector selection (read_project.timeline.selectedId). If the user names the selected clip, do not pick a neighboring track. Video aliases are bottom-up (V1 = bottom video). Passing assetId on a file-backed clip atomically replaces it from the media pool while preserving item id, track, timeline start, duration, and visual/audio edit state. fromFrame is the canonical timing field (startFrame is accepted as an alias). Unknown fields reject the entire call with \"unknown field\" + Did you mean. Entries run in adds→updates→deletes order against one private draft; only a fully valid/applied draft is published once. Any validator or draft-apply failure discards it with no partial timeline state. validateOnly runs that same sequential draft without publishing. Mutating calls then go through propose→apply. split_item cuts clips. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "edit_track",
+    "headless": true,
+    "description": "Manage tracks. Actions: list | create | update | delete | tighten | reorder_items. Tracks have stable ids plus C1/C2/V1/A1 aliases that may renumber after insertion. create accepts json with trackType video/audio/caption, optional count/order/name/role/audioRouting. Each caption track owns independent caption data. update changes order/hidden/muted/locked/name/role/audioRouting — locked freezes the lane. delete removes empty tracks only. tighten closes gaps between media clips. reorder_items packs clips on one track in the given item id order (json.itemIds or json.orderedIds array), starting at the earliest startFrame of that set. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "export_jianying_draft",
+    "headless": true,
+    "description": "Export the current timeline as a CapCut/JianYing draft (via capcut-cli). The draft appears in the CapCut/JianYing project list; open it there to review and render. Only call this when the user explicitly confirms the export. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "find_transcript",
+    "headless": true,
+    "description": "Find WHEN a phrase is spoken — a time-coordinate lookup, not a transcript reader or editing tool. Returns matches with their timeline frame range (fromFrame/toFrame) so you can anchor B-roll, motion graphics, markers, or overlays at that moment (or locate a spot before delete_text). Default: contiguous case/punctuation/whitespace-insensitive match over every transcribed clip on the timeline; edits are respected (deleted words won't match). asset = search ONE asset's raw transcript regardless of timeline use (library lookup, ignores edits). track = restrict to that track. fuzzy = token-order match with window tolerance (use when ASR may have fillers like \"uh,\" between query tokens). includeWordTimestamps = add a Words block under each match with each word's start → end time — use when syncing animation beats to which word is being said; skip for plain phrase anchoring (extra output). limit = max results (default 10). Reads the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "get_edit_session",
+    "headless": true,
+    "description": "Read session status: drafting/awaiting_review or terminal applied/rejected/cancelled/stale/failed."
+  },
+  {
+    "name": "import_asset",
+    "headless": true,
+    "description": "Import ONE local media file (video/audio/image) by its absolute disk path into the media pool. Desktop access is enabled by default; a browser session requires an explicit AGENT_IMPORT_ROOTS allowlist. Returns the imported pool asset(s); duplicates already in the pool are skipped. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "import_assets",
+    "headless": true,
+    "description": "Import selected local media paths into the media pool in one batch. Desktop access is enabled by default; a browser session requires an explicit AGENT_IMPORT_ROOTS allowlist. Reuses normal media probing and skips duplicate content. Use browse_local_media to find paths first. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "import_folder",
+    "headless": true,
+    "description": "Import every supported media file inside a local directory (recursive, bounded) into the media pool. Desktop access is enabled by default; a browser session requires an explicit AGENT_IMPORT_ROOTS allowlist. Returns imported assets, duplicate counts, unsupported file names, and per-file errors. Documents (txt/md/docx/pdf) are reported as unsupported here and should be attached to chat instead. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "import_timeline",
+    "headless": true,
+    "description": "Import a Final Cut Pro / DaVinci Resolve FCPXML 1.x project or a CMX 3600 EDL into a new editable OpenChatCut timeline. The new timeline runs at the project frame rate; a sequence or list at another rate is converted, rounding cut points to the nearest frame. FCPXML times are converted to the new timeline through the sequence tcStart and every enclosing clip, gap, connected clip or storyline (lanes), compound clip (ref-clip), sync-clip, multicam clip (active angle) and audition (active pick), including rate conform and retime speed; source in-points are measured from each file's own start timecode. EDL events are placed from the list's record start: the hour boundary (e.g. 01:00:00:00) when the first record-in is within a minute of it, otherwise the first record-in, or startTimecode when given. EDLs do not record their frame rate: fps defaults to the current timeline's (29.97/59.94 for drop-frame lists). Referenced files must already exist in the current media pool; matching uses asset id, original path, source path, source filename, and asset name. Unresolved or ambiguous media aborts the import without changing the project. Titles, generators, captions, transitions, effects, disabled clips, and audio of a video file that its video clip cannot carry are not imported; the result lists every skipped element with its reason and warns about approximations. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "list_audio",
+    "headless": true,
+    "description": "List available audio assets (music / SFX) that can be placed on audio tracks A1/A2. Reads the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "list_templates",
+    "headless": true,
+    "description": "Discover motion-graphic templates. With no args: returns the category list with counts. With a category: returns the template names in it. There are ~211 templates, so prefer a category or search_templates instead of listing everything. Reads the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "manage_effects",
+    "headless": true,
+    "description": "Shorthand for per-clip WebGL effects. Prefer browse_library followed by edit_item adds:[{type:\"effect\",targetItemId,assetId}]. action=list returns catalog; add/update/remove mutate the clip effect stack. Also covers LUT assetIds. For zoom/transitions use edit_item. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "manage_markers",
+    "headless": true,
+    "description": "Manage timeline annotation/TODO anchors using the marker-note-v2 contract. A marker is a point when durationFrames=0 or omitted, otherwise a range. scope=project anchors to a ruler frame; scope=item anchors to a clip. action: list all | create one or a markers[] batch | update one or an updates[] batch | delete. For transcript-backed notes, pass transcriptSegments using Active Script [sN] segment ids plus optional notePrefix instead of writing note manually. fromFrame defaults to the start of the first selected segment unless provided explicitly, and the note body is copied from read_script output. color must be one of blue/cyan/fuchsia/green/pink/purple/red/yellow. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "manage_timelines",
+    "headless": true,
+    "description": "Manage project timelines (sequences): list/create/duplicate/switch/update/delete, or insert one timeline as a nested sequence instance in the active timeline. Nested instances reference the child timeline without copying it and reject missing/cyclic references. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "move_item",
+    "headless": true,
+    "description": "Move a clip to a different track and/or start frame. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "read_agent_artifact",
+    "headless": true,
+    "description": "Read a bounded slice of an archived Agent tool result in the current project. Use JSON Pointer to select a narrow field before paging with offset/limit. Reads the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "read_captions",
+    "headless": true,
+    "description": "Read one caption track's state and resolved pages. Pass captionTrackId as C1/C2 or a stable id; omit it for C1. Use list=true to discover every caption track. Reads the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "read_project",
+    "headless": true,
+    "description": "Read the project currently targeted by this agent session, including draft state visible to the current tool context. Default = full overview. Narrow with view:\"timeline\"|\"assets\", timelineId, track, fromFrame/toFrame, itemId, or assetId; projectId cannot retarget this call. Unknown timeline/track references return an error. itemId/assetId are filters, so unmatched prefixes return empty item/asset arrays rather than an error. Pass code:true with assetId to include MG source code. Read at session start or after out-of-band changes; between your own edits, apply mutation deltas unless a note requests a reread. Timeline items include canonical media linkage (sourceAssetId, resolvedSourceAssetId, linkStatus), exact source window (srcInFrame, sourceStartFrame, sourceDurationInFrames, sourceEndFrameExclusive), and editable state (keyframes, transform, filters, volume, fadeInFrames, fadeOutFrames). timeline.selectedId / selectedIds / selected is the inspector selection. If the user says \"the selected clip\" or \"this clip\", use that id — do not pick an adjacent track. Video aliases are bottom-up: V1 is the bottom video track, not the top lane. Reads the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "read_script",
+    "headless": true,
+    "description": "Materialize the current timeline as timeline.md (segment-id-coded Markdown). Track sections (## V1/A1…), source regions (### file), rows: [sN] transcript sentence / [cN] Nf clip / [gap Nf]. Body order = playback order. Read this before apply_script; edit the TEXT then pass it back. Keep the <!-- script-stamp --> comment intact. Reads the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "read_timeline",
+    "headless": true,
+    "description": "Read the current timeline: fps and every clip, including canonical media linkage (sourceAssetId, resolvedSourceAssetId, linkStatus), exact source window (srcInFrame, sourceStartFrame, sourceDurationInFrames, sourceEndFrameExclusive), and editable state (keyframes, transform, filters, volume, fades). Call this first to see current state before editing. Reads the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "read_transcript",
+    "headless": true,
+    "description": "Read the current timeline transcript as a compact phrase view for planning and semantic editing. This is the default transcript reading surface for long videos and multiple takes: words are grouped by speaker changes, pauses, and a bounded phrase size while retaining source item, source timestamps, timeline frames, and original word-index ranges. Deleted/trimmed words are omitted, but the word-level transcript remains unchanged for precise edits. Use find_transcript when locating a specific quote instead. Reads the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "remove_item",
+    "headless": true,
+    "description": "Delete a clip from the timeline. ripple:true also closes the gap — later clips on the same track shift left by the removed clip's length (a ripple delete); default leaves a gap. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "review_edit_session",
+    "headless": true,
+    "description": "Atomically commit the complete offline draft and return terminal status applied, or write nothing."
+  },
+  {
+    "name": "search_templates",
+    "headless": true,
+    "description": "Fuzzy-search templates by name/category keyword. Use this to find a specific template among the ~211. Reads the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "set_aspect_ratio",
+    "headless": true,
+    "description": "Retarget the canvas to a different aspect ratio for long-to-short (same ratio+fit semantics as manage_timelines). E.g. turn a 16:9 video vertical for Shorts/Reels. fit: contain (letterbox) keeps everything; cover (fill+crop) fills the frame and crops the sides. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "set_item_timing",
+    "headless": true,
+    "description": "Retime a clip: change its start frame and/or its duration (in frames), and/or set a fade-in / fade-out. Use this to trim or lengthen a clip, or to fade it in/out. Fades are in SECONDS (edit_item fadeIn/fadeOut semantics) — video clips fade opacity, audio clips fade volume; 0 clears a fade. ripple:true shifts later same-track clips when the right edge moves (shorten closes the gap; lengthen pushes). Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "split_item",
+    "headless": true,
+    "description": "Split a clip into two at the given absolute frame. A motion graphic splits into two windows of the SAME animation — the second piece continues from the frame at the cut instead of restarting — so to separate one MG into several clips, split it at the beat frames; never regenerate the pieces. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "update_item_props",
+    "headless": true,
+    "description": "Change one or more editable props of a clip (e.g. text, colors). Only props from the template schema. Edits the edit-session draft; pass editSessionId."
+  },
+  {
+    "name": "update_watermark",
+    "headless": true,
+    "description": "Toggle and configure a text watermark overlay on the active timeline. The watermark is a single label pinned to one corner, rendered in the preview and burned into every export. Pass only the fields you want to change (they merge over the current watermark). Set enabled:false to hide it without losing the text. To make it visible, enable it AND give it non-empty text. Edits the edit-session draft; pass editSessionId."
+  }
+]

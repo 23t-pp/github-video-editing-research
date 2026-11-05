@@ -1,0 +1,174 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "reviewedAt": "2026-11-05T19:17:14+08:00",
+  "loop": 3,
+  "status": "revise",
+  "advanceToLoop4ForRemediation": true,
+  "finalApproval": false,
+  "wholeFilmPass": false,
+  "boundArtifacts": {
+    "loops/loop-03/loop-03-high-quality.mp4": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b",
+    "loops/loop-03/plan.json": "a3d5e0168863d94ba9ba66a008894ad9f286c7e9c1dbca05fdf0f588bf884087",
+    "loops/loop-03/execution.json": "75ccf8e0da2d9e536c563398cfc55f5420148c1ad0baa99d82fe72afde232b3e",
+    "loops/loop-03/render-completion.json": "4826061258f3fe0e3c5e032fd1dba07e9384a9a5e1c5ff455b6806aac2de121f",
+    "loops/loop-03/frozen.json": "a81c9cc66b3294ac5d57c97dfe5b46d263646adbf65a49ee474ff4642acd32d3",
+    "loops/loop-03/capture-evidence.json": "0e967bf8e717f9bc3289b92f287124c636a6e462fbe066e3fddff516cbc1c5a3",
+    "loops/loop-03/event-version-status.json": "3f9ee22b4b86b85c42707416ff9031cc497dc80497f0b456833aa26abbd9016a",
+    "loops/loop-03/revision-diff.json": "b20c36130c72b10d27b742b2e5f17b858ae22a40ab0e3ae51da381e5596452bb",
+    "loops/loop-03/reused-payload-validation.json": "053c4179a858e058d7bbe9619e6999d58ab058f5761117203a35b0bf8211bfd9",
+    "loops/loop-03/root-machine-check.json": "06bd20522ee62b4ea2039b037b4475c533977800af5e769359bbe9e85745c519",
+    "data/metadata-consistency-L3.json": "148b55ff9b797e7c65e36df12072ea0ce59240a3d95f90d9c932378330d16cde",
+    "loops/loop-02/review.json": "a2401f5399270f6b86024b1dfba3a326e89dffb91fea1751bb6c419ebd6c7e4e",
+    "loops/loop-03/evidence/paired-eyes.jpg": "ee341d22203321ecc7697e9774a909be9f7f72e4c3a06f6944175c9a0828b446",
+    "loops/loop-03/evidence/strike-type.jpg": "37f7917b2ebf3629a1fbec5522703a3cddc18c701df7ec25e16f5d482512f26c",
+    "loops/loop-03/evidence/palm-energy-paper.jpg": "d34f1b69c8295ddc8054424d43aa6a0a35d04234bc772ce9b69d4fce31cd5a2b",
+    "loops/loop-03/evidence/same-source-leaves.jpg": "58a42ee95e1c641bec7501cbcd454afd78a4649778fe3f5d508e6ed04f10ad08",
+    "loops/loop-03/evidence/limitless-type.jpg": "6d0016b7e8933d17eab5a98fcf9ae912252392acd7c3437ceef731beadba76ef",
+    "loops/loop-03/evidence/F0823.png": "d15208cbdc3da16fa7cf6b7e3338498379869cfa973cf18285564f83cf32454e",
+    "loops/loop-03/evidence/F0828.png": "f870e4d4b031fe2f65be6adbbbb272b1d4e96297c522a702c2a5e6795f06a61a",
+    "loops/loop-03/evidence/F0830.png": "f4e6c897186785fb261570b2657a813619825d17155fbe498a08975f9aa412ce",
+    "loops/loop-03/evidence/F0839.png": "c5a4a169c07aca9d00904eaaba3da079d687e63563749d04eba8aef205d41db8",
+    "loops/loop-03/reviewer-evidence/actual-film-01.jpg": "bcd497617a1ae4febcf1ecb9dd74c325d8bfd0915f09d4e502baa7fb296c2926",
+    "loops/loop-03/reviewer-evidence/actual-film-02.jpg": "71b41ab3d72bd7149018757f740c61c48c99c071d2f76163199d7e2cc8afa0a4",
+    "loops/loop-03/reviewer-evidence/actual-film-check.json": "629d89e762e594c955624c14f40037545a22ac93e950a086c688943a34840ad5",
+    "loops/loop-03/reviewer-evidence/eye-axis-manual-anchors.jpg": "26ac4b498516409ac1d80a7d74c0a021c000bff8911a53a316d25ba040cc1a5b",
+    "loops/loop-03/reviewer-evidence/eye-axis-manual-anchors.json": "7d5f48511efd808b1a2136063d722fd19b590a5bfa10619fcfe21f3d3d744155",
+    "loops/loop-03/reviewer-evidence/low-motion-candidates-first-mid-last.jpg": "fa303779b33a12ec9f926d7dd339c3539d3e2c9bbb112bba1dbf85ed9c4e6f7a",
+    "../reference-library-20261105/evidence/V20/overview.jpg": "1f2d4229a11a62f448edb4f8e10721bf3d594d61e63683c504c3229901216525",
+    "../reference-library-20261105/evidence/V20/native-013.jpg": "2c7d924920782724db663a16220345739068c2658fbef940b852004a63b51b53",
+    "../reference-library-20261105/evidence/V20/native-014.jpg": "6bbb34f17cd513b6e898f358db3a179ebd8ddf7e8ea7ccfaa72a2e7f425a4ca2",
+    "../reference-library-20261105/evidence/V20/native-015.jpg": "a65857b0b3402011689077d2766dce08a891dfa7590db391268d811b2eadaa60"
+  },
+  "actualArtifact": {
+    "file": "loops/loop-03/loop-03-high-quality.mp4",
+    "sha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 1440,
+    "seconds": 60
+  },
+  "technicalDecision": "pass",
+  "artDecision": "revise",
+  "observedScope": {
+    "actualVideo": "审核员独立全1440帧解码到320×180做帧差/逐镜候选；实际看60张整秒图及12个低运动候选的首中尾36图。",
+    "manualMasterEvidence": "实际看5组全事件联系表，双眼823/828/830/839原尺寸图；以同SHA视频和冻结captured evidence锚定。",
+    "reference": "本轮实际复看V20overview与native13–15尾段180帧联系表；加上此前native1、7观察。不宣称通看全920帧。",
+    "motionMetricLimits": "阈值MAD<0.5只定位保持候选；例如S032实际有动作末段、档案屏有意停顿，不按该指标自动判失败。",
+    "audio": "根报告2,880,000采样/零偏移相关0.99914，未实际听音。",
+    "fullResolutionLimit": "不是全1440张原尺寸人工边缘验收。"
+  },
+  "closedOrNarrowed": [
+    {
+      "id": "L2-TEAR-02",
+      "state": "closed_for_L3_observed_event",
+      "evidence": "loops/loop-03/evidence/palm-energy-paper.jpg",
+      "why": "全事件竖条由真实侧脸填充，眼鼻可见；前景青掌与竖条分离，原上半空黑块已去除，边缘发光仍在。"
+    },
+    {
+      "id": "L2-LEAF-03",
+      "state": "closed_for_L3_observed_event",
+      "evidence": "loops/loop-03/evidence/same-source-leaves.jpg",
+      "why": "全事件1062–1074可见1071–1073全部归位、正常明度，1074续同源；不再发生后叶未归位的几何跳变。"
+    },
+    {
+      "id": "L2-TYPE-04",
+      "state": "English_requirement_closed_new_Chinese_finding_open",
+      "evidence": "loops/loop-03/evidence/strike-type.jpg",
+      "why": "STRIKE整个主词约613–637连续完整可读，英文≥6帧要求已满足；中文另列新缺陷，不倒改原验收。"
+    },
+    {
+      "id": "L2-META-05",
+      "state": "closed_for_actual_L3_plan",
+      "evidence": "loops/loop-03/reviewer-evidence/actual-film-check.json",
+      "why": "审核员独立重查正式plan57镜sourceId/episode/inventory.localPath/检索窗包容正式源区间/证据存在性，错误0；仍不把路径存在当语义全证实。"
+    },
+    {
+      "id": "L2-STATE-07",
+      "state": "closed_for_L3_version_snapshot",
+      "evidence": "loops/loop-03/event-version-status.json",
+      "why": "14稳定事件+新增XCHASE共15项逐版本实际binding、区间、rendered_pending_review及新片SHA已存；不使用data可变latest替代冻结证据。"
+    },
+    {
+      "id": "L2-GESTURE-08",
+      "state": "closed_for_L3_observed_event",
+      "evidence": "loops/loop-03/evidence/limitless-type.jpg",
+      "why": "全52帧文字移至右上，合掌动作位置连续无遮挡，中文与英文成组。"
+    }
+  ],
+  "findings": [
+    {
+      "id": "L2-EYE-01",
+      "severity": "P1",
+      "status": "still_open_after_real_L3_revision",
+      "range": [
+        816,
+        842
+      ],
+      "issue": "F823暗蓝瞳约y520/红525；828约510/530；830约460/530；839约305/535，后半眼焦点偏移约230px。初始调位有效，源眼部向上运动令后半失配，HSV蓝环质心目标不能代表整段对位。",
+      "requiredAction": "按实际每帧暗瞳/虹膜几何锚点跟踪y补偿，或重选保持相位的真实源窗。不能恒加65；需全26帧眼线、眼白尺度、不露空验证。",
+      "evidence": "loops/loop-03/reviewer-evidence/eye-axis-manual-anchors.jpg"
+    },
+    {
+      "id": "L3-CN-TYPE-09",
+      "severity": "P1",
+      "status": "new_visible_regression",
+      "range": [
+        612,
+        638
+      ],
+      "issue": "英文STRIKE已修，但底中文被下移青掌遮住，主体段只剩碎笔画，直到约634–637才逐渐显出。可见残笔比干净没有副标更像错误。",
+      "requiredAction": "把中文移至不和掌/袖重叠的左下空区或重新布局，至少连续6帧完整可读；可设计省略副标，但必须同步工程说明，不能留碎笔。",
+      "evidence": "loops/loop-03/evidence/strike-type.jpg"
+    },
+    {
+      "id": "L3-PACING-10",
+      "severity": "P1_creative_goal",
+      "status": "new_whole_film_finding",
+      "range": [
+        1282,
+        1360
+      ],
+      "issue": "记忆窗后约53.4–56.7秒连续紫眼保持→侧脸→蓝眼，3.25秒凝视近景链缺少动作释放，尾部能量弱。与V20尾段实际射网、跃起、回身再尾卡的运动接力差距明确，不能用新增事件数量抵消。",
+      "requiredAction": "R4给出尾部动作接力或短促眼神→动作释放的具体取片方案，保持60秒/当前BGM；用真实角色动作、方向及相位承接，先预检源切口与焦点再渲。保留必要呼吸，不要求所有低运动镜都变快。",
+      "evidence": [
+        "loops/loop-03/reviewer-evidence/actual-film-02.jpg",
+        "loops/loop-03/reviewer-evidence/low-motion-candidates-first-mid-last.jpg",
+        "../reference-library-20261105/evidence/V20/native-013.jpg",
+        "../reference-library-20261105/evidence/V20/native-014.jpg",
+        "../reference-library-20261105/evidence/V20/native-015.jpg"
+      ]
+    },
+    {
+      "id": "L3-EVENTS-11",
+      "severity": "P2",
+      "status": "final_normalization_pending",
+      "issue": "旧events作为历史意图已通过独立版本状态图消歧；最终交付工程应进一步规范为实际稳定ID/binding/range，防止学习者直接读取旧561–612或1048–1074而误解。",
+      "requiredAction": "L4最终元数据规范，保留L2/L3冻结历史，执行render payload变化另核查。"
+    }
+  ],
+  "referenceAssessment": {
+    "works": [
+      "开掌接力焦点比初稿更集中；档案屏内换→直接全幅保留V20结构。",
+      "真实源前景、人物裂条、七叶同源交接和文字空间关系已有实物，强于纯硬切初版。"
+    ],
+    "remainingGap": "不是100%复刻V20动作相位与尾部运动接力，也未证明达到全部20参考同等优秀水准；本轮仍需尾部设计整改。",
+    "notAProxy": "事件数、效果覆盖秒数、源库大小均不能替代动作/焦点/节奏质量。"
+  },
+  "allowedNext": [
+    "准备并独立审R4具体整改spec",
+    "按真实暗瞳轨迹或新相位修眼位，改中文副标",
+    "尾段真实源取片/动作接力预检后执行",
+    "补最终events规范，并制作第四个真实不同1080成片和新独立审核"
+  ],
+  "mustNotDo": [
+    "把本轮revise伪写pass凑4轮",
+    "复用旧片审核签名给L4",
+    "只加通用闪白/缩放代替实际角色动作"
+  ],
+  "deliveryGateRemaining": [
+    "L4及必要后续实际成片P1清零",
+    "OCC/HF工程实开/媒体链接/可重渲染验收",
+    "最终音乐跨接听感尚无实际试听证据，应如实说明或补试听"
+  ]
+}

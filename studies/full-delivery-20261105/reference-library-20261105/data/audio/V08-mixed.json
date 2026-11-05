@@ -1,0 +1,54 @@
+{
+  "id": "V08",
+  "title": "V08 · 原始混合音轨",
+  "source_video_name": "能力越大责任越大_被选召的漫剪团_了不起的混剪团_蜘蛛侠_抖音精选_青年创作者成长计划.mp4",
+  "source_video_sha256": "7f7c81528cf907a587ce154af9fb7c575a1f5faaa0800eb265ead938a0970135",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V08__mixed.m4a",
+  "bytes": 241609,
+  "sha256": "48b4ffae743be319d4e522e35a26679db1da133dd430f42f977cd27c5fa9585e",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 32.718321995464855,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -11.45,
+    "true_peak_dbtp": 3.6,
+    "loudness_range_lu": 7.7,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 32.865147,
+  "source_decoded_duration_sec": 32.70399092970521,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "9e73323bec215f171a540da18a0ff4be006eea97603db644b5dd3acdf6d4ccd7",
+    "output_sha256": "98640dd0f7b4c4455b965ad6b323e67a880ffd36474de137b7868178e2f9600c",
+    "shared_prefix_samples": 721123,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 14.331,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "1f430851a71f2912d4654dd3d22eb1467aaf661a2f20039d31c3e92425638373",
+  "source_aac_adts_sha256": "1f430851a71f2912d4654dd3d22eb1467aaf661a2f20039d31c3e92425638373",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "6f368e8dbde52ef1ba0cbd68ad7557fa62afaeae583aba52c885778370120aa0",
+  "source_native_pcm_sha256": "624a836d49282966b440155d0de8ac936f44840a4e9e4c1a82d752f3457f4c31",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V08__music-candidate.m4a"
+}

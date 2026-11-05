@@ -1,0 +1,644 @@
+{
+  "renderKey": "cf85dfb85faac4381eb827768f27484477ec96c80f9cc45eb306465dda9abc08",
+  "inputSpec": {
+    "htmlSha256": "80604cd41176e47277d3a7f8742733d5dd9a0ac53b306a8db78b19814d4fc5c9",
+    "dependencies": {
+      "composition.py": "dccc4ba92466524048bb290bbce6e82db931c9dbadaafef7fe07b880ed141c9a",
+      "typefx.py": "9d8c98e7021a4bb2d54427a8192668046054eda5804b99bd235b351b238f9f32",
+      "barlow-glyphs.json": "e934240f60d3b95279b8a35a68b93162c3b1c75083c303b1a533381a5c5c7cb1",
+      "layoutfx.py": "8ad58d6be0cf24402572e644189ccb5b331edaf91b76b587ea4c35f1126c07d1",
+      "screenfx.py": "2547316b72884c43557005a42c94c0ffc49027fed94bec40cf490b9be44ab0ae",
+      "render.py": "135ba209d87df98d6dd0d7fb7196aac8a52f9c66ffb1e1629cf6c3148af81b9d",
+      "assets/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "assets/shots/S009.mp4": "9da3fa43fc4bd7d84c778a90bae97c2e73a6390aff5388838d7f097321a0a071",
+      "assets/shots/S034.mp4": "64ccc7445a35c29c4703897f13a50e40e3490fddb225efb674c5770c82aefb11",
+      "assets/shots/S035.mp4": "f79915f69344cfae03d207a19183cf7df0863edc2c2cf210394bd53a67cce742",
+      "assets/shots/S036.mp4": "23f8b935fc349720d55caa04846c7b0ffb3d7a2c1dad794a62f689d2fd7a513d",
+      "assets/shots/S055.mp4": "07dfde0e4327c4cc548bf50a23ae38a0e94cf8a52f3119f314794ea30e13ddb3",
+      "assets/fonts/BarlowCondensed-ExtraBold.woff2": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+      "assets/fonts/cjk-heavy.ttc": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6"
+    },
+    "runtime": {
+      "nodeVersion": "v24.22.1",
+      "cliVersion": "0.8.216",
+      "cliEntrySha256": "e65ed25c36426b6e9ade59c4d20d92c5a78bd2a9f459ab3bfb461cdd2a1ef56f",
+      "chromeVersion": "156.0.8078.74",
+      "chromeExeSha256": "4132eb3e9c5b3978874eed48cb45c21debf343a0d383b6d2fb01a5fcf349ec65",
+      "ffmpegExeSha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+      "captureFlags": [
+        "--format",
+        "png-sequence",
+        "--workers",
+        "1",
+        "--low-memory-mode",
+        "--sdr",
+        "--experimental-fast-capture=false",
+        "--no-best-effort",
+        "--frames-cache-dir",
+        "off"
+      ],
+      "fps": 24,
+      "size": [
+        1920,
+        1080
+      ],
+      "color": "SDR PNG RGB full; encode BT709 tv",
+      "sourceExtraction": "trim source frame indices; scale bt709 tv to full; rgb24; native PNG; passthrough fps"
+    },
+    "neededSourceFrames": [
+      [
+        "S009",
+        12
+      ],
+      [
+        "S009",
+        13
+      ],
+      [
+        "S009",
+        14
+      ],
+      [
+        "S009",
+        15
+      ],
+      [
+        "S009",
+        16
+      ],
+      [
+        "S009",
+        17
+      ],
+      [
+        "S009",
+        18
+      ],
+      [
+        "S009",
+        19
+      ],
+      [
+        "S009",
+        20
+      ],
+      [
+        "S009",
+        21
+      ],
+      [
+        "S009",
+        22
+      ],
+      [
+        "S009",
+        23
+      ],
+      [
+        "S009",
+        24
+      ],
+      [
+        "S009",
+        25
+      ],
+      [
+        "S034",
+        14
+      ],
+      [
+        "S034",
+        15
+      ],
+      [
+        "S034",
+        16
+      ],
+      [
+        "S034",
+        17
+      ],
+      [
+        "S034",
+        18
+      ],
+      [
+        "S034",
+        19
+      ],
+      [
+        "S034",
+        20
+      ],
+      [
+        "S034",
+        21
+      ],
+      [
+        "S034",
+        22
+      ],
+      [
+        "S034",
+        23
+      ],
+      [
+        "S034",
+        24
+      ],
+      [
+        "S034",
+        25
+      ],
+      [
+        "S034",
+        26
+      ],
+      [
+        "S034",
+        27
+      ],
+      [
+        "S034",
+        28
+      ],
+      [
+        "S034",
+        29
+      ],
+      [
+        "S034",
+        30
+      ],
+      [
+        "S034",
+        31
+      ],
+      [
+        "S034",
+        32
+      ],
+      [
+        "S034",
+        33
+      ],
+      [
+        "S034",
+        34
+      ],
+      [
+        "S034",
+        35
+      ],
+      [
+        "S034",
+        36
+      ],
+      [
+        "S034",
+        37
+      ],
+      [
+        "S035",
+        12
+      ],
+      [
+        "S035",
+        13
+      ],
+      [
+        "S035",
+        14
+      ],
+      [
+        "S035",
+        15
+      ],
+      [
+        "S035",
+        16
+      ],
+      [
+        "S035",
+        17
+      ],
+      [
+        "S035",
+        18
+      ],
+      [
+        "S035",
+        19
+      ],
+      [
+        "S035",
+        20
+      ],
+      [
+        "S035",
+        21
+      ],
+      [
+        "S035",
+        22
+      ],
+      [
+        "S035",
+        23
+      ],
+      [
+        "S035",
+        24
+      ],
+      [
+        "S035",
+        25
+      ],
+      [
+        "S035",
+        26
+      ],
+      [
+        "S035",
+        27
+      ],
+      [
+        "S035",
+        28
+      ],
+      [
+        "S035",
+        29
+      ],
+      [
+        "S035",
+        30
+      ],
+      [
+        "S035",
+        31
+      ],
+      [
+        "S035",
+        32
+      ],
+      [
+        "S035",
+        33
+      ],
+      [
+        "S035",
+        34
+      ],
+      [
+        "S035",
+        35
+      ],
+      [
+        "S035",
+        36
+      ],
+      [
+        "S035",
+        37
+      ],
+      [
+        "S036",
+        12
+      ],
+      [
+        "S036",
+        13
+      ],
+      [
+        "S036",
+        14
+      ],
+      [
+        "S036",
+        15
+      ],
+      [
+        "S036",
+        16
+      ],
+      [
+        "S036",
+        17
+      ],
+      [
+        "S036",
+        18
+      ],
+      [
+        "S036",
+        19
+      ],
+      [
+        "S036",
+        20
+      ],
+      [
+        "S036",
+        21
+      ],
+      [
+        "S036",
+        22
+      ],
+      [
+        "S036",
+        23
+      ],
+      [
+        "S036",
+        24
+      ],
+      [
+        "S036",
+        25
+      ],
+      [
+        "S036",
+        26
+      ],
+      [
+        "S036",
+        27
+      ],
+      [
+        "S036",
+        28
+      ],
+      [
+        "S036",
+        29
+      ],
+      [
+        "S036",
+        30
+      ],
+      [
+        "S036",
+        31
+      ],
+      [
+        "S036",
+        32
+      ],
+      [
+        "S036",
+        33
+      ],
+      [
+        "S055",
+        12
+      ],
+      [
+        "S055",
+        13
+      ],
+      [
+        "S055",
+        14
+      ],
+      [
+        "S055",
+        15
+      ],
+      [
+        "S055",
+        16
+      ],
+      [
+        "S055",
+        17
+      ],
+      [
+        "S055",
+        18
+      ],
+      [
+        "S055",
+        19
+      ],
+      [
+        "S055",
+        20
+      ],
+      [
+        "S055",
+        21
+      ],
+      [
+        "S055",
+        22
+      ],
+      [
+        "S055",
+        23
+      ],
+      [
+        "S055",
+        24
+      ],
+      [
+        "S055",
+        25
+      ]
+    ],
+    "copiedAlpha": []
+  },
+  "actualRenderPayloadFiles": {
+    "pass-3/.hyperframes/history-id": "dfef7356ba6f36b258196f2a54550fae688e8240f0d823fbcdd7f696007ef208",
+    "pass-3/.hyperframes/video-state.json": "be20d9356b911c7134b2ca91c316932e6a2c543757fcfffa01efd4682cba4601",
+    "pass-3/assets/fonts/BarlowCondensed-ExtraBold.woff2": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+    "pass-3/assets/fonts/cjk-heavy.ttc": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6",
+    "pass-3/assets/frames/S009-0012.png": "03ee5ba068876502e8d157767f453357ed46951bdfa6fc5aa3df0e70e20cc171",
+    "pass-3/assets/frames/S009-0013.png": "bc7411ae20487664e0d6f07a4a21bf00297d60a102fa34fdb1f7b1f794bbb7b6",
+    "pass-3/assets/frames/S009-0014.png": "ccc9cf57fe9ac94577790682a075f50cc751dc5506b2b4708d3d1aa21dcc2436",
+    "pass-3/assets/frames/S009-0015.png": "cb773dca5d2a8ba9f385f90bdd0f868daf88275ee946135a24f48fc7107209a5",
+    "pass-3/assets/frames/S009-0016.png": "2caff6f55e8c4c275d570c0cbf3cd2504e83d77babb1f24a000768edf0663147",
+    "pass-3/assets/frames/S009-0017.png": "b1b1673407e0c7257b85af160dc591a2e747d159210098ebe8afb806757117a6",
+    "pass-3/assets/frames/S009-0018.png": "cde88312129006f8ab6fc1f9ec0e3412cd47bbd31be04bf0080f51febcef75b8",
+    "pass-3/assets/frames/S009-0019.png": "9b949afc63cd3404a2d7758ae600975bac8117d3adfb24c5f9d5b7d5bc2a2961",
+    "pass-3/assets/frames/S009-0020.png": "8fca598fa2830d8b8f883ab5f34d2f10c5cf060d3b92fa397f6f28dda0da2ac1",
+    "pass-3/assets/frames/S009-0021.png": "8f65e561a53bcbb71380ebeba1f2cb26afdc0f5d9b77b4b71ec7bb167aac1a86",
+    "pass-3/assets/frames/S009-0022.png": "6fa4f5427de51840a5577d07cdca3240b711d4f08c452eac3f8dc63de89126c8",
+    "pass-3/assets/frames/S009-0023.png": "deb7b730716dd70ab113df0d2318493c1bcf9d943724b6f53c0fd59c24b644f5",
+    "pass-3/assets/frames/S009-0024.png": "136d13d406e16743ca48c3bf4a5992fcafa1e5ecfdc6ee2732161c6d8641bfdc",
+    "pass-3/assets/frames/S009-0025.png": "05df33dba22a3953d01c8066196085b084c563062c4992cf4eca72c927126e64",
+    "pass-3/assets/frames/S034-0014.png": "01a375e96b4502087a8808c88fe60ba087e6167fb347a11bea1b33f41b852beb",
+    "pass-3/assets/frames/S034-0015.png": "f07301f9bdeb053ed0cd5e78b1e65876475ba4207a7e0ab438e26f5d6f25c34d",
+    "pass-3/assets/frames/S034-0016.png": "4b85b0218ee3e413dc0a9c431c202af7aefd9987224b07bfe07d129696a3a762",
+    "pass-3/assets/frames/S034-0017.png": "6f88ea70039e6f8ef4f3101e0af07a3aae63511a5352e3b7c17c60c2983024d4",
+    "pass-3/assets/frames/S034-0018.png": "e8d743c509dbff0907c6558c5be89791034b2ebc5b6b07d54f6ec7957af33d8a",
+    "pass-3/assets/frames/S034-0019.png": "bbe205d2543d0b0c2436a997aab5bb40005973edfd8fa21f7f9d6522d4b097ae",
+    "pass-3/assets/frames/S034-0020.png": "3217ad78b0fe786116ae0bfff58019638ee4030859d87bb883307932953cf648",
+    "pass-3/assets/frames/S034-0021.png": "1a06076c031f8932da4189cbd35535047e1924a329170d88e00c70e01722141f",
+    "pass-3/assets/frames/S034-0022.png": "0e8d90756ba0cbdedc4d78d3c63a238ed7b97d43b11d3467cd26fad3cf85e707",
+    "pass-3/assets/frames/S034-0023.png": "76c728a86aff8849ee7658ebfa0c3512a53da251665d535fb9f0f201740da0f9",
+    "pass-3/assets/frames/S034-0024.png": "cfabf587a4f39668b5e0494d1a8c7cb70dc15db8bebaa9ccd992f5d135534018",
+    "pass-3/assets/frames/S034-0025.png": "e001da21ef4e64e5ed01f477cd9980ccbbc67b8cfb839da9c06c3d33475d55d3",
+    "pass-3/assets/frames/S034-0026.png": "207b4fdf8c3e3f57abf7a8f75fc20740c1bf6b3e9878d1eeea270475cd9808e5",
+    "pass-3/assets/frames/S034-0027.png": "641cb271881d84b08518cdeaec0441c1057de329f4224e509134954f0ba783df",
+    "pass-3/assets/frames/S034-0028.png": "755048a16bf015c375ca21ada47717feeebfd1d1be3e275923b46d4da8a77a5c",
+    "pass-3/assets/frames/S034-0029.png": "b56f8d5a56493150f8c071a690ce14fc9841a3d5c514a4d1e648c9bc669defce",
+    "pass-3/assets/frames/S034-0030.png": "7f70c0e790a307f942d39b53357f149d28aa8a997a24bc7c3a4581937753b30e",
+    "pass-3/assets/frames/S034-0031.png": "07b1f11d4400a61fd818dafd28b9eafbbcc5b7205cda45de9ffb1f36deeb7a04",
+    "pass-3/assets/frames/S034-0032.png": "4f6ec07a8578f25070fd48a914d629a784b7e8566baa48537d81812c4aa3ac3d",
+    "pass-3/assets/frames/S034-0033.png": "ca4515ec28b6d588298b8a2b08615f7e548869355a75cc0be3602aa74c2300b7",
+    "pass-3/assets/frames/S034-0034.png": "d23dd9ea56b7f8ff4aa7cdfb276c44ce0975ffbb593a0966bda85fe68cf2864b",
+    "pass-3/assets/frames/S034-0035.png": "ba71b139061400b4c9e8cf4f98026224d49ed9bc8457001a367a108b2f8d2f55",
+    "pass-3/assets/frames/S034-0036.png": "c4cd69800ee9357f6fc1bac159740b5d414fe08ebbe8a1df259e35b840d6fa54",
+    "pass-3/assets/frames/S034-0037.png": "610cc5902283d0aeb5340e1e46c78f9369c7a880d3c115e88854b35e6662335c",
+    "pass-3/assets/frames/S035-0012.png": "5b4ab5468c48c2a4800092f9af9bf6a6eeb7b9dfd710d557fd289a062adc7b40",
+    "pass-3/assets/frames/S035-0013.png": "844a102465644fc221c0468e4ebbbe9becf25112cb3fdabb38e45fe51f618e3d",
+    "pass-3/assets/frames/S035-0014.png": "615e203356c366b152c0a09943bd3081831c70445ea3f0d061e0b1eedd03535d",
+    "pass-3/assets/frames/S035-0015.png": "7b3ea38f6375354e1626b4106feb7a1dcb8dfc1f2f226d4220603b357952f643",
+    "pass-3/assets/frames/S035-0016.png": "cade5560eeea275254257e4e79936fc25cbe40bf747e1cc917812ea815ed4a6e",
+    "pass-3/assets/frames/S035-0017.png": "8b95dfd60b8f9aef4b41598aeb80dc45a5504c3eb2a0dcb1d7d99897e5c08195",
+    "pass-3/assets/frames/S035-0018.png": "293df59b17a5d11602d4a017ef4de7aa6631920c7153a04310467e668887a139",
+    "pass-3/assets/frames/S035-0019.png": "163b83362d83130a26205c20d3aa2feb06f144d498ff0c87136127d6f0c740bb",
+    "pass-3/assets/frames/S035-0020.png": "62fd35da72cd99350151132a102bb45ae0fce6561b7bff321c76a6bfde7ac918",
+    "pass-3/assets/frames/S035-0021.png": "a48efbadb918aad5b645d2c6cc912eb30dba08b097d8f6225917c59bca59c65f",
+    "pass-3/assets/frames/S035-0022.png": "2848fcc70c79c32779e09ca3e05c9a8ada76d351de9459e5b62d549cf92c6ef8",
+    "pass-3/assets/frames/S035-0023.png": "80f82c3a02df4971076149ce6f7df50e81819263c1f5e47183793f023eb900e6",
+    "pass-3/assets/frames/S035-0024.png": "d39e6fa5bccd1916816b0d3d818b4a571256c1357bb3782fa3b0ea7d4b5ab98c",
+    "pass-3/assets/frames/S035-0025.png": "e1817ae0c854de70045a5d0af82fe171c5db162436546bfec342721b27695562",
+    "pass-3/assets/frames/S035-0026.png": "d4a411dfad351a63dc32af43b257310580d4f95bc8960b1dfb19740de04931af",
+    "pass-3/assets/frames/S035-0027.png": "ead5f8b8c8e2530e3915f74a9cc57e0537333d3e763b3379b0f1951c059159de",
+    "pass-3/assets/frames/S035-0028.png": "758b080895a7f4ecf1bf31287b7f75456b1e15bbcaa27c8b8ceaaf409d57b67b",
+    "pass-3/assets/frames/S035-0029.png": "6aa28eebdc7bf969885ffa6e318bc832c50f05f947cfbb66b8477f1207a045b9",
+    "pass-3/assets/frames/S035-0030.png": "acfc5046d8625799e39c6f529c06a7e3f322d8cb3782d6659d409984884e68e4",
+    "pass-3/assets/frames/S035-0031.png": "e372709027fe8d2f56c7bba0034b7f884221200111db3e8a526aa868cdc158a4",
+    "pass-3/assets/frames/S035-0032.png": "92335c0918c8b63c47e69961da4e6ed2438c67fcdd7b46280c3e228596f9453d",
+    "pass-3/assets/frames/S035-0033.png": "dad0c13b00a045ef21bae118795ad6bca3d63bfdc1078b0183af736ca0ea5ba1",
+    "pass-3/assets/frames/S035-0034.png": "d6e1afb85b78c0e29200f0a6e12f01802cca285430ec8576028e421c31cdef44",
+    "pass-3/assets/frames/S035-0035.png": "c207942bf304e31e93a1436d5de4a38aab3bd7c1d1a57abd2d9eb2cc5ac41cc7",
+    "pass-3/assets/frames/S035-0036.png": "45bcc98e0836205e0baabc00de28153d64871892ca3485c759da886bc57014df",
+    "pass-3/assets/frames/S035-0037.png": "8bed1adbf984a174ce6533737461ddc1df7e0bd26ff3b6d00d09cd33edf03b28",
+    "pass-3/assets/frames/S036-0012.png": "284361a96eb95090cba11cc864920e7f3a844f1c6373b46f6cbf6ccd279b0776",
+    "pass-3/assets/frames/S036-0013.png": "22a640bb80dc79810102c816a49e7be4d246474b7ae251cc4b0d5d31fe299d13",
+    "pass-3/assets/frames/S036-0014.png": "4ba47c05a6a23878bdfa91852d75f896396dead1d93f069db9e8e579a16db7be",
+    "pass-3/assets/frames/S036-0015.png": "412db88d7070fc437af63880c717be2ba923ec7b6f0a3d4c9dd7199a16b5c172",
+    "pass-3/assets/frames/S036-0016.png": "ca2a3ce1991f61c79276f066890899d51bb50b8e59d475464c717212c224ea4b",
+    "pass-3/assets/frames/S036-0017.png": "23b436a8a4ca9e80515c1101a1af4659ef4655e0736d3c8f663217c936bc10d2",
+    "pass-3/assets/frames/S036-0018.png": "fa1c5934db3f9a1235b2b35b2f67d2cf182aa8d176c9c95bc412d4e60c703f7d",
+    "pass-3/assets/frames/S036-0019.png": "d4782fee7603810ba38b530b21f35d724c7501b7118b2e68504aa32a53f27bf7",
+    "pass-3/assets/frames/S036-0020.png": "b5e2406439f4a1e21b1c64f0bb1e3e9d6ea4584ba4650993ad70d9a505479d32",
+    "pass-3/assets/frames/S036-0021.png": "86e076e8148c5ffa75bcc013d278464925c7d3e7529ec5032025d95caa9beef7",
+    "pass-3/assets/frames/S036-0022.png": "32dfd66ff0eb27f075e068846ae86f5a817a210fae5d149e4b4a93f95e67ce9f",
+    "pass-3/assets/frames/S036-0023.png": "06e23eeb8c447776e7d68f77e4c0fc762fe123c32874eca8b1107ee04695946a",
+    "pass-3/assets/frames/S036-0024.png": "00624c609f8559f95b23d33db1289186d17b1db1caa03d56ccb565741c51be82",
+    "pass-3/assets/frames/S036-0025.png": "ea64d9bad0b1f25dba4388f1ade97b2eae5b5633fe7d89cd6e9543e4d997da4a",
+    "pass-3/assets/frames/S036-0026.png": "4f900b56e087903323ed896d5055b7ccf97c04b37b4f3c888890f51cf40d7407",
+    "pass-3/assets/frames/S036-0027.png": "d468f5a8104a6556f4f8ca2464bf594894b1e5ab270dbe4e86003b57af44aabb",
+    "pass-3/assets/frames/S036-0028.png": "46489f9abdde9189bf02e27af1637bdd6044520cd85ceb3e8742483499f29ee4",
+    "pass-3/assets/frames/S036-0029.png": "5b062c03dd766d505c122d028bfdb406cd74933510fca3951c4ad7fce9cb5d8f",
+    "pass-3/assets/frames/S036-0030.png": "0f7cda2ee7e39a9ce32a10a15974bb6e54dfefa29a743a9b907a2af533e3eb11",
+    "pass-3/assets/frames/S036-0031.png": "87b9be2b7d81aa862546bdc2738352eaf97bbe487e46e42677c5439786fb7cef",
+    "pass-3/assets/frames/S036-0032.png": "116d0ab16536be1594c105343bef1cec7baad2f7c4590025795c498ad7f8962d",
+    "pass-3/assets/frames/S036-0033.png": "227e33b6bbf60071e6991801e966764f8d2890058ed6a38dbbba72246afd2c22",
+    "pass-3/assets/frames/S055-0012.png": "7a1ff27221055116cd71710bfab5d8125d0ba4fbb3f2627e4f0f28795682159d",
+    "pass-3/assets/frames/S055-0013.png": "66f34efd7c43bf96f3d8810038af5477277c929557442690a9091a8c2c0afad4",
+    "pass-3/assets/frames/S055-0014.png": "d58011c1db1d397796188fabf7d85632bc633fe60d3938ce934bc96dac44b6fc",
+    "pass-3/assets/frames/S055-0015.png": "e79f4b0f0b0c49cce61c41a2c1817a3ac9ee297ab7aa9c888d9c7180c5398b35",
+    "pass-3/assets/frames/S055-0016.png": "4e1fd179c483e197403ec17df197b1846c7b12786f9ad98413d31763ab708065",
+    "pass-3/assets/frames/S055-0017.png": "2488e64c8396a51418028a9666e798f57162b5af778442ac610eca693da41a65",
+    "pass-3/assets/frames/S055-0018.png": "30e67477395c87917518a6f7e41a5504b4fcae4164fcf330a1316ae76d6df3a5",
+    "pass-3/assets/frames/S055-0019.png": "e066382cae5f6df8b9dc4aec943e131a2097314ce06930cd50259c7313046daa",
+    "pass-3/assets/frames/S055-0020.png": "b07e6398889ea808d635aedeb23aad6c4b255f348c09a47693e2f482bbb8172c",
+    "pass-3/assets/frames/S055-0021.png": "ca5363f7eaffd905b9b2cfe71cf45932fdbd1232e162117a13501bd5f7298ca2",
+    "pass-3/assets/frames/S055-0022.png": "d9ab5e7b1565f94e7aebc243284fd976677005e43a8ef09b8f04134463e5b3a0",
+    "pass-3/assets/frames/S055-0023.png": "61764882d3d9090c0399de1b2d25728e7c19900eef94cfe12cd79884fa998a70",
+    "pass-3/assets/frames/S055-0024.png": "4ff5af82633499fceb12d79f160e36814e1828ee5889d5e568ee4125765d5cb7",
+    "pass-3/assets/frames/S055-0025.png": "0fa25faed6c897c3e594d9ab3e471b8761a2efdf194d5cfae51e4035b0bf9b30",
+    "pass-3/assets/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+    "pass-3/DESIGN.md": "fa2090b124ea6a496048912b69a7db9fdc54288e9596744109f53856929ffb73",
+    "pass-3/hyperframes.json": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+    "pass-3/index.html": "4a3fcb90b8ab444edb383ac4f059cd56ce63e48fed0d5d7510a2951bff9a500d"
+  },
+  "actualPayloadSha256": "005ad40d91f25e11a679d04e9d36dd2d630448c4581f18c47fad2ad4c93c11cf",
+  "outputFrameSha256": {
+    "frame_000793.png": "44e1c88f850a35e15e6ba313e777498a130548214c2136db48b85c45bb271287",
+    "frame_000794.png": "354456f1894cf1b3db2c2a6c4f54b0d6547aa3b56de4f8d7fda089c6e219a40f",
+    "frame_000795.png": "005f51d2922c22521cc6e5351bf02f3a0f2457a062879098fdf9e53bea76b98a",
+    "frame_000796.png": "af4fa95d942d2d3bdee69383aaafcf88cfa505b10bb816140c69b43773566ed5",
+    "frame_000797.png": "b627bcb933b0731de64553b3f88523c01e81c702826f9a498d0c488bc9c29b8f",
+    "frame_000798.png": "23b32207374fbbc364744cc418226398f83c7fe7fc29ab67f393187b2dcf5a6d",
+    "frame_000799.png": "822a5e686f46aeaaa4e5b5f7f538cba63a5ca200d573d203683aa256a3633b2c",
+    "frame_000800.png": "4f0dcbb56b590f0112593fdcc7aec9cf1d79270718d2bd52b9d363748392655c",
+    "frame_000801.png": "2b0cb3b2d2f3ad6095d50e31d1b6fc4c027a799d778d74716d64ab7fb243fd3a",
+    "frame_000802.png": "3c8052918fb2bd8864e507adc432c2bb490bc473bad9d18a998096b641084016",
+    "frame_000803.png": "6c23ad077055bef39d2b7bd0b1154b8e29c85bd15117f759280084c41b9079b8",
+    "frame_000804.png": "3045128ace67d255fe512da185611f239ac335e2028a041cae3783cdadf4c1e2",
+    "frame_000805.png": "862e06ee63f66ef99ee00a453d809e3068dc8205e8fe3190e8cafd38fd32172c",
+    "frame_000806.png": "7dc04193aa39f850280bffa32a48097fa5e7ddb4685ed625564541c49723f36b",
+    "frame_000807.png": "627fd9d8911386fa602ec9cc5cdb0f1f5d280c13e3a7328c1bdfef2fbdc7b873",
+    "frame_000808.png": "92c561387561f604d30551af38d7e500198fdaf7be00e39b34b7427d1fe5d9e1",
+    "frame_000809.png": "c14bf0f2dcdc502465fbd646a5a81ef0b2f2dcd5bc8304248058ab7d858b3e02",
+    "frame_000810.png": "12a91f2d49e42a889113801b65d9f80ccaf43f28a1c2b5b335483e42cd225696",
+    "frame_000811.png": "e272e1cffd359ae99add4de26bf3b6439025547a7b7616692cd29849b0149c12",
+    "frame_000812.png": "dd029b7404dd3e39caf32395e6a3b5d8ad7266c2867134ee1ce34e42d37a8cdc",
+    "frame_000813.png": "ef19d758671ad20317b294557d5ef7871c188a86fbf9b62bb56e18b2fcde7c02",
+    "frame_000814.png": "9ff105deacf24b5b43b0d3163e8e28ee7f0540b68dd3f7ea504158c63a02cbf8",
+    "frame_000815.png": "10ad6c455594b214fa120f03c666d2b512c3bf1c29561a1b0402661c40c519cf",
+    "frame_000816.png": "dbdfd1a24922ab5d91f04fa7484eb0679e5d8ec13cb358c3433c2f6303c98958",
+    "frame_000817.png": "89b68388af4e4881a83c8ed9a69fb83d0c9dbe2f927e51e889b5fc9ffca5ade7",
+    "frame_000818.png": "5fe30f0f90a0bb4eba6bf64d437cb58ff42f8369abe3a11cf1330b73e939d315",
+    "frame_000819.png": "4463fad541f78ebe5ae905fea77fd3f2b0e2b3a9b38d2a3874fd0efd7bc011cf",
+    "frame_000820.png": "aee164107cd2968fdd4a271e73aff385df5d3245fa932c13ea698ab7738be4dd",
+    "frame_000821.png": "2a4eb5a3588d8e4ddc68c2b9e08c5461866f5ac766bf188fa375441f6555d5d5",
+    "frame_000822.png": "2d8938030d5dfb23837304334a6195b933dd6c5e321008b86f420bae3721c984",
+    "frame_000823.png": "4bc8631e2ebd67c270900614f52de3e384a0cb2cff2c0f0016909b9beb35fd4a",
+    "frame_000824.png": "f11a6138b3834d340cadb62462857d67e9a1ebf0d7c2cd3a180c4227dc3bbaa0",
+    "frame_000825.png": "397c77e27ed506cf03aca7985e55ec01ee20c85f719d72f388bd6b8489c28b18",
+    "frame_000826.png": "5c5095fda76121bb96141e5df1134f113bf3615429d9ec833dab02cdbb0fa2bc",
+    "frame_000827.png": "6defa77c5b9c29f8e0725c7c52af37030a26504025ea9f494f436447dc541909",
+    "frame_000828.png": "74f1491b427b9df450eeeb54b393affcfb7168d7fe241ffd55e1ddf3239070b2",
+    "frame_000829.png": "d23e250deedb5294e1377e8ec8a7abd1bd2c397912ab1f4d417211c9f99224bd",
+    "frame_000830.png": "363bd6de2ab1c6baa46e4fe6eefdcd91725e117d666e71bf3b81cc3d5b762dbb",
+    "frame_000831.png": "3ae01e98ff712f1d5ea2c10e1bb4fbd52bfd770fa6d204b578f58f1d1b014692",
+    "frame_000832.png": "c9358bade9420e70115e3112a2b06ca64fc729c464239b57a4f7361a00fc3070",
+    "frame_000833.png": "8c7362e8fc08b17b65bde218c1eceb3c73a6cd8c61d55596a7194284ba6d1d0f",
+    "frame_000834.png": "d96a34b65912c304698438f0d91cf5201e78822a051732b4deed7427672480ef",
+    "frame_000835.png": "cc32f43e3636d8941ed6cc82ac8ca2e6cc72759a8571c4721a69e81f04115af6",
+    "frame_000836.png": "9d2004069ca2bd90c073ca846602826bd96576b52ed2e9c858655b7ffc45cd85",
+    "frame_000837.png": "4c9cc2b778a83759f273381eb017fc6b0846f5ee32b8037ac5f22de8921371ac",
+    "frame_000838.png": "6c64cf86c61cef8419b4895c7c8908046928e49c51d5a1d7e2dcfbd3ea0e1b81",
+    "frame_000839.png": "e18e32f9bbec8049d02c8500d0e48506cd26c1f4db2b661f9acdc03445896837",
+    "frame_000840.png": "8864eadc84b81fee6f7126208752e353b56dc03033ac5e3a24bcb87d97405f8b",
+    "frame_000841.png": "d3ba2f2c70aea3e6239f9ba85d1581f429e42aa1b90cb96aca8eabd19baca5bd",
+    "frame_000842.png": "bce2054156cd43856a3ea5dfdca3aea3a66988b62a5ad717e1515345554f79e8",
+    "frame_000843.png": "afd14b5a3c0bdad5bac734ad2504274ee51cb5094f349669439ba1b326660d72",
+    "frame_000844.png": "22913c038252d709794311c04c5934fd7b10f1e204e93b9e143e32146a4a1912",
+    "frame_000845.png": "68a69ee5e6c7732b2b810d5733672e0ebff3e2a8968f91bd4c5f02bf51e85d85",
+    "frame_000846.png": "54c092f66bccf22271e31d97f817f6a30b40418f6976bf65a7aa18728994479f",
+    "frame_000847.png": "0f9c4afe9327ae08043a4ba6125c2d1badf96a421538b51cff32b154f817d513",
+    "frame_000848.png": "47e2c91f1ccd0af52e5f025f1b3d3232c5a5557f34ac5f591c2669e5091fe54f",
+    "frame_000849.png": "5d20b8a53226a013447b7aaa878e5c8fc8829c1e12bc8cfc07bcc3d24ffa425e",
+    "frame_000850.png": "a4feae5931b9903b44b982a033f47c2fac6c1a2434084f2fda1403ab40eb9447",
+    "frame_000851.png": "8f2ae254033dd1cdc791d4255f3e8df441f779498ecd79ddecc837e6b64bf6c8",
+    "frame_000852.png": "3702d14cb53ba128dd3c2a8ffc8661df67fd820cf13a95021ef3cb34acb96ca6",
+    "frame_000853.png": "85fe1f12d4f14b0a9d8281ddb41b9c08ce705b254ceeea9912e77e539443408f",
+    "frame_000854.png": "4847bee33378cfda1d7d5ec5a5cd6968cc8a1072a675eb983ca495386e394830",
+    "frame_000855.png": "0d4490486595c4574e968debf1523eabb7913634a71f9d57f2c2b098bce66d81",
+    "frame_000856.png": "5c93d9a32627e2069140ed44be6dbd7ebff045a630bd8590230d736cff4f85d4",
+    "frame_000857.png": "5a816c0f6b73ab741dab71b6f588be414c1b77938df3941cfa7aff609cc73b42",
+    "frame_000858.png": "fad25f42b9be377bdd40443d60b98472bf5f97c10a46f0604010033f8321654a",
+    "frame_000859.png": "46f27ce4ef640e0e4555e9bfe2bd4918c3d0ce3af065f6c98cc96a7d2f5bdcc7",
+    "frame_000860.png": "dac7073e3eb5ba44639972b285ac6d092485903a480c56c46096c5c3876c0179",
+    "frame_000861.png": "80e1467dc896c647d18d5531826587887655a64ce5c87bc85ae64c0dbe75a378",
+    "frame_000862.png": "1a2d7cbcb3e07610015bd2e87fb8de571d04d0dafdf6da3c5693d46befa71d31",
+    "frame_000863.png": "99c6e11c9226638fd01b29c51402cd26dfc264fb2582a24e5c544422011623e9",
+    "frame_000864.png": "5b5621494d313e6d42131aab55782414941290ea92e8fc8ea7bdccd35b0f3e8b"
+  },
+  "segmentSha256": "f4a954ee93ea27f38958b6fbcc99c6a14b3dcca6594ad8fad2958b6b1c37c0a4",
+  "planSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+  "codeSha256": "74a44f751c5f5fe4cf3319a63c66d3a4fc35b0e62fb73c83f0f47c0bb7f96757",
+  "executor": "/root/s1_render_execution",
+  "chunk": 11,
+  "first": 792,
+  "last": 864
+}

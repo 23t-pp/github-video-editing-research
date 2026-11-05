@@ -1,0 +1,235 @@
+{
+  "from": "LOOP1 focus-v2",
+  "changes": [
+    {
+      "findingId": "L1-SUBTITLE",
+      "change": "source-plane clip-path y68..1012 hides only8px fringe beyond prepared y60..1020; media unchanged"
+    },
+    {
+      "findingId": "L1-TITLE",
+      "change": "opening title moved to y180/220px, subtitle345; hand focus around1070,800 stays clear"
+    },
+    {
+      "findingId": "L1-SOURCE-GLITCH",
+      "change": "S022 uses earlier same-candidate prepared S053 first24formal frames, moves out source horizontal displacement"
+    },
+    {
+      "findingId": "L2-NEW",
+      "change": "persistent original monitor, actualXPALM, eye slit,energy paper,same-source7leaves,continuousglyph text"
+    },
+    {
+      "findingId": "L2-TITLE-01",
+      "old": "subtitle_y345 overlapped English",
+      "new": "subtitle_y470, separate baseline; onlychunk0 recapture",
+      "evidence": "work/.../frame000025 before; after to be captured"
+    },
+    {
+      "findingId": "L2-TAIL",
+      "change": "S056闭眼保持改为C047抬腕/额头；真实XCHASE R4.0动态前景F1360..1385，腰切线贴底；0..17段HTML逐段完全相等"
+    }
+  ],
+  "pending": [
+    "independent complete L2 review",
+    "L3 close known eye/tear/leaf/text findings"
+  ],
+  "mainSourceReplacements": [
+    {
+      "shot": "S026",
+      "old": {
+        "candidateId": "S1C037",
+        "assetId": "S026",
+        "sourceInSeconds": 129.64,
+        "sourceOutSeconds": 130.56,
+        "characters": [
+          "真希"
+        ]
+      },
+      "new": {
+        "candidateId": "S1C041",
+        "assetId": "N026",
+        "sourceInSeconds": 179.5,
+        "sourceOutSeconds": 180.5,
+        "characters": [
+          "三轮"
+        ]
+      },
+      "reason": "不同原源区间替换不必要主线回放；不以镜像/调色假装新素材",
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-01.jpg"
+    },
+    {
+      "shot": "S037",
+      "old": {
+        "candidateId": "S1C056",
+        "assetId": "S037",
+        "sourceInSeconds": 204.708333,
+        "sourceOutSeconds": 205.791667,
+        "characters": [
+          "虎杖"
+        ]
+      },
+      "new": {
+        "candidateId": "S1C054",
+        "assetId": "N037",
+        "sourceInSeconds": 924.5583333333334,
+        "sourceOutSeconds": 925.6416666666668,
+        "characters": [
+          "虎杖"
+        ]
+      },
+      "reason": "不同原源区间替换不必要主线回放；不以镜像/调色假装新素材",
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-01.jpg"
+    },
+    {
+      "shot": "S052",
+      "old": {
+        "candidateId": "S1C020",
+        "assetId": "S052",
+        "sourceInSeconds": 554.708333,
+        "sourceOutSeconds": 555.791667,
+        "characters": [
+          "伏黑"
+        ]
+      },
+      "new": {
+        "candidateId": "S1C028",
+        "assetId": "N052",
+        "sourceInSeconds": 254.17999999999998,
+        "sourceOutSeconds": 255.09999999999997,
+        "characters": [
+          "咒灵"
+        ]
+      },
+      "reason": "不同原源区间替换不必要主线回放；不以镜像/调色假装新素材",
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-02.jpg"
+    },
+    {
+      "shot": "S053",
+      "old": {
+        "candidateId": "S1C027",
+        "assetId": "S053",
+        "sourceInSeconds": 244.708333,
+        "sourceOutSeconds": 245.791667,
+        "characters": [
+          "五条"
+        ]
+      },
+      "new": {
+        "candidateId": "S1C078",
+        "assetId": "N053",
+        "sourceInSeconds": 239.45833333333334,
+        "sourceOutSeconds": 240.54166666666669,
+        "characters": [
+          "unknown"
+        ]
+      },
+      "reason": "不同原源区间替换不必要主线回放；不以镜像/调色假装新素材",
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-02.jpg"
+    },
+    {
+      "shot": "S054",
+      "old": {
+        "candidateId": "S1C079",
+        "assetId": "S054",
+        "sourceInSeconds": 259.708333,
+        "sourceOutSeconds": 260.791667,
+        "characters": [
+          "伏黑"
+        ]
+      },
+      "new": {
+        "candidateId": "S1C080",
+        "assetId": "N054",
+        "sourceInSeconds": 265.2083333333333,
+        "sourceOutSeconds": 266.29166666666663,
+        "characters": [
+          "伏黑"
+        ]
+      },
+      "reason": "不同原源区间替换不必要主线回放；不以镜像/调色假装新素材",
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg"
+    },
+    {
+      "shot": "S056",
+      "old": {
+        "candidateId": "S1C086",
+        "assetId": "S056",
+        "sourceInSeconds": 409.708333,
+        "sourceOutSeconds": 410.791667,
+        "characters": [
+          "钉崎"
+        ]
+      },
+      "new": {
+        "candidateId": "S1C081",
+        "assetId": "N056",
+        "sourceInSeconds": 289.4583333333333,
+        "sourceOutSeconds": 290.54166666666663,
+        "characters": [
+          "伏黑"
+        ]
+      },
+      "reason": "不同原源区间替换不必要主线回放；不以镜像/调色假装新素材",
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg"
+    },
+    {
+      "shot": "S057",
+      "old": {
+        "candidateId": "S1C097",
+        "assetId": "S057",
+        "sourceInSeconds": 764.652,
+        "sourceOutSeconds": 765.848,
+        "characters": [
+          "虎杖"
+        ]
+      },
+      "new": {
+        "candidateId": "S1C088",
+        "assetId": "N057",
+        "sourceInSeconds": 449.448,
+        "sourceOutSeconds": 450.552,
+        "characters": [
+          "unknown"
+        ]
+      },
+      "reason": "不同原源区间替换不必要主线回放；不以镜像/调色假装新素材",
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg"
+    },
+    {
+      "shot": "S058",
+      "old": {
+        "candidateId": "S1C075",
+        "assetId": "S058",
+        "sourceInSeconds": 1209.75,
+        "sourceOutSeconds": 1210.75,
+        "characters": [
+          "五条"
+        ]
+      },
+      "new": {
+        "candidateId": "S1C076",
+        "assetId": "N058",
+        "sourceInSeconds": 1214.438,
+        "sourceOutSeconds": 1215.312,
+        "characters": [
+          "五条"
+        ]
+      },
+      "reason": "不同原源区间替换不必要主线回放；不以镜像/调色假装新素材",
+      "evidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg"
+    }
+  ],
+  "intentionalMainReuse": [
+    {
+      "first": "S014 inside original archive screen",
+      "second": "S049 full frame",
+      "candidateId": "S1C071",
+      "reason": "screen clue promoted to full-frame technique; frames contextualized differently"
+    }
+  ],
+  "knownL2Issues": [
+    "眼线与尺度未对齐，已留实际初图与测量方案，L3改",
+    "竖裂边上半黑空，L3结构改",
+    "七叶初始veil/shade偏暗，L3改",
+    "STRIKE受青掌遮挡，L3留完整可读窗口"
+  ]
+}

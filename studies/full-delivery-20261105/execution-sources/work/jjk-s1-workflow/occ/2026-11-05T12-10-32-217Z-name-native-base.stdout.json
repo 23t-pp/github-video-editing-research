@@ -1,0 +1,67 @@
+{
+  "projectId": "cd443d87-8dbd-4a57-a216-5a50374c3893",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_track",
+      "result": {
+        "ok": true,
+        "track": {
+          "id": "track_v1",
+          "alias": "V1",
+          "trackType": "video",
+          "order": 0,
+          "name": "V1 原生逐镜 · 59镜",
+          "hidden": false,
+          "muted": false,
+          "locked": false,
+          "role": null,
+          "audioRouting": null,
+          "clips": 0
+        },
+        "tracks": [
+          {
+            "id": "track_v1",
+            "alias": "V1",
+            "trackType": "video",
+            "order": 0,
+            "name": "V1 原生逐镜 · 59镜",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          },
+          {
+            "id": "track_553a1298-a16a-4e0a-b20e-6d4d8bacacc7",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "A1 曲库V20 · 独立master",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "a1454aa2-b969-47e6-a03d-04b82201a708",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-c0601db1",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_4ecdf575461c4e9a",
+    "editorUrl": "http://localhost:5199/#/editor/cd443d87-8dbd-4a57-a216-5a50374c3893",
+    "updatedAt": "2026-11-05T12:10:33.415Z"
+  }
+}

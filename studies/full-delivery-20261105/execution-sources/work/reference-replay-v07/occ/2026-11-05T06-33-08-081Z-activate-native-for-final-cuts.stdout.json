@@ -1,0 +1,37 @@
+{
+  "projectId": "5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+  "applied": false,
+  "noChanges": true,
+  "ops": [
+    {
+      "tool": "manage_timelines",
+      "result": {
+        "ok": true,
+        "active": {
+          "id": "tl_e804dc64-a93d-4b36-b9d5-346cb06dc53e",
+          "name": "02 原生逐镜 · 32镜 · V07库内BGM",
+          "width": 1920,
+          "height": 1080,
+          "ratio": "16:9",
+          "active": true,
+          "hidden": false,
+          "clips": 33,
+          "nestedInstances": 0,
+          "durationInFrames": 750
+        }
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "5bdc4cab-32e5-42c8-bb2d-b2b42028be17",
+    "status": "cancelled",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-8161da2b",
+    "operationCount": 0,
+    "bindingMode": "offline",
+    "agentRunId": "run_7e58667b954444cc",
+    "editorUrl": "http://localhost:5199/#/editor/5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+    "updatedAt": "2026-11-05T06:33:09.364Z"
+  }
+}

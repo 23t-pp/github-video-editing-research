@@ -1,0 +1,145 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "loop": 1,
+  "status": "pass",
+  "reviewedAt": "2026-11-05T18:10:23+08:00",
+  "artifactRole": "naked_rough_focus_revision_v2",
+  "boundArtifacts": {
+    "loops/loop-01/plan.json": "441271cfea126a534ad876527d8e7c8f5983c384bd4bd24f828ee2dd6284f814",
+    "loops/loop-01/loop-01-rough-focus-v2.mp4": "d069face423c0822e52debf68377081b4eaf6052cef677472cf977960d0c075f",
+    "loops/loop-01/execution.json": "68fb935405b311ffae6e934abd22cef4ed38d00241d29bd621ebb45969041d3f",
+    "loops/loop-01/revision-diff.json": "f011fd61faea0e86c61fd6085de0f817124912da85bebee8fcf5fd82dbd7fd63",
+    "data/retrieved-assets.json": "155cfded2965c7d59a0495b2e171ffa686782582acd985bb93b1595bf9e94655",
+    "loops/loop-01/root-machine-check-focus-v2.json": "5aecae5363d9d016e5613ad96bb3202c9549dfcc922a3e24febec5b44aa95154",
+    "evidence/palm-focus-AB.jpg": "e4cc46f85ed8c230acdc63052e5f40b686d75cf0a21ac5615ddff9ace3e3277b",
+    "data/palm-focus-proposal.json": "60b89411a740437aef9460833df2d3e926d853a71e86d21fb3f9ce7d94e02c4e",
+    "reviews/L1-focus-v2-实际前45帧抽查.jpg": "55610a75cb7fbdde38a769843a6e75bf693b86d088bc98a221fb8a4a2c9fa123"
+  },
+  "initialReviewRetained": "loops/loop-01/review-initial.json",
+  "initialVideoRetained": "loops/loop-01/loop-01-rough.mp4",
+  "initialVideoSha256": "d58dccaa12a7caf90e06fa486c25506f936d48eba34d5bcdae151ce467f903f2",
+  "observedScope": {
+    "wholeRough": "沿用初稿已看58镜首中尾10页，复核新片前45帧解码中的15张运动时位及两切口AB；不是实时逐帧观看全片",
+    "geometry": "前三组为宏观手势特写，源图覆盖画布。第三镜底缘仍有残字/黑边差异，L2统一安全matte；没有把该局部小残留写成最终合格",
+    "numeric": "root新片1440帧完整缩略解码/60秒/音频2880000采样与零偏移对照通过；本审核校验视频与实际plan等指纹，未重复伪称独立听觉验收",
+    "auditoryListeningPerformed": false,
+    "fullResolutionAllFramesIndividuallyViewed": false
+  },
+  "technicalChecks": {
+    "file": "loops\\loop-01\\loop-01-rough-focus-v2.mp4",
+    "sha256": "d069face423c0822e52debf68377081b4eaf6052cef677472cf977960d0c075f",
+    "bytes": 15582855,
+    "fullDecodedFrames": 1440,
+    "fps": 24,
+    "durationSeconds": 60.0,
+    "width": 960,
+    "height": 540,
+    "decodedAudioSampleFrames": 2880000,
+    "masterSampleFrames": 2880000,
+    "sameTimeCorrelation": 0.9991414077768802,
+    "nearBlackFrames": [],
+    "unexpectedNearBlackCandidates": [],
+    "nearBlackDefinition": "192x108缩略完整解码，active y6:102 RGB mean<3；候选需结合实际图查看",
+    "auditoryListeningPerformed": false,
+    "machineState": "pass",
+    "scope": "完整缩略解码与采样数、零偏移声音对照；不是全1440张全分辨率逐张人工审美验收"
+  },
+  "findings": [
+    {
+      "id": "L1-FOCUS-01",
+      "severity": "P1",
+      "status": "resolved_for_loop1",
+      "frames": [
+        12,
+        13,
+        30,
+        31
+      ],
+      "issue": "开掌接力的手掌焦点右侧→中部→左下，观看落点明显跳；目前只证明同为手掌，尚未证明焦点连续。",
+      "evidence": [
+        "evidence/retrieved-shot-contacts/retrieval-01.jpg"
+      ],
+      "requiredAction": "保留原版，制作裸切对齐版本：在安全构图内调整源片位置/尺度或动作相位，使同一掌心锚点接近并量测误差；检查完整手势不被裁掉、无空边。单独看AB后更新L1视频/plan/diff/执行hash，再复核。不能用大字/闪光遮掉问题。",
+      "resolution": "实际新片前45帧解码并查看15个时位、含F12/13和30/31两侧；掌心宏观特写落点明显接近，源图覆盖画布，无侧面空边。人物脸/指端裁切是已明示取舍，非恢复细节；人工粗标约1070,800不当作亚像素测量。",
+      "recheckEvidence": [
+        "evidence/palm-focus-AB.jpg",
+        "data/palm-focus-proposal.json",
+        "reviews/L1-focus-v2-实际前45帧抽查.jpg"
+      ]
+    },
+    {
+      "id": "L1-MATTE-02",
+      "severity": "P2_for_rough_P1_if_final",
+      "status": "carry_to_loop2",
+      "issue": "很多镜头底边留有内嵌字幕的白色残尖，黑边与有效画面交界不干净。",
+      "evidence": [
+        "evidence/retrieved-shot-contacts/retrieval-01.jpg",
+        "evidence/retrieved-shot-contacts/retrieval-04.jpg",
+        "evidence/retrieved-shot-contacts/retrieval-07.jpg"
+      ],
+      "requiredAction": "L2采用经原尺寸核对的安全matte/裁切，边界统一；检查掌、武器与下巴的损失，不声称恢复被裁掉内容。"
+    },
+    {
+      "id": "L1-SOURCE-03",
+      "severity": "P2",
+      "status": "source_origin_confirmed_choice_pending",
+      "shot": "S022",
+      "issue": "S022末端可见横错行；同一源PTS的全季JPG也存在，非本轮编码新引入。仅末一帧切走可能显突兀。",
+      "evidence": [
+        "evidence/retrieved-shot-contacts/retrieval-04.jpg",
+        "素材集_60Hz_JPG/S1E07/minute-004/F0014743.jpg",
+        "素材集_60Hz_JPG/S1E07/minute-004/F0014745.jpg",
+        "素材集_60Hz_JPG/S1E07/minute-004/F0014748.jpg"
+      ],
+      "requiredAction": "记录来源，选择移开此源时位或保留有意完整短过门；无证据不称其为新增故障特效或必然坏帧。"
+    },
+    {
+      "id": "L1-S046-CHECK",
+      "severity": "none",
+      "status": "closed_false_alarm",
+      "issue": "审核者最初从预检小图误读切口约919.74，怀疑S046跨原切。",
+      "resolution": "独立查看formal12–37共26帧均为中景；真实原生PTS中cut在920.127542，当前所用区间结束前，撤销跨切判断，不要求无谓重渲。",
+      "evidence": [
+        "evidence/S046-prepared-all.jpg",
+        "evidence/S046-original-all.jpg",
+        "evidence/S046-cut-verification.json"
+      ]
+    },
+    {
+      "id": "B-SLOW-01",
+      "severity": "none",
+      "status": "resolved_for_prototype",
+      "resolution": "五个低于0.5倍率已由真实扩大源区间修至1/1/.7/.8/1；联系表显示真实动作与短暂姿态变化，不再以原极低倍率拉长。高能程度仍要在最终完整合成审核。"
+    },
+    {
+      "id": "L1-REPEAT-04",
+      "severity": "P2",
+      "status": "review_in_loop3",
+      "issue": "S005/S026、S007/S037、S008/S054、S014/S049等复用相同动作窗口。可作为接力回钩，但终片需避免机械重复。",
+      "requiredAction": "L3从完整片检查复用是否有结构作用，必要时换同一源附近不同相位或换已审镜头，不仅增加滤镜。"
+    }
+  ],
+  "additionalFindings": [
+    {
+      "id": "L1-TITLE-05",
+      "severity": "P2_now_P1_if_obstructs_final_focus",
+      "status": "carry_to_loop2",
+      "issue": "前三手掌已放大，开场大字不能再次盖住下半掌心焦点。",
+      "requiredAction": "L2将片名字放上方/缩短出现/作为掌后层，实际帧证明掌心和字均可辨。"
+    },
+    {
+      "id": "L1-DEDUP-06",
+      "severity": "P2",
+      "status": "carry_to_loop2",
+      "issue": "主线57镜48unique，9处重叠窗口复用；部分可回钩，但需避免无变化重复。",
+      "requiredAction": "L2取经源证据预检的新动作替换大部分重复，保留1–2处有意呼应并标理由；保留旧新candidate/source/frames及受影响事件diff。"
+    }
+  ],
+  "allowedNextActions": [
+    "prepare_and_render_loop2_real_complex_low_resolution_composition",
+    "retrieve_and_preflight_replacement_S1_actions_for_logged_duplicate_reduction",
+    "apply_logged_safe_matte_and_title_hierarchy_fixes"
+  ],
+  "advanceToLoop2": true,
+  "conclusion": "L1裸切原型复核通过，开掌焦点P1已由真实新视频关闭。只允许推进L2制作与独立审核；字幕、复杂alpha/纸边/布局/同源handoff及最终流畅仍未通过。"
+}

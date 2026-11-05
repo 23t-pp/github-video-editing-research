@@ -1,0 +1,217 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "reviewedAt": "2026-11-05T20:05:22+08:00",
+  "loop": 4,
+  "status": "pass",
+  "wholeFilmPass": true,
+  "filmApproved": true,
+  "finalApproval": false,
+  "projectDeliveryApproved": false,
+  "approvalScope": "actual_R4_video_visual_craft_and_machine_technical_checks; editable_project_delivery_gate_still_separate",
+  "boundArtifacts": {
+    "loops/loop-01/loop-01-rough-focus-v2.mp4": "d069face423c0822e52debf68377081b4eaf6052cef677472cf977960d0c075f",
+    "loops/loop-02/loop-02-composite-preview.mp4": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d",
+    "loops/loop-03/loop-03-high-quality.mp4": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b",
+    "loops/loop-04/loop-04-final.mp4": "90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d",
+    "loops/loop-04/plan.json": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+    "loops/loop-04/frozen.json": "9e427f1e8716488513b8a2580b76f7549d79560ac6258b9a166110527071b132",
+    "loops/loop-04/execution.json": "be9b7a50d70948ddcdcbafbe54c76c1c5239cfca48d2891dcc9ed50e2a6aea3f",
+    "loops/loop-04/render-completion.json": "00efe7084169d714d11484119f01999d78ab1366ee898e95072f6ba8a95848bc",
+    "loops/loop-04/root-machine-check.json": "418b32ca372f7d671e06ef1bbbf982b0bb13e5db82fcdb83c62b847fa389ee17",
+    "loops/loop-04/capture-evidence.json": "8703dbfc114ad2280a88e4e9732b5588007754d23f57a5b79fcf7b6d99c15e8a",
+    "loops/loop-04/event-version-status.json": "93e5539e29e40391fc265f449db5a65d7e7f795b49ff9641869b2d580ce28d24",
+    "loops/loop-04/plan-precheck.json": "cf23cff76901515fc95c401320c9f2f1e9148192531b6002e80e9fbcbd730a91",
+    "loops/loop-04/prepared-review.json": "bcf9abe47cdefa2c998f6a5879379deb45726cce0c9f6cbe0b95f41aa401180b",
+    "loops/loop-04/reviewer-evidence/actual-film-check.json": "fe7651780a65d27303a0a5a73cb506634c9bab2b8c0c77e1d43fde0e5934b5a0",
+    "loops/loop-04/evidence/F0624.png": "1f46a790fc8a908a1ef0fad845e8eef24f579618187f281b3623388be2c2fafe",
+    "loops/loop-04/evidence/F0823.png": "f11a6138b3834d340cadb62462857d67e9a1ebf0d7c2cd3a180c4227dc3bbaa0",
+    "loops/loop-04/evidence/F0829.png": "363bd6de2ab1c6baa46e4fe6eefdcd91725e117d666e71bf3b81cc3d5b762dbb",
+    "loops/loop-01/review.json": "9a69ee6588050d46a433975292c1510876ffc8303e53c6e398e49edf647f9e73",
+    "loops/loop-02/review.json": "a2401f5399270f6b86024b1dfba3a326e89dffb91fea1751bb6c419ebd6c7e4e",
+    "loops/loop-03/review.json": "73b0e72386513d3461d1d299d46e57bd75c92626277009687043b02adfa1e22e",
+    "reviews/素材集最终审核.json": "2240049b8bbaf06e55893cffdae50aeb0df44ceda042a101c89b8ca67acd1b38",
+    "reviews/event-clock-boundary-check.json": "51f3e939c1c4e3a188d805860e0b1c8401d767121895ca6280074fc11f9efaae",
+    "reviews/event-clock-boundary-check.md": "127def0139738c315f0892c650156e7bd5d9816fcefc8bb5a2d0b7e0abb54ed4",
+    "reviews/studio-annotation-equivalence.json": "86f8201f3c86969c6ecffd0993b91f567b675baeb37e7b6c74a024437fabf7ef",
+    "evidence/ui/studio-annotation-drift/check.json": "9759d545cf24eef491968dd12f34185c21717ecff4c82363f2906bb831b8f834",
+    "evidence/ui/studio-annotation-drift/expected-frozen-build.html": "356eb485742aac6e66ecc5e1828f313ed8626baac4bf66477fe7a9705bc42782",
+    "evidence/ui/studio-annotation-drift/studio-open-normalized.html": "5c71e88910a113c4956fdc73c557132409f9f6e81694497a3274213dd7964cff",
+    "reviews/审核方法与学习笔记.md": "39de596733194a61b9d16ee8e2add096fefa9125474e8b6947aa7c6cc93177a4",
+    "music/music-report.json": "b3283c6fc6dabf9850b5eed538bb7255fdd353df71b77d6e9889fc050c4f6e8a",
+    "music/master.wav": "6cf7a21e53a8e160473de82f8193f3af2069627bb8812fda47baec160e3e89aa",
+    "data/final-event-index.json": "0b6245de4b8526e9f3ed793daf12fcc0906451031fc475ef4aa4a8d24ab6a0e4",
+    "data/material-catalog.json": "38de476333661940a715ca13f406e20dc31d0dd16a08f5dce170c11b33a6908d",
+    "reviews/catalog-query665.5.json": "5f66fa4095137942bac74cbe69abd7702106331914b74cc2631d10097a660b24",
+    "loops/loop-04/render-proofs/chunk-00.json": "28950b2caffea7268b4ad9fd4221cd26af0b3924c0772bc085840562801c145b",
+    "loops/loop-04/render-proofs/chunk-01.json": "e49752b60d3aba598d6ba02e3265dbc3f1f50f0b771341f90b29d7d2d5d05a9a",
+    "loops/loop-04/render-proofs/chunk-02.json": "285c3262120d96c75667ffcc30f85822259499488202453ee91a6d9e5c73e3ae",
+    "loops/loop-04/render-proofs/chunk-03.json": "6788144e367cfebb03b927aa12f190f81192afcd69608397633c6070eac031f1",
+    "loops/loop-04/render-proofs/chunk-04.json": "0390e171a5cab4a6d6116a50e4f5d961e7eb322329825f13f6751ff269c5bc93",
+    "loops/loop-04/render-proofs/chunk-05.json": "6c8cd8f24ff7b207d21180c2aeaf5c23346ebafeb655f366eeb0b0f8e177b433",
+    "loops/loop-04/render-proofs/chunk-06.json": "a912b6c3982d020a65f931cf989c9b101677ab5b9123d9431d128d0bb49c2e23",
+    "loops/loop-04/render-proofs/chunk-07.json": "2582fdb929fad374d05c6be16f691fdd842de69c11ba5252a9db3421639e4161",
+    "loops/loop-04/render-proofs/chunk-08.json": "64de1ae242c153e63cead4b402c2c2c278fe26dea6790309bd4af4ea1d3c2903",
+    "loops/loop-04/render-proofs/chunk-09.json": "97f0f0fdec27cf32b6e1e5132697d96531c7a10b2427b71ac6d2ed5893ebc14b",
+    "loops/loop-04/render-proofs/chunk-10.json": "7167e28921a67b23c6132b224276649ccb26dded22a2af876d33d8b1416fb105",
+    "loops/loop-04/render-proofs/chunk-11.json": "36493d5dc97600eb290713f54bdd5b69436a8a2862ba9e64c005e4748740e82a",
+    "loops/loop-04/render-proofs/chunk-12.json": "a076d690ffefba9dc1e65ed54ce904cf5f93e7df83e707bf51d770dd34885445",
+    "loops/loop-04/render-proofs/chunk-13.json": "c40158e8fee101449ea7ca3bb00c6a240c2ef61ce166c7818fe04377d65a7b6a",
+    "loops/loop-04/render-proofs/chunk-14.json": "e1706996a24dd5a57d25bb772ca3812e349d608aac4fdd098d19f18452794324",
+    "loops/loop-04/render-proofs/chunk-15.json": "53eb1a796370b3165431291091e159b405d11a3e01a447d68ea1b7e5dffc480e",
+    "loops/loop-04/render-proofs/chunk-16.json": "60cc61c933734ddbc1b94695dac25f65f22c1b7a417f5cf45dfbedf159e6c07e",
+    "loops/loop-04/render-proofs/chunk-17.json": "7d7a25d5ab88c86f8e32ead5ef8ad1f0b35f8d650b9d28750330d15b90907e85",
+    "loops/loop-04/render-proofs/chunk-18.json": "db21b35c013cf27eb348c947db145c50c227e776e42ee465ba1de2b98b5d9aa2",
+    "loops/loop-04/render-proofs/chunk-19.json": "8335b48d3c39a3ce1f9523a0b3ee699c49937d69ebee019f2c47ae12d2c4b61b",
+    "loops/loop-04/reviewer-evidence/actual-film-01.jpg": "5a4ca80418fd879ea90483d20ac574b3606fe2dbe29dc17dd18c151434b36f69",
+    "loops/loop-04/reviewer-evidence/actual-film-02.jpg": "3155569c1e7c4f40e4c1938f9970cd35876382dccabb804a28dd536149a1c2ce",
+    "loops/loop-04/reviewer-evidence/actual-eyes-815-843.jpg": "231375eea863b78982f75370686533b9a89ca868dc6098cd28e42ff51fd5bbc0",
+    "loops/loop-04/reviewer-evidence/actual-strike-611-638.jpg": "d9c1e6e2e66cb33f2c6e6c506d03a9466d35e14be4992fdc7db7ca64bc842467",
+    "loops/loop-04/reviewer-evidence/actual-tail-01.jpg": "0f9cd0ea2c1646d7659266347688190b2af203a93623e6b12596b3f1afcdc406",
+    "loops/loop-04/reviewer-evidence/actual-tail-02.jpg": "27f69cc051c8558431b41248b48f1ec419a9bd69ba2928d68b8242958f6776b9",
+    "loops/loop-04/reviewer-evidence/actual-tail-03.jpg": "d5e2c5f991433336e7634ed9665dd8f8f0d35611cf913e66f22e33b6c1a6b7a7"
+  },
+  "actualArtifact": {
+    "file": "loops/loop-04/loop-04-final.mp4",
+    "sha256": "90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 1440,
+    "seconds": 60,
+    "bytes": 50762462
+  },
+  "technicalDecision": "pass",
+  "artDecision": "pass_for_documented_reference_adaptation_and_closed_P1s",
+  "blockingP1Count": 0,
+  "observedScope": {
+    "actualMP4": "审核员独立全1440帧解码320×180；人工看完整60张整秒图、眼815–843的29图、STRIKE611–638的28图、尾1280–1362的83图。",
+    "fullsize": "实际看624中文、829双眼原尺寸，且核624/823/829保存PNG与对应新chunk proof中的真实捕获SHA一致；823由整事件图及proof核对，并不虚称逐像素人工测量。",
+    "priorEvidence": "新尾70个1920prepared逐帧RGB源序比对、65源PNG SHA/PTS/选样/5重复已独立材料门通过；其余16段按当前执行proof严格复用。",
+    "proofs": "独立读取20个归档proof，均plan51f4028…、各72输出hash条目；执行者另作完整key/payload/segment验。",
+    "reviewChain": "前三轮主review全部boundArtifacts再次逐SHA核对无漂移；四个不同实际视频SHA存在。",
+    "technicalAudio": "root全片解码1440、音频2,880,000采样、零偏相关0.9991414078、无异常近黑；音频只技术检查，未实际听音。",
+    "limitation": "全1440张原尺寸人工边缘扫描未执行；人工以完整片时序抽图+风险事件全帧+原尺寸关键图为范围。"
+  },
+  "closedInThisLoop": [
+    {
+      "id": "L2-EYE-01",
+      "status": "closed_in_actual_R4",
+      "evidence": "loops/loop-04/reviewer-evidence/actual-eyes-815-843.jpg",
+      "result": "实际816–829眼缝使用真实稳定相位；完整可见823–829的7帧近同轴，末829原尺寸暗瞳差约10px。830回基础微笑、842接前冲，无后半上漂。原生红小瞳/蓝大虹膜差异保留，不把虹膜大小强扭相同。"
+    },
+    {
+      "id": "L3-CN-TYPE-09",
+      "status": "closed_in_actual_R4",
+      "evidence": "loops/loop-04/reviewer-evidence/actual-strike-611-638.jpg",
+      "result": "中文移左下黄色留白，实际613–637均可完整读，超过6连续帧；624原尺寸清晰，与手/袖有间距，英文仍完整。"
+    },
+    {
+      "id": "L3-PACING-10",
+      "status": "closed_in_actual_R4",
+      "evidence": [
+        "loops/loop-04/reviewer-evidence/actual-tail-01.jpg",
+        "loops/loop-04/reviewer-evidence/actual-tail-02.jpg",
+        "loops/loop-04/reviewer-evidence/actual-tail-03.jpg"
+      ],
+      "result": "原3.25秒凝视链改8帧起势眼→22帧近身换拳/扭肩→24帧真实旋转能量→24帧环境冲击浪，随后前景奔跑；实际1280–1362共83时位看完，中心聚合→扩张释放成立。不是用虚拟缩放代替身体动作。"
+    },
+    {
+      "id": "L3-EVENTS-11",
+      "status": "closed_with_frozen_index_and_boundary_clarification",
+      "evidence": "reviews/event-clock-boundary-check.json",
+      "result": "16实际事件ID/binding/range已规范；4个出镜context明确不计内部占时。S048实际1152–1178在clap事件内，S046才是前镜context。不改冻结计划。"
+    }
+  ],
+  "priorClosedFindingsRetained": [
+    "L1掌心焦点",
+    "L2裂边空黑",
+    "L2七叶未归位/暗叶",
+    "L2英文STRIKE遮词",
+    "L2换源episode/window错误",
+    "L2逐版本事件状态",
+    "L2 LIMITLESS遮合掌"
+  ],
+  "remainingNonBlockingLimits": [
+    "V20为结构与技法的原创改编，原创档案屏不是动画实体手机跟踪；不宣称100%复刻或达到20参考全部镜头的原作者水准。",
+    "XPALM/XCHASE是实际源RGB+手工近似alpha，少量发梢/衣缘仍约1–8px近似；缺失腰袖通过出画处理，未补造肢体。",
+    "源底部裁切损失已披露，T091去下136行外圈保留中心，其他片安全带亦有损失。",
+    "BGM确来自V20音乐库候选，时长/采样/偏移已验证；分离残留、跨接乐句与听感未经实际试听，不把数值检查写成听感通过。",
+    "全季JPG/技术色彩标签完整不等于全季逐帧人物语义理解，未知身份和窗口证据边界继续保留。"
+  ],
+  "referenceAssessment": {
+    "retained": [
+      "手势焦点接力",
+      "短黑后稳定外框内换→直接全幅",
+      "动作与能量对比、尾部再次释放"
+    ],
+    "authoredAdditions": [
+      "真实动态青掌/奔跑前景",
+      "漫画连续字形与九层厚度",
+      "带纤维/电弧渲染的人物裂条",
+      "同源七叶归位交接",
+      "独立胶片/记忆卡排版"
+    ],
+    "motionAssessment": "尾部实际身体换位及能量/环境扩张使节奏有释放；保留档案屏、反应镜和短眼起势的呼吸，没有把所有保持帧当错误。"
+  },
+  "loopEvidence": {
+    "priorReviews": [
+      {
+        "loop": 1,
+        "reviewStatusAtThatTime": "pass",
+        "reviewSha256": "9a69ee6588050d46a433975292c1510876ffc8303e53c6e398e49edf647f9e73"
+      },
+      {
+        "loop": 2,
+        "reviewStatusAtThatTime": "revise",
+        "reviewSha256": "a2401f5399270f6b86024b1dfba3a326e89dffb91fea1751bb6c419ebd6c7e4e"
+      },
+      {
+        "loop": 3,
+        "reviewStatusAtThatTime": "revise",
+        "reviewSha256": "73b0e72386513d3461d1d299d46e57bd75c92626277009687043b02adfa1e22e"
+      }
+    ],
+    "fourDistinctVideos": [
+      {
+        "path": "loops/loop-01/loop-01-rough-focus-v2.mp4",
+        "sha256": "d069face423c0822e52debf68377081b4eaf6052cef677472cf977960d0c075f"
+      },
+      {
+        "path": "loops/loop-02/loop-02-composite-preview.mp4",
+        "sha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+      },
+      {
+        "path": "loops/loop-03/loop-03-high-quality.mp4",
+        "sha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+      },
+      {
+        "path": "loops/loop-04/loop-04-final.mp4",
+        "sha256": "90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d"
+      }
+    ],
+    "L4FreshChunks": [
+      8,
+      11,
+      17,
+      18
+    ],
+    "L4ReusedChunks": 16,
+    "statusHistory": [
+      "L1 rough-focus-v2 pass for rough scope",
+      "L2 revise",
+      "L3 revise",
+      "L4 video pass"
+    ]
+  },
+  "allowedNext": [
+    "promote_this_exact_video_as_canonical_deliverable",
+    "export_OpenChatCut_editable_projects_and_HyperFrames_release_bundle",
+    "run_final_editable_project_media_and_ui_verification",
+    "seal_project_only_after_separate_delivery_gate_pass"
+  ],
+  "projectDeliveryGateStillRequired": [
+    "OpenChatCut实开并核查native/HF效果序列可播放与素材链接",
+    "HyperFrames规范无注释raw index封存、必要资产及可重渲参数齐；Studio注释差异依独立等价报告说明",
+    "中文学习入口/README/参考差异/最终结果与工程封存脚本实际通过"
+  ]
+}

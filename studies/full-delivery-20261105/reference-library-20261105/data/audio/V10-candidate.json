@@ -1,0 +1,76 @@
+{
+  "id": "V10",
+  "file": "audio/music-candidates/V10__music-candidate.m4a",
+  "bytes": 447985,
+  "sha256": "28af8fe711d3e9468e773f12ea3953e2c32da0e1cc623f097b178c155b2b18e5",
+  "source_stem_sha256": "f69280f2c4b0a8d1d6806a2ccb06914a7187ac2af069b7115a816ee5d6ef74c2",
+  "native_pcm_sha256": "d51edd2d4168b6c6d10431e1dad0b60625295eb0725e0887ab9f2830f6b5b865",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "sample_rate": 44100,
+    "channels": 2,
+    "resampled": false
+  },
+  "duration_sec": 18.088344671201813,
+  "encoded_container_duration_sec": 18.092222,
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "loudness": {
+    "integrated_lufs": -9.93,
+    "true_peak_dbtp": 0.6,
+    "loudness_range_lu": 1.4
+  },
+  "separation": {
+    "tool": "audio-separator",
+    "version": "0.48.0",
+    "model": "UVR_MDXNET_KARA_2.onnx",
+    "provider": "CPUExecutionProvider",
+    "threads": 2,
+    "stem": "Instrumental",
+    "output_normalization": {
+      "peak_threshold": 0.95,
+      "amplification_threshold": 0
+    },
+    "aac_reencoded": true
+  },
+  "status": "真实本地模型分离后的音乐主体候选；未听辨确认，可能残留人声、对白、和声或SFX，也可能损伤音乐。不是纯BGM保证。",
+  "listened": false,
+  "vocal_removal_verified": false,
+  "sfx_removal_verified": false,
+  "encoding_profile": "aac192k-relative-fragments-1s-v1",
+  "rhythm": {
+    "scope": "模型分离后的候选音轨，未做听觉确认",
+    "method": "HyperFrames 0.8.216 local signal spectral flux + autocorrelation + DP",
+    "bpm": 80.1,
+    "confidence": 0.61,
+    "reason": null,
+    "beat_times": [
+      0.125,
+      0.875,
+      1.615,
+      2.195,
+      2.755,
+      3.495,
+      4.245,
+      4.995,
+      5.755,
+      6.495,
+      7.255,
+      7.995,
+      8.745,
+      9.505,
+      10.245,
+      10.995,
+      11.745,
+      12.495,
+      13.255,
+      13.995,
+      14.745,
+      15.495,
+      16.245,
+      16.995,
+      17.745
+    ]
+  }
+}

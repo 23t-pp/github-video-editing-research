@@ -1,0 +1,36 @@
+{
+  "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "import_assets",
+      "result": {
+        "ok": true,
+        "imported": [
+          {
+            "id": "2e9fd18f-ec48-4d84-990f-2e6a56e88406",
+            "name": "master-audio.wav",
+            "kind": "audio",
+            "src": "/media/uploads/775d80eb-a115-4206-88a4-01aa432b86d7.wav"
+          }
+        ],
+        "duplicateCount": 0,
+        "skippedDuplicates": false
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "626acad7-d089-4a87-ab61-d18af009d735",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-3490d578",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_016189d7ecfc440e",
+    "editorUrl": "http://localhost:5199/#/editor/0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "updatedAt": "2026-11-04T15:02:32.329Z"
+  }
+}

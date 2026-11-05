@@ -1,0 +1,277 @@
+# Shotstack Studio Templates
+
+222 ready-to-render video, image and audio templates for the [Shotstack Edit API](https://shotstack.io/docs/api/) —
+the cloud video editing API. Every folder contains the template's full Edit API JSON (`template.json`)
+and a README with its merge fields, so you can render it, batch-personalise it, or hand it to an AI assistant.
+
+## Quick start
+
+```sh
+npm install csv-parse
+SHOTSTACK_API_KEY=your_production_key node render.mjs templates/<slug>
+```
+
+[render.mjs](render.mjs) renders any template once per row of a `data.csv` you put in its folder —
+each column overrides the merge field of the same name ([get a key](https://dashboard.shotstack.io/register)).
+For free watermarked test renders, use a sandbox key and switch `render.mjs` from `/v1/` to `/stage/`.
+
+Prefer a UI? Every template links to its page on [shotstack.io/studio/templates](https://shotstack.io/studio/templates/),
+where you can preview it, open it in the Studio editor, or send it to your AI assistant via the
+[Shotstack MCP server](https://shotstack.io/docs/guide/agents/mcp-server/).
+
+## Templates
+
+### Celebrations
+
+- [Family Moments Year-End Sale Story](templates/family-year-end-sale-story-promo-template/) — [live preview](https://shotstack.io/studio/templates/family-year-end-sale-story-promo-template/)
+- [Festive Bash Holiday Party Invitation Template](templates/festive-bash-holiday-party-invitation-template/) — [live preview](https://shotstack.io/studio/templates/festive-bash-holiday-party-invitation-template/)
+- [Festive Family Season's Greetings Card Template for Holiday Promotions](templates/festive-family-seasons-greetings-card-template/) — [live preview](https://shotstack.io/studio/templates/festive-family-seasons-greetings-card-template/)
+- [Festive Season's Greetings Promotional Template](templates/festive-season-greetings-sales-promotion-template/) — [live preview](https://shotstack.io/studio/templates/festive-season-greetings-sales-promotion-template/)
+- [Golden New Year Celebration & Sale Template](templates/golden-new-year-sale-celebration-template/) — [live preview](https://shotstack.io/studio/templates/golden-new-year-sale-celebration-template/)
+- [Haunted Halloween Night Event & Sales Flyer Template](templates/haunted-halloween-event-sale-flyer-template/) — [live preview](https://shotstack.io/studio/templates/haunted-halloween-event-sale-flyer-template/)
+- [Joyful Christmas Memories Photo Collage Template](templates/joyful-christmas-photo-collage-template-v2/) — [live preview](https://shotstack.io/studio/templates/joyful-christmas-photo-collage-template-v2/)
+- [Joyful Christmas Moment Story Template](templates/joyful-christmas-promo-story-template-sale/) — [live preview](https://shotstack.io/studio/templates/joyful-christmas-promo-story-template-sale/)
+- [New Year's Celebration Sale & Offer Template](templates/new-year-celebration-sale-offer-template-v2/) — [live preview](https://shotstack.io/studio/templates/new-year-celebration-sale-offer-template-v2/)
+- [Seasonal Compliments Festive Holiday Promotions Template](templates/seasonal-holiday-offer-festive-promotion-template/) — [live preview](https://shotstack.io/studio/templates/seasonal-holiday-offer-festive-promotion-template/)
+- [Thanksgiving Feast & Blessings Promotional Template](templates/thanksgiving-feast-blessings-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/thanksgiving-feast-blessings-promo-template-v2/)
+- [Thanksgiving Gratitude Offer Template](templates/thanksgiving-gratitude-offer-template-sale/) — [live preview](https://shotstack.io/studio/templates/thanksgiving-gratitude-offer-template-sale/)
+- [Thanksgiving Message Template](templates/thanksgiving-message-template-gratitude-wishes-v2/) — [live preview](https://shotstack.io/studio/templates/thanksgiving-message-template-gratitude-wishes-v2/)
+- [Warm Season's Greetings & Holiday Message Template](templates/warm-seasons-greetings-holiday-message-template-v2/) — [live preview](https://shotstack.io/studio/templates/warm-seasons-greetings-holiday-message-template-v2/)
+- [Warm Winter Wishes Seasonal Promotion & Sale Template](templates/warm-winter-wishes-seasonal-promo-sale-template/) — [live preview](https://shotstack.io/studio/templates/warm-winter-wishes-seasonal-promo-sale-template/)
+- [Year in Review Memories Collage](templates/year-review-memories-collage-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/year-review-memories-collage-promo-template-v2/)
+
+### E-Commerce
+
+- [Rhythmic Deal & Special Offer Template](templates/bogo-special-offer-promo-template-sale/) — [live preview](https://shotstack.io/studio/templates/bogo-special-offer-promo-template-sale/)
+- [Bold Business Promotion & Webinar Announcement](templates/bold-business-promotion-event-template/) — [live preview](https://shotstack.io/studio/templates/bold-business-promotion-event-template/)
+- [Bold & Modern Special Offer Announcement Template](templates/bold-offer-promo-flyer-template-sales-announcement-v2/) — [live preview](https://shotstack.io/studio/templates/bold-offer-promo-flyer-template-sales-announcement-v2/)
+- [Bold Purple Promo Highlight Template](templates/bold-promo-highlight-social-media-template-v2/) — [live preview](https://shotstack.io/studio/templates/bold-promo-highlight-social-media-template-v2/)
+- [High-Impact Sale & Special Offer Announcement Template](templates/bold-sale-promotion-announcement-template/) — [live preview](https://shotstack.io/studio/templates/bold-sale-promotion-announcement-template/)
+- [Bold Confidence Sales Promotion Story Template](templates/bold-sales-promo-story-template-offer-v2/) — [live preview](https://shotstack.io/studio/templates/bold-sales-promo-story-template-offer-v2/)
+- [Escape to Luxury - Book Your Summer Getaway Today!](templates/book-your-summer-escape/) — [live preview](https://shotstack.io/studio/templates/book-your-summer-escape/)
+- [Carnival Deal Promotional Flyer Template](templates/carnival-sale-promo-flyer-template/) — [live preview](https://shotstack.io/studio/templates/carnival-sale-promo-flyer-template/)
+- [Chic Collection & Sale Story Template](templates/chic-sale-story-promotion-template/) — [live preview](https://shotstack.io/studio/templates/chic-sale-story-promotion-template/)
+- [Christmas Special Offer Template for Holiday Sales](templates/christmas-special-offer-template-for-holiday-sales-v2/) — [live preview](https://shotstack.io/studio/templates/christmas-special-offer-template-for-holiday-sales-v2/)
+- [Dynamic Daily Deal & Offer Promotion Template](templates/daily-deal-promo-template-social-media-offer/) — [live preview](https://shotstack.io/studio/templates/daily-deal-promo-template-social-media-offer/)
+- [Dynamic Circle Showcase & Sale Promotion Template](templates/dynamic-promo-showcase-sale-template-v2/) — [live preview](https://shotstack.io/studio/templates/dynamic-promo-showcase-sale-template-v2/)
+- [Elevate Your Offer - Customizable Campaign Template](templates/elevate-your-offer-promotion-v2/) — [live preview](https://shotstack.io/studio/templates/elevate-your-offer-promotion-v2/)
+- [Exclusive Deal & Discount Offer Template](templates/exclusive-deal-sale-promotion-template-flyer/) — [live preview](https://shotstack.io/studio/templates/exclusive-deal-sale-promotion-template-flyer/)
+- [High-Impact Exclusive Deal & Sale Promotion Template](templates/exclusive-deal-sale-template-limited-offer-promo/) — [live preview](https://shotstack.io/studio/templates/exclusive-deal-sale-template-limited-offer-promo/)
+- [Exclusive Offers - Unlock Amazing Discounts Today!](templates/exclusive-offers-promotion/) — [live preview](https://shotstack.io/studio/templates/exclusive-offers-promotion/)
+- [Vibrant Festive Season Sale Promotion Template](templates/festive-season-sale-promo-template-fashion-offer-v2/) — [live preview](https://shotstack.io/studio/templates/festive-season-sale-promo-template-fashion-offer-v2/)
+- [Fresh Burst Promotional Story Template](templates/fresh-burst-promo-story-sale-template-offer/) — [live preview](https://shotstack.io/studio/templates/fresh-burst-promo-story-sale-template-offer/)
+- [Glow & Grow: Health and Wellness Promotion Template](templates/glow-grow-health-wellness-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/glow-grow-health-wellness-promo-template-v2/)
+- [Product Sale Minimalist](templates/grey-minimalist-product-ad-v2/) — [live preview](https://shotstack.io/studio/templates/grey-minimalist-product-ad-v2/)
+- [Holiday Season Glam Template](templates/holiday-season-glam-template/) — [live preview](https://shotstack.io/studio/templates/holiday-season-glam-template/)
+- [Luxe Weekly Offer Announcement Template](templates/luxe-offer-announcement-promo-template/) — [live preview](https://shotstack.io/studio/templates/luxe-offer-announcement-promo-template/)
+- [Elegant Fashion Sale & New Arrival Promotional Template](templates/luxury-fashion-sale-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/luxury-fashion-sale-promo-template-v2/)
+- [Modern Mega Sale Event Promotion Template](templates/mega-sale-promo-template-event-ad-offer-v2/) — [live preview](https://shotstack.io/studio/templates/mega-sale-promo-template-event-ad-offer-v2/)
+- [Modern 3D Apparel New Arrival & Flash Sale Template](templates/modern-apparel-sale-promo-template-3d-v2/) — [live preview](https://shotstack.io/studio/templates/modern-apparel-sale-promo-template-3d-v2/)
+- [Modern Business Tips & Offers Social Post Template](templates/modern-business-promo-social-media-template/) — [live preview](https://shotstack.io/studio/templates/modern-business-promo-social-media-template/)
+- [Modern Trendsetter Sale & Offer Template](templates/modern-fashion-sale-promo-template/) — [live preview](https://shotstack.io/studio/templates/modern-fashion-sale-promo-template/)
+- [Modern & Minimalist Sale Announcement Template](templates/modern-minimalist-sale-promotion-template/) — [live preview](https://shotstack.io/studio/templates/modern-minimalist-sale-promotion-template/)
+- [Modern Ripped Paper Sale Promotion Template](templates/modern-sale-promo-discount-template-v2/) — [live preview](https://shotstack.io/studio/templates/modern-sale-promo-discount-template-v2/)
+- [Chic Grid Sale & Offer Announcement Template](templates/modern-sale-promo-grid-template/) — [live preview](https://shotstack.io/studio/templates/modern-sale-promo-grid-template/)
+- [Modern Product Sale Announcement Template](templates/modern-sale-promotion-template-discount-offer/) — [live preview](https://shotstack.io/studio/templates/modern-sale-promotion-template-discount-offer/)
+- [Elegant New Arrival & Collection Showcase Template](templates/new-arrival-showcase-template-product-launch-fashion/) — [live preview](https://shotstack.io/studio/templates/new-arrival-showcase-template-product-launch-fashion/)
+- [New Arrivals Spotlight](templates/new-arrivals-spotlight/) — [live preview](https://shotstack.io/studio/templates/new-arrivals-spotlight/)
+- [Bold New Collection Story Promo Template](templates/new-collection-story-promo-template-fashion/) — [live preview](https://shotstack.io/studio/templates/new-collection-story-promo-template-fashion/)
+- [Capture the Moment: Modern Photography Promotion Template](templates/photography-sale-offer-template-promo-v2/) — [live preview](https://shotstack.io/studio/templates/photography-sale-offer-template-promo-v2/)
+- [Radiant Results: Checklist Promo Template](templates/promo-offer-checklist-template-sales-v2/) — [live preview](https://shotstack.io/studio/templates/promo-offer-checklist-template-sales-v2/)
+- [Dynamic Offer Showcase Vertical Gallery Promo Template](templates/promo-template-sale-announcement-image-gallery/) — [live preview](https://shotstack.io/studio/templates/promo-template-sale-announcement-image-gallery/)
+- [Quick Deal & Flash Sale Promotional Template](templates/quick-deal-flash-sale-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/quick-deal-flash-sale-promo-template-v2/)
+- [Quick Deal Promotional Flyer Template for Sales & Events](templates/quick-deal-sale-flyer-promo-template-discount-offer-v2/) — [live preview](https://shotstack.io/studio/templates/quick-deal-sale-flyer-promo-template-discount-offer-v2/)
+- [Modern Flash Sale Story Template for Retail Promotions](templates/retail-sale-story-template-shopping-promo/) — [live preview](https://shotstack.io/studio/templates/retail-sale-story-template-shopping-promo/)
+- [Dynamic Sales Event & Limited-Time Offer Poster Template](templates/sales-event-poster-promotion-offer-template-v2/) — [live preview](https://shotstack.io/studio/templates/sales-event-poster-promotion-offer-template-v2/)
+- [Elevate Your Brand: Skincare & Beauty Promotion Template](templates/skincare-beauty-promotion-ad-template-v2/) — [live preview](https://shotstack.io/studio/templates/skincare-beauty-promotion-ad-template-v2/)
+- [Stylish 'Special Menu' Daily Deal & Sale Template](templates/special-offer-sale-promotion-template-v2/) — [live preview](https://shotstack.io/studio/templates/special-offer-sale-promotion-template-v2/)
+- [Sweet Deal Promotional Offer Template](templates/sweet-deal-promo-offer-template-v2/) — [live preview](https://shotstack.io/studio/templates/sweet-deal-promo-offer-template-v2/)
+- [Vibrant Shopper Sale & Offer Story Template](templates/vibrant-sale-promo-story-template-offer-v2/) — [live preview](https://shotstack.io/studio/templates/vibrant-sale-promo-story-template-offer-v2/)
+
+### Health
+
+- [Wellness Meditation Ad](templates/health-1/) — [live preview](https://shotstack.io/studio/templates/health-1/)
+- [Wellness Meditation Ad](templates/health-1-v2/) — [live preview](https://shotstack.io/studio/templates/health-1-v2/)
+
+### Listings & Classifieds
+
+- [AI-Powered Dynamic Video Template for Real Estate](templates/ai-powered-dynamic-video-template-for-real-estate/) — [live preview](https://shotstack.io/studio/templates/ai-powered-dynamic-video-template-for-real-estate/)
+- [AI Video - Real Estate Slideshow](templates/ai-video-real-estate-slideshow/) — [live preview](https://shotstack.io/studio/templates/ai-video-real-estate-slideshow/)
+- [Best Car for Sale](templates/best-car-for-sale-v2/) — [live preview](https://shotstack.io/studio/templates/best-car-for-sale-v2/)
+- [Bold Poster Ad Animation](templates/bold-poster-ad-animation/) — [live preview](https://shotstack.io/studio/templates/bold-poster-ad-animation/)
+- [Car Dealership Slideshow](templates/car-sale-slideshow-video/) — [live preview](https://shotstack.io/studio/templates/car-sale-slideshow-video/)
+- [Car Runout Deal Promo Ad](templates/car-sale-video/) — [live preview](https://shotstack.io/studio/templates/car-sale-video/)
+- [Daily Car Deal Promo](templates/car-todays-deal-v2/) — [live preview](https://shotstack.io/studio/templates/car-todays-deal-v2/)
+- [Luxury Car Walk Around](templates/car-walkaround-video-v2/) — [live preview](https://shotstack.io/studio/templates/car-walkaround-video-v2/)
+- [Charming Comfort – Embrace Modern Real Estate](templates/charming-comfort-embrace-modern-real-estate/) — [live preview](https://shotstack.io/studio/templates/charming-comfort-embrace-modern-real-estate/)
+- [Charming Modern Property for Sale](templates/charming-modern-property-sale-v2/) — [live preview](https://shotstack.io/studio/templates/charming-modern-property-sale-v2/)
+- [Chic Luxury Apartment for Rent](templates/chic-luxury-apartment-rent-v2/) — [live preview](https://shotstack.io/studio/templates/chic-luxury-apartment-rent-v2/)
+- [Cinematic Real Estate Promo ](templates/cinematic-real-estate-promo-template/) — [live preview](https://shotstack.io/studio/templates/cinematic-real-estate-promo-template/)
+- [Comfortable Family Home for Rent](templates/comfortable-family-home-rent-v2/) — [live preview](https://shotstack.io/studio/templates/comfortable-family-home-rent-v2/)
+- [Comfortable Modern Family Living](templates/comfortable-modern-family-living-v2/) — [live preview](https://shotstack.io/studio/templates/comfortable-modern-family-living-v2/)
+- [Commercial Space for Lease with Prime Features](templates/commercial-space-lease-prime-features/) — [live preview](https://shotstack.io/studio/templates/commercial-space-lease-prime-features/)
+- [Contemporary Elegance – Stylish Homes for Sale](templates/contemporary-elegance-stylish-homes-for-sale/) — [live preview](https://shotstack.io/studio/templates/contemporary-elegance-stylish-homes-for-sale/)
+- [Contemporary Home for Sale](templates/contemporary-home-sale/) — [live preview](https://shotstack.io/studio/templates/contemporary-home-sale/)
+- [Car Lease Promo Ad](templates/electric-car-for-sale/) — [live preview](https://shotstack.io/studio/templates/electric-car-for-sale/)
+- [Elegant Home for Rent with Premium Features](templates/elegant-home-rent-premium-features/) — [live preview](https://shotstack.io/studio/templates/elegant-home-rent-premium-features/)
+- [Elegant Living Room Showcase](templates/elegant-living-room-showcase-v2/) — [live preview](https://shotstack.io/studio/templates/elegant-living-room-showcase-v2/)
+- [Family-Friendly Home for Sale in Prime Location](templates/family-friendly-home-sale-prime-location/) — [live preview](https://shotstack.io/studio/templates/family-friendly-home-sale-prime-location/)
+- [For Sale Listing Template - Showcase Your Home](templates/for-sale-listing-template/) — [live preview](https://shotstack.io/studio/templates/for-sale-listing-template/)
+- [ Fully Customizable Luxury Smart Home ](templates/fully-customizable-luxury-smart-home-v2/) — [live preview](https://shotstack.io/studio/templates/fully-customizable-luxury-smart-home-v2/)
+- [Green Clean Real Estate Promo](templates/green-clean-real-estate-promo-v2/) — [live preview](https://shotstack.io/studio/templates/green-clean-real-estate-promo-v2/)
+- [Ideal Apartment in a Coveted Location](templates/ideal-apartment-coveted-location/) — [live preview](https://shotstack.io/studio/templates/ideal-apartment-coveted-location/)
+- [Inviting Apartment in a Prime Location](templates/inviting-apartment-prime-location-v2/) — [live preview](https://shotstack.io/studio/templates/inviting-apartment-prime-location-v2/)
+- [Live Smart in a Beautiful Modern Home](templates/live-smart-beautiful-modern-home-v2/) — [live preview](https://shotstack.io/studio/templates/live-smart-beautiful-modern-home-v2/)
+- [Luxury Home for Sale with Premium Features](templates/luxury-home-sale-premium-features-v2/) — [live preview](https://shotstack.io/studio/templates/luxury-home-sale-premium-features-v2/)
+- [Luxury Living - Spacious Home Rental](templates/luxury-living-spacious-home-rental/) — [live preview](https://shotstack.io/studio/templates/luxury-living-spacious-home-rental/)
+- [Modern House for Rent with Premium Amenities](templates/modern-house-rent-premium-amenitie/) — [live preview](https://shotstack.io/studio/templates/modern-house-rent-premium-amenitie/)
+- [Modern House for Rent with Premium Amenities](templates/modern-house-rent-premium-amenities-v2/) — [live preview](https://shotstack.io/studio/templates/modern-house-rent-premium-amenities-v2/)
+- [Modern Minimalist Home for Sale](templates/modern-minimalist-home-sale-v2/) — [live preview](https://shotstack.io/studio/templates/modern-minimalist-home-sale-v2/)
+- [Modern Real Estate Promotion Animated](templates/modern-real-estate-promotion-animated-video-template/) — [live preview](https://shotstack.io/studio/templates/modern-real-estate-promotion-animated-video-template/)
+- [Your Next Home Awaits - Rent with Ease](templates/next-home-awaits-listing/) — [live preview](https://shotstack.io/studio/templates/next-home-awaits-listing/)
+- [Open House Invitation for Luxury Real Estate](templates/open-house-invitation-luxury-real-estate-v2/) — [live preview](https://shotstack.io/studio/templates/open-house-invitation-luxury-real-estate-v2/)
+- [Premium Property Showcase](templates/premium-property-showcase-warner-spencer-v2/) — [live preview](https://shotstack.io/studio/templates/premium-property-showcase-warner-spencer-v2/)
+- [Professional Property Listing Template - Highlight Your Real Estate](templates/professional-property-listing-template/) — [live preview](https://shotstack.io/studio/templates/professional-property-listing-template/)
+- [Fresh Start - Property Listing Template](templates/property-for-sale-template-v2/) — [live preview](https://shotstack.io/studio/templates/property-for-sale-template-v2/)
+- [Property Listing Template - Make Your Real Estate Stand Out](templates/property-listing-template/) — [live preview](https://shotstack.io/studio/templates/property-listing-template/)
+- [Ready to Move-In Modern Living](templates/ready-to-move-in-modern-living-v2/) — [live preview](https://shotstack.io/studio/templates/ready-to-move-in-modern-living-v2/)
+- [Real Estate Property Teaser Video](templates/real-estate-listing-2/) — [live preview](https://shotstack.io/studio/templates/real-estate-listing-2/)
+- [Real Estate Agent Property Highlight Video](templates/real-estate-listing-3/) — [live preview](https://shotstack.io/studio/templates/real-estate-listing-3/)
+- [Real Estate Slideshow with Overlays](templates/real-estate-slideshow-sd-overlays-merge-v2/) — [live preview](https://shotstack.io/studio/templates/real-estate-slideshow-sd-overlays-merge-v2/)
+- [Serene Living with Sunset Views](templates/serene-living-sunset-views-v2/) — [live preview](https://shotstack.io/studio/templates/serene-living-sunset-views-v2/)
+- [Sleek Minimalist Home for Sale](templates/sleek-minimalist-home-sale-v2/) — [live preview](https://shotstack.io/studio/templates/sleek-minimalist-home-sale-v2/)
+- [Spacious Home for Rent with Modern Amenities](templates/spacious-home-rent-modern-amenities/) — [live preview](https://shotstack.io/studio/templates/spacious-home-rent-modern-amenities/)
+- [Stylish Home for Sale with Great Offer](templates/stylish-home-sale-great-offer-v2/) — [live preview](https://shotstack.io/studio/templates/stylish-home-sale-great-offer-v2/)
+- [Stylish Real Estate Reel](templates/stylish-real-estate-reel-template-v2/) — [live preview](https://shotstack.io/studio/templates/stylish-real-estate-reel-template-v2/)
+- [Sunlit Serenity - A 2-Bedroom Dream Home](templates/sunlit-serenity-2-bedroom-dream-home-v2/) — [live preview](https://shotstack.io/studio/templates/sunlit-serenity-2-bedroom-dream-home-v2/)
+- [Urban Oasis: Modern Home with Furnishings](templates/urban-oasis-furnished-home-v2/) — [live preview](https://shotstack.io/studio/templates/urban-oasis-furnished-home-v2/)
+
+### Memories
+
+- [Adventure Awaits Nature Retreat & Travel Sale Template](templates/adventure-awaits-nature-retreat-travel-sale-template-v2/) — [live preview](https://shotstack.io/studio/templates/adventure-awaits-nature-retreat-travel-sale-template-v2/)
+- [Artistic Holiday & Cultural Event Story Template](templates/art-holiday-cultural-event-story-template/) — [live preview](https://shotstack.io/studio/templates/art-holiday-cultural-event-story-template/)
+- [Autumn Holiday Moments & Memories Template](templates/autumn-holiday-memories-photo-story-template/) — [live preview](https://shotstack.io/studio/templates/autumn-holiday-memories-photo-story-template/)
+- [Beach Holiday Video Collage template](templates/beach-holiday-video-collage-promo-template/) — [live preview](https://shotstack.io/studio/templates/beach-holiday-video-collage-promo-template/)
+- [Cozy Camping Holiday Promotion Template](templates/cozy-camping-holiday-sale-template-offer/) — [live preview](https://shotstack.io/studio/templates/cozy-camping-holiday-sale-template-offer/)
+- [Family Beach Vacation Getaway Offer](templates/family-beach-vacation-getaway-offer-template/) — [live preview](https://shotstack.io/studio/templates/family-beach-vacation-getaway-offer-template/)
+- [ Family Moments Collage Seasonal & Event Promotion Template](templates/family-moments-promo-collage-template-seasonal-offer/) — [live preview](https://shotstack.io/studio/templates/family-moments-promo-collage-template-seasonal-offer/)
+- [ Family Moments Collage Seasonal & Event Promotion Template](templates/family-moments-promo-collage-template-seasonal-offer-v2/) — [live preview](https://shotstack.io/studio/templates/family-moments-promo-collage-template-seasonal-offer-v2/)
+- [Family Spring Holiday Promotion](templates/family-spring-holiday-promotion-template/) — [live preview](https://shotstack.io/studio/templates/family-spring-holiday-promotion-template/)
+- [ Holiday Love Story Template](templates/holiday-love-story-template-romantic-memories-video-v2/) — [live preview](https://shotstack.io/studio/templates/holiday-love-story-template-romantic-memories-video-v2/)
+- [Holiday Promotional Reel Template](templates/holiday-promo-reel-template/) — [live preview](https://shotstack.io/studio/templates/holiday-promo-reel-template/)
+- [Holiday Recap Promotional Story Template](templates/holiday-recap-promo-story-template-sale-v2/) — [live preview](https://shotstack.io/studio/templates/holiday-recap-promo-story-template-sale-v2/)
+- [Holiday Recap & Memory Lane Template](templates/holiday-recap-template-memory-lane-year-in-review/) — [live preview](https://shotstack.io/studio/templates/holiday-recap-template-memory-lane-year-in-review/)
+- [Holiday Adventure Recap Story Template](templates/holiday-recap-video-story-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/holiday-recap-video-story-promo-template-v2/)
+- [Italy Holiday Vacation Promotional Template](templates/italy-holiday-vacation-package-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/italy-holiday-vacation-package-promo-template-v2/)
+- [Nature-Themed Promo Template](templates/nature-themed-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/nature-themed-promo-template-v2/)
+- [Photographic Vacation Promotion Template](templates/photographic-vacation-promo-template-sale-offer-v2/) — [live preview](https://shotstack.io/studio/templates/photographic-vacation-promo-template-sale-offer-v2/)
+- [Retro Summer Vacation Promo](templates/retro-summer-vacation-promo-template/) — [live preview](https://shotstack.io/studio/templates/retro-summer-vacation-promo-template/)
+- [ Romantic Escapes Couples Vacation Template](templates/romantic-escapes-couples-vacation-template-travel-promo/) — [live preview](https://shotstack.io/studio/templates/romantic-escapes-couples-vacation-template-travel-promo/)
+- [Seaside Moments Video Story Promo Template](templates/seaside-moments-video-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/seaside-moments-video-promo-template-v2/)
+- [Fresh Memories: Seasonal Holiday Recap & Story Template](templates/seasonal-holiday-recap-story-template/) — [live preview](https://shotstack.io/studio/templates/seasonal-holiday-recap-story-template/)
+- [Summer Break Vacation Story Template](templates/summer-break-vacation-promo-story-template/) — [live preview](https://shotstack.io/studio/templates/summer-break-vacation-promo-story-template/)
+- [Summer Holiday Recap & Review Template](templates/summer-holiday-recap-review-story-template-highlights-v2/) — [live preview](https://shotstack.io/studio/templates/summer-holiday-recap-review-story-template-highlights-v2/)
+- [Tropical Escape Seasonal Offer & Travel Promo Template](templates/tropical-escape-seasonal-offer-travel-promo-v2/) — [live preview](https://shotstack.io/studio/templates/tropical-escape-seasonal-offer-travel-promo-v2/)
+- [Tropical Escape: Vacation & Travel Offer Template](templates/vacation-getaway-travel-offer-template-v2/) — [live preview](https://shotstack.io/studio/templates/vacation-getaway-travel-offer-template-v2/)
+- [Vibrant Spring Holiday Promotion Template](templates/vibrant-spring-holiday-promotion-template-sale-offer-v2/) — [live preview](https://shotstack.io/studio/templates/vibrant-spring-holiday-promotion-template-sale-offer-v2/)
+- [Winter Break Promotional Collage Template](templates/winter-break-sale-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/winter-break-sale-promo-template-v2/)
+- [Winter Vacation Promotions Template](templates/winter-vacation-promotions-template-seasonal-offers-v2/) — [live preview](https://shotstack.io/studio/templates/winter-vacation-promotions-template-seasonal-offers-v2/)
+
+### News
+
+- [Agricultural News & Transport Update](templates/agricultural-news-transport-update-farm-logistics-trucks-v2/) — [live preview](https://shotstack.io/studio/templates/agricultural-news-transport-update-farm-logistics-trucks-v2/)
+- [AI Avatar News Summary](templates/ai-avatar-news-summary-v2/) — [live preview](https://shotstack.io/studio/templates/ai-avatar-news-summary-v2/)
+- [Breaking News Channel Template for Urgent Announcements](templates/breaking-news-channel-template-urgent-announcements-sales-v2/) — [live preview](https://shotstack.io/studio/templates/breaking-news-channel-template-urgent-announcements-sales-v2/)
+- [Breaking News Intro](templates/breaking-news-intro/) — [live preview](https://shotstack.io/studio/templates/breaking-news-intro/)
+- [Local News Intro with Overlay](templates/breaking-news-overlay-v2/) — [live preview](https://shotstack.io/studio/templates/breaking-news-overlay-v2/)
+- [Breaking News - Road Reconstruction Update](templates/breaking-news-road-reconstruction-update-template-v2/) — [live preview](https://shotstack.io/studio/templates/breaking-news-road-reconstruction-update-template-v2/)
+- [News Story Summary with Border](templates/breaking-news-summary-v2/) — [live preview](https://shotstack.io/studio/templates/breaking-news-summary-v2/)
+- [Breaking News & Updates Template](templates/breaking-news-updates-template-marketing-campaign-v2/) — [live preview](https://shotstack.io/studio/templates/breaking-news-updates-template-marketing-campaign-v2/)
+- [Business Performance Comparison - Revenue vs. Net Profit](templates/business-performance-comparison/) — [live preview](https://shotstack.io/studio/templates/business-performance-comparison/)
+- [News Promo - Drive Sales & Announce Offers!](templates/dynamic-news-promotions-template-sale-offer-event-v2/) — [live preview](https://shotstack.io/studio/templates/dynamic-news-promotions-template-sale-offer-event-v2/)
+- [Dynamic News & Promotions Template](templates/dynamic-news-promotions-template-sales-offers-events/) — [live preview](https://shotstack.io/studio/templates/dynamic-news-promotions-template-sales-offers-events/)
+- [Forest Fire News Alert](templates/forest-fire-news-alert-template-urgent-breaking-news/) — [live preview](https://shotstack.io/studio/templates/forest-fire-news-alert-template-urgent-breaking-news/)
+- [Global Cooperation News Update Template](templates/global-cooperation-news-update-template-sales-promo-v2/) — [live preview](https://shotstack.io/studio/templates/global-cooperation-news-update-template-sales-promo-v2/)
+- [Government Policy Review News Template](templates/government-policy-review-news-template-updates-analysis-v2/) — [live preview](https://shotstack.io/studio/templates/government-policy-review-news-template-updates-analysis-v2/)
+- [Live News Promotional Announcement Template](templates/live-news-promo-announcement-template-sale-offer-v2/) — [live preview](https://shotstack.io/studio/templates/live-news-promo-announcement-template-sale-offer-v2/)
+- [News Update Template](templates/news-update-template-broadcast-breaking-news-live-v2/) — [live preview](https://shotstack.io/studio/templates/news-update-template-broadcast-breaking-news-live-v2/)
+- [Elegant News Template](templates/news-updates-template-breaking-local-global-headlines-v2/) — [live preview](https://shotstack.io/studio/templates/news-updates-template-breaking-local-global-headlines-v2/)
+- [Tech Unveiling: Breaking News Template](templates/tech-unveiling-breaking-news-template-new-product-launch-v2/) — [live preview](https://shotstack.io/studio/templates/tech-unveiling-breaking-news-template-new-product-launch-v2/)
+- [TechTalks Live Event Template](templates/techtalks-live-event-promo-template-speaker-offer-v2/) — [live preview](https://shotstack.io/studio/templates/techtalks-live-event-promo-template-speaker-offer-v2/)
+- [Top Story: Headline & Impact Template](templates/top-story-headline-impact-template-breaking-news-major-announcement-v2/) — [live preview](https://shotstack.io/studio/templates/top-story-headline-impact-template-breaking-news-major-announcement-v2/)
+- [Weather Alert & Special Offer Template](templates/weather-alert-special-offer-template-news-promo/) — [live preview](https://shotstack.io/studio/templates/weather-alert-special-offer-template-news-promo/)
+
+### Social Media
+
+- [AI Bedtime Story TikTok Video](templates/automated-tiktok-video-bedtime-story/) — [live preview](https://shotstack.io/studio/templates/automated-tiktok-video-bedtime-story/)
+- [AI Historical Facts TikTok Video](templates/automated-tiktok-video-historical-facts/) — [live preview](https://shotstack.io/studio/templates/automated-tiktok-video-historical-facts/)
+- [AI Scary Story TikTok Story Video](templates/automated-tiktok-video-scary-story/) — [live preview](https://shotstack.io/studio/templates/automated-tiktok-video-scary-story/)
+- [AI Science Facts TikTok Video](templates/automated-tiktok-video-science-facts/) — [live preview](https://shotstack.io/studio/templates/automated-tiktok-video-science-facts/)
+- [Engaging Social Media Video Template - Capture Your Story](templates/social-media-video-template/) — [live preview](https://shotstack.io/studio/templates/social-media-video-template/)
+
+### Travel
+
+- [Adventure Awaits Travel Promotion Template](templates/adventure-travel-promotion-campaign-template/) — [live preview](https://shotstack.io/studio/templates/adventure-travel-promotion-campaign-template/)
+- [Adventure Tour & Travel Sale Promo](templates/adventure-travel-tour-sale-promo-v2/) — [live preview](https://shotstack.io/studio/templates/adventure-travel-tour-sale-promo-v2/)
+- [Explore Asia 2025 Exclusive Travel Deals & Offers Template](templates/asia-travel-deals-2025-promo-template-offers/) — [live preview](https://shotstack.io/studio/templates/asia-travel-deals-2025-promo-template-offers/)
+- [Australian Getaway: Dynamic Travel Promotion Template](templates/australia-travel-promotion-vacation-offer-template/) — [live preview](https://shotstack.io/studio/templates/australia-travel-promotion-vacation-offer-template/)
+- [Celebrate Canada: Your Go-To Promotional Event Template](templates/canadian-event-promo-template-sale-offer-v2/) — [live preview](https://shotstack.io/studio/templates/canadian-event-promo-template-sale-offer-v2/)
+- [Nightscape Deals: City Lights Promotional Campaign](templates/city-escape-promo-night-deals-event-template-v2/) — [live preview](https://shotstack.io/studio/templates/city-escape-promo-night-deals-event-template-v2/)
+- [Coastal Escape Getaway: Exclusive Tour & Travel Offer](templates/coastal-getaway-travel-deal-promo-template/) — [live preview](https://shotstack.io/studio/templates/coastal-getaway-travel-deal-promo-template/)
+- [Romantic Getaway & Couples Vacation Deal Template](templates/couples-vacation-deal-romantic-getaway-template-v2/) — [live preview](https://shotstack.io/studio/templates/couples-vacation-deal-romantic-getaway-template-v2/)
+- [Cultural Fiesta Travel Promotion Template](templates/cultural-travel-promotion-offer-template/) — [live preview](https://shotstack.io/studio/templates/cultural-travel-promotion-offer-template/)
+- [Cultural Journey Travel Promotion Template](templates/cultural-travel-promotion-template-design-offer/) — [live preview](https://shotstack.io/studio/templates/cultural-travel-promotion-template-design-offer/)
+- [Board the Dream Promotional Offer Template](templates/dream-vacation-promo-template-sail-offer/) — [live preview](https://shotstack.io/studio/templates/dream-vacation-promo-template-sail-offer/)
+- [Egyptian Cultural Journey: Exclusive Travel Offer Template](templates/egypt-travel-deal-cultural-tour-offer/) — [live preview](https://shotstack.io/studio/templates/egypt-travel-deal-cultural-tour-offer/)
+- [Elegant Dining & Seasonal Offer Promotion Template](templates/elegant-dining-offer-event-template-v2/) — [live preview](https://shotstack.io/studio/templates/elegant-dining-offer-event-template-v2/)
+- [Epic Journey Travel Promotion Template](templates/epic-journey-travel-offer-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/epic-journey-travel-offer-promo-template-v2/)
+- [Urban Pulse: Your Next Big Offer is Calling](templates/event-promo-sales-template-urban-offer-v2/) — [live preview](https://shotstack.io/studio/templates/event-promo-sales-template-urban-offer-v2/)
+- [Exclusive Dubai Vibe Luxury Offer & Event Template](templates/exclusive-dubai-luxury-offer-event-template-v2/) — [live preview](https://shotstack.io/studio/templates/exclusive-dubai-luxury-offer-event-template-v2/)
+- [Explore Germany Travel Promotion Template](templates/explore-germany-travel-promotion-template/) — [live preview](https://shotstack.io/studio/templates/explore-germany-travel-promotion-template/)
+- [Explore Russia Your Next Adventure Awaits](templates/explore-russia-travel-deal-tour-package-offer/) — [live preview](https://shotstack.io/studio/templates/explore-russia-travel-deal-tour-package-offer/)
+- [Extraordinary Travel & Event Promotion Template](templates/extraordinary-travel-event-promotion-template/) — [live preview](https://shotstack.io/studio/templates/extraordinary-travel-event-promotion-template/)
+- [Take Off with Our Exclusive Offer Your Next Journey Awaits!](templates/flight-deal-travel-promo-special-offer-template/) — [live preview](https://shotstack.io/studio/templates/flight-deal-travel-promo-special-offer-template/)
+- [Tropical Getaway Dream Holiday Offer Template](templates/holiday-offer-template-travel-promotion-getaway-v2/) — [live preview](https://shotstack.io/studio/templates/holiday-offer-template-travel-promotion-getaway-v2/)
+- [Hong Kong Adventure Awaits Travel Offer](templates/hong-kong-travel-offer-adventure-deal/) — [live preview](https://shotstack.io/studio/templates/hong-kong-travel-offer-adventure-deal/)
+- [Hotel Review Highlights](templates/hotel-review-slideshow/) — [live preview](https://shotstack.io/studio/templates/hotel-review-slideshow/)
+- [London Calling: Royal Event & Sale Promotion Template](templates/london-event-sale-promotion-template-uk-v2/) — [live preview](https://shotstack.io/studio/templates/london-event-sale-promotion-template-uk-v2/)
+- [Luxury Resort & Hotel Big Deal Offer Template](templates/luxury-resort-hotel-offer-template/) — [live preview](https://shotstack.io/studio/templates/luxury-resort-hotel-offer-template/)
+- [Luxury Travel Survey & Exclusive Journey Offer Template](templates/luxury-travel-offer-promo-survey-template-v2/) — [live preview](https://shotstack.io/studio/templates/luxury-travel-offer-promo-survey-template-v2/)
+- [National Holiday Travel & Sales Promotion Template](templates/national-holiday-sale-promo-travel-offer-v2/) — [live preview](https://shotstack.io/studio/templates/national-holiday-sale-promo-travel-offer-v2/)
+- [Premium Offer & Travel Specials Promotion Template](templates/premium-offer-travel-special-promotion-template-for-holidays/) — [live preview](https://shotstack.io/studio/templates/premium-offer-travel-special-promotion-template-for-holidays/)
+- [Elevate Your Promotions: The Ultimate Offer & Event Template](templates/promotional-offer-event-template-boost-sales/) — [live preview](https://shotstack.io/studio/templates/promotional-offer-event-template-boost-sales/)
+- [Safe Travel Booking Offer Template](templates/safe-travel-offer-booking-template-v2/) — [live preview](https://shotstack.io/studio/templates/safe-travel-offer-booking-template-v2/)
+- [Sky High Sales & Adventure Promo Template](templates/sky-high-sales-promo-event-template-v2/) — [live preview](https://shotstack.io/studio/templates/sky-high-sales-promo-event-template-v2/)
+- [Ready to Discover Promotions Template](templates/special-offer-event-template-discover-journey-v2/) — [live preview](https://shotstack.io/studio/templates/special-offer-event-template-discover-journey-v2/)
+- [Dynamic Wave Business Offer & Services Flyer Template](templates/special-offer-service-promotion-flyer-template/) — [live preview](https://shotstack.io/studio/templates/special-offer-service-promotion-flyer-template/)
+- [Timeless Escape Special Offer](templates/timeless-travel-offer-promotion-template-v2/) — [live preview](https://shotstack.io/studio/templates/timeless-travel-offer-promotion-template-v2/)
+- [Top 10 Tourism Listicle](templates/top-10-tourism-listicle-v2/) — [live preview](https://shotstack.io/studio/templates/top-10-tourism-listicle-v2/)
+- [Explore the World: Travel Promotion Template](templates/travel-agency-promotion-template-world-deals/) — [live preview](https://shotstack.io/studio/templates/travel-agency-promotion-template-world-deals/)
+- [Grand Travel Announcement & Offer Template](templates/travel-announcement-offer-promo-template/) — [live preview](https://shotstack.io/studio/templates/travel-announcement-offer-promo-template/)
+- [Modern Travel Deal Promotional Flyer Template](templates/travel-deal-flyer-template-sale-promotion-offer-v2/) — [live preview](https://shotstack.io/studio/templates/travel-deal-flyer-template-sale-promotion-offer-v2/)
+- [World Wonder Tour & Travel Promotion Template](templates/travel-deal-promo-template-tour-offer/) — [live preview](https://shotstack.io/studio/templates/travel-deal-promo-template-tour-offer/)
+- [Travel Diary Adventure Promotion Template](templates/travel-diary-adventure-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/travel-diary-adventure-promo-template-v2/)
+- [Travel Getaway Promotional Story Template](templates/travel-getaway-promo-story-template-offer-v2/) — [live preview](https://shotstack.io/studio/templates/travel-getaway-promo-story-template-offer-v2/)
+- [Airfly Travel: Promotional Offer Template](templates/travel-offer-template-airfly-flight-deals-promo-v2/) — [live preview](https://shotstack.io/studio/templates/travel-offer-template-airfly-flight-deals-promo-v2/)
+- [Vacation & Travel Deal Promotional Template](templates/travel-offer-vacation-promo-template-v2/) — [live preview](https://shotstack.io/studio/templates/travel-offer-vacation-promo-template-v2/)
+- [Dynamic Travel & Tour Offer Template](templates/travel-tour-offer-promo-template/) — [live preview](https://shotstack.io/studio/templates/travel-tour-offer-promo-template/)
+- [Tropical Escape Promotion & Sales Event Template](templates/tropical-escape-promo-sales-event-template-design/) — [live preview](https://shotstack.io/studio/templates/tropical-escape-promo-sales-event-template-design/)
+- [Viva España Travel Promotion Template](templates/viva-espana-travel-promotion-sales-template-v2/) — [live preview](https://shotstack.io/studio/templates/viva-espana-travel-promotion-sales-template-v2/)
+- [Winter Break Festive Holiday Promotion Template](templates/winter-holiday-sale-template-festive-promo-v2/) — [live preview](https://shotstack.io/studio/templates/winter-holiday-sale-template-festive-promo-v2/)
+
+### Other
+
+- [Hello World](templates/hello-world-title-video-v2/) — [live preview](https://shotstack.io/studio/templates/hello-world-title-video-v2/)
+- [Elegant Showcase: Modern Animated Story & Post Template](templates/modern-promo-template-elegant-sale-story/) — [live preview](https://shotstack.io/studio/templates/modern-promo-template-elegant-sale-story/)
+- [Music Video Template](templates/music-video-v2/) — [live preview](https://shotstack.io/studio/templates/music-video-v2/)
+- [Event Announcement Template - Promote Your Sports Match](templates/sports-event-promotion-template/) — [live preview](https://shotstack.io/studio/templates/sports-event-promotion-template/)
+- [Team Lineup Template - Showcase Your Players](templates/team-lineup-template-v2/) — [live preview](https://shotstack.io/studio/templates/team-lineup-template-v2/)
+- [Timeless Moments - Inspirational Quote Template](templates/timeless-moments-quote-template-v2/) — [live preview](https://shotstack.io/studio/templates/timeless-moments-quote-template-v2/)
+- [Unlock the Power of Your Mind - Motivational Template](templates/unlock-your-mind-motivation-v2/) — [live preview](https://shotstack.io/studio/templates/unlock-your-mind-motivation-v2/)
+- [Video Watermark](templates/video-watermark/) — [live preview](https://shotstack.io/studio/templates/video-watermark/)
+
+## License
+
+[PolyForm Shield 1.0.0](LICENSE) — © Shotstack Pty Ltd. The media assets the templates reference
+(hosted on `templates.shotstack.io`) remain the property of Shotstack Pty Ltd and may only be used
+with the Shotstack platform, per the [Terms of Service](https://shotstack.io/terms/).

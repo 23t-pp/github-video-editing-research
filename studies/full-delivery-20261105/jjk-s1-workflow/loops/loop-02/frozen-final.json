@@ -1,0 +1,68 @@
+{
+  "plan": "loops/loop-02/plan-final.json",
+  "planSha256": "3315495c88e17d9f36a0c5615bdb1196c8cfc3699112f4af675e1caca80b529a",
+  "allowedChunks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "newChunks": [
+    18,
+    19
+  ],
+  "codeHashes": {
+    "composition.py": "dccc4ba92466524048bb290bbce6e82db931c9dbadaafef7fe07b880ed141c9a",
+    "typefx.py": "7b42a17976b8ce27909ab5aac3982980394573c9111df64530b58995139c0ead",
+    "layoutfx.py": "8bb435a943c5bb8c508ac4b45e638ef6274d1bd90178aed8c51f6a11b1ff00ac",
+    "screenfx.py": "2547316b72884c43557005a42c94c0ffc49027fed94bec40cf490b9be44ab0ae",
+    "barlow-glyphs.json": "e934240f60d3b95279b8a35a68b93162c3b1c75083c303b1a533381a5c5c7cb1"
+  },
+  "chunkHtmlSha256": {
+    "0": "72a579d829bafadf0b99fbc424b5cbe9e9936d62c695f88c8b333254d069f6ca",
+    "1": "ac4fff3d809ba9e52fbddf30182252aa5aae0230a0c6d3a04abb2a291b5dd904",
+    "2": "e6231bc06d9b886b2579ffa8419bd4c9973726dc457b303e416f724312adadc7",
+    "3": "2bc36136dda03002df6dbacb541dd78af0532361a0072fc1511e414bc6d70eb3",
+    "4": "b9331012f6536c6688c4f3556a284d8ef6aa392aec6f3c29e11e4210f30fb162",
+    "5": "e70df0421b302ef1570b46e77f7918b63aa1eaf73cea2b75a6bf3095a515e9ef",
+    "6": "2329b9fa63a3152aae265f292c2aef5678410132eacbf8133302723792dfc532",
+    "7": "7a91c12da4e4b22444a7f219e7b4928262e4f336d7bdf6296304ad20dad2cc91",
+    "8": "29b80baf1397344718adcf0514e3b673570ad2519b1feab149f58ba6510123bb",
+    "9": "ae94703bbbaa114df7a40384b0d35cf4f22a4d086bbe4c93f4c7fc5f6d84f384",
+    "10": "bba507ca5eaf9c734c1e0f439212b782a8f39863b4eb96ea71f9f1ba937fa00d",
+    "11": "63803ab037b438f4176382390e61062ce31022525cb93d5d990f845485b34714",
+    "12": "4126c9aac00448b173b90f27d92a12d94edcd3b773dc659ea2e3c70712b05676",
+    "13": "26bbe27a40b1907d427bc9617f7515b7986dee4e0f867bf35d45e1b420dcc88b",
+    "14": "9fe502ba54d642877c42c29e886d8e3676200ba7a04d7949467c0ec083ddab31",
+    "15": "13db1de8a213847c382694670c9c17927aca1fc311981d1e98b392a02668e6b8",
+    "16": "115723635796c366f5dfdaf70d12c6ba1e63c002a44127db7f7bc941b3acbfc8",
+    "17": "10df85e7b13db01e5dc54d9825173a56a8631d823c6eacea8c6ecafbe51cfe8e",
+    "18": "0ff3f607cf8d070557bc4521a8cb420084f6eb2163ac38fa84fbd207d9fb4a9f",
+    "19": "e14085016bdc1011ae565b6fad8319e603d95e28f53b734a7654b8875e05b20f"
+  },
+  "middleMatchesAll18": true,
+  "alphaManifestSha256": "8e340e952d3b7d8e239fa9dadeea240f88b4f315a480e932b42de9520f5e3bbc",
+  "knownIssuesNotPassed": [
+    "eye axis and scale mismatch",
+    "empty dark upper torn strip",
+    "heavy initial leaf shade",
+    "STRIKE partially obscured by palm"
+  ],
+  "status": "complete L2 baseline, independent audit pending"
+}

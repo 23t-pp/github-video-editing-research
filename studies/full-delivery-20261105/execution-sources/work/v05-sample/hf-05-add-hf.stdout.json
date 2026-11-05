@@ -1,0 +1,45 @@
+{
+  "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_item",
+      "result": {
+        "ok": true,
+        "atomic": true,
+        "validateOnly": false,
+        "ripple": false,
+        "results": [
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "36499047-b396-4a48-a9a5-c7c64c23f5e7",
+              "itemId": "item_91cd53cc-ed92-4395-9018-dc5d6402b143",
+              "name": "V05六格卡片_成片.mp4",
+              "kind": "video",
+              "track": "track_565a9e5e-61a7-45fc-b49e-f974fef8eceb",
+              "startFrame": 0,
+              "durationInFrames": 108,
+              "srcInFrame": 0
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "54530415-0db6-44c3-b534-2a9c6953acde",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-f03d3d31",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_174d90bd0c324240",
+    "editorUrl": "http://localhost:5199/#/editor/0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "updatedAt": "2026-11-04T15:09:37.834Z"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "state": "pass",
+  "verifier": "orchestrator /root",
+  "time": "2026-11-05T20:22:18.859102+08:00",
+  "moviePlaybackVerified": true,
+  "hyperframesVerified": true,
+  "openchatcutVerified": true,
+  "noAuditoryClaim": true,
+  "auditoryListeningPerformed": false,
+  "movie": {
+    "url": "http://127.0.0.1:5351/咒力接力_一分钟.mp4",
+    "sha256": "90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d",
+    "actualPlaybackObservedSeconds": 0.242099,
+    "actualDuration": 60,
+    "readyState": 4,
+    "error": null,
+    "actualSeekSeconds": 54,
+    "actualSeekFrame": 1296
+  },
+  "hyperframes": {
+    "workingCopy": "work/jjk-s1-workflow/hf-studio-r4",
+    "url": "http://localhost:5352/#project/hf-studio-r4",
+    "actualDuration": 60,
+    "actualSeekSeconds": 26.083333333,
+    "sceneVisible": "STRIKE + full Chinese subtitle + source hand alpha",
+    "originalLayerInspectorTested": true,
+    "textEditBoundary": "curved SVG container editText=false; full wording/geometry editable in JSON and source; no creative changes made"
+  },
+  "openchatcut": {
+    "importedProjectId": "be8d1fea-8e60-4e84-9e6d-43c0b5051640",
+    "url": "http://127.0.0.1:5199/#/editor/be8d1fea-8e60-4e84-9e6d-43c0b5051640",
+    "mediaAssets": 85,
+    "missing": 0,
+    "sequences": [
+      {
+        "name": "HF完整效果",
+        "videoClips": 20,
+        "actualPlaybackFromSeconds": 26.58,
+        "actualPlaybackAdvanceObservedSeconds": 26.62,
+        "pausedObservedSeconds": 35.54
+      },
+      {
+        "name": "原生逐镜",
+        "videoClips": 59,
+        "textClips": 4,
+        "actualPlaybackFromSeconds": 0.45,
+        "actualPlaybackAdvanceObservedSeconds": 8.33,
+        "selected": "S001.mp4",
+        "sourceRangeInclusive": [
+          12,
+          24
+        ],
+        "speed": 1,
+        "scale": 1.6
+      }
+    ],
+    "finalVisibleSequence": "HF完整效果",
+    "finalVisibleSeconds": 26.08,
+    "clipEditsOrDraggingPerformed": false,
+    "initialPreviewWarmup": "initial checkerboard resolved after actual seek/play; final both timelines displayed actual media",
+    "localMusicModelNotice": "OCC local beat/music semantics model not installed; no install performed; existing master and precomputed edit unaffected"
+  },
+  "boundArtifacts": {
+    "咒力接力_一分钟.mp4": "90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d",
+    "hyperframes/edit.json": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+    "openchatcut/工程包最终回读.json": "9791a79af045c283ff8e9b7585f0fa8ae7a5e8429f375fd9efba4f2c138cfdf0",
+    "data/hyperframes-package-verification.json": "733381a5542d5fa7ca477237b042e19cec68773cf5465f36bf73dd7504b70de1",
+    "HyperFrames可编辑工程.zip": "f849b667e079542fee7a7ce5657f193a33d525c508fc1f1ea4ad44d81be30a71",
+    "openchatcut/咒力接力 · CURSED FLOW.ccproj": "d5e59043e75417f13383547d382ee98d7b9e065c657e515d3f7a6ff54e51d043",
+    "evidence/ui/正式成片实际播放.png": "4d70433e34d0d53f2c80fdedb9e9758557481096b5757f5bf2798a695f48a8ac",
+    "evidence/ui/HyperFrames独立工作副本.png": "92ba4f63fa7d525467fe19b04a03bfbb864f8d21a878b43eec2fdf092bc53639",
+    "evidence/ui/HyperFrames工程界面验收.json": "7d11e0176a521097c75dbb94eab88a57a2cfc56a537a101e1ccf2f17cbd6c03d",
+    "evidence/ui/HyperFrames工作副本校验.json": "51a30107422ce3caa1c9017412ed226b64f269e780c86e8b97333675f313f24a",
+    "evidence/ui/OpenChatCut完整效果播放.png": "56ac2257beb1a152765185431b7351e91d0bcdfe93e1d7bef7d9c14a2afbb79b",
+    "evidence/ui/OpenChatCut原生镜头属性.png": "c4ae45f91b6d500aa7dfe3416ea0f3285104a326a22466388374b419e685612c",
+    "evidence/ui/OpenChatCut最终效果展示.png": "0e6c393757c9abe6bb4867672b2daee0c96343efb714b1f6112b66b669f9313f"
+  },
+  "scope": "Actual UI launch, playback advancement, seeking, layer/clip inspector and media display; official package/media bytes verified separately. No claim of auditory listening, native OCC decomposition of HF graphics or graphical editing of every SVG path."
+}

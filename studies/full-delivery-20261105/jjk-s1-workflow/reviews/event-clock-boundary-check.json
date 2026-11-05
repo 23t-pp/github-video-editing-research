@@ -1,0 +1,255 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "reviewedAt": "2026-11-05T19:55:38+08:00",
+  "status": "pass_with_explicit_context_clarification",
+  "boundArtifacts": {
+    "loops/loop-04/plan.json": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+    "data/final-event-index.json": "0b6245de4b8526e9f3ed793daf12fcc0906451031fc475ef4aa4a8d24ab6a0e4"
+  },
+  "policy": "0-based, half-open intervals; touching endpoint has zero interior frames. A match-cut needs the outgoing-shot context to explain the last frame before a cut. Do not count that context as event interior or FX coverage.",
+  "rows": [
+    {
+      "eventId": "palm-match-a",
+      "eventRange": [
+        13,
+        31
+      ],
+      "shotId": "S001",
+      "assetId": "S001",
+      "actualShotRange": [
+        0,
+        13
+      ],
+      "contextOnly": true,
+      "role": "context_before_event",
+      "actualInsideRange": null,
+      "insideFrameCount": 0,
+      "preparedStartFrameOfShot": 12
+    },
+    {
+      "eventId": "palm-match-a",
+      "eventRange": [
+        13,
+        31
+      ],
+      "shotId": "S002",
+      "assetId": "S002",
+      "actualShotRange": [
+        13,
+        31
+      ],
+      "contextOnly": false,
+      "role": "inside_event",
+      "actualInsideRange": [
+        13,
+        31
+      ],
+      "insideFrameCount": 18,
+      "preparedStartFrameOfShot": 12
+    },
+    {
+      "eventId": "palm-match-b",
+      "eventRange": [
+        31,
+        45
+      ],
+      "shotId": "S002",
+      "assetId": "S002",
+      "actualShotRange": [
+        13,
+        31
+      ],
+      "contextOnly": true,
+      "role": "context_before_event",
+      "actualInsideRange": null,
+      "insideFrameCount": 0,
+      "preparedStartFrameOfShot": 12
+    },
+    {
+      "eventId": "palm-match-b",
+      "eventRange": [
+        31,
+        45
+      ],
+      "shotId": "S003",
+      "assetId": "S003",
+      "actualShotRange": [
+        31,
+        45
+      ],
+      "contextOnly": false,
+      "role": "inside_event",
+      "actualInsideRange": [
+        31,
+        45
+      ],
+      "insideFrameCount": 14,
+      "preparedStartFrameOfShot": 12
+    },
+    {
+      "eventId": "clap-match",
+      "eventRange": [
+        1126,
+        1178
+      ],
+      "shotId": "S046",
+      "assetId": "S046",
+      "actualShotRange": [
+        1100,
+        1126
+      ],
+      "contextOnly": true,
+      "role": "context_before_event",
+      "actualInsideRange": null,
+      "insideFrameCount": 0,
+      "preparedStartFrameOfShot": 12
+    },
+    {
+      "eventId": "clap-match",
+      "eventRange": [
+        1126,
+        1178
+      ],
+      "shotId": "S047",
+      "assetId": "S047",
+      "actualShotRange": [
+        1126,
+        1152
+      ],
+      "contextOnly": false,
+      "role": "inside_event",
+      "actualInsideRange": [
+        1126,
+        1152
+      ],
+      "insideFrameCount": 26,
+      "preparedStartFrameOfShot": 12
+    },
+    {
+      "eventId": "clap-match",
+      "eventRange": [
+        1126,
+        1178
+      ],
+      "shotId": "S048",
+      "assetId": "S048",
+      "actualShotRange": [
+        1152,
+        1178
+      ],
+      "contextOnly": false,
+      "role": "inside_event",
+      "actualInsideRange": [
+        1152,
+        1178
+      ],
+      "insideFrameCount": 26,
+      "preparedStartFrameOfShot": 12
+    },
+    {
+      "eventId": "tail-action-release",
+      "eventRange": [
+        1282,
+        1360
+      ],
+      "shotId": "S052",
+      "assetId": "N052",
+      "actualShotRange": [
+        1256,
+        1282
+      ],
+      "contextOnly": true,
+      "role": "context_before_event",
+      "actualInsideRange": null,
+      "insideFrameCount": 0,
+      "preparedStartFrameOfShot": 12
+    },
+    {
+      "eventId": "tail-action-release",
+      "eventRange": [
+        1282,
+        1360
+      ],
+      "shotId": "S053",
+      "assetId": "N053",
+      "actualShotRange": [
+        1282,
+        1290
+      ],
+      "contextOnly": false,
+      "role": "inside_event",
+      "actualInsideRange": [
+        1282,
+        1290
+      ],
+      "insideFrameCount": 8,
+      "preparedStartFrameOfShot": 12
+    },
+    {
+      "eventId": "tail-action-release",
+      "eventRange": [
+        1282,
+        1360
+      ],
+      "shotId": "R4A01",
+      "assetId": "T062",
+      "actualShotRange": [
+        1290,
+        1312
+      ],
+      "contextOnly": false,
+      "role": "inside_event",
+      "actualInsideRange": [
+        1290,
+        1312
+      ],
+      "insideFrameCount": 22,
+      "preparedStartFrameOfShot": 0
+    },
+    {
+      "eventId": "tail-action-release",
+      "eventRange": [
+        1282,
+        1360
+      ],
+      "shotId": "R4A02",
+      "assetId": "T091",
+      "actualShotRange": [
+        1312,
+        1336
+      ],
+      "contextOnly": false,
+      "role": "inside_event",
+      "actualInsideRange": [
+        1312,
+        1336
+      ],
+      "insideFrameCount": 24,
+      "preparedStartFrameOfShot": 0
+    },
+    {
+      "eventId": "tail-action-release",
+      "eventRange": [
+        1282,
+        1360
+      ],
+      "shotId": "R4A03",
+      "assetId": "T007",
+      "actualShotRange": [
+        1336,
+        1360
+      ],
+      "contextOnly": false,
+      "role": "inside_event",
+      "actualInsideRange": [
+        1336,
+        1360
+      ],
+      "insideFrameCount": 24,
+      "preparedStartFrameOfShot": 0
+    }
+  ],
+  "contextOnlyCount": 4,
+  "correction": "clap-match的S048实际1152..1178，属于事件内部；S046的1100..1126才是前镜context。",
+  "frozenInputsModified": false
+}

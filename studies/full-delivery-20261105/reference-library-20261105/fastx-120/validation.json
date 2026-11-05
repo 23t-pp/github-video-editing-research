@@ -1,0 +1,584 @@
+{
+  "schema": "fastx-120/validation-v1",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "midi_tempo_128",
+      "passed": true,
+      "detail": "Parsed tempo: 128 BPM"
+    },
+    {
+      "name": "midi_256_quarters",
+      "passed": true,
+      "detail": "End tick 122880, PPQ 480, quarters 256"
+    },
+    {
+      "name": "midi_total_120_seconds",
+      "passed": true,
+      "detail": "Tempo-integrated end: 120s"
+    },
+    {
+      "name": "midi_notes_end_within_120",
+      "passed": true,
+      "detail": "Last note-off: 119.892578125s"
+    },
+    {
+      "name": "midi_note_pair_counts",
+      "passed": true,
+      "detail": "Note-on/off event counts match; this is not a full musical/sonic audit"
+    },
+    {
+      "name": "plan_73_slots",
+      "passed": true,
+      "detail": "73 slots"
+    },
+    {
+      "name": "plan_256_beats",
+      "passed": true,
+      "detail": "256 planned beats"
+    },
+    {
+      "name": "S01_continuous",
+      "passed": true,
+      "detail": "Frame 0, beat 0"
+    },
+    {
+      "name": "S02_continuous",
+      "passed": true,
+      "detail": "Frame 23, beat 2"
+    },
+    {
+      "name": "S03_continuous",
+      "passed": true,
+      "detail": "Frame 45, beat 4"
+    },
+    {
+      "name": "S04_continuous",
+      "passed": true,
+      "detail": "Frame 90, beat 8"
+    },
+    {
+      "name": "S05_continuous",
+      "passed": true,
+      "detail": "Frame 180, beat 16"
+    },
+    {
+      "name": "S06_continuous",
+      "passed": true,
+      "detail": "Frame 270, beat 24"
+    },
+    {
+      "name": "S07_continuous",
+      "passed": true,
+      "detail": "Frame 315, beat 28"
+    },
+    {
+      "name": "S08_continuous",
+      "passed": true,
+      "detail": "Frame 360, beat 32"
+    },
+    {
+      "name": "S09_continuous",
+      "passed": true,
+      "detail": "Frame 450, beat 40"
+    },
+    {
+      "name": "S10_continuous",
+      "passed": true,
+      "detail": "Frame 495, beat 44"
+    },
+    {
+      "name": "S11_continuous",
+      "passed": true,
+      "detail": "Frame 540, beat 48"
+    },
+    {
+      "name": "S12_continuous",
+      "passed": true,
+      "detail": "Frame 585, beat 52"
+    },
+    {
+      "name": "S13_continuous",
+      "passed": true,
+      "detail": "Frame 630, beat 56"
+    },
+    {
+      "name": "S14_continuous",
+      "passed": true,
+      "detail": "Frame 675, beat 60"
+    },
+    {
+      "name": "S15_continuous",
+      "passed": true,
+      "detail": "Frame 720, beat 64"
+    },
+    {
+      "name": "S16_continuous",
+      "passed": true,
+      "detail": "Frame 765, beat 68"
+    },
+    {
+      "name": "S17_continuous",
+      "passed": true,
+      "detail": "Frame 810, beat 72"
+    },
+    {
+      "name": "S18_continuous",
+      "passed": true,
+      "detail": "Frame 855, beat 76"
+    },
+    {
+      "name": "S19_continuous",
+      "passed": true,
+      "detail": "Frame 900, beat 80"
+    },
+    {
+      "name": "S20_continuous",
+      "passed": true,
+      "detail": "Frame 945, beat 84"
+    },
+    {
+      "name": "S21_continuous",
+      "passed": true,
+      "detail": "Frame 990, beat 88"
+    },
+    {
+      "name": "S22_continuous",
+      "passed": true,
+      "detail": "Frame 1035, beat 92"
+    },
+    {
+      "name": "S23_continuous",
+      "passed": true,
+      "detail": "Frame 1080, beat 96"
+    },
+    {
+      "name": "S24_continuous",
+      "passed": true,
+      "detail": "Frame 1125, beat 100"
+    },
+    {
+      "name": "S25_continuous",
+      "passed": true,
+      "detail": "Frame 1170, beat 104"
+    },
+    {
+      "name": "S26_continuous",
+      "passed": true,
+      "detail": "Frame 1260, beat 112"
+    },
+    {
+      "name": "S27_continuous",
+      "passed": true,
+      "detail": "Frame 1350, beat 120"
+    },
+    {
+      "name": "S28_continuous",
+      "passed": true,
+      "detail": "Frame 1440, beat 128"
+    },
+    {
+      "name": "S29_continuous",
+      "passed": true,
+      "detail": "Frame 1530, beat 136"
+    },
+    {
+      "name": "S30_continuous",
+      "passed": true,
+      "detail": "Frame 1620, beat 144"
+    },
+    {
+      "name": "S31_continuous",
+      "passed": true,
+      "detail": "Frame 1665, beat 148"
+    },
+    {
+      "name": "S32_continuous",
+      "passed": true,
+      "detail": "Frame 1710, beat 152"
+    },
+    {
+      "name": "S33_continuous",
+      "passed": true,
+      "detail": "Frame 1755, beat 156"
+    },
+    {
+      "name": "S34_continuous",
+      "passed": true,
+      "detail": "Frame 1800, beat 160"
+    },
+    {
+      "name": "S35_continuous",
+      "passed": true,
+      "detail": "Frame 1845, beat 164"
+    },
+    {
+      "name": "S36_continuous",
+      "passed": true,
+      "detail": "Frame 1890, beat 168"
+    },
+    {
+      "name": "S37_continuous",
+      "passed": true,
+      "detail": "Frame 1935, beat 172"
+    },
+    {
+      "name": "S38_continuous",
+      "passed": true,
+      "detail": "Frame 1980, beat 176"
+    },
+    {
+      "name": "S39_continuous",
+      "passed": true,
+      "detail": "Frame 1991, beat 177"
+    },
+    {
+      "name": "S40_continuous",
+      "passed": true,
+      "detail": "Frame 2003, beat 178"
+    },
+    {
+      "name": "S41_continuous",
+      "passed": true,
+      "detail": "Frame 2014, beat 179"
+    },
+    {
+      "name": "S42_continuous",
+      "passed": true,
+      "detail": "Frame 2025, beat 180"
+    },
+    {
+      "name": "S43_continuous",
+      "passed": true,
+      "detail": "Frame 2036, beat 181"
+    },
+    {
+      "name": "S44_continuous",
+      "passed": true,
+      "detail": "Frame 2048, beat 182"
+    },
+    {
+      "name": "S45_continuous",
+      "passed": true,
+      "detail": "Frame 2059, beat 183"
+    },
+    {
+      "name": "S46_continuous",
+      "passed": true,
+      "detail": "Frame 2070, beat 184"
+    },
+    {
+      "name": "S47_continuous",
+      "passed": true,
+      "detail": "Frame 2081, beat 185"
+    },
+    {
+      "name": "S48_continuous",
+      "passed": true,
+      "detail": "Frame 2093, beat 186"
+    },
+    {
+      "name": "S49_continuous",
+      "passed": true,
+      "detail": "Frame 2104, beat 187"
+    },
+    {
+      "name": "S50_continuous",
+      "passed": true,
+      "detail": "Frame 2115, beat 188"
+    },
+    {
+      "name": "S51_continuous",
+      "passed": true,
+      "detail": "Frame 2126, beat 189"
+    },
+    {
+      "name": "S52_continuous",
+      "passed": true,
+      "detail": "Frame 2138, beat 190"
+    },
+    {
+      "name": "S53_continuous",
+      "passed": true,
+      "detail": "Frame 2149, beat 191"
+    },
+    {
+      "name": "S54_continuous",
+      "passed": true,
+      "detail": "Frame 2160, beat 192"
+    },
+    {
+      "name": "S55_continuous",
+      "passed": true,
+      "detail": "Frame 2183, beat 194"
+    },
+    {
+      "name": "S56_continuous",
+      "passed": true,
+      "detail": "Frame 2205, beat 196"
+    },
+    {
+      "name": "S57_continuous",
+      "passed": true,
+      "detail": "Frame 2228, beat 198"
+    },
+    {
+      "name": "S58_continuous",
+      "passed": true,
+      "detail": "Frame 2250, beat 200"
+    },
+    {
+      "name": "S59_continuous",
+      "passed": true,
+      "detail": "Frame 2273, beat 202"
+    },
+    {
+      "name": "S60_continuous",
+      "passed": true,
+      "detail": "Frame 2295, beat 204"
+    },
+    {
+      "name": "S61_continuous",
+      "passed": true,
+      "detail": "Frame 2318, beat 206"
+    },
+    {
+      "name": "S62_continuous",
+      "passed": true,
+      "detail": "Frame 2340, beat 208"
+    },
+    {
+      "name": "S63_continuous",
+      "passed": true,
+      "detail": "Frame 2385, beat 212"
+    },
+    {
+      "name": "S64_continuous",
+      "passed": true,
+      "detail": "Frame 2430, beat 216"
+    },
+    {
+      "name": "S65_continuous",
+      "passed": true,
+      "detail": "Frame 2475, beat 220"
+    },
+    {
+      "name": "S66_continuous",
+      "passed": true,
+      "detail": "Frame 2520, beat 224"
+    },
+    {
+      "name": "S67_continuous",
+      "passed": true,
+      "detail": "Frame 2565, beat 228"
+    },
+    {
+      "name": "S68_continuous",
+      "passed": true,
+      "detail": "Frame 2610, beat 232"
+    },
+    {
+      "name": "S69_continuous",
+      "passed": true,
+      "detail": "Frame 2655, beat 236"
+    },
+    {
+      "name": "S70_continuous",
+      "passed": true,
+      "detail": "Frame 2700, beat 240"
+    },
+    {
+      "name": "S71_continuous",
+      "passed": true,
+      "detail": "Frame 2723, beat 242"
+    },
+    {
+      "name": "S72_continuous",
+      "passed": true,
+      "detail": "Frame 2745, beat 244"
+    },
+    {
+      "name": "S73_continuous",
+      "passed": true,
+      "detail": "Frame 2790, beat 248"
+    },
+    {
+      "name": "timeline_exact_120",
+      "passed": true,
+      "detail": "2880 frames / 24fps = 120s"
+    },
+    {
+      "name": "all_section_boundaries_match",
+      "passed": true,
+      "detail": "All six MIDI tempo-integrated section boundaries equal 24fps plan boundaries"
+    },
+    {
+      "name": "music_design_matches",
+      "passed": true,
+      "detail": "Existing music-design agrees with MIDI and plan"
+    },
+    {
+      "name": "source_ids_no_legacy_paths",
+      "passed": true,
+      "detail": "Portable sourceId/sourceFilename only"
+    },
+    {
+      "name": "source_trims_still_unverified",
+      "passed": true,
+      "detail": "All 73 source trims remain null"
+    },
+    {
+      "name": "no_hardcoded_drive_paths",
+      "passed": true,
+      "detail": "No hardcoded drive-letter paths in public plan/build/CSV/README/scout index"
+    },
+    {
+      "name": "scout_uses_filenames",
+      "passed": true,
+      "detail": "30 scout entries use plain image filenames"
+    }
+  ],
+  "source_locator": {
+    "sourceId": "FASTX10",
+    "sourceFilename": "11 速度与激情10（2023）4K.mp4",
+    "private_path_included": false
+  },
+  "midi": {
+    "file": "128BPM_120秒_可编辑节奏.mid",
+    "sha256": "a622e97ae5a02d98357fe4141674b436c5e852a4af13d0ef553be3c28f142998",
+    "format": 0,
+    "trackCount": 1,
+    "division_ppq": 480,
+    "tempo_events": [
+      {
+        "tick": 0,
+        "microsecondsPerQuarter": 468750,
+        "track": 0
+      }
+    ],
+    "bpm_values": [
+      128
+    ],
+    "time_signatures": [
+      {
+        "tick": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "tracks": [
+      {
+        "track": 0,
+        "name": "",
+        "noteOn": 892,
+        "noteOff": 892,
+        "lastNoteOffTick": 122770,
+        "lastEventTick": 122880,
+        "endOfTrackTick": 122880
+      }
+    ],
+    "total_ticks": 122880,
+    "quarter_notes": 256,
+    "bars_at_4_4": 64,
+    "duration_seconds": 120,
+    "last_note_off_seconds": 119.892578125
+  },
+  "timeline": {
+    "slots": 73,
+    "beats": 256,
+    "fps": 24,
+    "total_frames": 2880,
+    "duration_seconds": 120,
+    "section_boundaries": [
+      {
+        "section": "A",
+        "beat_start": 0,
+        "beat_end": 16,
+        "start_frame": 0,
+        "end_frame_exclusive": 180,
+        "midi_start_tick": 0,
+        "midi_end_tick": 7680,
+        "midi_start_seconds": 0,
+        "midi_end_seconds": 7.5,
+        "timeline_start_seconds": 0,
+        "timeline_end_seconds": 7.5
+      },
+      {
+        "section": "B",
+        "beat_start": 16,
+        "beat_end": 48,
+        "start_frame": 180,
+        "end_frame_exclusive": 540,
+        "midi_start_tick": 7680,
+        "midi_end_tick": 23040,
+        "midi_start_seconds": 7.5,
+        "midi_end_seconds": 22.5,
+        "timeline_start_seconds": 7.5,
+        "timeline_end_seconds": 22.5
+      },
+      {
+        "section": "C",
+        "beat_start": 48,
+        "beat_end": 112,
+        "start_frame": 540,
+        "end_frame_exclusive": 1260,
+        "midi_start_tick": 23040,
+        "midi_end_tick": 53760,
+        "midi_start_seconds": 22.5,
+        "midi_end_seconds": 52.5,
+        "timeline_start_seconds": 22.5,
+        "timeline_end_seconds": 52.5
+      },
+      {
+        "section": "D",
+        "beat_start": 112,
+        "beat_end": 144,
+        "start_frame": 1260,
+        "end_frame_exclusive": 1620,
+        "midi_start_tick": 53760,
+        "midi_end_tick": 69120,
+        "midi_start_seconds": 52.5,
+        "midi_end_seconds": 67.5,
+        "timeline_start_seconds": 52.5,
+        "timeline_end_seconds": 67.5
+      },
+      {
+        "section": "E",
+        "beat_start": 144,
+        "beat_end": 240,
+        "start_frame": 1620,
+        "end_frame_exclusive": 2700,
+        "midi_start_tick": 69120,
+        "midi_end_tick": 115200,
+        "midi_start_seconds": 67.5,
+        "midi_end_seconds": 112.5,
+        "timeline_start_seconds": 67.5,
+        "timeline_end_seconds": 112.5
+      },
+      {
+        "section": "F",
+        "beat_start": 240,
+        "beat_end": 256,
+        "start_frame": 2700,
+        "end_frame_exclusive": 2880,
+        "midi_start_tick": 115200,
+        "midi_end_tick": 122880,
+        "midi_start_seconds": 112.5,
+        "midi_end_seconds": 120,
+        "timeline_start_seconds": 112.5,
+        "timeline_end_seconds": 120
+      }
+    ]
+  },
+  "audio_container_note": {
+    "reported_aac_container_duration_seconds": 120.021333,
+    "attribution": "既有ffprobe验收结果；本脚本未重测；AAC编码padding",
+    "timeline_duration_seconds": 120,
+    "changes_timeline_duration": false
+  },
+  "limitations": [
+    "MIDI解析核对tempo、ticks、音符结束和章节边界，不等于试听/最终混音验收",
+    "未验证73槽源入出点或连续可用片段",
+    "未渲染电影或修改图片"
+  ]
+}

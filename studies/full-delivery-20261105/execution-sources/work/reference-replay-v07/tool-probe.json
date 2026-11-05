@@ -1,0 +1,111 @@
+{
+  "checkedAt": "2026-11-05T03:51:50.936Z",
+  "scope": "Read-only tool/dependency audit plus synthetic FFmpeg null-output smoke tests; no installation/model download/user media processing",
+  "python": {
+    "executable": "C:/Users/PC/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "args": [
+      "-c",
+      "import sys,importlib.util,json,numpy,PIL\nnames=['cv2','numpy','scipy','PIL','torch','torchvision','onnxruntime','rembg','mediapipe','ultralytics','segment_anything','sam2','moviepy','imageio','skimage']\nprint(json.dumps({'executable':sys.executable,'version':sys.version,'numpy':numpy.__version__,'Pillow':PIL.__version__,'modules':{x:bool(importlib.util.find_spec(x)) for x in names}},indent=2))"
+    ],
+    "status": 0,
+    "stdout": "{\r\n  \"executable\": \"C:\\\\Users\\\\PC\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe\",\r\n  \"version\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\r\n  \"numpy\": \"2.3.5\",\r\n  \"Pillow\": \"13.0.0\",\r\n  \"modules\": {\r\n    \"cv2\": false,\r\n    \"numpy\": true,\r\n    \"scipy\": false,\r\n    \"PIL\": true,\r\n    \"torch\": false,\r\n    \"torchvision\": false,\r\n    \"onnxruntime\": false,\r\n    \"rembg\": false,\r\n    \"mediapipe\": false,\r\n    \"ultralytics\": false,\r\n    \"segment_anything\": false,\r\n    \"sam2\": false,\r\n    \"moviepy\": false,\r\n    \"imageio\": false,\r\n    \"skimage\": false\r\n  }\r\n}\r\n",
+    "stderr": ""
+  },
+  "ffmpeg": {
+    "version": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers\r",
+    "filterListExit": 0,
+    "present": {
+      "maskedmerge": true,
+      "maskedthreshold": true,
+      "maskfun": true,
+      "alphaextract": true,
+      "alphamerge": true,
+      "geq": true,
+      "gblur": true,
+      "dilation": true,
+      "erosion": true,
+      "threshold": true,
+      "lut": true,
+      "zoompan": true,
+      "perspective": true,
+      "displace": true,
+      "remap": true,
+      "minterpolate": true,
+      "vidstabdetect": true,
+      "vidstabtransform": true,
+      "chromakey": true,
+      "colorkey": true,
+      "xfade": true
+    },
+    "geqSmoke": {
+      "executable": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-f",
+        "lavfi",
+        "-i",
+        "color=s=64x64:r=25:d=0.12",
+        "-vf",
+        "format=gray,geq=lum='if(lt(X,32),255,0)'",
+        "-f",
+        "null",
+        "-"
+      ],
+      "status": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "maskSmoke": {
+      "executable": "C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe",
+      "args": [
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-f",
+        "lavfi",
+        "-i",
+        "color=red:s=64x64:r=25:d=0.12",
+        "-f",
+        "lavfi",
+        "-i",
+        "color=blue:s=64x64:r=25:d=0.12",
+        "-f",
+        "lavfi",
+        "-i",
+        "color=white:s=64x64:r=25:d=0.12",
+        "-filter_complex",
+        "[0:v][1:v][2:v]maskedmerge",
+        "-f",
+        "null",
+        "-"
+      ],
+      "status": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  },
+  "hyperframes": {
+    "defaultRemovalModel": "u2net_human_seg",
+    "modelPath": "C:/Users/PC/.cache/hyperframes/background-removal/models/u2net_human_seg.onnx",
+    "modelCached": false,
+    "nodePackages": {
+      "C:/Users/PC/Apps/hyperframes/package.json": {
+        "onnxruntime-node": null,
+        "@techstark/opencv-js": null,
+        "opencv4nodejs": null,
+        "sharp": "C:\\Users\\PC\\Apps\\hyperframes\\node_modules\\sharp\\dist\\index.cjs",
+        "@remotion/media": null
+      },
+      "C:/Users/PC/Desktop/OpenChatCut-main/package.json": {
+        "onnxruntime-node": "C:\\Users\\PC\\Desktop\\OpenChatCut-main\\node_modules\\onnxruntime-node\\dist\\index.js",
+        "@techstark/opencv-js": null,
+        "opencv4nodejs": null,
+        "sharp": "C:\\Users\\PC\\Desktop\\OpenChatCut-main\\node_modules\\sharp\\dist\\index.cjs",
+        "@remotion/media": null
+      }
+    }
+  },
+  "portableNode": "C:\\Users\\PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"
+}

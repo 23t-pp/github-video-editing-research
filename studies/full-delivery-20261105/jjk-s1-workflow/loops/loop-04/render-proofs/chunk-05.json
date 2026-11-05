@@ -1,0 +1,1209 @@
+{
+  "renderKey": "0ca5d06dcc2d02196143b6f1812ea5db4c16e3634b5cd8b0df2773cfbba01759",
+  "inputSpec": {
+    "htmlSha256": "e70df0421b302ef1570b46e77f7918b63aa1eaf73cea2b75a6bf3095a515e9ef",
+    "dependencies": {
+      "composition.py": "dccc4ba92466524048bb290bbce6e82db931c9dbadaafef7fe07b880ed141c9a",
+      "typefx.py": "9d8c98e7021a4bb2d54427a8192668046054eda5804b99bd235b351b238f9f32",
+      "barlow-glyphs.json": "e934240f60d3b95279b8a35a68b93162c3b1c75083c303b1a533381a5c5c7cb1",
+      "layoutfx.py": "8ad58d6be0cf24402572e644189ccb5b331edaf91b76b587ea4c35f1126c07d1",
+      "screenfx.py": "2547316b72884c43557005a42c94c0ffc49027fed94bec40cf490b9be44ab0ae",
+      "render.py": "135ba209d87df98d6dd0d7fb7196aac8a52f9c66ffb1e1629cf6c3148af81b9d",
+      "assets/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "assets/shots/S017.mp4": "1cfeb6f60c982f51926e78fb25874ffdb1f8fe7df38cba6ec914e0bf9ac197c6",
+      "assets/shots/S018.mp4": "39009ea6a8b9581ed0832a9e1a0c8a24eb1004384c056b16cfcf46bf263b0826",
+      "assets/shots/S019.mp4": "16490a9b29c7b29b2c956bb31023ec78d322e108fa30951578e6d00786662d44",
+      "assets/fonts/BarlowCondensed-ExtraBold.woff2": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+      "assets/fonts/cjk-heavy.ttc": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6"
+    },
+    "runtime": {
+      "nodeVersion": "v24.22.1",
+      "cliVersion": "0.8.216",
+      "cliEntrySha256": "e65ed25c36426b6e9ade59c4d20d92c5a78bd2a9f459ab3bfb461cdd2a1ef56f",
+      "chromeVersion": "156.0.8078.74",
+      "chromeExeSha256": "4132eb3e9c5b3978874eed48cb45c21debf343a0d383b6d2fb01a5fcf349ec65",
+      "ffmpegExeSha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+      "captureFlags": [
+        "--format",
+        "png-sequence",
+        "--workers",
+        "1",
+        "--low-memory-mode",
+        "--sdr",
+        "--experimental-fast-capture=false",
+        "--no-best-effort",
+        "--frames-cache-dir",
+        "off"
+      ],
+      "fps": 24,
+      "size": [
+        1920,
+        1080
+      ],
+      "color": "SDR PNG RGB full; encode BT709 tv",
+      "sourceExtraction": "trim source frame indices; scale bt709 tv to full; rgb24; native PNG; passthrough fps"
+    },
+    "neededSourceFrames": [
+      [
+        "S017",
+        12
+      ],
+      [
+        "S017",
+        13
+      ],
+      [
+        "S017",
+        14
+      ],
+      [
+        "S017",
+        15
+      ],
+      [
+        "S017",
+        16
+      ],
+      [
+        "S017",
+        17
+      ],
+      [
+        "S017",
+        18
+      ],
+      [
+        "S017",
+        19
+      ],
+      [
+        "S017",
+        20
+      ],
+      [
+        "S017",
+        21
+      ],
+      [
+        "S017",
+        22
+      ],
+      [
+        "S017",
+        23
+      ],
+      [
+        "S017",
+        24
+      ],
+      [
+        "S017",
+        25
+      ],
+      [
+        "S017",
+        26
+      ],
+      [
+        "S017",
+        27
+      ],
+      [
+        "S017",
+        28
+      ],
+      [
+        "S017",
+        29
+      ],
+      [
+        "S017",
+        30
+      ],
+      [
+        "S017",
+        31
+      ],
+      [
+        "S017",
+        32
+      ],
+      [
+        "S017",
+        33
+      ],
+      [
+        "S017",
+        34
+      ],
+      [
+        "S017",
+        35
+      ],
+      [
+        "S017",
+        36
+      ],
+      [
+        "S017",
+        37
+      ],
+      [
+        "S018",
+        12
+      ],
+      [
+        "S018",
+        13
+      ],
+      [
+        "S018",
+        14
+      ],
+      [
+        "S018",
+        15
+      ],
+      [
+        "S018",
+        16
+      ],
+      [
+        "S018",
+        17
+      ],
+      [
+        "S018",
+        18
+      ],
+      [
+        "S018",
+        19
+      ],
+      [
+        "S018",
+        20
+      ],
+      [
+        "S018",
+        21
+      ],
+      [
+        "S018",
+        22
+      ],
+      [
+        "S018",
+        23
+      ],
+      [
+        "S018",
+        24
+      ],
+      [
+        "S018",
+        25
+      ],
+      [
+        "S018",
+        26
+      ],
+      [
+        "S018",
+        27
+      ],
+      [
+        "S018",
+        28
+      ],
+      [
+        "S018",
+        29
+      ],
+      [
+        "S018",
+        30
+      ],
+      [
+        "S018",
+        31
+      ],
+      [
+        "S018",
+        32
+      ],
+      [
+        "S018",
+        33
+      ],
+      [
+        "S018",
+        34
+      ],
+      [
+        "S018",
+        35
+      ],
+      [
+        "S018",
+        36
+      ],
+      [
+        "S019",
+        12
+      ],
+      [
+        "S019",
+        13
+      ],
+      [
+        "S019",
+        14
+      ],
+      [
+        "S019",
+        15
+      ],
+      [
+        "S019",
+        16
+      ],
+      [
+        "S019",
+        17
+      ],
+      [
+        "S019",
+        18
+      ],
+      [
+        "S019",
+        19
+      ],
+      [
+        "S019",
+        20
+      ],
+      [
+        "S019",
+        21
+      ],
+      [
+        "S019",
+        22
+      ],
+      [
+        "S019",
+        23
+      ],
+      [
+        "S019",
+        24
+      ],
+      [
+        "S019",
+        25
+      ],
+      [
+        "S019",
+        26
+      ],
+      [
+        "S019",
+        27
+      ],
+      [
+        "S019",
+        28
+      ],
+      [
+        "S019",
+        29
+      ],
+      [
+        "S019",
+        30
+      ],
+      [
+        "S019",
+        31
+      ],
+      [
+        "S019",
+        32
+      ]
+    ],
+    "copiedAlpha": []
+  },
+  "actualRenderPayloadFiles": {
+    "pass-1/.hyperframes/history-id": "70a282df944b89e368ddbe9c94bcfd1aaf40d56c592c9a17fd6b6da18a343803",
+    "pass-1/.hyperframes/video-state.json": "1689548284ddec559cecf6d04b7193f5526ab4a7b8298db06b5aab1dab485bbb",
+    "pass-1/assets/fonts/BarlowCondensed-ExtraBold.woff2": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+    "pass-1/assets/fonts/cjk-heavy.ttc": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6",
+    "pass-1/assets/frames/S017-0012.png": "3c1373c9ca6773b3f13d8c11227b8ff1eccdf613321c2f094fced37b768fa18a",
+    "pass-1/assets/frames/S017-0013.png": "67cbd12b978a2d4710b264992fc2a69e28bb427fa76f4cca1a5e2d85c117f3c0",
+    "pass-1/assets/frames/S017-0014.png": "a289fe506470adc675b6b66fde9c4a747ebc237699f5246c985ab69b5389f183",
+    "pass-1/assets/frames/S017-0015.png": "6cf2f0dfa7c4fb82b57b8d034a3f98b49bfe64b3338ec7d4519269df9dc6ed4b",
+    "pass-1/assets/frames/S017-0016.png": "e9620a1fd7fd1721b8f879a87def5b6836230f647f12dfc44e4d600f624affca",
+    "pass-1/assets/frames/S017-0017.png": "859120073f6124644a05829843c36676d348b4deed48fd3636f062a4349546c9",
+    "pass-1/assets/frames/S017-0018.png": "62c152bbf050614a87d67210d5ca52450b5dc0c9df43ab2f26d4c12237d62e9b",
+    "pass-1/assets/frames/S017-0019.png": "263f8b14ae061cf6455952f272456863504e0e7a61a2e2fc3bc5cf9f8c13910c",
+    "pass-1/assets/frames/S017-0020.png": "46424dc434c2850d9adbee0107d7b0c4d90df9b0f5b652b85621157e726b1bd2",
+    "pass-1/assets/frames/S017-0021.png": "2013522ba963b43de2f97e9f821f09f58c3408fa7d65e85314ee4a56f03b06ae",
+    "pass-1/assets/frames/S017-0022.png": "174f30dc82bf1c5ebed2395be52f9e1f34da8e4d749cc4f74545a44be2e8d9ee",
+    "pass-1/assets/frames/S017-0023.png": "489cd567b000020ee8e661ee334598ce4d378e235eab8f32619c6c8be5389c4e",
+    "pass-1/assets/frames/S017-0024.png": "5b8c818d8e8850b8e527f6ce70349b288af17b8db700510ccf9bc9973c88b05d",
+    "pass-1/assets/frames/S017-0025.png": "25c2115f6fb7fe0db506a876cc5e42fe09163d9f127be27dd1fd273af191519f",
+    "pass-1/assets/frames/S017-0026.png": "c3410afa6ccb21a1f5e4334f6c7e2d07a25dc12897fd952f63bab308b3782c68",
+    "pass-1/assets/frames/S017-0027.png": "74eaf15149203f50d34d5c19a280abe3c72c7bdc2f5ed7138421c302c529467b",
+    "pass-1/assets/frames/S017-0028.png": "471400e1cbafa7a6fc4750f4e8eac3db1d05cf4261d568be8b2c5d9db1a9a310",
+    "pass-1/assets/frames/S017-0029.png": "2a9c6dda9c195f18773a16ff17a00e8a5d1c576e2d90d1d74938e52cf60136fb",
+    "pass-1/assets/frames/S017-0030.png": "c2059080b3567567b5faa0df5a3de0d6d8bb0832184924b8a838043bc9c9fef8",
+    "pass-1/assets/frames/S017-0031.png": "f5b4703d294bf9dda4d577297136bee8b6d615cffe156f2428f0fffdf1d488da",
+    "pass-1/assets/frames/S017-0032.png": "6ee2db9de954d1ea4eeeedc6a1c78874acadf279e35fb365a295f6ed3bea0b8b",
+    "pass-1/assets/frames/S017-0033.png": "1387b468beda659f928c17fe2c5cba261f49a8b21fd2be4030b56a1b675df0b0",
+    "pass-1/assets/frames/S017-0034.png": "2d203a49fa0fca9355aec1fc7f33d479c604eb80c1cf9c2ad5973e2737c38065",
+    "pass-1/assets/frames/S017-0035.png": "6cc7e25521a060cb6477ab919572de0e99e523a7fc517b1e419df0de4e74e63d",
+    "pass-1/assets/frames/S017-0036.png": "da5a6b5929161fe4ce2d0ce9eb46b8c8b75120db039f4871d41cb6e472ec2e9c",
+    "pass-1/assets/frames/S017-0037.png": "5f778c9b881c9f2a7897f34b30a5e8d71ebfe789dbf3b301c10264abbc45adbf",
+    "pass-1/assets/frames/S018-0012.png": "45f2da4ee50bcaf8d811ebe6f82918410063fd212b9aeb179e4e82cd35825715",
+    "pass-1/assets/frames/S018-0013.png": "369424cb24219b618ebc7d0610b6f955dcb012043636511a6d6668ce44117ba4",
+    "pass-1/assets/frames/S018-0014.png": "cf1cf40b0f928bc90443d42a86c03b1b193af86bafda76232a27a13ff3814dbb",
+    "pass-1/assets/frames/S018-0015.png": "6255f29b32dc8d67c0125232b7082b7658c48b4fd712595a379f6e7102e8f99d",
+    "pass-1/assets/frames/S018-0016.png": "1af3d079bae2c5b09d787d76afa898e1bc7c623b3cbb59709f60fa23521b90df",
+    "pass-1/assets/frames/S018-0017.png": "971236d5512361660badef81df2399a130296ad2527ef9195f6858b7e17d923d",
+    "pass-1/assets/frames/S018-0018.png": "2b8b6d32a6f88d3d046e6a5e8ae8db9da4da20636523e88c1eae39e730b99c76",
+    "pass-1/assets/frames/S018-0019.png": "c0dbbfdd401bbbf8140ddfbdbde8cc55ff5f0b77b7083c7491baafb2d816369c",
+    "pass-1/assets/frames/S018-0020.png": "9dc845db63d11b13c2a0580614b8b8a65c77bc9aedc03a204878d3e596ca5c36",
+    "pass-1/assets/frames/S018-0021.png": "cd43fde883d51ff401687c4193d4520740531d358aa408cc1f12dfe89d32cf5b",
+    "pass-1/assets/frames/S018-0022.png": "8248d905ba16709b960100bf64cd9843aaed28f51ff297e3816df64e20f7b384",
+    "pass-1/assets/frames/S018-0023.png": "b9cc6547457b13fb7b59c5915787e68f4618a6754e6715b994d026afcd7a56d9",
+    "pass-1/assets/frames/S018-0024.png": "0e91888e0a817d3ef37bb1d4db31d6954d3acf599c97f28529b93cf6ae9f8368",
+    "pass-1/assets/frames/S018-0025.png": "53203361934dd769b30585c02c7ce3e7b7d8ce326a4aa79e60fb5ffa865d101b",
+    "pass-1/assets/frames/S018-0026.png": "7c511d422f74ef607bf8a4d6b6054a19c00e0d082074cfc686bf0508d3c6cbea",
+    "pass-1/assets/frames/S018-0027.png": "1c15f0d399f1041814efeb7ab123b890b9847d60bda9ed7d5a42aebb46110a4a",
+    "pass-1/assets/frames/S018-0028.png": "efe47f1d735b4370425d5df1ae0c9f6ead645099e224485c6b743140e30106ca",
+    "pass-1/assets/frames/S018-0029.png": "7577ed33bf3624a3506d9e2ec15eb447f06368e13461d7cafb7333fba56fcab1",
+    "pass-1/assets/frames/S018-0030.png": "5654292818db4debe9327fa9a9130ef4fece93c38bddb704b9c6c9b70d0a6ca7",
+    "pass-1/assets/frames/S018-0031.png": "cf326f1545e996ba41235b7b4b0c649b801a4f5167a68d55a4963b53b81115ce",
+    "pass-1/assets/frames/S018-0032.png": "d22f458e8d655d5ee204485631987ad4b795321c4643a5ebb699a71dfc3bfcf9",
+    "pass-1/assets/frames/S018-0033.png": "56a9a61a9b63690a75e1fa1cb7808c6c1aac4759c08bd1404c5387b6c56a92e2",
+    "pass-1/assets/frames/S018-0034.png": "5de9c8ac1fa5eb142c67507563b61a112172b1991a4b435e6ce754893d205a01",
+    "pass-1/assets/frames/S018-0035.png": "7064aad73d00b668d4a0ee03e8ed299198b6ea169b16cdac2aef13ba8b31174c",
+    "pass-1/assets/frames/S018-0036.png": "ca23dc4e1d202ab7e9cf39f6f2f85622e72171d82fa5ca3bd9533e00dbef28d4",
+    "pass-1/assets/frames/S019-0012.png": "c7d3b898dacce36790c1ba10566ea05d07dc690c59eeb82578753fa7a42a723c",
+    "pass-1/assets/frames/S019-0013.png": "3a042722d59f0621f714c35a647be22a32a87dd424847dd92d48269ca8ff1618",
+    "pass-1/assets/frames/S019-0014.png": "5a79140dcf6161b10dfeb1b7adaa379a3dc3d32ca4399741a61964e2ffae4491",
+    "pass-1/assets/frames/S019-0015.png": "c6d9695b7676742f365acf48b60b26ae7da6953626e5bc101a41acd140b3189b",
+    "pass-1/assets/frames/S019-0016.png": "dcaa5ecf8a3d0a798ff8d4800ecd49a4ccfeafa5b215ec4659d28e82de35bbaf",
+    "pass-1/assets/frames/S019-0017.png": "9408469ab115d8d5b693d54c5c813a94315793ee9f9176d5d7d77079f2a028de",
+    "pass-1/assets/frames/S019-0018.png": "705e85f43d8adb073ac8fd792cfa11daae4cc2e0fe18b96b7784689b2f48d0bd",
+    "pass-1/assets/frames/S019-0019.png": "8d3a7131a1192be23724d688bf09d34d9440c3670e5931f7153e5c7865c67fa1",
+    "pass-1/assets/frames/S019-0020.png": "a6a9c25bcb18d1a47cb6689e392792ec58cc0600889cccc098da1adedad1c792",
+    "pass-1/assets/frames/S019-0021.png": "b99789e6237d69b670e7457ccf80d84187f140e15626c30e5727ef4ba50b277b",
+    "pass-1/assets/frames/S019-0022.png": "3dab20990d2577e177a8c3b66b6d4b91dc83953bfb74d44e392e701f1d9e6007",
+    "pass-1/assets/frames/S019-0023.png": "a8019835cb3c15c462105370d7216161fffd326ba43d18d922361cca80f94404",
+    "pass-1/assets/frames/S019-0024.png": "2a4ee16c4e37968b4273021f9f5dc40af0ad2436158662c7a4842162abf7a2e9",
+    "pass-1/assets/frames/S019-0025.png": "23f823fa6976cf83cf8b22551fa393e82ead4176916b3d41b3a48d0e258d5b88",
+    "pass-1/assets/frames/S019-0026.png": "234c2df1a5f6b29b80325a9db339bbf24fab47ba49af8db5ce08e4e3093e4529",
+    "pass-1/assets/frames/S019-0027.png": "f32ec856ed1b6096d978b8fe018a912193ac45947b934221ca336e03d8149af5",
+    "pass-1/assets/frames/S019-0028.png": "c92c026227e17be834b639bf1fd8a0baca01d61b921b37e72275a5e640a1f9e4",
+    "pass-1/assets/frames/S019-0029.png": "a8873b36674054022657ca2af47b50867fa757f510cd502e106bd9ac89820ed4",
+    "pass-1/assets/frames/S019-0030.png": "e9fd7d6343d01267919df0b79bfdcea8815d78d2ac8c70beb8a5bced3b83eed7",
+    "pass-1/assets/frames/S019-0031.png": "eea678c2965f37ea703fd670e890dd738b988c9096ff5621bb4111f405d9870a",
+    "pass-1/assets/frames/S019-0032.png": "9eb9a9f3ea9f0cc25e3e821a9c1a65e08ee28e265c78cfca4cebc419448974d7",
+    "pass-1/assets/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+    "pass-1/DESIGN.md": "fa2090b124ea6a496048912b69a7db9fdc54288e9596744109f53856929ffb73",
+    "pass-1/hyperframes.json": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+    "pass-1/index.html": "2ae6276264daa9849e0f8759d221100f2b6a6359168ae01868af3597c7ab3848"
+  },
+  "actualPayloadSha256": "02ff25a49a9df1592ad9ba653188ed273468cb4410e4a104d7f9949cf27a1c88",
+  "outputFrameSha256": {
+    "frame_000361.png": "adf76846e399b31a9d812686d21b6d0314c0de82d59b1e4dd477647994c7b88d",
+    "frame_000362.png": "0b15e12b88b77a2a4d2620370c33664f68e9f53d478c7b6fccaad6cb433e5853",
+    "frame_000363.png": "3d756b8d57f564dd07363a4a73b1a9fc43141cd161f11991c51d0367ca1e0c75",
+    "frame_000364.png": "68eac796b48c0cb6704712a10e4df72fdbb98ce5ad85b68edd35ef898b2012dc",
+    "frame_000365.png": "c6e2e73c4db77b99a3188601732f3b573a52a16e2f4a6fc25784d80e999f4ea1",
+    "frame_000366.png": "3d9ae7a9b22675d46a966c9ea76e2e62c9d23a15819c9f7085bbf1f92994f99d",
+    "frame_000367.png": "ea747799749387e33fb2c8b14560dcfc562d541c8cdea2b07a66c1f848ab1f0f",
+    "frame_000368.png": "64afc0c963f5d1487f49be4a27272798d48eeae2da2cc382a0a71a5cd3738d4e",
+    "frame_000369.png": "980b5747ac350a98108b49d82561ba192aff41fe091c2e9720c4ddbfbc241293",
+    "frame_000370.png": "3bad98e05a45325f9cf028c409674bd64a8b8583f190a85cafab6e12ccc92fef",
+    "frame_000371.png": "da544ce123d805fb0a524fd2fb337ccfd9f53e9d2afcbf2c5167f62ea2748d15",
+    "frame_000372.png": "acf5cf2ad09d4712fe88a1126062128bc5860f0c5f184c25f288befb9992920d",
+    "frame_000373.png": "423831c7b5bfd6634cb0ff4051d7894601f186fcc8630d16d0f397f40949d0c1",
+    "frame_000374.png": "4f9254e6a21dffe15c4cc3d09bd6ccb44d6d5e945d8e6317daf42573f123b0c0",
+    "frame_000375.png": "f41441327a7e13be2e8c7698173ad11536fac4fe8bea35fa47fc2d2fbdbfedd0",
+    "frame_000376.png": "a6c2a05a9af5df012bf1c6dfa064fc07a9f528a915308b214a8c1b98602db01b",
+    "frame_000377.png": "82698cdb3e8fa1596de8c676453e75f608ae690a9f6a5aedb0ab464096507254",
+    "frame_000378.png": "d7f4220bc61a7a1531d951e1986709c983accb3244c32cb5ec16616a89f7262b",
+    "frame_000379.png": "61c37e9cdcdc401f7679980df7cd141a653e30e2bf0a3c271231157b6f4deea6",
+    "frame_000380.png": "bf5708999d5c626f830757e4d1c7fff1080d420d6b52ef6beda5b6cb8c19451d",
+    "frame_000381.png": "bc7388e4774b83c618e5d93cbaf5a7f97c887a992ec1ecd2e917557c46608d0b",
+    "frame_000382.png": "dadceb99d9a9fa89d989a45e4f32b1af96097403fe82710192f1037a4b923ce0",
+    "frame_000383.png": "5cb07b549856fd9b01fed39ba4f5dff2f4e86185e1fa30e366cecacf3648498a",
+    "frame_000384.png": "8d1cd43b29c64090ac9a066dfe82f6f2f61516f82cfd50ba877f49f9e24d0889",
+    "frame_000385.png": "e0e7b76e3fbda3abbf2bc4bfefdf90cb4f37f07741484c564c80fbff1a5b0cb5",
+    "frame_000386.png": "a545cdba0b93357cd4bf257efe30ff4a0af750fc9fbf558e1be9e49627586f3b",
+    "frame_000387.png": "c9a8dddcfaa384772e2353be229ada7d34f1b5b6312953f017d0d654f47563a4",
+    "frame_000388.png": "b8574cdb939478d23a6cdaeca14f5b3c101cea2e08189e3219aca512e57637aa",
+    "frame_000389.png": "a5b2661dc080878cda39ee094931509dd17ba764c0adaf74a32ea681a07d3b82",
+    "frame_000390.png": "76c11ae67b2236cb407c286cd79787b1d39da94e28bd9155603736566cf62c48",
+    "frame_000391.png": "aff86463cc5a2564c481d74ccebd7e52324a068b06b0af2a1919ff0168b1c6f9",
+    "frame_000392.png": "e2ff95cf82e69b4a7f2d50d767c549cbeebbc054c8b3304b277e3e871844859b",
+    "frame_000393.png": "8dcffe3980153a428434929e886a05aa40d64e6e7bfdf998eba67f1984923382",
+    "frame_000394.png": "80cbe8a1c2f780017438f3910646f07b4ca4c99d71ccf9b1612233ba3fcd1459",
+    "frame_000395.png": "613d98a57708ed49c3b8110881f63bdc6e92459922216c1fe4da4adf49f0b6f1",
+    "frame_000396.png": "87f5419ad0f1671bf545698cd73fc2595804e07d288e0e852947fddef1badceb",
+    "frame_000397.png": "6919a45ea20bf0867d694498b46884601d44a12319b9b35116c424e0055c2fb0",
+    "frame_000398.png": "fbcf40d30b92bd477839ea5685b975d8b5a6f25d0e6dc71f397f395bbab739e9",
+    "frame_000399.png": "4618257c0061723339d978a799698e3035fc6204a8a874cea9058daad3555727",
+    "frame_000400.png": "9ec5ab13b39b5f3910a7720172bbb18c6b2e1959d01ba789396ef79576517e52",
+    "frame_000401.png": "7502cc3888bfeced4d4fdf242e07dfe162e809785e6ca9d03f595bc1f6222e57",
+    "frame_000402.png": "39a3b3fc4c750a8ddd189c8b2b182998cef6bff2ded340c0c6b2e3f777e832c1",
+    "frame_000403.png": "5d4a02c5fd2695ea3805ad1292230e76eb7e1c6892452c79cb7345b5ec6c1548",
+    "frame_000404.png": "7efc3407a55efadbbe6865dad5ca761daeebe6304085d4293587e1ce2eabe1b5",
+    "frame_000405.png": "e7823ca2150fdc49f7ca7632f2dbe1b7ed794556719e4eded5087a10cff44b46",
+    "frame_000406.png": "edc18bc91d3f2dba1ff97fdb31c874e2b88f3a93f89169f31d49d3ceb45582dc",
+    "frame_000407.png": "ab32bfeb3b16d4f1cfb004f53f7a214287b12ae8c5250fddc71d9d6a4e6c3262",
+    "frame_000408.png": "0e70cfd8e86cef8c862cc74e7cad93012fa5c49492d8ed50768b4906416dd8bd",
+    "frame_000409.png": "6fab03b9f7dc90885400c1159e5dc9601e2f3d6d0c82ca841e5f13c9244dd2be",
+    "frame_000410.png": "374528f61f9fd8e7f7e5dfffe4005d543d1f88741cea65b80be438a9436cbd04",
+    "frame_000411.png": "b3fc07a7b118bd3f10f9465edb11570e6df0f3a3bb110abe8f5f32da663e56c7",
+    "frame_000412.png": "4c24ae048dfa8798fd9a421815704c9e5bbb1f47cd8b04ba7de700a83a906fec",
+    "frame_000413.png": "8f9a9e8614fd75d360624165f943b8b8d1b3979b3f9d913734165d5e96001444",
+    "frame_000414.png": "db8481cd12f73fedda81839c45e5cf49fd4a930d3fc21500830edc48432171ec",
+    "frame_000415.png": "6970c1ef1f97678493278cd1be35ab74d09dbbe1f21abd8bc1a3558bf96381a6",
+    "frame_000416.png": "87c6732ae099bde12f9f2c1f35ce9d69b728d74d28a5677ab6eb4cb6344cb1ea",
+    "frame_000417.png": "9c0c812031243b7c6e34c84bd5aaa22be136132d1f20203802a00ec6942adb93",
+    "frame_000418.png": "a75cc84d19b45c6f8b41b9ac0b1d17848da08f7a3008b503c35a3f763961d3c7",
+    "frame_000419.png": "492d727028a7be34cae82e6211d8c77738d36829deded29dac93076864011710",
+    "frame_000420.png": "ac003376cf9b28e20249f5291e1c6c61ea49c34611cb387adad13266661389a5",
+    "frame_000421.png": "8bf04be3c565154fdcee90144bbbcb2d8e21c67dc2637313a621f43a7f095828",
+    "frame_000422.png": "ceac94a56fe90d9165f599b5d6967fc5d3850679ce015c10e60fdec4240af289",
+    "frame_000423.png": "3da9c204ffe7bba710f323d356efbeb8ba7794d719fbc12c6d5b84e8fb007641",
+    "frame_000424.png": "b474648901a9ab6b8dd71d0d38cc8e99538ea580f9e84d083023e4786e7b6466",
+    "frame_000425.png": "71b23ffc00e9b86051d2f476099399ec5e717169d33158b1176928b24454c96f",
+    "frame_000426.png": "a35a0e37832c5513eab007831c47dc431e383ec4473e3deb3b6ccb3d42455711",
+    "frame_000427.png": "720568bdb90da444d13896461ffda937e5a4c3046b6ccc30d108d38ed736bdbe",
+    "frame_000428.png": "2399b81a672beacaa1e8ab4b28075fe3c3a55ee5480896d43b0e4c57dcc8da6f",
+    "frame_000429.png": "efd029fda4c1af80788ca114a0739082559bc4aed47e0a32256a09931ae36803",
+    "frame_000430.png": "ea0af4dfc5d952051907d9ed4599c4ac0463b05adc6be8297106afdee2490d54",
+    "frame_000431.png": "bfd9ce16e1391bd0b9e8cf6bf99f7d3dce97e0702acdf32ed7b886b7df8d2e2b",
+    "frame_000432.png": "d9e72f2a05056acf9154a1c7d72663d0401a0a306a4fa91581e2e8b9eb26de55"
+  },
+  "segmentSha256": "beddcfd9030ea55a77b1d3255b812686223bb32acbfc7cbd23410ce6e74a1ea1",
+  "planSha256": "bfa95efb7cf9bb8614be575997fcd93f839956c32237e2b2ebc18a208f09f939",
+  "codeSha256": "f431deaef00e2f2c04da61c3be318e551a3f443122031bed249ca765997ca89f",
+  "executor": "/root/s1_render_execution",
+  "chunk": 5,
+  "first": 360,
+  "last": 432,
+  "reuseHistory": [
+    {
+      "oldRenderKey": "f9448e66b61fb9361d797e93226de38b104f17bf1388cd41193a2f0c33926196",
+      "oldInputSpec": {
+        "htmlSha256": "e70df0421b302ef1570b46e77f7918b63aa1eaf73cea2b75a6bf3095a515e9ef",
+        "dependencies": {
+          "composition.py": "dccc4ba92466524048bb290bbce6e82db931c9dbadaafef7fe07b880ed141c9a",
+          "typefx.py": "7b42a17976b8ce27909ab5aac3982980394573c9111df64530b58995139c0ead",
+          "barlow-glyphs.json": "e934240f60d3b95279b8a35a68b93162c3b1c75083c303b1a533381a5c5c7cb1",
+          "layoutfx.py": "8bb435a943c5bb8c508ac4b45e638ef6274d1bd90178aed8c51f6a11b1ff00ac",
+          "screenfx.py": "2547316b72884c43557005a42c94c0ffc49027fed94bec40cf490b9be44ab0ae",
+          "render.py": "1f979fa5f14a93975b49dee9a21cbf1109361c46a8aee24e194b51079bde4e6c",
+          "assets/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+          "assets/shots/S017.mp4": "1cfeb6f60c982f51926e78fb25874ffdb1f8fe7df38cba6ec914e0bf9ac197c6",
+          "assets/shots/S018.mp4": "39009ea6a8b9581ed0832a9e1a0c8a24eb1004384c056b16cfcf46bf263b0826",
+          "assets/shots/S019.mp4": "16490a9b29c7b29b2c956bb31023ec78d322e108fa30951578e6d00786662d44",
+          "assets/fonts/BarlowCondensed-ExtraBold.woff2": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+          "assets/fonts/cjk-heavy.ttc": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6"
+        },
+        "runtime": {
+          "nodeVersion": "v24.22.1",
+          "cliVersion": "0.8.216",
+          "cliEntrySha256": "e65ed25c36426b6e9ade59c4d20d92c5a78bd2a9f459ab3bfb461cdd2a1ef56f",
+          "chromeVersion": "156.0.8078.74",
+          "chromeExeSha256": "4132eb3e9c5b3978874eed48cb45c21debf343a0d383b6d2fb01a5fcf349ec65",
+          "ffmpegExeSha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+          "captureFlags": [
+            "--format",
+            "png-sequence",
+            "--workers",
+            "1",
+            "--low-memory-mode",
+            "--sdr",
+            "--experimental-fast-capture=false",
+            "--no-best-effort",
+            "--frames-cache-dir",
+            "off"
+          ],
+          "fps": 24,
+          "size": [
+            1920,
+            1080
+          ],
+          "color": "SDR PNG RGB full; encode BT709 tv",
+          "sourceExtraction": "trim source frame indices; scale bt709 tv to full; rgb24; native PNG; passthrough fps"
+        },
+        "neededSourceFrames": [
+          [
+            "S017",
+            12
+          ],
+          [
+            "S017",
+            13
+          ],
+          [
+            "S017",
+            14
+          ],
+          [
+            "S017",
+            15
+          ],
+          [
+            "S017",
+            16
+          ],
+          [
+            "S017",
+            17
+          ],
+          [
+            "S017",
+            18
+          ],
+          [
+            "S017",
+            19
+          ],
+          [
+            "S017",
+            20
+          ],
+          [
+            "S017",
+            21
+          ],
+          [
+            "S017",
+            22
+          ],
+          [
+            "S017",
+            23
+          ],
+          [
+            "S017",
+            24
+          ],
+          [
+            "S017",
+            25
+          ],
+          [
+            "S017",
+            26
+          ],
+          [
+            "S017",
+            27
+          ],
+          [
+            "S017",
+            28
+          ],
+          [
+            "S017",
+            29
+          ],
+          [
+            "S017",
+            30
+          ],
+          [
+            "S017",
+            31
+          ],
+          [
+            "S017",
+            32
+          ],
+          [
+            "S017",
+            33
+          ],
+          [
+            "S017",
+            34
+          ],
+          [
+            "S017",
+            35
+          ],
+          [
+            "S017",
+            36
+          ],
+          [
+            "S017",
+            37
+          ],
+          [
+            "S018",
+            12
+          ],
+          [
+            "S018",
+            13
+          ],
+          [
+            "S018",
+            14
+          ],
+          [
+            "S018",
+            15
+          ],
+          [
+            "S018",
+            16
+          ],
+          [
+            "S018",
+            17
+          ],
+          [
+            "S018",
+            18
+          ],
+          [
+            "S018",
+            19
+          ],
+          [
+            "S018",
+            20
+          ],
+          [
+            "S018",
+            21
+          ],
+          [
+            "S018",
+            22
+          ],
+          [
+            "S018",
+            23
+          ],
+          [
+            "S018",
+            24
+          ],
+          [
+            "S018",
+            25
+          ],
+          [
+            "S018",
+            26
+          ],
+          [
+            "S018",
+            27
+          ],
+          [
+            "S018",
+            28
+          ],
+          [
+            "S018",
+            29
+          ],
+          [
+            "S018",
+            30
+          ],
+          [
+            "S018",
+            31
+          ],
+          [
+            "S018",
+            32
+          ],
+          [
+            "S018",
+            33
+          ],
+          [
+            "S018",
+            34
+          ],
+          [
+            "S018",
+            35
+          ],
+          [
+            "S018",
+            36
+          ],
+          [
+            "S019",
+            12
+          ],
+          [
+            "S019",
+            13
+          ],
+          [
+            "S019",
+            14
+          ],
+          [
+            "S019",
+            15
+          ],
+          [
+            "S019",
+            16
+          ],
+          [
+            "S019",
+            17
+          ],
+          [
+            "S019",
+            18
+          ],
+          [
+            "S019",
+            19
+          ],
+          [
+            "S019",
+            20
+          ],
+          [
+            "S019",
+            21
+          ],
+          [
+            "S019",
+            22
+          ],
+          [
+            "S019",
+            23
+          ],
+          [
+            "S019",
+            24
+          ],
+          [
+            "S019",
+            25
+          ],
+          [
+            "S019",
+            26
+          ],
+          [
+            "S019",
+            27
+          ],
+          [
+            "S019",
+            28
+          ],
+          [
+            "S019",
+            29
+          ],
+          [
+            "S019",
+            30
+          ],
+          [
+            "S019",
+            31
+          ],
+          [
+            "S019",
+            32
+          ]
+        ],
+        "copiedAlpha": []
+      },
+      "newValidationPlanSha256": "a3d5e0168863d94ba9ba66a008894ad9f286c7e9c1dbca05fdf0f588bf884087",
+      "changedProducerFiles": {
+        "layoutfx.py": {
+          "old": "8bb435a943c5bb8c508ac4b45e638ef6274d1bd90178aed8c51f6a11b1ff00ac",
+          "new": "8ad58d6be0cf24402572e644189ccb5b331edaf91b76b587ea4c35f1126c07d1"
+        },
+        "typefx.py": {
+          "old": "7b42a17976b8ce27909ab5aac3982980394573c9111df64530b58995139c0ead",
+          "new": "9d8c98e7021a4bb2d54427a8192668046054eda5804b99bd235b351b238f9f32"
+        }
+      },
+      "actualPixelInputsByteEqual": true,
+      "allSourcePngReDecodedAndShaMatched": 72,
+      "preservedPreviousProof": "proof-history/f9448e66b61fb936-1793876702.json",
+      "validatedAtUnix": 1793876702.9712422,
+      "validator": "/root/s1_render_execution"
+    },
+    {
+      "oldRenderKey": "7a1d66bb0b3a195c2007b36a9ae74705955d6cc5b5422ef051a339bfb293e37c",
+      "oldInputSpec": {
+        "htmlSha256": "e70df0421b302ef1570b46e77f7918b63aa1eaf73cea2b75a6bf3095a515e9ef",
+        "dependencies": {
+          "composition.py": "dccc4ba92466524048bb290bbce6e82db931c9dbadaafef7fe07b880ed141c9a",
+          "typefx.py": "9d8c98e7021a4bb2d54427a8192668046054eda5804b99bd235b351b238f9f32",
+          "barlow-glyphs.json": "e934240f60d3b95279b8a35a68b93162c3b1c75083c303b1a533381a5c5c7cb1",
+          "layoutfx.py": "8ad58d6be0cf24402572e644189ccb5b331edaf91b76b587ea4c35f1126c07d1",
+          "screenfx.py": "2547316b72884c43557005a42c94c0ffc49027fed94bec40cf490b9be44ab0ae",
+          "render.py": "1f979fa5f14a93975b49dee9a21cbf1109361c46a8aee24e194b51079bde4e6c",
+          "assets/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+          "assets/shots/S017.mp4": "1cfeb6f60c982f51926e78fb25874ffdb1f8fe7df38cba6ec914e0bf9ac197c6",
+          "assets/shots/S018.mp4": "39009ea6a8b9581ed0832a9e1a0c8a24eb1004384c056b16cfcf46bf263b0826",
+          "assets/shots/S019.mp4": "16490a9b29c7b29b2c956bb31023ec78d322e108fa30951578e6d00786662d44",
+          "assets/fonts/BarlowCondensed-ExtraBold.woff2": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+          "assets/fonts/cjk-heavy.ttc": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6"
+        },
+        "runtime": {
+          "nodeVersion": "v24.22.1",
+          "cliVersion": "0.8.216",
+          "cliEntrySha256": "e65ed25c36426b6e9ade59c4d20d92c5a78bd2a9f459ab3bfb461cdd2a1ef56f",
+          "chromeVersion": "156.0.8078.74",
+          "chromeExeSha256": "4132eb3e9c5b3978874eed48cb45c21debf343a0d383b6d2fb01a5fcf349ec65",
+          "ffmpegExeSha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+          "captureFlags": [
+            "--format",
+            "png-sequence",
+            "--workers",
+            "1",
+            "--low-memory-mode",
+            "--sdr",
+            "--experimental-fast-capture=false",
+            "--no-best-effort",
+            "--frames-cache-dir",
+            "off"
+          ],
+          "fps": 24,
+          "size": [
+            1920,
+            1080
+          ],
+          "color": "SDR PNG RGB full; encode BT709 tv",
+          "sourceExtraction": "trim source frame indices; scale bt709 tv to full; rgb24; native PNG; passthrough fps"
+        },
+        "neededSourceFrames": [
+          [
+            "S017",
+            12
+          ],
+          [
+            "S017",
+            13
+          ],
+          [
+            "S017",
+            14
+          ],
+          [
+            "S017",
+            15
+          ],
+          [
+            "S017",
+            16
+          ],
+          [
+            "S017",
+            17
+          ],
+          [
+            "S017",
+            18
+          ],
+          [
+            "S017",
+            19
+          ],
+          [
+            "S017",
+            20
+          ],
+          [
+            "S017",
+            21
+          ],
+          [
+            "S017",
+            22
+          ],
+          [
+            "S017",
+            23
+          ],
+          [
+            "S017",
+            24
+          ],
+          [
+            "S017",
+            25
+          ],
+          [
+            "S017",
+            26
+          ],
+          [
+            "S017",
+            27
+          ],
+          [
+            "S017",
+            28
+          ],
+          [
+            "S017",
+            29
+          ],
+          [
+            "S017",
+            30
+          ],
+          [
+            "S017",
+            31
+          ],
+          [
+            "S017",
+            32
+          ],
+          [
+            "S017",
+            33
+          ],
+          [
+            "S017",
+            34
+          ],
+          [
+            "S017",
+            35
+          ],
+          [
+            "S017",
+            36
+          ],
+          [
+            "S017",
+            37
+          ],
+          [
+            "S018",
+            12
+          ],
+          [
+            "S018",
+            13
+          ],
+          [
+            "S018",
+            14
+          ],
+          [
+            "S018",
+            15
+          ],
+          [
+            "S018",
+            16
+          ],
+          [
+            "S018",
+            17
+          ],
+          [
+            "S018",
+            18
+          ],
+          [
+            "S018",
+            19
+          ],
+          [
+            "S018",
+            20
+          ],
+          [
+            "S018",
+            21
+          ],
+          [
+            "S018",
+            22
+          ],
+          [
+            "S018",
+            23
+          ],
+          [
+            "S018",
+            24
+          ],
+          [
+            "S018",
+            25
+          ],
+          [
+            "S018",
+            26
+          ],
+          [
+            "S018",
+            27
+          ],
+          [
+            "S018",
+            28
+          ],
+          [
+            "S018",
+            29
+          ],
+          [
+            "S018",
+            30
+          ],
+          [
+            "S018",
+            31
+          ],
+          [
+            "S018",
+            32
+          ],
+          [
+            "S018",
+            33
+          ],
+          [
+            "S018",
+            34
+          ],
+          [
+            "S018",
+            35
+          ],
+          [
+            "S018",
+            36
+          ],
+          [
+            "S019",
+            12
+          ],
+          [
+            "S019",
+            13
+          ],
+          [
+            "S019",
+            14
+          ],
+          [
+            "S019",
+            15
+          ],
+          [
+            "S019",
+            16
+          ],
+          [
+            "S019",
+            17
+          ],
+          [
+            "S019",
+            18
+          ],
+          [
+            "S019",
+            19
+          ],
+          [
+            "S019",
+            20
+          ],
+          [
+            "S019",
+            21
+          ],
+          [
+            "S019",
+            22
+          ],
+          [
+            "S019",
+            23
+          ],
+          [
+            "S019",
+            24
+          ],
+          [
+            "S019",
+            25
+          ],
+          [
+            "S019",
+            26
+          ],
+          [
+            "S019",
+            27
+          ],
+          [
+            "S019",
+            28
+          ],
+          [
+            "S019",
+            29
+          ],
+          [
+            "S019",
+            30
+          ],
+          [
+            "S019",
+            31
+          ],
+          [
+            "S019",
+            32
+          ]
+        ],
+        "copiedAlpha": []
+      },
+      "newValidationPlanSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+      "changedProducerFiles": {
+        "render.py": {
+          "old": "1f979fa5f14a93975b49dee9a21cbf1109361c46a8aee24e194b51079bde4e6c",
+          "new": "135ba209d87df98d6dd0d7fb7196aac8a52f9c66ffb1e1629cf6c3148af81b9d"
+        }
+      },
+      "actualPixelInputsByteEqual": true,
+      "allSourcePngReDecodedAndShaMatched": 72,
+      "preservedPreviousProof": "proof-history/7a1d66bb0b3a195c-1793879302.json",
+      "validatedAtUnix": 1793879302.3925085,
+      "validator": "/root/s1_render_execution"
+    }
+  ],
+  "currentValidationPlanSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e"
+}

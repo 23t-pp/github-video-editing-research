@@ -1,0 +1,40 @@
+{
+  "projectId": "5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "manage_timelines",
+      "result": {
+        "ok": true,
+        "created": [
+          {
+            "id": "tl_2dc001cf-933a-407a-afc3-c2f889b96180",
+            "name": "01 HF精确预览 · 15段可替换",
+            "width": 1920,
+            "height": 1080,
+            "ratio": "16:9",
+            "active": true,
+            "hidden": false,
+            "clips": 0,
+            "nestedInstances": 0,
+            "durationInFrames": 25
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "362fdb51-cba3-43ba-9666-167c287672a7",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-98fcb7a3",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_2d63f51425db46c3",
+    "editorUrl": "http://localhost:5199/#/editor/5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+    "updatedAt": "2026-11-05T06:39:21.637Z"
+  }
+}

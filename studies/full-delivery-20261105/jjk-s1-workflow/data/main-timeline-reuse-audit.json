@@ -1,0 +1,79 @@
+{
+  "videoClips": 57,
+  "uniqueCandidates": 48,
+  "overlapPairs": [
+    {
+      "first": "S005",
+      "second": "S026",
+      "candidateId": "S1C037",
+      "sourceOverlapSeconds": 0.9200000000000159,
+      "laterOutputOverlapEquivalentSeconds": 1.0000000000000173,
+      "classification": "main_timeline_overlap_needs_intent_or_replacement_review"
+    },
+    {
+      "first": "S007",
+      "second": "S037",
+      "candidateId": "S1C056",
+      "sourceOverlapSeconds": 0.9166660000000206,
+      "laterOutputOverlapEquivalentSeconds": 0.9166660000000206,
+      "classification": "main_timeline_overlap_needs_intent_or_replacement_review"
+    },
+    {
+      "first": "S014",
+      "second": "S049",
+      "candidateId": "S1C071",
+      "sourceOverlapSeconds": 1.0833339999999225,
+      "laterOutputOverlapEquivalentSeconds": 1.0833339999999225,
+      "classification": "main_timeline_overlap_needs_intent_or_replacement_review"
+    },
+    {
+      "first": "S002",
+      "second": "S052",
+      "candidateId": "S1C020",
+      "sourceOverlapSeconds": 0.75,
+      "laterOutputOverlapEquivalentSeconds": 0.75,
+      "classification": "main_timeline_overlap_needs_intent_or_replacement_review"
+    },
+    {
+      "first": "S022",
+      "second": "S053",
+      "candidateId": "S1C027",
+      "sourceOverlapSeconds": 1.0,
+      "laterOutputOverlapEquivalentSeconds": 1.0,
+      "classification": "main_timeline_overlap_needs_intent_or_replacement_review"
+    },
+    {
+      "first": "S008",
+      "second": "S054",
+      "candidateId": "S1C079",
+      "sourceOverlapSeconds": 0.9166659999999638,
+      "laterOutputOverlapEquivalentSeconds": 0.9166659999999638,
+      "classification": "main_timeline_overlap_needs_intent_or_replacement_review"
+    },
+    {
+      "first": "S031",
+      "second": "S056",
+      "candidateId": "S1C086",
+      "sourceOverlapSeconds": 1.0833340000000362,
+      "laterOutputOverlapEquivalentSeconds": 1.0833340000000362,
+      "classification": "main_timeline_overlap_needs_intent_or_replacement_review"
+    },
+    {
+      "first": "S036",
+      "second": "S057",
+      "candidateId": "S1C097",
+      "sourceOverlapSeconds": 1.0,
+      "laterOutputOverlapEquivalentSeconds": 1.0451505016722409,
+      "classification": "main_timeline_overlap_needs_intent_or_replacement_review"
+    },
+    {
+      "first": "S051",
+      "second": "S058",
+      "candidateId": "S1C075",
+      "sourceOverlapSeconds": 1.0,
+      "laterOutputOverlapEquivalentSeconds": 1.0,
+      "classification": "main_timeline_overlap_needs_intent_or_replacement_review"
+    }
+  ],
+  "note": "只算基础主线源区间重叠，没把同源七叶/屏幕/alpha有目的复用混入；源区间用取片请求范围，实际PTS指纹另见retrieved-assets"
+}

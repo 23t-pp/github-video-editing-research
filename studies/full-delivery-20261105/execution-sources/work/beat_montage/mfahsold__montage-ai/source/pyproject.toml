@@ -1,0 +1,99 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "montage-ai"
+dynamic = ["version"]  # Version from git commit hash at runtime
+description = "AI-powered automatic video montage creation"
+readme = "README.md"
+license = {text = "PolyForm Noncommercial 1.0.0"}
+# Temporary: pin to the active CI/runtime Python to avoid uv attempting resolution
+# for newer Python markers which can surface private-extra resolution failures
+# (see docs/DEPENDENCY_MANAGEMENT.md for long-term approach).
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+    # Core video stack
+    "moviepy>=2.2.1",
+    "Pillow>=10.0.0,<12.0",
+    "opencv-python-headless>=4.12.0.88",
+    # librosa removed: FFmpeg-first audio analysis
+    "numpy>=2.0.0,<3.0.0",
+    "scenedetect[opencv]>=0.6.7.1",
+    "tqdm>=4.67.1",
+    "requests>=2.32.5",
+    "jsonschema>=4.25.1",
+    # Timeline / tooling
+    "OpenTimelineIO>=0.18.1",
+    # System
+    "psutil>=7.1.3",
+    # Data validation
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+ai = [
+    "mediapipe>=0.10.0; python_version < '3.13' and platform_machine != 'aarch64'",    # Smart Reframing: face detection
+    "scipy>=1.10.0",        # Smart Reframing: path optimization
+    # librosa removed: incompatible with Python 3.12+ (numba/llvmlite chain).
+    # FFmpeg astats/tempo is the primary beat detection engine; librosa was optional fallback.
+    "color-matcher>=0.5.0", # Shot-to-shot color consistency
+]
+web = [
+    "Flask>=3.0.0",
+    "Werkzeug>=3.0.0",
+    "redis>=5.0.0",         # Job queue backend
+    "rq>=1.16.0",           # Background job processing
+    "msgpack>=1.0.0",       # Job serialization
+]
+test = [
+    "pytest>=8.0.0",
+    "pytest-flask>=1.3.0",
+    # web dependencies needed for testing Flask app
+    "Flask>=3.0.0",
+    "Werkzeug>=3.0.0",
+    "redis>=5.0.0",
+    "rq>=1.16.0",
+    "msgpack>=1.0.0",
+    # optional test dependencies
+    "openai>=1.55.0",
+    "PyYAML>=6.0",
+    "kubernetes>=29.0.0",
+]
+cloud = [
+    "soundfile>=0.12.0",    # Cloud job audio handling
+]
+
+# Private cloud extras (not included in `all`) — requires private index or manual installation
+
+all = [
+    # All optional dependencies for: pip install montage-ai[all]
+    "mediapipe>=0.10.0; python_version < '3.13' and platform_machine != 'aarch64'",
+    "scipy>=1.10.0",
+    "color-matcher>=0.5.0",
+    "Flask>=3.0.0",
+    "Werkzeug>=3.0.0",
+    "redis>=5.0.0",
+    "rq>=1.16.0",
+    "msgpack>=1.0.0",
+    "pytest>=8.0.0",
+    "pytest-flask>=1.3.0",
+    "soundfile>=0.12.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"montage_ai" = [
+    "styles/*.json",
+    "web_ui/templates/*.html",
+    "web_ui/static/**/*"
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "montage_ai._version.VERSION"}  # Fallback, actual version from GIT_COMMIT env

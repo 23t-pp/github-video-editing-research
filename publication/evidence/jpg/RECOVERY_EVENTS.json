@@ -1,0 +1,26 @@
+{
+  "state": "recovered",
+  "sourceModificationByPacker": false,
+  "events": [
+    {
+      "episode": "S1E01",
+      "failure": "Windows PermissionError replacing progress JSON while another reader briefly held it",
+      "resolution": "Added bounded atomic-replace retry; retained complete archive, reran full archive verification; PASS"
+    },
+    {
+      "episode": "S1E01",
+      "failure": "Metadata-set comparison detected newly introduced SQLite WAL/SHM reader coordination files in source directory",
+      "resolution": "Excluded volatile -wal/-shm/-journal from library metadata; source files untouched; reran full archive verification; PASS"
+    },
+    {
+      "episodes": [
+        "S1E02",
+        "S1E03",
+        "S1E04"
+      ],
+      "action": "Stopped only own old pack process 39056 and its worker processes 40292,39408,25400; restarted uncompleted partial archives with retry + immutable read + coordination-file exclusion",
+      "result": "All three now independently archive-verified PASS; complete source files unchanged"
+    }
+  ],
+  "recordedUnix": 1793886539.6225696
+}

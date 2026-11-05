@@ -1,0 +1,92 @@
+{
+  "projectId": "9f2a9af5-654d-4384-adfd-c7dc88b222a9",
+  "importedProjectId": "0ab946b8-8403-4b4e-9907-db57a4aad3e6",
+  "packageFilename": "挚友 · EDGE · 画面去重V3.ccproj",
+  "packageBytes": 320608648,
+  "packageSha256": "7e8bbad13d2e074e62ada3948d4a6135ff0b3c196cc99eded0db84f0c64b510e",
+  "packageFormat": "openchatcut-project@2",
+  "mediaAssets": 106,
+  "mediaAvailableAndByteVerified": 106,
+  "mediaMissing": [],
+  "observed": [
+    {
+      "role": "source",
+      "id": "9f2a9af5-654d-4384-adfd-c7dc88b222a9",
+      "assets": 106,
+      "sequences": [
+        {
+          "id": "tl_20f8778a-483a-4d10-a99d-341f2ffb273f",
+          "name": "02 原生逐镜 · 67镜 · edge",
+          "fps": 24,
+          "width": 1920,
+          "height": 1080,
+          "frames": 1440,
+          "seconds": 60,
+          "videoClips": 67,
+          "audioClips": 1,
+          "textClips": 8,
+          "contiguousVideo": true,
+          "allMediaLinked": true,
+          "allVideoMuted": true
+        },
+        {
+          "id": "tl_e1950e4f-6754-4767-9e80-b2e07ef4d4d0",
+          "name": "01 HF完整效果 · 20段可替换",
+          "fps": 24,
+          "width": 1920,
+          "height": 1080,
+          "frames": 1440,
+          "seconds": 60,
+          "videoClips": 20,
+          "audioClips": 1,
+          "textClips": 0,
+          "contiguousVideo": true,
+          "allMediaLinked": true,
+          "allVideoMuted": true
+        }
+      ]
+    },
+    {
+      "role": "officialImportedCopy",
+      "id": "0ab946b8-8403-4b4e-9907-db57a4aad3e6",
+      "assets": 106,
+      "sequences": [
+        {
+          "id": "tl_20f8778a-483a-4d10-a99d-341f2ffb273f",
+          "name": "02 原生逐镜 · 67镜 · edge",
+          "fps": 24,
+          "width": 1920,
+          "height": 1080,
+          "frames": 1440,
+          "seconds": 60,
+          "videoClips": 67,
+          "audioClips": 1,
+          "textClips": 8,
+          "contiguousVideo": true,
+          "allMediaLinked": true,
+          "allVideoMuted": true
+        },
+        {
+          "id": "tl_e1950e4f-6754-4767-9e80-b2e07ef4d4d0",
+          "name": "01 HF完整效果 · 20段可替换",
+          "fps": 24,
+          "width": 1920,
+          "height": 1080,
+          "frames": 1440,
+          "seconds": 60,
+          "videoClips": 20,
+          "audioClips": 1,
+          "textClips": 0,
+          "contiguousVideo": true,
+          "allMediaLinked": true,
+          "allVideoMuted": true
+        }
+      ]
+    }
+  ],
+  "method": "Live HTTP ProjectDoc readback and official exporter/importer SHA256 per-media verification; UI playback and audition recorded separately.",
+  "actualUiPlaybackVerified": false,
+  "actualUiDragVerified": false,
+  "actualUiAudioAuditionVerified": false,
+  "verifiedAt": "2026-11-05T10:39:15.215Z"
+}

@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "status": "asset_qc_frozen_after_reextract",
+  "scope": {
+    "primary_shots": 42,
+    "extra_panel_assets": 1,
+    "samples_per_asset": 3,
+    "actual_used_range_samples": 129,
+    "full_final_composition_viewed": false,
+    "audio_reviewed": false,
+    "initial_s04_skipped": true,
+    "replacement_s04_checked": true
+  },
+  "sampling_formula": {
+    "first": "assetStartFrame",
+    "middle": "assetStartFrame + floor((frames-1)/2)",
+    "last": "assetStartFrame + frames - 1",
+    "composition_time": "(startFrame + localFrame) / 24",
+    "first_not_file_zero": true,
+    "last_not_full_file_end": true
+  },
+  "evidence": {
+    "before_pages": [
+      "page-01.jpg",
+      "page-02.jpg",
+      "page-03.jpg",
+      "page-04.jpg",
+      "page-05.jpg",
+      "page-06.jpg",
+      "page-07.jpg"
+    ],
+    "after_pages": [
+      "after/page-01.jpg",
+      "after/page-02.jpg",
+      "after/page-03.jpg",
+      "after/page-04.jpg",
+      "after/page-05.jpg",
+      "after/page-06.jpg",
+      "after/page-07.jpg"
+    ],
+    "capture_metadata": "after/capture.json",
+    "revision_sha256": "source-adjustments.json",
+    "dense_atlas_note": "Sxx-all.jpg为该短素材的全部文件帧小图，含前后handle；彩色补格不属于视频。判定只针对edit.json实际使用段。"
+  },
+  "result": {
+    "sampled_full_black_frames": 0,
+    "sampled_dialogue_subtitles_after_fix": 0,
+    "sampled_production_logos": 0,
+    "invariants_preserved": [
+      "42槽id/startFrame/frames/beat/beats/sourceGain/film/assetStartFrame/tailFrames",
+      "总1440帧/24fps/60秒与128拍",
+      "S22/S32文件修改时间及字节数未变"
+    ],
+    "intentional_cuts_preserved": [
+      "S03开关/按钮",
+      "S10踏板→车外（原足部无字幕段不足槽长）",
+      "S14换挡→踏板",
+      "S22Dante→Cena（主流程明确保留）",
+      "S32直升机→驾驶者（主流程明确保留）",
+      "S35仪表→驾驶者",
+      "S40Paul→Vin反打"
+    ],
+    "panel_scope": "P03及focusX由主流程处理；本分支未改。最终P03三个样本均为女性驾驶员，无字幕。"
+  },
+  "changes": [
+    {
+      "id": "S03",
+      "old": 3929,
+      "sourceIn": 3929.25,
+      "label": "手指打开红色氮气开关",
+      "frames": 23,
+      "startFrame": 90,
+      "cue": "assets/cues/S03.wav",
+      "asset_sha256": "3bc7acda3b82712af9b4621b99db9fecc760093db152847c01660cd77bc749a8",
+      "cue_sha256": "ef7aa3dd0c5fd9d8fcec6777c87bf0c21b8bd0f6f3fddbe72c6ea430f605b642",
+      "reason": "去掉红开关之前的人脸，保留开关→按钮的有意两角度。"
+    },
+    {
+      "id": "S04",
+      "old": 3930.53,
+      "sourceIn": 3930.613333,
+      "label": "氮气瓶响应开关",
+      "frames": 11,
+      "startFrame": 113,
+      "cue": "assets/cues/S04.wav",
+      "asset_sha256": "629a4654a9a474237bac7e02d7c75d1b38a319a508e887bbcb7c5ea3d7caa8e8",
+      "cue_sha256": "5771d91be447ca9ac9b8f0ff95994a86f34dc18ae264a32c6b94c0ffc3176089",
+      "reason": "移过氮气瓶前的一帧按钮，实际11帧使用段均为瓶子。"
+    },
+    {
+      "id": "S05",
+      "old": 3931.41,
+      "sourceIn": 3931.576667,
+      "label": "转速表指针",
+      "frames": 11,
+      "startFrame": 124,
+      "cue": "assets/cues/S05.wav",
+      "asset_sha256": "694b286cdaeccf27cdda451cbc4271095ddcdfcddc4c00b86ef2a4b07baaa674",
+      "cue_sha256": "b1518fe2edd06779c8adc6d1d643f2d1479085730f8824721beb64b2e435f584",
+      "reason": "去掉转速表前3帧人脸，实际11帧均为仪表。"
+    },
+    {
+      "id": "S06",
+      "old": 3931.91,
+      "sourceIn": 3932.2,
+      "label": "彩色跑车并排射出",
+      "frames": 45,
+      "startFrame": 135,
+      "cue": "assets/cues/S06.wav",
+      "asset_sha256": "04c820511578aabc5019ea93b01ddd1a2ddfb733909785120f073d22a1805c32",
+      "cue_sha256": "b447af81190ca1fd1701f2d6444205f0a09a15bbd3a2f6cd066d12855b838c4f",
+      "reason": "去掉起跑前的仪表残段，实际45帧均为夜间跑车。"
+    },
+    {
+      "id": "S09",
+      "old": 5349.23,
+      "sourceIn": 5349.021667,
+      "label": "漂移车尾收正",
+      "frames": 11,
+      "startFrame": 248,
+      "cue": "assets/cues/S09.wav",
+      "asset_sha256": "a4ef0228050428a624b07ff812ee44cb6ad16f7a199b171be72bc53ca8cd55c8",
+      "cue_sha256": "cabae16f54c6d0b99aaae66cd72bd621f6172c8fffb1b23585e380383b046a6b",
+      "reason": "向前移动，避免漂移槽尾部切进换挡手部。"
+    },
+    {
+      "id": "S10",
+      "old": 1709.96,
+      "sourceIn": 1710.085,
+      "label": "脚踩踏板",
+      "frames": 11,
+      "startFrame": 259,
+      "cue": "assets/cues/S10.wav",
+      "asset_sha256": "310f8322459f1db506552efe81b6cf35d9f0c9abbdba1653db684be2acc7d207",
+      "cue_sha256": "968b484b43d324df2bbd33bee2d073cf339ac669eedbc51662b7889d5d07ae7c",
+      "reason": "无字幕踏板原镜比11帧槽短，保留约5帧踏板→6帧车外的明确动作切换，避免末尾1–3帧微闪。"
+    },
+    {
+      "id": "S14",
+      "old": 1949.45,
+      "sourceIn": 1949.7,
+      "label": "换挡手部动作",
+      "frames": 22,
+      "startFrame": 383,
+      "cue": "assets/cues/S14.wav",
+      "asset_sha256": "949809f8bd3ff847f13a12f9b11a487023551d3085221aef14640ea23a2a1dbb",
+      "cue_sha256": "3642924c45fefa3cda37907667eeefa0735f7d31a11dc52e2431e7ee6711dcfa",
+      "reason": "去掉开头街景，形成约13帧换挡→9帧踏板，避免原尾部3帧踏板微闪。"
+    },
+    {
+      "id": "S29",
+      "old": 1889.5,
+      "sourceIn": 1889.583333,
+      "label": "车身擦过，火花落地",
+      "frames": 23,
+      "startFrame": 945,
+      "cue": "assets/cues/S29.wav",
+      "asset_sha256": "e02c8c3dc8726d64662241977801ca62c287ec9ccc205d22daac0d6006d00efb",
+      "cue_sha256": "6cc3e8d1a3b66d2906fe6a44a07b2c2034230d1e8f723d6aa9818eba4312c797",
+      "reason": "去掉使用段首帧司机镜，改从车体擦地火花开始。"
+    },
+    {
+      "id": "S33",
+      "old": 7099.42,
+      "sourceIn": 7099.586667,
+      "label": "孩子回头看向窗外",
+      "frames": 22,
+      "startFrame": 1058,
+      "cue": null,
+      "asset_sha256": "a916f65003babf95c4b1b7e2a776341919b10d983b6f622076f27ffa8ae3c802",
+      "cue_sha256": null,
+      "reason": "去掉儿童反应镜前的3帧悬空汽车。"
+    },
+    {
+      "id": "S39",
+      "old": 7110.06,
+      "sourceIn": 7110.143333,
+      "label": "车辆逃出爆炸，火焰在车后追来",
+      "frames": 45,
+      "startFrame": 1215,
+      "cue": "assets/cues/S39.wav",
+      "asset_sha256": "e00279f0b8efabdb00c9047dbc575446a646f35f8aba1831ccf480489f23a15b",
+      "cue_sha256": "d084ff6e7dbd432b4abca68c7e6963fc6c47b711c77ef6502658f057c67cd262",
+      "reason": "去掉爆炸追逐前1帧换挡手部。"
+    },
+    {
+      "id": "S40",
+      "old": 7641.82,
+      "sourceIn": 7641.32,
+      "label": "两位驾驶者相视，夕阳下微笑",
+      "frames": 45,
+      "startFrame": 1260,
+      "cue": null,
+      "asset_sha256": "397e5e4ba717152f46e040f54234d3d24a88e9ac4c1ab3196ca275b8ccb0e397",
+      "cue_sha256": null,
+      "reason": "向前移0.5秒，保留足量Paul→Vin反打，避开旧使用尾部对白字幕；label同步。"
+    }
+  ],
+  "executed": [
+    "Codex bundled Python运行work/fast60/lock-edit.py，每次输出42 slots/43 assets/128 beats/1440 frames",
+    "prepare_media.py --sources D:/速度与激情 --jobs 2 --only S03 S04 S05 S06 S09 S10 S33 S39 S40",
+    "prepare_media.py --sources D:/速度与激情 --jobs 1 --only S14",
+    "prepare_media.py --sources D:/速度与激情 --jobs 1 --only S29",
+    "FFmpeg image2pipe由Node保存首/中/末图与关键全帧小图，最多两个抽图任务"
+  ],
+  "handoff": {
+    "media_and_edit_writes_finished": true,
+    "audio_agent_notified": true,
+    "editable_agent_notified": true,
+    "root_notified": true
+  },
+  "limitations": [
+    "只针对实际源片段范围进行静态图QC，不替代最终HyperFrames字幕/三联/片尾淡出合成的完整播放检查。",
+    "首中末帧抽样不能排除所有样本间单帧问题；已针对发现问题的短素材加密至全帧小图核对。",
+    "素材前后handle可能含字幕或其他镜，继续延长片段时需重查实际新增范围。"
+  ]
+}

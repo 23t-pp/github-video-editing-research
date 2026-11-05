@@ -1,0 +1,54 @@
+{
+  "scope": "第一季V20一分钟；不是此前第二季EDGE项目",
+  "orchestrator": {
+    "agent": "/root",
+    "responsibilities": ["确认用户覆盖项", "分派互斥文件责任", "核对审核绑定", "监控与故障调查", "最终封存"],
+    "entry": "scripts/workflow.py next",
+    "monitor": "scripts/monitor.py",
+    "monitorOutput": "workflow/monitor.json"
+  },
+  "roles": [
+    {
+      "agent": "/root/s1_design_spec",
+      "role": "设计与剪辑作者",
+      "inputs": ["docs/设计规格.md", "data/material-catalog.json", "上一轮review.json"],
+      "outputs": ["逐轮plan.json", "revision-diff.json", "HyperFrames创作代码"],
+      "rule": "不能签署自己视频的独立艺术验收"
+    },
+    {
+      "agent": "/root/s1_source_curator",
+      "role": "原片理解与候选取回",
+      "inputs": ["第一季原视频", "60Hz检索索引", "镜头需求"],
+      "outputs": ["实际看图证据", "core窗口", "真实PTS与置信", "unknown与修正"],
+      "rule": "不将静帧方向推断当成动态验证；正式片回原视频"
+    },
+    {
+      "agent": "/root/s1_render_execution",
+      "role": "独立执行渲染",
+      "entry": "hyperframes/render.py",
+      "parallelRunnerInWorkspace": "work/jjk-s1-workflow/render-runner/run_batch.py",
+      "outputs": ["实际1440帧视频", "20段proof", "execution.json", "心跳"],
+      "rule": "仅对已批准冻结输入执行；缓存复用验证实际输入与输出字节"
+    },
+    {
+      "agent": "/root/s1_design_auditor",
+      "role": "独立设计、素材、实际成片与最终审核",
+      "outputs": ["阶段批准范围", "绑定SHA的review", "具体待改发现与复查证据"],
+      "rule": "不修改作者代码；不能因轮数够而放宽P1；机器解码、人工看图和试听范围分开"
+    },
+    {
+      "agent": "/root/s1_occ_export",
+      "role": "OpenChatCut原生与HF双序列、官方工程包回环",
+      "entryInWorkspace": "work/jjk-s1-workflow/occ/run.ps1",
+      "outputs": ["新S1 UUID工程", "官方ccproj", "真实导入副本", "逐媒体SHA回读"],
+      "rule": "最终媒体锁后执行；只修改本任务新UUID，旧项目不覆盖"
+    }
+  ],
+  "loop": {
+    "minimumDistinctActualVideos": 4,
+    "continueIf": "仍有P0/P1或必要交付缺失",
+    "stopCondition": "全季JPG通过、最新影片独审pass、双工程回环完整、最终验收pass、seal实际通过",
+    "dispatchPolicy": "CLI生成待派动作，编排层实际调用代理；不伪造自动模型调用",
+    "fileOwnership": "创作模块归设计代理，render.py归执行代理，review归审核代理；不多人同时写同一文件"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_track",
+      "result": {
+        "ok": true,
+        "created": [
+          {
+            "id": "track_7fc4c7e1-f95f-4582-9950-8f4f0fffa514",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "A1 原创配乐 · scoreMix",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ],
+        "tracks": [
+          {
+            "id": "track_c834a8da-9ec4-4483-af6e-6b4ddbc7cfe4",
+            "alias": "V3",
+            "trackType": "video",
+            "order": 2,
+            "name": "V3 标题/图形 · 可替换",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          },
+          {
+            "id": "track_a432c3e2-bab2-471f-ba7a-7f8438abc9cf",
+            "alias": "V2",
+            "trackType": "video",
+            "order": 1,
+            "name": "V2 HF特效插片 · 可替换",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          },
+          {
+            "id": "track_v1",
+            "alias": "V1",
+            "trackType": "video",
+            "order": 0,
+            "name": "V1 主画面 · 每镜独立",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          },
+          {
+            "id": "track_7fc4c7e1-f95f-4582-9950-8f4f0fffa514",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "A1 原创配乐 · scoreMix",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "1c02c595-78f6-43d4-b26a-90d6e9f4c6a4",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-0a927ef6",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_457bd2200d454c65",
+    "editorUrl": "http://localhost:5199/#/editor/8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "updatedAt": "2026-11-05T02:41:38.619Z"
+  }
+}

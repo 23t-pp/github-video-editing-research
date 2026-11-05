@@ -1,0 +1,3779 @@
+{
+  "schemaVersion": 1,
+  "version": "L2-B-middle-dedup",
+  "status": "frames_0_1296_frozen_XCHASE_and_last2chunks_pending",
+  "title": "咒力接力 · CURSED FLOW",
+  "season": 1,
+  "primaryReference": "V20",
+  "referenceDraw": "data/随机参考抽选.json",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "durationFrames": 1440,
+  "durationSeconds": 60,
+  "audio": {
+    "master": "assets/audio/master.wav",
+    "source": "V20 library candidate"
+  },
+  "sourcePolicy": "all picture sources S1; no S2 pixels or alpha; prepare from original source after B approval",
+  "imageProcessing": {
+    "proposal": "crop bottom subtitle band only where safe, preserve aspect ratio and document losses; no default silent crop before contact review",
+    "color": "BT709 SDR, keep source hue differences as chapters"
+  },
+  "structure": [
+    {
+      "frames": [
+        0,
+        168
+      ],
+      "name": "伸掌/武器/腾空动作接力"
+    },
+    {
+      "frames": [
+        168,
+        176
+      ],
+      "name": "明确停顿"
+    },
+    {
+      "frames": [
+        176,
+        312
+      ],
+      "name": "原创档案屏内人物依次换片"
+    },
+    {
+      "frames": [
+        312,
+        714
+      ],
+      "name": "手势与武器群像，真希/钉崎"
+    },
+    {
+      "frames": [
+        714,
+        1048
+      ],
+      "name": "黑闪与冲锋接力，眼部/掌形桥"
+    },
+    {
+      "frames": [
+        1048,
+        1386
+      ],
+      "name": "五条术式与一年级回钩"
+    },
+    {
+      "frames": [
+        1386,
+        1440
+      ],
+      "name": "冲锋落定/小字收尾"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S001",
+      "kind": "video",
+      "candidateId": "S1C003",
+      "sourceId": "S1E04",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/04.mp4",
+      "episode": 4,
+      "startFrame": 0,
+      "frames": 13,
+      "sourceInSeconds": 1029.654167,
+      "sourceOutSeconds": 1030.195833,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        1029.6,
+        1030.25
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "张掌靠近镜头",
+      "characters": [
+        "宿傩"
+      ],
+      "palette": "暗绿/冷青",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E04-0990.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1.6,
+        "x": -434,
+        "y": 228
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S001",
+      "asset": "assets/shots/S001.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S002",
+      "kind": "video",
+      "candidateId": "S1C020",
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "episode": 5,
+      "startFrame": 13,
+      "frames": 18,
+      "sourceInSeconds": 554.875,
+      "sourceOutSeconds": 555.625,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        554.6,
+        555.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "青光手掌张开",
+      "characters": [
+        "伏黑"
+      ],
+      "palette": "冷青/灰黑",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1.8,
+        "x": -142,
+        "y": 8
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S002",
+      "asset": "assets/shots/S002.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S003",
+      "kind": "video",
+      "candidateId": "S1C033",
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "episode": 7,
+      "startFrame": 31,
+      "frames": 14,
+      "sourceInSeconds": 339.62,
+      "sourceOutSeconds": 340.08,
+      "playbackRate": 0.788571,
+      "searchWindowSeconds": [
+        339.6,
+        340.1
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "手掌朝镜头",
+      "characters": [
+        "五条"
+      ],
+      "palette": "冷蓝/深绿",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 2.4,
+        "x": 1046,
+        "y": -676
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S003",
+      "asset": "assets/shots/S003.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S004",
+      "kind": "video",
+      "candidateId": "S1C084",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "episode": 24,
+      "startFrame": 45,
+      "frames": 12,
+      "sourceInSeconds": 400.42,
+      "sourceOutSeconds": 400.88,
+      "playbackRate": 0.92,
+      "searchWindowSeconds": [
+        400.4,
+        400.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "手持钉子",
+      "characters": [
+        "钉崎"
+      ],
+      "palette": "夜蓝/青光/血红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E24-0350.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S004",
+      "asset": "assets/shots/S004.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S005",
+      "kind": "video",
+      "candidateId": "S1C037",
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "episode": 17,
+      "startFrame": 57,
+      "frames": 23,
+      "sourceInSeconds": 129.64,
+      "sourceOutSeconds": 130.56,
+      "playbackRate": 0.96,
+      "searchWindowSeconds": [
+        129.6,
+        130.6
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "横向挥杆",
+      "characters": [
+        "真希"
+      ],
+      "palette": "鲜绿/冷青",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S005",
+      "asset": "assets/shots/S005.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S006",
+      "kind": "video",
+      "candidateId": "S1C038",
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "episode": 17,
+      "startFrame": 80,
+      "frames": 22,
+      "sourceInSeconds": 134.641667,
+      "sourceOutSeconds": 135.558333,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        134.6,
+        135.6
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "三轮腾空跨步（纠正最初静帧人物标签）",
+      "characters": [
+        "三轮"
+      ],
+      "palette": "鲜绿/冷青",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S006",
+      "asset": "assets/shots/S006.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S007",
+      "kind": "video",
+      "candidateId": "S1C056",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 102,
+      "frames": 22,
+      "sourceInSeconds": 204.791667,
+      "sourceOutSeconds": 205.708333,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        204.6,
+        205.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "旋转腾空",
+      "characters": [
+        "虎杖"
+      ],
+      "palette": "秋黄/蓝紫",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S007",
+      "asset": "assets/shots/S007.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S008",
+      "kind": "video",
+      "candidateId": "S1C079",
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "episode": 23,
+      "startFrame": 124,
+      "frames": 22,
+      "sourceInSeconds": 259.791667,
+      "sourceOutSeconds": 260.708333,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        259.6,
+        260.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "离地跃起",
+      "characters": [
+        "伏黑"
+      ],
+      "palette": "夜蓝/紫色",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E23-0200.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S008",
+      "asset": "assets/shots/S008.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S009",
+      "kind": "video",
+      "candidateId": "S1C014",
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "episode": 5,
+      "startFrame": 146,
+      "frames": 22,
+      "sourceInSeconds": 369.791667,
+      "sourceOutSeconds": 370.708333,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        369.6,
+        370.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "红眼近景",
+      "characters": [
+        "宿傩"
+      ],
+      "palette": "灰蓝/黑夜",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S009",
+      "asset": "assets/shots/S009.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S010",
+      "kind": "black",
+      "startFrame": 168,
+      "frames": 8,
+      "reason": "V20明确黑场停顿的改编，不是丢帧",
+      "assetId": "S010",
+      "asset": "assets/shots/S010.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S011",
+      "kind": "video",
+      "candidateId": "S1C011",
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "episode": 5,
+      "startFrame": 176,
+      "frames": 34,
+      "sourceInSeconds": 344.652,
+      "sourceOutSeconds": 345.848,
+      "playbackRate": 0.844235,
+      "searchWindowSeconds": [
+        344.6,
+        345.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "正面微笑",
+      "characters": [
+        "宿傩"
+      ],
+      "palette": "灰蓝/黑夜",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S011",
+      "asset": "assets/shots/S011.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S012",
+      "kind": "video",
+      "candidateId": "S1C046",
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "episode": 17,
+      "startFrame": 210,
+      "frames": 34,
+      "sourceInSeconds": 439.652,
+      "sourceOutSeconds": 440.848,
+      "playbackRate": 0.844235,
+      "searchWindowSeconds": [
+        439.6,
+        440.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "正面自信微笑",
+      "characters": [
+        "钉崎"
+      ],
+      "palette": "鲜绿/青蓝",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E17-0420.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S012",
+      "asset": "assets/shots/S012.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S013",
+      "kind": "video",
+      "candidateId": "S1C031",
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "episode": 7,
+      "startFrame": 244,
+      "frames": 34,
+      "sourceInSeconds": 319.652,
+      "sourceOutSeconds": 320.848,
+      "playbackRate": 0.844235,
+      "searchWindowSeconds": [
+        319.6,
+        320.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "抬头正面",
+      "characters": [
+        "五条"
+      ],
+      "palette": "冷蓝/深绿",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S013",
+      "asset": "assets/shots/S013.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S014",
+      "kind": "video",
+      "candidateId": "S1C071",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 278,
+      "frames": 34,
+      "sourceInSeconds": 1174.652,
+      "sourceOutSeconds": 1175.848,
+      "playbackRate": 0.844235,
+      "searchWindowSeconds": [
+        1174.6,
+        1175.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "双指黑白近景",
+      "characters": [
+        "五条"
+      ],
+      "palette": "天蓝/蓝紫/洋红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S014",
+      "asset": "assets/shots/S014.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S015",
+      "kind": "video",
+      "candidateId": "S1C010",
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "episode": 5,
+      "startFrame": 312,
+      "frames": 24,
+      "sourceInSeconds": 339.75,
+      "sourceOutSeconds": 340.75,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        339.6,
+        340.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "近身交击",
+      "characters": [
+        "宿傩",
+        "伏黑"
+      ],
+      "palette": "灰蓝/黑夜",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S015",
+      "asset": "assets/shots/S015.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S016",
+      "kind": "video",
+      "candidateId": "S1C012",
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "episode": 5,
+      "startFrame": 336,
+      "frames": 24,
+      "sourceInSeconds": 349.75,
+      "sourceOutSeconds": 350.75,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        349.6,
+        350.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "挥拳背面",
+      "characters": [
+        "伏黑"
+      ],
+      "palette": "灰蓝/黑夜",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S016",
+      "asset": "assets/shots/S016.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S017",
+      "kind": "video",
+      "candidateId": "S1C013",
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "episode": 5,
+      "startFrame": 360,
+      "frames": 26,
+      "sourceInSeconds": 365.036,
+      "sourceOutSeconds": 365.864,
+      "playbackRate": 0.764308,
+      "searchWindowSeconds": [
+        365.0,
+        365.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "拳臂交击",
+      "characters": [
+        "宿傩",
+        "伏黑"
+      ],
+      "palette": "灰蓝/黑夜",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S017",
+      "asset": "assets/shots/S017.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S018",
+      "kind": "video",
+      "candidateId": "S1C024",
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "episode": 5,
+      "startFrame": 386,
+      "frames": 25,
+      "sourceInSeconds": 609.729167,
+      "sourceOutSeconds": 610.770833,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        609.6,
+        610.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "双臂向两侧展开",
+      "characters": [
+        "宿傩"
+      ],
+      "palette": "冷青/灰黑",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S018",
+      "asset": "assets/shots/S018.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S019",
+      "kind": "video",
+      "candidateId": "S1C017",
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "episode": 5,
+      "startFrame": 411,
+      "frames": 25,
+      "sourceInSeconds": 403.95,
+      "sourceOutSeconds": 404.9916666666667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        404.6,
+        405.1
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "低姿前探",
+      "characters": [
+        "伏黑"
+      ],
+      "palette": "灰蓝/黑夜",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S019",
+      "asset": "assets/shots/S019.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S020",
+      "kind": "video",
+      "candidateId": "S1C021",
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "episode": 5,
+      "startFrame": 436,
+      "frames": 24,
+      "sourceInSeconds": 589.75,
+      "sourceOutSeconds": 590.75,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        589.6,
+        590.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "青光手势近景",
+      "characters": [
+        "伏黑"
+      ],
+      "palette": "冷青/灰黑",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S020",
+      "asset": "assets/shots/S020.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S021",
+      "kind": "video",
+      "candidateId": "S1C026",
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "episode": 5,
+      "startFrame": 460,
+      "frames": 26,
+      "sourceInSeconds": 629.708333,
+      "sourceOutSeconds": 630.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        629.6,
+        630.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "双手指节相合",
+      "characters": [
+        "伏黑"
+      ],
+      "palette": "冷青/灰黑",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S021",
+      "asset": "assets/shots/S021.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S022",
+      "kind": "video",
+      "candidateId": "S1C027",
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "episode": 7,
+      "startFrame": 486,
+      "frames": 24,
+      "sourceInSeconds": 244.708333,
+      "sourceOutSeconds": 245.708333,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        244.6,
+        245.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "双指抬起",
+      "characters": [
+        "五条"
+      ],
+      "palette": "冷蓝/深绿",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S053",
+      "asset": "assets/shots/S053.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S023",
+      "kind": "video",
+      "candidateId": "S1C016",
+      "sourceId": "S1E05",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "episode": 5,
+      "startFrame": 510,
+      "frames": 26,
+      "sourceInSeconds": 389.708333,
+      "sourceOutSeconds": 390.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        389.6,
+        390.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "白蛇与鵺雷光展翼",
+      "characters": [
+        "式神"
+      ],
+      "palette": "灰蓝/黑夜",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0320.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S023",
+      "asset": "assets/shots/S023.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S024",
+      "kind": "video",
+      "candidateId": "S1C032",
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "episode": 7,
+      "startFrame": 536,
+      "frames": 25,
+      "sourceInSeconds": 329.729167,
+      "sourceOutSeconds": 330.770833,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        329.6,
+        330.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "抬指靠近额头",
+      "characters": [
+        "五条"
+      ],
+      "palette": "冷蓝/深绿",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S024",
+      "asset": "assets/shots/S024.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S025",
+      "kind": "video",
+      "candidateId": "S1C034",
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "episode": 17,
+      "startFrame": 561,
+      "frames": 27,
+      "sourceInSeconds": 114.6875,
+      "sourceOutSeconds": 115.8125,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        114.6,
+        115.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "长杆横挥",
+      "characters": [
+        "真希"
+      ],
+      "palette": "鲜绿/冷青",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S025",
+      "asset": "assets/shots/S025.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S026",
+      "kind": "video",
+      "candidateId": "S1C041",
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "episode": 17,
+      "startFrame": 588,
+      "frames": 24,
+      "sourceInSeconds": 179.5,
+      "sourceOutSeconds": 180.5,
+      "playbackRate": 1,
+      "searchWindowSeconds": [
+        129.6,
+        130.6
+      ],
+      "exactNativeCutBoundaryStatus": "prepared decoder all-frame machine check + four visual samples; independent L2 review pending",
+      "focus": "pending final view",
+      "characters": [
+        "三轮"
+      ],
+      "palette": "鲜绿/冷青",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "N026",
+      "asset": "assets/shots/N026.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0,
+      "freshEvidence": "evidence/source-overviews/fresh-candidates/fresh-core-01.jpg"
+    },
+    {
+      "id": "S027",
+      "kind": "video",
+      "candidateId": "S1C039",
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "episode": 17,
+      "startFrame": 612,
+      "frames": 26,
+      "sourceInSeconds": 139.628,
+      "sourceOutSeconds": 140.272,
+      "playbackRate": 0.594462,
+      "searchWindowSeconds": [
+        139.6,
+        140.3
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "手持武器侧视",
+      "characters": [
+        "真希"
+      ],
+      "palette": "鲜绿/冷青",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S027",
+      "asset": "assets/shots/S027.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S028",
+      "kind": "video",
+      "candidateId": "S1C042",
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "episode": 17,
+      "startFrame": 638,
+      "frames": 24,
+      "sourceInSeconds": 204.628,
+      "sourceOutSeconds": 205.272,
+      "playbackRate": 0.644,
+      "searchWindowSeconds": [
+        204.6,
+        205.3
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "长杆前击",
+      "characters": [
+        "真希"
+      ],
+      "palette": "鲜绿/冷青",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S028",
+      "asset": "assets/shots/S028.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S029",
+      "kind": "video",
+      "candidateId": "S1C048",
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "episode": 17,
+      "startFrame": 662,
+      "frames": 26,
+      "sourceInSeconds": 495.036,
+      "sourceOutSeconds": 495.864,
+      "playbackRate": 0.764308,
+      "searchWindowSeconds": [
+        495.0,
+        495.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "背面挥锤",
+      "characters": [
+        "钉崎"
+      ],
+      "palette": "鲜绿/青蓝",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E17-0420.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S029",
+      "asset": "assets/shots/S029.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S030",
+      "kind": "video",
+      "candidateId": "S1C049",
+      "sourceId": "S1E17",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "episode": 17,
+      "startFrame": 688,
+      "frames": 26,
+      "sourceInSeconds": 504.708333,
+      "sourceOutSeconds": 505.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        504.6,
+        505.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "正面怒视",
+      "characters": [
+        "钉崎"
+      ],
+      "palette": "鲜绿/青蓝",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E17-0420.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S030",
+      "asset": "assets/shots/S030.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S031",
+      "kind": "video",
+      "candidateId": "S1C086",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "episode": 24,
+      "startFrame": 714,
+      "frames": 26,
+      "sourceInSeconds": 409.708333,
+      "sourceOutSeconds": 410.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        409.6,
+        410.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "带伤正面笑",
+      "characters": [
+        "钉崎"
+      ],
+      "palette": "夜蓝/青光/血红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E24-0350.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S031",
+      "asset": "assets/shots/S031.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S032",
+      "kind": "video",
+      "candidateId": "S1C087",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "episode": 24,
+      "startFrame": 740,
+      "frames": 25,
+      "sourceInSeconds": 415.036,
+      "sourceOutSeconds": 415.864,
+      "playbackRate": 0.79488,
+      "searchWindowSeconds": [
+        415.0,
+        415.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "手臂举起斜身",
+      "characters": [
+        "钉崎"
+      ],
+      "palette": "夜蓝/青光/血红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E24-0350.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S032",
+      "asset": "assets/shots/S032.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S033",
+      "kind": "video",
+      "candidateId": "S1C092",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "episode": 24,
+      "startFrame": 765,
+      "frames": 25,
+      "sourceInSeconds": 689.729167,
+      "sourceOutSeconds": 690.770833,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        689.6,
+        690.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "抬指面前",
+      "characters": [
+        "钉崎"
+      ],
+      "palette": "夜蓝/血红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S033",
+      "asset": "assets/shots/S033.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S034",
+      "kind": "video",
+      "candidateId": "S1C093",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "episode": 24,
+      "startFrame": 790,
+      "frames": 26,
+      "sourceInSeconds": 693.95,
+      "sourceOutSeconds": 695.0333333333334,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        694.6,
+        695.1
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "红黑冲击",
+      "characters": [
+        "钉崎"
+      ],
+      "palette": "夜蓝/血红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S034",
+      "asset": "assets/shots/S034.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S035",
+      "kind": "video",
+      "candidateId": "S1C094",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "episode": 24,
+      "startFrame": 816,
+      "frames": 26,
+      "sourceInSeconds": 704.708333,
+      "sourceOutSeconds": 705.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        704.6,
+        705.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "侧面微笑",
+      "characters": [
+        "钉崎"
+      ],
+      "palette": "夜蓝/血红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S035",
+      "asset": "assets/shots/S035.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S036",
+      "kind": "video",
+      "candidateId": "S1C097",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "episode": 24,
+      "startFrame": 842,
+      "frames": 24,
+      "sourceInSeconds": 764.75,
+      "sourceOutSeconds": 765.75,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        764.6,
+        765.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "低头蓄势咬牙",
+      "characters": [
+        "虎杖"
+      ],
+      "palette": "夜蓝/血红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S036",
+      "asset": "assets/shots/S036.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S037",
+      "kind": "video",
+      "candidateId": "S1C054",
+      "sourceId": "S1E19",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "episode": 20,
+      "startFrame": 866,
+      "frames": 26,
+      "sourceInSeconds": 924.5583333333334,
+      "sourceOutSeconds": 925.6416666666668,
+      "playbackRate": 1,
+      "searchWindowSeconds": [
+        204.6,
+        205.9
+      ],
+      "exactNativeCutBoundaryStatus": "prepared decoder all-frame machine check + four visual samples; independent L2 review pending",
+      "focus": "pending final view",
+      "characters": [
+        "虎杖"
+      ],
+      "palette": "秋黄/蓝紫",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "N037",
+      "asset": "assets/shots/N037.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0,
+      "freshEvidence": "evidence/source-overviews/fresh-candidates/fresh-core-01.jpg"
+    },
+    {
+      "id": "S038",
+      "kind": "video",
+      "candidateId": "S1C057",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 892,
+      "frames": 26,
+      "sourceInSeconds": 209.72,
+      "sourceOutSeconds": 210.47833333333332,
+      "playbackRate": 0.7,
+      "searchWindowSeconds": [
+        209.95,
+        210.25
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "前倾准备",
+      "characters": [
+        "虎杖"
+      ],
+      "palette": "秋黄/蓝紫",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S038",
+      "asset": "assets/shots/S038.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S039",
+      "kind": "video",
+      "candidateId": "S1C058",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 918,
+      "frames": 26,
+      "sourceInSeconds": 220.036,
+      "sourceOutSeconds": 220.864,
+      "playbackRate": 0.764308,
+      "searchWindowSeconds": [
+        220.0,
+        220.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "并肩奔跑",
+      "characters": [
+        "虎杖",
+        "东堂"
+      ],
+      "palette": "秋黄/蓝紫",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S039",
+      "asset": "assets/shots/S039.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S040",
+      "kind": "video",
+      "candidateId": "S1C061",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 944,
+      "frames": 26,
+      "sourceInSeconds": 269.4,
+      "sourceOutSeconds": 270.26666666666665,
+      "playbackRate": 0.8,
+      "searchWindowSeconds": [
+        269.6,
+        270.1
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "脚掌向镜头",
+      "characters": [
+        "虎杖"
+      ],
+      "palette": "秋黄/蓝紫",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S040",
+      "asset": "assets/shots/S040.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S041",
+      "kind": "video",
+      "candidateId": "S1C063",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 970,
+      "frames": 26,
+      "sourceInSeconds": 299.628,
+      "sourceOutSeconds": 300.272,
+      "playbackRate": 0.594462,
+      "searchWindowSeconds": [
+        299.6,
+        300.3
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "前伸拳头",
+      "characters": [
+        "虎杖"
+      ],
+      "palette": "秋黄/蓝紫",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S041",
+      "asset": "assets/shots/S041.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S042",
+      "kind": "video",
+      "candidateId": "S1C064",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 996,
+      "frames": 26,
+      "sourceInSeconds": 314.708333,
+      "sourceOutSeconds": 315.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        314.6,
+        315.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "侧身合掌",
+      "characters": [
+        "东堂"
+      ],
+      "palette": "秋黄/蓝紫",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S042",
+      "asset": "assets/shots/S042.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S043",
+      "kind": "video",
+      "candidateId": "S1C050",
+      "sourceId": "S1E19",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "episode": 19,
+      "startFrame": 1022,
+      "frames": 26,
+      "sourceInSeconds": 879.708333,
+      "sourceOutSeconds": 880.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        879.6,
+        880.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "红黑爆发中的人物",
+      "characters": [
+        "虎杖"
+      ],
+      "palette": "红黑/蓝光/秋黄",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E19-0880.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S043",
+      "asset": "assets/shots/S043.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S044",
+      "kind": "video",
+      "candidateId": "S1C051",
+      "sourceId": "S1E19",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "episode": 19,
+      "startFrame": 1048,
+      "frames": 26,
+      "sourceInSeconds": 889.708333,
+      "sourceOutSeconds": 890.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        889.6,
+        890.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "战斗中正面",
+      "characters": [
+        "虎杖"
+      ],
+      "palette": "红黑/蓝光/秋黄",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E19-0880.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S044",
+      "asset": "assets/shots/S044.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S045",
+      "kind": "video",
+      "candidateId": "S1C052",
+      "sourceId": "S1E19",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "episode": 19,
+      "startFrame": 1074,
+      "frames": 26,
+      "sourceInSeconds": 914.628,
+      "sourceOutSeconds": 915.272,
+      "playbackRate": 0.594462,
+      "searchWindowSeconds": [
+        914.6,
+        915.3
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "蓝光拳指近景",
+      "characters": [
+        "虎杖"
+      ],
+      "palette": "红黑/蓝光/秋黄",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E19-0880.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S045",
+      "asset": "assets/shots/S045.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S046",
+      "kind": "video",
+      "candidateId": "S1C053",
+      "sourceId": "S1E19",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "episode": 19,
+      "startFrame": 1100,
+      "frames": 26,
+      "sourceInSeconds": 918.95,
+      "sourceOutSeconds": 920.0333333333334,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        919.6,
+        920.1
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "蓝色气焰举拳",
+      "characters": [
+        "虎杖"
+      ],
+      "palette": "红黑/蓝光/秋黄",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E19-0880.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S046",
+      "asset": "assets/shots/S046.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S047",
+      "kind": "video",
+      "candidateId": "S1C065",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 1126,
+      "frames": 26,
+      "sourceInSeconds": 1099.708333,
+      "sourceOutSeconds": 1100.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        1099.6,
+        1100.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "双拳相合侧身",
+      "characters": [
+        "五条"
+      ],
+      "palette": "天蓝/蓝紫/洋红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S047",
+      "asset": "assets/shots/S047.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S048",
+      "kind": "video",
+      "candidateId": "S1C067",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 1152,
+      "frames": 26,
+      "sourceInSeconds": 1124.708333,
+      "sourceOutSeconds": 1125.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        1124.6,
+        1125.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "合掌侧身",
+      "characters": [
+        "五条"
+      ],
+      "palette": "天蓝/蓝紫/洋红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S048",
+      "asset": "assets/shots/S048.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S049",
+      "kind": "video",
+      "candidateId": "S1C071",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 1178,
+      "frames": 26,
+      "sourceInSeconds": 1174.708333,
+      "sourceOutSeconds": 1175.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        1174.6,
+        1175.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "双指黑白近景",
+      "characters": [
+        "五条"
+      ],
+      "palette": "天蓝/蓝紫/洋红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S049",
+      "asset": "assets/shots/S049.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S050",
+      "kind": "video",
+      "candidateId": "S1C072",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 1204,
+      "frames": 26,
+      "sourceInSeconds": 1179.708333,
+      "sourceOutSeconds": 1180.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        1179.6,
+        1180.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "术式双手与蓝球",
+      "characters": [
+        "五条"
+      ],
+      "palette": "天蓝/蓝紫/洋红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S050",
+      "asset": "assets/shots/S050.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S051",
+      "kind": "video",
+      "candidateId": "S1C075",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 1230,
+      "frames": 26,
+      "sourceInSeconds": 1209.708333,
+      "sourceOutSeconds": 1210.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        1209.6,
+        1210.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "紫光照亮蓝眼",
+      "characters": [
+        "五条"
+      ],
+      "palette": "天蓝/蓝紫/洋红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S051",
+      "asset": "assets/shots/S051.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S052",
+      "kind": "video",
+      "candidateId": "S1C028",
+      "sourceId": "S1E07",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "episode": 5,
+      "startFrame": 1256,
+      "frames": 26,
+      "sourceInSeconds": 254.17999999999998,
+      "sourceOutSeconds": 255.09999999999997,
+      "playbackRate": 0.8492307692307693,
+      "searchWindowSeconds": [
+        554.6,
+        555.9
+      ],
+      "exactNativeCutBoundaryStatus": "prepared decoder all-frame machine check + four visual samples; independent L2 review pending",
+      "focus": "取回动作，见curator扩查",
+      "characters": [
+        "咒灵"
+      ],
+      "palette": "冷青/灰黑",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "N052",
+      "asset": "assets/shots/N052.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0,
+      "freshEvidence": "evidence/source-overviews/fresh-candidates/fresh-02.jpg"
+    },
+    {
+      "id": "S053",
+      "kind": "video",
+      "candidateId": "S1C078",
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "episode": 7,
+      "startFrame": 1282,
+      "frames": 26,
+      "sourceInSeconds": 239.45833333333334,
+      "sourceOutSeconds": 240.54166666666669,
+      "playbackRate": 1,
+      "searchWindowSeconds": [
+        244.6,
+        245.9
+      ],
+      "exactNativeCutBoundaryStatus": "prepared decoder all-frame machine check + four visual samples; independent L2 review pending",
+      "focus": "紫瞳眼部保持，身份不确认",
+      "characters": [
+        "unknown"
+      ],
+      "palette": "冷蓝/深绿",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "N053",
+      "asset": "assets/shots/N053.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0,
+      "freshEvidence": "evidence/source-overviews/fresh-candidates/fresh-02.jpg"
+    },
+    {
+      "id": "S054",
+      "kind": "video",
+      "candidateId": "S1C080",
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "episode": 23,
+      "startFrame": 1308,
+      "frames": 26,
+      "sourceInSeconds": 265.2083333333333,
+      "sourceOutSeconds": 266.29166666666663,
+      "playbackRate": 1,
+      "searchWindowSeconds": [
+        259.6,
+        260.9
+      ],
+      "exactNativeCutBoundaryStatus": "prepared decoder all-frame machine check + four visual samples; independent L2 review pending",
+      "focus": "pending final view",
+      "characters": [
+        "伏黑"
+      ],
+      "palette": "夜蓝/紫色",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E23-0200.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "N054",
+      "asset": "assets/shots/N054.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0,
+      "freshEvidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg"
+    },
+    {
+      "id": "S055",
+      "kind": "video",
+      "candidateId": "S1C082",
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "episode": 23,
+      "startFrame": 1334,
+      "frames": 26,
+      "sourceInSeconds": 294.708333,
+      "sourceOutSeconds": 295.791667,
+      "playbackRate": 1.0,
+      "searchWindowSeconds": [
+        294.6,
+        295.9
+      ],
+      "exactNativeCutBoundaryStatus": "pending_execution_decode_check",
+      "focus": "睁眼",
+      "characters": [
+        "伏黑"
+      ],
+      "palette": "夜蓝/紫色",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E23-0200.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "S055",
+      "asset": "assets/shots/S055.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0
+    },
+    {
+      "id": "S056",
+      "kind": "video",
+      "candidateId": "S1C081",
+      "sourceId": "S1E23",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "episode": 24,
+      "startFrame": 1360,
+      "frames": 26,
+      "sourceInSeconds": 289.4583333333333,
+      "sourceOutSeconds": 290.54166666666663,
+      "playbackRate": 1,
+      "searchWindowSeconds": [
+        409.6,
+        410.9
+      ],
+      "exactNativeCutBoundaryStatus": "prepared decoder all-frame machine check + four visual samples; independent L2 review pending",
+      "focus": "pending final view",
+      "characters": [
+        "伏黑"
+      ],
+      "palette": "夜蓝/青光/血红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E24-0350.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "N056",
+      "asset": "assets/shots/N056.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0,
+      "freshEvidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg"
+    },
+    {
+      "id": "S057",
+      "kind": "video",
+      "candidateId": "S1C088",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "episode": 24,
+      "startFrame": 1386,
+      "frames": 30,
+      "sourceInSeconds": 449.448,
+      "sourceOutSeconds": 450.552,
+      "playbackRate": 0.8832000000000335,
+      "searchWindowSeconds": [
+        764.6,
+        765.9
+      ],
+      "exactNativeCutBoundaryStatus": "prepared decoder all-frame machine check + four visual samples; independent L2 review pending",
+      "focus": "pending final view",
+      "characters": [
+        "unknown"
+      ],
+      "palette": "夜蓝/血红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "N057",
+      "asset": "assets/shots/N057.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0,
+      "freshEvidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg"
+    },
+    {
+      "id": "S058",
+      "kind": "video",
+      "candidateId": "S1C076",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "episode": 20,
+      "startFrame": 1416,
+      "frames": 24,
+      "sourceInSeconds": 1214.438,
+      "sourceOutSeconds": 1215.312,
+      "playbackRate": 0.8739999999998327,
+      "searchWindowSeconds": [
+        1209.6,
+        1210.9
+      ],
+      "exactNativeCutBoundaryStatus": "prepared decoder all-frame machine check + four visual samples; independent L2 review pending",
+      "focus": "pending final view",
+      "characters": [
+        "五条"
+      ],
+      "palette": "天蓝/蓝紫/洋红",
+      "preflightEvidence": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+      "motionEvidence": "see_motion_preflight_and_curator",
+      "reframe": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "sourceVFX": "source animation, not newly authored CG",
+      "assetId": "N058",
+      "asset": "assets/shots/N058.mp4",
+      "assetStartFrame": 12,
+      "cameraLocked": true,
+      "punch": 0,
+      "rotation": 0,
+      "freshEvidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg"
+    }
+  ],
+  "events": [
+    {
+      "id": "opening-slam",
+      "kind": "type",
+      "start": 4,
+      "end": 40,
+      "techniqueIds": [
+        "T10"
+      ],
+      "referenceIds": [
+        "V02"
+      ],
+      "status": "planned_not_rendered",
+      "text": "CURSED FLOW",
+      "subtitle": "咒力接力",
+      "mode": "slam",
+      "board": false,
+      "z": 45,
+      "color": "#fff7de",
+      "depth": "#bb1422",
+      "font_size": 500,
+      "width": 1570,
+      "sourceRequirement": "原创字形，只复用字效代码，不复用第二季图像"
+    },
+    {
+      "id": "palm-match-a",
+      "kind": "match_cut",
+      "start": 13,
+      "end": 31,
+      "techniqueIds": [
+        "T01"
+      ],
+      "referenceIds": [
+        "V20",
+        "V06"
+      ],
+      "status": "planned_not_rendered",
+      "fromCandidate": "S1C003",
+      "toCandidate": "S1C020",
+      "focusAnchor": [
+        0.58,
+        0.48
+      ],
+      "direction": "朝镜头伸掌，出镜手掌与来镜青掌形状对应",
+      "phase": "张掌→保持",
+      "sourceRequirement": "两掌最终锚点/尺度在L1裸切中量测；超阈值重构图而非遮闪"
+    },
+    {
+      "id": "palm-match-b",
+      "kind": "match_cut",
+      "start": 31,
+      "end": 45,
+      "techniqueIds": [
+        "T01"
+      ],
+      "referenceIds": [
+        "V20"
+      ],
+      "status": "planned_not_rendered",
+      "fromCandidate": "S1C020",
+      "toCandidate": "S1C033",
+      "focusAnchor": [
+        0.5,
+        0.48
+      ],
+      "direction": "掌心朝向镜头",
+      "phase": "保持→伸出",
+      "sourceRequirement": "C033只用切怪物前的0.6秒窗口；最终帧取回逐帧确认"
+    },
+    {
+      "id": "archive-screen",
+      "kind": "screen",
+      "start": 176,
+      "end": 312,
+      "techniqueIds": [
+        "T13",
+        "T03",
+        "T18"
+      ],
+      "referenceIds": [
+        "V20"
+      ],
+      "status": "planned_not_rendered",
+      "focusAnchor": [
+        0.5,
+        0.48
+      ],
+      "direction": "外框轻微侧倾，内部镜头按姓名/反应/手势切换",
+      "foregroundOrder": [
+        "原创手机/档案屏边框与玻璃高光",
+        "屏内视频，沿4个基础镜头换片",
+        "原创背景网格与暗红辉光"
+      ],
+      "sourceRequirement": "原创静态屏框，不冒称从动画追踪出来的实体手机；屏内使用S011–S014正式源片段；F312按V20证据直接切全屏，不虚构穿手机门户",
+      "screenRect": [
+        480,
+        110,
+        960,
+        790
+      ],
+      "tilt": -5
+    },
+    {
+      "id": "triptych-weapon",
+      "kind": "filmstrip",
+      "start": 561,
+      "end": 612,
+      "techniqueIds": [
+        "T05",
+        "T04"
+      ],
+      "referenceIds": [
+        "V16",
+        "V13"
+      ],
+      "status": "planned_not_rendered",
+      "sourceCandidates": [
+        "S1C034",
+        "S1C037",
+        "S1C042"
+      ],
+      "focusAnchor": [
+        0.5,
+        0.5
+      ],
+      "direction": "红杆横向动势作三联板接力",
+      "foregroundOrder": [
+        "主板真希动作",
+        "左右小窗不抢眼睛",
+        "基础全幅动作"
+      ],
+      "sourceRequirement": "每窗独立取回短源，同源分叶必须共时钟；不是静态照片墙"
+    },
+    {
+      "id": "palm-early",
+      "kind": "foreground",
+      "start": 612,
+      "end": 638,
+      "techniqueIds": [
+        "T07",
+        "T08"
+      ],
+      "referenceIds": [
+        "V17",
+        "V03"
+      ],
+      "status": "planned_not_rendered",
+      "alphaCandidate": "S1C020",
+      "focusAnchor": [
+        0.62,
+        0.5
+      ],
+      "direction": "青掌从右侧提前进入真希武器动作",
+      "foregroundOrder": [
+        "真实逐帧青掌alpha",
+        "短字板",
+        "原片人物/背景"
+      ],
+      "sourceRequirement": "只从第一季C020对应源帧分离青掌；若透明边缘/源钟不过关，return revise，不用静态PNG代替",
+      "plannedAlphaMethod": "dark-background luminance/chroma constrained hand ROI + manual contour, per-frame RGB retained",
+      "maxAlphaFrames": 26
+    },
+    {
+      "id": "strike-type",
+      "kind": "type",
+      "start": 612,
+      "end": 638,
+      "techniqueIds": [
+        "T10"
+      ],
+      "referenceIds": [
+        "V02"
+      ],
+      "status": "planned_not_rendered",
+      "text": "STRIKE",
+      "subtitle": "咒力 · 接续",
+      "mode": "ribbon",
+      "board": true,
+      "z": 45,
+      "color": "#11121a",
+      "stroke": "#c31823",
+      "depth": "#080b13",
+      "board_color": "#e6b234",
+      "edge_color": "#b11321",
+      "font_size": 500,
+      "width": 1500
+    },
+    {
+      "id": "eyes-slit",
+      "kind": "slit_eyes",
+      "start": 816,
+      "end": 842,
+      "techniqueIds": [
+        "T05"
+      ],
+      "referenceIds": [
+        "V17"
+      ],
+      "status": "planned_not_rendered",
+      "sourceCandidates": [
+        "S1C014",
+        "S1C082"
+      ],
+      "focusAnchor": [
+        0.5,
+        0.45
+      ],
+      "direction": "窄缝展开到两只眼睛，再接虎杖冲刺",
+      "foregroundOrder": [
+        "眼部双窗",
+        "基础动作"
+      ],
+      "sourceRequirement": "两眼手工对位，保留脸比例；不得只拿整脸任意对半"
+    },
+    {
+      "id": "energy-edge",
+      "kind": "tear_reveal",
+      "start": 970,
+      "end": 996,
+      "techniqueIds": [
+        "T07",
+        "T17"
+      ],
+      "referenceIds": [
+        "V17",
+        "V11"
+      ],
+      "status": "planned_not_rendered",
+      "sourceCandidates": [
+        "S1C020"
+      ],
+      "focusAnchor": [
+        0.68,
+        0.5
+      ],
+      "direction": "窄裂口显现青掌，沿边电弧走向画外",
+      "foregroundOrder": [
+        "青掌alpha",
+        "细裂口的青紫能量/纤维",
+        "原片底镜"
+      ],
+      "sourceRequirement": "共享同一细裂边几何：纸纤维/青紫外光/白芯/移动电弧，需真实渲染而非一圈白线",
+      "left": 1120,
+      "width": 320,
+      "top": 100,
+      "bottom": 980,
+      "edgeFx": {
+        "strength": 0.8,
+        "particles": 12,
+        "cyan": "#72c7ed",
+        "violet": "#b517c6"
+      }
+    },
+    {
+      "id": "leaves-to-technique",
+      "kind": "ribbon_flip",
+      "start": 1048,
+      "end": 1074,
+      "techniqueIds": [
+        "T03"
+      ],
+      "referenceIds": [
+        "V05"
+      ],
+      "status": "planned_not_rendered",
+      "sourceCandidates": [
+        "S1C052"
+      ],
+      "focusAnchor": [
+        0.5,
+        0.5
+      ],
+      "direction": "七叶向同源青拳画面展开",
+      "foregroundOrder": [
+        "七片同源条，全部同源时钟",
+        "基础底图"
+      ],
+      "sourceRequirement": "取回后令展开末帧与接下基础镜同源连续，L2逐帧验收",
+      "handoff": true,
+      "leaves": 7
+    },
+    {
+      "id": "limitless-type",
+      "kind": "type",
+      "start": 1126,
+      "end": 1178,
+      "techniqueIds": [
+        "T10"
+      ],
+      "referenceIds": [
+        "V02"
+      ],
+      "status": "planned_not_rendered",
+      "text": "LIMITLESS",
+      "subtitle": "无下限",
+      "mode": "cylinder",
+      "board": false,
+      "z": 45,
+      "color": "#fff8ee",
+      "stroke": "#1b1248",
+      "depth": "#b517c6",
+      "font_size": 500,
+      "width": 1650
+    },
+    {
+      "id": "clap-match",
+      "kind": "match_cut",
+      "start": 1126,
+      "end": 1178,
+      "techniqueIds": [
+        "T01"
+      ],
+      "referenceIds": [
+        "V20"
+      ],
+      "status": "planned_not_rendered",
+      "fromCandidate": "S1C065",
+      "toCandidate": "S1C067",
+      "cutFrame": 1152,
+      "focusAnchor": [
+        0.53,
+        0.49
+      ],
+      "direction": "同一五条手势在相似天空构图接续",
+      "phase": "指节收拢→合掌",
+      "sourceRequirement": "并非原连续镜头，出入动作相位实测；尽量保持手的焦点坐标"
+    },
+    {
+      "id": "return-windows",
+      "kind": "depth_windows",
+      "start": 1256,
+      "end": 1282,
+      "techniqueIds": [
+        "T04"
+      ],
+      "referenceIds": [
+        "V13"
+      ],
+      "status": "planned_not_rendered",
+      "sourceCandidates": [
+        "S1C027",
+        "S1C086"
+      ],
+      "focusAnchor": [
+        0.5,
+        0.5
+      ],
+      "direction": "三人记忆短回钩，随后回全幅冲锋",
+      "foregroundOrder": [
+        "小型角色窗",
+        "底部基础动作"
+      ],
+      "sourceRequirement": "动态图窗，主动作保持最大面积"
+    },
+    {
+      "id": "final-title",
+      "kind": "tailcard",
+      "start": 1416,
+      "end": 1440,
+      "techniqueIds": [
+        "T18"
+      ],
+      "referenceIds": [
+        "V20"
+      ],
+      "status": "planned_not_rendered",
+      "text": "咒力接力",
+      "subtitle": "JUJUTSU KAISEN · SEASON 01",
+      "focusAnchor": [
+        0.5,
+        0.85
+      ],
+      "direction": "小字落定与末尾淡暗，非大段歌词",
+      "sourceRequirement": "最后一年级冲锋/五条反应源画面下放原创小署名，末帧安全淡黑"
+    }
+  ],
+  "loopDeliverables": [
+    {
+      "loop": 1,
+      "artifact": "renders/loop-01-rough.mp4",
+      "execution": "full60s rough and naked action matching; no fake advanced effects",
+      "review": "independent source/time/action structure review"
+    },
+    {
+      "loop": 2,
+      "artifact": "renders/loop-02-composite-preview.mp4",
+      "execution": "screen/alpha/slit/leaves/type actual low-resolution composition + full60s",
+      "review": "independent key effect, boundary and occlusion review"
+    },
+    {
+      "loop": 3,
+      "artifact": "renders/loop-03-high-quality.mp4",
+      "execution": "high-quality HF final-sized all60s; fixes from loop2",
+      "review": "independent whole film/contact sheet/high resolution review"
+    },
+    {
+      "loop": 4,
+      "artifact": "renders/loop-04-final.mp4",
+      "execution": "actual final changes from reviewer findings, final 1440 frames; do not repeat same render as a new loop",
+      "review": "independent delta recheck + final package quality"
+    }
+  ],
+  "mustResolveBeforeRender": [
+    "B approval binds this plan/source inventory/music hashes",
+    "all selected original source spans exact frame checked for hidden cuts",
+    "focus anchors and source crops measured from prepared source, no guessed alpha approval",
+    "screen formal source frames and alpha real sequence validated before claiming executed"
+  ],
+  "observedDesignEvidence": "motion-preflight/motion-01…08: 58×4 frames manually viewed by execution designer; not full-frame all-source motion audit",
+  "assets": [
+    {
+      "id": "S001",
+      "asset": "assets/shots/S001.mp4",
+      "frames": 37,
+      "usableFrames": 13,
+      "sha256": "2e8962b23ad720d696c731886c09e2790f86a9d796b74804ecb950832c86b8f3",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/04.mp4",
+      "sourceIn": 1029.654167,
+      "sourceId": "S1E04",
+      "description": "张掌靠近镜头"
+    },
+    {
+      "id": "S002",
+      "asset": "assets/shots/S002.mp4",
+      "frames": 42,
+      "usableFrames": 18,
+      "sha256": "336c4b1527fddda56c2e6af729a0ba58e8e5b203d37e273899103ab2613c2d8e",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceIn": 554.875,
+      "sourceId": "S1E05",
+      "description": "青光手掌张开"
+    },
+    {
+      "id": "S003",
+      "asset": "assets/shots/S003.mp4",
+      "frames": 38,
+      "usableFrames": 14,
+      "sha256": "fad8c1af8208409a5a43e419f8b4ef403427611c2bfe4517dd152054faf204ff",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "sourceIn": 339.62,
+      "sourceId": "S1E07",
+      "description": "手掌朝镜头"
+    },
+    {
+      "id": "S004",
+      "asset": "assets/shots/S004.mp4",
+      "frames": 36,
+      "usableFrames": 12,
+      "sha256": "27ea21b8fd34cac2543de85d93978d4bd2c78b2fe107e2ab4c93497b5540c6fd",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceIn": 400.42,
+      "sourceId": "S1E24",
+      "description": "手持钉子"
+    },
+    {
+      "id": "S005",
+      "asset": "assets/shots/S005.mp4",
+      "frames": 47,
+      "usableFrames": 23,
+      "sha256": "006bba3e198bc84f405e9d6693373428122cdeba6648ee41912f6363f4f72d44",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "sourceIn": 129.64,
+      "sourceId": "S1E17",
+      "description": "横向挥杆"
+    },
+    {
+      "id": "S006",
+      "asset": "assets/shots/S006.mp4",
+      "frames": 46,
+      "usableFrames": 22,
+      "sha256": "06d05cf7b29b1d140e4d073e1f366116e3cdcf6f12950690f1136111cd9e4e2e",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "sourceIn": 134.641667,
+      "sourceId": "S1E17",
+      "description": "三轮腾空跨步（动态预检纠正静帧初判真希）"
+    },
+    {
+      "id": "S007",
+      "asset": "assets/shots/S007.mp4",
+      "frames": 46,
+      "usableFrames": 22,
+      "sha256": "a0728f16042f09fc9fe8a635d888da21819b83eb29672994b4888a35046dbe0b",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 204.791667,
+      "sourceId": "S1E20",
+      "description": "旋转腾空"
+    },
+    {
+      "id": "S008",
+      "asset": "assets/shots/S008.mp4",
+      "frames": 46,
+      "usableFrames": 22,
+      "sha256": "1dbd37f20935f94ea46db8617025d36c85010b64fa6e438f577962870c0468c0",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "sourceIn": 259.791667,
+      "sourceId": "S1E23",
+      "description": "离地跃起"
+    },
+    {
+      "id": "S009",
+      "asset": "assets/shots/S009.mp4",
+      "frames": 46,
+      "usableFrames": 22,
+      "sha256": "9da3fa43fc4bd7d84c778a90bae97c2e73a6390aff5388838d7f097321a0a071",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceIn": 369.791667,
+      "sourceId": "S1E05",
+      "description": "红眼近景"
+    },
+    {
+      "id": "S010",
+      "asset": "assets/shots/S010.mp4",
+      "frames": 32,
+      "usableFrames": 8,
+      "sha256": "0e012ce28186ef8566517f9e0162d4e3ada7cad3504894c91050f60f52871ece",
+      "sourceFps": "24000/1001",
+      "sourcePath": null,
+      "sourceIn": null,
+      "sourceId": null,
+      "description": "有意短黑"
+    },
+    {
+      "id": "S011",
+      "asset": "assets/shots/S011.mp4",
+      "frames": 58,
+      "usableFrames": 34,
+      "sha256": "7d70b04fcefd7852230a9f158d40b33ea113b0a013efc6a7b1045a679f14eec9",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceIn": 344.652,
+      "sourceId": "S1E05",
+      "description": "正面微笑"
+    },
+    {
+      "id": "S012",
+      "asset": "assets/shots/S012.mp4",
+      "frames": 58,
+      "usableFrames": 34,
+      "sha256": "73648f7d6cb268c1ec1d38a147e271935a483b522a42d1895e81a3b9a36f6f68",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "sourceIn": 439.652,
+      "sourceId": "S1E17",
+      "description": "正面自信微笑"
+    },
+    {
+      "id": "S013",
+      "asset": "assets/shots/S013.mp4",
+      "frames": 58,
+      "usableFrames": 34,
+      "sha256": "2c116290fc37072764b870aa5efaf9ac4b5db842e243350ea008922f5cf2d875",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "sourceIn": 319.652,
+      "sourceId": "S1E07",
+      "description": "抬头正面"
+    },
+    {
+      "id": "S014",
+      "asset": "assets/shots/S014.mp4",
+      "frames": 58,
+      "usableFrames": 34,
+      "sha256": "e674e9447cf7921f8439286cf4cddaa94d79997b283c81f1b01aa5438403a062",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 1174.652,
+      "sourceId": "S1E20",
+      "description": "双指黑白近景"
+    },
+    {
+      "id": "S015",
+      "asset": "assets/shots/S015.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sha256": "c25d253468130d0312970a5edc18493fac43af46756bb16707f9791f1d930cfd",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceIn": 339.75,
+      "sourceId": "S1E05",
+      "description": "近身交击"
+    },
+    {
+      "id": "S016",
+      "asset": "assets/shots/S016.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sha256": "3bec32f91ed982010b789206626bc3536361ff7367c80c84c3b2267b500c207d",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceIn": 349.75,
+      "sourceId": "S1E05",
+      "description": "挥拳背面"
+    },
+    {
+      "id": "S017",
+      "asset": "assets/shots/S017.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "1cfeb6f60c982f51926e78fb25874ffdb1f8fe7df38cba6ec914e0bf9ac197c6",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceIn": 365.036,
+      "sourceId": "S1E05",
+      "description": "拳臂交击"
+    },
+    {
+      "id": "S018",
+      "asset": "assets/shots/S018.mp4",
+      "frames": 49,
+      "usableFrames": 25,
+      "sha256": "39009ea6a8b9581ed0832a9e1a0c8a24eb1004384c056b16cfcf46bf263b0826",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceIn": 609.729167,
+      "sourceId": "S1E05",
+      "description": "双臂向两侧展开"
+    },
+    {
+      "id": "S019",
+      "asset": "assets/shots/S019.mp4",
+      "frames": 49,
+      "usableFrames": 25,
+      "sha256": "16490a9b29c7b29b2c956bb31023ec78d322e108fa30951578e6d00786662d44",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceIn": 403.95,
+      "sourceId": "S1E05",
+      "description": "低姿前探"
+    },
+    {
+      "id": "S020",
+      "asset": "assets/shots/S020.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sha256": "4dd78364b62c13df14fdb29c829725fb0ff7412e88c277c25f221ca63b8cda60",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceIn": 589.75,
+      "sourceId": "S1E05",
+      "description": "青光手势近景"
+    },
+    {
+      "id": "S021",
+      "asset": "assets/shots/S021.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "844710b324a02a726e952596d3ae9bfa763858900af2e91ff9645bc82827f607",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceIn": 629.708333,
+      "sourceId": "S1E05",
+      "description": "双手指节相合"
+    },
+    {
+      "id": "S022",
+      "asset": "assets/shots/S022.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sha256": "d92def6c1181cda5c238932fa03c25f87255cc17259cfa761aff7d757148008b",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "sourceIn": 244.75,
+      "sourceId": "S1E07",
+      "description": "双指抬起"
+    },
+    {
+      "id": "S023",
+      "asset": "assets/shots/S023.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "7470262869bdf2ef9650f9a83737cfd4e5e676fd478db133276d44e7ec18ab7d",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceIn": 389.708333,
+      "sourceId": "S1E05",
+      "description": "白蛇与鵺雷光展翼"
+    },
+    {
+      "id": "S024",
+      "asset": "assets/shots/S024.mp4",
+      "frames": 49,
+      "usableFrames": 25,
+      "sha256": "2fd2a1899ca32d2298ede9d1219d655098685f8e15eb71d630b62243767963b4",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "sourceIn": 329.729167,
+      "sourceId": "S1E07",
+      "description": "抬指靠近额头"
+    },
+    {
+      "id": "S025",
+      "asset": "assets/shots/S025.mp4",
+      "frames": 51,
+      "usableFrames": 27,
+      "sha256": "a7299b345d59274395dfbe8e7bd69ef2be7aac61d7367587e4adefbee5feec64",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "sourceIn": 114.6875,
+      "sourceId": "S1E17",
+      "description": "长杆横挥"
+    },
+    {
+      "id": "S026",
+      "asset": "assets/shots/S026.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sha256": "05e218f14877a798bf95d3f9c5244cc0066336817d577aee4b3b5d30b01a2604",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "sourceIn": 129.64,
+      "sourceId": "S1E17",
+      "description": "横向挥杆"
+    },
+    {
+      "id": "S027",
+      "asset": "assets/shots/S027.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "5db818f939b8ea742cc84f0948932da242d5346aba286ad2ed07fdc46f126b46",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "sourceIn": 139.628,
+      "sourceId": "S1E17",
+      "description": "手持武器侧视"
+    },
+    {
+      "id": "S028",
+      "asset": "assets/shots/S028.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sha256": "5ac10610451591c9d13eb5b9475aed45aadd7b5235fb6d100322abe3afafc6f4",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "sourceIn": 204.628,
+      "sourceId": "S1E17",
+      "description": "长杆前击"
+    },
+    {
+      "id": "S029",
+      "asset": "assets/shots/S029.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "3306dd4c694e9ff75cf4f0607b3ab98ece15e639559aa118bd3446eec52af465",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "sourceIn": 495.036,
+      "sourceId": "S1E17",
+      "description": "背面挥锤"
+    },
+    {
+      "id": "S030",
+      "asset": "assets/shots/S030.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "77d4233d9d01a537efa596f2f5d7171eb6f24964bf265262d9f6ae568092dbe0",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "sourceIn": 504.708333,
+      "sourceId": "S1E17",
+      "description": "正面怒视"
+    },
+    {
+      "id": "S031",
+      "asset": "assets/shots/S031.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "f1174321c64855d6a5ee837d78b649621dd93e6a02832354699f19fd337a041e",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceIn": 409.708333,
+      "sourceId": "S1E24",
+      "description": "带伤正面笑"
+    },
+    {
+      "id": "S032",
+      "asset": "assets/shots/S032.mp4",
+      "frames": 49,
+      "usableFrames": 25,
+      "sha256": "e01fe580f5091047e654d4e6702e9e99720c935664198984be59e2cc18292b65",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceIn": 415.036,
+      "sourceId": "S1E24",
+      "description": "手臂举起斜身"
+    },
+    {
+      "id": "S033",
+      "asset": "assets/shots/S033.mp4",
+      "frames": 49,
+      "usableFrames": 25,
+      "sha256": "2b0652fedd71d1996ea454b0c66cea8d04a3dc75262ef605b3a257dad042ba7a",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceIn": 689.729167,
+      "sourceId": "S1E24",
+      "description": "抬指面前"
+    },
+    {
+      "id": "S034",
+      "asset": "assets/shots/S034.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "64ccc7445a35c29c4703897f13a50e40e3490fddb225efb674c5770c82aefb11",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceIn": 693.95,
+      "sourceId": "S1E24",
+      "description": "红黑冲击"
+    },
+    {
+      "id": "S035",
+      "asset": "assets/shots/S035.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "f79915f69344cfae03d207a19183cf7df0863edc2c2cf210394bd53a67cce742",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceIn": 704.708333,
+      "sourceId": "S1E24",
+      "description": "侧面微笑"
+    },
+    {
+      "id": "S036",
+      "asset": "assets/shots/S036.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sha256": "23f8b935fc349720d55caa04846c7b0ffb3d7a2c1dad794a62f689d2fd7a513d",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceIn": 764.75,
+      "sourceId": "S1E24",
+      "description": "低头蓄势咬牙"
+    },
+    {
+      "id": "S037",
+      "asset": "assets/shots/S037.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "b90a311ad53b46e2875eee2b67b96c47d723c9eb43af33920836666733bd8ee8",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 204.708333,
+      "sourceId": "S1E20",
+      "description": "旋转腾空"
+    },
+    {
+      "id": "S038",
+      "asset": "assets/shots/S038.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "1185273a11dd170ef85cc20a0105e2093f70cb9ecd5f954795ef3aa50ec520b7",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 209.72,
+      "sourceId": "S1E20",
+      "description": "前倾准备"
+    },
+    {
+      "id": "S039",
+      "asset": "assets/shots/S039.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "13c0fe85ec40ae9479f1dd28f534feea81fdc5d8dcdb38bfeee2dc52bbe470f5",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 220.036,
+      "sourceId": "S1E20",
+      "description": "并肩奔跑"
+    },
+    {
+      "id": "S040",
+      "asset": "assets/shots/S040.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "7dc8888afe6747a31848559914ad7a039bee2cfd2f3cb3da448e42e15832f87f",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 269.4,
+      "sourceId": "S1E20",
+      "description": "脚掌向镜头"
+    },
+    {
+      "id": "S041",
+      "asset": "assets/shots/S041.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "f6f723b3f2ce40be2ab92494dee612f8224afdfb319fc5e97892f14c64135408",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 299.628,
+      "sourceId": "S1E20",
+      "description": "前伸拳头"
+    },
+    {
+      "id": "S042",
+      "asset": "assets/shots/S042.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "0f7f971d7ed2087b375c65b7e4afb44c67dfd6ed793f5de7d2b0757cad15e83e",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 314.708333,
+      "sourceId": "S1E20",
+      "description": "侧身合掌"
+    },
+    {
+      "id": "S043",
+      "asset": "assets/shots/S043.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "3a585ba6cc2d41c72d8a986c75f660af4ee81f76caaeafb09d1891dd2ab7b76f",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "sourceIn": 879.708333,
+      "sourceId": "S1E19",
+      "description": "红黑爆发中的人物"
+    },
+    {
+      "id": "S044",
+      "asset": "assets/shots/S044.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "cb333467447f277ac38b8eb7248df1739f5593f1554b3f2bde2ddff5b23ea686",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "sourceIn": 889.708333,
+      "sourceId": "S1E19",
+      "description": "战斗中正面"
+    },
+    {
+      "id": "S045",
+      "asset": "assets/shots/S045.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "671ed8c67e89fcfc1f8405309b23d9c7513239ef8fe3c5a025cefa78024d6476",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "sourceIn": 914.628,
+      "sourceId": "S1E19",
+      "description": "蓝光拳指近景"
+    },
+    {
+      "id": "S046",
+      "asset": "assets/shots/S046.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "1f388b4294360c118799589458e9cc6bdc7006295f595c78dc2b191cbd69c8c2",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "sourceIn": 918.95,
+      "sourceId": "S1E19",
+      "description": "蓝色气焰举拳"
+    },
+    {
+      "id": "S047",
+      "asset": "assets/shots/S047.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "6bb9a2dbbe220affde287180fd573462ebd7249f85dbd46b4923c812ef238251",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 1099.708333,
+      "sourceId": "S1E20",
+      "description": "双拳相合侧身"
+    },
+    {
+      "id": "S048",
+      "asset": "assets/shots/S048.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "eb1099cc5d630da635d4ce36413bfc1e427611d3fb8b6f0f7e1c7f07837a859f",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 1124.708333,
+      "sourceId": "S1E20",
+      "description": "合掌侧身"
+    },
+    {
+      "id": "S049",
+      "asset": "assets/shots/S049.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "2b4a1de3daa90edf5973ad07fe4d8fe55c6757c3171bd9cf300ad2a92bb51ca9",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 1174.708333,
+      "sourceId": "S1E20",
+      "description": "双指黑白近景"
+    },
+    {
+      "id": "S050",
+      "asset": "assets/shots/S050.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "d41cfe2b9873ff49dda21625927c9b9475de40c88042c22b29f6e1ddc1f4ba6c",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 1179.708333,
+      "sourceId": "S1E20",
+      "description": "术式双手与蓝球"
+    },
+    {
+      "id": "S051",
+      "asset": "assets/shots/S051.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "89957884ccc079f2d2947e0735609c089b056c01cb5e4650eea6491692e5d4d1",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 1209.708333,
+      "sourceId": "S1E20",
+      "description": "紫光照亮蓝眼"
+    },
+    {
+      "id": "S052",
+      "asset": "assets/shots/S052.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "9b6312c1faa55d9823b7382351e805ecd526f68654b5c4988e0ff4d45870aa0a",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceIn": 554.708333,
+      "sourceId": "S1E05",
+      "description": "青光手掌张开"
+    },
+    {
+      "id": "S053",
+      "asset": "assets/shots/S053.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "ddfa17c7e706c932b581fdf6b8861789b6fd92a9de20f9beacd00f267b959b6e",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "sourceIn": 244.708333,
+      "sourceId": "S1E07",
+      "description": "双指抬起"
+    },
+    {
+      "id": "S054",
+      "asset": "assets/shots/S054.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "a18e2bddd7e4f24b99619043a3c87329e9fe06ee448f146fe6d370bd08c7ae32",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "sourceIn": 259.708333,
+      "sourceId": "S1E23",
+      "description": "离地跃起"
+    },
+    {
+      "id": "S055",
+      "asset": "assets/shots/S055.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "07dfde0e4327c4cc548bf50a23ae38a0e94cf8a52f3119f314794ea30e13ddb3",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "sourceIn": 294.708333,
+      "sourceId": "S1E23",
+      "description": "睁眼"
+    },
+    {
+      "id": "S056",
+      "asset": "assets/shots/S056.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "f1174321c64855d6a5ee837d78b649621dd93e6a02832354699f19fd337a041e",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceIn": 409.708333,
+      "sourceId": "S1E24",
+      "description": "带伤正面笑"
+    },
+    {
+      "id": "S057",
+      "asset": "assets/shots/S057.mp4",
+      "frames": 54,
+      "usableFrames": 30,
+      "sha256": "f6181b4a682f784f590c49f6c3b6bdf4496f1dc445795d996a9344694c2987a4",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceIn": 764.652,
+      "sourceId": "S1E24",
+      "description": "低头蓄势咬牙"
+    },
+    {
+      "id": "S058",
+      "asset": "assets/shots/S058.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sha256": "5e0fc79494c2da58eb619eb8f1f3c1d34a1db4c63d7edac15ba14fa1656c273e",
+      "sourceFps": "24000/1001",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceIn": 1209.75,
+      "sourceId": "S1E20",
+      "description": "紫光照亮蓝眼"
+    },
+    {
+      "id": "XPALM",
+      "asset": "assets/shots/XPALM.mp4",
+      "frames": 31,
+      "usableFrames": 26,
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/05.mp4",
+      "sourceId": "S1E05",
+      "sourceIn": 554.6,
+      "sourceFps": "24000/1001",
+      "description": "第一季青掌，前景同号RGB用F2–27",
+      "sha256": "f7dd18e67f04c56fd628681c03682caa37ecbab0c9c13d1c1b3ddd97b28e967b"
+    },
+    {
+      "id": "N026",
+      "asset": "assets/shots/N026.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sha256": "45d27c4578861f4ca27a5d45d0b00b7c11ae595bbea24f56e689c383900b7c5e",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/17.mp4",
+      "sourceId": "S1E17",
+      "sourceIn": 179.5,
+      "sourceFps": "24000/1001",
+      "description": "pending final view"
+    },
+    {
+      "id": "N037",
+      "asset": "assets/shots/N037.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "3276ad02fe616071cb96d445d6cadbb222bfafae71e16ebfcbfd7624ea688abe",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/19.mp4",
+      "sourceId": "S1E19",
+      "sourceIn": 924.5583333333334,
+      "sourceFps": "24000/1001",
+      "description": "pending final view"
+    },
+    {
+      "id": "N052",
+      "asset": "assets/shots/N052.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "381b72d8fde2125ada83349f1e5559d2759d95c9d8105a2b64a40599164ee2a3",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/07.mp4",
+      "sourceId": "S1E07",
+      "sourceIn": 254.17999999999998,
+      "sourceFps": "24000/1001",
+      "description": "取回动作，见curator扩查"
+    },
+    {
+      "id": "N053",
+      "asset": "assets/shots/N053.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "ac926f08db02d7d538bf6c4bc70a5b203dceb4c60af012337214723aa2326e33",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "sourceId": "S1E23",
+      "sourceIn": 239.45833333333334,
+      "sourceFps": "24000/1001",
+      "description": "紫瞳眼部保持，身份不确认"
+    },
+    {
+      "id": "N054",
+      "asset": "assets/shots/N054.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "a1cf532c2d5b857e03c728fbe0a6d01cb547c6b1af2e55befb8d8252b2b6a514",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "sourceId": "S1E23",
+      "sourceIn": 265.2083333333333,
+      "sourceFps": "24000/1001",
+      "description": "pending final view"
+    },
+    {
+      "id": "N056",
+      "asset": "assets/shots/N056.mp4",
+      "frames": 50,
+      "usableFrames": 26,
+      "sha256": "8c46ca702a738ba2f24f1e187c3dfd84048683354eb2ad63536b0ce4d7462fa9",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/23.mp4",
+      "sourceId": "S1E23",
+      "sourceIn": 289.4583333333333,
+      "sourceFps": "24000/1001",
+      "description": "pending final view"
+    },
+    {
+      "id": "N057",
+      "asset": "assets/shots/N057.mp4",
+      "frames": 54,
+      "usableFrames": 30,
+      "sha256": "bd4c3babf9ed75058651ac3dbde0629c1c048355d962df2921cf098546c10793",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceId": "S1E24",
+      "sourceIn": 449.448,
+      "sourceFps": "24000/1001",
+      "description": "pending final view"
+    },
+    {
+      "id": "N058",
+      "asset": "assets/shots/N058.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sha256": "dfab549719a7333d7b745f027b4fc82aa0ab8d01f12127ae603951636ce8eab4",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceId": "S1E20",
+      "sourceIn": 1214.438,
+      "sourceFps": "24000/1001",
+      "description": "pending final view"
+    }
+  ],
+  "visuals": [],
+  "layouts": [
+    {
+      "id": "weapon-triptych",
+      "kind": "filmstrip",
+      "start": 561,
+      "end": 585,
+      "clips": [
+        {
+          "assetId": "S025",
+          "offset": 12
+        },
+        {
+          "assetId": "S026",
+          "offset": 12
+        },
+        {
+          "assetId": "S028",
+          "offset": 12
+        }
+      ],
+      "z": 25,
+      "origin": "T05/T04/V16/V13，动态武器三联，缩短到24帧避免延展源窗"
+    },
+    {
+      "id": "paired-eyes",
+      "kind": "slit_eyes",
+      "start": 816,
+      "end": 842,
+      "clips": [
+        {
+          "assetId": "S009",
+          "offset": 12,
+          "transform": {
+            "scale": 1.2,
+            "x": -720,
+            "y": -30
+          }
+        },
+        {
+          "assetId": "S055",
+          "offset": 12,
+          "transform": {
+            "scale": 1.2,
+            "x": 680,
+            "y": 95
+          }
+        }
+      ],
+      "openFrames": 7,
+      "endZoom": 1.05,
+      "zoomFrames": 4,
+      "z": 30,
+      "origin": "T05/V17，两只原生眼部手工对位，待真实捕获确认"
+    },
+    {
+      "id": "palm-energy-paper",
+      "kind": "tear_reveal",
+      "start": 970,
+      "end": 996,
+      "clips": [
+        {
+          "assetId": "XPALM",
+          "offset": 2
+        }
+      ],
+      "left": 1120,
+      "width": 320,
+      "top": 100,
+      "bottom": 980,
+      "revealFrames": 4,
+      "z": 30,
+      "edgeFx": {
+        "strength": 0.8,
+        "particles": 12,
+        "cyan": "#72c7ed",
+        "violet": "#b517c6"
+      },
+      "origin": "T07/T17/V17/V11细裂口与同源青掌RGBA"
+    },
+    {
+      "id": "same-source-leaves",
+      "kind": "ribbon_flip",
+      "start": 1062,
+      "end": 1074,
+      "clips": [
+        {
+          "assetId": "S045",
+          "offset": 0
+        }
+      ],
+      "leaves": 7,
+      "handoff": true,
+      "z": 30,
+      "origin": "T03/V05 同源七叶，fileF0–11接基础S045 fileF12，14帧源余量已实际看"
+    },
+    {
+      "id": "memory-windows",
+      "kind": "depth_windows",
+      "start": 1256,
+      "end": 1282,
+      "clips": [
+        {
+          "assetId": "S053",
+          "offset": 12
+        },
+        {
+          "assetId": "S031",
+          "offset": 12
+        }
+      ],
+      "slots": [
+        {
+          "x": -500,
+          "y": -50,
+          "scale": 0.48,
+          "rotation": -6,
+          "blur": 0.3
+        },
+        {
+          "x": 570,
+          "y": 100,
+          "scale": 0.38,
+          "rotation": 8,
+          "blur": 2
+        }
+      ],
+      "z": 20,
+      "origin": "T04/V13 有意复用角色记忆片，独立于主线源重叠统计"
+    }
+  ],
+  "foregrounds": [
+    {
+      "id": "palm-before-weapon",
+      "alpha": "XPALM",
+      "start": 612,
+      "end": 638,
+      "offset": 2,
+      "z": 60,
+      "scale": 1.1,
+      "restX": 120,
+      "restY": -70,
+      "x": 160,
+      "y": 70,
+      "inFrames": 4,
+      "outFrames": 4,
+      "clipActive": true,
+      "glow": 2,
+      "glowColor": "#72c7ed"
+    },
+    {
+      "id": "palm-over-paper",
+      "alpha": "XPALM",
+      "start": 970,
+      "end": 996,
+      "offset": 2,
+      "z": 60,
+      "scale": 1,
+      "restX": 0,
+      "restY": -70,
+      "x": 80,
+      "y": 40,
+      "inFrames": 4,
+      "outFrames": 4,
+      "clipActive": true,
+      "glow": 2,
+      "glowColor": "#72c7ed"
+    }
+  ],
+  "typeEvents": [
+    {
+      "id": "opening-slam",
+      "kind": "type",
+      "start": 4,
+      "end": 40,
+      "techniqueIds": [
+        "T10"
+      ],
+      "referenceIds": [
+        "V02"
+      ],
+      "status": "planned_not_rendered",
+      "text": "CURSED FLOW",
+      "subtitle": "咒力接力",
+      "mode": "slam",
+      "board": false,
+      "z": 45,
+      "color": "#fff7de",
+      "depth": "#bb1422",
+      "font_size": 220,
+      "width": 1280,
+      "sourceRequirement": "原创字形，只复用字效代码，不复用第二季图像",
+      "font": "Barlow Condensed",
+      "y": 180,
+      "subtitle_y": 470,
+      "stroke": "#080b13"
+    },
+    {
+      "id": "strike-type",
+      "kind": "type",
+      "start": 612,
+      "end": 638,
+      "techniqueIds": [
+        "T10"
+      ],
+      "referenceIds": [
+        "V02"
+      ],
+      "status": "planned_not_rendered",
+      "text": "STRIKE",
+      "subtitle": "咒力 · 接续",
+      "mode": "ribbon",
+      "board": true,
+      "z": 45,
+      "color": "#11121a",
+      "stroke": "#c31823",
+      "depth": "#080b13",
+      "board_color": "#e6b234",
+      "edge_color": "#b11321",
+      "font_size": 500,
+      "width": 1500,
+      "font": "Barlow Condensed"
+    },
+    {
+      "id": "limitless-type",
+      "kind": "type",
+      "start": 1126,
+      "end": 1178,
+      "techniqueIds": [
+        "T10"
+      ],
+      "referenceIds": [
+        "V02"
+      ],
+      "status": "planned_not_rendered",
+      "text": "LIMITLESS",
+      "subtitle": "无下限",
+      "mode": "cylinder",
+      "board": false,
+      "z": 45,
+      "color": "#fff8ee",
+      "stroke": "#1b1248",
+      "depth": "#b517c6",
+      "font_size": 410,
+      "width": 1400,
+      "font": "Barlow Condensed",
+      "x": 1150,
+      "y": 620
+    }
+  ],
+  "flashes": [
+    {
+      "frame": 13,
+      "width": 2,
+      "amount": 0.13,
+      "onsetSeconds": 0.53,
+      "claim": "measured onset candidate, no auditory confirmation"
+    },
+    {
+      "frame": 57,
+      "width": 2,
+      "amount": 0.13,
+      "onsetSeconds": 2.37,
+      "claim": "measured onset candidate, no auditory confirmation"
+    },
+    {
+      "frame": 336,
+      "width": 2,
+      "amount": 0.13,
+      "onsetSeconds": 13.98,
+      "claim": "measured onset candidate, no auditory confirmation"
+    },
+    {
+      "frame": 717,
+      "width": 2,
+      "amount": 0.13,
+      "onsetSeconds": 29.86,
+      "claim": "measured onset candidate, no auditory confirmation"
+    },
+    {
+      "frame": 1019,
+      "width": 2,
+      "amount": 0.13,
+      "onsetSeconds": 42.47,
+      "claim": "measured onset candidate, no auditory confirmation"
+    },
+    {
+      "frame": 1206,
+      "width": 2,
+      "amount": 0.13,
+      "onsetSeconds": 50.25,
+      "claim": "measured onset candidate, no auditory confirmation"
+    },
+    {
+      "frame": 1387,
+      "width": 2,
+      "amount": 0.13,
+      "onsetSeconds": 57.79,
+      "claim": "measured onset candidate, no auditory confirmation"
+    }
+  ],
+  "revision": "L2-B",
+  "archiveScreen": {
+    "id": "archive-screen",
+    "start": 176,
+    "end": 312,
+    "description": "original persistent archive monitor with changing source videos; no tracked anime phone claim"
+  },
+  "tailcard": {
+    "start": 1416,
+    "end": 1440,
+    "text": "咒力接力"
+  },
+  "nativeTexts": [
+    {
+      "id": "opening-slam",
+      "text": "咒力接力",
+      "startFrame": 4,
+      "frames": 36,
+      "fontSize": 36,
+      "color": "#fff7de",
+      "fontWeight": 900,
+      "align": "center"
+    },
+    {
+      "id": "strike-type",
+      "text": "咒力 · 接续",
+      "startFrame": 612,
+      "frames": 26,
+      "fontSize": 36,
+      "color": "#fff7de",
+      "fontWeight": 900,
+      "align": "center"
+    },
+    {
+      "id": "limitless-type",
+      "text": "无下限",
+      "startFrame": 1126,
+      "frames": 52,
+      "fontSize": 36,
+      "color": "#fff7de",
+      "fontWeight": 900,
+      "align": "center"
+    },
+    {
+      "id": "tail",
+      "text": "咒力接力",
+      "startFrame": 1416,
+      "frames": 24,
+      "fontSize": 36,
+      "color": "#fff7de",
+      "fontWeight": 900,
+      "align": "center"
+    }
+  ]
+}

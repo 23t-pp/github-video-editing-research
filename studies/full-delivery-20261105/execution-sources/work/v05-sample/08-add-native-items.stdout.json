@@ -1,0 +1,143 @@
+{
+  "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_item",
+      "result": {
+        "ok": true,
+        "atomic": true,
+        "validateOnly": false,
+        "ripple": false,
+        "results": [
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "b236dab0-54b5-4f96-b5b7-dc22c08e8718",
+              "itemId": "item_36484ebe-f459-41be-a1c8-dec890f43b84",
+              "name": "shot-a-road.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 0,
+              "durationInFrames": 48,
+              "srcInFrame": 0
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+              "itemId": "item_3faccf23-a66c-4b7e-bfce-51bb4852b0b8",
+              "name": "shot-b-driver-aerial.mp4",
+              "kind": "video",
+              "track": "track_362eaeb6-fa41-4d08-97a4-f76825898772",
+              "startFrame": 30,
+              "durationInFrames": 18,
+              "srcInFrame": 0
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+              "itemId": "item_cedf240f-886a-4fb6-8bf1-115226f77e66",
+              "name": "shot-b-driver-aerial.mp4",
+              "kind": "video",
+              "track": "track_6613898d-e835-4d82-9310-affdc4c81763",
+              "startFrame": 30,
+              "durationInFrames": 18,
+              "srcInFrame": 0
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+              "itemId": "item_41dd1fee-3e14-4edc-b61b-be05457161a9",
+              "name": "shot-b-driver-aerial.mp4",
+              "kind": "video",
+              "track": "track_92d6e775-8dc0-4dd4-85be-46b5c23870ec",
+              "startFrame": 30,
+              "durationInFrames": 18,
+              "srcInFrame": 0
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+              "itemId": "item_0904e8ca-9e38-473a-8aeb-edbf7fcd1726",
+              "name": "shot-b-driver-aerial.mp4",
+              "kind": "video",
+              "track": "track_b4c1051e-40dc-4b84-8c51-fe2aecd5e7ef",
+              "startFrame": 30,
+              "durationInFrames": 18,
+              "srcInFrame": 0
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+              "itemId": "item_eea36686-e732-4142-a3a0-622418d216f3",
+              "name": "shot-b-driver-aerial.mp4",
+              "kind": "video",
+              "track": "track_e45672dd-1e39-4fae-a1c4-c5c82a8afaee",
+              "startFrame": 30,
+              "durationInFrames": 18,
+              "srcInFrame": 0
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+              "itemId": "item_2afdb599-f92a-4707-9bba-c57996ddf171",
+              "name": "shot-b-driver-aerial.mp4",
+              "kind": "video",
+              "track": "track_974c45a3-c9e9-49eb-8cbd-81a265a07739",
+              "startFrame": 30,
+              "durationInFrames": 18,
+              "srcInFrame": 0
+            }
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "placed": {
+              "assetId": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+              "itemId": "item_f1af392a-1b3e-43f4-bc2b-dd4412405bc6",
+              "name": "shot-b-driver-aerial.mp4",
+              "kind": "video",
+              "track": "track_v1",
+              "startFrame": 48,
+              "durationInFrames": 60,
+              "srcInFrame": 18
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "c5c74e20-2c47-431d-89e7-78b908f6ef57",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-6c41787a",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_48deb692ce5045da",
+    "editorUrl": "http://localhost:5199/#/editor/0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "updatedAt": "2026-11-04T15:01:04.891Z"
+  }
+}

@@ -1,0 +1,1026 @@
+{
+  "status": "pass_local_contract_only",
+  "checkedAt": "2026-11-05T11:29:08.500Z",
+  "manifestSha256": "a3d5e0168863d94ba9ba66a008894ad9f286c7e9c1dbca05fdf0f588bf884087",
+  "reframeCount": 58,
+  "nonIdentityReframes": 3,
+  "maxTranslationQuantizationErrorPixels": 0.0800000000000125,
+  "maxProjectedAnchorErrorPixels": 0.08000000000004093,
+  "officialParserAcceptedAll": true,
+  "invalidTransformInputsRejected": true,
+  "oldProjectUUIDReuseRejected": true,
+  "externalConcurrentDriftRecordedOnly": true,
+  "fixedProtectedDriftStopsWithoutRestore": true,
+  "officialIndexOwnOnlyMergePreservesExternalEntries": true,
+  "sourceProof": [
+    {
+      "file": "C:\\Users\\PC\\Desktop\\OpenChatCut-main\\src\\agent\\tools\\edit-item-visual.ts",
+      "sha256": "13242b81b08c5f6ccd6804955f720f99a8298e533a74fb1d69eafccf00e2f02a"
+    },
+    {
+      "file": "C:\\Users\\PC\\Desktop\\OpenChatCut-main\\src\\geometry\\placement.ts",
+      "sha256": "ab6d9c3d3b79b5cfbf372ea2330c2577b1186a275e04c4e157abe05f2191bdb8"
+    },
+    {
+      "file": "C:\\Users\\PC\\Desktop\\OpenChatCut-main\\server\\plugins\\project-store.ts",
+      "sha256": "d3a84d792919a3dda61ce8d9e60e88d1b0438e49cf70a5300993e263e1a4ae64"
+    },
+    {
+      "file": "C:\\Users\\PC\\Desktop\\OpenChatCut-main\\server\\plugins\\project-store-entries.ts",
+      "sha256": "b8646953b3d66dcce672473a84dea0c3d0a07b899c010bb89614b286c785cab0"
+    }
+  ],
+  "reframes": [
+    {
+      "id": "S001",
+      "pixels": {
+        "scale": 1.6,
+        "x": -434,
+        "y": 228
+      },
+      "occTransform": {
+        "x": -22.6,
+        "y": 21.11,
+        "scale": 1.6
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0.07999999999998408,
+        "y": -0.012000000000028876
+      }
+    },
+    {
+      "id": "S002",
+      "pixels": {
+        "scale": 1.8,
+        "x": -142,
+        "y": 8
+      },
+      "occTransform": {
+        "x": -7.4,
+        "y": 0.74,
+        "scale": 1.8
+      },
+      "translationQuantizationErrorPixels": {
+        "x": -0.0800000000000125,
+        "y": -0.008000000000000007
+      }
+    },
+    {
+      "id": "S003",
+      "pixels": {
+        "scale": 2.4,
+        "x": 1046,
+        "y": -676
+      },
+      "occTransform": {
+        "x": 54.48,
+        "y": -62.59,
+        "scale": 2.4
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0.015999999999849024,
+        "y": 0.02800000000002001
+      }
+    },
+    {
+      "id": "S004",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S005",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S006",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S007",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S008",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S009",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S010",
+      "pixels": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S011",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S012",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S013",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S014",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S015",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S016",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S017",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S018",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S019",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S020",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S021",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S022",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S023",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S024",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S025",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S026",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S027",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S028",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S029",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S030",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S031",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S032",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S033",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S034",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S035",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S036",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S037",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S038",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S039",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S040",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S041",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S042",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S043",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S044",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S045",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S046",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S047",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S048",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S049",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S050",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S051",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S052",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S053",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S054",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S055",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S056",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S057",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "S058",
+      "pixels": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "occTransform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "translationQuantizationErrorPixels": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "serviceCalls": 0,
+  "serviceWrites": 0,
+  "projectCreated": false,
+  "authorizationCreated": false,
+  "pending": "Actual official edit_item write/readback and imported-copy readback await root final media lock."
+}

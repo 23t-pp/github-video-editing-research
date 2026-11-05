@@ -1,0 +1,37 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "check": "independent70actualpreparedframes_rgb_sourceorder_pts_and_nativeSHA",
+  "rows": [
+    {
+      "assetId": "T062",
+      "assetSha256": "4f6f91d3f918fe66dfbcd2ad0c54d979e98834e4ad9413b504c8cd8953cc9988",
+      "nativeFramesHashed": 19,
+      "preparedFramesIndependentlyDecodedCompared": 22,
+      "duplicateSamplesVerified": 3,
+      "maxNativeCroppedPixelMAD": 1.6007728576660156,
+      "mappingIntegerPtsAndNearestIndexPass": true
+    },
+    {
+      "assetId": "T091",
+      "assetSha256": "ab713cc832301bb2a8b072931db3cec71303ae499659d143e59c26351d9f7fcc",
+      "nativeFramesHashed": 23,
+      "preparedFramesIndependentlyDecodedCompared": 24,
+      "duplicateSamplesVerified": 1,
+      "maxNativeCroppedPixelMAD": 1.1758291721343994,
+      "mappingIntegerPtsAndNearestIndexPass": true
+    },
+    {
+      "assetId": "T007",
+      "assetSha256": "b549c18d9cf956e50d68a7bd11cacd8fb33bdf8f880f71bf5b5c305e7b534872",
+      "nativeFramesHashed": 23,
+      "preparedFramesIndependentlyDecodedCompared": 24,
+      "duplicateSamplesVerified": 1,
+      "maxNativeCroppedPixelMAD": 1.4360073804855347,
+      "mappingIntegerPtsAndNearestIndexPass": true
+    }
+  ],
+  "totalPreparedFrames": 70,
+  "totalNativeFrames": 65,
+  "machinePass": true,
+  "limitations": "MAD阈值3覆盖H264压缩误差，不等于逐像素无损；全70帧实际解码比对，不替代合成艺术审核。"
+}

@@ -1,0 +1,80 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "reviewedAt": "2026-11-05T19:30:35+08:00",
+  "status": "pass",
+  "approvalScope": "original_full_resolution_core_decode_and_prepared_validation_only",
+  "wholeFilmPass": false,
+  "finalApproval": false,
+  "boundArtifacts": {
+    "docs/L4精修设计.md": "540422d562fe84ca1a2ee20b5ffd749e4a98ba4251a946b931da5cafc6817499",
+    "loops/loop-04/revision-spec.json": "3227f2307a1858f6112e54e6b44fc8918a204fe8f5993d320ebc12bb853c5948",
+    "loops/loop-03/review.json": "73b0e72386513d3461d1d299d46e57bd75c92626277009687043b02adfa1e22e",
+    "loops/loop-03/plan.json": "a3d5e0168863d94ba9ba66a008894ad9f286c7e9c1dbca05fdf0f588bf884087",
+    "data/tail-action-candidates.json": "bdd878127dc855bfb3b5ce595a91d104e8972a481a803d36f47027f5d6a36e9c",
+    "evidence/tail-action-preflight/TAIL-ACT-01-all-native.jpg": "eef902f6fe1cd3811bec0836fbe637033a70d16ed1fbe2429f07df7621562476",
+    "evidence/tail-action-preflight/TAIL-ACT-02-all-native.jpg": "707d63b91e69724410172414b7e2fe0aba1903f44be4e0b3305d2710b655f92a",
+    "evidence/tail-action-preflight/TAIL-ACT-03-all-native.jpg": "8fd697acafc617853c3a1c175aa46d5146f73ed5353d68d823661860e7f0724b",
+    "loops/loop-04/reviewer-evidence/C091-subtitle-source-check.png": "2cc05facdfdb2f5eee2cd27dc27fc6f74851751cb363b1ac5eeb1637524d2f58"
+  },
+  "independentlyObserved": [
+    "65原生帧三组全联系表：真实拳臂换位/旋转能量/水浪扩张，核心内未观察到原切。",
+    "另由审核员从原E24以-ss665.62独立解码1张1920原图，实际看到字幕约y955–1015；该截图用于字幕风险定位，不作为正式取片PTS证据。",
+    "L3原尺寸823/828稳定相位实际已观察，缩短眼事件设计有证据支持；R4新位移与完整14f仍需实际捕获。"
+  ],
+  "structureChecks": [
+    {
+      "candidateId": "S1C062",
+      "output": [
+        1290,
+        1312
+      ],
+      "nativeFrames": 19,
+      "expectedDuplicateSamplesIfEvenNearestIncludesEnds": 3,
+      "sourceOverlapWithL3": [],
+      "sourceIdentityAndPtsPass": true
+    },
+    {
+      "candidateId": "S1C091",
+      "output": [
+        1312,
+        1336
+      ],
+      "nativeFrames": 23,
+      "expectedDuplicateSamplesIfEvenNearestIncludesEnds": 1,
+      "sourceOverlapWithL3": [],
+      "sourceIdentityAndPtsPass": true
+    },
+    {
+      "candidateId": "S1C007",
+      "output": [
+        1336,
+        1360
+      ],
+      "nativeFrames": 23,
+      "expectedDuplicateSamplesIfEvenNearestIncludesEnds": 1,
+      "sourceOverlapWithL3": [],
+      "sourceIdentityAndPtsPass": true
+    }
+  ],
+  "designJudgement": {
+    "eye": "[816,830)真实稳定相位、返回基础12f→奔跑获准小样；完整可见823–829至少7f，暗瞳差≤20且不露空才闭项。",
+    "Chinese": "x430/y820方向可执行，至少6连续帧全词可读且和掌/袖留距；不由坐标预签。",
+    "tail": "8f眼起势+22f近战+24f旋转能量+24f水浪，局部动作→环境释放→XCHASE前景的递进有真实素材支持，允许高分取片。仍需切口视觉焦点/色彩/动作方向实际审。",
+    "eventNormalization": "允许规范最终actualBinding/range/asset/technique，保留L2/L3历史原字节。"
+  },
+  "captureGate": {
+    "authorizedNow": false,
+    "reason": "C091高分原图字幕上沿约955，默认crop保留0..959仍含字顶；应按真实上沿进一步裁去字幕或重构图，prepared全帧图谱经独立复核后再放行捕获。",
+    "requiredEvidence": [
+      "T062/T091/T007正式1920回源资产、每输出帧到真实PTS映射、duplicates显式标记",
+      "T091原生全部23帧及prepared全部24帧下沿检查，确定最终crop/scale参数和损失",
+      "新正式计划连续1440、源身份/检索窗/资产映射及主线重叠0错误",
+      "三个新片首尾与相邻输出切口的首轮检查"
+    ]
+  },
+  "notes": [
+    "samplePolicy端点式采样输出70帧/65源native，预期5次复用；这些不是新增动作。原动画自身保持还应与采样重复分开。",
+    "文档0.873/0.95/0.93为核心窗口/输出时长近似，正式prepared报告以真实PTS映射和端点跨度为准，不宣称精确恒速。",
+    "此为R4范围预检，不是R4成片艺术pass，不替代新独立review。"
+  ]
+}

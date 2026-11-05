@@ -1,0 +1,147 @@
+{
+  "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_track",
+      "result": {
+        "ok": true,
+        "created": [
+          {
+            "id": "track_e88fc9ea-3b6a-4629-ab3c-97f0bbdd6cec",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "Master · A/B各一次 + 六次轻提示",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ],
+        "tracks": [
+          {
+            "id": "track_362eaeb6-fa41-4d08-97a4-f76825898772",
+            "alias": "V7",
+            "trackType": "video",
+            "order": 6,
+            "name": "六格独立片段",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 1
+          },
+          {
+            "id": "track_6613898d-e835-4d82-9310-affdc4c81763",
+            "alias": "V6",
+            "trackType": "video",
+            "order": 5,
+            "name": "六格独立片段",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 1
+          },
+          {
+            "id": "track_92d6e775-8dc0-4dd4-85be-46b5c23870ec",
+            "alias": "V5",
+            "trackType": "video",
+            "order": 4,
+            "name": "六格独立片段",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 1
+          },
+          {
+            "id": "track_b4c1051e-40dc-4b84-8c51-fe2aecd5e7ef",
+            "alias": "V4",
+            "trackType": "video",
+            "order": 3,
+            "name": "六格独立片段",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 1
+          },
+          {
+            "id": "track_e45672dd-1e39-4fae-a1c4-c5c82a8afaee",
+            "alias": "V3",
+            "trackType": "video",
+            "order": 2,
+            "name": "六格独立片段",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 1
+          },
+          {
+            "id": "track_974c45a3-c9e9-49eb-8cbd-81a265a07739",
+            "alias": "V2",
+            "trackType": "video",
+            "order": 1,
+            "name": "六格独立片段",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 1
+          },
+          {
+            "id": "track_v1",
+            "alias": "V1",
+            "trackType": "video",
+            "order": 0,
+            "name": null,
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 2
+          },
+          {
+            "id": "track_e88fc9ea-3b6a-4629-ab3c-97f0bbdd6cec",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "Master · A/B各一次 + 六次轻提示",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "5918c25d-b1ed-4592-9ef2-f8c8157ec207",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-4de4aee2",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_d48d4631fdf348c1",
+    "editorUrl": "http://localhost:5199/#/editor/0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "updatedAt": "2026-11-04T15:02:34.617Z"
+  }
+}

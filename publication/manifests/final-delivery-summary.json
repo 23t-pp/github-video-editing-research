@@ -1,0 +1,19 @@
+{
+  "state": "COMPLETE",
+  "assets": 25,
+  "bytes": 6996473739,
+  "ready_markers": 25,
+  "text_mirror_files": 5966,
+  "text_mirror_bytes": 85479450,
+  "namespace": "studies/full-delivery-20261105",
+  "outputs_source_coverage": "5579/5579 bytes/SHA PASS",
+  "restore_smoke": "2356 files PASS + rerun same2356",
+  "metadata_asset": {
+    "asset": "project-release-tools-and-manifests.zip",
+    "source_file_count": 42,
+    "bytes": 1055064,
+    "sha256": "5748ca325f08a8587c736905accd1bf05b23a31709d922388c13e25bf82976ea",
+    "validation": "PASS: 每entry bytes/SHA256/CRC32 与封存元数据源逐字节核验",
+    "entries_manifest": "manifests/project-release-tools-and-manifests.zip.json"
+  }
+}

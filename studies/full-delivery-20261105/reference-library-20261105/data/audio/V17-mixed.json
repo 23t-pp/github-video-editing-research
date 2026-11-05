@@ -1,0 +1,54 @@
+{
+  "id": "V17",
+  "title": "V17 · 原始混合音轨",
+  "source_video_name": "你我都是对方唯一的挚友_夏油杰_五条悟_咒术回战_被选召的漫剪团_青年创作者成长计划.mp4",
+  "source_video_sha256": "930dc45504a41a71fdc368ac89471a62883483efc389bdaf09e1cb6022421ff8",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V17__mixed.m4a",
+  "bytes": 195301,
+  "sha256": "a2218a790b69c1251199c5d783fa12dc9335d07ec7c1a89dee0e90982846539d",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 25.845215419501134,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -8.63,
+    "true_peak_dbtp": 1.72,
+    "loudness_range_lu": 2.9,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 25.974467,
+  "source_decoded_duration_sec": 25.813015873015875,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "605448ae77b6941b01962ac6a31a29c90e41f05ac2a32d7f835fbac8fcd7ecde",
+    "output_sha256": "f1af02691df2cb8d0d074c80d1e674f9616813f475411de5405d5f8a6502b9e3",
+    "shared_prefix_samples": 569177,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 32.2,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "6522ac2612cf356615cfb3355606a4202a7982544163b20091b6a92cd0f055d0",
+  "source_aac_adts_sha256": "6522ac2612cf356615cfb3355606a4202a7982544163b20091b6a92cd0f055d0",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "0e1503d2f1612162833b26b5751ceb0846e6d532c835dd9426c4c2b52ab3b2c6",
+  "source_native_pcm_sha256": "00435ce31417d93875f1aa7cf95587e15d22cecac8a05d6e8e87e666eee0f977",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V17__music-candidate.m4a"
+}

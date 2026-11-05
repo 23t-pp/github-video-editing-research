@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {spawnSync} from 'node:child_process';
+const root=import.meta.dirname;
+const ff='C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe';
+const base=['-nostdin','-hide_banner','-loglevel','error','-f','lavfi','-i','color=c=black:s=64x64:r=30:d=0.1','-an','-c:v','libx264','-preset','ultrafast','-pix_fmt','yuv420p'];
+const directPath=path.join(root,'direct-file.mp4');
+const directArgs=[...base,'-y',directPath];
+const direct=spawnSync(ff,directArgs,{windowsHide:true,timeout:20000,maxBuffer:4*1024*1024});
+const pipeArgs=[...base,'-movflags','frag_keyframe+empty_moov','-f','mp4','pipe:1'];
+const pipe=spawnSync(ff,pipeArgs,{windowsHide:true,timeout:20000,maxBuffer:4*1024*1024});
+const pipePath=path.join(root,'stdout-saved-by-node.mp4');
+if(pipe.status===0&&pipe.stdout.length)fs.writeFileSync(pipePath,pipe.stdout);
+const report={at:new Date().toISOString(),node:process.execPath,ffmpeg:ff,direct:{args:directArgs,exit_code:direct.status,error:direct.error?.message,stderr:direct.stderr?.toString(),file_exists:fs.existsSync(directPath),bytes:fs.existsSync(directPath)?fs.statSync(directPath).size:0},stdout_mp4:{args:pipeArgs,exit_code:pipe.status,error:pipe.error?.message,stderr:pipe.stderr?.toString(),bytes:pipe.stdout?.length,file_exists:fs.existsSync(pipePath)}};
+fs.writeFileSync(path.join(root,'probe-result.json'),JSON.stringify(report,null,2));
+console.log(JSON.stringify(report));

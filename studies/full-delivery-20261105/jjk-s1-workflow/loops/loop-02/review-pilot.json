@@ -1,0 +1,127 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "status": "revise",
+  "reviewLevel": "partial_pilot_only_not_whole_film",
+  "reviewedAt": "2026-11-05T18:53:58+08:00",
+  "frameIndexing": "PNG suffix is1-based; frame_000831 is globalF830",
+  "boundArtifacts": {
+    "evidence/L2-early-capture/frame_000025-title-fixed.png": "5d844fc6591e63d8fc6de7e9dc5974b71581ee290db7850e13d904b79cb60116",
+    "evidence/L2-early-capture/frame_000241.png": "46e5ac00b4d7505a578b394b7cf44ce50855846d55a8fb546f732d580f6ccc4d",
+    "evidence/L2-middle-capture/frame_000627-initial.png": "0301902ed660754fc9d4aa9fc187b88e5481c6c5d46b9b4850383aa592ae7240",
+    "evidence/L2-middle-capture/frame_000831-initial.png": "7249be85b6018047811f5cf055b519f0ff1ebad792b9f3c7e1b6a0e52138a329",
+    "evidence/L2-middle-capture/frame_000981-initial.png": "3577ec496a42808cbc3a5cdc971d17421723be1359832e43113c56ba43560fb8",
+    "evidence/L2-middle-capture/frame_001065-initial.png": "1ab3da34bad9e9c9c0348a3843f09eae6f930af61e76ed40bc3f7976a3a42459",
+    "loops/loop-02/review-pilot-inputs/alpha/XCHASE-alpha-report.json": "f43c3399d11e3598722e4b2d723d41ca45891a4b1a0e09395fa852574c01c2b0",
+    "loops/loop-02/review-pilot-inputs/alpha/XCHASE-checker-01.jpg": "49a135463eaf046163b8c7d1f3a716f965750917153b4c86d3f8f19a180d3892",
+    "loops/loop-02/review-pilot-inputs/alpha/XCHASE-checker-02.jpg": "336686f59617907506812a5d6dac36af7e0dd3611f12789c7ac3fd3ef8597bd5",
+    "loops/loop-02/review-pilot-inputs/alpha/XCHASE-final-manifest.json": "8e340e952d3b7d8e239fa9dadeea240f88b4f315a480e932b42de9520f5e3bbc",
+    "loops/loop-02/review-pilot-inputs/alpha/XCHASE-red-01.jpg": "96f2c33f5aa1a5204d3d0e474d20bd48f827f09e8031ea30421cd0eeb28de7ff",
+    "loops/loop-02/review-pilot-inputs/alpha/XCHASE-red-02.jpg": "beb219d717204f77e17c5266abb49a568820f467af86dcf577d3a0575401cf1a",
+    "loops/loop-02/review-pilot-inputs/alpha/XCHASE-red-F07.png": "9f98234049aaea361775021500436da87b003f94f9e417d02bebaed106bb06e8",
+    "loops/loop-02/review-pilot-inputs/alpha/XCHASE-red-F23.png": "98f57d1b60bde7ea449e3d6046eed81de9f75f2426be0aebdd09fa53365bf0a9",
+    "loops/loop-02/review-pilot-inputs/alpha/XCHASE-使用说明.md": "dcd27448286191c35019125266c64ef75cf7fa2a287c9bd44ef43382b2e27aa7",
+    "loops/loop-02/review-pilot-inputs/alpha/XPALM-alpha-report.json": "121c3047c9220dd75d6219cb27ac156730d1c65d8a5c1064f066051f63b0398a",
+    "loops/loop-02/review-pilot-inputs/alpha/XPALM-checker-01.jpg": "c40b28f37167d33f498577d6883e6d876d5eaa0fbfd349801e93e9635c336e2f",
+    "loops/loop-02/review-pilot-inputs/alpha/XPALM-checker-02.jpg": "55a8dcf1af9894c5c59d0c6a48387a7655470ef112f916e26e2a24071e31ae2a",
+    "loops/loop-02/review-pilot-inputs/alpha/XPALM-red-01.jpg": "c4162fb04f691e4d344caba1d97c54164549d26a26f686b03e24b355e583948c",
+    "loops/loop-02/review-pilot-inputs/alpha/XPALM-red-02.jpg": "93756676c277004643d77d6b85fe377cc4d56d28b4ab443d4ba0eb45f3da392c",
+    "loops/loop-02/review-pilot-inputs/alpha/XPALM-使用说明.md": "eb9e80298ff6ef4bb74a7c93d979dc21fc0df813aa5f8aea43c61a7701db0581",
+    "loops/loop-02/review-pilot-inputs/alpha-snapshot.json": "6a3acb1ce1a5165f7363f7599559e83b4cb44366fb0619f0795b6e03483633db",
+    "loops/loop-02/review-pilot-inputs/loop02-plan-snapshot.json": "3315495c88e17d9f36a0c5615bdb1196c8cfc3699112f4af675e1caca80b529a",
+    "loops/loop-02/review-pilot-inputs/metadata-precheck.json": "c6123176a37a9f1aacb31eadc77ddd40bd34d9882172ac689b5202052bf6dfbc",
+    "loops/loop-02/review-alpha-machine.json": "c8e22828d566a97dd347f96000acc6d2d8677d7ad8113acfd9ee5f4e7a5f00c2"
+  },
+  "observedScope": "独立实际查看6张初期/中期实际渲染不可变快照；XCHASE与XPALM各26帧红/棋盘canonical联系表，以及XCHASE F07/F23原尺寸；这些不是最终完整L2艺术验收。",
+  "materialChecks": {
+    "groups": [
+      "XCHASE",
+      "XPALM"
+    ],
+    "alphaPngFrames": 52,
+    "allRgbIndependentlyComparedWithSamePreparedFrame": true,
+    "allBlackBandAlphaZero": true,
+    "XCHASEFrozenManifestAllFilesShaMatch": true,
+    "evidence": "loops/loop-02/review-alpha-machine.json",
+    "scope": "素材完整性通过；轮廓近似与摆位仍须实际合成查看，未批准所有alpha审美。"
+  },
+  "findings": [
+    {
+      "id": "L2-EYE-01",
+      "severity": "P1",
+      "status": "found_in_initial_copy_final_fix_not_yet_reviewed",
+      "frames": [
+        830
+      ],
+      "issue": "左红瞳约(665,435)、右蓝瞳约(1370,555)，眼线差约120px、眼白开口高度比例约1:1.6，不符合眼线对位设计。",
+      "requiredAction": "先将两个眼中心归同一输出y≈530，差控制在约20px内；统一眼白开口到约1–1.3比例，再调左右焦点。新实际图与邻帧复核，不能只对中线。",
+      "evidence": "evidence/L2-middle-capture/frame_000831-initial.png"
+    },
+    {
+      "id": "L2-TEAR-02",
+      "severity": "P1",
+      "status": "open",
+      "frames": [
+        980
+      ],
+      "issue": "竖条x1120–1440的上半y100–450大块为空黑，横向手掌并非条内竖向主体。虽然边缘发光已渲染，内容组织失败。",
+      "requiredAction": "保留竖条则换有内容的真实脸部片并让青掌越界；或改横向贴合手部的裂口。清除黑空块，保持真实边缘渲染与运动顺序。",
+      "evidence": "evidence/L2-middle-capture/frame_000981-initial.png"
+    },
+    {
+      "id": "L2-LEAF-03",
+      "severity": "P2_pending_handoff_check",
+      "status": "open",
+      "frames": [
+        1064
+      ],
+      "issue": "已接近展开的七叶及面部仍明显发暗，主体可读性弱。单张不能确定末端handoff是否也跳亮。",
+      "requiredAction": "降低shade或只对背面加阴影；给1071–1075邻帧检查末1073回到正常亮度/几何/源F11，1074接F12，连续源时钟不能重播。",
+      "evidence": "evidence/L2-middle-capture/frame_001065-initial.png"
+    },
+    {
+      "id": "L2-TYPE-04",
+      "severity": "P2_pending_temporal_readability_P1_if_no_readable_window",
+      "status": "open",
+      "frames": [
+        626
+      ],
+      "issue": "STRIKE大部被掌盖，在该帧只ST较完整，仍需整事件证据确定是否存在可读窗口。",
+      "requiredAction": "证明至少约6帧主词可读，或将字移到上方独立行/缩掌约0.75；保留文字与手的主次，不用一句“遮挡效果”替代可读性。",
+      "evidence": "evidence/L2-middle-capture/frame_000627-initial.png"
+    },
+    {
+      "id": "L2-META-05",
+      "severity": "P1",
+      "status": "open",
+      "issue": "独立读冻结计划：8处替换继承旧检索窗口；其中S037/S052/S053/S056的episode与sourceId不一致，证据指针也需逐项校正。会导致后续取片调度错误。",
+      "requiredAction": "L3同步candidateId/sourceId/episode/inventory path/正式入出点/searchWindow/evidence；相同总览页仅在确含新时位时可复用并标时位，不能默认旧证据有效。机器一致性检查应输出0错误。",
+      "evidence": "loops/loop-02/review-pilot-inputs/metadata-precheck.json"
+    },
+    {
+      "id": "L2-ALPHA-06",
+      "severity": "P2_material_limits",
+      "status": "must_check_actual_composite",
+      "issue": "XCHASE腰线/拳与后手有原生出画裁切；XPALM袖口右端亦到源画边。红底上轮廓可用于合成，但浮在画布中央会暴露平切。",
+      "requiredAction": "将裁切压画框底或出画；检查XCHASE末26帧实际摆位、入出场及背景交接，不能补造缺失肢体。头发/衣缘少量手工近似按原尺寸实际背景审。"
+    },
+    {
+      "id": "L2-STATE-07",
+      "severity": "P2",
+      "status": "open_until_execution_map",
+      "issue": "冻结设计事件仍全部planned_not_rendered；计划可保留原状态，但需有逐版本执行状态表避免后续调度误读。",
+      "requiredAction": "在execution或独立事件状态文件逐项记录实际已渲染/待审/已通过及时间证据，不改过去计划来伪造历史。"
+    }
+  ],
+  "locallyWorks": [
+    "上移后的CURSED FLOW在F24整词可见，掌心有独立区域；时序仍待完整事件审。",
+    "F240原创档案屏的边框、内部真实人物、顶部双语标签、暗网格背景在单帧结构上成立。",
+    "XPALM可见完整弯指，26帧RGB保持源像素；不把原青焰说成新增CG。"
+  ],
+  "allowedActions": [
+    "finish_and_freeze_actual_full_loop2_initial_artifact",
+    "prepare_loop3_remediation_proposal",
+    "render_loop3_remediation_after_frozen_loop2_review"
+  ],
+  "wholeFilmPass": false,
+  "finalApproval": false
+}

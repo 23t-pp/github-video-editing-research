@@ -1,0 +1,27 @@
+{
+  "dispatchMode": "编排层据此实际调用对应代理；CLI只验证证据并派发，不伪造代理执行或审核",
+  "stage": "final_acceptance_pending",
+  "actions": [
+    {
+      "role": "independent_reviewer",
+      "action": "independent_final_acceptance",
+      "reasons": [
+        {
+          "code": "missing_report",
+          "path": "reviews/最终验收.json"
+        }
+      ],
+      "requiredBindings": [
+        "咒力接力_一分钟.mp4",
+        "hyperframes/edit.json",
+        "openchatcut/工程包最终回读.json",
+        "data/hyperframes-package-verification.json",
+        "evidence/ui/最终交付界面验收.json",
+        "HyperFrames可编辑工程.zip",
+        "openchatcut/咒力接力 · CURSED FLOW.ccproj",
+        "loops/loop-04/review.json"
+      ],
+      "scope": "独立验收当前真实交付与SHA绑定；不能沿用影片局部pass当全项目pass"
+    }
+  ]
+}

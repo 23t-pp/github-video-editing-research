@@ -1,0 +1,52 @@
+{
+  "recordedAt": "2026-11-05T14:49:17+08:00",
+  "method": "实际浏览器界面检查；界面截图保存在 evidence/ui。",
+  "openchatcut": {
+    "importedProjectId": "d55540ff-ec35-4489-ae3f-a9192cdbe3f5",
+    "officialImport": {
+      "mediaRestored": 45,
+      "missingMedia": 0,
+      "evidence": "openchatcut/官方工程包导入回验.json"
+    },
+    "hfSequencePlayback": "已点击播放并观察时间推进至16秒附近，预览出现实际车祸镜头；随后暂停。",
+    "nativeSequence": "已打开02原生逐镜序列，在18.55秒选择P17-replacement.mp4；实际显示黄紫双车镜头。",
+    "editableProperties": "已打开片段属性，源区间12–37帧、1倍速，以及位置、尺度、旋转等参数控件可见。",
+    "timing": {
+      "fps": 25,
+      "totalFrames": 750,
+      "durationSeconds": 30,
+      "nativeShots": 32,
+      "hfSegments": 15
+    },
+    "dragOrParameterChangeTestPerformed": false,
+    "proof": "evidence/ui/OpenChatCut原生工程.png"
+  },
+  "hyperframes": {
+    "previewUrl": "http://127.0.0.1:5215",
+    "seekSeconds": 26.68,
+    "observed": "侧窗内出现下一镜汽车画面。选中Window New Plane图层，右侧显示可编辑样式、1920×800布局及9个Motion效果。",
+    "lint": {
+      "errors": 0,
+      "warnings": 3,
+      "scope": "真实CLI lint与Studio界面；有意复用的8片放射视频及两个密集透明图层轨道。"
+    },
+    "duplicateEntryResolved": "旧HTML备份已存为.source-backups/*.html.bak，仅index.html作为作品入口。",
+    "proof": "evidence/ui/HyperFrames侧窗图层.png"
+  },
+  "comparisonPlayer": {
+    "url": "http://127.0.0.1:5216",
+    "playback": "已点击同步播放，两个video均在推进，主片有声轨且未静音，参考默认静音；无媒体错误。",
+    "frameStep": "从26.60秒连续点击两次下一帧，显示26.68秒、F667。",
+    "domCurrentTimeSeconds": {
+      "movie": 26.6801,
+      "reference": 26.6801
+    },
+    "decodedDurationSeconds": {
+      "movie": 30,
+      "reference": 30.04
+    },
+    "proof": "evidence/ui/成片逐帧对照.png"
+  },
+  "auditoryListeningPerformed": false,
+  "limits": "界面已播放和显示画面；制作代理没有实际听觉试听，也未在验收时拖动或修改镜头参数。音频同步测量见质量检查.json。"
+}

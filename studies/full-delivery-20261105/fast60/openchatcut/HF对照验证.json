@@ -1,0 +1,76 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "nativeTimelineId": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74",
+  "hfTimelineId": "tl_a775a55a-cc45-4903-a092-e62b6a1aa140",
+  "activeTimelineId": "tl_a775a55a-cc45-4903-a092-e62b6a1aa140",
+  "fx": [
+    {
+      "id": "title",
+      "startFrame": 7,
+      "frames": 68,
+      "sha256": "e0fdf208bd624ef5004fbee3e1f60fd18fef9318d50a67255104e42ca937b1cf",
+      "assetId": "0b8e8057-7120-496c-94f6-6911784c7c44"
+    },
+    {
+      "id": "triptych",
+      "startFrame": 675,
+      "frames": 45,
+      "sha256": "5bb53fa12877bdb352e0953b79b72fd6869674cbc5aaf05ff10b3c1c80c9acc5",
+      "assetId": "36a7e365-b980-450d-bbba-632675d7e56d"
+    },
+    {
+      "id": "end",
+      "startFrame": 1418,
+      "frames": 22,
+      "sha256": "a2b2ad7457a63e25373b9afb6c223a2b26090163df91a6095f849531d7d711f4",
+      "assetId": "9a2e907e-a3c9-4ab2-b0df-f76b669e47fd"
+    }
+  ],
+  "baseShotCount": 42,
+  "stereoStems": 2,
+  "frames": 1440,
+  "actualUiPlaybackVerified": true,
+  "uiVerification": {
+    "performedBy": "主流程唯一CUA操作者；子代理读取核验JSON并实际查看三联屏截图",
+    "importedProjectId": "6df06cd6-3c5e-4416-9cf2-caf542a6f145",
+    "officialImportedProjectOpened": true,
+    "preciseSequence01PreviewAt": 29.29,
+    "playbackReachedSeconds": 44.41,
+    "nativeSequence02PreviewAt": 29.29,
+    "nativeRightPanelDragged": true,
+    "dragBefore": {
+      "leftPercent": 66.7758,
+      "topPercent": 12.963
+    },
+    "dragMoved": {
+      "leftPercent": 69.4084,
+      "topPercent": 15.771
+    },
+    "dragUndone": {
+      "leftPercent": 66.7758,
+      "topPercent": 12.963
+    },
+    "originalCompositionRestored": true,
+    "stereoWavs": [
+      {
+        "name": "score-mix.wav",
+        "readyState": 4,
+        "durationSeconds": 60
+      },
+      {
+        "name": "source-mix.wav",
+        "readyState": 4,
+        "durationSeconds": 60
+      }
+    ],
+    "humanLoudspeakerAuditionPerformed": false,
+    "evidence": [
+      "../evidence/本机播放器与编辑器核验.json",
+      "../evidence/OpenChatCut_原生可编辑三联屏.jpg"
+    ]
+  },
+  "actualUiDragVerified": true,
+  "actualUiAudioAuditionVerified": false,
+  "uiPlaybackVerified": true,
+  "uiDragVerified": true
+}

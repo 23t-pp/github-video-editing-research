@@ -1,0 +1,88 @@
+{
+  "projectId": "5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+  "importedProjectId": "d55540ff-ec35-4489-ae3f-a9192cdbe3f5",
+  "packageFilename": "越界 · V07动作接力复刻 · 速度与激情.ccproj",
+  "packageBytes": 109029043,
+  "packageSha256": "8c4678e2221696a2784361e1570aa55ca2fc61ddac3af45f4af12cc458f1591e",
+  "packageFormat": "openchatcut-project@2",
+  "mediaAssets": 45,
+  "mediaAvailableAndByteVerified": 45,
+  "mediaMissing": [],
+  "observed": [
+    {
+      "role": "source",
+      "id": "5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+      "assets": 45,
+      "sequences": [
+        {
+          "id": "tl_e804dc64-a93d-4b36-b9d5-346cb06dc53e",
+          "name": "02 原生逐镜 · 32镜 · V07库内BGM",
+          "fps": 25,
+          "width": 1920,
+          "height": 1080,
+          "frames": 750,
+          "seconds": 30,
+          "videoClips": 32,
+          "audioClips": 1,
+          "contiguousVideo": true,
+          "allMediaLinked": true,
+          "allVideoMuted": true
+        },
+        {
+          "id": "tl_2dc001cf-933a-407a-afc3-c2f889b96180",
+          "name": "01 HF精确预览 · 15段可替换",
+          "fps": 25,
+          "width": 1920,
+          "height": 1080,
+          "frames": 750,
+          "seconds": 30,
+          "videoClips": 15,
+          "audioClips": 1,
+          "contiguousVideo": true,
+          "allMediaLinked": true,
+          "allVideoMuted": true
+        }
+      ]
+    },
+    {
+      "role": "officialImportedCopy",
+      "id": "d55540ff-ec35-4489-ae3f-a9192cdbe3f5",
+      "assets": 45,
+      "sequences": [
+        {
+          "id": "tl_e804dc64-a93d-4b36-b9d5-346cb06dc53e",
+          "name": "02 原生逐镜 · 32镜 · V07库内BGM",
+          "fps": 25,
+          "width": 1920,
+          "height": 1080,
+          "frames": 750,
+          "seconds": 30,
+          "videoClips": 32,
+          "audioClips": 1,
+          "contiguousVideo": true,
+          "allMediaLinked": true,
+          "allVideoMuted": true
+        },
+        {
+          "id": "tl_2dc001cf-933a-407a-afc3-c2f889b96180",
+          "name": "01 HF精确预览 · 15段可替换",
+          "fps": 25,
+          "width": 1920,
+          "height": 1080,
+          "frames": 750,
+          "seconds": 30,
+          "videoClips": 15,
+          "audioClips": 1,
+          "contiguousVideo": true,
+          "allMediaLinked": true,
+          "allVideoMuted": true
+        }
+      ]
+    }
+  ],
+  "method": "Live HTTP ProjectDoc readback plus official exporter/importer SHA256 per-media byte verification. Media readiness means upload URLs are readable and package bytes match; subjective UI playback and audio audition are recorded separately.",
+  "actualUiPlaybackVerified": false,
+  "actualUiDragVerified": false,
+  "actualUiAudioAuditionVerified": false,
+  "verifiedAt": "2026-11-05T06:40:23.172Z"
+}

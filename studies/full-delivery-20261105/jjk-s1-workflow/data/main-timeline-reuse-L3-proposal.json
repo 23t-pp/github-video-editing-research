@@ -1,0 +1,55 @@
+{
+  "scope": "all same-source interval comparisons, not only candidate equality",
+  "videoClips": 57,
+  "uniqueCandidates": 56,
+  "overlapPairs": [
+    {
+      "first": "S014",
+      "second": "S049",
+      "sourceId": "S1E20",
+      "overlapSeconds": 1.0833339999999225,
+      "intentional": true,
+      "purpose": "档案屏局部线索→全幅动作回收"
+    }
+  ],
+  "secondaryUses": [
+    {
+      "kind": "tear portrait intro",
+      "asset": "N054",
+      "frames": [
+        970,
+        996
+      ],
+      "laterMain": "S054",
+      "intent": "人物裂条预告→后段完整侧脸；新增次级层有意复用"
+    },
+    {
+      "kind": "same-source7leaves",
+      "asset": "S045",
+      "frames": [
+        1062,
+        1074
+      ],
+      "clock": "preparedF0..11→baseF12",
+      "intent": "7叶是同一源时钟并排几何，不算7条新镜头"
+    },
+    {
+      "kind": "alpha",
+      "assets": [
+        "XPALM",
+        "XCHASE"
+      ],
+      "intent": "真实动态前景跨场景接力，分别列出而非伪装成新原源"
+    },
+    {
+      "kind": "memory windows",
+      "assets": [
+        "S053",
+        "S031"
+      ],
+      "intent": "角色记忆片作为小窗回收；与主线重复统计分开"
+    }
+  ],
+  "machinePassNoUnexplainedMainOverlap": true,
+  "artisticAcceptance": "pending independent review"
+}

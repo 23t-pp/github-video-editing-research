@@ -1,0 +1,58 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "method": "人工从实际原尺寸PNG估读暗瞳几何中心，约±10–15px；不把HSV下弧或高光质心当瞳孔中心，也非全帧自动跟踪。",
+  "anchors": [
+    {
+      "frame": 823,
+      "redPupilApprox": [
+        640,
+        525
+      ],
+      "blueDarkPupilApprox": [
+        1280,
+        520
+      ],
+      "deltaYApprox": 5,
+      "inputSha256": "d15208cbdc3da16fa7cf6b7e3338498379869cfa973cf18285564f83cf32454e"
+    },
+    {
+      "frame": 828,
+      "redPupilApprox": [
+        650,
+        530
+      ],
+      "blueDarkPupilApprox": [
+        1280,
+        510
+      ],
+      "deltaYApprox": 20,
+      "inputSha256": "f870e4d4b031fe2f65be6adbbbb272b1d4e96297c522a702c2a5e6795f06a61a"
+    },
+    {
+      "frame": 830,
+      "redPupilApprox": [
+        650,
+        530
+      ],
+      "blueDarkPupilApprox": [
+        1280,
+        460
+      ],
+      "deltaYApprox": 70,
+      "inputSha256": "f4e6c897186785fb261570b2657a813619825d17155fbe498a08975f9aa412ce"
+    },
+    {
+      "frame": 839,
+      "redPupilApprox": [
+        655,
+        535
+      ],
+      "blueDarkPupilApprox": [
+        1300,
+        305
+      ],
+      "deltaYApprox": 230,
+      "inputSha256": "c5a4a169c07aca9d00904eaaba3da079d687e63563749d04eba8aef205d41db8"
+    }
+  ]
+}

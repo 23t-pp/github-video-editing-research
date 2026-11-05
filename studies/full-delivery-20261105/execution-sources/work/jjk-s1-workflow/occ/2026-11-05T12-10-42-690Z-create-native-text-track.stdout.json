@@ -1,0 +1,82 @@
+{
+  "projectId": "cd443d87-8dbd-4a57-a216-5a50374c3893",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_track",
+      "result": {
+        "ok": true,
+        "created": [
+          {
+            "id": "track_49748e4c-b6b6-4748-80eb-06ef64ce175b",
+            "alias": "V2",
+            "trackType": "video",
+            "order": 1,
+            "name": "V2 原生可编辑文字",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ],
+        "tracks": [
+          {
+            "id": "track_49748e4c-b6b6-4748-80eb-06ef64ce175b",
+            "alias": "V2",
+            "trackType": "video",
+            "order": 1,
+            "name": "V2 原生可编辑文字",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          },
+          {
+            "id": "track_v1",
+            "alias": "V1",
+            "trackType": "video",
+            "order": 0,
+            "name": "V1 原生逐镜 · 59镜",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 59
+          },
+          {
+            "id": "track_553a1298-a16a-4e0a-b20e-6d4d8bacacc7",
+            "alias": "A1",
+            "trackType": "audio",
+            "order": 0,
+            "name": "A1 曲库V20 · 独立master",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 1
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "2b60dbdb-f500-40f4-8e45-e1f2e9ab33fc",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-5f360551",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_e26e53a62ca34428",
+    "editorUrl": "http://localhost:5199/#/editor/cd443d87-8dbd-4a57-a216-5a50374c3893",
+    "updatedAt": "2026-11-05T12:10:43.898Z"
+  }
+}

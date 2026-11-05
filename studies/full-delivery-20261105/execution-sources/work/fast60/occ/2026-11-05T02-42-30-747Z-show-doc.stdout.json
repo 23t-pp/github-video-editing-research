@@ -1,0 +1,71 @@
+{
+  "project": {
+    "id": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "name": "速度与选择 · FAST60 · 逐镜可编辑 · 24fps",
+    "updatedAt": 1793846549360,
+    "description": "正式60秒作品工程；等待逐镜素材，保留独立scoreMix/sourceMix与HF替换层。"
+  },
+  "timelines": [
+    {
+      "id": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74",
+      "name": "01 正式剪辑 · 60秒 · 24fps",
+      "active": true,
+      "fps": 24,
+      "width": 1920,
+      "height": 1080,
+      "itemCount": 0,
+      "durationFrames": 0,
+      "duration": "0s",
+      "trackSummary": "track_c834a8da-9ec4-4483-af6e-6b4ddbc7cfe4:0 track_a432c3e2-bab2-471f-ba7a-7f8438abc9cf:0 track_v1:0 track_7fc4c7e1-f95f-4582-9950-8f4f0fffa514:0 track_2c2c5ae9-0541-4740-8697-a9876eecd404:0"
+    }
+  ],
+  "doc": {
+    "version": 3,
+    "assets": [],
+    "mediaFolders": [],
+    "timelines": [
+      {
+        "id": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74",
+        "name": "01 正式剪辑 · 60秒 · 24fps",
+        "order": 0,
+        "fps": 24,
+        "width": 1920,
+        "height": 1080,
+        "items": [],
+        "selectedId": null,
+        "trackOrder": [
+          "track_c834a8da-9ec4-4483-af6e-6b4ddbc7cfe4",
+          "track_a432c3e2-bab2-471f-ba7a-7f8438abc9cf",
+          "track_v1",
+          "track_7fc4c7e1-f95f-4582-9950-8f4f0fffa514",
+          "track_2c2c5ae9-0541-4740-8697-a9876eecd404"
+        ],
+        "tracks": {
+          "track_v1": {
+            "kind": "video",
+            "muted": false,
+            "locked": false,
+            "name": "V1 主画面 · 每镜独立"
+          },
+          "track_a432c3e2-bab2-471f-ba7a-7f8438abc9cf": {
+            "kind": "video",
+            "name": "V2 HF特效插片 · 可替换"
+          },
+          "track_c834a8da-9ec4-4483-af6e-6b4ddbc7cfe4": {
+            "kind": "video",
+            "name": "V3 标题/图形 · 可替换"
+          },
+          "track_7fc4c7e1-f95f-4582-9950-8f4f0fffa514": {
+            "kind": "audio",
+            "name": "A1 原创配乐 · scoreMix"
+          },
+          "track_2c2c5ae9-0541-4740-8697-a9876eecd404": {
+            "kind": "audio",
+            "name": "A2 源片声音 · sourceMix"
+          }
+        }
+      }
+    ],
+    "activeTimelineId": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74"
+  }
+}

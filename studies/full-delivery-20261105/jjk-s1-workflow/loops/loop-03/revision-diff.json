@@ -1,0 +1,369 @@
+{
+  "from": "loops/loop-02/plan-final.json",
+  "changes": [
+    {
+      "findingId": "L2-EYE-01",
+      "old": "左右眼线差约120px，白眼开口尺度不齐",
+      "new": [
+        {
+          "assetId": "S009",
+          "offset": 12,
+          "transform": {
+            "scale": 2.0,
+            "x": -1013.47,
+            "y": 116.49
+          }
+        },
+        {
+          "assetId": "S055",
+          "offset": 12,
+          "transform": {
+            "scale": 1.2,
+            "x": 624.01,
+            "y": -6.990000000000002
+          }
+        }
+      ],
+      "evidence": "data/eye-alignment-proposal.json",
+      "acceptance": "真实F823/F830/F839眼轴差≤20px，眼白开口高度比1–1.3；独审待定"
+    },
+    {
+      "findingId": "L2-TEAR-02",
+      "old": "竖条上半使用手RGB黑背景，出现空黑块",
+      "new": {
+        "clips": [
+          {
+            "assetId": "N054",
+            "offset": 12,
+            "transform": {
+              "scale": 1.2,
+              "x": 520,
+              "y": 0
+            }
+          }
+        ],
+        "foreground": {
+          "id": "palm-over-paper",
+          "alpha": "XPALM",
+          "start": 970,
+          "end": 996,
+          "offset": 2,
+          "z": 60,
+          "scale": 0.8,
+          "restX": 200,
+          "restY": 100,
+          "x": 80,
+          "y": 40,
+          "inFrames": 4,
+          "outFrames": 4,
+          "clipActive": true,
+          "glow": 2,
+          "glowColor": "#72c7ed",
+          "status": "planned_revision"
+        }
+      },
+      "acceptance": "条内有实际人物眼鼻，不能有无意义黑空块，右袖始终出画"
+    },
+    {
+      "findingId": "L2-LEAF-03",
+      "old": "7叶错开1.5f/展开10f，12f事件末未全部归位，遮罩过暗",
+      "new": {
+        "revealFrames": 6,
+        "staggerFrames": 0.5,
+        "shadeStrength": 0.15,
+        "veilOpacity": 0.15,
+        "aperture": [
+          60,
+          1020
+        ]
+      },
+      "acceptance": "1071..1073全部叶片零角度/阴影零；1073 preparedF11→1074 F12；黑带不跳"
+    },
+    {
+      "findingId": "L2-TYPE-04",
+      "old": "F626仅ST大部可读，其余被掌遮挡",
+      "new": {
+        "type": {
+          "id": "strike-type",
+          "kind": "type",
+          "start": 612,
+          "end": 638,
+          "techniqueIds": [
+            "T10"
+          ],
+          "referenceIds": [
+            "V02"
+          ],
+          "status": "planned_revision",
+          "text": "STRIKE",
+          "subtitle": "咒力 · 接续",
+          "mode": "ribbon",
+          "board": true,
+          "z": 45,
+          "color": "#11121a",
+          "stroke": "#c31823",
+          "depth": "#080b13",
+          "board_color": "#e6b234",
+          "edge_color": "#b11321",
+          "font_size": 240,
+          "width": 1400,
+          "font": "Barlow Condensed",
+          "y": 210,
+          "subtitle_y": 940
+        },
+        "foreground": {
+          "id": "palm-before-weapon",
+          "alpha": "XPALM",
+          "start": 612,
+          "end": 638,
+          "offset": 2,
+          "z": 60,
+          "scale": 0.8,
+          "restX": 200,
+          "restY": 100,
+          "x": 130,
+          "y": 40,
+          "inFrames": 4,
+          "outFrames": 4,
+          "clipActive": true,
+          "glow": 2,
+          "glowColor": "#72c7ed",
+          "status": "planned_revision"
+        }
+      },
+      "acceptance": "连续至少6帧完整STRIKE可读，上字下手与前景关系清楚，腕袖边缘在右画外"
+    },
+    {
+      "findingId": "L2-GESTURE-08",
+      "old": "LIMITLESS盖住合掌学习主体",
+      "new": {
+        "id": "limitless-type",
+        "kind": "type",
+        "start": 1126,
+        "end": 1178,
+        "techniqueIds": [
+          "T10"
+        ],
+        "referenceIds": [
+          "V02"
+        ],
+        "status": "planned_revision",
+        "text": "LIMITLESS",
+        "subtitle": "无下限",
+        "mode": "cylinder",
+        "board": false,
+        "z": 45,
+        "color": "#fff8ee",
+        "stroke": "#1b1248",
+        "depth": "#b517c6",
+        "font_size": 160,
+        "width": 650,
+        "font": "Barlow Condensed",
+        "x": 1540,
+        "y": 260,
+        "subtitle_x": 1540,
+        "subtitle_y": 520
+      },
+      "acceptance": "文字留在右上天空区，五条的手掌及合掌动作连续无遮挡，中文独立位于英文下方"
+    },
+    {
+      "findingId": "L2-META-05",
+      "old": "新源继承旧episode/searchWindow/preflightEvidence",
+      "new": [
+        {
+          "shot": "S026",
+          "candidateId": "S1C041",
+          "old": {
+            "episode": 17,
+            "searchWindowSeconds": [
+              129.6,
+              130.6
+            ],
+            "preflightEvidence": "evidence/source-overviews/action-navigation/E17-0100.jpg",
+            "focus": "pending final view"
+          },
+          "new": {
+            "episode": 17,
+            "searchWindowSeconds": [
+              179.4,
+              180.6
+            ],
+            "preflightEvidence": "evidence/source-overviews/fresh-candidates/fresh-core-01.jpg",
+            "focus": "发光刀刃横贯中部，刃尖朝左，轻微水平位移；不是大幅身体动作"
+          }
+        },
+        {
+          "shot": "S037",
+          "candidateId": "S1C054",
+          "old": {
+            "episode": 20,
+            "searchWindowSeconds": [
+              204.6,
+              205.9
+            ],
+            "preflightEvidence": "evidence/source-overviews/action-navigation/E20-0200.jpg",
+            "focus": "pending final view"
+          },
+          "new": {
+            "episode": 19,
+            "searchWindowSeconds": [
+              924.5,
+              925.7
+            ],
+            "preflightEvidence": "evidence/source-overviews/fresh-candidates/fresh-core-01.jpg",
+            "focus": "正面脸部/眼神特写，周边蓝黑气息轻微变化，主体接近保持帧"
+          }
+        },
+        {
+          "shot": "S052",
+          "candidateId": "S1C028",
+          "old": {
+            "episode": 5,
+            "searchWindowSeconds": [
+              554.6,
+              555.9
+            ],
+            "preflightEvidence": "evidence/source-overviews/action-navigation/E05-0520.jpg",
+            "focus": "取回动作，见curator扩查"
+          },
+          "new": {
+            "episode": 7,
+            "searchWindowSeconds": [
+              254.14,
+              255.14
+            ],
+            "preflightEvidence": "evidence/source-overviews/fresh-candidates/S1C028-all-native-preflight.jpg",
+            "focus": "手指抓握号角的局部特写，号角略由左向中推进；原切后开始，后段急移前结束"
+          }
+        },
+        {
+          "shot": "S053",
+          "candidateId": "S1C078",
+          "old": {
+            "episode": 7,
+            "searchWindowSeconds": [
+              244.6,
+              245.9
+            ],
+            "preflightEvidence": "evidence/source-overviews/action-navigation/E07-0240.jpg",
+            "focus": "紫瞳眼部保持，身份不确认"
+          },
+          "new": {
+            "episode": 23,
+            "searchWindowSeconds": [
+              239.4,
+              240.6
+            ],
+            "preflightEvidence": "evidence/source-overviews/fresh-candidates/fresh-expansion-native-navigation.jpg",
+            "focus": "紫色单眼极近景，虹膜轻变，长睫毛轮廓；人物身份不以猜测命名"
+          }
+        },
+        {
+          "shot": "S054",
+          "candidateId": "S1C080",
+          "old": {
+            "episode": 23,
+            "searchWindowSeconds": [
+              259.6,
+              260.9
+            ],
+            "preflightEvidence": "evidence/source-overviews/action-navigation/E23-0200.jpg",
+            "focus": "pending final view"
+          },
+          "new": {
+            "episode": 23,
+            "searchWindowSeconds": [
+              265.15,
+              266.35
+            ],
+            "preflightEvidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg",
+            "focus": "朝左侧脸，小幅口型与头部变化，非跃起动作"
+          }
+        },
+        {
+          "shot": "S056",
+          "candidateId": "S1C047",
+          "old": {
+            "episode": 24,
+            "searchWindowSeconds": [
+              409.6,
+              410.9
+            ],
+            "preflightEvidence": "evidence/source-overviews/action-navigation/E24-0350.jpg",
+            "focus": "腕部抬至额头附近，小幅转头/发丝摆动，焦点在脸和腕部"
+          },
+          "new": {
+            "episode": 17,
+            "searchWindowSeconds": [
+              444.85,
+              446.05
+            ],
+            "preflightEvidence": "evidence/source-overviews/fresh-candidates/fresh-extra-proof.jpg",
+            "focus": "腕部抬至额头附近，小幅转头/发丝摆动，焦点在脸和腕部"
+          }
+        },
+        {
+          "shot": "S057",
+          "candidateId": "S1C088",
+          "old": {
+            "episode": 24,
+            "searchWindowSeconds": [
+              764.6,
+              765.9
+            ],
+            "preflightEvidence": "evidence/source-overviews/action-navigation/E24-0650.jpg",
+            "focus": "pending final view"
+          },
+          "new": {
+            "episode": 24,
+            "searchWindowSeconds": [
+              449.4,
+              450.6
+            ],
+            "preflightEvidence": "evidence/source-overviews/fresh-candidates/fresh-core-02.jpg",
+            "focus": "橙色单眼极近景，黑色咒纹与瞳孔为焦点，镜头小幅推进；仅凭眼睛不定人物"
+          }
+        },
+        {
+          "shot": "S058",
+          "candidateId": "S1C076",
+          "old": {
+            "episode": 20,
+            "searchWindowSeconds": [
+              1209.6,
+              1210.9
+            ],
+            "preflightEvidence": "evidence/source-overviews/action-navigation/E20-1100.jpg",
+            "focus": "pending final view"
+          },
+          "new": {
+            "episode": 20,
+            "searchWindowSeconds": [
+              1214.4,
+              1215.35
+            ],
+            "preflightEvidence": "evidence/source-overviews/fresh-candidates/fresh-extra-proof.jpg",
+            "focus": "紫色能量球扩张/发亮；1215.5处已切成闪电，严格止于更早"
+          }
+        }
+      ],
+      "acceptance": "sourceId/episode/path一致，新8源取回范围在curator核心窗内；独审待定"
+    },
+    {
+      "findingId": "L2-STATE-07",
+      "new": "14 original stable events +1 XCHASE mapped in loops/loop-03/event-version-status.json; historical frozen intention fields preserved and actual binding authoritative",
+      "acceptance": "actual execution video hash and independent report linked per-version; no author-created artistic pass"
+    },
+    {
+      "findingId": "L2-DOC-PARAMETERS",
+      "new": "docs/L3精修设计.md同步STRIKE实际y210/font240/width1400、subtitle940",
+      "acceptance": "doc and frozen actual plan match"
+    }
+  ],
+  "pending": [
+    "independent renderer actual changed chunks",
+    "unchanged14 pixel payload rebind",
+    "1080 encode and independent L3 review"
+  ],
+  "inputL2ReviewSha256": "a2401f5399270f6b86024b1dfba3a326e89dffb91fea1751bb6c419ebd6c7e4e"
+}

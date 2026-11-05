@@ -1,0 +1,3035 @@
+{
+  "schema_version": 1,
+  "title": "20条参考片：技法→素材分类与当前难度",
+  "generated_at": "2026-11-04T16:31:27.076Z",
+  "review_sources": [
+    "reviews/V01-V10.json",
+    "reviews/V11-V15.json",
+    "reviews/V16-V20.json"
+  ],
+  "scope": {
+    "reference_count": 20,
+    "technique_count": 18,
+    "new_independent_video_viewing": false,
+    "visual_review_attribution": "V11–V15沿用本分支实际查看57页原生atlas的报告；V01–V10与V16–V20引用各分支人工审查范围，native_review纠正优先。",
+    "native_frame_policy": "源帧率/原生PTS；每页60帧是排版，不是60fps；不强制升帧、复制或插值。",
+    "audio_claims": false,
+    "project_restoration_guarantee": false
+  },
+  "status_definitions": {
+    "tested_v05_subcase": "有本地实际制作、108帧渲染、MP4、OCC分层与官方工程包UI导入证据；只覆盖该子例。",
+    "equivalent_recipe": "观察已记录，步骤为等效建议，尚未实际复刻渲染。",
+    "requires_source_or_preprocessing": "需要对应原片、动态alpha/跟踪或效果素材；不承诺一键高质量。"
+  },
+  "difficulty_definition": "1–5为当前本机将手法做成可控结果的难度；不是作品价值或炫酷程度。相同手法在素材不足/动态遮挡下可更难。",
+  "verified_v05_sample": {
+    "officialFunction": "src/persist/projectTransfer.ts:238 buildProjectExport()",
+    "officialImport": "src/persist/projectTransfer.ts:482 importProjectPackage()",
+    "format": "openchatcut-project@2",
+    "bytes": 14488547,
+    "sha256": "226547ebaa9be651936928a434bdd6b98c1a789ba74da129ff4043deef285583",
+    "mediaTotal": 4,
+    "mediaMissing": [],
+    "actualUiImportVerified": true,
+    "source_project_id": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "imported_project_id": "28fd7d1f-4659-4247-82eb-1a2e06f6f93d",
+    "timelines": [
+      {
+        "id": "tl_44436b4d-d623-4d92-9856-55be7bb7f7c7",
+        "name": "01 OCC原生六格教学 · 24fps",
+        "items": 9,
+        "fps": 24,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 108,
+        "trackCount": 8,
+        "timingTransformKeyframesAndVolumesEqual": true
+      },
+      {
+        "id": "tl_a0ae5ccd-1299-4d26-9289-285df57432f3",
+        "name": "02 HF成片整合 · 108帧 · 内含Master音轨",
+        "items": 1,
+        "fps": 24,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 108,
+        "trackCount": 1,
+        "timingTransformKeyframesAndVolumesEqual": true
+      }
+    ],
+    "artifacts": [
+      {
+        "release_url": "https://github.com/23t-pp/github-video-editing-research/releases/tag/reference-library-2026-11-05",
+        "release_asset": "v05-six-panel.zip",
+        "path_inside_zip": "v05-six-panel/V05六格卡片_成片.mp4",
+        "workspace_relative_path": "outputs/v05-six-panel/V05六格卡片_成片.mp4",
+        "existence_checked": true
+      },
+      {
+        "release_url": "https://github.com/23t-pp/github-video-editing-research/releases/tag/reference-library-2026-11-05",
+        "release_asset": "v05-six-panel.zip",
+        "path_inside_zip": "v05-six-panel/hyperframes/index.html",
+        "workspace_relative_path": "outputs/v05-six-panel/hyperframes/index.html",
+        "existence_checked": true
+      },
+      {
+        "release_url": "https://github.com/23t-pp/github-video-editing-research/releases/tag/reference-library-2026-11-05",
+        "release_asset": "v05-six-panel.zip",
+        "path_inside_zip": "v05-six-panel/openchatcut/V05六格卡片_可编辑工程.ccproj",
+        "workspace_relative_path": "outputs/v05-six-panel/openchatcut/V05六格卡片_可编辑工程.ccproj",
+        "existence_checked": true
+      },
+      {
+        "release_url": "https://github.com/23t-pp/github-video-editing-research/releases/tag/reference-library-2026-11-05",
+        "release_asset": "v05-six-panel.zip",
+        "path_inside_zip": "v05-six-panel/evidence/OpenChatCut导入验证.json",
+        "workspace_relative_path": "outputs/v05-six-panel/evidence/OpenChatCut导入验证.json",
+        "existence_checked": true
+      }
+    ],
+    "validated_scope": [
+      "4.5秒/24fps/108帧HF渲染",
+      "OCC六格独立clip/crop/位置与透明度关键帧",
+      "原生8视频clip静音+独立Master一次",
+      "HF成片整合时间线内嵌声音一次",
+      "官方buildProjectExport含4媒体@2 .ccproj",
+      "官方UI导入副本4/4媒体、9+1items和关键帧/媒体hash一致"
+    ],
+    "not_validated": [
+      "原参考动画动作与原音乐",
+      "原参考亮白/放大模糊/原缓动完全一致",
+      "其余17类效果复刻或自动alpha质量",
+      "作者软件/插件与100%原工程还原"
+    ]
+  },
+  "techniques": [
+    {
+      "id": "T01",
+      "name_zh": "硬切与动作/形状匹配",
+      "difficulty": 2,
+      "reason": "操作简单，难在找到同方向、相近位置与动作相位的两段素材；背景明显变化也可成立。",
+      "suitable_materials": [
+        "同向旋转道具、挥手、射网、拳脚命中",
+        "景别接近、主体锚点清晰、有完整起手/接触/后摇的片段"
+      ],
+      "not_suitable": [
+        "相反旋转方向又无中间动作",
+        "主体尺度/视线跳太大，靠裁切会丢关键内容"
+      ],
+      "references": [
+        {
+          "reference_id": "V06",
+          "title": "130秒动作混剪 · 跨片运动匹配",
+          "source_fps": "24/1",
+          "time_range_sec": [
+            81.708333,
+            81.791667
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "旋转枪跨片硬切",
+          "anchors": [
+            {
+              "frame": 1961,
+              "pts": 81.708333,
+              "claim": "灰白CG环境中的旋转枪",
+              "evidence": "evidence/V06/native-033.jpg"
+            },
+            {
+              "frame": 1962,
+              "pts": 81.75,
+              "claim": "下一原帧直接变为暖色真人室内",
+              "evidence": "evidence/V06/native-033.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V06/native-033.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V20",
+          "title": "蜘蛛侠与彼得帕克 · 动作跨版本、屏中素材与段落留白",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            12.933333,
+            13
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "手机切出是硬切，不是屏幕放大门户",
+          "anchors": [
+            {
+              "frame": 388,
+              "pts": 12.933333,
+              "claim": "手机外框仍完整",
+              "evidence": "evidence/V20/native-007.jpg"
+            },
+            {
+              "frame": 389,
+              "pts": 12.966667,
+              "claim": "直接换完整院落/车上人物场景",
+              "evidence": "evidence/V20/native-007.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V20/native-007.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V14",
+          "title": "相似国漫画面：AB交替、姿态锚点与去色保持",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            0.433333,
+            1.233333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "相似姿态AB短组交替",
+          "anchors": [
+            {
+              "frame": 13,
+              "pts": 0.433333,
+              "claim": "蓝色回头脸换受伤侧脸",
+              "evidence": "evidence/V14/native-001.jpg"
+            },
+            {
+              "frame": 18,
+              "pts": 0.6,
+              "claim": "短暂回蓝色版本",
+              "evidence": "evidence/V14/native-001.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V14/native-001.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "先标两镜的动作峰值、运动方向、锚点坐标与主体大小。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "先用普通硬切接，不先加效果；以注视点连续为验收标准。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "必要时少量裁切/平移/缩放；有变速需求先试短段恒速。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "按源帧和PTS作±1–3帧试切，再独立核对声音。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "原生时间线切镜、trim、恒速、基础位置缩放；保留各源片可编辑。",
+        "HyperFrames": "只在需要文字/图形层时补充；匹配硬切本身不需要HF shader。",
+        "preprocessing": "先取得可用原片；模板与参数仍需短样验证。"
+      },
+      "implementation_status": {
+        "code": "equivalent_recipe",
+        "label": "等效配方：未实际复刻渲染",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T02",
+      "name_zh": "短叠化与构图对齐",
+      "difficulty": 2,
+      "reason": "短透明度交叉变化容易做；主体未对齐会产生双影，叠化不能代替素材筛选。",
+      "suitable_materials": [
+        "握手、背头、正脸等位置接近的双镜",
+        "暗部/大色块相近、短重叠不影响阅读的片段"
+      ],
+      "not_suitable": [
+        "两个主体大小和角度差异悬殊",
+        "关键运动需要清楚冲击，不宜长时间双曝光"
+      ],
+      "references": [
+        {
+          "reference_id": "V06",
+          "title": "130秒动作混剪 · 跨片运动匹配",
+          "source_fps": "24/1",
+          "time_range_sec": [
+            55.875,
+            56.083333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "握手短叠化",
+          "anchors": [
+            {
+              "frame": 1342,
+              "pts": 55.916667,
+              "claim": "握手双曝光开始",
+              "evidence": "evidence/V06/native-023.jpg"
+            },
+            {
+              "frame": 1345,
+              "pts": 56.041667,
+              "claim": "第二组背景已清楚",
+              "evidence": "evidence/V06/native-023.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V06/native-023.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V11",
+          "title": "银翼杀手混剪：文字、虹膜与屏幕中的多层图像",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            6.866667,
+            7.166667
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "短重叠换场",
+          "anchors": [
+            {
+              "frame": 206,
+              "pts": 6.866667,
+              "claim": "室内和外部火场双曝光阶段",
+              "evidence": "evidence/V11/native-004.jpg"
+            },
+            {
+              "frame": 215,
+              "pts": 7.166667,
+              "claim": "室外火场已经明确",
+              "evidence": "evidence/V11/native-004.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V11/native-004.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "对齐手、眼或肩等一个主要锚点，统一主体占屏比例。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "A与B保留短重叠，透明度反向变化。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "检查重叠中间帧是否出现不合理双手、双眼或亮度突升。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "硬切与叠化AB比较，选最能表达关系的一个。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "多轨重叠、opacity关键帧或已有转场；草稿完成后保留两源。",
+        "HyperFrames": "如需不规则过桥可做图层合成；普通叠化无需复杂模板。",
+        "preprocessing": "先取得可用原片；模板与参数仍需短样验证。"
+      },
+      "implementation_status": {
+        "code": "equivalent_recipe",
+        "label": "等效配方：未实际复刻渲染",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T03",
+      "name_zh": "六格/几何拼图与同源窗口",
+      "difficulty": 3,
+      "reason": "每格共享同一画面时钟、裁切互补、显现时序不同；多视频实例和原生工程的同步是主要工程点。",
+      "suitable_materials": [
+        "一段可分成3×2仍有可读信息的B镜头",
+        "A背景留出中心区域，B有足够分辨率与源帧余量",
+        "可裁切的风景、人物或车辆宽景"
+      ],
+      "not_suitable": [
+        "六格各播一份完整画面却想拼成同一人物",
+        "源片分辨率低、主体刚好压在格缝且不能调整"
+      ],
+      "references": [
+        {
+          "reference_id": "V05",
+          "title": "反击 · 六格拼图、三联画与CRT",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            1.833333,
+            2.3
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "V05原参考六格",
+          "anchors": [
+            {
+              "frame": 55,
+              "pts": 1.833333,
+              "claim": "亮白卡片开始",
+              "evidence": "evidence/V05/native-001.jpg"
+            },
+            {
+              "frame": 58,
+              "pts": 1.933333,
+              "claim": "中列加入",
+              "evidence": "evidence/V05/native-001.jpg"
+            },
+            {
+              "frame": 62,
+              "pts": 2.066667,
+              "claim": "右列加入",
+              "evidence": "evidence/V05/native-002.jpg"
+            },
+            {
+              "frame": 68,
+              "pts": 2.266667,
+              "claim": "放大/模糊亮帧",
+              "evidence": "evidence/V05/native-002.jpg"
+            },
+            {
+              "frame": 69,
+              "pts": 2.3,
+              "claim": "切蓝天动作",
+              "evidence": "evidence/V05/native-002.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V05/native-001.jpg",
+            "evidence/V05/native-002.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V16",
+          "title": "灵笼角色 · 记忆卡片、人物剪影与情绪回切",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            20.133333,
+            21.033333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "三竖条同源拼图",
+          "anchors": [
+            {
+              "frame": 604,
+              "pts": 20.133333,
+              "claim": "第一条白竖卡",
+              "evidence": "evidence/V16/native-011.jpg"
+            },
+            {
+              "frame": 614,
+              "pts": 20.466667,
+              "claim": "三条补出同一新画面",
+              "evidence": "evidence/V16/native-011.jpg"
+            },
+            {
+              "frame": 630,
+              "pts": 21,
+              "claim": "新画面全幅",
+              "evidence": "evidence/V16/native-011.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V16/native-011.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V13",
+          "title": "山野日落：几何照片卡墙与纹理过门",
+          "source_fps": "25/1",
+          "time_range_sec": [
+            2.68,
+            3.84
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "菱形拼图的等效扩展，尚未实测",
+          "anchors": [
+            {
+              "frame": 67,
+              "pts": 2.68,
+              "claim": "首块菱形夜景",
+              "evidence": "evidence/V13/native-002.jpg"
+            },
+            {
+              "frame": 95,
+              "pts": 3.8,
+              "claim": "夜景铺满",
+              "evidence": "evidence/V13/native-002.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V13/native-002.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "一份B预合成/源视频复制为6窗口；按全画布坐标互补裁切。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "窗口共享相同源起点与播放时间，给每格独立显现cue。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "需要白卡/轮廓桥时另设短白覆盖层；不要把它误认成纯opacity。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "窗口全部完成后接B全幅，确认源时间连续；只混一次B原声或使用Master。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 5,
+          "text": "导出HF成片并保存editable HTML；OCC保存6个独立clip与关键帧，portable包实际导入核验。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "已实测7视频轨（6格+底轨）、独立crop/scale/opacity/y关键帧，独立Master；另有HF整合序列。",
+        "HyperFrames": "已实测4.5秒/24fps六格HTML制作、108帧原生渲染与最终MP4；HF内部图层仍回HF编辑。",
+        "preprocessing": "先取得可用原片；模板与参数仍需短样验证。"
+      },
+      "implementation_status": {
+        "code": "tested_v05_subcase",
+        "label": "已实测：仅V05结构迁移小样中的六格子例",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": false
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "只实测FastX素材的结构迁移版：A0–48帧、六格30–48、B48–108，整体scale=.72；未复刻原动画动作、音乐、亮白细节、原缓动或模糊，不是100%复刻。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T04",
+      "name_zh": "照片墙与独立卡片错时入场",
+      "difficulty": 3,
+      "reason": "几何动画较直接，复杂度来自多卡比例、留白、层级和视线引导；不等于动态人物抠像。",
+      "suitable_materials": [
+        "3–8张主题一致的剧照/风景或短视频",
+        "能承受裁切的横竖素材，前后层级明确",
+        "同一角色/主题的可读片段"
+      ],
+      "not_suitable": [
+        "卡片内信息都很小、缺少主视觉",
+        "仅有一张低清图却要求大量独立动作"
+      ],
+      "references": [
+        {
+          "reference_id": "V13",
+          "title": "山野日落：几何照片卡墙与纹理过门",
+          "source_fps": "25/1",
+          "time_range_sec": [
+            1.6,
+            2.68
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "三卡叠层",
+          "anchors": [
+            {
+              "frame": 40,
+              "pts": 1.6,
+              "claim": "日落小卡出现",
+              "evidence": "evidence/V13/native-001.jpg"
+            },
+            {
+              "frame": 45,
+              "pts": 1.8,
+              "claim": "建筑卡进入",
+              "evidence": "evidence/V13/native-001.jpg"
+            },
+            {
+              "frame": 52,
+              "pts": 2.08,
+              "claim": "蓝天横卡加入",
+              "evidence": "evidence/V13/native-001.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V13/native-001.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V18",
+          "title": "复仇者集结 · 系列序列、人物章节与冷暖记忆",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            0,
+            1.8
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "标志网格",
+          "anchors": [
+            {
+              "frame": 0,
+              "pts": 0,
+              "claim": "系列标志网格",
+              "evidence": "evidence/V18/native-001.jpg"
+            },
+            {
+              "frame": 30,
+              "pts": 1,
+              "claim": "网格内容更新",
+              "evidence": "evidence/V18/native-001.jpg"
+            },
+            {
+              "frame": 54,
+              "pts": 1.8,
+              "claim": "切入人物镜头",
+              "evidence": "evidence/V18/native-001.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V18/native-001.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V16",
+          "title": "灵笼角色 · 记忆卡片、人物剪影与情绪回切",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            10.8,
+            11.6
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "来镜卡连续接力",
+          "anchors": [
+            {
+              "frame": 324,
+              "pts": 10.8,
+              "claim": "首个白矩形",
+              "evidence": "evidence/V16/native-006.jpg"
+            },
+            {
+              "frame": 336,
+              "pts": 11.2,
+              "claim": "另一竖卡",
+              "evidence": "evidence/V16/native-006.jpg"
+            },
+            {
+              "frame": 348,
+              "pts": 11.6,
+              "claim": "新镜全幅",
+              "evidence": "evidence/V16/native-006.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V16/native-006.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "先确定一张主卡，其余卡片只补充主题。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "每卡独立窗口，记录宽高比、位置、平面角度和cue。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "只给入场/出场关键帧，留出静止阅读段。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "卡片放大接全幅时，对齐内部视频时钟和最后构图。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "选段与基础画中画；多卡需要独立clip和轨道。",
+        "HyperFrames": "适合维护可换媒体的卡片组件；grid-card-assemble默认能力卡需改媒体槽，并非原作者模板。",
+        "preprocessing": "先取得可用原片；模板与参数仍需短样验证。"
+      },
+      "implementation_status": {
+        "code": "equivalent_recipe",
+        "label": "等效配方：未实际复刻渲染",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T05",
+      "name_zh": "矩形分屏、半脸与漫画三联",
+      "difficulty": 2,
+      "reason": "静态几何裁切容易复用；若加动态前景或透视，难度另计。",
+      "suitable_materials": [
+        "三角色情绪/车辆细节等同时比较素材",
+        "左右半脸眼线相近",
+        "多个镜头有相近亮度与视觉密度"
+      ],
+      "not_suitable": [
+        "三个窗口都抢同一注视点",
+        "脸宽/视线差太大导致半脸拼接破碎"
+      ],
+      "references": [
+        {
+          "reference_id": "V16",
+          "title": "灵笼角色 · 记忆卡片、人物剪影与情绪回切",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            1.9,
+            2.6
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "左右半脸",
+          "anchors": [
+            {
+              "frame": 60,
+              "pts": 2,
+              "claim": "半脸矩形分区",
+              "evidence": "evidence/V16/native-002.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V16/native-002.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V17",
+          "title": "夏油杰与五条悟 · 记忆对照、心电线与镜片窗口",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            17.066667,
+            17.433333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "竖分区并脸",
+          "anchors": [
+            {
+              "frame": 512,
+              "pts": 17.066667,
+              "claim": "窄竖窗",
+              "evidence": "evidence/V17/native-009.jpg"
+            },
+            {
+              "frame": 522,
+              "pts": 17.4,
+              "claim": "两半脸沿中线拼接",
+              "evidence": "evidence/V17/native-009.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V17/native-009.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V05",
+          "title": "反击 · 六格拼图、三联画与CRT",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            14.3,
+            15.3
+          ],
+          "range_precision": "来自已审查章节；没有额外精确帧锚点，不能当逐帧边界",
+          "label": "三色漫画三联；沿用章节观察，未新增精确切点",
+          "anchors": [],
+          "evidence": [
+            "evidence/V05/native-008.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "先决定各窗口职责，不只是把三段素材缩小。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "给每窗口明确rect/crop，统一边距和眼线。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "颜色处理按窗口独立；保持肤色/主体清晰。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "有前景人物压过分屏边界时另备alpha，不把其计入纯几何分屏。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "原生crop、轨道和基础颜色调整；各窗口可单独编辑。",
+        "HyperFrames": "复杂版式、网点、文字与窗边可在HF合成。",
+        "preprocessing": "先取得可用原片；模板与参数仍需短样验证。"
+      },
+      "implementation_status": {
+        "code": "equivalent_recipe",
+        "label": "等效配方：未实际复刻渲染",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T06",
+      "name_zh": "圆形/眼形/指缝形状门户",
+      "difficulty": 4,
+      "reason": "静态圆窗可做2/5原型；动态瞳孔、指缝、轮辐和透视将难度提高到4–5/5。",
+      "suitable_materials": [
+        "瞳孔、圆形车标、眼罩等清楚入口",
+        "下一镜主体可放在入口中心",
+        "有前景遮挡层和足够源画面余量"
+      ],
+      "not_suitable": [
+        "入口边缘运动很快/严重模糊却无高质量alpha",
+        "用一张静态三角mask覆盖整个开合指缝",
+        "把普通手机硬切当成门户扩张"
+      ],
+      "references": [
+        {
+          "reference_id": "V01",
+          "title": "蜘蛛侠版本 · 人物拼贴与圆形穿越",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            20.8,
+            21.8
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "连续圆形揭示",
+          "anchors": [
+            {
+              "frame": 624,
+              "pts": 20.8,
+              "claim": "胸口夕阳圆窗",
+              "evidence": "evidence/V01/native-011.jpg"
+            },
+            {
+              "frame": 630,
+              "pts": 21,
+              "claim": "圆窗扩张",
+              "evidence": "evidence/V01/native-011.jpg"
+            },
+            {
+              "frame": 634,
+              "pts": 21.133333,
+              "claim": "已成全幅",
+              "evidence": "evidence/V01/native-011.jpg"
+            },
+            {
+              "frame": 645,
+              "pts": 21.5,
+              "claim": "第二圆窗开始",
+              "evidence": "evidence/V01/native-011.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V01/native-011.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V04",
+          "title": "蜘蛛侠循环 · 漫画拼贴与眼罩窗口",
+          "source_fps": "24/1",
+          "time_range_sec": [
+            11.75,
+            12.458333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "眼形内窗",
+          "anchors": [
+            {
+              "frame": 282,
+              "pts": 11.75,
+              "claim": "眼罩特写",
+              "evidence": "evidence/V04/native-005.jpg"
+            },
+            {
+              "frame": 286,
+              "pts": 11.916667,
+              "claim": "眼形区域换入动作",
+              "evidence": "evidence/V04/native-005.jpg"
+            },
+            {
+              "frame": 299,
+              "pts": 12.458333,
+              "claim": "窗口继续换片",
+              "evidence": "evidence/V04/native-005.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V04/native-005.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V07",
+          "title": "国漫手势 · 动态前景与指缝门户",
+          "source_fps": "25/1",
+          "time_range_sec": [
+            26.6,
+            26.96
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "动态指缝",
+          "anchors": [
+            {
+              "frame": 665,
+              "pts": 26.6,
+              "claim": "指缝开始容纳下一人物",
+              "evidence": "evidence/V07/native-012.jpg"
+            },
+            {
+              "frame": 674,
+              "pts": 26.96,
+              "claim": "已转全景",
+              "evidence": "evidence/V07/native-012.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V07/native-012.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V10",
+          "title": "BMW M4 · 三分屏与车标轮毂穿越",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            7,
+            9.8
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "车标/轮毂前后层",
+          "anchors": [
+            {
+              "frame": 210,
+              "pts": 7,
+              "claim": "车尾进入车标圆窗",
+              "evidence": "evidence/V10/native-004.jpg"
+            },
+            {
+              "frame": 250,
+              "pts": 8.333333,
+              "claim": "来镜车头在圆内扩张",
+              "evidence": "evidence/V10/native-005.jpg"
+            },
+            {
+              "frame": 294,
+              "pts": 9.8,
+              "claim": "新车头进入轮毂",
+              "evidence": "evidence/V10/native-005.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V10/native-004.jpg",
+            "evidence/V10/native-005.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "A作底，B限在入口mask内，入口半径/路径与B内容scale分开。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "动态入口先做平面/点位跟踪或手工路径。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "轮辐、眼罩边、手指作为顶层alpha保住真实遮挡。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "入口铺满后接B全幅，B源时间和构图连续。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "简单圆/矩形mask可做原型；动态路径/细轮辐不应承诺原生自动解决。",
+        "HyperFrames": "可写自定义mask/图层动画；实验vfx-portal不是手指rotoscope，需换媒体和路径结构。",
+        "preprocessing": "需相应原片、动态alpha/路径、跟踪或现成效果plate；复杂部分先独立预渲染。"
+      },
+      "implementation_status": {
+        "code": "requires_source_or_preprocessing",
+        "label": "需素材/预处理：配方未完成复刻",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T07",
+      "name_zh": "动态前景遮罩与alpha领先入场",
+      "difficulty": 4,
+      "reason": "核心是B前景与B完整镜头同源同帧；手指、袖口和头发需要时间一致的边缘，不是位置关键帧就能替代。",
+      "suitable_materials": [
+        "下一镜完整源片和可分离前景",
+        "轮廓明显、运动相位能盖住旧画面",
+        "镜头头尾有余量"
+      ],
+      "not_suitable": [
+        "仅有成片无原始B完整帧",
+        "发丝/透明物/运动糊边需要一键精确",
+        "前景与B底图来自不同时间导致合流跳位"
+      ],
+      "references": [
+        {
+          "reference_id": "V03",
+          "title": "国漫新春 · 巨眼与袖口遮挡",
+          "source_fps": "25/1",
+          "time_range_sec": [
+            16.48,
+            16.92
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "袖口先入",
+          "anchors": [
+            {
+              "frame": 412,
+              "pts": 16.48,
+              "claim": "袖口先在棋盘右侧出现",
+              "evidence": "evidence/V03/native-007.jpg"
+            },
+            {
+              "frame": 423,
+              "pts": 16.92,
+              "claim": "已换蓝树林底景",
+              "evidence": "evidence/V03/native-008.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V03/native-007.jpg",
+            "evidence/V03/native-008.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V15",
+          "title": "莉莉周混剪：前景领先、轮廓发光与录像界面",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            2.1,
+            2.2
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "奔跑前景领先",
+          "anchors": [
+            {
+              "frame": 63,
+              "pts": 2.1,
+              "claim": "B腿部先盖旧道路",
+              "evidence": "evidence/V15/native-002.jpg"
+            },
+            {
+              "frame": 66,
+              "pts": 2.2,
+              "claim": "换水边B底景",
+              "evidence": "evidence/V15/native-002.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V15/native-002.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V17",
+          "title": "夏油杰与五条悟 · 记忆对照、心电线与镜片窗口",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            15.1,
+            15.533333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "来镜手先入",
+          "anchors": [
+            {
+              "frame": 453,
+              "pts": 15.1,
+              "claim": "手先出现笑脸之间",
+              "evidence": "evidence/V17/native-008.jpg"
+            },
+            {
+              "frame": 466,
+              "pts": 15.533333,
+              "claim": "伸掌完整镜",
+              "evidence": "evidence/V17/native-008.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V17/native-008.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "从B完整源片提取前景alpha，保留原帧PTS。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "A底+B前景先出现，再换B完整底图。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "B alpha和B全幅共用一份时钟；切换时检查边缘位置。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "逐段检查手指空洞、衣袖细边、头发、遮挡和运动模糊。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "负责底片排布、切口、外层位置/透明度和预渲染素材管理。",
+        "HyperFrames": "负责多层合成；现成分割能力未在这些动画/复杂细边上验证，不能直接保证干净结果。",
+        "preprocessing": "需相应原片、动态alpha/路径、跟踪或现成效果plate；复杂部分先独立预渲染。"
+      },
+      "implementation_status": {
+        "code": "requires_source_or_preprocessing",
+        "label": "需素材/预处理：配方未完成复刻",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T08",
+      "name_zh": "白描边、白色剪影与短轮廓桥",
+      "difficulty": 4,
+      "reason": "已备alpha时可降到2/5；无alpha时难在正确人物边缘、短显现与前后层关系。空心描边和实心白剪影不能混称。",
+      "suitable_materials": [
+        "边缘清楚的来镜人物/手部",
+        "需要短促强调但能保留动作阅读",
+        "同源前景alpha"
+      ],
+      "not_suitable": [
+        "用整张矩形白边替代人物描边",
+        "误把1–2帧填白称持续发光",
+        "outline-draw圆角框被当作人物轮廓生成器"
+      ],
+      "references": [
+        {
+          "reference_id": "V08",
+          "title": "能力越大责任越大 · 多版本人物接力",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            7.033333,
+            7.333333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "很短的白剪影",
+          "anchors": [
+            {
+              "frame": 211,
+              "pts": 7.033333,
+              "claim": "白人物剪影先盖旧角色",
+              "evidence": "evidence/V08/native-004.jpg"
+            },
+            {
+              "frame": 212,
+              "pts": 7.066667,
+              "claim": "新蜘蛛侠出现",
+              "evidence": "evidence/V08/native-004.jpg"
+            },
+            {
+              "frame": 219,
+              "pts": 7.3,
+              "claim": "另一白形",
+              "evidence": "evidence/V08/native-004.jpg"
+            },
+            {
+              "frame": 220,
+              "pts": 7.333333,
+              "claim": "另一新角色",
+              "evidence": "evidence/V08/native-004.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V08/native-004.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V04",
+          "title": "蜘蛛侠循环 · 漫画拼贴与眼罩窗口",
+          "source_fps": "24/1",
+          "time_range_sec": [
+            10.583333,
+            10.75
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "空心白边人物",
+          "anchors": [
+            {
+              "frame": 254,
+              "pts": 10.583333,
+              "claim": "白边小人物放大",
+              "evidence": "evidence/V04/native-005.jpg"
+            },
+            {
+              "frame": 258,
+              "pts": 10.75,
+              "claim": "仍在放大段",
+              "evidence": "evidence/V04/native-005.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V04/native-005.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V16",
+          "title": "灵笼角色 · 记忆卡片、人物剪影与情绪回切",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            13.633333,
+            13.9
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "人物填白前导",
+          "anchors": [
+            {
+              "frame": 409,
+              "pts": 13.633333,
+              "claim": "灰白人物形状",
+              "evidence": "evidence/V16/native-007.jpg"
+            },
+            {
+              "frame": 417,
+              "pts": 13.9,
+              "claim": "第二次白形",
+              "evidence": "evidence/V16/native-007.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V16/native-007.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "决定是实心剪影还是轮廓线。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "实心：alpha内填白；描边：alpha外扩减原alpha，再着色。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "白形先入后回彩色，时长按原帧调整；1–2帧只是已观察个例，非统一配方。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "需要glow时单独模糊描边副本，检查是否压坏主体。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "可安排已带alpha媒体及透明度；原生几何mask不生成人体轮廓。",
+        "HyperFrames": "alpha复制、填色、描边/发光和时序；复杂边缘需预处理。",
+        "preprocessing": "需相应原片、动态alpha/路径、跟踪或现成效果plate；复杂部分先独立预渲染。"
+      },
+      "implementation_status": {
+        "code": "requires_source_or_preprocessing",
+        "label": "需素材/预处理：配方未完成复刻",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T09",
+      "name_zh": "人物内填视频与双重曝光",
+      "difficulty": 4,
+      "reason": "人体mask、内部素材运动与底图切换三套时序要独立；双曝光亮度/语义需控制。",
+      "suitable_materials": [
+        "稳定背影/头部轮廓",
+        "水、山、城市灯等可读纹理",
+        "明暗层次清楚的双人/回忆素材"
+      ],
+      "not_suitable": [
+        "内部纹理过碎导致人物消失",
+        "无人物边缘却要求只改人不改背景",
+        "两画面亮部相加直接过曝"
+      ],
+      "references": [
+        {
+          "reference_id": "V12",
+          "title": "西湖绿景：建筑剪影、佛头与人物内填景",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            7.2,
+            8.433333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "人体内填景",
+          "anchors": [
+            {
+              "frame": 216,
+              "pts": 7.2,
+              "claim": "人物内填水的阶段",
+              "evidence": "evidence/V12/native-004.jpg"
+            },
+            {
+              "frame": 245,
+              "pts": 8.166667,
+              "claim": "恢复黑形",
+              "evidence": "evidence/V12/native-005.jpg"
+            },
+            {
+              "frame": 252,
+              "pts": 8.4,
+              "claim": "粉色景像填进人体",
+              "evidence": "evidence/V12/native-005.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V12/native-004.jpg",
+            "evidence/V12/native-005.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V11",
+          "title": "银翼杀手混剪：文字、虹膜与屏幕中的多层图像",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            21.8,
+            22.866667
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "背影内填纹理",
+          "anchors": [
+            {
+              "frame": 654,
+              "pts": 21.8,
+              "claim": "身体内图像/纹理阶段",
+              "evidence": "evidence/V11/native-011.jpg"
+            },
+            {
+              "frame": 663,
+              "pts": 22.1,
+              "claim": "灵魂字组出现",
+              "evidence": "evidence/V11/native-012.jpg"
+            },
+            {
+              "frame": 682,
+              "pts": 22.733333,
+              "claim": "水状前景铺入",
+              "evidence": "evidence/V11/native-012.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V11/native-011.jpg",
+            "evidence/V11/native-012.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V17",
+          "title": "夏油杰与五条悟 · 记忆对照、心电线与镜片窗口",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            2.6,
+            3.566667
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "前景大脸双曝光",
+          "anchors": [
+            {
+              "frame": 78,
+              "pts": 2.6,
+              "claim": "大脸在前日常镜在后",
+              "evidence": "evidence/V17/native-002.jpg"
+            },
+            {
+              "frame": 96,
+              "pts": 3.2,
+              "claim": "前景脸保持、背景变化",
+              "evidence": "evidence/V17/native-002.jpg"
+            },
+            {
+              "frame": 107,
+              "pts": 3.566667,
+              "claim": "另一回忆底图",
+              "evidence": "evidence/V17/native-002.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V17/native-002.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "先明确保留哪一层的轮廓，另一层负责什么语义。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "将填充视频裁进人物mask；位置/scale与mask独立。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "双曝光先用opacity做清楚层级，再比较屏幕/叠加混合。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "底景切换时让主体轮廓不跳；最后恢复自然镜头作为落点。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "保持镜头与音轨组织；预渲染结果可做外层编辑。",
+        "HyperFrames": "适合mask合成与独立填充时钟；动态人物alpha/跟踪先准备。",
+        "preprocessing": "需相应原片、动态alpha/路径、跟踪或现成效果plate；复杂部分先独立预渲染。"
+      },
+      "implementation_status": {
+        "code": "requires_source_or_preprocessing",
+        "label": "需素材/预处理：配方未完成复刻",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T10",
+      "name_zh": "漫画排字、字牌与前后遮挡",
+      "difficulty": 3,
+      "reason": "基本文字与网点可参数化；人物压字、非均匀缩放和快速替换需要清楚层级与可读时长。",
+      "suitable_materials": [
+        "高对比漫画底、短词/短句",
+        "有可抠动作人物而非仅静态头像",
+        "文字不遮关键表情的构图"
+      ],
+      "not_suitable": [
+        "长段文本硬塞冲击大字",
+        "缺人物alpha却要求文字被动作遮住",
+        "把原动画自身线稿/爆点当字幕特效"
+      ],
+      "references": [
+        {
+          "reference_id": "V02",
+          "title": "咒术回战 · 漫画排字与人物抠像",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            3.533333,
+            5.6
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "人物在大字前",
+          "anchors": [
+            {
+              "frame": 106,
+              "pts": 3.533333,
+              "claim": "红轮廓人物开始",
+              "evidence": "evidence/V02/native-002.jpg"
+            },
+            {
+              "frame": 108,
+              "pts": 3.6,
+              "claim": "人物与大字新板式明确",
+              "evidence": "evidence/V02/native-002.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V02/native-002.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V11",
+          "title": "银翼杀手混剪：文字、虹膜与屏幕中的多层图像",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            24.733333,
+            25.766667
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "重复字列",
+          "anchors": [
+            {
+              "frame": 742,
+              "pts": 24.733333,
+              "claim": "回审讯镜",
+              "evidence": "evidence/V11/native-013.jpg"
+            },
+            {
+              "frame": 759,
+              "pts": 25.3,
+              "claim": "DAMN IT重复行增多",
+              "evidence": "evidence/V11/native-013.jpg"
+            },
+            {
+              "frame": 772,
+              "pts": 25.733333,
+              "claim": "密集重复字列后结束",
+              "evidence": "evidence/V11/native-013.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V11/native-013.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V18",
+          "title": "复仇者集结 · 系列序列、人物章节与冷暖记忆",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            7.733333,
+            9.733333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "同标题跨镜",
+          "anchors": [
+            {
+              "frame": 232,
+              "pts": 7.733333,
+              "claim": "群像红标题",
+              "evidence": "evidence/V18/native-004.jpg"
+            },
+            {
+              "frame": 261,
+              "pts": 8.7,
+              "claim": "换底片保留标题",
+              "evidence": "evidence/V18/native-005.jpg"
+            },
+            {
+              "frame": 292,
+              "pts": 9.733333,
+              "claim": "ASSEMBLE接入",
+              "evidence": "evidence/V18/native-005.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V18/native-004.jpg",
+            "evidence/V18/native-005.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "先做底色、网点、文字和人物四层静态版式。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "文案按词组/句组替换，字号与行距优先于抖动。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "人物alpha置于字上，需前后穿插时拆两层。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "只给与语义对应的scaleX/位置/opacity，不默认逐字弹跳。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "先挑可读动作片；简单文字可原生编辑，但复杂板式更适合HF。",
+        "HyperFrames": "HTML排版、字体、网点、文字关键帧和人物遮挡；字体与原插件身份未知。",
+        "preprocessing": "先取得可用原片；模板与参数仍需短样验证。"
+      },
+      "implementation_status": {
+        "code": "equivalent_recipe",
+        "label": "等效配方：未实际复刻渲染",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T11",
+      "name_zh": "RGB错位、黑白/反相与短故障",
+      "difficulty": 3,
+      "reason": "短窗口的通道错位容易写近似；整幅视频与文字RGB是不同输入，且源片可能已有故障效果。",
+      "suitable_materials": [
+        "高反差人物、短标题、明确连接点",
+        "能容忍短时色边且不影响主体身份的镜头"
+      ],
+      "not_suitable": [
+        "全片持续强错位影响阅读",
+        "文字组件被当作整幅视频着色器",
+        "没有源片对照却把所有彩边算后加"
+      ],
+      "references": [
+        {
+          "reference_id": "V18",
+          "title": "复仇者集结 · 系列序列、人物章节与冷暖记忆",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            6.166667,
+            7.6
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "整幅RGB故障",
+          "anchors": [
+            {
+              "frame": 185,
+              "pts": 6.166667,
+              "claim": "姓名签名版式",
+              "evidence": "evidence/V18/native-004.jpg"
+            },
+            {
+              "frame": 216,
+              "pts": 7.2,
+              "claim": "整幅错色",
+              "evidence": "evidence/V18/native-004.jpg"
+            },
+            {
+              "frame": 228,
+              "pts": 7.6,
+              "claim": "斜卡过桥",
+              "evidence": "evidence/V18/native-004.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V18/native-004.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V11",
+          "title": "银翼杀手混剪：文字、虹膜与屏幕中的多层图像",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            2,
+            3
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "同一母题短色切",
+          "anchors": [
+            {
+              "frame": 60,
+              "pts": 2,
+              "claim": "橙色处理",
+              "evidence": "evidence/V11/native-002.jpg"
+            },
+            {
+              "frame": 70,
+              "pts": 2.333333,
+              "claim": "回正常色",
+              "evidence": "evidence/V11/native-002.jpg"
+            },
+            {
+              "frame": 76,
+              "pts": 2.533333,
+              "claim": "蓝色处理",
+              "evidence": "evidence/V11/native-002.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V11/native-002.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V15",
+          "title": "莉莉周混剪：前景领先、轮廓发光与录像界面",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            21.2,
+            21.333333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "短局部错位",
+          "anchors": [
+            {
+              "frame": 636,
+              "pts": 21.2,
+              "claim": "横条/色光过门",
+              "evidence": "evidence/V15/native-011.jpg"
+            },
+            {
+              "frame": 640,
+              "pts": 21.333333,
+              "claim": "进入录像框人像",
+              "evidence": "evidence/V15/native-011.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V15/native-011.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "区分文字、主体alpha和整幅视频三类输入。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "先用红青副本少量平移/文字shadow做近似。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "设独立进出窗口，结束必须回正常画面。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "对照源片确认是否已有色边，不双重叠加强度。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "镜头切口、简单颜色效果与效果clip管理。",
+        "HyperFrames": "短字可用rgb-glitch-text；整幅视频需视频纹理/通道处理，chromatic-radial-split演示不能只换路径。",
+        "preprocessing": "先取得可用原片；模板与参数仍需短样验证。"
+      },
+      "implementation_status": {
+        "code": "equivalent_recipe",
+        "label": "等效配方：未实际复刻渲染",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T12",
+      "name_zh": "CRT收缩与录像机界面",
+      "difficulty": 3,
+      "reason": "扫描线、框线、REC和纵横缩放能分开做；CRT关机与录像UI是两种机制。",
+      "suitable_materials": [
+        "能预合成的完整画面",
+        "有边缘空间放REC/参数的4:3或16:9镜头",
+        "清楚中心亮度/收缩终点"
+      ],
+      "not_suitable": [
+        "以扫描线一层代替整套电视收缩",
+        "强制画面变形破坏人物，又无风格理由",
+        "暗场尾帧尚有亮点却宣称像素纯黑"
+      ],
+      "references": [
+        {
+          "reference_id": "V05",
+          "title": "反击 · 六格拼图、三联画与CRT",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            22.4,
+            23.133333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "CRT关机",
+          "anchors": [
+            {
+              "frame": 672,
+              "pts": 22.4,
+              "claim": "CRT边界可见",
+              "evidence": "evidence/V05/native-012.jpg"
+            },
+            {
+              "frame": 682,
+              "pts": 22.733333,
+              "claim": "压成横线",
+              "evidence": "evidence/V05/native-012.jpg"
+            },
+            {
+              "frame": 693,
+              "pts": 23.1,
+              "claim": "最后帧接近黑但残余不能忽略",
+              "evidence": "evidence/V05/native-012.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V05/native-012.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V15",
+          "title": "莉莉周混剪：前景领先、轮廓发光与录像界面",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            21.7,
+            22.7
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "录像机UI",
+          "anchors": [
+            {
+              "frame": 651,
+              "pts": 21.7,
+              "claim": "蓝调牵手镜与录像界面开始",
+              "evidence": "evidence/V15/native-011.jpg"
+            },
+            {
+              "frame": 678,
+              "pts": 22.6,
+              "claim": "录像界面仍存在",
+              "evidence": "evidence/V15/native-012.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V15/native-011.jpg",
+            "evidence/V15/native-012.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "CRT：先将画面预合成，按需加曲面/扫描线/圆角。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "CRT：先scaleY压线，再scaleX收点，独立控制余辉。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "录像UI：REC、细框、电量、小参数独立矢量层，扫描线另层。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "保持真实源fps；不据REC字样推定摄影机型号。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "安排预渲染CRT片段或基础缩放；UI层可与素材分轨。",
+        "HyperFrames": "负责预合成画面变换与录像图形；当前目录仅给配方，未做CRT/REC复刻。",
+        "preprocessing": "先取得可用原片；模板与参数仍需短样验证。"
+      },
+      "implementation_status": {
+        "code": "equivalent_recipe",
+        "label": "等效配方：未实际复刻渲染",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T13",
+      "name_zh": "手机/屏幕/道具平面内换片",
+      "difficulty": 4,
+      "reason": "稳定正面矩形可降低难度；动态屏幕、透视、前景手和反射需要多层/跟踪。",
+      "suitable_materials": [
+        "屏幕角点清晰、运动不剧烈的原镜",
+        "有手/人物前景alpha",
+        "可放入屏中的相似比例素材"
+      ],
+      "not_suitable": [
+        "反光完全遮住屏幕又无clean plate",
+        "只用矩形遮罩要求跟随强透视",
+        "把V20屏后硬切误写成屏幕扩张"
+      ],
+      "references": [
+        {
+          "reference_id": "V20",
+          "title": "蜘蛛侠与彼得帕克 · 动作跨版本、屏中素材与段落留白",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            8.633333,
+            12.966667
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "屏内替换与硬切分开",
+          "anchors": [
+            {
+              "frame": 259,
+              "pts": 8.633333,
+              "claim": "手机占画面",
+              "evidence": "evidence/V20/native-005.jpg"
+            },
+            {
+              "frame": 327,
+              "pts": 10.9,
+              "claim": "屏内面部到肖像",
+              "evidence": "evidence/V20/native-006.jpg"
+            },
+            {
+              "frame": 353,
+              "pts": 11.766667,
+              "claim": "屏内动作",
+              "evidence": "evidence/V20/native-006.jpg"
+            },
+            {
+              "frame": 388,
+              "pts": 12.933333,
+              "claim": "切出前手机完整",
+              "evidence": "evidence/V20/native-007.jpg"
+            },
+            {
+              "frame": 389,
+              "pts": 12.966667,
+              "claim": "下一帧直接全幅新景",
+              "evidence": "evidence/V20/native-007.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V20/native-005.jpg",
+            "evidence/V20/native-006.jpg",
+            "evidence/V20/native-007.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V11",
+          "title": "银翼杀手混剪：文字、虹膜与屏幕中的多层图像",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            28.3,
+            29.6
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "多屏替换",
+          "anchors": [
+            {
+              "frame": 849,
+              "pts": 28.3,
+              "claim": "屏幕阵列开始",
+              "evidence": "evidence/V11/native-015.jpg"
+            },
+            {
+              "frame": 869,
+              "pts": 28.966667,
+              "claim": "人物画面进入屏幕",
+              "evidence": "evidence/V11/native-015.jpg"
+            },
+            {
+              "frame": 888,
+              "pts": 29.6,
+              "claim": "前景人像开始盖旧屏幕",
+              "evidence": "evidence/V11/native-015.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V11/native-015.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "先确认屏幕四角与遮挡，稳定镜头可手工四角路径。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "B按屏面透视/比例映射，保留屏幕边框、反射和手作为顶层。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "屏内多段换镜也共用同一屏幕跟踪。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "屏后若为硬切，就按硬切做；没有扩张过程不补造门户。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "剪辑屏内片段、保存媒体/外层时间线；复杂透视不承诺原生自动跟踪。",
+        "HyperFrames": "适合自定义四角/纹理映射及前景合成；需动态屏幕路径和媒体逐帧同步。",
+        "preprocessing": "需相应原片、动态alpha/路径、跟踪或现成效果plate；复杂部分先独立预渲染。"
+      },
+      "implementation_status": {
+        "code": "requires_source_or_preprocessing",
+        "label": "需素材/预处理：配方未完成复刻",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T14",
+      "name_zh": "调色、黑白与情绪/回忆组织",
+      "difficulty": 2,
+      "reason": "基本颜色操作简单，难在素材曝光一致与叙事选择；强烈色彩可能原片已带。",
+      "suitable_materials": [
+        "同角色不同状态/年份的素材",
+        "情绪有明确过去/现在对照",
+        "曝光未严重损坏、仍有高光暗部信息"
+      ],
+      "not_suitable": [
+        "想靠统一LUT救回丢失高光",
+        "无故事对照却随机套黑白",
+        "从成片色彩倒推出唯一相机/LUT"
+      ],
+      "references": [
+        {
+          "reference_id": "V14",
+          "title": "相似国漫画面：AB交替、姿态锚点与去色保持",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            1.233333,
+            3.6
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "相似脸后的渐去色",
+          "anchors": [
+            {
+              "frame": 37,
+              "pts": 1.233333,
+              "claim": "受伤侧脸版本逐渐主导",
+              "evidence": "evidence/V14/native-001.jpg"
+            },
+            {
+              "frame": 90,
+              "pts": 3,
+              "claim": "去色后的近景阶段",
+              "evidence": "evidence/V14/native-002.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V14/native-001.jpg",
+            "evidence/V14/native-002.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V18",
+          "title": "复仇者集结 · 系列序列、人物章节与冷暖记忆",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            22.8,
+            24.5
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "亮场到回忆",
+          "anchors": [
+            {
+              "frame": 684,
+              "pts": 22.8,
+              "claim": "亮度增加",
+              "evidence": "evidence/V18/native-012.jpg"
+            },
+            {
+              "frame": 704,
+              "pts": 23.466667,
+              "claim": "灰度室内记忆",
+              "evidence": "evidence/V18/native-012.jpg"
+            },
+            {
+              "frame": 735,
+              "pts": 24.5,
+              "claim": "灰度人物",
+              "evidence": "evidence/V18/native-013.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V18/native-012.jpg",
+            "evidence/V18/native-013.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V11",
+          "title": "银翼杀手混剪：文字、虹膜与屏幕中的多层图像",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            34.5,
+            35.166667
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "局部上色需mask，另计难度",
+          "anchors": [
+            {
+              "frame": 1035,
+              "pts": 34.5,
+              "claim": "台阶横条上色阶段",
+              "evidence": "evidence/V11/native-018.jpg"
+            },
+            {
+              "frame": 1050,
+              "pts": 35,
+              "claim": "多条彩色已形成",
+              "evidence": "evidence/V11/native-018.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V11/native-018.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "先定义色彩的叙事作用，再按章节分组。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "先修曝光/对比，后统一色域；去色用饱和度变化。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "源片已带强色时少做二次处理，避免压坏皮肤和暗部。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "局部上色另备mask，不把整幅滤镜当局部选择。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "基础brightness/contrast/saturate与片段组织；源素材若已灰度先保留。",
+        "HyperFrames": "可动画CSS颜色/局部遮罩，复杂局部处理独立预渲染。",
+        "preprocessing": "先取得可用原片；模板与参数仍需短样验证。"
+      },
+      "implementation_status": {
+        "code": "equivalent_recipe",
+        "label": "等效配方：未实际复刻渲染",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T15",
+      "name_zh": "短闪白、光漏与变焦/方向模糊过门",
+      "difficulty": 3,
+      "reason": "用于掩盖特定连接，强度/时长须与动作相位校准；明亮帧也可能是原片枪口/爆炸/曝光。",
+      "suitable_materials": [
+        "动作峰值、光源出现或相近甩动方向",
+        "有足够边缘余量可放大防露黑",
+        "短过门后能回清晰画面"
+      ],
+      "not_suitable": [
+        "每刀都闪白、无法阅读主体",
+        "把所有运动模糊归为后加",
+        "无源片却要求判断白场由谁加入"
+      ],
+      "references": [
+        {
+          "reference_id": "V18",
+          "title": "复仇者集结 · 系列序列、人物章节与冷暖记忆",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            10.8,
+            11.233333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "可确认白场，新增归属未知",
+          "anchors": [
+            {
+              "frame": 324,
+              "pts": 10.8,
+              "claim": "白场样本开始",
+              "evidence": "evidence/V18/native-006.jpg"
+            },
+            {
+              "frame": 336,
+              "pts": 11.2,
+              "claim": "白场仍在",
+              "evidence": "evidence/V18/native-006.jpg"
+            },
+            {
+              "frame": 337,
+              "pts": 11.233333,
+              "claim": "切洞穴装甲",
+              "evidence": "evidence/V18/native-006.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V18/native-006.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V19",
+          "title": "Is it better to speak or die · 形状联想与克制文字",
+          "source_fps": "20/1",
+          "time_range_sec": [
+            13.6,
+            13.7
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "20fps源的单帧白场",
+          "anchors": [
+            {
+              "frame": 272,
+              "pts": 13.6,
+              "claim": "整幅白帧",
+              "evidence": "evidence/V19/native-005.jpg"
+            },
+            {
+              "frame": 273,
+              "pts": 13.65,
+              "claim": "下一帧黑底小字",
+              "evidence": "evidence/V19/native-005.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V19/native-005.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V15",
+          "title": "莉莉周混剪：前景领先、轮廓发光与录像界面",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            24.166667,
+            24.3
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "暖光过桥",
+          "anchors": [
+            {
+              "frame": 725,
+              "pts": 24.166667,
+              "claim": "暖光与来镜重叠",
+              "evidence": "evidence/V15/native-013.jpg"
+            },
+            {
+              "frame": 729,
+              "pts": 24.3,
+              "claim": "蓝天人物冷色恢复阶段",
+              "evidence": "evidence/V15/native-013.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V15/native-013.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "先保留源镜原光效，确定是否真需附加层。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "闪白、光漏、模糊各独立，先一次只改一种。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "时长用原生帧量化；20fps一帧是50ms，不套30fps模板时长。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "检查过门后第一清晰帧是否位置跳变和露边。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "帧级切点与简单效果排布；不要为了花式转场强改动作。",
+        "HyperFrames": "可把opacity/blur/scale与独立光漏层组合；不能从模板名称证明原作者方法。",
+        "preprocessing": "先取得可用原片；模板与参数仍需短样验证。"
+      },
+      "implementation_status": {
+        "code": "equivalent_recipe",
+        "label": "等效配方：未实际复刻渲染",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T16",
+      "name_zh": "原片光线3D、能量与粒子素材利用",
+      "difficulty": 5,
+      "reason": "现有成片不能拆出原CG工程；透视/遮挡/物理运动不是几条2D关键帧就能原样重建。优先找对应源片/plate。",
+      "suitable_materials": [
+        "已有发光轨道/车辆CG/原动画法术镜头",
+        "与下一镜方向、亮度、主体规模相容的VFX素材",
+        "有深度/alpha/摄影机数据时再考虑重制"
+      ],
+      "not_suitable": [
+        "仅凭MP4要求唯一恢复模型/灯光/粒子参数",
+        "把二维glow当完整三维空间",
+        "假定安装了软件就能自动产出原片级效果"
+      ],
+      "references": [
+        {
+          "reference_id": "V09",
+          "title": "Flow赛车 · 高反差与发光空间段",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            4.6,
+            5.966667
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "空间光线桥",
+          "anchors": [
+            {
+              "frame": 138,
+              "pts": 4.6,
+              "claim": "大亮带",
+              "evidence": "evidence/V09/native-003.jpg"
+            },
+            {
+              "frame": 144,
+              "pts": 4.8,
+              "claim": "细光线在黑底旋转延伸",
+              "evidence": "evidence/V09/native-003.jpg"
+            },
+            {
+              "frame": 174,
+              "pts": 5.8,
+              "claim": "车状轮廓出现",
+              "evidence": "evidence/V09/native-003.jpg"
+            },
+            {
+              "frame": 179,
+              "pts": 5.966667,
+              "claim": "空间段继续",
+              "evidence": "evidence/V09/native-003.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V09/native-003.jpg"
+          ],
+          "review_source": "reviews/V01-V10.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V16",
+          "title": "灵笼角色 · 记忆卡片、人物剪影与情绪回切",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            12.2,
+            12.733333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "能量/巨手优先保留源镜",
+          "anchors": [
+            {
+              "frame": 366,
+              "pts": 12.2,
+              "claim": "横向蓝色光束",
+              "evidence": "evidence/V16/native-007.jpg"
+            },
+            {
+              "frame": 382,
+              "pts": 12.733333,
+              "claim": "巨型手臂对位宽景",
+              "evidence": "evidence/V16/native-007.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V16/native-007.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V15",
+          "title": "莉莉周混剪：前景领先、轮廓发光与录像界面",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            10.9,
+            11.633333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "解体归属未知，不当现成能力",
+          "anchors": [
+            {
+              "frame": 327,
+              "pts": 10.9,
+              "claim": "暖色人物与碎屑",
+              "evidence": "evidence/V15/native-006.jpg"
+            },
+            {
+              "frame": 342,
+              "pts": 11.4,
+              "claim": "高亮轮廓与碎屑阶段",
+              "evidence": "evidence/V15/native-006.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V15/native-006.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "先标出效果存在于哪段源画面内部，不把所有效果算剪辑新增。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "找同源高清片或现成plate，按亮度、方向和动作峰值选段。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "需要原创空间桥时列模型、摄影机、灯光、alpha/深度等前置资源。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "独立制作/预渲染、检查遮挡和运动后再回OCC；没有资源时明确交付简化版。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "使用/组织已经渲染好的CG素材，做匹配切镜；不重建3D场景。",
+        "HyperFrames": "可做近似图形化光线/自定义WebGL，但不等同原片模型/模拟，完整效果当前未实作。",
+        "preprocessing": "需相应原片、动态alpha/路径、跟踪或现成效果plate；复杂部分先独立预渲染。"
+      },
+      "implementation_status": {
+        "code": "requires_source_or_preprocessing",
+        "label": "需素材/预处理：配方未完成复刻",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T17",
+      "name_zh": "路径涂鸦、轮廓骨架与锚点跟随",
+      "difficulty": 4,
+      "reason": "简单点位涂鸦可手工；复杂骨架、遮挡和非刚性身体运动升到5/5。当前无一键追踪质量保证。",
+      "suitable_materials": [
+        "可定义头部/肩/手的清晰短镜头",
+        "运动不剧烈、有稳定参考点",
+        "现成矢量路径/骨架效果素材"
+      ],
+      "not_suitable": [
+        "遮挡、快速转头、严重运动糊却要求自动贴稳",
+        "把装饰圆点当真实追踪分析结果",
+        "仅用x/y跟踪承诺三维骨架/透视"
+      ],
+      "references": [
+        {
+          "reference_id": "V11",
+          "title": "银翼杀手混剪：文字、虹膜与屏幕中的多层图像",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            31.3,
+            31.833333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "头部涂圈",
+          "anchors": [
+            {
+              "frame": 939,
+              "pts": 31.3,
+              "claim": "头部彩色涂鸦跟随段开始",
+              "evidence": "evidence/V11/native-016.jpg"
+            },
+            {
+              "frame": 950,
+              "pts": 31.666667,
+              "claim": "彩线色彩变化但锚点仍在头部",
+              "evidence": "evidence/V11/native-016.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V11/native-016.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V15",
+          "title": "莉莉周混剪：前景领先、轮廓发光与录像界面",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            12.866667,
+            13.833333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "背部骨架/路径外观",
+          "anchors": [
+            {
+              "frame": 386,
+              "pts": 12.866667,
+              "claim": "黑白背影出现",
+              "evidence": "evidence/V15/native-007.jpg"
+            },
+            {
+              "frame": 399,
+              "pts": 13.3,
+              "claim": "身体发光/线形强调",
+              "evidence": "evidence/V15/native-007.jpg"
+            },
+            {
+              "frame": 410,
+              "pts": 13.666667,
+              "claim": "人物轮廓与碎片增强",
+              "evidence": "evidence/V15/native-007.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V15/native-007.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V17",
+          "title": "夏油杰与五条悟 · 记忆对照、心电线与镜片窗口",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            2.3,
+            2.6
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "静态图形可先直接画，不必做身体跟踪",
+          "anchors": [
+            {
+              "frame": 69,
+              "pts": 2.3,
+              "claim": "蓝色折线延伸",
+              "evidence": "evidence/V17/native-002.jpg"
+            },
+            {
+              "frame": 75,
+              "pts": 2.5,
+              "claim": "折线尖峰完整",
+              "evidence": "evidence/V17/native-002.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V17/native-002.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "先区分静态装饰线、二维锚点跟随与骨架三个需求。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "简单镜头手工记录头/手位置，路径独立GSAP动画。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "遮挡发生时要分前后层，不能一直把线画在最上。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "长/复杂镜头按段预渲染，检查漂移，不把跟踪成功与视觉自然等同。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "可保存基础x/y关键帧；已审查模板匹配跟踪不等于姿态/旋转/透视全解。",
+        "HyperFrames": "SVG路径、颜色和描边动画；骨架与复杂跟随需要外部数据或手工校准。",
+        "preprocessing": "需相应原片、动态alpha/路径、跟踪或现成效果plate；复杂部分先独立预渲染。"
+      },
+      "implementation_status": {
+        "code": "requires_source_or_preprocessing",
+        "label": "需素材/预处理：配方未完成复刻",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    },
+    {
+      "id": "T18",
+      "name_zh": "节奏留白、黑场与海报/小字尾卡",
+      "difficulty": 1,
+      "reason": "工具门槛低，难在何时停下来和信息层级；黑场长度与末帧残余要看原帧，不能按每秒缩略图补齐。",
+      "suitable_materials": [
+        "有情绪落点的长镜头",
+        "天空/暗墙等文字负空间",
+        "章节之间需要转折的动作素材"
+      ],
+      "not_suitable": [
+        "所有镜头等长、无节奏层次",
+        "源末帧仍有人物/亮点却硬说全黑",
+        "任意加参考没有的尾卡"
+      ],
+      "references": [
+        {
+          "reference_id": "V20",
+          "title": "蜘蛛侠与彼得帕克 · 动作跨版本、屏中素材与段落留白",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            6.766667,
+            7.133333
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "黑场暂停",
+          "anchors": [
+            {
+              "frame": 203,
+              "pts": 6.766667,
+              "claim": "黑场开始",
+              "evidence": "evidence/V20/native-004.jpg"
+            },
+            {
+              "frame": 210,
+              "pts": 7,
+              "claim": "仍黑",
+              "evidence": "evidence/V20/native-004.jpg"
+            },
+            {
+              "frame": 214,
+              "pts": 7.133333,
+              "claim": "校园镜头渐入",
+              "evidence": "evidence/V20/native-004.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V20/native-004.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V19",
+          "title": "Is it better to speak or die · 形状联想与克制文字",
+          "source_fps": "20/1",
+          "time_range_sec": [
+            13.65,
+            19.4
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "小字停留与真实黑尾",
+          "anchors": [
+            {
+              "frame": 273,
+              "pts": 13.65,
+              "claim": "黑底小字",
+              "evidence": "evidence/V19/native-005.jpg"
+            },
+            {
+              "frame": 360,
+              "pts": 18,
+              "claim": "后段黑场",
+              "evidence": "evidence/V19/native-007.jpg"
+            },
+            {
+              "frame": 387,
+              "pts": 19.35,
+              "claim": "末帧黑场",
+              "evidence": "evidence/V19/native-007.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V19/native-005.jpg",
+            "evidence/V19/native-007.jpg"
+          ],
+          "review_source": "reviews/V16-V20.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V11",
+          "title": "银翼杀手混剪：文字、虹膜与屏幕中的多层图像",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            35.2,
+            37.4
+          ],
+          "range_precision": "学习章节范围；原帧锚点单列，非整段每镜EDL",
+          "label": "海报尾卡并非纯黑",
+          "anchors": [
+            {
+              "frame": 1056,
+              "pts": 35.2,
+              "claim": "标题逐渐显现",
+              "evidence": "evidence/V11/native-018.jpg"
+            },
+            {
+              "frame": 1080,
+              "pts": 36,
+              "claim": "海报式尾卡保持",
+              "evidence": "evidence/V11/native-019.jpg"
+            },
+            {
+              "frame": 1121,
+              "pts": 37.366667,
+              "claim": "最终原帧仍有标题与人物",
+              "evidence": "evidence/V11/native-019.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V11/native-018.jpg",
+            "evidence/V11/native-019.jpg"
+          ],
+          "review_source": "reviews/V11-V15.json",
+          "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "text": "确定章节落点，用长镜/黑场改变密度而非继续加特效。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 2,
+          "text": "标题、说明、署名分层并留白，最小字仍要可读。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 3,
+          "text": "按原帧确认黑场与淡出终点，记录是否还有残余图像。",
+          "proposed_not_recovered_parameters": true
+        },
+        {
+          "step": 4,
+          "text": "把节奏感与声音另核对；本目录不冒称试听过所有素材。",
+          "proposed_not_recovered_parameters": true
+        }
+      ],
+      "tool_roles": {
+        "OpenChatCut": "控制镜头长度、黑场与淡出；原生文本可做简单尾卡。",
+        "HyperFrames": "需要精细字体/布局时制作海报或小字尾卡组件。",
+        "preprocessing": "先取得可用原片；模板与参数仍需短样验证。"
+      },
+      "implementation_status": {
+        "code": "equivalent_recipe",
+        "label": "等效配方：未实际复刻渲染",
+        "reference_exact_reproduction_verified": false,
+        "v05_workflow_validation_is_not_this_effect_validation": true
+      },
+      "confidence": {
+        "visible_structure": "引用原生帧锚点，画面事实较高；来源边界仍有限",
+        "recipe": "中：是可审查的等效步骤，未恢复作者工程",
+        "tool_or_plugin_identity": "未知"
+      },
+      "limitations": [
+        "原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。",
+        "成片内CG、光效或画面处理可能源片已存在；无未剪原片对照，不能逐项认定为混剪新增。"
+      ]
+    }
+  ],
+  "learning_order": [
+    {
+      "stage": 1,
+      "ids": [
+        "T18",
+        "T01"
+      ],
+      "exercise": "用V20手机F388→F389例子练硬切；做一条不带花式转场的动作接镜与尾停留。",
+      "acceptance": "注视点和动作方向可读；不把手机框凭空扩张。"
+    },
+    {
+      "stage": 2,
+      "ids": [
+        "T02",
+        "T14"
+      ],
+      "exercise": "做两个握手/侧脸短叠化，另做V14式同姿态AB与去色。",
+      "acceptance": "没有明显双手/双眼错位；不称AI变形。"
+    },
+    {
+      "stage": 3,
+      "ids": [
+        "T04",
+        "T05"
+      ],
+      "exercise": "以V13三张风景卡为起点，再做半脸/上下分屏。",
+      "acceptance": "窗口清楚、卡内素材比例正确、留出阅读时间。"
+    },
+    {
+      "stage": 4,
+      "ids": [
+        "T03"
+      ],
+      "exercise": "打开V05实际小样，换A/B素材，检查六格源时钟、crop、音轨与两工具工程。",
+      "acceptance": "六格拼成一幅连续B而非六份完整B；只播一份Master；portable能导入。"
+    },
+    {
+      "stage": 5,
+      "ids": [
+        "T10",
+        "T11",
+        "T12",
+        "T15"
+      ],
+      "exercise": "拆一个短标题、RGB字效、REC框或简单CRT原型，不一次叠满。",
+      "acceptance": "说清是文字还是全视频处理；过门后恢复清晰；未实测项仍标配方。"
+    },
+    {
+      "stage": 6,
+      "ids": [
+        "T06",
+        "T13"
+      ],
+      "exercise": "先做稳定圆窗或正面手机屏，再处理透视和轮辐/眼罩前景。",
+      "acceptance": "窗口放大时源时间连续，边框与前景遮挡正确。"
+    },
+    {
+      "stage": 7,
+      "ids": [
+        "T07",
+        "T08",
+        "T09",
+        "T17"
+      ],
+      "exercise": "V12/人物短段只做一处动态alpha：白形→自然人→体内填水。",
+      "acceptance": "边缘、指缝、遮挡与同源时钟逐段检查；不能只用静态mask冒充。"
+    },
+    {
+      "stage": 8,
+      "ids": [
+        "T16"
+      ],
+      "exercise": "最后再决定原创光线3D/解体是否值得，先找对应原片/plate做简版。",
+      "acceptance": "资源/渲染链路明确；没有资源就承认近似，不能声称恢复电影CG。"
+    }
+  ],
+  "comparisons": [
+    {
+      "topic": "V12与V13",
+      "finding": "V12虽然是风景，建筑/佛头/人物动态轮廓与人体填景使完整复刻约4/5；V13主要几何照片卡，约3/5。题材不决定技术难度。"
+    },
+    {
+      "topic": "V14匹配",
+      "finding": "观察到的是同姿态AB反复、短叠化和去色保持；未验证AI变脸、连续形变或动作迁移。素材筛选是主要门槛。"
+    },
+    {
+      "topic": "V20手机",
+      "finding": "屏内替换属T13；F388手机完整→F389全幅新镜是T01硬切。两种机制应分开，不能统一套“屏幕放大穿越”。"
+    },
+    {
+      "topic": "V05实测边界",
+      "finding": "FastX结构迁移小样实际验证六格、HF渲染、OCC分层和官方portable导入；未验证原参考完整复刻，也不替其他17类效果背书。"
+    }
+  ],
+  "global_limitations": [
+    "仅凭MP4不能唯一分离原片CG/摄影与新增剪辑特效；无原片对照不按100%新增归因。",
+    "输出是技法学习与素材筛选目录，非原作者工程恢复或插件识别。",
+    "素材alpha、跟踪、光流、3D建模等复杂项未由一条V05小样验证。"
+  ]
+}

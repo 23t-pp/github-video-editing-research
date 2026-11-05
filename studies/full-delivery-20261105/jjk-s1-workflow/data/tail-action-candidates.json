@@ -1,0 +1,340 @@
+{
+  "version": "TAIL-ACTION-R4-1.0",
+  "purpose": "R4 F1282..1360 replace face/eye succession with real source action release; this is material input, designer chooses timeline",
+  "sourceMainPlanVersion": "L3-D-craft-revision",
+  "sourceMainPlanSha256": "a3d5e0168863d94ba9ba66a008894ad9f286c7e9c1dbca05fdf0f588bf884087",
+  "fpsPolicy": "原生24000/1001逐帧解码，无60Hz复制冒充新动作",
+  "criteria": [
+    "source first-season original only",
+    "all core native frames personally viewed",
+    "record actual each-frame showinfo PTS",
+    "reject original cut inside core",
+    "reject near-held body with only zoom as a genuine extended strike",
+    "check current R3 main source interval overlap",
+    "role confidence separate from visible action confidence"
+  ],
+  "candidateCount": 3,
+  "totalCoreNativeFrames": 65,
+  "items": [
+    {
+      "tailCandidateId": "TAIL-ACT-01",
+      "candidateId": "S1C062",
+      "sourceId": "S1E20",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/20.mp4",
+      "sourceSeason": 1,
+      "coreSourceSeconds": [
+        285.1,
+        285.9
+      ],
+      "requestedDurationSeconds": 0.8,
+      "sourceNativeFps": "24000/1001",
+      "decodedNativeFrames": 19,
+      "sourcePtsSeconds": [
+        285.118167,
+        285.159875,
+        285.201583,
+        285.243292,
+        285.285,
+        285.326708,
+        285.368417,
+        285.410125,
+        285.451833,
+        285.493542,
+        285.53525,
+        285.576958,
+        285.618667,
+        285.660375,
+        285.702083,
+        285.743792,
+        285.7855,
+        285.827208,
+        285.868917
+      ],
+      "nativeFrameIndicesApprox": [
+        6836,
+        6837,
+        6838,
+        6839,
+        6840,
+        6841,
+        6842,
+        6843,
+        6844,
+        6845,
+        6846,
+        6847,
+        6848,
+        6849,
+        6850,
+        6851,
+        6852,
+        6853,
+        6854
+      ],
+      "sourceFrameIndexNote": "indices from actual PTS rounded against declared CFR; PTS is authoritative",
+      "firstDecodedSourcePts": 285.118167,
+      "lastDecodedSourcePts": 285.868917,
+      "nativeCoverageSeconds": 0.7924583333333334,
+      "characters": [
+        "虎杖",
+        "花御"
+      ],
+      "characterConfidence": "high",
+      "observedMovement": "两名角色真实换拳、转肩扭腰、贴身闪避，左侧虎杖避对方伸臂后还手；背景轴线连续",
+      "direction": "左右拳路交替，焦点在双人胸肩与手臂",
+      "focusNormalized": [
+        0.51,
+        0.47
+      ],
+      "palette": "秋黄/暗蓝/白灰",
+      "actionRole": "primary_action",
+      "limitations": "这是原动画动作，不是新增转场；可以短快切接蓝色爆发",
+      "humanViewedAllCoreFrames": true,
+      "cutCheck": "all original decoded native-frame thumbnails actually viewed; no original hard cut observed inside this conservative core",
+      "motionEvidenceClass": "source pose/geometry/energy genuinely changes, not only virtual camera moving a static image",
+      "maxSuggestedPlaybackRate": 1.15,
+      "mainPlanOverlap": [],
+      "evidence": {
+        "allNativeContactSheet": "evidence/tail-action-preflight/TAIL-ACT-01-all-native.jpg",
+        "searchFullFrameSheets": [
+          "evidence/tail-action-preflight/C062-SPAR-native-01.jpg"
+        ],
+        "navigationClip": "evidence/tail-action-preflight/TAIL-ACT-01-navigation-only.mp4",
+        "navigationClipSha256": "d348465d9c812c9b2f42225eeddb72d4de3501ab40f1790c28b9250c4bd0ce4f"
+      },
+      "formalSourcePolicy": "320x180 navigation-only; execution returns original source, no existing prepared media modified by curator"
+    },
+    {
+      "tailCandidateId": "TAIL-ACT-02",
+      "candidateId": "S1C007",
+      "sourceId": "S1E04",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/04.mp4",
+      "sourceSeason": 1,
+      "coreSourceSeconds": [
+        1087.62,
+        1088.55
+      ],
+      "requestedDurationSeconds": 0.93,
+      "sourceNativeFps": "24000/1001",
+      "decodedNativeFrames": 23,
+      "sourcePtsSeconds": [
+        1087.628208,
+        1087.669917,
+        1087.711625,
+        1087.753333,
+        1087.795042,
+        1087.83675,
+        1087.878458,
+        1087.920167,
+        1087.961875,
+        1088.003583,
+        1088.045292,
+        1088.087,
+        1088.128708,
+        1088.170417,
+        1088.212125,
+        1088.253833,
+        1088.295542,
+        1088.33725,
+        1088.378958,
+        1088.420667,
+        1088.462375,
+        1088.504083,
+        1088.545792
+      ],
+      "nativeFrameIndicesApprox": [
+        26077,
+        26078,
+        26079,
+        26080,
+        26081,
+        26082,
+        26083,
+        26084,
+        26085,
+        26086,
+        26087,
+        26088,
+        26089,
+        26090,
+        26091,
+        26092,
+        26093,
+        26094,
+        26095,
+        26096,
+        26097,
+        26098,
+        26099
+      ],
+      "sourceFrameIndexNote": "indices from actual PTS rounded against declared CFR; PTS is authoritative",
+      "firstDecodedSourcePts": 1087.628208,
+      "lastDecodedSourcePts": 1088.545792,
+      "nativeCoverageSeconds": 0.9592916666666667,
+      "characters": [
+        "unknown"
+      ],
+      "characterConfidence": "unknown",
+      "observedMovement": "建筑碎块下坠/飞散、水浪由小变大向上/画面两侧爆开，后半充满画幅",
+      "direction": "从画中中心向上与两侧扩散，石块向前下落",
+      "focusNormalized": [
+        0.48,
+        0.59
+      ],
+      "palette": "冷青/白灰",
+      "actionRole": "environment_impact",
+      "limitations": "建筑与水浪为真实源动画；远小人物不足可靠命名，不能写成角色特写挥击",
+      "humanViewedAllCoreFrames": true,
+      "cutCheck": "all original decoded native-frame thumbnails actually viewed; no original hard cut observed inside this conservative core",
+      "motionEvidenceClass": "source pose/geometry/energy genuinely changes, not only virtual camera moving a static image",
+      "maxSuggestedPlaybackRate": 1.15,
+      "mainPlanOverlap": [],
+      "evidence": {
+        "allNativeContactSheet": "evidence/tail-action-preflight/TAIL-ACT-02-all-native.jpg",
+        "searchFullFrameSheets": [
+          "evidence/tail-action-preflight/C007-WAVE-native-01.jpg"
+        ],
+        "navigationClip": "evidence/tail-action-preflight/TAIL-ACT-02-navigation-only.mp4",
+        "navigationClipSha256": "cc0f025566a4b2b7143fc300278b202c083e191093a7c8f3c6f4ce9818981fcb"
+      },
+      "formalSourcePolicy": "320x180 navigation-only; execution returns original source, no existing prepared media modified by curator"
+    },
+    {
+      "tailCandidateId": "TAIL-ACT-03",
+      "candidateId": "S1C091",
+      "sourceId": "S1E24",
+      "sourcePath": "D:/咒术回战/1080P 内嵌简中字幕/24.mp4",
+      "sourceSeason": 1,
+      "coreSourceSeconds": [
+        665.2,
+        666.15
+      ],
+      "requestedDurationSeconds": 0.95,
+      "sourceNativeFps": "24000/1001",
+      "decodedNativeFrames": 23,
+      "sourcePtsSeconds": [
+        665.206208,
+        665.247917,
+        665.289625,
+        665.331333,
+        665.373042,
+        665.41475,
+        665.456458,
+        665.498167,
+        665.539875,
+        665.581583,
+        665.623292,
+        665.665,
+        665.706708,
+        665.748417,
+        665.790125,
+        665.831833,
+        665.873542,
+        665.91525,
+        665.956958,
+        665.998667,
+        666.040375,
+        666.082083,
+        666.123792
+      ],
+      "nativeFrameIndicesApprox": [
+        15949,
+        15950,
+        15951,
+        15952,
+        15953,
+        15954,
+        15955,
+        15956,
+        15957,
+        15958,
+        15959,
+        15960,
+        15961,
+        15962,
+        15963,
+        15964,
+        15965,
+        15966,
+        15967,
+        15968,
+        15969,
+        15970,
+        15971
+      ],
+      "sourceFrameIndexNote": "indices from actual PTS rounded against declared CFR; PTS is authoritative",
+      "firstDecodedSourcePts": 665.206208,
+      "lastDecodedSourcePts": 666.123792,
+      "nativeCoverageSeconds": 0.9592916666666667,
+      "characters": [
+        "unknown"
+      ],
+      "characterConfidence": "unknown",
+      "observedMovement": "红色钉状/刃状能量围绕蓝红核心旋转扩张，并切换朝向，粒子向外流动",
+      "direction": "围绕中心旋转、向画面外扩大",
+      "focusNormalized": [
+        0.5,
+        0.5
+      ],
+      "palette": "血红/黑/冷青",
+      "actionRole": "source_energy_release",
+      "limitations": "画中不见完整角色，不能凭旧C091标签保证钉崎在画；这是原片抽象能量演出，不是新绘CG。",
+      "humanViewedAllCoreFrames": true,
+      "cutCheck": "all original decoded native-frame thumbnails actually viewed; no original hard cut observed inside this conservative core",
+      "motionEvidenceClass": "source pose/geometry/energy genuinely changes, not only virtual camera moving a static image",
+      "maxSuggestedPlaybackRate": 1.15,
+      "mainPlanOverlap": [],
+      "evidence": {
+        "allNativeContactSheet": "evidence/tail-action-preflight/TAIL-ACT-03-all-native.jpg",
+        "searchFullFrameSheets": [
+          "evidence/tail-action-preflight/C091-NAIL-native-01.jpg",
+          "evidence/tail-action-preflight/C091-NAIL-native-02.jpg"
+        ],
+        "navigationClip": "evidence/tail-action-preflight/TAIL-ACT-03-navigation-only.mp4",
+        "navigationClipSha256": "dc7baaa48752928fae414030b9437f0bea258d082dac2486f17a18749eab4e96"
+      },
+      "formalSourcePolicy": "320x180 navigation-only; execution returns original source, no existing prepared media modified by curator"
+    }
+  ],
+  "rejectedOrLimited": [
+    {
+      "candidateId": "S1C090",
+      "search": "E24 655.25–657.95",
+      "reason": "655.279–655.405短冲击拉远后人物多为延伸拳保持，主要红黑粒子/气息变化，不能作为整秒真挥击。655.4后不推荐替长静脸。657.782发生原切。",
+      "evidence": [
+        "evidence/tail-action-preflight/C090-PUNCH-native-01.jpg",
+        "evidence/tail-action-preflight/C090-PUNCH-native-02.jpg"
+      ]
+    },
+    {
+      "candidateId": "S1C090",
+      "search": "E24 659.1–661.8",
+      "reason": "原C090标坏相血红拳臂，实际上下文更像受击流血/反应，人物动作非优先出击；不因旧标签说成挥拳。"
+    },
+    {
+      "candidateId": "S1C018",
+      "search": "E05 427–432",
+      "reason": "鵺带倒悬人物缓慢漂移，多为镜头和保持；430.3附近切脸，冲击弱且夹切，不推荐。",
+      "evidence": "evidence/tail-action-preflight/E05-427-overview.jpg"
+    },
+    {
+      "searchId": "C090-IMPACT",
+      "sourceCoreSeconds": [
+        652.276625,
+        652.610292
+      ],
+      "reason": "白黑冲击原生很短约.33s，652.610处切虎杖，不能当.5–1.1s无切人物动作；可作短源爆点，需设计另审。",
+      "evidence": [
+        "evidence/tail-action-preflight/C090-IMPACT-native-01.jpg"
+      ]
+    },
+    {
+      "searchId": "C090-BLOOD",
+      "reason": "灰绿咒灵口部受击/喷血真实动作，但偏受伤反应，非当前英雄冲锋优选；不用于3个主推荐。",
+      "evidence": [
+        "evidence/tail-action-preflight/C090-BLOOD-native-01.jpg"
+      ]
+    }
+  ],
+  "status": "material-ready; independent R4 design/composition audit still required"
+}

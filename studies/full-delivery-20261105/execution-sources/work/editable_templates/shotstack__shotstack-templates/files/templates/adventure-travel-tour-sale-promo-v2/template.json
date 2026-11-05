@@ -1,0 +1,371 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://templates.shotstack.io/adventure-travel-tour-sale-promo/2da4ac5a-a5f1-4054-9ec0-a89e95e465e5/source.otf"
+      },
+      {
+        "src": "https://templates.shotstack.io/adventure-travel-tour-sale-promo/a2e88ed8-aa39-46db-8ece-4c38c497aa13/source.ttf"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/courierprime/v11/u-450q2lgwslOqpF_6gQ8kELWwZjW-_-tvg.ttf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_3}}",
+              "font": {
+                "family": "Courier Prime",
+                "size": 40,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.7,
+            "length": "end",
+            "offset": {
+              "x": -0.247,
+              "y": -0.074
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_1}}",
+              "font": {
+                "family": "Courier Prime",
+                "size": 40,
+                "weight": 400,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.5,
+            "length": "end",
+            "offset": {
+              "x": -0.247,
+              "y": 0.052
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 400,
+            "height": 72
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4.4,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/adventure-travel-tour-sale-promo/3e156792-e942-4c29-92fc-3b8713c87a1f/source.png"
+            },
+            "start": 0.6,
+            "scale": 1,
+            "offset": {
+              "x": 0.2587962962962962,
+              "y": -0.11901041666666667
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 519,
+            "height": 677,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 4,
+            "asset": {
+              "type": "image",
+              "src": "https://templates.shotstack.io/adventure-travel-tour-sale-promo/4171f685-7dba-4b86-acb8-4820c26a1649/source.png"
+            },
+            "start": 1,
+            "scale": 1,
+            "offset": {
+              "x": 0.2592592592592592,
+              "y": -0.4065
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 520,
+            "height": 373
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "rich-text",
+              "text": "{{Title_2}}",
+              "font": {
+                "family": "Ashford Bold",
+                "size": 200,
+                "weight": 700,
+                "color": "{{ FONT_COLOR }}",
+                "opacity": 1
+              },
+              "style": {
+                "letterSpacing": 0,
+                "wordSpacing": 0,
+                "lineHeight": 1,
+                "textTransform": "none",
+                "textDecoration": "none"
+              },
+              "align": {
+                "horizontal": "center",
+                "vertical": "middle"
+              }
+            },
+            "start": 0.6,
+            "length": "end",
+            "offset": {
+              "x": -0.247,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideDown"
+            },
+            "width": 500,
+            "height": 200
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_3 }}"
+            },
+            "start": 0.8,
+            "scale": 1,
+            "offset": {
+              "x": -0.2537037037037037,
+              "y": -0.3341145833333333
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 532,
+            "height": 637
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 532 630\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"532\" height=\"630\" fill=\"{{ SHAPE_COLOR }}\"/></svg>"
+            },
+            "start": 0.4,
+            "length": "end",
+            "offset": {
+              "x": -0.253,
+              "y": 0
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "width": 532,
+            "height": 630
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "image",
+              "src": "{{ IMAGE_1 }}"
+            },
+            "start": 0.2,
+            "scale": 1,
+            "offset": {
+              "x": 0.2587962962962962,
+              "y": 0.28411458333333334
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 520,
+            "height": 829
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": 5,
+            "asset": {
+              "type": "video",
+              "src": "https://templates.shotstack.io/adventure-travel-tour-sale-promo/b9f6e254-793d-4f80-8314-9c522ce662a6/source.mp4",
+              "volume": 1
+            },
+            "start": 0,
+            "scale": 1,
+            "offset": {
+              "x": -0.253462962962963,
+              "y": 0.3354166666666667
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideUp"
+            },
+            "fit": "contain",
+            "width": 533,
+            "height": 632
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "svg",
+              "src": "<svg viewBox=\"0 0 1080 1920\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"1080\" height=\"1920\" fill=\"{{ BACKGROUND_COLOR_2 }}\"/></svg>"
+            },
+            "start": 0,
+            "length": 5,
+            "width": 1080,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title_1",
+      "replace": "REVIEW ON"
+    },
+    {
+      "find": "Title_2",
+      "replace": "Tour"
+    },
+    {
+      "find": "Title_3",
+      "replace": "GALLERY"
+    },
+    {
+      "find": "VIDEO",
+      "replace": "https://templates.shotstack.io/adventure-travel-tour-sale-promo/b9f6e254-793d-4f80-8314-9c522ce662a6/source.mp4"
+    },
+    {
+      "find": "IMAGE_1",
+      "replace": "https://templates.shotstack.io/adventure-travel-tour-sale-promo/753b1e87-9a82-4899-92f9-f19221d80e98/source.png"
+    },
+    {
+      "find": "IMAGE_2",
+      "replace": "https://templates.shotstack.io/adventure-travel-tour-sale-promo/3e156792-e942-4c29-92fc-3b8713c87a1f/source.png"
+    },
+    {
+      "find": "IMAGE_3",
+      "replace": "https://templates.shotstack.io/adventure-travel-tour-sale-promo/9fd85c80-8724-40e5-912c-a2d5f3af8672/source.png"
+    },
+    {
+      "find": "IMAGE_4",
+      "replace": "https://templates.shotstack.io/adventure-travel-tour-sale-promo/4171f685-7dba-4b86-acb8-4820c26a1649/source.png"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#000000"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#f1d6bd"
+    },
+    {
+      "find": "BACKGROUND_COLOR_2",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/adventure-travel-tour-sale-promo/ba42f218-a984-4274-b64a-612e46a3bf52/source.mp3"
+    }
+  ]
+}

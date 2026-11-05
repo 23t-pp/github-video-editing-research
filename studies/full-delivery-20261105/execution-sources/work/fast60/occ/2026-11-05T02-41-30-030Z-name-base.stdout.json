@@ -1,0 +1,54 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_track",
+      "result": {
+        "ok": true,
+        "track": {
+          "id": "track_v1",
+          "alias": "V1",
+          "trackType": "video",
+          "order": 0,
+          "name": "V1 主画面 · 每镜独立",
+          "hidden": false,
+          "muted": false,
+          "locked": false,
+          "role": null,
+          "audioRouting": null,
+          "clips": 0
+        },
+        "tracks": [
+          {
+            "id": "track_v1",
+            "alias": "V1",
+            "trackType": "video",
+            "order": 0,
+            "name": "V1 主画面 · 每镜独立",
+            "hidden": false,
+            "muted": false,
+            "locked": false,
+            "role": null,
+            "audioRouting": null,
+            "clips": 0
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "157480ce-a533-4165-a34a-7d7758402996",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-b11c5777",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_09036ced130f4001",
+    "editorUrl": "http://localhost:5199/#/editor/8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "updatedAt": "2026-11-05T02:41:31.257Z"
+  }
+}

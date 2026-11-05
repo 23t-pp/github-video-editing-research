@@ -1,0 +1,802 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 9,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "duplicate_media_discovery_risk",
+        "severity": "warning",
+        "message": "Detected 6 matching img entries with the same source/start/duration.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\v05-six-panel\\hyperframes\\.render-source\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 0 has 48 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\v05-six-panel\\hyperframes\\.render-source\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 1 has 18 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\v05-six-panel\\hyperframes\\.render-source\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 2 has 18 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\v05-six-panel\\hyperframes\\.render-source\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 3 has 18 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\v05-six-panel\\hyperframes\\.render-source\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 4 has 18 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\v05-six-panel\\hyperframes\\.render-source\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 5 has 18 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\v05-six-panel\\hyperframes\\.render-source\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 6 has 18 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\v05-six-panel\\hyperframes\\.render-source\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 7 has 60 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\v05-six-panel\\hyperframes\\.render-source\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 12,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 1.3,
+        "selector": "#cell-0 > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 268.8,
+          "top": 149.49,
+          "right": 1651.2,
+          "bottom": 927.09,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "containerSelector": "#cell-0",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 268.8,
+          "top": 149.49,
+          "right": 729.6,
+          "bottom": 538.29,
+          "width": 460.8,
+          "height": 388.8
+        },
+        "overflow": {
+          "right": 921.6,
+          "bottom": 388.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268.8,
+          "y": 149.49,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "firstSeen": 1.3,
+        "lastSeen": 4.3,
+        "occurrences": 5,
+        "heldMs": 800,
+        "times": [
+          1.3,
+          1.55,
+          1.875,
+          2.1,
+          4.3
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 1.3,
+        "selector": "#cell-0 > div:nth-of-type(1)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": 268.8,
+          "top": 149.49,
+          "right": 1651.2,
+          "bottom": 927.09,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "containerSelector": "#cell-0",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 268.8,
+          "top": 149.49,
+          "right": 729.6,
+          "bottom": 538.29,
+          "width": 460.8,
+          "height": 388.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268.8,
+          "y": 149.49,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "firstSeen": 1.3,
+        "lastSeen": 4.3,
+        "occurrences": 5,
+        "heldMs": 800,
+        "times": [
+          1.3,
+          1.55,
+          1.875,
+          2.1,
+          4.3
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 1.55,
+        "selector": "#cell-1 > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 268.8,
+          "top": 151.2,
+          "right": 1651.2,
+          "bottom": 928.8,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "containerSelector": "#cell-1",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 729.6,
+          "top": 151.2,
+          "right": 1190.4,
+          "bottom": 540,
+          "width": 460.8,
+          "height": 388.8
+        },
+        "overflow": {
+          "left": 460.8,
+          "right": 460.8,
+          "bottom": 388.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268.8,
+          "y": 151.2,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "firstSeen": 1.55,
+        "lastSeen": 4.3,
+        "occurrences": 4,
+        "heldMs": 550,
+        "times": [
+          1.55,
+          1.875,
+          2.1,
+          4.3
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 1.55,
+        "selector": "#cell-3 > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 268.8,
+          "top": 151.2,
+          "right": 1651.2,
+          "bottom": 928.8,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "containerSelector": "#cell-3",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 268.8,
+          "top": 540,
+          "right": 729.6,
+          "bottom": 928.8,
+          "width": 460.8,
+          "height": 388.8
+        },
+        "overflow": {
+          "right": 921.6,
+          "top": 388.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268.8,
+          "y": 151.2,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "firstSeen": 1.55,
+        "lastSeen": 4.3,
+        "occurrences": 4,
+        "heldMs": 550,
+        "times": [
+          1.55,
+          1.875,
+          2.1,
+          4.3
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 1.55,
+        "selector": "#cell-4 > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 268.8,
+          "top": 152.91,
+          "right": 1651.2,
+          "bottom": 930.51,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "containerSelector": "#cell-4",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 729.6,
+          "top": 541.71,
+          "right": 1190.4,
+          "bottom": 930.51,
+          "width": 460.8,
+          "height": 388.8
+        },
+        "overflow": {
+          "left": 460.8,
+          "right": 460.8,
+          "top": 388.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268.8,
+          "y": 152.91,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "firstSeen": 1.55,
+        "lastSeen": 4.3,
+        "occurrences": 4,
+        "heldMs": 550,
+        "times": [
+          1.55,
+          1.875,
+          2.1,
+          4.3
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 1.55,
+        "selector": "#cell-1 > div:nth-of-type(1)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": 268.8,
+          "top": 151.2,
+          "right": 1651.2,
+          "bottom": 928.8,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "containerSelector": "#cell-1",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 729.6,
+          "top": 151.2,
+          "right": 1190.4,
+          "bottom": 540,
+          "width": 460.8,
+          "height": 388.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268.8,
+          "y": 151.2,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "firstSeen": 1.55,
+        "lastSeen": 4.3,
+        "occurrences": 4,
+        "heldMs": 550,
+        "times": [
+          1.55,
+          1.875,
+          2.1,
+          4.3
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 1.55,
+        "selector": "#cell-3 > div:nth-of-type(1)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": 268.8,
+          "top": 151.2,
+          "right": 1651.2,
+          "bottom": 928.8,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "containerSelector": "#cell-3",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 268.8,
+          "top": 540,
+          "right": 729.6,
+          "bottom": 928.8,
+          "width": 460.8,
+          "height": 388.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268.8,
+          "y": 151.2,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "firstSeen": 1.55,
+        "lastSeen": 4.3,
+        "occurrences": 4,
+        "heldMs": 550,
+        "times": [
+          1.55,
+          1.875,
+          2.1,
+          4.3
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 1.55,
+        "selector": "#cell-4 > div:nth-of-type(1)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": 268.8,
+          "top": 152.91,
+          "right": 1651.2,
+          "bottom": 930.51,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "containerSelector": "#cell-4",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 729.6,
+          "top": 541.71,
+          "right": 1190.4,
+          "bottom": 930.51,
+          "width": 460.8,
+          "height": 388.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268.8,
+          "y": 152.91,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "firstSeen": 1.55,
+        "lastSeen": 4.3,
+        "occurrences": 4,
+        "heldMs": 550,
+        "times": [
+          1.55,
+          1.875,
+          2.1,
+          4.3
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 1.875,
+        "selector": "#cell-2 > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 268.8,
+          "top": 151.2,
+          "right": 1651.2,
+          "bottom": 928.8,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "containerSelector": "#cell-2",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1190.4,
+          "top": 151.2,
+          "right": 1651.2,
+          "bottom": 540,
+          "width": 460.8,
+          "height": 388.8
+        },
+        "overflow": {
+          "left": 921.6,
+          "bottom": 388.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268.8,
+          "y": 151.2,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "firstSeen": 1.875,
+        "lastSeen": 4.3,
+        "occurrences": 3,
+        "heldMs": 225.00000000000009,
+        "times": [
+          1.875,
+          2.1,
+          4.3
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 1.875,
+        "selector": "#cell-5 > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 268.8,
+          "top": 151.2,
+          "right": 1651.2,
+          "bottom": 928.8,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "containerSelector": "#cell-5",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1190.4,
+          "top": 540,
+          "right": 1651.2,
+          "bottom": 928.8,
+          "width": 460.8,
+          "height": 388.8
+        },
+        "overflow": {
+          "left": 921.6,
+          "top": 388.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268.8,
+          "y": 151.2,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "firstSeen": 1.875,
+        "lastSeen": 4.3,
+        "occurrences": 3,
+        "heldMs": 225.00000000000009,
+        "times": [
+          1.875,
+          2.1,
+          4.3
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 1.875,
+        "selector": "#cell-2 > div:nth-of-type(1)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": 268.8,
+          "top": 151.2,
+          "right": 1651.2,
+          "bottom": 928.8,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "containerSelector": "#cell-2",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1190.4,
+          "top": 151.2,
+          "right": 1651.2,
+          "bottom": 540,
+          "width": 460.8,
+          "height": 388.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268.8,
+          "y": 151.2,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "firstSeen": 1.875,
+        "lastSeen": 4.3,
+        "occurrences": 3,
+        "heldMs": 225.00000000000009,
+        "times": [
+          1.875,
+          2.1,
+          4.3
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 1.875,
+        "selector": "#cell-5 > div:nth-of-type(1)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": 268.8,
+          "top": 151.2,
+          "right": 1651.2,
+          "bottom": 928.8,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "containerSelector": "#cell-5",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1190.4,
+          "top": 540,
+          "right": 1651.2,
+          "bottom": 928.8,
+          "width": 460.8,
+          "height": 388.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268.8,
+          "y": 151.2,
+          "width": 1382.4,
+          "height": 777.6
+        },
+        "firstSeen": 1.875,
+        "lastSeen": 4.3,
+        "occurrences": 3,
+        "heldMs": 225.00000000000009,
+        "times": [
+          1.875,
+          2.1,
+          4.3
+        ]
+      }
+    ],
+    "duration": 4.5,
+    "samples": [
+      0,
+      1.3,
+      1.55,
+      1.875,
+      2.1,
+      4.3
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 12,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0,
+      1.3,
+      1.55,
+      1.875,
+      4.3
+    ],
+    "checked": 0,
+    "passed": 0
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 36
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

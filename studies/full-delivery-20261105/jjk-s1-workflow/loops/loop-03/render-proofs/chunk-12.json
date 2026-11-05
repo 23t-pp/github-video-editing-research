@@ -1,0 +1,861 @@
+{
+  "renderKey": "3f0a46bfa142e551bf988c13e8bc4e66f7540cdb51e82d0a4f8560e8b12dc102",
+  "inputSpec": {
+    "htmlSha256": "4126c9aac00448b173b90f27d92a12d94edcd3b773dc659ea2e3c70712b05676",
+    "dependencies": {
+      "composition.py": "dccc4ba92466524048bb290bbce6e82db931c9dbadaafef7fe07b880ed141c9a",
+      "typefx.py": "9d8c98e7021a4bb2d54427a8192668046054eda5804b99bd235b351b238f9f32",
+      "barlow-glyphs.json": "e934240f60d3b95279b8a35a68b93162c3b1c75083c303b1a533381a5c5c7cb1",
+      "layoutfx.py": "8ad58d6be0cf24402572e644189ccb5b331edaf91b76b587ea4c35f1126c07d1",
+      "screenfx.py": "2547316b72884c43557005a42c94c0ffc49027fed94bec40cf490b9be44ab0ae",
+      "render.py": "1f979fa5f14a93975b49dee9a21cbf1109361c46a8aee24e194b51079bde4e6c",
+      "assets/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "assets/shots/N037.mp4": "3276ad02fe616071cb96d445d6cadbb222bfafae71e16ebfcbfd7624ea688abe",
+      "assets/shots/S036.mp4": "23f8b935fc349720d55caa04846c7b0ffb3d7a2c1dad794a62f689d2fd7a513d",
+      "assets/shots/S038.mp4": "1185273a11dd170ef85cc20a0105e2093f70cb9ecd5f954795ef3aa50ec520b7",
+      "assets/shots/S039.mp4": "13c0fe85ec40ae9479f1dd28f534feea81fdc5d8dcdb38bfeee2dc52bbe470f5",
+      "assets/fonts/BarlowCondensed-ExtraBold.woff2": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+      "assets/fonts/cjk-heavy.ttc": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6"
+    },
+    "runtime": {
+      "nodeVersion": "v24.22.1",
+      "cliVersion": "0.8.216",
+      "cliEntrySha256": "e65ed25c36426b6e9ade59c4d20d92c5a78bd2a9f459ab3bfb461cdd2a1ef56f",
+      "chromeVersion": "156.0.8078.74",
+      "chromeExeSha256": "4132eb3e9c5b3978874eed48cb45c21debf343a0d383b6d2fb01a5fcf349ec65",
+      "ffmpegExeSha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+      "captureFlags": [
+        "--format",
+        "png-sequence",
+        "--workers",
+        "1",
+        "--low-memory-mode",
+        "--sdr",
+        "--experimental-fast-capture=false",
+        "--no-best-effort",
+        "--frames-cache-dir",
+        "off"
+      ],
+      "fps": 24,
+      "size": [
+        1920,
+        1080
+      ],
+      "color": "SDR PNG RGB full; encode BT709 tv",
+      "sourceExtraction": "trim source frame indices; scale bt709 tv to full; rgb24; native PNG; passthrough fps"
+    },
+    "neededSourceFrames": [
+      [
+        "N037",
+        12
+      ],
+      [
+        "N037",
+        13
+      ],
+      [
+        "N037",
+        14
+      ],
+      [
+        "N037",
+        15
+      ],
+      [
+        "N037",
+        16
+      ],
+      [
+        "N037",
+        17
+      ],
+      [
+        "N037",
+        18
+      ],
+      [
+        "N037",
+        19
+      ],
+      [
+        "N037",
+        20
+      ],
+      [
+        "N037",
+        21
+      ],
+      [
+        "N037",
+        22
+      ],
+      [
+        "N037",
+        23
+      ],
+      [
+        "N037",
+        24
+      ],
+      [
+        "N037",
+        25
+      ],
+      [
+        "N037",
+        26
+      ],
+      [
+        "N037",
+        27
+      ],
+      [
+        "N037",
+        28
+      ],
+      [
+        "N037",
+        29
+      ],
+      [
+        "N037",
+        30
+      ],
+      [
+        "N037",
+        31
+      ],
+      [
+        "N037",
+        32
+      ],
+      [
+        "N037",
+        33
+      ],
+      [
+        "N037",
+        34
+      ],
+      [
+        "N037",
+        35
+      ],
+      [
+        "N037",
+        36
+      ],
+      [
+        "N037",
+        37
+      ],
+      [
+        "S036",
+        34
+      ],
+      [
+        "S036",
+        35
+      ],
+      [
+        "S038",
+        12
+      ],
+      [
+        "S038",
+        13
+      ],
+      [
+        "S038",
+        14
+      ],
+      [
+        "S038",
+        15
+      ],
+      [
+        "S038",
+        16
+      ],
+      [
+        "S038",
+        17
+      ],
+      [
+        "S038",
+        18
+      ],
+      [
+        "S038",
+        19
+      ],
+      [
+        "S038",
+        20
+      ],
+      [
+        "S038",
+        21
+      ],
+      [
+        "S038",
+        22
+      ],
+      [
+        "S038",
+        23
+      ],
+      [
+        "S038",
+        24
+      ],
+      [
+        "S038",
+        25
+      ],
+      [
+        "S038",
+        26
+      ],
+      [
+        "S038",
+        27
+      ],
+      [
+        "S038",
+        28
+      ],
+      [
+        "S038",
+        29
+      ],
+      [
+        "S038",
+        30
+      ],
+      [
+        "S038",
+        31
+      ],
+      [
+        "S038",
+        32
+      ],
+      [
+        "S038",
+        33
+      ],
+      [
+        "S038",
+        34
+      ],
+      [
+        "S038",
+        35
+      ],
+      [
+        "S038",
+        36
+      ],
+      [
+        "S038",
+        37
+      ],
+      [
+        "S039",
+        12
+      ],
+      [
+        "S039",
+        13
+      ],
+      [
+        "S039",
+        14
+      ],
+      [
+        "S039",
+        15
+      ],
+      [
+        "S039",
+        16
+      ],
+      [
+        "S039",
+        17
+      ],
+      [
+        "S039",
+        18
+      ],
+      [
+        "S039",
+        19
+      ],
+      [
+        "S039",
+        20
+      ],
+      [
+        "S039",
+        21
+      ],
+      [
+        "S039",
+        22
+      ],
+      [
+        "S039",
+        23
+      ],
+      [
+        "S039",
+        24
+      ],
+      [
+        "S039",
+        25
+      ],
+      [
+        "S039",
+        26
+      ],
+      [
+        "S039",
+        27
+      ],
+      [
+        "S039",
+        28
+      ],
+      [
+        "S039",
+        29
+      ]
+    ],
+    "copiedAlpha": []
+  },
+  "actualRenderPayloadFiles": {
+    "pass-1/.hyperframes/history-id": "62247aced743314d21201fe8ce971e175153f145af599067c4f2c38a7d9b8d57",
+    "pass-1/.hyperframes/video-state.json": "c4ebf250d6f3e7ce5f1b4b3eae6db496aacc9664beef810fa4ac1701a3a9ffaf",
+    "pass-1/assets/fonts/BarlowCondensed-ExtraBold.woff2": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+    "pass-1/assets/fonts/cjk-heavy.ttc": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6",
+    "pass-1/assets/frames/N037-0012.png": "d4bfd44e408fd253deadfa1772235184b805a257944e175b5bb64fb4eeb6e8c0",
+    "pass-1/assets/frames/N037-0013.png": "abed14f50dd01fa936cd080e0b7b07788957b4324c5b0407ac9e8f944edf4332",
+    "pass-1/assets/frames/N037-0014.png": "b43b5d904e352598a57153483da209b1c57eb15775e02b0eb7c932abc4ba7af9",
+    "pass-1/assets/frames/N037-0015.png": "8e4037fc44c2a256df64829267d0dfafd8a342fe17e7d798f34487a36fbb6e9f",
+    "pass-1/assets/frames/N037-0016.png": "1f127de0e0865a71e2306d3405149971e6d01f366f852fa3f7cc8abd626386ba",
+    "pass-1/assets/frames/N037-0017.png": "c72a3cb5459e06b3ab97457c5f790be93c8039c7c8e73e0abd64117979847c0a",
+    "pass-1/assets/frames/N037-0018.png": "606ab6d5c46cd59484cfaeee24b20577f64b33150453e1b2e3a1510bccabca4e",
+    "pass-1/assets/frames/N037-0019.png": "61e130d37a8a5adc1c041166f7eb862d8a4f5020561ba7aab955d4d0ef61284e",
+    "pass-1/assets/frames/N037-0020.png": "c24a46e89368d1e0a446ea2dbb6ffbf52516d1d71c173986a99a6f61892489f4",
+    "pass-1/assets/frames/N037-0021.png": "6680696d5bd187dbd0bb8434d1327e8bce0896e07c22b8581101c57c8f74655c",
+    "pass-1/assets/frames/N037-0022.png": "6708b681630385d031590d61b1e7b064ea135ffa04030146ee3be09aafc4dbae",
+    "pass-1/assets/frames/N037-0023.png": "26c3db378f4878fae3e45a7ed9dc4d80fe7499f0c27757e68f871df4ba66cf12",
+    "pass-1/assets/frames/N037-0024.png": "57437fcfb90161fb287b6eb5723221056a3381a57d810808a74e50bcaa101225",
+    "pass-1/assets/frames/N037-0025.png": "436c28f2b9afe3ba9befa04ac1dc9d98e63b7b3dad9945ad86a862e736e43cba",
+    "pass-1/assets/frames/N037-0026.png": "97b095a04354018a818f124da5fb57afd8bd4aa56b897653cced9964fcfc444a",
+    "pass-1/assets/frames/N037-0027.png": "31a3e5b82132dfc0a6d1099f783b8ff3bf0fc4d52d6b3b825b6880a4131ff8b9",
+    "pass-1/assets/frames/N037-0028.png": "6b9601b8fd6d4a7c0aedfc45bcc0f41584501522b6027de2fe2eb35e50398357",
+    "pass-1/assets/frames/N037-0029.png": "4da0606203368949e450efdeda4c1b754f0f49d9e4492b70c9061d705b4f4f4d",
+    "pass-1/assets/frames/N037-0030.png": "2a3c38e708c1e82696776191c5f27dea6eb4ac745164a1b1f5ce881326a41e6e",
+    "pass-1/assets/frames/N037-0031.png": "be709b15d99e4e2c00c040d21b49d2bab398e21b11ed99bed892acf95eb1591f",
+    "pass-1/assets/frames/N037-0032.png": "ecaf2a547b5c5d554fd5ed601bb277ac14b4b54d0ab8512d86d11078aec2671f",
+    "pass-1/assets/frames/N037-0033.png": "8f57c55c5c7dad12627baecc80f861f03cf2f87aa9227d6aec3dce595ec3e63a",
+    "pass-1/assets/frames/N037-0034.png": "d9143539ee76f246b0df5948c19d5d9ff15e7b2ac435d7658c32f05a3c2e6c47",
+    "pass-1/assets/frames/N037-0035.png": "602a6b2da82df06e2363a2b867a31a03be38a7db45f8ec793838d1c15bb5b363",
+    "pass-1/assets/frames/N037-0036.png": "4dd43a041726a9455080664f1a624dfa21a061b1d72643f14fc4e7c240b37eed",
+    "pass-1/assets/frames/N037-0037.png": "be21603114a9e2fc72484deea85aca2beb14dd683980ec7e67d63f488db89410",
+    "pass-1/assets/frames/S036-0034.png": "ab43da5d2144ddfaf43fb0fcf3ea26120104962c108dff25f028e4166769e0ad",
+    "pass-1/assets/frames/S036-0035.png": "c181cb57afd089c93a74faa92003f05a064dfd05b6b3b8c958d56f2fc9673d8f",
+    "pass-1/assets/frames/S038-0012.png": "ed14b7c97054c7cb40db2054544912f8504e0a56c6459e4c68ac73f8f5615588",
+    "pass-1/assets/frames/S038-0013.png": "22502b948326c74ec44fecf7a507255b92033b99312a32187ff5975b981144b8",
+    "pass-1/assets/frames/S038-0014.png": "b70f9c49cc19f0d50dd7e9fbc7600ffb21b2495b567654da02a7da4a91e18835",
+    "pass-1/assets/frames/S038-0015.png": "273bee2620e5263739e304c30e06a03498deca36034d91b718ef13717a104344",
+    "pass-1/assets/frames/S038-0016.png": "431a6bb076edf4fee85dc2d7463c1990e154707399020ebaa80606819ffc7263",
+    "pass-1/assets/frames/S038-0017.png": "0199044ffe30c422d3eebdb62fd8875beb2f840e9fb4ac852bc93dabc057bcc4",
+    "pass-1/assets/frames/S038-0018.png": "523e31233389d0593db0b16928ac89353257caf50d89c6c0362ed3cf69d5ff89",
+    "pass-1/assets/frames/S038-0019.png": "ce7b017b24db5cdd70996aec3d24dca195fdbdfed651638bc6bbfe1f986383a7",
+    "pass-1/assets/frames/S038-0020.png": "7578e1020205fa8a9da3bdf489e3faf70994a2050b30977e7e39fd3e78711e8d",
+    "pass-1/assets/frames/S038-0021.png": "331b2547277bc338ba6251d733d331878ae8abb4af48ed7fb04e67d5f7ea450c",
+    "pass-1/assets/frames/S038-0022.png": "d1fa5b21a7ec5d01fdf29715188dc847f1e38bf9b9961d5e3ff020abdbae0158",
+    "pass-1/assets/frames/S038-0023.png": "6722262f850e73832a68d29263fd78301e5b7447d3ca4e23225d5a3e9e233a09",
+    "pass-1/assets/frames/S038-0024.png": "831a04415ac3bbfa271415c015e27b3b13bfa17d6f36d07b7881d417ae4c6d5c",
+    "pass-1/assets/frames/S038-0025.png": "6500e80fb131c81f4ded73776161e7bc05061885b7a117e815e378b66758d2c0",
+    "pass-1/assets/frames/S038-0026.png": "ddbb45125692f99a04c059c6d12aba13e7cf3509b9f0f2b70e5af6d69dc5191c",
+    "pass-1/assets/frames/S038-0027.png": "e898abc5a0f42b4493aa82d8cf1f2bde6adbda16084cc6c5ae6685339006dece",
+    "pass-1/assets/frames/S038-0028.png": "75d15dd022ae71e93849dc50a59fe3d95f42d5e3a85002edb7981706f7ac2586",
+    "pass-1/assets/frames/S038-0029.png": "95d549c5a6bba749b11e386d3b4790e7a1d92f4a5f74026632abc3d6ca0c4bb4",
+    "pass-1/assets/frames/S038-0030.png": "10c00ef34963f4f89beaa8aa0fb70b3d8c036f811c00fd627f336f2670c57395",
+    "pass-1/assets/frames/S038-0031.png": "ac50b5788b3a5432e9588560409d1f5b6a57be46a15b4c3caf3acebf5a2f9973",
+    "pass-1/assets/frames/S038-0032.png": "43b149370292e58df32b0df70b3d637d32cd2742a0e6d1501e819c65b748cb5e",
+    "pass-1/assets/frames/S038-0033.png": "1f32285fc7df0bb35884eccc22f7d69aa4cd9a6c062628734943a73eead69ebc",
+    "pass-1/assets/frames/S038-0034.png": "ebe09bf1795e8bba8e518bc546abb933c66068c5a0b7c4f954d72c80b3d507a8",
+    "pass-1/assets/frames/S038-0035.png": "acd0856feb6529dd48aed783f4c357cb73b4cc2b145e700f7d6751738c066406",
+    "pass-1/assets/frames/S038-0036.png": "7d0223d64d8423c431220807e3a8bea6997a5466a81f2bed831614506598fdec",
+    "pass-1/assets/frames/S038-0037.png": "a9e8d79a7e0e94d535d4d39fc24d87a6bd1233c0825e5b9459156ebd8dd70388",
+    "pass-1/assets/frames/S039-0012.png": "9925cdc6838370df002202cd57ae9a6c3ad522088cf1860157331bba52a87677",
+    "pass-1/assets/frames/S039-0013.png": "43179b34f2cf819cb2a4c020ac94ac5379d5d32a68f31cce26cd0beee24a9877",
+    "pass-1/assets/frames/S039-0014.png": "3ea6fd4e2bfa84a98ba083e077d3bc1744bdcf4c12d4d982503000501ded5eaf",
+    "pass-1/assets/frames/S039-0015.png": "018749aa7d186c5105b252b4f0627864eaf09b11063c190fdea663245773a547",
+    "pass-1/assets/frames/S039-0016.png": "2f4a243320ca1b1a4736befb86c38f7bb6b0bbfebb8e00ceda750779c1d7b364",
+    "pass-1/assets/frames/S039-0017.png": "95a0663997d0062eaebe8e94d10f82e897e4e6a1859d11ed5ec9e7fce40a5f1a",
+    "pass-1/assets/frames/S039-0018.png": "907625d65a63d278453178392f0d56b4d1b37ea5fe4e6bd2d4a2c5d4918a637d",
+    "pass-1/assets/frames/S039-0019.png": "b09b732f631924f81ac5f6ab935d23858aad2584fc414d604672201ed13117b2",
+    "pass-1/assets/frames/S039-0020.png": "93d47f47eea51ec48a6a724c58a074596a2676cfb7b870c14514c87a583ce830",
+    "pass-1/assets/frames/S039-0021.png": "3ef3c5bc6fbb8368f460d366d8410efd7070af5e6dfcacbff93c19ebbcf551f1",
+    "pass-1/assets/frames/S039-0022.png": "86b58c7bec10f3ba83cca964f45c93a48f79cd99a6132251a440cfd295e345d3",
+    "pass-1/assets/frames/S039-0023.png": "840f44262aa4b6f2d34aa1010672a491d0cdb3e637988ac59ba97e03dea5c780",
+    "pass-1/assets/frames/S039-0024.png": "93896f88cf9a09406abcb3e64d55e0cb4e382caee3be3e231fd1ee0368c95010",
+    "pass-1/assets/frames/S039-0025.png": "fcb2dd69b666673064c80f564976091d903fb80c41bb58b66632137859757e02",
+    "pass-1/assets/frames/S039-0026.png": "adad6511ad549883f22a56959de88ab399723a09b414a8ee9562e578dba74e4e",
+    "pass-1/assets/frames/S039-0027.png": "6091fee6bbeba067a43deb61e5da29f2249253d9b8e179b65a07e82f3f5294d0",
+    "pass-1/assets/frames/S039-0028.png": "ba40e16361dcf25b5ccbac735cf451e919f910bb1272e8b4bc9af28c8fc0ddc1",
+    "pass-1/assets/frames/S039-0029.png": "f7f7734b0038a0e741c26d6ad4d8f24ee1f8a6b8a8d8d4e38e140a89fa2c07b6",
+    "pass-1/assets/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+    "pass-1/DESIGN.md": "fa2090b124ea6a496048912b69a7db9fdc54288e9596744109f53856929ffb73",
+    "pass-1/hyperframes.json": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+    "pass-1/index.html": "1776bdac4d56b90f35b0fd91c285c04c719fb12f73af3a0a1398fc7cb243a110"
+  },
+  "actualPayloadSha256": "2dfc965eb859e884184de123cfd6b7eadcc067fcce1af87a164eaf5774439176",
+  "outputFrameSha256": {
+    "frame_000865.png": "0d4d4f5653e2ad79ce7a8ecd3ccda65937c91783db8da03c204e7c849523e140",
+    "frame_000866.png": "79d14aa0f7906c8edbfb2a4fd7a01615f60eaa203c518f9bffab785b0db12fa1",
+    "frame_000867.png": "069304320ad823da4afe30d09bfc8a0752181e3ae10fe100608e98bd47a83ef5",
+    "frame_000868.png": "fb7eab14a6ad5efaef622ad3f8150453819fe8e242f6a3a5e32aa5d53d8afd1e",
+    "frame_000869.png": "5261a178b7c93721f0b8729ab7191df9f1c675676c64e55e2ef22cc235726054",
+    "frame_000870.png": "575f5fc5f05dd704fe17ec91a8fb719301b5db0aae95f74815b8a66421b7b770",
+    "frame_000871.png": "ddb4a8d14cf859b40c8241f58d67b7a1a0dcc405dfed12e8dd09f14cf3b08ccf",
+    "frame_000872.png": "1446fae74d45b90fd3dd502dffafdd0dfb2c59d03cbc6f99e2392fe13aa5d24e",
+    "frame_000873.png": "266dcf53fee18b1f50c30b718108000bef6c2d9038c524352dfdb6c3dd10c7fa",
+    "frame_000874.png": "7239ab9fb20ea02f2cba36fb4797a9d08ddafd997c7cd8e9ccfda9c8498ba774",
+    "frame_000875.png": "3b44115f11026833aa655ce6c68956ce08b9f25cfb47678a94347bca866dc47b",
+    "frame_000876.png": "7a34e46f86ebeb2362754c993dffa893c5aea6fd336c4a319e8815b14ca586bb",
+    "frame_000877.png": "0c5c427b37ef9a69c7cf81e7b3051abbca8e885cca26d76731dc71c0e1f3f735",
+    "frame_000878.png": "a440586514cdba53ac68cb187c36f3cf9d1e019a03906ba1ff5de31ff642cdd0",
+    "frame_000879.png": "4ce386cfe1dae264c3ab2d241df84ff65028dd51f47f11be3b63c35a48bea9f5",
+    "frame_000880.png": "286f3a59500aa059a31d71ab5900101036f4b0a224111ddc7d1b6d2bb153e1f1",
+    "frame_000881.png": "629b8c91bff05dcf958a484716216a00008f6da17e7d8c16f4273f8987fe8d46",
+    "frame_000882.png": "5662809ac38eb5c1772e729ec0447f3be99c51e0dc870ded10f4c894e7a53f54",
+    "frame_000883.png": "07ff4cdb2ab7e3fbee0407947ee4cd7da5a9990a141a3042705f81e19e639b79",
+    "frame_000884.png": "3cb2b620e8657c6653500ce9138923e491a492431bc2102125aa302d1b2810de",
+    "frame_000885.png": "2463c11be302b5e4c138df99de4f1752dbaa6dbe066da2c6186ca43f880ef110",
+    "frame_000886.png": "9c014284a365565cda3f4caeea4dcbf10b5914143db7655b9d5be08b795634eb",
+    "frame_000887.png": "057e1dde2c9db646b6cd02e1a473b0f44ee3b3cf7c0e0cbf600e624d7819fd4f",
+    "frame_000888.png": "13765bb6122ab7acbcf80b129ddafd387c494498da056535334508b6a31a8994",
+    "frame_000889.png": "73c57f832561f703c1314205acfe2fa39c42fe4524dc8c4ba7f6a8783f78c77c",
+    "frame_000890.png": "b9753cf0cb51e013590029339166c633b5e7bb8a6fe17ee561f7951a3c4c8123",
+    "frame_000891.png": "e3f2966a3029a5360d52457779315e901b5c6d0f8727cc2372f09bbf9063b122",
+    "frame_000892.png": "e21a2c1c547eb17cd40e0fd96d118e221ca292794b93de9439465cba0c089480",
+    "frame_000893.png": "268d9dd3835daa0fea814d13b529d1eb81975832c369eae5d875f4400f490ff6",
+    "frame_000894.png": "2cb807e5fc74ca2a57dee861e2b66f65afb9b99f15ffe8caae2781081efbd216",
+    "frame_000895.png": "f22ddc363968d9edff7dfb39d51acb681a54a7d04caf135f34b02368782bc250",
+    "frame_000896.png": "523afd4de71519d4cd78792c1a6d973b406261a2ea02ed8f62ec27348866cc3a",
+    "frame_000897.png": "b995a80a0f119b0e0a739fa11e633b0c133760368363c49135539b5a5bfeb73e",
+    "frame_000898.png": "6586405108b5bc495508c0806d3d48dc5f7007cd06b88d8feaf6bc16dd9ce90c",
+    "frame_000899.png": "9445568c02694f1166458d48472687151f6027882bcf93d5b34c8b4aea320388",
+    "frame_000900.png": "3c5fa2dee5467b6f0ca6db033c2b691eebe47cc579477b96042c7bf2f07647bc",
+    "frame_000901.png": "c7408450f308ff97ee34c8273bddc3ba2343aa99e9a74d85122e1b7c2eabdd92",
+    "frame_000902.png": "00287a58d4dd2de5ce41e80369986df14c8479375ff2e4e748da1301d3b5fbc3",
+    "frame_000903.png": "169b228475189624e2bac4addce2987bd9b169cf65fe695672dacefa8f96e0aa",
+    "frame_000904.png": "648dd175dd120d629bf360f2cfd64da14c920135222a0dacac5d9f57a9553939",
+    "frame_000905.png": "6beb0b460a0a971fc949ea52d46dc26d8c23729eb28d5b3b8683b2df157ac5f7",
+    "frame_000906.png": "a863d3e77b4525b26ed7c71551301f20624719a7c4122b779f3ba01d8f0c4841",
+    "frame_000907.png": "f229cfc5c4aa7cd7bdaf32cc45d71a3d4d249a2ce0edb4ceabd793769ced505b",
+    "frame_000908.png": "fbf42cf5f2e9c2a06e68aed416a64d75c63a7727c68cc4c5f0e708cd6af6555b",
+    "frame_000909.png": "a1676cf8a800385595ce7abb5933a8a61cd6af3b1fd088064ceb162d8b241889",
+    "frame_000910.png": "0355b9b9f970f07c9a6e7ac3c9cbea7acfd47d203cf44e056a7c26c45f3642d3",
+    "frame_000911.png": "ebf7f9f25f066c291f5f0dfcabc212942ea08f0b4418f4952a9641c9a242d14e",
+    "frame_000912.png": "a7ba6fcda868e5b6a8cf3c007e58c6c466ca7c31d2928c5fe0e5e5029c31df80",
+    "frame_000913.png": "e287c7d764f301679fd3a8c8b4042db7f884fc23738c64a12bdb00fc9dc4e9ae",
+    "frame_000914.png": "9ad8343437876a1a1430913d7d57bba415679c74b639b3a4f2edc56024a09b11",
+    "frame_000915.png": "9865e07bec8951b7907342ea7acba13a156e928c3562f49ca5c992eda9a8eba7",
+    "frame_000916.png": "997b5a81aa304d0f9100aa5487ecfbd04bec187285275983f858d4dc081b6359",
+    "frame_000917.png": "ca35217002d6a909ccca1d72ff144317ae9ff57d7d846f7aa01bb64ab9f9c311",
+    "frame_000918.png": "cbd538e292b5d34fcd9b35933c8244907b98f7f011092400da352cbbecea330d",
+    "frame_000919.png": "7be83e0ef00ffce10aba204111da341c592e6d86637e0f56cf0ed063edea17e3",
+    "frame_000920.png": "4244b6da424a82465261ec74988537018ed5afb5c67f29feb7d8455fac961b0f",
+    "frame_000921.png": "555bd14a535cef6920ff0bbf50e813274c3683d73b8f9176e3b3016294908c96",
+    "frame_000922.png": "43909c3ace5034fe02ae462460cb02f3fbd5ccc3f088a743815adf217a1117de",
+    "frame_000923.png": "db504ffaaa3828f1fc2b56893c67373aa889b9762fab92268aafdc413c03583f",
+    "frame_000924.png": "c2a32fba0443be1b79b2a0fbf55785e62bcce23af2e36b8853e397d369e0975b",
+    "frame_000925.png": "cb9e15bea50f5b1f253b69133e8f28a6734e0ee49e27c45c3edb3e024a5af24d",
+    "frame_000926.png": "1ac281359bfbe46c4fcac9c2d5f6d49c19d28926c85ae0db5fa6cb0db1b12a52",
+    "frame_000927.png": "1d2a351e9d9b0fef7681005b4ae8be1a10196555fe3d79e8d736ec43b15dc899",
+    "frame_000928.png": "2742b6b19383f7fdc51473be92443eb116bda6eb7a516a771b26fd7c6594c4b5",
+    "frame_000929.png": "14850fbd54e72677f29ee228a105475afa16c8b0e3e2ede2f16d92bf6ee03b42",
+    "frame_000930.png": "dbe09f8ff8afd3f6528aa419b216f4fbaa2ff6e83790c2f29095b4bd4d345f8d",
+    "frame_000931.png": "2edaf90aef5965d53f02cf6ba48f4c213c13a8b577417cff941a26f3729b315d",
+    "frame_000932.png": "373cd923532b28a0b35ea5841032f096f76527b8324f377c83ee80c7979a1310",
+    "frame_000933.png": "774a161fec9fbc504d8c14a770a4cf93950514990ac1ce2ce3e1dd9e342faec3",
+    "frame_000934.png": "b231e89e82994d6bff0d4575e3733c3767f05c4c7204bdebb9ef7ce162acadf0",
+    "frame_000935.png": "fa169cf3c20cce70622c3757eddf26a0164a603c2d89851c34e31fd4cd6eb0f8",
+    "frame_000936.png": "e845cae74c4df0cefb32bb7ae734accf0e4bb55080f128500ff1bf2b5c11017f"
+  },
+  "segmentSha256": "026df5d07ec3386c75a7cdeedd1f37ab740f809a465f55725c15cb5682f8efd2",
+  "planSha256": "6280230ef311c15b9247b7a4b85c8fe374e3283157962672ef6fcb6c2a3f1523",
+  "codeSha256": "f431deaef00e2f2c04da61c3be318e551a3f443122031bed249ca765997ca89f",
+  "executor": "/root/s1_render_execution",
+  "chunk": 12,
+  "first": 864,
+  "last": 936,
+  "reuseHistory": [
+    {
+      "oldRenderKey": "a811130456c99528118b14adf0a25c92cce016f74064d8b5f442757b14bea888",
+      "oldInputSpec": {
+        "htmlSha256": "4126c9aac00448b173b90f27d92a12d94edcd3b773dc659ea2e3c70712b05676",
+        "dependencies": {
+          "composition.py": "dccc4ba92466524048bb290bbce6e82db931c9dbadaafef7fe07b880ed141c9a",
+          "typefx.py": "7b42a17976b8ce27909ab5aac3982980394573c9111df64530b58995139c0ead",
+          "barlow-glyphs.json": "e934240f60d3b95279b8a35a68b93162c3b1c75083c303b1a533381a5c5c7cb1",
+          "layoutfx.py": "8bb435a943c5bb8c508ac4b45e638ef6274d1bd90178aed8c51f6a11b1ff00ac",
+          "screenfx.py": "2547316b72884c43557005a42c94c0ffc49027fed94bec40cf490b9be44ab0ae",
+          "render.py": "1f979fa5f14a93975b49dee9a21cbf1109361c46a8aee24e194b51079bde4e6c",
+          "assets/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+          "assets/shots/N037.mp4": "3276ad02fe616071cb96d445d6cadbb222bfafae71e16ebfcbfd7624ea688abe",
+          "assets/shots/S036.mp4": "23f8b935fc349720d55caa04846c7b0ffb3d7a2c1dad794a62f689d2fd7a513d",
+          "assets/shots/S038.mp4": "1185273a11dd170ef85cc20a0105e2093f70cb9ecd5f954795ef3aa50ec520b7",
+          "assets/shots/S039.mp4": "13c0fe85ec40ae9479f1dd28f534feea81fdc5d8dcdb38bfeee2dc52bbe470f5",
+          "assets/fonts/BarlowCondensed-ExtraBold.woff2": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+          "assets/fonts/cjk-heavy.ttc": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6"
+        },
+        "runtime": {
+          "nodeVersion": "v24.22.1",
+          "cliVersion": "0.8.216",
+          "cliEntrySha256": "e65ed25c36426b6e9ade59c4d20d92c5a78bd2a9f459ab3bfb461cdd2a1ef56f",
+          "chromeVersion": "156.0.8078.74",
+          "chromeExeSha256": "4132eb3e9c5b3978874eed48cb45c21debf343a0d383b6d2fb01a5fcf349ec65",
+          "ffmpegExeSha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+          "captureFlags": [
+            "--format",
+            "png-sequence",
+            "--workers",
+            "1",
+            "--low-memory-mode",
+            "--sdr",
+            "--experimental-fast-capture=false",
+            "--no-best-effort",
+            "--frames-cache-dir",
+            "off"
+          ],
+          "fps": 24,
+          "size": [
+            1920,
+            1080
+          ],
+          "color": "SDR PNG RGB full; encode BT709 tv",
+          "sourceExtraction": "trim source frame indices; scale bt709 tv to full; rgb24; native PNG; passthrough fps"
+        },
+        "neededSourceFrames": [
+          [
+            "N037",
+            12
+          ],
+          [
+            "N037",
+            13
+          ],
+          [
+            "N037",
+            14
+          ],
+          [
+            "N037",
+            15
+          ],
+          [
+            "N037",
+            16
+          ],
+          [
+            "N037",
+            17
+          ],
+          [
+            "N037",
+            18
+          ],
+          [
+            "N037",
+            19
+          ],
+          [
+            "N037",
+            20
+          ],
+          [
+            "N037",
+            21
+          ],
+          [
+            "N037",
+            22
+          ],
+          [
+            "N037",
+            23
+          ],
+          [
+            "N037",
+            24
+          ],
+          [
+            "N037",
+            25
+          ],
+          [
+            "N037",
+            26
+          ],
+          [
+            "N037",
+            27
+          ],
+          [
+            "N037",
+            28
+          ],
+          [
+            "N037",
+            29
+          ],
+          [
+            "N037",
+            30
+          ],
+          [
+            "N037",
+            31
+          ],
+          [
+            "N037",
+            32
+          ],
+          [
+            "N037",
+            33
+          ],
+          [
+            "N037",
+            34
+          ],
+          [
+            "N037",
+            35
+          ],
+          [
+            "N037",
+            36
+          ],
+          [
+            "N037",
+            37
+          ],
+          [
+            "S036",
+            34
+          ],
+          [
+            "S036",
+            35
+          ],
+          [
+            "S038",
+            12
+          ],
+          [
+            "S038",
+            13
+          ],
+          [
+            "S038",
+            14
+          ],
+          [
+            "S038",
+            15
+          ],
+          [
+            "S038",
+            16
+          ],
+          [
+            "S038",
+            17
+          ],
+          [
+            "S038",
+            18
+          ],
+          [
+            "S038",
+            19
+          ],
+          [
+            "S038",
+            20
+          ],
+          [
+            "S038",
+            21
+          ],
+          [
+            "S038",
+            22
+          ],
+          [
+            "S038",
+            23
+          ],
+          [
+            "S038",
+            24
+          ],
+          [
+            "S038",
+            25
+          ],
+          [
+            "S038",
+            26
+          ],
+          [
+            "S038",
+            27
+          ],
+          [
+            "S038",
+            28
+          ],
+          [
+            "S038",
+            29
+          ],
+          [
+            "S038",
+            30
+          ],
+          [
+            "S038",
+            31
+          ],
+          [
+            "S038",
+            32
+          ],
+          [
+            "S038",
+            33
+          ],
+          [
+            "S038",
+            34
+          ],
+          [
+            "S038",
+            35
+          ],
+          [
+            "S038",
+            36
+          ],
+          [
+            "S038",
+            37
+          ],
+          [
+            "S039",
+            12
+          ],
+          [
+            "S039",
+            13
+          ],
+          [
+            "S039",
+            14
+          ],
+          [
+            "S039",
+            15
+          ],
+          [
+            "S039",
+            16
+          ],
+          [
+            "S039",
+            17
+          ],
+          [
+            "S039",
+            18
+          ],
+          [
+            "S039",
+            19
+          ],
+          [
+            "S039",
+            20
+          ],
+          [
+            "S039",
+            21
+          ],
+          [
+            "S039",
+            22
+          ],
+          [
+            "S039",
+            23
+          ],
+          [
+            "S039",
+            24
+          ],
+          [
+            "S039",
+            25
+          ],
+          [
+            "S039",
+            26
+          ],
+          [
+            "S039",
+            27
+          ],
+          [
+            "S039",
+            28
+          ],
+          [
+            "S039",
+            29
+          ]
+        ],
+        "copiedAlpha": []
+      },
+      "newValidationPlanSha256": "a3d5e0168863d94ba9ba66a008894ad9f286c7e9c1dbca05fdf0f588bf884087",
+      "changedProducerFiles": {
+        "layoutfx.py": {
+          "old": "8bb435a943c5bb8c508ac4b45e638ef6274d1bd90178aed8c51f6a11b1ff00ac",
+          "new": "8ad58d6be0cf24402572e644189ccb5b331edaf91b76b587ea4c35f1126c07d1"
+        },
+        "typefx.py": {
+          "old": "7b42a17976b8ce27909ab5aac3982980394573c9111df64530b58995139c0ead",
+          "new": "9d8c98e7021a4bb2d54427a8192668046054eda5804b99bd235b351b238f9f32"
+        }
+      },
+      "actualPixelInputsByteEqual": true,
+      "allSourcePngReDecodedAndShaMatched": 72,
+      "preservedPreviousProof": "proof-history/a811130456c99528-1793876724.json",
+      "validatedAtUnix": 1793876724.9413662,
+      "validator": "/root/s1_render_execution"
+    }
+  ],
+  "currentValidationPlanSha256": "a3d5e0168863d94ba9ba66a008894ad9f286c7e9c1dbca05fdf0f588bf884087"
+}

@@ -1,0 +1,17 @@
+{
+  "recordType": "orchestrator_transcription_of_observed_CLI_result_not_raw_stdout",
+  "command": "node outputs/jjk-s1-workflow/hyperframes/hf.mjs lint --json",
+  "cliVersion": "0.8.216",
+  "ok": true,
+  "errorCount": 0,
+  "warningCount": 9,
+  "filesScanned": 1,
+  "inputPlanSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+  "observedWarningsAndDisposition": [
+    {"code": "duplicate_media_discovery_risk", "count": 2, "details": "S011同start/duration有2节点；S045七叶有7同源节点", "disposition": "屏内与底镜、七叶遮罩是设计的重复视频实例。视频均静音；实际PNG分段渲染使用同源帧时钟，仍须整片实际检查。"},
+    {"code": "timeline_track_too_dense", "count": 3, "details": "tracks100/103/106分别26个定时alpha图片", "disposition": "26张同号RGBA逐帧切换，保留精确时钟。Studio时间线较密，不宣称警告已消除。"},
+    {"code": "composition_heavy_overlay_count_high", "count": 1, "details": "可编辑全片index含90个heavy overlay元素", "disposition": "实际生产用72帧分段HTML只装所需图层；不直接把全60秒index一次捕获。最终视频另做1440帧完整解码与人工事件审查。"},
+    {"code": "nested_structure_needs_subcomposition", "count": 3, "details": "opening-slam/strike-type/limitless-type含嵌套SVG", "disposition": "代码驱动连续字形保留。完整编辑需源码；Studio不承诺每个字形节点可鼠标拖改。最终冻结后不为整理层级改变已验证像素。"}
+  ],
+  "scope": "静态结构检查，不代替实际视频、试听或双工程验收；9项warning如实保留。"
+}

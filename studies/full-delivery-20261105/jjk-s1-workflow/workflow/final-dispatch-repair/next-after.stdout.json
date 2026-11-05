@@ -1,0 +1,17 @@
+{
+  "dispatchMode": "编排层据此实际调用对应代理；CLI只验证证据并派发，不伪造代理执行或审核",
+  "stage": "UI_delivery_pending",
+  "actions": [
+    {
+      "role": "orchestrator_ui_verifier",
+      "action": "UI/media_delivery_verify",
+      "reasons": [
+        {
+          "code": "missing_report",
+          "path": "evidence/ui/最终交付界面验收.json"
+        }
+      ],
+      "scope": "当前成片实际播放、HF/OCC实际工程、ZIP逐成员和真实媒体核验；不声称试听"
+    }
+  ]
+}

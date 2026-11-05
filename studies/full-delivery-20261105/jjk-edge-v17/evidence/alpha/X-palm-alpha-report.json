@@ -1,0 +1,760 @@
+{
+  "id": "X-palm",
+  "fps": 24,
+  "frames": 60,
+  "formalFirst": 12,
+  "formalLastExclusive": 48,
+  "sourceIn": 1259.5,
+  "clipSourceIn": 1259.0,
+  "alphaIndexOffset": 0,
+  "formalAlphaRange": [
+    12,
+    48
+  ],
+  "sourceTimes": [
+    1259.0,
+    1259.0416666666667,
+    1259.0833333333333,
+    1259.125,
+    1259.1666666666667,
+    1259.2083333333333,
+    1259.25,
+    1259.2916666666667,
+    1259.3333333333333,
+    1259.375,
+    1259.4166666666667,
+    1259.4583333333333,
+    1259.5,
+    1259.5416666666667,
+    1259.5833333333333,
+    1259.625,
+    1259.6666666666667,
+    1259.7083333333333,
+    1259.75,
+    1259.7916666666667,
+    1259.8333333333333,
+    1259.875,
+    1259.9166666666667,
+    1259.9583333333333,
+    1260.0,
+    1260.0416666666667,
+    1260.0833333333333,
+    1260.125,
+    1260.1666666666667,
+    1260.2083333333333,
+    1260.25,
+    1260.2916666666667,
+    1260.3333333333333,
+    1260.375,
+    1260.4166666666667,
+    1260.4583333333333,
+    1260.5,
+    1260.5416666666667,
+    1260.5833333333333,
+    1260.625,
+    1260.6666666666667,
+    1260.7083333333333,
+    1260.75,
+    1260.7916666666667,
+    1260.8333333333333,
+    1260.875,
+    1260.9166666666667,
+    1260.9583333333333,
+    1261.0,
+    1261.0416666666667,
+    1261.0833333333333,
+    1261.125,
+    1261.1666666666667,
+    1261.2083333333333,
+    1261.25,
+    1261.2916666666667,
+    1261.3333333333333,
+    1261.375,
+    1261.4166666666667,
+    1261.4583333333333
+  ],
+  "method": "manual palm-only silhouette + constrained LK + 7px narrow-band GrabCut",
+  "manualPolygonF12": [
+    [
+      510,
+      108
+    ],
+    [
+      642,
+      108
+    ],
+    [
+      680,
+      249
+    ],
+    [
+      706,
+      363
+    ],
+    [
+      744,
+      466
+    ],
+    [
+      775,
+      518
+    ],
+    [
+      806,
+      532
+    ],
+    [
+      865,
+      530
+    ],
+    [
+      939,
+      498
+    ],
+    [
+      1029,
+      449
+    ],
+    [
+      1095,
+      401
+    ],
+    [
+      1141,
+      328
+    ],
+    [
+      1199,
+      266
+    ],
+    [
+      1239,
+      241
+    ],
+    [
+      1279,
+      240
+    ],
+    [
+      1308,
+      268
+    ],
+    [
+      1324,
+      311
+    ],
+    [
+      1321,
+      355
+    ],
+    [
+      1307,
+      397
+    ],
+    [
+      1282,
+      443
+    ],
+    [
+      1253,
+      482
+    ],
+    [
+      1214,
+      520
+    ],
+    [
+      1175,
+      542
+    ],
+    [
+      1131,
+      568
+    ],
+    [
+      1090,
+      599
+    ],
+    [
+      1058,
+      631
+    ],
+    [
+      1045,
+      667
+    ],
+    [
+      1041,
+      691
+    ],
+    [
+      1083,
+      719
+    ],
+    [
+      1135,
+      749
+    ],
+    [
+      1177,
+      775
+    ],
+    [
+      1198,
+      812
+    ],
+    [
+      1214,
+      866
+    ],
+    [
+      1252,
+      912
+    ],
+    [
+      1333,
+      972
+    ],
+    [
+      1111,
+      972
+    ],
+    [
+      1087,
+      921
+    ],
+    [
+      1058,
+      871
+    ],
+    [
+      1019,
+      853
+    ],
+    [
+      968,
+      850
+    ],
+    [
+      917,
+      851
+    ],
+    [
+      874,
+      850
+    ],
+    [
+      830,
+      855
+    ],
+    [
+      790,
+      879
+    ],
+    [
+      746,
+      897
+    ],
+    [
+      700,
+      892
+    ],
+    [
+      654,
+      882
+    ],
+    [
+      613,
+      879
+    ],
+    [
+      574,
+      873
+    ],
+    [
+      558,
+      897
+    ],
+    [
+      545,
+      940
+    ],
+    [
+      539,
+      972
+    ],
+    [
+      465,
+      972
+    ],
+    [
+      472,
+      917
+    ],
+    [
+      479,
+      865
+    ],
+    [
+      503,
+      825
+    ],
+    [
+      528,
+      785
+    ],
+    [
+      551,
+      750
+    ],
+    [
+      520,
+      758
+    ],
+    [
+      474,
+      767
+    ],
+    [
+      423,
+      773
+    ],
+    [
+      373,
+      774
+    ],
+    [
+      331,
+      766
+    ],
+    [
+      287,
+      752
+    ],
+    [
+      249,
+      731
+    ],
+    [
+      213,
+      695
+    ],
+    [
+      186,
+      661
+    ],
+    [
+      170,
+      627
+    ],
+    [
+      164,
+      600
+    ],
+    [
+      172,
+      573
+    ],
+    [
+      199,
+      552
+    ],
+    [
+      235,
+      555
+    ],
+    [
+      303,
+      583
+    ],
+    [
+      397,
+      609
+    ],
+    [
+      511,
+      616
+    ],
+    [
+      614,
+      610
+    ],
+    [
+      666,
+      590
+    ],
+    [
+      646,
+      555
+    ],
+    [
+      611,
+      499
+    ],
+    [
+      596,
+      438
+    ],
+    [
+      566,
+      390
+    ],
+    [
+      541,
+      349
+    ],
+    [
+      526,
+      296
+    ],
+    [
+      516,
+      233
+    ]
+  ],
+  "tracking": [
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-anchor"
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "accepted": true,
+      "inliers": 100,
+      "features": 100
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    },
+    {
+      "mode": "manual-hold"
+    }
+  ],
+  "alphaPixels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    391934,
+    391926,
+    392172,
+    392311,
+    391982,
+    392110,
+    391948,
+    392117,
+    392092,
+    392483,
+    392114,
+    392117,
+    392188,
+    392189,
+    391924,
+    392102,
+    392184,
+    391924,
+    391596,
+    391978,
+    392205,
+    391907,
+    391915,
+    392198,
+    392303,
+    392165,
+    392295,
+    391728,
+    392055,
+    392136,
+    392169,
+    392064,
+    392210,
+    392091,
+    392190,
+    391659,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "noGeneratedRGB": true,
+  "rgbSource": "same frame of prepared 1920x1080 clip",
+  "emptyAlphaFrames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59
+  ],
+  "limitation": "Palm only, with hand crossing requested top/bottom crop. Fine edge approximation remains. Cool blue roof block, navy body and distant hand projection corrected on all formal12..47.",
+  "refinement": "refine_palm.py: constrained warm color domain, largest palm contour, manual local exterior half-plane, alpha-only",
+  "colorCorrectionReport": "X-palm-color-correction.json"
+}

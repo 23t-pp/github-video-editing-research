@@ -1,0 +1,43 @@
+{
+  "id": "S1E09",
+  "state": "pass",
+  "archive": "S1E09.tar.gz",
+  "archiveBytes": 545220240,
+  "archiveSha256": "60b038a4989013eb73b379a716895b00e0e82dc4cd98da05122b80009f9b6d6d",
+  "jpgPaths": 86104,
+  "regularJpegs": 34407,
+  "hardlinkJpegs": 51697,
+  "sourceFrameIds": 34407,
+  "continuousSamples": true,
+  "allRegularJpegSha256MatchIndex": true,
+  "allHardlinksPointToEarlierNative": true,
+  "safeRelativePaths": true,
+  "metadata": {
+    "ffmpeg-errors.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "index.sqlite": {
+      "bytes": 8019968,
+      "sha256": "db460f2038c868559259a48fbd5c2c3bf51f13a5a9c41bc60592baccece0fe0b"
+    },
+    "progress.json": {
+      "bytes": 2263,
+      "sha256": "cd3c61886f462f4e70bef55e3834c1f99ceed506e34676b4f2e43874972ea848"
+    },
+    "samples.jsonl": {
+      "bytes": 24268220,
+      "sha256": "8f838133a2f90822ec7b89d360a487d84e9a6a8b93dcb525b8f1b3d5c0a36fe2"
+    },
+    "verification-progress.json": {
+      "bytes": 67,
+      "sha256": "6eed54d1c07dbb55bb1103c9b34af73871bcffe85eb7662aad004a102f3ca978"
+    },
+    "verification.json": {
+      "bytes": 808,
+      "sha256": "a5c7ede875321c2347254d876745fded80475363c6dd2e0887b3484593a38f31"
+    }
+  },
+  "elapsedSeconds": 294.23029375076294,
+  "verifiedUnix": 1793887045.9732127
+}

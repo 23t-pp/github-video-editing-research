@@ -1,0 +1,64 @@
+{
+  "id": "V10",
+  "method": "FFmpeg select scene at 320x180, threshold >0.10. Candidates include flashes, camera moves and effects; not confirmed shot boundaries.",
+  "threshold": 0.1,
+  "candidates": [
+    {
+      "time": 0.0333333,
+      "score": 0.187917
+    },
+    {
+      "time": 6.1,
+      "score": 0.214394
+    },
+    {
+      "time": 6.133333,
+      "score": 0.188042
+    },
+    {
+      "time": 12.866667,
+      "score": 0.407309
+    },
+    {
+      "time": 12.9,
+      "score": 0.201892
+    },
+    {
+      "time": 13.566667,
+      "score": 0.106334
+    },
+    {
+      "time": 13.6,
+      "score": 0.100623
+    },
+    {
+      "time": 14.333333,
+      "score": 0.23025
+    },
+    {
+      "time": 14.366667,
+      "score": 0.110164
+    },
+    {
+      "time": 15.2,
+      "score": 0.29921
+    },
+    {
+      "time": 16.633333,
+      "score": 0.302492
+    },
+    {
+      "time": 16.666667,
+      "score": 0.105085
+    },
+    {
+      "time": 17.033333,
+      "score": 0.199412
+    },
+    {
+      "time": 17.4,
+      "score": 0.176861
+    }
+  ],
+  "timelineSampleFps": 2
+}

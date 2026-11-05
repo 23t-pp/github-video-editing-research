@@ -1,0 +1,32 @@
+{
+  "plan": "loops/loop-02/plan-early.json",
+  "planSha256": "bfa95efb7cf9bb8614be575997fcd93f839956c32237e2b2ebc18a208f09f939",
+  "allowedChunks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "codeHashes": {
+    "composition.py": "dccc4ba92466524048bb290bbce6e82db931c9dbadaafef7fe07b880ed141c9a",
+    "typefx.py": "7b42a17976b8ce27909ab5aac3982980394573c9111df64530b58995139c0ead",
+    "layoutfx.py": "8bb435a943c5bb8c508ac4b45e638ef6274d1bd90178aed8c51f6a11b1ff00ac",
+    "screenfx.py": "2547316b72884c43557005a42c94c0ffc49027fed94bec40cf490b9be44ab0ae",
+    "barlow-glyphs.json": "e934240f60d3b95279b8a35a68b93162c3b1c75083c303b1a533381a5c5c7cb1"
+  },
+  "chunkHtmlSha256": {
+    "0": "d1a17da98e77914031683b85d6eac8e4f70acf32866783d287df0b07516a2ca6",
+    "1": "ac4fff3d809ba9e52fbddf30182252aa5aae0230a0c6d3a04abb2a291b5dd904",
+    "2": "e6231bc06d9b886b2579ffa8419bd4c9973726dc457b303e416f724312adadc7",
+    "3": "2bc36136dda03002df6dbacb541dd78af0532361a0072fc1511e414bc6d70eb3",
+    "4": "b9331012f6536c6688c4f3556a284d8ef6aa392aec6f3c29e11e4210f30fb162",
+    "5": "e70df0421b302ef1570b46e77f7918b63aa1eaf73cea2b75a6bf3095a515e9ef",
+    "6": "2329b9fa63a3152aae265f292c2aef5678410132eacbf8133302723792dfc532",
+    "7": "7a91c12da4e4b22444a7f219e7b4928262e4f336d7bdf6296304ad20dad2cc91"
+  },
+  "lateMutableOnly": "F588 onward main replacements/XCHASE, no edits to early code or media"
+}

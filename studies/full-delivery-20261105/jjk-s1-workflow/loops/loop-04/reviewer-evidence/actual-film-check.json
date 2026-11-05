@@ -1,0 +1,84 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "videoSha256": "90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d",
+  "planSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+  "independentDecodedFrames": 1440,
+  "thumbnailSize": [
+    320,
+    180
+  ],
+  "scope": "actual complete encoded MP4 decoded, own contacts generated; frame-difference is localization, not automatic art pass. No listening.",
+  "contacts": {
+    "loops/loop-04/reviewer-evidence/actual-eyes-815-843.jpg": "231375eea863b78982f75370686533b9a89ca868dc6098cd28e42ff51fd5bbc0",
+    "loops/loop-04/reviewer-evidence/actual-film-01.jpg": "5a4ca80418fd879ea90483d20ac574b3606fe2dbe29dc17dd18c151434b36f69",
+    "loops/loop-04/reviewer-evidence/actual-film-02.jpg": "3155569c1e7c4f40e4c1938f9970cd35876382dccabb804a28dd536149a1c2ce",
+    "loops/loop-04/reviewer-evidence/actual-strike-611-638.jpg": "d9c1e6e2e66cb33f2c6e6c506d03a9466d35e14be4992fdc7db7ca64bc842467",
+    "loops/loop-04/reviewer-evidence/actual-tail-01.jpg": "0f9cd0ea2c1646d7659266347688190b2af203a93623e6b12596b3f1afcdc406",
+    "loops/loop-04/reviewer-evidence/actual-tail-02.jpg": "27f69cc051c8558431b41248b48f1ec419a9bd69ba2928d68b8242958f6776b9",
+    "loops/loop-04/reviewer-evidence/actual-tail-03.jpg": "d5e2c5f991433336e7634ed9665dd8f8f0d35611cf913e66f22e33b6c1a6b7a7"
+  },
+  "freshChunkProofRows": [
+    {
+      "chunk": 8,
+      "planSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+      "outputShaEntries": 72
+    },
+    {
+      "chunk": 11,
+      "planSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+      "outputShaEntries": 72
+    },
+    {
+      "chunk": 17,
+      "planSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+      "outputShaEntries": 72
+    },
+    {
+      "chunk": 18,
+      "planSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+      "outputShaEntries": 72
+    }
+  ],
+  "tailShotMotionCandidates": [
+    {
+      "shot": "S053",
+      "assetId": "N053",
+      "range": [
+        1282,
+        1290
+      ],
+      "medianRGBFrameDifference": 0.25710707902908325,
+      "nearHoldFractionMADbelow05": 1.0
+    },
+    {
+      "shot": "R4A01",
+      "assetId": "T062",
+      "range": [
+        1290,
+        1312
+      ],
+      "medianRGBFrameDifference": 36.244422912597656,
+      "nearHoldFractionMADbelow05": 0.14285714285714285
+    },
+    {
+      "shot": "R4A02",
+      "assetId": "T091",
+      "range": [
+        1312,
+        1336
+      ],
+      "medianRGBFrameDifference": 1.2723695039749146,
+      "nearHoldFractionMADbelow05": 0.043478260869565216
+    },
+    {
+      "shot": "R4A03",
+      "assetId": "T007",
+      "range": [
+        1336,
+        1360
+      ],
+      "medianRGBFrameDifference": 16.23154067993164,
+      "nearHoldFractionMADbelow05": 0.043478260869565216
+    }
+  ]
+}

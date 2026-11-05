@@ -1,0 +1,977 @@
+{
+  "id": "XPALM",
+  "season": 1,
+  "candidateId": "S1C020",
+  "preparedMovie": "hyperframes/assets/shots/XPALM.mp4",
+  "preparedSha256": "f7dd18e67f04c56fd628681c03682caa37ecbab0c9c13d1c1b3ddd97b28e967b",
+  "firstPreparedFrame": 2,
+  "lastPreparedFrameExclusive": 28,
+  "count": 26,
+  "fps": 24,
+  "clock": "same prepared XPALM file frame number; global event offset2 uses000002.png",
+  "allRgbExactlyEqualsPreparedDecodedFrame": true,
+  "rgbDecodeFilter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full,format=rgb24",
+  "blackBandsAlphaZero": true,
+  "activeRect": [
+    0,
+    60,
+    1920,
+    960
+  ],
+  "method": "1920 prepared-source manual contour;17x17 narrow-support GrabCut;0.65px feather; largest connected hand/forearm; RGB untouched",
+  "alphaPixelCounts": [
+    569760,
+    570890,
+    573077,
+    571150,
+    571531,
+    574052,
+    577200,
+    575122,
+    569761,
+    572230,
+    568441,
+    568756,
+    568522,
+    566759,
+    569175,
+    567824,
+    568027,
+    567223,
+    563204,
+    563206,
+    554801,
+    557219,
+    559493,
+    561514,
+    569163,
+    568556
+  ],
+  "bounds": [
+    [
+      470,
+      409,
+      1919,
+      1019
+    ],
+    [
+      470,
+      409,
+      1919,
+      1019
+    ],
+    [
+      474,
+      408,
+      1919,
+      1019
+    ],
+    [
+      474,
+      408,
+      1919,
+      1019
+    ],
+    [
+      472,
+      401,
+      1919,
+      1019
+    ],
+    [
+      472,
+      401,
+      1919,
+      1019
+    ],
+    [
+      472,
+      400,
+      1919,
+      1019
+    ],
+    [
+      472,
+      401,
+      1919,
+      1019
+    ],
+    [
+      473,
+      403,
+      1919,
+      1019
+    ],
+    [
+      473,
+      403,
+      1919,
+      1019
+    ],
+    [
+      471,
+      408,
+      1919,
+      1019
+    ],
+    [
+      471,
+      408,
+      1919,
+      1019
+    ],
+    [
+      468,
+      406,
+      1919,
+      1019
+    ],
+    [
+      468,
+      406,
+      1919,
+      1019
+    ],
+    [
+      469,
+      409,
+      1919,
+      1019
+    ],
+    [
+      467,
+      409,
+      1919,
+      1019
+    ],
+    [
+      471,
+      406,
+      1919,
+      1019
+    ],
+    [
+      471,
+      407,
+      1919,
+      1019
+    ],
+    [
+      469,
+      405,
+      1919,
+      1019
+    ],
+    [
+      471,
+      406,
+      1919,
+      1019
+    ],
+    [
+      472,
+      409,
+      1919,
+      1019
+    ],
+    [
+      472,
+      409,
+      1919,
+      1019
+    ],
+    [
+      473,
+      402,
+      1919,
+      1019
+    ],
+    [
+      472,
+      402,
+      1919,
+      1019
+    ],
+    [
+      472,
+      402,
+      1919,
+      1019
+    ],
+    [
+      472,
+      402,
+      1919,
+      1019
+    ]
+  ],
+  "manualPolygon": [
+    [
+      1919,
+      1019
+    ],
+    [
+      1500,
+      1018
+    ],
+    [
+      1470,
+      1013
+    ],
+    [
+      1450,
+      1002
+    ],
+    [
+      1435,
+      985
+    ],
+    [
+      1426,
+      960
+    ],
+    [
+      1420,
+      920
+    ],
+    [
+      1415,
+      880
+    ],
+    [
+      1410,
+      840
+    ],
+    [
+      1400,
+      813
+    ],
+    [
+      1390,
+      795
+    ],
+    [
+      1370,
+      788
+    ],
+    [
+      1350,
+      785
+    ],
+    [
+      1300,
+      785
+    ],
+    [
+      1250,
+      798
+    ],
+    [
+      1200,
+      812
+    ],
+    [
+      1150,
+      832
+    ],
+    [
+      1100,
+      851
+    ],
+    [
+      1050,
+      867
+    ],
+    [
+      1000,
+      881
+    ],
+    [
+      950,
+      890
+    ],
+    [
+      900,
+      911
+    ],
+    [
+      850,
+      922
+    ],
+    [
+      800,
+      924
+    ],
+    [
+      750,
+      923
+    ],
+    [
+      700,
+      920
+    ],
+    [
+      650,
+      916
+    ],
+    [
+      600,
+      915
+    ],
+    [
+      550,
+      911
+    ],
+    [
+      520,
+      900
+    ],
+    [
+      505,
+      889
+    ],
+    [
+      497,
+      871
+    ],
+    [
+      500,
+      853
+    ],
+    [
+      510,
+      840
+    ],
+    [
+      535,
+      830
+    ],
+    [
+      565,
+      825
+    ],
+    [
+      595,
+      820
+    ],
+    [
+      625,
+      812
+    ],
+    [
+      650,
+      805
+    ],
+    [
+      675,
+      797
+    ],
+    [
+      690,
+      790
+    ],
+    [
+      650,
+      780
+    ],
+    [
+      610,
+      760
+    ],
+    [
+      580,
+      740
+    ],
+    [
+      550,
+      720
+    ],
+    [
+      530,
+      690
+    ],
+    [
+      510,
+      660
+    ],
+    [
+      490,
+      630
+    ],
+    [
+      475,
+      600
+    ],
+    [
+      470,
+      580
+    ],
+    [
+      475,
+      562
+    ],
+    [
+      485,
+      550
+    ],
+    [
+      500,
+      540
+    ],
+    [
+      520,
+      538
+    ],
+    [
+      545,
+      542
+    ],
+    [
+      570,
+      555
+    ],
+    [
+      590,
+      575
+    ],
+    [
+      610,
+      595
+    ],
+    [
+      630,
+      615
+    ],
+    [
+      650,
+      632
+    ],
+    [
+      675,
+      641
+    ],
+    [
+      690,
+      646
+    ],
+    [
+      676,
+      610
+    ],
+    [
+      670,
+      570
+    ],
+    [
+      669,
+      520
+    ],
+    [
+      671,
+      470
+    ],
+    [
+      675,
+      430
+    ],
+    [
+      686,
+      408
+    ],
+    [
+      704,
+      407
+    ],
+    [
+      726,
+      416
+    ],
+    [
+      746,
+      439
+    ],
+    [
+      758,
+      468
+    ],
+    [
+      768,
+      500
+    ],
+    [
+      777,
+      526
+    ],
+    [
+      789,
+      548
+    ],
+    [
+      802,
+      555
+    ],
+    [
+      813,
+      551
+    ],
+    [
+      815,
+      536
+    ],
+    [
+      807,
+      516
+    ],
+    [
+      803,
+      490
+    ],
+    [
+      806,
+      467
+    ],
+    [
+      818,
+      447
+    ],
+    [
+      835,
+      431
+    ],
+    [
+      854,
+      419
+    ],
+    [
+      880,
+      411
+    ],
+    [
+      910,
+      409
+    ],
+    [
+      945,
+      410
+    ],
+    [
+      974,
+      411
+    ],
+    [
+      997,
+      417
+    ],
+    [
+      1014,
+      429
+    ],
+    [
+      1022,
+      446
+    ],
+    [
+      1018,
+      465
+    ],
+    [
+      1003,
+      478
+    ],
+    [
+      980,
+      484
+    ],
+    [
+      953,
+      488
+    ],
+    [
+      927,
+      487
+    ],
+    [
+      904,
+      482
+    ],
+    [
+      886,
+      476
+    ],
+    [
+      888,
+      490
+    ],
+    [
+      903,
+      507
+    ],
+    [
+      920,
+      515
+    ],
+    [
+      942,
+      520
+    ],
+    [
+      963,
+      526
+    ],
+    [
+      983,
+      533
+    ],
+    [
+      1000,
+      533
+    ],
+    [
+      1015,
+      525
+    ],
+    [
+      1040,
+      513
+    ],
+    [
+      1070,
+      503
+    ],
+    [
+      1110,
+      489
+    ],
+    [
+      1150,
+      480
+    ],
+    [
+      1190,
+      476
+    ],
+    [
+      1230,
+      477
+    ],
+    [
+      1270,
+      486
+    ],
+    [
+      1310,
+      500
+    ],
+    [
+      1350,
+      512
+    ],
+    [
+      1390,
+      520
+    ],
+    [
+      1440,
+      522
+    ],
+    [
+      1475,
+      520
+    ],
+    [
+      1500,
+      516
+    ],
+    [
+      1540,
+      518
+    ],
+    [
+      1580,
+      522
+    ],
+    [
+      1640,
+      533
+    ],
+    [
+      1700,
+      540
+    ],
+    [
+      1760,
+      550
+    ],
+    [
+      1820,
+      562
+    ],
+    [
+      1880,
+      575
+    ],
+    [
+      1919,
+      580
+    ]
+  ],
+  "visuallyReviewed": true,
+  "limitations": "Source wrist/sleeve exits right edge, bottom source120px cropped; a few top subtitle pixels remain near preparedy1015 but excluded from alpha support. Cyan ink/glow 1–3px residual and manual outline approximations; no offscreen arm reconstruction.",
+  "perFrameChecks": [
+    {
+      "preparedFrame": 2,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 569557,
+      "removedDetachedOpaquePixels": 203,
+      "pngSha256": "e977ffc454a12091d0d845fd7c8bc21176e7226579e5e480501b0505b8156edc"
+    },
+    {
+      "preparedFrame": 3,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 570579,
+      "removedDetachedOpaquePixels": 311,
+      "pngSha256": "a91277eab2eb4f517b697df04f10c4806ede64c6b496c206aa7db5dfd319d689"
+    },
+    {
+      "preparedFrame": 4,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 572844,
+      "removedDetachedOpaquePixels": 233,
+      "pngSha256": "c135b1bc087c45bf8b939f0493a8df75a9d9dc538858f0b1d39ba5d7f16fa81f"
+    },
+    {
+      "preparedFrame": 5,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 570744,
+      "removedDetachedOpaquePixels": 406,
+      "pngSha256": "d546e6c068074f6629c7da6ce9d71b9981b297061e099b96556f5df1a71eb644"
+    },
+    {
+      "preparedFrame": 6,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 571340,
+      "removedDetachedOpaquePixels": 191,
+      "pngSha256": "5517812da44e92aa8770390d35737f95fc44ad87afce91c83e6a1528dc490226"
+    },
+    {
+      "preparedFrame": 7,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 573957,
+      "removedDetachedOpaquePixels": 95,
+      "pngSha256": "03a5c927d9ccb1272db5a9cc8d08aa3089b5a70371dc82bd016266c82f5802b1"
+    },
+    {
+      "preparedFrame": 8,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 577053,
+      "removedDetachedOpaquePixels": 147,
+      "pngSha256": "d8baec6a8e3d45836e24f4bf7c4ffbc993575ba3ac48638343c87b4e4a523037"
+    },
+    {
+      "preparedFrame": 9,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 575013,
+      "removedDetachedOpaquePixels": 109,
+      "pngSha256": "b487eb9fd122d6cc460836d77e038314e382b52191686d15a273cb0011682e03"
+    },
+    {
+      "preparedFrame": 10,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 569630,
+      "removedDetachedOpaquePixels": 131,
+      "pngSha256": "5b6fc9255109fbe7f996d8f15b0f871438cbf659de8e66cba019ffea4de2e39f"
+    },
+    {
+      "preparedFrame": 11,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 572074,
+      "removedDetachedOpaquePixels": 156,
+      "pngSha256": "f7febd68ffd4d94c0fe08f84d1319da5264c9b1c9343207383e286bad017b15a"
+    },
+    {
+      "preparedFrame": 12,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 568329,
+      "removedDetachedOpaquePixels": 112,
+      "pngSha256": "857e91adfa15e9151d29d418d46e9ee7c407d023cc06b3723662c2d9c5744c74"
+    },
+    {
+      "preparedFrame": 13,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 568725,
+      "removedDetachedOpaquePixels": 31,
+      "pngSha256": "b83e8403e2b7019f0212c1a0d1e1c74fe0908f144dd4c0b26e75c75209f61999"
+    },
+    {
+      "preparedFrame": 14,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 568380,
+      "removedDetachedOpaquePixels": 142,
+      "pngSha256": "fc405823000e201f52177b74b33c12a8941681b10fe6fe908e031705064cff8f"
+    },
+    {
+      "preparedFrame": 15,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 566608,
+      "removedDetachedOpaquePixels": 151,
+      "pngSha256": "951e92b3327f9701ef4ea25d15e007cbf8f76050c0484aa6b545ae71cecfc0e7"
+    },
+    {
+      "preparedFrame": 16,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 568987,
+      "removedDetachedOpaquePixels": 188,
+      "pngSha256": "2c49c4d0ce390a47890bce17c0d6a4fbdfe4674d8b62aabeae1451f6a2f4e7de"
+    },
+    {
+      "preparedFrame": 17,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 567657,
+      "removedDetachedOpaquePixels": 167,
+      "pngSha256": "6e68c80e76ca83871f66f591c3e49941ecbfef7e64e3cf138e2b4314c2952217"
+    },
+    {
+      "preparedFrame": 18,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 567835,
+      "removedDetachedOpaquePixels": 192,
+      "pngSha256": "75a9e1054922e5532e51928daa489128fcac179cc22203be57473f942d1ee769"
+    },
+    {
+      "preparedFrame": 19,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 567111,
+      "removedDetachedOpaquePixels": 112,
+      "pngSha256": "6593ab871374bd149939afdc5ee615ae65c1f76ddb5f6b842ecdddc343d14a93"
+    },
+    {
+      "preparedFrame": 20,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 563200,
+      "removedDetachedOpaquePixels": 4,
+      "pngSha256": "43e2a7423fe3a5e2289c053081fec56da38d7a0b896a0d158b7a572aec648e19"
+    },
+    {
+      "preparedFrame": 21,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 563206,
+      "removedDetachedOpaquePixels": 0,
+      "pngSha256": "c4a786bcca32a3f5857dda129a8e416dca3600f3d079db8a922d4c1cddc71359"
+    },
+    {
+      "preparedFrame": 22,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 554781,
+      "removedDetachedOpaquePixels": 20,
+      "pngSha256": "4f8238554aa47f93156a7fae35c8f3ae6d114fa0c43b0b7b9652e7106a80f299"
+    },
+    {
+      "preparedFrame": 23,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 557214,
+      "removedDetachedOpaquePixels": 5,
+      "pngSha256": "656df31b3e2208345e794cfd5b19269b378c50834b44b62bf34a06dc864355b9"
+    },
+    {
+      "preparedFrame": 24,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 559466,
+      "removedDetachedOpaquePixels": 27,
+      "pngSha256": "cd511b7d9452c7edbd07cce3b70aa7d52694957ebc2e87aaf2d523f8fe8775a7"
+    },
+    {
+      "preparedFrame": 25,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 561471,
+      "removedDetachedOpaquePixels": 43,
+      "pngSha256": "74746120151c0dc927fc06e71244f73f45c19f27b7146d912f6f2b97b84a7ff3"
+    },
+    {
+      "preparedFrame": 26,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 568985,
+      "removedDetachedOpaquePixels": 178,
+      "pngSha256": "2f8f9aa6b911caa011a259f927e7a681a64316e9aa7456fa3f2592fafcdfd047"
+    },
+    {
+      "preparedFrame": 27,
+      "rgbSameAsPrepared": true,
+      "bandsAlphaZero": true,
+      "largestComponentArea": 568349,
+      "removedDetachedOpaquePixels": 207,
+      "pngSha256": "cb64f07d22d9009fac7353fe89f3681a2fbaaff2b83c4a47dca0be3c27b2801d"
+    }
+  ],
+  "all26FrameSourceContinuityMeanRgbDeltas": [
+    2.1862340856481484,
+    1.8206018518518519,
+    1.4813187210648149,
+    1.7749204282407407,
+    1.6702112268518519,
+    1.9557110821759258,
+    1.793041087962963,
+    2.3063331886574074,
+    1.1793981481481481,
+    2.0746166087962963,
+    1.807544849537037,
+    2.6148003472222223,
+    1.6717484085648149,
+    2.8848560474537037,
+    2.3282335069444446,
+    3.446994357638889,
+    2.6575159143518516,
+    3.5233832465277777,
+    1.9211516203703705,
+    3.41650390625,
+    1.9928023726851851,
+    3.428927951388889,
+    1.9795102719907407,
+    2.8406394675925926,
+    2.3607855902777777,
+    4.000217013888889,
+    2.1694697627314814,
+    3.213360821759259,
+    2.0900426793981484,
+    3.190447771990741
+  ],
+  "sourceContinuityCheck": "全31帧缩略RGB相邻差异+F2/15/27实际源帧查看，未发现原切；手姿多数hold、源青焰变化，未补造手指运动",
+  "dynamicClaim": "26张同号真实RGBA；手姿主要为动画hold，源青焰有变化；不是26个大幅不同姿态",
+  "reviewer": "/root/s1_source_curator",
+  "reviewScope": "最终26帧全部棋盘/红底联系表查看；全分辨率红底F2/F27及源F2/F27复查，不冒称26帧全分辨率逐张人工检查",
+  "revision": "R2_full_resolution_contour_fixed",
+  "remainingDifferences": "手姿多数hold；删除大面积原青焰，仅留人物及窄青/黑墨边。个别指缘/袖缘仍有3–12px原深蓝墨影/光污染与手绘近似，右腕和袖底受原画幅裁切。",
+  "pipelineOrder": [
+    "prepare-palm.py",
+    "build-palm.py",
+    "verify-palm.py",
+    "actual checker/red view",
+    "accept-palm.py"
+  ],
+  "initialFailure": "R1低清轮廓误裁弯指顶部；全分辨率审核拒绝后按1920原片重画并重分割，示例XPALM-r1-rejected-foldfinger.png",
+  "finalAcceptanceScope": "素材可供L2合成；最终构图边缘和过渡由独立成片审核agent验收"
+}

@@ -1,0 +1,42 @@
+{
+  "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "import_assets",
+      "result": {
+        "ok": true,
+        "imported": [
+          {
+            "id": "b236dab0-54b5-4f96-b5b7-dc22c08e8718",
+            "name": "shot-a-road.mp4",
+            "kind": "video",
+            "src": "/media/uploads/b96b8a6d-fe83-4876-acee-fc9326d0ee35.mp4"
+          },
+          {
+            "id": "4e49f422-50c0-489e-8257-e38a9b3a775e",
+            "name": "shot-b-driver-aerial.mp4",
+            "kind": "video",
+            "src": "/media/uploads/12d1c087-872b-4d24-b2cf-a345e314ece7.mp4"
+          }
+        ],
+        "duplicateCount": 0,
+        "skippedDuplicates": false
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "7c90c805-e41d-483a-9f4f-6c6d2d93467f",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-465a4607",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_ba1c7270f17f4cb4",
+    "editorUrl": "http://localhost:5199/#/editor/0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "updatedAt": "2026-11-04T15:00:59.939Z"
+  }
+}

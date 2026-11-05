@@ -1,0 +1,22 @@
+{
+  "definition": "按有效事件帧并集统计；普通基础推拉与短闪光未计入。渲染后还需确认实际可见，不把声明时长等同验收。",
+  "declaredCoverage": {
+    "layouts": 16.041666666666668,
+    "foregrounds": 20.75,
+    "typeEvents": 10.625
+  },
+  "combinedSeconds": 34.5,
+  "combinedPercent": 57.49999999999999,
+  "foregroundGroups": [
+    "X-awaken",
+    "X-palm",
+    "Y-blue",
+    "Y-geto",
+    "Y-getopalm",
+    "Y-hurt",
+    "Y-stand"
+  ],
+  "layouts": 14,
+  "typeEvents": 8,
+  "v1BaselineForegroundSeconds": 2.375
+}

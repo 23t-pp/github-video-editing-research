@@ -1,0 +1,48 @@
+{
+  "project": {
+    "id": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "name": "速度与选择 · FAST60 · 逐镜可编辑 · 24fps",
+    "updatedAt": 1793846488739,
+    "description": "正式60秒作品工程；等待逐镜素材，保留独立scoreMix/sourceMix与HF替换层。"
+  },
+  "timelines": [
+    {
+      "id": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74",
+      "name": "01 正式剪辑 · 60秒 · 24fps",
+      "active": true,
+      "fps": 24,
+      "width": 1920,
+      "height": 1080,
+      "itemCount": 0,
+      "durationFrames": 0,
+      "duration": "0s",
+      "trackSummary": "track_v1:0"
+    }
+  ],
+  "doc": {
+    "version": 3,
+    "assets": [],
+    "mediaFolders": [],
+    "timelines": [
+      {
+        "id": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74",
+        "name": "01 正式剪辑 · 60秒 · 24fps",
+        "order": 0,
+        "fps": 24,
+        "width": 1920,
+        "height": 1080,
+        "items": [],
+        "selectedId": null,
+        "trackOrder": [
+          "track_v1"
+        ],
+        "tracks": {
+          "track_v1": {
+            "kind": "video"
+          }
+        }
+      }
+    ],
+    "activeTimelineId": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74"
+  }
+}

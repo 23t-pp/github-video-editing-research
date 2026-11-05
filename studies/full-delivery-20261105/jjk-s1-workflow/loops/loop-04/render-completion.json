@@ -1,0 +1,283 @@
+{
+  "state": "rendered_awaiting_independent_review",
+  "executor": "/root/s1_render_execution",
+  "loop": 4,
+  "createdUnix": 1793879518.3990042,
+  "video": "loops/loop-04/loop-04-final.mp4",
+  "videoBytes": 50762462,
+  "videoSha256": "90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d",
+  "planSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+  "codeSha256": "74a44f751c5f5fe4cf3319a63c66d3a4fc35b0e62fb73c83f0f47c0bb7f96757",
+  "fps": 24,
+  "frames": 1440,
+  "seconds": 60.0,
+  "size": [
+    1920,
+    1080
+  ],
+  "all20CurrentPayloadProofsVerified": true,
+  "newlyCapturedChunks": [
+    8,
+    11,
+    17,
+    18
+  ],
+  "reusedAfterInputEquivalenceValidationChunks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    19
+  ],
+  "newlyCapturedFrames": 288,
+  "reusedValidatedFrames": 1152,
+  "proofFiles": {
+    "chunk-00.json": "28950b2caffea7268b4ad9fd4221cd26af0b3924c0772bc085840562801c145b",
+    "chunk-01.json": "e49752b60d3aba598d6ba02e3265dbc3f1f50f0b771341f90b29d7d2d5d05a9a",
+    "chunk-02.json": "285c3262120d96c75667ffcc30f85822259499488202453ee91a6d9e5c73e3ae",
+    "chunk-03.json": "6788144e367cfebb03b927aa12f190f81192afcd69608397633c6070eac031f1",
+    "chunk-04.json": "0390e171a5cab4a6d6116a50e4f5d961e7eb322329825f13f6751ff269c5bc93",
+    "chunk-05.json": "6c8cd8f24ff7b207d21180c2aeaf5c23346ebafeb655f366eeb0b0f8e177b433",
+    "chunk-06.json": "a912b6c3982d020a65f931cf989c9b101677ab5b9123d9431d128d0bb49c2e23",
+    "chunk-07.json": "2582fdb929fad374d05c6be16f691fdd842de69c11ba5252a9db3421639e4161",
+    "chunk-08.json": "64de1ae242c153e63cead4b402c2c2c278fe26dea6790309bd4af4ea1d3c2903",
+    "chunk-09.json": "97f0f0fdec27cf32b6e1e5132697d96531c7a10b2427b71ac6d2ed5893ebc14b",
+    "chunk-10.json": "7167e28921a67b23c6132b224276649ccb26dded22a2af876d33d8b1416fb105",
+    "chunk-11.json": "36493d5dc97600eb290713f54bdd5b69436a8a2862ba9e64c005e4748740e82a",
+    "chunk-12.json": "a076d690ffefba9dc1e65ed54ce904cf5f93e7df83e707bf51d770dd34885445",
+    "chunk-13.json": "c40158e8fee101449ea7ca3bb00c6a240c2ef61ce166c7818fe04377d65a7b6a",
+    "chunk-14.json": "e1706996a24dd5a57d25bb772ca3812e349d608aac4fdd098d19f18452794324",
+    "chunk-15.json": "53eb1a796370b3165431291091e159b405d11a3e01a447d68ea1b7e5dffc480e",
+    "chunk-16.json": "60cc61c933734ddbc1b94695dac25f65f22c1b7a417f5cf45dfbedf159e6c07e",
+    "chunk-17.json": "7d7a25d5ab88c86f8e32ead5ef8ad1f0b35f8d650b9d28750330d15b90907e85",
+    "chunk-18.json": "db21b35c013cf27eb348c947db145c50c227e776e42ee465ba1de2b98b5d9aa2",
+    "chunk-19.json": "8335b48d3c39a3ce1f9523a0b3ee699c49937d69ebee019f2c47ae12d2c4b61b"
+  },
+  "renderLogs": [
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-00\\hyperframes-2.log",
+      "file": "loops/loop-04/render-logs/chunk-00-actual-cli.log",
+      "sha256": "b959b74b1a991ae66d5e61a3afb319910a53c971db1391bffdd14a8e62688b6d"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-01\\hyperframes-1.log",
+      "file": "loops/loop-04/render-logs/chunk-01-actual-cli.log",
+      "sha256": "e5c44f343057a2879703d13fff0869bb0e3b19dece42e2ad7057cdd13f6de8a4"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-02\\hyperframes-1.log",
+      "file": "loops/loop-04/render-logs/chunk-02-actual-cli.log",
+      "sha256": "0237538934e905bd17d09da8a2704caa048334b90ed4516511ebb618f720b29e"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-03\\hyperframes-1.log",
+      "file": "loops/loop-04/render-logs/chunk-03-actual-cli.log",
+      "sha256": "9628788a1d6e23e5ae3cbd47714f506c79ab1009cf3eb235b82808e5fdcb066a"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-04\\hyperframes-1.log",
+      "file": "loops/loop-04/render-logs/chunk-04-actual-cli.log",
+      "sha256": "1fef5a65739ff7042c53e9ca00d353b8fd0173dc795f2b460041517ae969d1c9"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-05\\hyperframes-1.log",
+      "file": "loops/loop-04/render-logs/chunk-05-actual-cli.log",
+      "sha256": "172e575856b3c9a87ac1f4da877830d7961203da8ea199fab2a0ef0063990597"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-06\\hyperframes-1.log",
+      "file": "loops/loop-04/render-logs/chunk-06-actual-cli.log",
+      "sha256": "7130f5e87612d75e09960a7c221e89de70e8da63d9ffd89d5bf232fcb6e03c6e"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-07\\hyperframes-1.log",
+      "file": "loops/loop-04/render-logs/chunk-07-actual-cli.log",
+      "sha256": "7be77be23b2793043baacc8ef6eedd61b51bd3d19211775b2e8941ef670416fe"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-08\\hyperframes-3.log",
+      "file": "loops/loop-04/render-logs/chunk-08-actual-cli.log",
+      "sha256": "126384aed3a92f1c5c2f8c4303839dddfa1712eb81917967ef022086e4217b76"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-09\\hyperframes-1.log",
+      "file": "loops/loop-04/render-logs/chunk-09-actual-cli.log",
+      "sha256": "963781f32430b9fb821b3bcbd0d19217cfcc17f7dfeb35f0cb8420044b1dcfaf"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-10\\hyperframes-1.log",
+      "file": "loops/loop-04/render-logs/chunk-10-actual-cli.log",
+      "sha256": "78c3e126e7cebcf6e5626af7aa0a8a07f04587a92f61b263b5af82a7801d5b00"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-11\\hyperframes-3.log",
+      "file": "loops/loop-04/render-logs/chunk-11-actual-cli.log",
+      "sha256": "994128dc4f57de03374c981c2659d0d395f7e16a5749eabc5a97ed4bf459a7f0"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-12\\hyperframes-1.log",
+      "file": "loops/loop-04/render-logs/chunk-12-actual-cli.log",
+      "sha256": "b64f2785f0e4e48cc27ff2de55605dc521b5b259ff90353e8034590b8862bcd3"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-13\\hyperframes-2.log",
+      "file": "loops/loop-04/render-logs/chunk-13-actual-cli.log",
+      "sha256": "2dd499a4beb0fee6eae23d2680737f73efc98e7380d76099d6209a6acd60225f"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-14\\hyperframes-2.log",
+      "file": "loops/loop-04/render-logs/chunk-14-actual-cli.log",
+      "sha256": "823370c55d37dc7a6a49bb40078ff9ca851dca7363a7ce0a4fcc428b9086bed2"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-15\\hyperframes-2.log",
+      "file": "loops/loop-04/render-logs/chunk-15-actual-cli.log",
+      "sha256": "964266a9d11a1d21683cbfa411b5597991285894dd8d08d3d615268a87e630b4"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-16\\hyperframes-2.log",
+      "file": "loops/loop-04/render-logs/chunk-16-actual-cli.log",
+      "sha256": "c7601cc8def25d8dca0a0952c8f2a3a9db7efd486569e89d484ddcb6991cf526"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-17\\hyperframes-2.log",
+      "file": "loops/loop-04/render-logs/chunk-17-actual-cli.log",
+      "sha256": "cb9fb74031072e8b747d9ada75cce3225207154135a38c4a8de179bc93864113"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-18\\hyperframes-2.log",
+      "file": "loops/loop-04/render-logs/chunk-18-actual-cli.log",
+      "sha256": "9b898b9abfe56fe2e4f851782955d2775f2175d38e15748e44434427181087c5"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\chunk-19\\hyperframes-1.log",
+      "file": "loops/loop-04/render-logs/chunk-19-actual-cli.log",
+      "sha256": "b222602eb694fd664b4f6e2fd4caebc80584b9c3f85cc4142fee9c4e8fb8bcd0"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\batch-logs\\loop4-1793879282\\batch-result.json",
+      "file": "loops/loop-04/render-logs/loop4-1793879282/batch-result.json",
+      "sha256": "97843abf995c1c4474c535e77dde206e0a05950dbf76fdda2015e90fddfa3c9b"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\batch-logs\\loop4-1793879282\\worker-0-heartbeat.json",
+      "file": "loops/loop-04/render-logs/loop4-1793879282/worker-0-heartbeat.json",
+      "sha256": "cf56427bc8b7181f9762aee688d7e0e90610695a7695aaeb7d785039fe2170f9"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\batch-logs\\loop4-1793879282\\worker-0.log",
+      "file": "loops/loop-04/render-logs/loop4-1793879282/worker-0.log",
+      "sha256": "2de8e6cbc15c5f159992704ee6bb77a533eea4e63b0705270b9127446b05c152"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\batch-logs\\loop4-1793879282\\worker-1-heartbeat.json",
+      "file": "loops/loop-04/render-logs/loop4-1793879282/worker-1-heartbeat.json",
+      "sha256": "bf4532681730bfddad7f15a424dfc1cb245b233426f2d93339b755f48978a664"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\batch-logs\\loop4-1793879282\\worker-1.log",
+      "file": "loops/loop-04/render-logs/loop4-1793879282/worker-1.log",
+      "sha256": "0ba1f741db90109c6d20d645910e094d37d6a1fb66e86dd44fe56c63ddc5e88e"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\batch-logs\\loop4-1793879407\\batch-result.json",
+      "file": "loops/loop-04/render-logs/loop4-1793879407/batch-result.json",
+      "sha256": "24bc6e1af4937bdd51188c0dacc0da0bd06a4f10869618a7c4823a34da7ca8a5"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\batch-logs\\loop4-1793879407\\worker-0-heartbeat.json",
+      "file": "loops/loop-04/render-logs/loop4-1793879407/worker-0-heartbeat.json",
+      "sha256": "302e20e255233df088f335f2cc301b7c655a3db9e5f41f2d4c19e36e3a6692be"
+    },
+    {
+      "source": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\work\\jjk-s1-workflow\\render-cache\\batch-logs\\loop4-1793879407\\worker-0.log",
+      "file": "loops/loop-04/render-logs/loop4-1793879407/worker-0.log",
+      "sha256": "4134d75565ec314310e755d1e1604b2c46407d9ee76a15af4708da4ecb8bf90f"
+    }
+  ],
+  "observedEvidence": [
+    {
+      "globalFrameZeroBased": 626,
+      "file": "loops/loop-04/evidence/render-runner/frame_000627.png",
+      "sha256": "ebbec0272a98d0fc3a800f8993b1d6bc534e9089236f12cc4de89b6c5e00141e"
+    },
+    {
+      "globalFrameZeroBased": 823,
+      "file": "loops/loop-04/evidence/render-runner/frame_000824.png",
+      "sha256": "f11a6138b3834d340cadb62462857d67e9a1ebf0d7c2cd3a180c4227dc3bbaa0"
+    },
+    {
+      "globalFrameZeroBased": 829,
+      "file": "loops/loop-04/evidence/render-runner/frame_000830.png",
+      "sha256": "363bd6de2ab1c6baa46e4fe6eefdcd91725e117d666e71bf3b81cc3d5b762dbb"
+    },
+    {
+      "globalFrameZeroBased": 830,
+      "file": "loops/loop-04/evidence/render-runner/frame_000831.png",
+      "sha256": "3ae01e98ff712f1d5ea2c10e1bb4fbd52bfd770fa6d204b578f58f1d1b014692"
+    },
+    {
+      "globalFrameZeroBased": 842,
+      "file": "loops/loop-04/evidence/render-runner/frame_000843.png",
+      "sha256": "afd14b5a3c0bdad5bac734ad2504274ee51cb5094f349669439ba1b326660d72"
+    },
+    {
+      "globalFrameZeroBased": 1282,
+      "file": "loops/loop-04/evidence/render-runner/frame_001283.png",
+      "sha256": "fbc27fedadf1a19dbaf1827d412b6c53756985c76a43ce1f23c9f04400e5fce5"
+    },
+    {
+      "globalFrameZeroBased": 1290,
+      "file": "loops/loop-04/evidence/render-runner/frame_001291.png",
+      "sha256": "ec5ff888cafa0ff2e18ae9c4293e133d5e07f72190e0777adf3f02e47f8988e3"
+    },
+    {
+      "globalFrameZeroBased": 1295,
+      "file": "loops/loop-04/evidence/render-runner/frame_001296.png",
+      "sha256": "460f26e483496d676209c5707ec343ff8b8228e4849ba9521038796b233cffb3"
+    },
+    {
+      "globalFrameZeroBased": 1312,
+      "file": "loops/loop-04/evidence/render-runner/frame_001313.png",
+      "sha256": "5aa6d508a8fd687f63a94da3f9e74539971632df865c40708d7a37d04cb6cfb9"
+    },
+    {
+      "globalFrameZeroBased": 1323,
+      "file": "loops/loop-04/evidence/render-runner/frame_001324.png",
+      "sha256": "4424c79bff48b61f44aeb07a9c479c29616080ccf36d2aff795029268bdb1948"
+    },
+    {
+      "globalFrameZeroBased": 1336,
+      "file": "loops/loop-04/evidence/render-runner/frame_001337.png",
+      "sha256": "554e3812c54459fe2974df270c3dd187f1c52744efc77ceff3c3db420ccffc88"
+    },
+    {
+      "globalFrameZeroBased": 1348,
+      "file": "loops/loop-04/evidence/render-runner/frame_001349.png",
+      "sha256": "2f97d096793b2c5ea2fadaa9e0633af2fe742654fec7ef0289dd3947a485d397"
+    },
+    {
+      "globalFrameZeroBased": 1359,
+      "file": "loops/loop-04/evidence/render-runner/frame_001360.png",
+      "sha256": "63da0b319143ec9f45b3c6cdd7b503d1b5ca63f804f81a1595386635b7f59820"
+    },
+    {
+      "globalFrameZeroBased": 1360,
+      "file": "loops/loop-04/evidence/render-runner/frame_001361.png",
+      "sha256": "149adaf40b0a66260f77251de8e6c853af2fb7afd6482e841f7b494cb797bfe8"
+    }
+  ],
+  "actualListeningPerformed": false,
+  "scope": "Technical execution proof, not artistic approval. Reused PNGs retain original capture provenance and explicit producer-rebind history."
+}

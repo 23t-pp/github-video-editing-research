@@ -1,0 +1,9 @@
+import fs from 'node:fs';import path from 'node:path';import {spawnSync} from 'node:child_process';
+const out=path.resolve(import.meta.dirname,'../../outputs/v05-six-panel/hyperframes/assets');fs.mkdirSync(out,{recursive:true});
+const input='D:/速度与激情/11 速度与激情10（2023）4K.mp4',ff='C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe';
+const specs=[{id:'A',name:'shot-a-road',start:7049.8,duration:2.25},{id:'B',name:'shot-b-driver-aerial',start:7069.4,duration:3.75}];
+// Preserve the source's entire 2.4:1 image; 140px black bars on a 1920x1080 canvas.
+const vf='zscale=w=1920:h=800:t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p,pad=1920:1080:0:140:black,fps=24,setsar=1';
+const records=[];
+for(const s of specs){const target=path.join(out,s.name+'.mp4'),args=['-v','error','-nostdin','-threads','2','-ss',String(s.start),'-i',input,'-t',String(s.duration),'-map','0:v:0','-map','0:a:0','-vf',vf,'-c:v','libx264','-preset','fast','-crf','18','-pix_fmt','yuv420p','-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709','-c:a','aac','-b:a','192k','-ac','2','-ar','48000','-movflags','frag_keyframe+empty_moov','-f','mp4','pipe:1'];const r=spawnSync(ff,args,{windowsHide:true,maxBuffer:128*1024*1024});if(r.status!==0)throw Error(r.stderr.toString());fs.writeFileSync(target,r.stdout);records.push({...s,file:target,ffmpeg_args:args,bytes:r.stdout.length});console.log(s.id+' '+r.stdout.length+' bytes');}
+fs.writeFileSync(path.join(out,'media-source-ledger.json'),JSON.stringify({source:input,source_metadata:{width:3840,height:1600,fps:'24000/1001',transfer:'smpte2084',primaries:'bt2020',audio:'EAC3 5.1'},conversion:'Hable tone map to SDR Rec.709, 1920x800 centered in 1920x1080, 24fps, stereo AAC',assets:records},null,2));

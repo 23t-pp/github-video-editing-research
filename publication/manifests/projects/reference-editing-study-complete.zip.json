@@ -1,0 +1,892 @@
+{
+  "asset": {
+    "asset": "reference-editing-study-complete.zip",
+    "source_file_count": 146,
+    "bytes": 24004193,
+    "sha256": "37dbad3872740ccfd1fb77ec8b269e1725ffbaad2f61dacf7852f4766d9e42cd",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": []
+    },
+    "entries_manifest": "manifests/reference-editing-study-complete.zip.json"
+  },
+  "files": [
+    {
+      "path": "outputs/reference-editing-study/Open-Study.ps1",
+      "bytes": 1904,
+      "sha256": "c5e41b811cb98d00aa5c46f10784ecf46319b787b102d105128c088d6c5bb2a3",
+      "crc32": "73c33062"
+    },
+    {
+      "path": "outputs/reference-editing-study/README.md",
+      "bytes": 11314,
+      "sha256": "86617dd09cea70194b79f120443cc720e37d0a76b4f7cc8b3b31e1c96c18dfed",
+      "crc32": "13e0aa82"
+    },
+    {
+      "path": "outputs/reference-editing-study/index.html",
+      "bytes": 27997,
+      "sha256": "113a8bd05c7e054d8522277937d7d30b5d15f27c74ff250c65ce9bc67913c76e",
+      "crc32": "28591f0b"
+    },
+    {
+      "path": "outputs/reference-editing-study/local-config.json",
+      "bytes": 1412,
+      "sha256": "48b293c468db9ba07a91d5e01bbf753547bdf639be88328f5c4c8bd890af600e",
+      "crc32": "c5bd043d"
+    },
+    {
+      "path": "outputs/reference-editing-study/命令行操作讲解.md",
+      "bytes": 6625,
+      "sha256": "1c073f7789092c6fee65a81ef7da26eb57413a8d40c9e88c0fee9fffc646c7bd",
+      "crc32": "da98156a"
+    },
+    {
+      "path": "outputs/reference-editing-study/复刻配方.md",
+      "bytes": 7155,
+      "sha256": "a34c8ddf292eb72c001f8b835b1370222fccaf5b3c1050cd0e2725016b093666",
+      "crc32": "8ca62a1a"
+    },
+    {
+      "path": "outputs/reference-editing-study/学习页预览.png",
+      "bytes": 113800,
+      "sha256": "644f71101df701b7b945bf17334a141ea852877c521e506981835568951537a9",
+      "crc32": "9b4f23b1"
+    },
+    {
+      "path": "outputs/reference-editing-study/工具能力核查.md",
+      "bytes": 18823,
+      "sha256": "ae3349298a98d426b7add029ef50534565b960fd888691091ecfa9dea9226050",
+      "crc32": "bfe2576b"
+    },
+    {
+      "path": "outputs/reference-editing-study/模板与Skill适配.md",
+      "bytes": 14029,
+      "sha256": "18481ae774d6d61932cec310c598f10052edbaf57be89c0eefdbc5cc452a4add",
+      "crc32": "dac8f00f"
+    },
+    {
+      "path": "outputs/reference-editing-study/素材准备表.csv",
+      "bytes": 991,
+      "sha256": "c754dda654cd4cbf90d79a90dce488226b04b71765eab6ab3f8f2894b62c9edc",
+      "crc32": "c15af6b9"
+    },
+    {
+      "path": "outputs/reference-editing-study/证据与执行记录.md",
+      "bytes": 3423,
+      "sha256": "7dfa6368819eea33e5f2ee58df37eead2add563025e78371f13078043cee2ec1",
+      "crc32": "3d806936"
+    },
+    {
+      "path": "outputs/reference-editing-study/逐片拆解.md",
+      "bytes": 68908,
+      "sha256": "a492820e16aa3214f45821095aeabe470bd7ee93c81abd2855d45f17a0948d4e",
+      "crc32": "1fc75760"
+    },
+    {
+      "path": "outputs/reference-editing-study/镜头与效果事件清单.csv",
+      "bytes": 57619,
+      "sha256": "a562077986bff5e365e77708d2db6d12314b968df84bffdcbd829859954ed692",
+      "crc32": "43c23453"
+    },
+    {
+      "path": "outputs/reference-editing-study/音乐卡点说明.md",
+      "bytes": 9645,
+      "sha256": "2a75134ddf153c8ca2032948b34451074e469912ecac94efc04a93da98c80931",
+      "crc32": "c46d9367"
+    },
+    {
+      "path": "outputs/reference-editing-study/验收记录.md",
+      "bytes": 1999,
+      "sha256": "8d3cca6d48ec924526fd2b2b6112e3eec05d9b35eb36000de51e7f302d029322",
+      "crc32": "0a4ad934"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/anime-review-original.json",
+      "bytes": 37374,
+      "sha256": "eea78f44172223819c0fd07090e30f121dd5e8c2cf025cb1fa1a0fb69fa5c687",
+      "crc32": "cdffc874"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/audio-index.json",
+      "bytes": 23146,
+      "sha256": "1164bab4d65b9ff5c6547a36bc8741a6cdcb7c338cadfca0bef67d5466c0deb6",
+      "crc32": "1d4588e5"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/capabilities.json",
+      "bytes": 28567,
+      "sha256": "3cb5917c6f4e9523449094ce7a3124bf353acce4f8d9be3bbe904eaf7a0fab36",
+      "crc32": "bcf583cd"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/long-review-original.json",
+      "bytes": 15188,
+      "sha256": "73e017e133bcf8715e938cb886168db5a724416bf08b1b9cee274e5361914654",
+      "crc32": "40d581ed"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/manifest.json",
+      "bytes": 4360,
+      "sha256": "2a755d0b7828c48a010868b0d0f54c88be790223fd6f13b4bf07d5348279ea4b",
+      "crc32": "c898f91b"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/recipe-pack.json",
+      "bytes": 3530,
+      "sha256": "a8d8f8ff5601291c4e7ea6c0e26e42a45b8d5d3e4153691ff40863d2bc60159b",
+      "crc32": "9656901b"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/reviews.json",
+      "bytes": 74753,
+      "sha256": "531f723c14edd2c0c18b8cc7461d44443acce64a82ee74a53ee51290e08585ee",
+      "crc32": "53e6f311"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/selected-cut-audio.json",
+      "bytes": 1201,
+      "sha256": "85dd3e63de8f16ec11afa4c6f6d9fd4c004f20d5f55c662fd3887c0cc3f4e82e",
+      "crc32": "61f94da5"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/study-counts.json",
+      "bytes": 152,
+      "sha256": "6251634aae1d7f976deccf8b42f6625dfbebbf0dc1e68184229ee93e06d9ca46",
+      "crc32": "6d5b39ac"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/verification.json",
+      "bytes": 2904,
+      "sha256": "72900bd70e1255bd6f22feb94be69272d6f586773c41fb27ac973631084e5095",
+      "crc32": "2dc69d9b"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/audio/V01.json",
+      "bytes": 42882,
+      "sha256": "8bb2cb4fe63b27534faa326898100f7772fa26bd3315bc7be7a7817126ac8f5e",
+      "crc32": "af260d88"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/audio/V02.json",
+      "bytes": 33100,
+      "sha256": "0da3188cacd173b6f447128edc18d1b531ef77aa25be751a6e40f3724e2e004c",
+      "crc32": "0292c131"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/audio/V03.json",
+      "bytes": 35855,
+      "sha256": "6ac97925d8a7db97a7cb90fc43695134d56c0b155e1885a1aee94163b3ca600b",
+      "crc32": "06e0cd36"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/audio/V04.json",
+      "bytes": 29136,
+      "sha256": "40673fce8f11c80dc8fc5621b5522c90bb4eb9e6fac8bc43f5649468eea7c7c7",
+      "crc32": "6a317c23"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/audio/V05.json",
+      "bytes": 32046,
+      "sha256": "a157c8d194d2b852d79dd34eda01b0d13dc89a424b4a9dee0c0405a52f47f09a",
+      "crc32": "b400d7cf"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/audio/V06.json",
+      "bytes": 142356,
+      "sha256": "2624e48d2448da5ae0b408c9928ab1f44e712186870e15704c91fbed104985f2",
+      "crc32": "c74ef7ee"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/audio/V07.json",
+      "bytes": 31897,
+      "sha256": "08f3db1f306687669e79db832895d0fd5c534defdc0185388da325ba25c22c53",
+      "crc32": "5b78d852"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/audio/V08.json",
+      "bytes": 40363,
+      "sha256": "a1d2fa5a06485dfa3dfa35c92d5e456c91ed5ff19e7e87701a8610c1ffd09afb",
+      "crc32": "d6fa81c0"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/audio/V09.json",
+      "bytes": 17134,
+      "sha256": "d0aed2700c05382a5a692fa0740898154eb909cababd772b65234adf31f1da80",
+      "crc32": "9d084a71"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/audio/V10.json",
+      "bytes": 25630,
+      "sha256": "182b37f5b5d8fc6394f98e48df01562a34b14d4e2ce8a567d5af203d37f37c60",
+      "crc32": "1e45549a"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/probe/V01.json",
+      "bytes": 4785,
+      "sha256": "68acdb4730e1f7e4c3e4c1de50d13172d5da10cc6798b60050732cf92fc98342",
+      "crc32": "0239a3b1"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/probe/V02.json",
+      "bytes": 4780,
+      "sha256": "4232227535ac4660b10a5f2141ed5db4eddf31deae2438635cd3be2d43c3561a",
+      "crc32": "fea56bfa"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/probe/V03.json",
+      "bytes": 4692,
+      "sha256": "388ad8a14f51cb1710db35e470688cfdbc0267ceeeecb9430a8f4642a95039b3",
+      "crc32": "91b57d2f"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/probe/V04.json",
+      "bytes": 4734,
+      "sha256": "3e43415da05039bb538a669d09ca9d5d3966e5143cdf5ce247cf72c1d1b1f211",
+      "crc32": "57c4b695"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/probe/V05.json",
+      "bytes": 4781,
+      "sha256": "ca300a826778760f67bfec7043dd7b20a6c70959bc343c4e77f6935fc350d874",
+      "crc32": "395b6bce"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/probe/V06.json",
+      "bytes": 4620,
+      "sha256": "65bbf25800951b5c3c1e3dc4ce2a4f12cb8c5571edaa77b285369e7112923a84",
+      "crc32": "cfae3f4d"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/probe/V07.json",
+      "bytes": 4810,
+      "sha256": "eab7fad789b6306a5334487dc0d8af48e8e2448df82eba8a05717642271b90e5",
+      "crc32": "ec3ad4aa"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/probe/V08.json",
+      "bytes": 4634,
+      "sha256": "d9e264d5ff717031b48ccff26cc04c4ebe2800cda86757e9b5a1aa9ae6b52b4c",
+      "crc32": "19a689c6"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/probe/V09.json",
+      "bytes": 4726,
+      "sha256": "0f42a5c5faf7280414230657e1e2d06b797d1b5f76e44d1787d7983af8989a40",
+      "crc32": "9403490a"
+    },
+    {
+      "path": "outputs/reference-editing-study/data/probe/V10.json",
+      "bytes": 4724,
+      "sha256": "209ef45a5ed504b724fd35cf6e2f5f74fdd743471d9f18be93657278b3901e01",
+      "crc32": "aefbc2f8"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V01/V01-circle.jpg",
+      "bytes": 401668,
+      "sha256": "d062f9e4e4ac1ac69ed3c00d1a159fc4ed3212e583d653c34ceb686e0e1eacaf",
+      "crc32": "e1e80dee"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V01/V01-face-portal.jpg",
+      "bytes": 284063,
+      "sha256": "769b50bc58aa919082f4335b387e909879061cdd9e7206d41e6f2dfb8a4d64a5",
+      "crc32": "e9417b1a"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V01/overview.jpg",
+      "bytes": 313023,
+      "sha256": "0594d4c68673a7889ff7230045b7dd66a00348f492aac29c7c617cd8df083bca",
+      "crc32": "ca6d68f5"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V01/scene-candidates.json",
+      "bytes": 6242,
+      "sha256": "d1d059e26cbf808fce508fcd13a5fa8888ae0036895b119fd20ef8a6aa6b476e",
+      "crc32": "3e83fc09"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V01/timeline-01.jpg",
+      "bytes": 432200,
+      "sha256": "b7d809b0b02cc870f9f9b7ae0a9aa6965aeda3ee78eba332effe8b0d7c45c63c",
+      "crc32": "28dc2b5c"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V01/timeline-02.jpg",
+      "bytes": 394380,
+      "sha256": "3def258073c5dd1810bca213030d46d8fdd3cbe7a70056c1e0fdd388f4e1bf99",
+      "crc32": "54d7a54e"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V01/timeline-03.jpg",
+      "bytes": 38741,
+      "sha256": "55997d34f16b1289be6ece40f1b80232c091ad603fc6d9d1c913c7ec4d681283",
+      "crc32": "f9a6aba4"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V02/V02-comic-open-0.000.jpg",
+      "bytes": 618012,
+      "sha256": "de6e8afb9073f1fbb516c7d98eefb3173234e3a3436f7b245903c4731aae0cd0",
+      "crc32": "bc8ec89e"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V02/V02-comic-open-0.000.jpg.json",
+      "bytes": 326,
+      "sha256": "8a29a1b8c93bf7caae41abfb3115a7d55410d8fb618f7a6fcec54de1b03d4423",
+      "crc32": "4babe803"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V02/V02-radial-hit-18.800.jpg",
+      "bytes": 386272,
+      "sha256": "4384fdf3b95f526dbe8605c2dd8cc750e311bd175d3a931f9377fe79bb0ea880",
+      "crc32": "fffbd930"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V02/V02-radial-hit-18.800.jpg.json",
+      "bytes": 328,
+      "sha256": "5ca8d7c1d03b09d0117c86ff229d74e92c4dd971e87f1640a0a4d3e8b40e7c45",
+      "crc32": "e60e4819"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V02/V02-type-cutout-3.200.jpg",
+      "bytes": 544302,
+      "sha256": "36382e1b4b4c8d64554c991bee0519a3ff39c2e725b28cc2243b041f7140493d",
+      "crc32": "f0e3145c"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V02/V02-type-cutout-3.200.jpg.json",
+      "bytes": 325,
+      "sha256": "466ab2d35ba811667fa2d2b0ee52b5b11cf1173f63d3602f4cb926745b42baf6",
+      "crc32": "6f44b30c"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V02/overview.jpg",
+      "bytes": 411509,
+      "sha256": "1ff0d45d29890b3a7647ae713c52405fe18944ccdbe8e7d33a81aa60be65f2f8",
+      "crc32": "4f2554dd"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V02/scene-candidates.json",
+      "bytes": 9732,
+      "sha256": "6e65047e73fa2d5d303c2279b8cebe0401af4e800b5fb10f984a7092027db1b5",
+      "crc32": "b83b0789"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V02/timeline-01.jpg",
+      "bytes": 528060,
+      "sha256": "c8ec56e1aa4b764a4ebf54e53933788f2bdee6d25a438134aad7a7cfb14051e9",
+      "crc32": "428ffca2"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V02/timeline-02.jpg",
+      "bytes": 339450,
+      "sha256": "5baa05224e943280f3178767679b2a0f6b31200a570f6f5b5722cf20d29de6cb",
+      "crc32": "6dc011d3"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V03/V03-eye-sword-0.400.jpg",
+      "bytes": 396528,
+      "sha256": "996caff5ab8baa7e34646b603ae77d9ac40b574a374ba8e63465f111aaa40fec",
+      "crc32": "573a2739"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V03/V03-eye-sword-0.400.jpg.json",
+      "bytes": 323,
+      "sha256": "3803a1ef7233ef62ef9679ba7d337e466d47f808f83033845bb67f4084248352",
+      "crc32": "6214dc6f"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V03/V03-hand-bridge-7.400.jpg",
+      "bytes": 257833,
+      "sha256": "f1b7fdd90b93d4e6e89486ecb7ede798f0c18dfeed9b3b3989f2a40bb1ecab5c",
+      "crc32": "7f3cdc06"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V03/V03-hand-bridge-7.400.jpg.json",
+      "bytes": 325,
+      "sha256": "0c3f0ea29e70e98cb95ed8118f3a0d2da6196aa54323fc084d5c65d14bb9a5cc",
+      "crc32": "f77824be"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V03/V03-sleeve-wipe-15.400.jpg",
+      "bytes": 284652,
+      "sha256": "d72ba06a8a117ba1d651c2023ac4b2b5b7078bbded756073f275227d68ae28a6",
+      "crc32": "778b2a26"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V03/V03-sleeve-wipe-15.400.jpg.json",
+      "bytes": 327,
+      "sha256": "2427d6cffeec97e4fcb71178d0556a784e82bce0a898e50d468f7b8efac1a921",
+      "crc32": "93e4b874"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V03/overview.jpg",
+      "bytes": 342669,
+      "sha256": "d5e19d37f026809de21d8112c5b94cd261c0655375c55c2aabad62037cb065d8",
+      "crc32": "0af88297"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V03/scene-candidates.json",
+      "bytes": 2920,
+      "sha256": "a2635ba16724f6ddedd5823e72d7033c2ca40a6fa6e2278effe7553d2f65d8c3",
+      "crc32": "5314557f"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V03/timeline-01.jpg",
+      "bytes": 441395,
+      "sha256": "5bc2367d5798105bab89e00cc949bc8adf39e43a290fc257452ec7276f148e9c",
+      "crc32": "7dc136b3"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V03/timeline-02.jpg",
+      "bytes": 418707,
+      "sha256": "e67ec04efad40a24a6d8fe66bda5b1bcf531ae0908f1abdb4ad3d43e9c2141ed",
+      "crc32": "5687dd3d"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V04/V04-cutout.jpg",
+      "bytes": 399086,
+      "sha256": "677b0bb32af587eecf8fd3a4985a9ace43895b8292f4b16e698cbd36fec8b227",
+      "crc32": "382ca242"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V04/V04-eye-portal.jpg",
+      "bytes": 407674,
+      "sha256": "7949dfabb1f92c4ea65c2b44921915bfb8663aac50bad5f403b0d05b0b8503f1",
+      "crc32": "b1877e27"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V04/V04-loop-end.jpg",
+      "bytes": 164218,
+      "sha256": "f1b06daef5c5a7fd1a2fd4c605380dbd1febcd153c6ba550e0b0769f9b0aa36b",
+      "crc32": "951a0ff8"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V04/V04-loop-start.jpg",
+      "bytes": 254098,
+      "sha256": "0909d344bcefc3528050f791907a26dcbc2600c3d317d7150413832632f9193d",
+      "crc32": "81159913"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V04/overview.jpg",
+      "bytes": 409931,
+      "sha256": "014eeb8809bd6ba30f50321a31a3e74481a1076c8c76dce91d9190f4486f4310",
+      "crc32": "e033020f"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V04/scene-candidates.json",
+      "bytes": 5329,
+      "sha256": "f08e307ce81d0d986aaf21e52738420efdf97363df467702b817bd2204994f53",
+      "crc32": "9077ce49"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V04/timeline-01.jpg",
+      "bytes": 523376,
+      "sha256": "32144c064788766d3d0f04a6ba98f92e10c6a03f0d9a35e2f858267388dd911c",
+      "crc32": "0a07b439"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V04/timeline-02.jpg",
+      "bytes": 195035,
+      "sha256": "fc568a579be82acb90278f17d36eb015a9bf57d43b10ac8f540abd45288ee8c0",
+      "crc32": "a8d4ef19"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V05/V05-crt-outro-21.400.jpg",
+      "bytes": 342925,
+      "sha256": "ed238f9bf7c5544756bc659e30847ee9bcf7e4d9751aa067ff62f07974d19cc9",
+      "crc32": "a4366671"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V05/V05-crt-outro-21.400.jpg.json",
+      "bytes": 327,
+      "sha256": "fddecb0ab55f4ce0d668b3974022cd70ba95cc5759776603e31489c07d9de2b9",
+      "crc32": "be9620f3"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V05/V05-panel-grid-1.500.jpg",
+      "bytes": 478713,
+      "sha256": "1d34db1e1bf12d5059a966c7fe3c8b3ea14cf90865c313a0e8621d8956a28e2f",
+      "crc32": "7a74150d"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V05/V05-panel-grid-1.500.jpg.json",
+      "bytes": 324,
+      "sha256": "8fcc625502d3e1231a610e2210f02833be3b1871cbc2872c69a02ccb27cf35b2",
+      "crc32": "4f8f9fda"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V05/V05-triptych-14.000.jpg",
+      "bytes": 538359,
+      "sha256": "3c9dc21e54af04610a95ccdc3c9b4a4090501fdbd362da80163ee8dfdb697db9",
+      "crc32": "f91b78e5"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V05/V05-triptych-14.000.jpg.json",
+      "bytes": 326,
+      "sha256": "dc9b9fe85467682f44612fd2563b45b3dddb79f58edf951abe942dfb3db1db9b",
+      "crc32": "cb31a89e"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V05/overview.jpg",
+      "bytes": 444219,
+      "sha256": "ec5a8f95434834a86b42d5b9f89c2c75b0be11c1a00fcc5d72d9afb1b5f2e2d3",
+      "crc32": "b312345c"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V05/scene-candidates.json",
+      "bytes": 16015,
+      "sha256": "817fbdd5525904728a4f7bf7ab18f4099bb23a8e185c7ff55880e86965da8776",
+      "crc32": "4c3f0bee"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V05/timeline-01.jpg",
+      "bytes": 507537,
+      "sha256": "e121ac9add929bd61b92c7b49ecb796ee69626e0354b2bff1a2ee69eda9e711d",
+      "crc32": "2febd97c"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V05/timeline-02.jpg",
+      "bytes": 271079,
+      "sha256": "c2034d660c87978acd92e55e5b7f070eab20b23cda7925bfeb6eaa7c360581d9",
+      "crc32": "a412529f"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/dense-break-87-92.5.jpg",
+      "bytes": 462664,
+      "sha256": "965f03b5bb590cf57ec62e5520f818a1a4cc9b837e94667ed900d2b250603898",
+      "crc32": "d414d409"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/dense-gun-80.5-83.jpg",
+      "bytes": 464338,
+      "sha256": "effb493aaa1ef1ae1a9a72315cf3e6b98d8332d96aef1c05c686ae5acc39f25f",
+      "crc32": "d5bf53ee"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/dense-handshake-54.5-59.5.jpg",
+      "bytes": 649840,
+      "sha256": "d0b5f7ad1e388ce6c04c63421e3a2b57a42cb2f7b58467ac12567228e7c695b2",
+      "crc32": "c81f1fa6"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/dense-impact-93-95.5.jpg",
+      "bytes": 649173,
+      "sha256": "bef4407c939a3a913466a79d2378702be9e94309dd959bfc772f1a4b82379849",
+      "crc32": "9f63e26e"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/dense-operations.json",
+      "bytes": 4073,
+      "sha256": "eb7f47b516e01ad44cba16ef606d54bcf4c31c5deeac83fbc3b4eda1dd80632a",
+      "crc32": "9abd4a55"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/frame-gun-81.5-82.jpg",
+      "bytes": 124505,
+      "sha256": "9abf457b94b3bd22d86cd93b5089595ee8a8e76c956956e7664464fc84834b81",
+      "crc32": "cac4c448"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/frame-handshake-55.75-56.25.jpg",
+      "bytes": 250800,
+      "sha256": "1b0ee22a88fe4e002c1bbb4e1aa897ba2b9dab2ed240cb05408a31658d1c4c1e",
+      "crc32": "ad067945"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/frame-impact-93.292-94.292.jpg",
+      "bytes": 468820,
+      "sha256": "8f8e91fecaa65c88ffeea7b58593647cbb80d79e8a1294ddf5bacbd48fe7abea",
+      "crc32": "9c49b90e"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/frame-operations.json",
+      "bytes": 3117,
+      "sha256": "63cd540292b8f697dbe556110bf712be98b4ca8f0b8db644fb48924e9e44892e",
+      "crc32": "fbd4b994"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/overview.jpg",
+      "bytes": 369321,
+      "sha256": "91fd99fcf088014dd280c0aa03792fd1f87282e228d73f4a626a6575f71131c4",
+      "crc32": "7a6ca63c"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/scene-candidates.json",
+      "bytes": 25927,
+      "sha256": "c193a3ec49c197f1b9c34c95a2fe18a9b606a0a9fd8453cbf0b5a8e506d8757d",
+      "crc32": "ea74e788"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/timeline-01.jpg",
+      "bytes": 511632,
+      "sha256": "ed6a43233afeb005bfa4ee55659e89cc06241bf7b71515747b03b8a934a03275",
+      "crc32": "968e33be"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/timeline-02.jpg",
+      "bytes": 484256,
+      "sha256": "b7ea76fa3bd803e86087607af419e1e430f585a0b6c1052b3cbc12aef2073f68",
+      "crc32": "e809f717"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/timeline-03.jpg",
+      "bytes": 431766,
+      "sha256": "f196293adbc6b3c3c29c4217753d969a9cd2e649e91144038d32eeaf4aad2fb6",
+      "crc32": "7e121499"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/timeline-04.jpg",
+      "bytes": 522222,
+      "sha256": "72656a6daf87243475b90bb6c7cd2052e2794d23a05a89003d51c95975b2c4bc",
+      "crc32": "3e8f58ec"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V06/timeline-05.jpg",
+      "bytes": 171560,
+      "sha256": "1f94a20226d93cd3a46d17d27687fb082c794ca7294d81dbed185f52c77d5338",
+      "crc32": "a7415953"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V07/V07-gold-hand-9.200.jpg",
+      "bytes": 280820,
+      "sha256": "a1530d0b7620eaf9220eb381b7739b52e67d82a89a726df7070b7636671994ee",
+      "crc32": "80c77bb0"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V07/V07-gold-hand-9.200.jpg.json",
+      "bytes": 323,
+      "sha256": "927b5085e5061385912768144c074ef96a72ab450e590d9348294f9b14a7859b",
+      "crc32": "74e6353e"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V07/V07-green-hand-16.000.jpg",
+      "bytes": 276460,
+      "sha256": "ee09830d7abfd5e095e9ea6634548df4d492c9160860229b491309c1a82351df",
+      "crc32": "6911efa2"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V07/V07-green-hand-16.000.jpg.json",
+      "bytes": 326,
+      "sha256": "334b48003a72f6f5f2080ad382a61ad4779b2e9be21bad6e8c18742377dae65f",
+      "crc32": "febe6dc3"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V07/V07-pink-portal-25.700.jpg",
+      "bytes": 416530,
+      "sha256": "97a647b123638b80b9e7fac94f41fadd5ace6bce699fd66030416ff394afd2e9",
+      "crc32": "58f8f322"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V07/V07-pink-portal-25.700.jpg.json",
+      "bytes": 327,
+      "sha256": "d40a9a7c00a4fdf0116101c4ffa8ff6557d7503bcb0ec5d538846945fa379b67",
+      "crc32": "e451d5b4"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V07/V07-sword-arm-5.400.jpg",
+      "bytes": 355167,
+      "sha256": "36a561fc04b6d04e006b9c5152bf54ba414513ef819d7cb131c75b58bd185f29",
+      "crc32": "7dd40477"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V07/V07-sword-arm-5.400.jpg.json",
+      "bytes": 323,
+      "sha256": "77d48c3f3b892ed6c73a3c7c66be802428480aa8c3c8092ab9259ac9a09e3224",
+      "crc32": "1680ab06"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V07/overview.jpg",
+      "bytes": 322404,
+      "sha256": "e2491644dd4d75a5c0624909c8708c599a2bc7b81e7aace3ecf087d21506b4e5",
+      "crc32": "6aa29a9a"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V07/scene-candidates.json",
+      "bytes": 4459,
+      "sha256": "37876b4545b0df90c9c1bff2c414beef01ca1fa6d3f44a0ee4fe6cd870d7a005",
+      "crc32": "9d471cc9"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V07/timeline-01.jpg",
+      "bytes": 430317,
+      "sha256": "dd5251476ff8efb5edd6a851865b157687179393dfd5450f3d827a2c6d33bec3",
+      "crc32": "b8566af3"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V07/timeline-02.jpg",
+      "bytes": 356994,
+      "sha256": "903841ef529b9bb19675dc4e8c6334ec9f4ae90464c24c4fad4e782896b9e64f",
+      "crc32": "934ec0d1"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V08/V08-silhouette.jpg",
+      "bytes": 396202,
+      "sha256": "af97a931eaf8fb94b76b03c623cdb77a72c22114b2a7df6f4eb33bb86d4d3825",
+      "crc32": "e46fe0a6"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V08/overview.jpg",
+      "bytes": 466005,
+      "sha256": "ed9f84c4ff93e90e0101e44de86821ff3b8ec4e6e72aeb94e77ac4d17bd79d55",
+      "crc32": "d59806ac"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V08/scene-candidates.json",
+      "bytes": 11499,
+      "sha256": "14cbc652bddbfd2f82793c292a86bfb607f45b1f3f2b0b21e10b766487e9c50c",
+      "crc32": "bbcc0f8e"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V08/timeline-01.jpg",
+      "bytes": 623306,
+      "sha256": "bec2871ef959a694d77b0df3b00a1d1835658c19fb5304dd68712cb4c9267ae3",
+      "crc32": "1504eed6"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V08/timeline-02.jpg",
+      "bytes": 556894,
+      "sha256": "f3dd46de46938a16ba141ac6f5f67e314c37b3a89f973384e4181071e0f34b2b",
+      "crc32": "3d0f6d6f"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V08/timeline-03.jpg",
+      "bytes": 79246,
+      "sha256": "64f734700cb0307d77872d9d83ff3d28a7fe53a29a35c8695b099148f2c6f829",
+      "crc32": "25a8795f"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V09/V09-light-travel.jpg",
+      "bytes": 146451,
+      "sha256": "38101b5ce70265e00f1ca2fe0b29bcfcab085194417fb919ce2537496db5c1e9",
+      "crc32": "751e2b86"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V09/overview.jpg",
+      "bytes": 233517,
+      "sha256": "f4aa89b21cc245f10772f11e588572bd74b2b780cb8086a419e74e5b921047d0",
+      "crc32": "77020b47"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V09/scene-candidates.json",
+      "bytes": 5301,
+      "sha256": "1cc853d8d97528f788e8e93906e5eaf6af033fa831331e44e9d7542d21fd65bb",
+      "crc32": "9cc26482"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V09/timeline-01.jpg",
+      "bytes": 218506,
+      "sha256": "32373a368ac809a7b9c755b5cc1e857e5fa63182c64c2f947cc4bb845c04d527",
+      "crc32": "1524f326"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V10/V10-round-portal.jpg",
+      "bytes": 173430,
+      "sha256": "7a827bb082437ef84ef2c90a2a9bf8e90d4cd477b0da7dc6588ff0cc6041b6e4",
+      "crc32": "20d7e894"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V10/V10-wheel-portal.jpg",
+      "bytes": 151874,
+      "sha256": "e311294a04eb2db81471ee4a3c942890d62fb50e822f17ba3c8150d6fcb32ff1",
+      "crc32": "1b4e82b9"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V10/overview.jpg",
+      "bytes": 197027,
+      "sha256": "089d99bf60f6211752b2f047c30923122d739e1bf731fa176e15019580c3b11e",
+      "crc32": "1f2e7586"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V10/recheck-6.400-8.900.jpg",
+      "bytes": 237954,
+      "sha256": "fadc83a884e40aa55e627a27b4c20b3197ccc71901e9cdeed4b84c03955667ee",
+      "crc32": "4777bfea"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V10/recheck-6.400-8.900.jpg.json",
+      "bytes": 835,
+      "sha256": "c306979427110bcd20fbbd0342fbaed7d441d59d839296d0cc8fd15281f56347",
+      "crc32": "b8672261"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V10/scene-candidates.json",
+      "bytes": 1073,
+      "sha256": "61aa51394b62a1be6f64f708ef8aa30636ebbc5c36e1c4824ee3c2260d2fec6c",
+      "crc32": "1268d741"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V10/timeline-01.jpg",
+      "bytes": 254361,
+      "sha256": "2ae113fabed3c7db64aa8477004164288269f2057980e2953a15f63e7b987958",
+      "crc32": "f61a6f94"
+    },
+    {
+      "path": "outputs/reference-editing-study/evidence/V10/timeline-02.jpg",
+      "bytes": 49435,
+      "sha256": "fc2560b9c05ad3c48ba150161082a8d4217b484a907f44850385f3ff1d0eb4f2",
+      "crc32": "5aa5c6a7"
+    },
+    {
+      "path": "outputs/reference-editing-study/scripts/inspect-video.mjs",
+      "bytes": 2127,
+      "sha256": "20ba7fc1ac56721c3cfb84c9433016576dcb06886ed0749d49a24bb9fc8a240d",
+      "crc32": "14f50215"
+    },
+    {
+      "path": "outputs/reference-editing-study/scripts/serve-study.mjs",
+      "bytes": 8100,
+      "sha256": "369808f6ebeb6ed5076ed3bf53e0ebfcd3988b439112293afe3c45f26d424a52",
+      "crc32": "f09175b5"
+    },
+    {
+      "path": "outputs/reference-editing-study/scripts/source/analyze-visuals.mjs",
+      "bytes": 3327,
+      "sha256": "6e8083903c222e3627239b901f371f52b016bb701f9b4d8b52524308018acb4a",
+      "crc32": "8d866542"
+    },
+    {
+      "path": "outputs/reference-editing-study/scripts/source/build-capabilities.cjs",
+      "bytes": 18470,
+      "sha256": "8cf5a87e2238645d6e466d4be40a89bf4df108d9d88d11723d1d23532d4dfac8",
+      "crc32": "dba008b2"
+    },
+    {
+      "path": "outputs/reference-editing-study/scripts/source/extract-details.mjs",
+      "bytes": 2059,
+      "sha256": "f7c97dffdd8da67f3b20b48a0028e2144da34f8480fe0688de9228ed77905068",
+      "crc32": "7d23744d"
+    },
+    {
+      "path": "outputs/reference-editing-study/scripts/source/v06-dense.mjs",
+      "bytes": 1851,
+      "sha256": "460a347dd26f430de5c514e8fab6f982480354d725a971461c888a907809030b",
+      "crc32": "94ccd940"
+    },
+    {
+      "path": "outputs/reference-editing-study/scripts/source/v06-frame.mjs",
+      "bytes": 1807,
+      "sha256": "9c11cf9a12b0e6c4d6e54f7558365f6ae17307aac6ff10c8aec88e0f06a7acd3",
+      "crc32": "80cd4971"
+    },
+    {
+      "path": "outputs/reference-editing-study/scripts/source/anime/extract-window.ps1",
+      "bytes": 1881,
+      "sha256": "58acad73478dca2b7ad32c24684debcc5981a126447edfaf725938f30521cfa4",
+      "crc32": "51333c03"
+    },
+    {
+      "path": "outputs/reference-editing-study/scripts/source/audio/analyze-audio.mjs",
+      "bytes": 9174,
+      "sha256": "2698d15865d98300f878174bed3bfeb4ad3ae168b5a6fd87ca08fbea4d8af9b3",
+      "crc32": "08c9a090"
+    },
+    {
+      "path": "outputs/reference-editing-study/scripts/source/audio/summarize-audio.mjs",
+      "bytes": 13092,
+      "sha256": "841c3746e730d6480b8b923d238bbb32185af8a8b07e00779472a4dc90cb6c10",
+      "crc32": "b19c6064"
+    }
+  ]
+}

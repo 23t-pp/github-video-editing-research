@@ -1,0 +1,62 @@
+{
+  "phase": "prepared-awaiting-design-B-and-final-media-lock",
+  "taskRoot": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\jjk-s1-workflow",
+  "manifest": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\jjk-s1-workflow\\hyperframes\\edit.json",
+  "expected": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "durationFrames": 1440,
+    "hfChunks": 20,
+    "hfChunkFrames": 72,
+    "nativeShotCount": "manifest-driven"
+  },
+  "preparedScripts": [
+    {
+      "name": "task-config.mjs",
+      "sha256": "7b877b8f1ed44971d1608247eec6d9815a75726f877048922807f639ad0a18bc"
+    },
+    {
+      "name": "client.mjs",
+      "sha256": "cc5aefdaba4c3a5deb342c11bfb4aa1d6a8318b8fc74c704fb018d279ec3cb89"
+    },
+    {
+      "name": "manifest.mjs",
+      "sha256": "e4e2b765adb6e10dcfe2e854e3ff65d4f0e6db4b82dfff2ece7dd0f35c4c33f4"
+    },
+    {
+      "name": "build.mjs",
+      "sha256": "d4055332d66a8d2b50c5ffbe246435eb4f044a59a34442c2f2b1639d9c07a0ec"
+    },
+    {
+      "name": "export.mjs",
+      "sha256": "5cfff4a03770c615ec4b882fa453a7debc44777f728cdcb9b022c53a1fdda60c"
+    },
+    {
+      "name": "import-package.mjs",
+      "sha256": "2ab31cb9d71d7a1af1f14930b645eaeba8f52aeffcc842d08219316a38737935"
+    },
+    {
+      "name": "finalize.mjs",
+      "sha256": "f90b78b4705b39911d9a291709894bd6c247c6961891a8a4a48d53fc9fe007e0"
+    },
+    {
+      "name": "run.ps1",
+      "sha256": "3e6570668ae1501055ea2ff8bbb0aa3936317c724712dfac550f816b71cecf47"
+    }
+  ],
+  "projectCreated": false,
+  "officialStoreWritten": false,
+  "mediaImported": false,
+  "packageExported": false,
+  "authorizationPresent": false,
+  "missingAuthorizationRefused": true,
+  "protectedPriorProjectIds": [
+    "db290905-d92d-40c3-bf6d-b978bc074d9e",
+    "dc02577e-2c3e-435f-9515-51411e73ced4",
+    "c094cd11-6065-497c-aaf4-232bc61c9360",
+    "9ec9cec9-0a71-43fb-99be-adec9b564c60"
+  ],
+  "syntaxCheck": "all .mjs passed node --check",
+  "checkedAt": "2026-11-05T09:34:19.061Z"
+}

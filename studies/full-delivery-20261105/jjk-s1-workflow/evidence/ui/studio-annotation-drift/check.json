@@ -1,0 +1,33 @@
+{
+  "expectedSha256": "6820afa3c483f4a04629c7e87b80e48acc133aa0ae1aa612dc770fa0d5b9727d",
+  "actualSha256": "e22db98fd4415932859dde0c49e6fa5e61745b4f83a33d2414bfd8c7cfa3382a",
+  "expectedBytes": 2762315,
+  "actualBytes": 2771723,
+  "hfIdCount": 448,
+  "onlyHfIdDifference": true,
+  "cleanedSha256": "6820afa3c483f4a04629c7e87b80e48acc133aa0ae1aa612dc770fa0d5b9727d",
+  "planSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+  "executedUiActions": [
+    "studio_look",
+    "studio_seek",
+    "studio_select",
+    "studio_inspect",
+    "screenshot"
+  ],
+  "explicitSourceMutationRequested": false,
+  "hashFieldsMeaning": "expectedSha256/actualSha256/cleanedSha256 above are text normalized to LF by Python read_text; raw archived byte hashes are recorded separately below",
+  "normalizationsAllowed": [
+    "CRLF to LF",
+    "remove data-hf-id attributes only"
+  ],
+  "archivedSnapshotRawBytes": {
+    "expected-frozen-build.html": {
+      "bytes": 2762357,
+      "sha256": "356eb485742aac6e66ecc5e1828f313ed8626baac4bf66477fe7a9705bc42782"
+    },
+    "studio-open-normalized.html": {
+      "bytes": 2771765,
+      "sha256": "5c71e88910a113c4956fdc73c557132409f9f6e81694497a3274213dd7964cff"
+    }
+  }
+}

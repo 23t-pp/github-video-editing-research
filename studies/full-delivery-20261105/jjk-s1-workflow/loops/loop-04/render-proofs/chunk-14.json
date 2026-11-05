@@ -1,0 +1,965 @@
+{
+  "renderKey": "2e46a5b0900d46549fb353ba54f0073795506a04ee3b3c5c1729c4408dcb0f9a",
+  "inputSpec": {
+    "htmlSha256": "3e3c756987c5f7be3711cfd53425f542dd9b9c0eafa7e9d832f6fea5c9a08aa4",
+    "dependencies": {
+      "composition.py": "dccc4ba92466524048bb290bbce6e82db931c9dbadaafef7fe07b880ed141c9a",
+      "typefx.py": "9d8c98e7021a4bb2d54427a8192668046054eda5804b99bd235b351b238f9f32",
+      "barlow-glyphs.json": "e934240f60d3b95279b8a35a68b93162c3b1c75083c303b1a533381a5c5c7cb1",
+      "layoutfx.py": "8ad58d6be0cf24402572e644189ccb5b331edaf91b76b587ea4c35f1126c07d1",
+      "screenfx.py": "2547316b72884c43557005a42c94c0ffc49027fed94bec40cf490b9be44ab0ae",
+      "render.py": "135ba209d87df98d6dd0d7fb7196aac8a52f9c66ffb1e1629cf6c3148af81b9d",
+      "assets/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "assets/shots/S042.mp4": "0f7f971d7ed2087b375c65b7e4afb44c67dfd6ed793f5de7d2b0757cad15e83e",
+      "assets/shots/S043.mp4": "3a585ba6cc2d41c72d8a986c75f660af4ee81f76caaeafb09d1891dd2ab7b76f",
+      "assets/shots/S044.mp4": "cb333467447f277ac38b8eb7248df1739f5593f1554b3f2bde2ddff5b23ea686",
+      "assets/shots/S045.mp4": "671ed8c67e89fcfc1f8405309b23d9c7513239ef8fe3c5a025cefa78024d6476",
+      "assets/fonts/BarlowCondensed-ExtraBold.woff2": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+      "assets/fonts/cjk-heavy.ttc": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6"
+    },
+    "runtime": {
+      "nodeVersion": "v24.22.1",
+      "cliVersion": "0.8.216",
+      "cliEntrySha256": "e65ed25c36426b6e9ade59c4d20d92c5a78bd2a9f459ab3bfb461cdd2a1ef56f",
+      "chromeVersion": "156.0.8078.74",
+      "chromeExeSha256": "4132eb3e9c5b3978874eed48cb45c21debf343a0d383b6d2fb01a5fcf349ec65",
+      "ffmpegExeSha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+      "captureFlags": [
+        "--format",
+        "png-sequence",
+        "--workers",
+        "1",
+        "--low-memory-mode",
+        "--sdr",
+        "--experimental-fast-capture=false",
+        "--no-best-effort",
+        "--frames-cache-dir",
+        "off"
+      ],
+      "fps": 24,
+      "size": [
+        1920,
+        1080
+      ],
+      "color": "SDR PNG RGB full; encode BT709 tv",
+      "sourceExtraction": "trim source frame indices; scale bt709 tv to full; rgb24; native PNG; passthrough fps"
+    },
+    "neededSourceFrames": [
+      [
+        "S042",
+        24
+      ],
+      [
+        "S042",
+        25
+      ],
+      [
+        "S042",
+        26
+      ],
+      [
+        "S042",
+        27
+      ],
+      [
+        "S042",
+        28
+      ],
+      [
+        "S042",
+        29
+      ],
+      [
+        "S042",
+        30
+      ],
+      [
+        "S042",
+        31
+      ],
+      [
+        "S042",
+        32
+      ],
+      [
+        "S042",
+        33
+      ],
+      [
+        "S042",
+        34
+      ],
+      [
+        "S042",
+        35
+      ],
+      [
+        "S042",
+        36
+      ],
+      [
+        "S042",
+        37
+      ],
+      [
+        "S043",
+        12
+      ],
+      [
+        "S043",
+        13
+      ],
+      [
+        "S043",
+        14
+      ],
+      [
+        "S043",
+        15
+      ],
+      [
+        "S043",
+        16
+      ],
+      [
+        "S043",
+        17
+      ],
+      [
+        "S043",
+        18
+      ],
+      [
+        "S043",
+        19
+      ],
+      [
+        "S043",
+        20
+      ],
+      [
+        "S043",
+        21
+      ],
+      [
+        "S043",
+        22
+      ],
+      [
+        "S043",
+        23
+      ],
+      [
+        "S043",
+        24
+      ],
+      [
+        "S043",
+        25
+      ],
+      [
+        "S043",
+        26
+      ],
+      [
+        "S043",
+        27
+      ],
+      [
+        "S043",
+        28
+      ],
+      [
+        "S043",
+        29
+      ],
+      [
+        "S043",
+        30
+      ],
+      [
+        "S043",
+        31
+      ],
+      [
+        "S043",
+        32
+      ],
+      [
+        "S043",
+        33
+      ],
+      [
+        "S043",
+        34
+      ],
+      [
+        "S043",
+        35
+      ],
+      [
+        "S043",
+        36
+      ],
+      [
+        "S043",
+        37
+      ],
+      [
+        "S044",
+        12
+      ],
+      [
+        "S044",
+        13
+      ],
+      [
+        "S044",
+        14
+      ],
+      [
+        "S044",
+        15
+      ],
+      [
+        "S044",
+        16
+      ],
+      [
+        "S044",
+        17
+      ],
+      [
+        "S044",
+        18
+      ],
+      [
+        "S044",
+        19
+      ],
+      [
+        "S044",
+        20
+      ],
+      [
+        "S044",
+        21
+      ],
+      [
+        "S044",
+        22
+      ],
+      [
+        "S044",
+        23
+      ],
+      [
+        "S044",
+        24
+      ],
+      [
+        "S044",
+        25
+      ],
+      [
+        "S044",
+        26
+      ],
+      [
+        "S044",
+        27
+      ],
+      [
+        "S044",
+        28
+      ],
+      [
+        "S044",
+        29
+      ],
+      [
+        "S044",
+        30
+      ],
+      [
+        "S044",
+        31
+      ],
+      [
+        "S044",
+        32
+      ],
+      [
+        "S044",
+        33
+      ],
+      [
+        "S044",
+        34
+      ],
+      [
+        "S044",
+        35
+      ],
+      [
+        "S044",
+        36
+      ],
+      [
+        "S044",
+        37
+      ],
+      [
+        "S045",
+        0
+      ],
+      [
+        "S045",
+        1
+      ],
+      [
+        "S045",
+        2
+      ],
+      [
+        "S045",
+        3
+      ],
+      [
+        "S045",
+        4
+      ],
+      [
+        "S045",
+        5
+      ],
+      [
+        "S045",
+        6
+      ],
+      [
+        "S045",
+        7
+      ],
+      [
+        "S045",
+        8
+      ],
+      [
+        "S045",
+        9
+      ],
+      [
+        "S045",
+        10
+      ],
+      [
+        "S045",
+        11
+      ],
+      [
+        "S045",
+        12
+      ],
+      [
+        "S045",
+        13
+      ],
+      [
+        "S045",
+        14
+      ],
+      [
+        "S045",
+        15
+      ],
+      [
+        "S045",
+        16
+      ],
+      [
+        "S045",
+        17
+      ]
+    ],
+    "copiedAlpha": []
+  },
+  "actualRenderPayloadFiles": {
+    "pass-2/.hyperframes/history-id": "0bcb605dedbd895ef3ecec602d4da1745340513fe7d4575dd7b71aaa88e49e9e",
+    "pass-2/.hyperframes/video-state.json": "292b0bead5aca17cecc5e26a503005cb014882df45524070c9d80ee8b9b50ed8",
+    "pass-2/assets/fonts/BarlowCondensed-ExtraBold.woff2": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+    "pass-2/assets/fonts/cjk-heavy.ttc": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6",
+    "pass-2/assets/frames/S042-0024.png": "7824312b9f5f0bee089d0d9e90e1789114755a1fcc4a0862039e5d5e3e3dc186",
+    "pass-2/assets/frames/S042-0025.png": "75aa65b4e34c6d8875c90b69d1707e6b5198c96a1dbed8b379d87303426bcebb",
+    "pass-2/assets/frames/S042-0026.png": "1d9facf4de41ebdfd8af90c9eb257b5d7c45ee2e8db617381dbd2a6823004627",
+    "pass-2/assets/frames/S042-0027.png": "3ff47173be317b6971f04315b35b620dfd758232560a686ed5be0574a538f27c",
+    "pass-2/assets/frames/S042-0028.png": "e01136b129dfefff7ad5895cce2bc00bd4115da5f7e4ea0ffa24aba7e18f3aec",
+    "pass-2/assets/frames/S042-0029.png": "2904f2c974bf0c1da7034fa3f30a68582cb00f0992faf7fcadb4b3fad8e015c6",
+    "pass-2/assets/frames/S042-0030.png": "384816644dc7c9a780cadedee18eff6dbdf375705090ee6f4efe5f773f5ed0e3",
+    "pass-2/assets/frames/S042-0031.png": "f19943db1923ebe41d258a85d46b1d3d5fe3216e6df3dc7842043c2bec59e5cc",
+    "pass-2/assets/frames/S042-0032.png": "3eace03017cbf6c37cf6311d8f3040665113b8860a70c16ea01ec0dad53fe5a2",
+    "pass-2/assets/frames/S042-0033.png": "17502c75b4d25ff670d86f18bc957c04de87a235774bdf752cc89dee2b16dd22",
+    "pass-2/assets/frames/S042-0034.png": "7cac8dd177c8b90b0c883cf8cdd07f1fe163e818a32787e5050895ff92cd4ae9",
+    "pass-2/assets/frames/S042-0035.png": "19cc386446a4fd9d8b447aec96c2ac1ffc3f30de78947a6e10b4050af6c81251",
+    "pass-2/assets/frames/S042-0036.png": "e978c1c5a1ea8da7a343c0774a82dc6720ab7c9915dbea3665e75dfb4449d82f",
+    "pass-2/assets/frames/S042-0037.png": "bacc6df51a7591a554df79b63757e628b79c1cb24ca97e5490eac2a9fc4ea1ad",
+    "pass-2/assets/frames/S043-0012.png": "c3849a441fb17fd5f9135630bf4b4a9770241f26b4fda139efd9411fe104c616",
+    "pass-2/assets/frames/S043-0013.png": "4b0b9ae9447a51c9abc1eca4fa2118323046a81a021e14b69bf3a46ac5ad875a",
+    "pass-2/assets/frames/S043-0014.png": "d441cf03f9c406a4a92ddf8629f42c21fa99459f483a2e37a9df2818afa83e81",
+    "pass-2/assets/frames/S043-0015.png": "d88acb59b71c49c03ecc44eb2773b3ffec3ed7ee55cbad168e85f44de88daa76",
+    "pass-2/assets/frames/S043-0016.png": "40561f98bfd0416017c166de5a59a9e676883448bcd19c1496b16bded6f41bc6",
+    "pass-2/assets/frames/S043-0017.png": "517a4efa2cc00d131677b013ea8f2930e0cb2459763719bdbed710f516d0300a",
+    "pass-2/assets/frames/S043-0018.png": "fdd7cee35829d6c8f8834e5c10950f04a56b08441d529f4c5f4bd2a2363425b8",
+    "pass-2/assets/frames/S043-0019.png": "1884fe70f8c1f25839e43396333dfc88fa77f33cb8560dd62c2ab0929009d929",
+    "pass-2/assets/frames/S043-0020.png": "5da9a176d9f273a5e594683f0094fcc7ef16ec15ca307953befd1149528090f2",
+    "pass-2/assets/frames/S043-0021.png": "00128a8333ddfc1a32c3580f5862a4707eba47e1fde8be5a74a9e8e270b25536",
+    "pass-2/assets/frames/S043-0022.png": "339f062fb3d9cc3e154bfd15888054f11a6cad9d4e17a4c29df7bb1e67c67cb6",
+    "pass-2/assets/frames/S043-0023.png": "a0a9dcc6f7e06ce5a28c38270f3a86081d95f43ffd6114299b1d5920fa4e1e97",
+    "pass-2/assets/frames/S043-0024.png": "9207f262c596aca0d61bcc5c962527eb6de400ccd1546d6ee77b97b544f769ce",
+    "pass-2/assets/frames/S043-0025.png": "5797226c1a8e95a094f585827e61222ae45b789c8578f424069cab627b48bb6b",
+    "pass-2/assets/frames/S043-0026.png": "98ff6d02a8167ee6c1ad7d64e4d2a27093b3b0d403203ca88ae2f5f2fd435a16",
+    "pass-2/assets/frames/S043-0027.png": "ac91cfb4f01f53d30806466c6cbfefee553870d3eb8580a169e1769d91fb3736",
+    "pass-2/assets/frames/S043-0028.png": "4beae61205b00c84b425d488059d7b8a8b14dcde377c40b7858e5a12dbb9d95e",
+    "pass-2/assets/frames/S043-0029.png": "d337c7ff04fa326140a04d1a136ada972f20b8375f6324b504e0537e23f977af",
+    "pass-2/assets/frames/S043-0030.png": "df97eb3b3922b968523eb4b9477d4b42c313b1c92f908f24617cd8c9d1c7d46e",
+    "pass-2/assets/frames/S043-0031.png": "1bb08c96318908d86c1b8f36ef34c317c5f61911eff7efd301af855f457ccab2",
+    "pass-2/assets/frames/S043-0032.png": "e29445256e6a8484dc30063435ea470379c5e04264b1001220af57034e31f1db",
+    "pass-2/assets/frames/S043-0033.png": "c7ee19a09a2ed76f28fa7cd2c369cbdd9e832b8ae259b020048b23772f559a31",
+    "pass-2/assets/frames/S043-0034.png": "2449e330b3bdde12493edf398edcfe6583ed9c6b1cddd5ecb67e6c3c56af4c1d",
+    "pass-2/assets/frames/S043-0035.png": "1193d7a0e8e065e5166897f878ab447f95f612bc2e3c22fc300272988f19bce8",
+    "pass-2/assets/frames/S043-0036.png": "3856ad478361f40bc9e566d83ec8db48b83cb7e176451bc0d0bb40db459fbf56",
+    "pass-2/assets/frames/S043-0037.png": "a3e836bc87d522a2848fe55b53da3eda2d40c880e9c5d925c09c67443253adcb",
+    "pass-2/assets/frames/S044-0012.png": "9eba7c010dcc342f012a8981141e8eb315512a7779b3bb2359a9d57f493b0d0d",
+    "pass-2/assets/frames/S044-0013.png": "4b7a6962812839a73b22660422500002376ebe50170e2fab4d6236db8c9bf344",
+    "pass-2/assets/frames/S044-0014.png": "271c041f0b5c8ba6ac1ad16f0d323a8dea9623db8dbc52b362aca423b4ebfda6",
+    "pass-2/assets/frames/S044-0015.png": "63e91b178e87e43d27ac0d1eb9736109cdb780e61c1a120a1037bb56d9ee1652",
+    "pass-2/assets/frames/S044-0016.png": "06e2bbdc87a60b11a749ed74a7f366c96e17ba42191d0b2efc5a56a07f57b59d",
+    "pass-2/assets/frames/S044-0017.png": "fec7034dace03af3cf88c1b159a6c8b81383cc8b58f04906daa299604eba6ceb",
+    "pass-2/assets/frames/S044-0018.png": "37a9014693e809e6bc2c964b1439a29b9aa4c5081622248f60f7f1e1d1c11c19",
+    "pass-2/assets/frames/S044-0019.png": "4584b5db69bfa308820cd74ba9d37215eb2e3aa91950c87eb90cc0237bd1c07f",
+    "pass-2/assets/frames/S044-0020.png": "399d9d7de3dfd151738c3e6dc02987e3971ced39484224d918176f83f39addc6",
+    "pass-2/assets/frames/S044-0021.png": "7a7c076fb11976eb1224b80578cb6c01bdf02f73e46ab37dea8402ed0e2e9620",
+    "pass-2/assets/frames/S044-0022.png": "0a14e40c720b995a5250f24e299ffef961b404bb7c3df8b088d543378a3c463e",
+    "pass-2/assets/frames/S044-0023.png": "5da17ba6afdb286475dc8568ff9f27741735802e7305ba31aad3a5c3b700ddf2",
+    "pass-2/assets/frames/S044-0024.png": "a1362e7ec249637acfbaba5fb6cbb984f459eeeaed436949013731fb9d2da2c1",
+    "pass-2/assets/frames/S044-0025.png": "cd6838ca46c1ca72fb0b1ef9fdbb53baa59c70e533ae36ce0977fbdb17ea56c2",
+    "pass-2/assets/frames/S044-0026.png": "c76c0f5cc02ecdb708b7674b4204f6a9ba215803feab498cf80c9c5711f3d61d",
+    "pass-2/assets/frames/S044-0027.png": "db3481557b7300659e5bcba04bf72506f1a637ccf19792cc7d933519d8d13f2a",
+    "pass-2/assets/frames/S044-0028.png": "234dcfeacf0631f70b7c7fb3784330d6d71c54e43e40a2df2a6eb38e12f0cc71",
+    "pass-2/assets/frames/S044-0029.png": "41a3bffc372396c648b947fb139b2944158f2dd55f7fb7858a0d4a7304880010",
+    "pass-2/assets/frames/S044-0030.png": "262ce8e85491f6e5aa1121af8873af36e3dd9cf0d58ab06a42d64ad91b43fef9",
+    "pass-2/assets/frames/S044-0031.png": "c7b391a68bafa6987d5574a893b09936161de4cb6f46f716d06a030348d79c7a",
+    "pass-2/assets/frames/S044-0032.png": "1b85989baa71c01cb3a12e84b947e1821a890d9b7fcd7c6faedd139e3c6d579f",
+    "pass-2/assets/frames/S044-0033.png": "8d783629d7962548a57b18bffa4321e2069ec9619136ca8c6aae65e6b950b0e6",
+    "pass-2/assets/frames/S044-0034.png": "fed1e6c76eb3161892924c3a353991a16f38185db472154b6d0e167e88502c75",
+    "pass-2/assets/frames/S044-0035.png": "ad130aebf57f362a540f74ef560f0d0fadb6ae3867192d2e66ae80ce95f31aae",
+    "pass-2/assets/frames/S044-0036.png": "b8d806f1e86210df5ced66fbd45a5f114642a50b2fcdc0a4287328d53d5b9c16",
+    "pass-2/assets/frames/S044-0037.png": "7f63e7545870aff9a9e9296dad09c8b2928157ba60ff4b16d0f045be05920d0b",
+    "pass-2/assets/frames/S045-0000.png": "bb47f0ece53d7c9abeac9d3469f26ae5d6aa5150661a32fc534243db34c1eabb",
+    "pass-2/assets/frames/S045-0001.png": "c5730b7c5c5ab83f394b69a7d12627f207395b98ac2e6e9202e12d3366b27d9b",
+    "pass-2/assets/frames/S045-0002.png": "85071e894cef0c35c367b85ffbcc6449675d6775fad487e72245320addd15b91",
+    "pass-2/assets/frames/S045-0003.png": "f6947d3922c2bbe4493f11ee0ce6cbcf50774948bdf7f65f98e02e541ee1ee89",
+    "pass-2/assets/frames/S045-0004.png": "45a546937a0675e7ab94a5112849919e201f96ed706e11eb979b5b5670cdc9b9",
+    "pass-2/assets/frames/S045-0005.png": "dd524776a5311084a125a81580867c77dcb9da55a3189ccacf5816f6ab889f55",
+    "pass-2/assets/frames/S045-0006.png": "df9ae3217386d93c16cf6213b96105ea311d3660ad54e86d7435887615f8dc68",
+    "pass-2/assets/frames/S045-0007.png": "81b45c4f5c2fc7467c642e572466961d7d83a68e950287c9a6cbb19776e5e4b0",
+    "pass-2/assets/frames/S045-0008.png": "49e84f3c149d9a1fae2a2e6c128d467db8cc734861511582e7ff8bdb2cfb802a",
+    "pass-2/assets/frames/S045-0009.png": "adee31f78f6fe83cbed82e552a096952d8e38e6af848d67892df18a360b5359b",
+    "pass-2/assets/frames/S045-0010.png": "9509fc32cfbd5e84608e5fb5c7126d00590c664fd3d7b4ebcf4a9ffd79b41dec",
+    "pass-2/assets/frames/S045-0011.png": "0d7960cae98fc10451b9b47b47a4895545901aa31598a57f3ec53f46dda2cab2",
+    "pass-2/assets/frames/S045-0012.png": "22260eb892ea93ddb3042ed9f0adf0b6cf65f33bbd4e33b49f9bd151fa7abccf",
+    "pass-2/assets/frames/S045-0013.png": "95ed4a497f6c91d4277023b5205ba057c9dd5af5fc6d095c8c1cce1134418487",
+    "pass-2/assets/frames/S045-0014.png": "c58c0a888aff803f885583b3cb4388098c5fcd452a4026aad7b065ec2ceaadd4",
+    "pass-2/assets/frames/S045-0015.png": "773d117d19ec27010435174d2268b659ac26f00cf3ccde060ce4b5dfbf7d31d2",
+    "pass-2/assets/frames/S045-0016.png": "3ad54535d6b32149158963f889befa960f3414225ab443d18b9f5b02485d2c38",
+    "pass-2/assets/frames/S045-0017.png": "aa8a72b6f554ccf15051dae263a9fea6f906d8b588e974f4c44524e0fa3642be",
+    "pass-2/assets/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+    "pass-2/DESIGN.md": "fa2090b124ea6a496048912b69a7db9fdc54288e9596744109f53856929ffb73",
+    "pass-2/hyperframes.json": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+    "pass-2/index.html": "db3583a9f83a19cde0603c108e5b1eccadb6070d60c71216d3bc0837f5e7d1d0"
+  },
+  "actualPayloadSha256": "af54ac29d7509b0f9df9c4c183127e9947bac39dc8383425898d6b1ebd1321a5",
+  "outputFrameSha256": {
+    "frame_001009.png": "6faa51bfa9ba0f4c71129a64e669c70c50ed099c9898ec99b9dad8f0feeacf1d",
+    "frame_001010.png": "4f56ebb48d7cfa2adfb3b8337cb313263b7fbe24d48110543fe65924d759532d",
+    "frame_001011.png": "cdc55522e0597441d7f2d251b2fa3063480ae697100d4f55de1ad1c0546a20f9",
+    "frame_001012.png": "75f1db04daf86fd1c8361d4752682f8b9fa0d5bc02f42aa32219dcdaa4f1dabb",
+    "frame_001013.png": "598ba4463fce7013a1474c73e567cf8619217767dc1310ab7fd7eede13fd3fd2",
+    "frame_001014.png": "29ea5cf2f15f38199a04ec2cd5f0be8eca3ad613997bfd636ee5326c7994172d",
+    "frame_001015.png": "3dc95ff41fb1ad7f8cba823cdd42abc6b563227dea25cfbff22c0a49d42da44b",
+    "frame_001016.png": "db12b74d9cb7f50f754ebab4faf55cbe5d76bf09a662bbef46c93a6b852891c2",
+    "frame_001017.png": "10a09ff62c6f8d8245c8914726a3bc2649316838aebeb502862bc55ea9ac283b",
+    "frame_001018.png": "6c882f89a32784be997e3c7f2a53c0d4c2787a31ba20bc20fe20140913f5d54d",
+    "frame_001019.png": "bef091f07dbc9c99f216b311d3de92eb7204ee1126125c50d87ca99e9b6b2f49",
+    "frame_001020.png": "a283002aeb20be26dceab4049d6bb2cfc1a4ed9d2e82855cecc5796b74021dcf",
+    "frame_001021.png": "9c6786aacd39b80986e1d6f1cd79f73d7cda29438f87301b4a834ca955ed11f3",
+    "frame_001022.png": "d7afe6334022a7918b7062fd2d0b1e3584109c878f1201ca676f7a3d4151004c",
+    "frame_001023.png": "0a3dc8fefcfebd6ee3085e2a7d2bdb5433ffd087bd23bda733b795c787acc39f",
+    "frame_001024.png": "5c93ba9e67c78d3ced7c40ee9e71191b6eaaa7712d0f62e8f8b229c24ec0ee46",
+    "frame_001025.png": "96ef342233833e520c6eab01f945b73aa77b4a9db6efdbe00e554a8524ab61fb",
+    "frame_001026.png": "bbde5e8e90011fea5186c37833a956cf3167eab20f4eb74560f2d7f44cafef29",
+    "frame_001027.png": "b584f19318ee5d3b27024ed0b68d79fcc8d62e53ace169663a1be0865af314e2",
+    "frame_001028.png": "f3a8efb265f7b3aa1dc53de253238ed27ebba6d2b6791ee0ae7a7b79b1270285",
+    "frame_001029.png": "cfef4a97f8d0a716dc5d9a5255ad385ebb4dbd411b0b2166d348962c5ee21df7",
+    "frame_001030.png": "30222b9ed32516276288a6f256d9d06a0fefeed68197b752bf813da8dd7ab8d3",
+    "frame_001031.png": "c288fbcd44d9906f3c8d84765715771ac3a7afca279a0a15cf87e280f76d057d",
+    "frame_001032.png": "bcb1d4d4c02c1fe02b39ea27edbb1ce30c30a025672d36613d104e37c1f31953",
+    "frame_001033.png": "5a5bdafdd307a6a237912c1ecc3f9bad6a1d2785e7cbda873e4c1db9e87f6637",
+    "frame_001034.png": "c78ea2ef1a0d21111be23aae22e2942d5707c02605d76e4e6c46d8c14cfb4d7f",
+    "frame_001035.png": "1804e826e97a5bec6fb8b29dd35fffa51bbb073526b09128ad49bb656f14a470",
+    "frame_001036.png": "ec164ffc98b61a259b6d781ce2a667676ca98c9ced48efd5e2b8bebdf973e569",
+    "frame_001037.png": "0f9bc8a11377497b627b201d51f56d758c32784246407c37f63ba323eff13e05",
+    "frame_001038.png": "9f1b9d6966d4d12d0c0788766df2eb2ad90331b90bc66ecbf56fa598e00f88b2",
+    "frame_001039.png": "3e6530d4f13b6f52bfd81db73d9bb076eb3f8288fbf7d13dab654ebfff99c0df",
+    "frame_001040.png": "8b939295aa64397f788a62e05b52c03b5bb1bd03b40d0a6e0afe820ddc1f7e61",
+    "frame_001041.png": "ecc6511742078cf76408cfb46c08f79fc1d036355dad4d42515c18e3b164c8fd",
+    "frame_001042.png": "fb4f1d8b20fc554d085f9172634115133313ad3dd63ba1f4ae7cdd576bda2392",
+    "frame_001043.png": "835e539613f42b8c87831251939802a9b49cf2c9fa56e0d8a2bfa73f0bbdb98f",
+    "frame_001044.png": "5b1fca3a256484030003e0bc81782710c03ccb498bc43f3382588059f59f13dd",
+    "frame_001045.png": "97cff11c0c34a661b80066b0b09414a997ae9c5164364d97b978941b44c3fc6d",
+    "frame_001046.png": "e4ec87b9bac55eb56d8f0b443ddd61bd43a59cdf8cd2752a95550133052f97e9",
+    "frame_001047.png": "838e3be52bbc70e6a05d643be3063dec23093c61c673ce4e6d9f35e2cb854f4b",
+    "frame_001048.png": "287c824f78c8de75cc2e15e709855ee6d793d35fb654ba0a91e775ca7fc65bb0",
+    "frame_001049.png": "a43b201f50abb787822948081d8702a650ed09d0af009181fbd5b7136e77e796",
+    "frame_001050.png": "ca7a3aac0a9fca6025006ca73e4298f82fb95981ecda8d3e11e0c34117f089d1",
+    "frame_001051.png": "7554fc1ca04aab26ff17c6bdd4bca6c65a93448aba23548c82a7ad65a554fe50",
+    "frame_001052.png": "c363f39c2a479848267fc723119ca5007b61cc215444eaaf983e5ee4b666f6ba",
+    "frame_001053.png": "77fd1d3d82ca974aa3a7bc6929100681969291fccac90763b03264b7f5cfa7b6",
+    "frame_001054.png": "f0deb918f9a93b075d9fdd8212193524bfee943c4da68454527b480010ea7516",
+    "frame_001055.png": "8b5fbf8938e5768973eb951d3b28260556fb04c9a2358cd9216571bee91a5616",
+    "frame_001056.png": "96a7f4351a1ac5871d9465e4edf4dac767e982d76328bd45c2e748779c02bef8",
+    "frame_001057.png": "0a06c2987cbbec45d1b10439bb3409052b0e74a7ae2aae9863ea0ebedda053ea",
+    "frame_001058.png": "7688fa0cf3251f0e6f79f58eabbac550571f7a4ab3de12a1925239d2305f3246",
+    "frame_001059.png": "5b3b771892f8fe50c5043be81fca6a04c83ba6638a3fe5a0c6a2b7409e4f3875",
+    "frame_001060.png": "0f6a9655cf7b0d515158db44e941f31452a078733d6abdaecceee9769545996a",
+    "frame_001061.png": "44eff123220c5012c2dba0fb098650680b8f580c41520416834a60b744cf4ee0",
+    "frame_001062.png": "8adf9bf3a8a63b374e0270988bf35dd01e91ca029a4d07eb852acf6cbba40805",
+    "frame_001063.png": "20e7b210c62401c41e4267ba6c86197b19d4345ea1cef757d488645ca0816759",
+    "frame_001064.png": "7b7d0cc7550d251bee55d4e3622658ea8afd95e849a86901649b2ad731ab7eff",
+    "frame_001065.png": "7cf17b820f4bcdfa8f52a92605595be1c7a30f80e0e39fbd06cb0a4dad0a1e71",
+    "frame_001066.png": "a6ced160b866f03287a4a9ab49f4958a6af80eb6493482200ea169bae51dfb20",
+    "frame_001067.png": "6d2d534afbcc9a752b09931aeed46b9e07ba9ece73489a8be026a1fd3cf8cb6e",
+    "frame_001068.png": "71c4d0fa2dbdeec3a078abb1db8116d1654a34b6df9dfa19dfe9eb6c31f40203",
+    "frame_001069.png": "6895d45d18d1543ff5e4b69c9e6b426d3a43c03df18b09076959cb1f7a04eed4",
+    "frame_001070.png": "33e7a960fb9263169ec771b228000ca540c2a1ca31bae0463150ae60e74bde2d",
+    "frame_001071.png": "8b7c01171f54ee8d8cb42fe5a353bad465d1d1ddaf7f0fefd9ad07990d7fc192",
+    "frame_001072.png": "f652e1146a4f26bb96797e9b74a601d69f837972e3935862f88c3bd27bcf9955",
+    "frame_001073.png": "116b16b5a4ee47fc4354aa44ccbf0211873f5b901c8cd8ab878ac312dab9c44d",
+    "frame_001074.png": "c0a519bcbbe9bf2c164a223186908c76a8efa21b2494a12262ea8058b72b5b0b",
+    "frame_001075.png": "342bff7f098bf16ef0c5169696281f64a33f545668c912062f43ada5da458732",
+    "frame_001076.png": "c7212e421815466577162243babefc9a1950da37f3a65a93c019a20b85490fea",
+    "frame_001077.png": "2f4148e71970cc08fba60b36bc5df47e6e6dae0e89f3f87c4e15526ae821760c",
+    "frame_001078.png": "be1be0f4d4a0c8550e978760a66084dfa50906f5fe9dbb3b47e2b46d8aefc532",
+    "frame_001079.png": "1b1edcd2c09c56f1cea689479b67042b2b2d5a55c55e0e405677801d5146fbf9",
+    "frame_001080.png": "beae98449192e41bd0a28add1064b857ac22cafaad6b95257b0e571f01853a22"
+  },
+  "segmentSha256": "d6289b68bf5b818f58684a86f2bfbdab294d40a412dd69799ab3ae0a2a33c5f4",
+  "planSha256": "a3d5e0168863d94ba9ba66a008894ad9f286c7e9c1dbca05fdf0f588bf884087",
+  "codeSha256": "ffce44232217e278794f06b793df2efb9c3d728b302e3077202229f6a4d4229f",
+  "executor": "/root/s1_render_execution",
+  "chunk": 14,
+  "first": 1008,
+  "last": 1080,
+  "reuseHistory": [
+    {
+      "oldRenderKey": "a6071b2aff88929d1e625fa23c8459305b014265a7fe9bc5ae8c13b2eec93f64",
+      "oldInputSpec": {
+        "htmlSha256": "3e3c756987c5f7be3711cfd53425f542dd9b9c0eafa7e9d832f6fea5c9a08aa4",
+        "dependencies": {
+          "composition.py": "dccc4ba92466524048bb290bbce6e82db931c9dbadaafef7fe07b880ed141c9a",
+          "typefx.py": "9d8c98e7021a4bb2d54427a8192668046054eda5804b99bd235b351b238f9f32",
+          "barlow-glyphs.json": "e934240f60d3b95279b8a35a68b93162c3b1c75083c303b1a533381a5c5c7cb1",
+          "layoutfx.py": "8ad58d6be0cf24402572e644189ccb5b331edaf91b76b587ea4c35f1126c07d1",
+          "screenfx.py": "2547316b72884c43557005a42c94c0ffc49027fed94bec40cf490b9be44ab0ae",
+          "render.py": "1f979fa5f14a93975b49dee9a21cbf1109361c46a8aee24e194b51079bde4e6c",
+          "assets/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+          "assets/shots/S042.mp4": "0f7f971d7ed2087b375c65b7e4afb44c67dfd6ed793f5de7d2b0757cad15e83e",
+          "assets/shots/S043.mp4": "3a585ba6cc2d41c72d8a986c75f660af4ee81f76caaeafb09d1891dd2ab7b76f",
+          "assets/shots/S044.mp4": "cb333467447f277ac38b8eb7248df1739f5593f1554b3f2bde2ddff5b23ea686",
+          "assets/shots/S045.mp4": "671ed8c67e89fcfc1f8405309b23d9c7513239ef8fe3c5a025cefa78024d6476",
+          "assets/fonts/BarlowCondensed-ExtraBold.woff2": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44",
+          "assets/fonts/cjk-heavy.ttc": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6"
+        },
+        "runtime": {
+          "nodeVersion": "v24.22.1",
+          "cliVersion": "0.8.216",
+          "cliEntrySha256": "e65ed25c36426b6e9ade59c4d20d92c5a78bd2a9f459ab3bfb461cdd2a1ef56f",
+          "chromeVersion": "156.0.8078.74",
+          "chromeExeSha256": "4132eb3e9c5b3978874eed48cb45c21debf343a0d383b6d2fb01a5fcf349ec65",
+          "ffmpegExeSha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+          "captureFlags": [
+            "--format",
+            "png-sequence",
+            "--workers",
+            "1",
+            "--low-memory-mode",
+            "--sdr",
+            "--experimental-fast-capture=false",
+            "--no-best-effort",
+            "--frames-cache-dir",
+            "off"
+          ],
+          "fps": 24,
+          "size": [
+            1920,
+            1080
+          ],
+          "color": "SDR PNG RGB full; encode BT709 tv",
+          "sourceExtraction": "trim source frame indices; scale bt709 tv to full; rgb24; native PNG; passthrough fps"
+        },
+        "neededSourceFrames": [
+          [
+            "S042",
+            24
+          ],
+          [
+            "S042",
+            25
+          ],
+          [
+            "S042",
+            26
+          ],
+          [
+            "S042",
+            27
+          ],
+          [
+            "S042",
+            28
+          ],
+          [
+            "S042",
+            29
+          ],
+          [
+            "S042",
+            30
+          ],
+          [
+            "S042",
+            31
+          ],
+          [
+            "S042",
+            32
+          ],
+          [
+            "S042",
+            33
+          ],
+          [
+            "S042",
+            34
+          ],
+          [
+            "S042",
+            35
+          ],
+          [
+            "S042",
+            36
+          ],
+          [
+            "S042",
+            37
+          ],
+          [
+            "S043",
+            12
+          ],
+          [
+            "S043",
+            13
+          ],
+          [
+            "S043",
+            14
+          ],
+          [
+            "S043",
+            15
+          ],
+          [
+            "S043",
+            16
+          ],
+          [
+            "S043",
+            17
+          ],
+          [
+            "S043",
+            18
+          ],
+          [
+            "S043",
+            19
+          ],
+          [
+            "S043",
+            20
+          ],
+          [
+            "S043",
+            21
+          ],
+          [
+            "S043",
+            22
+          ],
+          [
+            "S043",
+            23
+          ],
+          [
+            "S043",
+            24
+          ],
+          [
+            "S043",
+            25
+          ],
+          [
+            "S043",
+            26
+          ],
+          [
+            "S043",
+            27
+          ],
+          [
+            "S043",
+            28
+          ],
+          [
+            "S043",
+            29
+          ],
+          [
+            "S043",
+            30
+          ],
+          [
+            "S043",
+            31
+          ],
+          [
+            "S043",
+            32
+          ],
+          [
+            "S043",
+            33
+          ],
+          [
+            "S043",
+            34
+          ],
+          [
+            "S043",
+            35
+          ],
+          [
+            "S043",
+            36
+          ],
+          [
+            "S043",
+            37
+          ],
+          [
+            "S044",
+            12
+          ],
+          [
+            "S044",
+            13
+          ],
+          [
+            "S044",
+            14
+          ],
+          [
+            "S044",
+            15
+          ],
+          [
+            "S044",
+            16
+          ],
+          [
+            "S044",
+            17
+          ],
+          [
+            "S044",
+            18
+          ],
+          [
+            "S044",
+            19
+          ],
+          [
+            "S044",
+            20
+          ],
+          [
+            "S044",
+            21
+          ],
+          [
+            "S044",
+            22
+          ],
+          [
+            "S044",
+            23
+          ],
+          [
+            "S044",
+            24
+          ],
+          [
+            "S044",
+            25
+          ],
+          [
+            "S044",
+            26
+          ],
+          [
+            "S044",
+            27
+          ],
+          [
+            "S044",
+            28
+          ],
+          [
+            "S044",
+            29
+          ],
+          [
+            "S044",
+            30
+          ],
+          [
+            "S044",
+            31
+          ],
+          [
+            "S044",
+            32
+          ],
+          [
+            "S044",
+            33
+          ],
+          [
+            "S044",
+            34
+          ],
+          [
+            "S044",
+            35
+          ],
+          [
+            "S044",
+            36
+          ],
+          [
+            "S044",
+            37
+          ],
+          [
+            "S045",
+            0
+          ],
+          [
+            "S045",
+            1
+          ],
+          [
+            "S045",
+            2
+          ],
+          [
+            "S045",
+            3
+          ],
+          [
+            "S045",
+            4
+          ],
+          [
+            "S045",
+            5
+          ],
+          [
+            "S045",
+            6
+          ],
+          [
+            "S045",
+            7
+          ],
+          [
+            "S045",
+            8
+          ],
+          [
+            "S045",
+            9
+          ],
+          [
+            "S045",
+            10
+          ],
+          [
+            "S045",
+            11
+          ],
+          [
+            "S045",
+            12
+          ],
+          [
+            "S045",
+            13
+          ],
+          [
+            "S045",
+            14
+          ],
+          [
+            "S045",
+            15
+          ],
+          [
+            "S045",
+            16
+          ],
+          [
+            "S045",
+            17
+          ]
+        ],
+        "copiedAlpha": []
+      },
+      "newValidationPlanSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+      "changedProducerFiles": {
+        "render.py": {
+          "old": "1f979fa5f14a93975b49dee9a21cbf1109361c46a8aee24e194b51079bde4e6c",
+          "new": "135ba209d87df98d6dd0d7fb7196aac8a52f9c66ffb1e1629cf6c3148af81b9d"
+        }
+      },
+      "actualPixelInputsByteEqual": true,
+      "allSourcePngReDecodedAndShaMatched": 84,
+      "preservedPreviousProof": "proof-history/a6071b2aff88929d-1793879333.json",
+      "validatedAtUnix": 1793879333.9847534,
+      "validator": "/root/s1_render_execution"
+    }
+  ],
+  "currentValidationPlanSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e"
+}

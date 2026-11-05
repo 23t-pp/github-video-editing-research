@@ -1,0 +1,620 @@
+{
+  "summary": {
+    "date": "2026-11-04",
+    "scope": "AI editing静态源码审查；8项目深审，未安装/启动仓库、未生成视频、未做效果测试",
+    "commands": [
+      "search.ps1",
+      "inspect.ps1",
+      "fetch-sources.ps1",
+      "fetch-extra.ps1"
+    ],
+    "search_calls": 8,
+    "returned_rows": 170,
+    "unique_search_candidates": 161,
+    "seed_repositories": 9,
+    "inspected_code_repositories": 8
+  },
+  "searches": [
+    {
+      "query": "\"AI video editor\" in:name,description,readme stars:>50",
+      "count": 30,
+      "total_count": 45,
+      "raw_file": "search-01.json"
+    },
+    {
+      "query": "\"video highlight\" \"AI\" in:name,description,readme stars:>20",
+      "count": 30,
+      "total_count": 67,
+      "raw_file": "search-02.json"
+    },
+    {
+      "query": "\"short clips\" \"whisper\" in:readme stars:>50",
+      "count": 30,
+      "total_count": 85,
+      "raw_file": "search-03.json"
+    },
+    {
+      "query": "\"automatic video editing\" in:name,description,readme stars:>20",
+      "count": 18,
+      "total_count": 18,
+      "raw_file": "search-04.json"
+    },
+    {
+      "query": "\"video clipping\" \"LLM\" in:readme stars:>20",
+      "count": 30,
+      "total_count": 35,
+      "raw_file": "search-05.json"
+    },
+    {
+      "query": "\"subtitle\" \"video editing\" \"AI\" in:name,description stars:>20",
+      "count": 0,
+      "total_count": 0,
+      "raw_file": "search-06.json"
+    },
+    {
+      "query": "\"ClipAnything\" in:name,description,readme",
+      "count": 28,
+      "total_count": 29,
+      "raw_file": "search-07.json"
+    },
+    {
+      "query": "\"MoneyPrinterTurbo\" OR \"ShortGPT\" in:name stars:>100",
+      "count": 4,
+      "total_count": 4,
+      "raw_file": "search-08.json"
+    }
+  ],
+  "shortlisted": [
+    {
+      "repo": "0xsline/OpenChatCut",
+      "url": "https://github.com/0xsline/OpenChatCut",
+      "category": "可编辑AI时间线 + 用户素材 + 音乐卡点",
+      "is_template": true,
+      "beat_capability": "源码有两条真实音频分析路径：无模型 spectral-flux→自相关BPM→相位网格，及 Beat This ONNX beat/downbeat 推理；music_edit_plan→sync_cuts_to_music 将计划落为时间线 split。并非仅加BGM。",
+      "license": "AGPL-3.0",
+      "stars": 2897,
+      "pushed_at": "2026-10-21T13:09:03Z",
+      "sha": "7fa4b7903e7ebecf832a36249f0c0c755200cc17",
+      "sampled_core_commit": {
+        "repo": "0xsline/OpenChatCut",
+        "path": "src/agent/tools/music-intelligence-tools.ts",
+        "sha": "8b976ceeb30f0baa18c3c6b612ae117226a7dfc5",
+        "date": "2026-08-19T16:44:34Z",
+        "message": "fix: close remaining release audit findings\n\nBound document attachment work, hide configured capability banners, and correct the SQLite relocation release note.\n\nShared-path impact: preserve public exports while splitting oversized music, desktop, server-run, and key-probe modules below the source-file limit.\n\nValidation: TypeScript build, zero-warning lint, affected checks, production build, 103 full test segments, component and desktop suites, and isolated browser project-store smoke."
+      },
+      "evidence": [
+        {
+          "claim": "真实传统节拍分析",
+          "path": "src/audio/beats.ts",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/audio/beats.ts#L61",
+          "detail": "onsetEnvelope、estimateTempo、fitBeatGrid、pickDownbeats、analyzeAssetBeats。"
+        },
+        {
+          "claim": "神经节拍模型推理与CPU回退",
+          "path": "desktop/native-rhythm-worker.ts",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/desktop/native-rhythm-worker.ts#L148",
+          "detail": "onnxruntime session.run({spect})读取beat/downbeat；provider失败回退cpu。"
+        },
+        {
+          "claim": "卡点计划真实写入时间线",
+          "path": "src/agent/tools/music-intelligence-tools.ts",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/music-intelligence-tools.ts#L182",
+          "detail": "buildMusicSplitActions生成split action，syncCuts调用ctx.commands.batch。"
+        },
+        {
+          "claim": "模板可保存/应用完整工程",
+          "path": "src/agent/tools/template-tools.ts",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/tools/template-tools.ts#L288",
+          "detail": "manage_template支持get/list_assets/apply/copy_assets/save，apply走applyDoc。"
+        },
+        {
+          "claim": "存在可编辑参数的MG模板",
+          "path": "assets/templates/openchatcut-templates.json",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/assets/templates/openchatcut-templates.json#L2",
+          "detail": "JSON包含props及内嵌code，实例Bar Chart读取title/label/val/color等props。"
+        },
+        {
+          "claim": "工程导出",
+          "path": "src/export/fcpxml.ts",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/export/fcpxml.ts#L1",
+          "detail": "源文件实现FCPXML导出；并非只能输出成片MP4。"
+        },
+        {
+          "claim": "模型固定revision和文件校验",
+          "path": "shared/vector-inference-contract.ts",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/shared/vector-inference-contract.ts#L25",
+          "detail": "RHYTHM_INFERENCE_CONTRACT固定musetric/beat-this-onnx版本、采样率及sha256。"
+        },
+        {
+          "claim": "Windows支持与Node要求",
+          "path": "package.json",
+          "url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/package.json#L14",
+          "detail": "Node>=24<25；desktop:dist:win脚本调用win32-x64准备及electron-builder。"
+        }
+      ],
+      "dependencies": "Node.js 24.x、React/TypeScript/Electron、Remotion、FFmpeg、ONNX Runtime；AI对话依选用API/已有代理订阅，本地分析模型需下载。Beat This模型文件约83MB是下载大小，不是显存要求；未找到适合一概而论的最低显存。",
+      "windows": "有win32-x64桌面打包脚本与Windows专用CI路径；节奏worker可选DirectML/CUDA并CPU回退。Windows运行未实测，源码安装较重。",
+      "limitations": [
+        "AGPL-3.0仓库；package.json写AGPL-3.0-or-later。依赖Remotion及模型权重各有独立授权，未完成它们的授权审查。",
+        "传统detect_beats支路的downbeat为4/4启发式，变速/自由节奏/非4拍歌曲不能保证准确。",
+        "发现卡点切分执行路径，不代表系统会自动挑出好镜头；镜头排序、语义匹配、节奏质量仍需小样验证。",
+        "模板工具复用整个ProjectDoc/MG与风格，未证实所有内置模板都提供傻瓜式可换素材槽位。"
+      ],
+      "recommendation": "本组最值得优先做20秒小样的整合候选；同时要卡点、AI参与、保留可改工程时优先。",
+      "audience": "愿意配置模型/API、希望AI剪辑后仍能手工调整的人；开发者二次封装。",
+      "output": "可编辑ProjectDoc、多轨时间线、MP4、FCPXML；另有剪映草稿导出CLI路径，依赖capcut-cli。"
+    },
+    {
+      "repo": "modelscope/FunClip",
+      "url": "https://github.com/modelscope/FunClip",
+      "category": "真实用户素材的语音/字幕驱动剪辑；可选LLM高光",
+      "is_template": false,
+      "beat_capability": "所审查核心剪辑按转录文本/说话人/时间戳截取与拼接；未见用BPM或音乐拍点决定切点的实现。requirements里有librosa不等于已经卡点。",
+      "license": "MIT",
+      "stars": 6491,
+      "pushed_at": "2026-11-01T14:52:34Z",
+      "sha": "cdcb53fe3d4b37365178ae4f779296e72b7beb6a",
+      "sampled_core_commit": {
+        "repo": "modelscope/FunClip",
+        "path": "funclip/videoclipper.py",
+        "sha": "bc546c9e45fa8ba4fc3fea796045d82f691f98e1",
+        "date": "2026-09-16T01:58:15Z",
+        "message": "fix(cli): correct recognition and clipping stage help\n\nSigned-off-by: zhifu gao <zhifu.gzf@alibaba-inc.com>"
+      },
+      "evidence": [
+        {
+          "claim": "实际截取用户源视频",
+          "path": "funclip/videoclipper.py",
+          "url": "https://github.com/modelscope/FunClip/blob/cdcb53fe3d4b37365178ae4f779296e72b7beb6a/funclip/videoclipper.py#L280",
+          "detail": "video_clip按dest_text/说话人或timestamp_list求区间，video.subclip后concatenate_videoclips并write_videofile。"
+        },
+        {
+          "claim": "可选视觉理解需远端服务",
+          "path": "funclip/llm/twelvelabs_api.py",
+          "url": "https://github.com/modelscope/FunClip/blob/cdcb53fe3d4b37365178ae4f779296e72b7beb6a/funclip/llm/twelvelabs_api.py#L77",
+          "detail": "_resolve_video_context将本地文件client.assets.create上传；call_twelvelabs_pegasus分析视频并转换时间戳。"
+        },
+        {
+          "claim": "本地模型选择",
+          "path": "funclip/model_selection.py",
+          "url": "https://github.com/modelscope/FunClip/blob/cdcb53fe3d4b37365178ae4f779296e72b7beb6a/funclip/model_selection.py#L1",
+          "detail": "模型选择与FunASR适配路径；不同模型时间戳能力需要按文档区分。"
+        },
+        {
+          "claim": "Windows安装边界",
+          "path": "docs/installation.md",
+          "url": "https://github.com/modelscope/FunClip/blob/cdcb53fe3d4b37365178ae4f779296e72b7beb6a/docs/installation.md#L27",
+          "detail": "给出.venv/Scripts/python.exe方案，同时说明--help/pip check不能证明识别和导出工作流。"
+        },
+        {
+          "claim": "依赖确认",
+          "path": "requirements.txt",
+          "url": "https://github.com/modelscope/FunClip/blob/cdcb53fe3d4b37365178ae4f779296e72b7beb6a/requirements.txt#L1",
+          "detail": "FunASR、torch、torchaudio、Gradio及moviepy==1.0.3。"
+        }
+      ],
+      "dependencies": "Python、PyTorch/torchaudio、FunASR/Paraformer及可选声纹模型、Gradio、MoviePy1.0.3、FFmpeg。手选转录文本可全本地且无需LLM API；AI选段可用LLM API，可选TwelveLabs会上传本地视频。显存视模型，无统一最低值。",
+      "windows": "安装文档有PowerShell独立venv方案；文档明确Windows硬件/驱动组合需另验。基础CPU路径可用但未实测性能。",
+      "limitations": [
+        "最适合有可识别语音的访谈/课程/口播；纯画面情绪混剪不是默认强项。",
+        "默认AI依据转录文本；TwelveLabs是另选的实际视频理解路径，不能把默认路径一概称视觉理解。",
+        "Fun-ASR-Nano/MOSS等模型的时间戳精度与支持剪辑形式有差异；精细任意文字剪辑应按文档选Paraformer。",
+        "源码MIT不自动覆盖下载模型权重或素材的授权。"
+      ],
+      "recommendation": "中文访谈/课程/口播选段优先；先本地转录+手选验证，再加LLM选段。",
+      "audience": "中文创作者、需要按说话人或字幕文字剪自己的长视频的人。",
+      "output": "MP4/WAV、完整与剪辑后SRT、识别状态；未在本次路径发现可给主流NLE继续编辑的标准时间线导出。"
+    },
+    {
+      "repo": "WyattBlue/auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "category": "真实用户素材的规则自动粗剪/静音删除；非LLM语义选段",
+      "is_template": false,
+      "beat_capability": "响度阈值不等于音乐拍点。默认audio方法按每时间片最响采样幅度判活跃；无语义高光判定。",
+      "license": "Unlicense",
+      "stars": 5766,
+      "pushed_at": "2026-11-02T20:17:34Z",
+      "sha": "5ad05f9ee76bc9fe4126bd25463eada082576f88",
+      "sampled_core_commit": {
+        "repo": "WyattBlue/auto-editor",
+        "path": "src/editmethods.nim",
+        "sha": "4aca9c16eca3e45751f6c2a6c53b17fc2d4cea6e",
+        "date": "2026-07-30T17:02:32Z",
+        "message": "Validate edit operator arity"
+      },
+      "evidence": [
+        {
+          "claim": "默认规则的确是音量阈值",
+          "path": "src/editmethods.nim",
+          "url": "https://github.com/WyattBlue/auto-editor/blob/5ad05f9ee76bc9fe4126bd25463eada082576f88/src/editmethods.nim#L34",
+          "detail": "audio按最响采样/最大采样值判断；motion是灰度帧差；subtitle/word是匹配。"
+        },
+        {
+          "claim": "真实音频处理实现",
+          "path": "src/analyze/audio.nim",
+          "url": "https://github.com/WyattBlue/auto-editor/blob/5ad05f9ee76bc9fe4126bd25463eada082576f88/src/analyze/audio.nim#L1",
+          "detail": "FFmpeg解码、重采样、分块及峰值分析，非远端模型。"
+        },
+        {
+          "claim": "JSON时间线保留素材与区间",
+          "path": "src/exports/json.nim",
+          "url": "https://github.com/WyattBlue/auto-editor/blob/5ad05f9ee76bc9fe4126bd25463eada082576f88/src/exports/json.nim#L11",
+          "detail": "序列化每track中clip的src/start/dur/offset/stream/effects。"
+        },
+        {
+          "claim": "NLE工程导出实现",
+          "path": "src/exports/fcp7.nim",
+          "url": "https://github.com/WyattBlue/auto-editor/blob/5ad05f9ee76bc9fe4126bd25463eada082576f88/src/exports/fcp7.nim#L1",
+          "detail": "Final Cut 7 XML类导出代码，可供后续编辑器工作流。"
+        },
+        {
+          "claim": "Windows与pip现状",
+          "path": "docs/src/installing.md",
+          "url": "https://github.com/WyattBlue/auto-editor/blob/5ad05f9ee76bc9fe4126bd25463eada082576f88/docs/src/installing.md#L6",
+          "detail": "官方binary；Notice for Pip Users明确CLI不再发布pip；Windows源码构建列WSL。"
+        }
+      ],
+      "dependencies": "当前核心为Nim及FFmpeg库；官方跨平台二进制。默认规则剪辑无模型、无API、无显存门槛；转写功能是另行可选能力。CLI当前不再通过pip发布。",
+      "windows": "官方文档推荐Windows exe，源码构建走WSL交叉编译。适合Windows先用exe跑静音粗剪；本次未下载/执行二进制。",
+      "limitations": [
+        "口误、重复句、观点是否精彩不能靠音量自动判断。",
+        "背景音乐连续响亮时可能保留整段，不能当通用AI高光或音乐卡点器。",
+        "仓库Unlicense；release捆绑二进制依赖可能用其他开源许可证；线上应用/独有资产另有专有授权。"
+      ],
+      "recommendation": "作为口播/课程粗剪第一步推荐，之后再用语义工具或人工精剪。",
+      "audience": "不想申请API、不想配置GPU、主要要去静音且保留后期工程的人。",
+      "output": "成片、clip sequence、JSON时间线及Premiere/Resolve/Final Cut/Shotcut/Kdenlive等导出；源码另含OTIO exporter。"
+    },
+    {
+      "repo": "FujiwaraChoki/supoclip",
+      "url": "https://github.com/FujiwaraChoki/supoclip",
+      "category": "长视频AI转短片/字幕/人脸重构图；带内置编辑器",
+      "is_template": true,
+      "beat_capability": "所审查选段基于时间戳转录和LLM评分，字幕时间同步不是音乐卡点；未见音乐beat决定切点的证据。",
+      "license": "AGPL-3.0",
+      "stars": 2529,
+      "pushed_at": "2026-11-03T22:43:47Z",
+      "sha": "97def3395815f6e552c7a0a7ea6c6c06141652a0",
+      "sampled_core_commit": {
+        "repo": "FujiwaraChoki/supoclip",
+        "path": "backend/src/ai.py",
+        "sha": "80a954ffb3bf6d830676de0dd95cac5973fee7a0",
+        "date": "2026-10-28T11:32:28Z",
+        "message": "fix(studio): integrate clip quality and editable title timing"
+      },
+      "evidence": [
+        {
+          "claim": "LLM真实选择转录区间",
+          "path": "backend/src/ai.py",
+          "url": "https://github.com/FujiwaraChoki/supoclip/blob/97def3395815f6e552c7a0a7ea6c6c06141652a0/backend/src/ai.py#L282",
+          "detail": "system prompt要求精确提取和排名已有转录span，模型支持Ollama及多个云提供商。"
+        },
+        {
+          "claim": "可选本地转写不是README空口宣称",
+          "path": "backend/src/media/transcription.py",
+          "url": "https://github.com/FujiwaraChoki/supoclip/blob/97def3395815f6e552c7a0a7ea6c6c06141652a0/backend/src/media/transcription.py#L177",
+          "detail": "_whisper.load_model、word_timestamps=True；get_transcript按provider分派whisper/AssemblyAI/YouTube字幕。"
+        },
+        {
+          "claim": "默认与可选配置入口",
+          "path": "backend/src/config.py",
+          "url": "https://github.com/FujiwaraChoki/supoclip/blob/97def3395815f6e552c7a0a7ea6c6c06141652a0/backend/src/config.py#L25",
+          "detail": "TRANSCRIPTION_PROVIDER默认assemblyai；WHISPER_MODEL和OLLAMA_BASE_URL等可配。"
+        },
+        {
+          "claim": "真实草稿与Windows障碍",
+          "path": "backend/src/editor_document.py",
+          "url": "https://github.com/FujiwaraChoki/supoclip/blob/97def3395815f6e552c7a0a7ea6c6c06141652a0/backend/src/editor_document.py#L1",
+          "detail": "版本化非破坏性草稿、segments/word/style/framing模型；文件顶层import fcntl。"
+        },
+        {
+          "claim": "字幕模板入口",
+          "path": "backend/src/caption_templates.py",
+          "url": "https://github.com/FujiwaraChoki/supoclip/blob/97def3395815f6e552c7a0a7ea6c6c06141652a0/backend/src/caption_templates.py#L1",
+          "detail": "字幕模板定义可作为可复用样式层，需与镜头内容模板区分。"
+        }
+      ],
+      "dependencies": "Docker Compose、Python/FastAPI/worker、前端、FFmpeg、数据库等整套服务；默认AssemblyAI+LLM API，但源码有TRANSCRIPTION_PROVIDER=whisper及Ollama支路，可把核心识别和LLM本地化。本地模型与显存依所选Whisper/LLM，未给统一最低值。",
+      "windows": "Windows优先Docker Desktop/WSL2。editor_document.py顶层import fcntl，表明Windows原生Python直接运行该编辑器路径有兼容障碍。",
+      "limitations": [
+        "AGPL-3.0；适合接受该开源许可的部署/二开，不能把它当MIT模板。",
+        "全套自部署栈比小CLI重，先确认是否需要账户/任务队列/编辑器。",
+        "virality评分为模型意见，不是传播效果保证。",
+        "字幕模板主要控制字幕视觉风格，不等于万能可替换素材广告模板。"
+      ],
+      "recommendation": "需要网页上传→自动挑段→竖屏字幕→手工微调的一体流程时推荐；Windows应走容器。",
+      "audience": "经常将播客、课程、访谈变成多个竖屏短片的团队；能维护Docker服务的人。",
+      "output": "竖屏MP4、编辑器的版本化非破坏性clip草稿/确定性渲染指令；未发现本次路径有标准NLE时间线导出。"
+    },
+    {
+      "repo": "Anil-matcha/AI-Youtube-Shorts-Generator",
+      "url": "https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator",
+      "category": "真实长视频AI高光+竖屏裁切；API/半本地双模式",
+      "is_template": false,
+      "beat_capability": "高光按转录文本及LLM评分；人脸跟踪裁切不是卡点，未见BPM/beat切点实现。",
+      "license": "MIT",
+      "stars": 5755,
+      "pushed_at": "2026-11-03T09:00:53Z",
+      "sha": "48170d4de5849b1889254d78e0f354c3abb61ab9",
+      "sampled_core_commit": {
+        "repo": "Anil-matcha/AI-Youtube-Shorts-Generator",
+        "path": "shorts_generator/pipeline.py",
+        "sha": "cf3e4f09291ece204f00a57cac5979d8fb7a5097",
+        "date": "2026-05-09T15:51:26Z",
+        "message": "add gemini local llm and local caches"
+      },
+      "evidence": [
+        {
+          "claim": "两模式真实管线与无语音限制",
+          "path": "shorts_generator/pipeline.py",
+          "url": "https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator/blob/48170d4de5849b1889254d78e0f354c3abb61ab9/shorts_generator/pipeline.py#L16",
+          "detail": "_run_local先转写→get_highlights→crop_highlights_local，结果包含transcript/highlights/shorts；空segments报错。"
+        },
+        {
+          "claim": "local仍调用远端LLM",
+          "path": "shorts_generator/local/llm.py",
+          "url": "https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator/blob/48170d4de5849b1889254d78e0f354c3abb61ab9/shorts_generator/local/llm.py#L12",
+          "detail": "OpenAI(api_key) chat.completions或Google genai.Client；仅openai/gemini。"
+        },
+        {
+          "claim": "本地人脸裁切",
+          "path": "shorts_generator/local/clipper.py",
+          "url": "https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator/blob/48170d4de5849b1889254d78e0f354c3abb61ab9/shorts_generator/local/clipper.py#L41",
+          "detail": "Haar最大人脸+平滑裁切，输出静音视频后用FFmpeg合并音轨，未见字幕烧录。"
+        },
+        {
+          "claim": "本地CPU/CUDA切换",
+          "path": "shorts_generator/local/transcriber.py",
+          "url": "https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator/blob/48170d4de5849b1889254d78e0f354c3abb61ab9/shorts_generator/local/transcriber.py#L120",
+          "detail": "WhisperModel，cuda float16、cpu int8，并写SRT缓存。"
+        },
+        {
+          "claim": "本地文件输入入口",
+          "path": "shorts_generator/local/downloader.py",
+          "url": "https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator/blob/48170d4de5849b1889254d78e0f354c3abb61ab9/shorts_generator/local/downloader.py#L62",
+          "detail": "Path存在则直接用本地文件，跳过YouTube下载。"
+        }
+      ],
+      "dependencies": "默认MuAPI远端下载/Whisper/LLM/裁切，按服务调用成本计。--mode local使用faster-whisper、FFmpeg、OpenCV、yt-dlp，但LLM仍必须OpenAI或Gemini API。CPU int8或CUDA float16；本地base等模型可选，无统一最低显存。",
+      "windows": "标准Python本地路径，_resolve_local_path支持直接Windows文件路径；需FFmpeg在PATH和相应Python wheels。未实测中文路径/音画同步/人脸追踪质量。",
+      "limitations": [
+        "README使用free不表示零运行费；默认MuAPI，以及local分支LLM均可能计费。",
+        "local名称不表示完全离线；代码call_local_llm只分派OpenAI/Gemini。",
+        "本次local clipper只见截取+人脸裁切+音轨合并，未见把缓存SRT烧录为成片字幕的步骤。",
+        "无语音片段时pipeline直接抛错，不适合无台词情绪片作为默认路径。"
+      ],
+      "recommendation": "想看清短小Python管线、接受LLM API并自行扩展字幕/剪辑逻辑的开发者可选；零基础一体使用优先FunClip/SupoClip。",
+      "audience": "要把本地访谈转成若干竖屏高光、需要JSON供后续自动化的Python开发者。",
+      "output": "MP4或远端URL、候选分数/理由/起止时间与transcript JSON；local转录缓存SRT；不是NLE时间线。"
+    },
+    {
+      "repo": "poseljacob/agentic-video-editor",
+      "url": "https://github.com/poseljacob/agentic-video-editor",
+      "category": "真实多素材目录→AI广告组装；视频理解+EditPlan",
+      "is_template": true,
+      "beat_capability": "YAML中的pacing、music mood和广告结构是LLM指令；add_music只混音，本次未见BPM/节拍检测或按拍点生成剪辑的实现。",
+      "license": "MIT",
+      "stars": 507,
+      "pushed_at": "2026-04-14T20:09:43Z",
+      "sha": "47248b577046b0563e57e78edad86a3106c6faab",
+      "sampled_core_commit": {
+        "repo": "poseljacob/agentic-video-editor",
+        "path": "src/tools/analyze.py",
+        "sha": "d7a910799ded1c713a2ded6a5955ce14deee88cf",
+        "date": "2026-04-14T03:43:33Z",
+        "message": "Initial open source release\n\nAI-powered video editor that turns raw footage and a creative brief into\na polished ad using an ensemble of AI agents (Director, TrimRefiner,\nEditor, Reviewer) powered by Google Gemini and FFmpeg.\n\nIncludes:\n- Python backend with pipeline system and agent orchestration\n- FastAPI REST API with WebSocket streaming\n- Next.js frontend (AVE Studio) with NLE-style editor UI\n- YAML-driven pipeline manifests and style templates\n- Full test suite"
+      },
+      "evidence": [
+        {
+          "claim": "实际视频理解输入",
+          "path": "src/tools/analyze.py",
+          "url": "https://github.com/poseljacob/agentic-video-editor/blob/47248b577046b0563e57e78edad86a3106c6faab/src/tools/analyze.py#L267",
+          "detail": "analyze_footage调用client.files.upload或Part.from_bytes，并generate_content([video_part,prompt])；不是仅文字脚本。"
+        },
+        {
+          "claim": "真实用户文件夹预处理",
+          "path": "src/pipeline/preprocess.py",
+          "url": "https://github.com/poseljacob/agentic-video-editor/blob/47248b577046b0563e57e78edad86a3106c6faab/src/pipeline/preprocess.py#L190",
+          "detail": "递归视频、ContentDetector切镜头、Whisper词级时间戳、写FootageIndex；后段WhisperModel(cpu,int8)。"
+        },
+        {
+          "claim": "明确可复用剪辑计划",
+          "path": "src/models/schemas.py",
+          "url": "https://github.com/poseljacob/agentic-video-editor/blob/47248b577046b0563e57e78edad86a3106c6faab/src/models/schemas.py#L50",
+          "detail": "EditPlanEntry有shot_id/start_trim/end_trim/position/text_overlay/transition；EditPlan另有music_path。"
+        },
+        {
+          "claim": "结构模板可改入口",
+          "path": "styles/dtc-testimonial.yaml",
+          "url": "https://github.com/poseljacob/agentic-video-editor/blob/47248b577046b0563e57e78edad86a3106c6faab/styles/dtc-testimonial.yaml#L1",
+          "detail": "30秒hook/problem/solution/social_proof/CTA结构和duration、text_overlay、music、pacing。"
+        },
+        {
+          "claim": "音乐只混音证据",
+          "path": "src/tools/edit.py",
+          "url": "https://github.com/poseljacob/agentic-video-editor/blob/47248b577046b0563e57e78edad86a3106c6faab/src/tools/edit.py#L373",
+          "detail": "add_music用volume与amix=duration=first；没有音乐节拍检测。"
+        }
+      ],
+      "dependencies": "Python>=3.11、Google ADK/genai API、PySceneDetect/OpenCV、faster-whisper、FFmpeg/MoviePy。Gemini视频理解会上传或内联用户视频；默认preprocess用Whisper CPU int8，无本地GPU硬要求，但远端推理可能计费。",
+      "windows": "README有Windows venv激活说明；FFmpeg/Python依赖需安装。源码可落地倾向较好，未做Windows实跑。",
+      "limitations": [
+        "v0.1.0，源码历史与产品成熟度有限；README明确CLI为主，Studio网页UI仍WIP。",
+        "预处理默认description为空；真正视觉判断由Director调analyze_footage工具执行，不能把预处理本身称完整视觉理解。",
+        "YAML风格是给LLM的结构化指导，不是确定性像素级成片模板，镜头选择/时长执行需验证。",
+        "本地search_moments只是token重叠排序，不是向量检索模型。"
+      ],
+      "recommendation": "AI看自己的多段产品素材并按广告brief组装的研究/二开候选；模板入口清楚，但成熟度低于可直接交付承诺。",
+      "audience": "愿意用Gemini API、想研究镜头索引→导演选镜头→审片反馈循环的开发者。",
+      "output": "footage_index.json、EditPlan（shot_id/trim/order/text_overlay/music）、迭代MP4与review分数；未发现标准NLE交换格式导出。"
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "category": "文案/主题驱动的素材合成；支持本地素材与生成素材",
+      "is_template": true,
+      "beat_capability": "所审查主渲染路径按max_clip_duration固定分段、随机/顺序挑素材以铺满配音；BGM是混音，未见BPM/beat决定切点。不能称已验证音乐卡点。",
+      "license": "MIT",
+      "stars": 138544,
+      "pushed_at": "2026-11-04T02:11:21Z",
+      "sha": "c8dbf96e9dfee43b30f7c3f440175d6bd4de61de",
+      "sampled_core_commit": {
+        "repo": "harry0703/MoneyPrinterTurbo",
+        "path": "app/services/video.py",
+        "sha": "c8dbf96e9dfee43b30f7c3f440175d6bd4de61de",
+        "date": "2026-11-04T02:11:21Z",
+        "message": "fix(video): stop keys typed into the console window from cutting the video short or stalling the clip join\n\nThe FFmpeg that joins the clips of every video ran without -nostdin, so\nit read keys from the console it inherits: the webui.bat window, or the\nconsole of main.py or cli.py. A \"q\" typed there stops the join with exit\ncode 0, and the task finishes with a video whose footage ends at that\npoint, followed by a black frame with subtitles for the rest of the\nnarration. A \"c\" opens FFmpeg's \"Enter command\" prompt, and the join\nthen waits for Enter until ffmpeg_concat_timeout_seconds (3600 s by\ndefault) fails the task. On Windows, a key typed into the window while\nnothing reads it, even before the task starts, waits there and is read\nwhen the join starts.\n\nThe other FFmpeg commands in app/ that process media (voice.py, bgm.py,\nmaterial_upload.py, sonilo.py, elevenlabs_music.py, video_project.py)\nalready pass -nostdin, and MoviePy starts its FFmpeg processes with\nstdin set to DEVNULL or a pipe."
+      },
+      "evidence": [
+        {
+          "claim": "主题生成流程而非默认素材理解",
+          "path": "app/services/task.py",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/c8dbf96e9dfee43b30f7c3f440175d6bd4de61de/app/services/task.py#L1727",
+          "detail": "先generate_script，非local才generate_terms，然后generate_audio并准备素材/合成。"
+        },
+        {
+          "claim": "真实本地素材入口",
+          "path": "app/services/task.py",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/c8dbf96e9dfee43b30f7c3f440175d6bd4de61de/app/services/task.py#L738",
+          "detail": "video_source==local时preprocess_materials，clip_duration取配置；证明能用本地素材但不自动证明理解素材。"
+        },
+        {
+          "claim": "固定时长分段",
+          "path": "app/services/video.py",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/c8dbf96e9dfee43b30f7c3f440175d6bd4de61de/app/services/video.py#L983",
+          "detail": "combine_videos取max_clip_duration；1057起按source_clip_duration切段，231起random模式shuffle优先独立素材。"
+        },
+        {
+          "claim": "新增本地可重渲染工程",
+          "path": "app/services/video_project.py",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/c8dbf96e9dfee43b30f7c3f440175d6bd4de61de/app/services/video_project.py#L292",
+          "detail": "create_revision接收prepared local media的scenes manifest，写project.json和revision spec；不调AI选镜头。"
+        },
+        {
+          "claim": "TwelveLabs实际用途",
+          "path": "app/services/twelvelabs.py",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/c8dbf96e9dfee43b30f7c3f440175d6bd4de61de/app/services/twelvelabs.py#L1",
+          "detail": "模块明示Marengo重排搜索词、Pegasus描述/QA公开URL视频；可选且无key时no-op。"
+        }
+      ],
+      "dependencies": "Python>=3.11、Streamlit/FastAPI、MoviePy2、FFmpeg、字幕/语音及多种可选云提供商。可配置本地LLM或提供现成文案/音频；Pexels/Pixabay/生成素材/TTS等依所选服务需key/可能付费。默认并不要求本地视频生成GPU；本地Whisper按模型耗内存。",
+      "windows": "README有Windows发布/批处理，近期核心修复直接针对Windows控制台FFmpeg；video_project锁实现对nt用msvcrt分支。仍未执行验证。",
+      "limitations": [
+        "支持上传本地素材≠理解素材内容、自动找动作高潮；已审主路径没有此类自动语义选镜头证据。",
+        "可选TwelveLabs实现是搜索词语义重排及成片/素材描述QA，不能混同用户原片高光定位。",
+        "新增video_project本地revision manifest可改场景/素材/渲染设置，但不是通用NLE多轨编辑器。",
+        "仓库MIT；库存素材、声音、音乐及云模型输出依各来源条款，不能随源码许可推导全部可商用。"
+      ],
+      "recommendation": "做主题解说/科普/营销批量合成值得选；用户核心若是音乐情绪混剪或自动挑自己素材高光，优先其他项目。",
+      "audience": "有主题文案、愿意用配音和库存/本地素材批量出解说短视频的人。",
+      "output": "MP4、SRT、任务产物；可选本地video_project保存project.json/spec.json/revisions及可重渲染设置，未在该路径见标准NLE时间线导出。"
+    },
+    {
+      "repo": "RayVentura/ShortGPT",
+      "url": "https://github.com/RayVentura/ShortGPT",
+      "category": "文案/配音+背景库存素材自动合成框架",
+      "is_template": true,
+      "beat_capability": "content_short_engine选随机背景片段覆盖配音，background_music步骤循环+normalize+调音量；未见音乐拍点分析。",
+      "license": "MIT",
+      "stars": 8105,
+      "pushed_at": "2025-02-10T19:33:18Z",
+      "sha": "3df4e0f7a422bf7386565d498bf4521a2544c614",
+      "sampled_core_commit": {
+        "repo": "RayVentura/ShortGPT",
+        "path": "shortGPT/engine/content_short_engine.py",
+        "sha": "38e776b079317ff7acb3ea09440d48d2d3b17e7f",
+        "date": "2025-01-13T09:08:48Z",
+        "message": "Fixing & upgrading project. Openai gpt3.5 -> gpt4-o-mini. Moviepy v1 -> v2 . Fonts: Roboto -> Luckiest guy"
+      },
+      "evidence": [
+        {
+          "claim": "主流程是生成文案再合成",
+          "path": "shortGPT/engine/content_short_engine.py",
+          "url": "https://github.com/RayVentura/ShortGPT/blob/3df4e0f7a422bf7386565d498bf4521a2544c614/shortGPT/engine/content_short_engine.py#L36",
+          "detail": "stepDict: generateScript→voice→captions→image搜索→background→render。"
+        },
+        {
+          "claim": "随机背景片段不是语义高光",
+          "path": "shortGPT/engine/content_short_engine.py",
+          "url": "https://github.com/RayVentura/ShortGPT/blob/3df4e0f7a422bf7386565d498bf4521a2544c614/shortGPT/engine/content_short_engine.py#L109",
+          "detail": "_prepareBackgroundAssets按配音时长调用extract_random_clip_from_video。"
+        },
+        {
+          "claim": "JSON步骤的模板参数入口",
+          "path": "shortGPT/editing_framework/editing_engine.py",
+          "url": "https://github.com/RayVentura/ShortGPT/blob/3df4e0f7a422bf7386565d498bf4521a2544c614/shortGPT/editing_framework/editing_engine.py#L48",
+          "detail": "addEditingStep读editing_steps JSON并注入参数；dumpEditingSchema可取内部schema。"
+        },
+        {
+          "claim": "背景音乐只有循环/归一化/音量",
+          "path": "shortGPT/editing_framework/editing_steps/background_music.json",
+          "url": "https://github.com/RayVentura/ShortGPT/blob/3df4e0f7a422bf7386565d498bf4521a2544c614/shortGPT/editing_framework/editing_steps/background_music.json#L1",
+          "detail": "loop_background_music、normalize_audio、volume_percentage三个action；没有拍点输入。"
+        },
+        {
+          "claim": "依赖年代和重度",
+          "path": "requirements.txt",
+          "url": "https://github.com/RayVentura/ShortGPT/blob/3df4e0f7a422bf7386565d498bf4521a2544c614/requirements.txt#L1",
+          "detail": "torch、torchaudio、whisper-timestamped、openai==1.37.0、moviepy==2.1.2等。"
+        }
+      ],
+      "dependencies": "Python、Gradio、MoviePy2.1.2、torch/whisper-timestamped、OpenAI、可选ElevenLabs/EdgeTTS/Pexels/Bing素材。非零运行费保证；本地转写有CPU/GPU资源需求，未给统一最低显存。",
+      "windows": "README建议Colab或Docker；Windows更适合Docker/WSL，未实测。依赖与文档年代较旧，适合研究框架而非新手首装。",
+      "limitations": [
+        "最新仓库push为2025-02-10，抽查核心文件提交2025-01-13；相对当前日期明显停缓。",
+        "ContentTranslationEngine可翻译自己的视频，但不是高光提取/音乐情绪混剪。",
+        "Editing JSON是内部schema，不应宣传为已兼容Premiere/Resolve等标准时间线。"
+      ],
+      "recommendation": "保留作AI剪辑DSL/参数模板的学习对照；当前落地优先级低于更活跃方案。",
+      "audience": "研究LLM剪辑指令和素材合成框架的开发者。",
+      "output": "MP4、文字metadata、内部Editing JSON schema/TinyDB状态；未发现标准NLE导出。"
+    }
+  ],
+  "excluded": [
+    {
+      "repo": "VadooAI/ClipAnything",
+      "reason": "种子仓库API请求返回Not Found；8条搜索中的ClipAnything专搜只召回提及它的榜单/其他项目，未核实官方可复用源码。不能把商业产品宣传页当开源实现。"
+    },
+    {
+      "repo": "gitroomhq/postiz-app",
+      "reason": "高星但主要是社交媒体排期发布，非本次用户素材剪辑引擎。"
+    },
+    {
+      "repo": "QwenAudio/CosyVoice",
+      "reason": "语音生成模型；可作配音组件，不是现成用户素材剪辑方案。"
+    },
+    {
+      "repo": "MeiGen-AI/InfiniteTalk",
+      "reason": "语音驱动视频生成，目标是生成画面；非已有素材剪辑引擎。"
+    },
+    {
+      "repo": "yihui-dev/awesome-opus5-5-videos",
+      "reason": "视频展示与提示词收集；不能替代实际可复用剪辑实现。"
+    },
+    {
+      "repo": "21cncstudio/project_aura",
+      "reason": "空气质量ESP32项目，关键词噪声。"
+    },
+    {
+      "repo": "Anil-matcha/ai-clipping-comfyui",
+      "reason": "搜索description明确server-side经muapi.ai；可做服务节点封装候选，不作为完全本地开放高光引擎重复推荐。本次未深审其源码。"
+    }
+  ],
+  "dedup": [
+    {
+      "repo": "SamurAIGPT/AI-Youtube-Shorts-Generator",
+      "canonical": "Anil-matcha/AI-Youtube-Shorts-Generator",
+      "reason": "gh api旧路径返回canonical full_name与同一repo id=821280833；是旧地址重定向，不计独立项目。"
+    },
+    {
+      "repo": "Asad-Ismail/MoneyPrinterTurbo-Extended",
+      "canonical": "harry0703/MoneyPrinterTurbo",
+      "reason": "描述明确extended implementation，作为衍生家族记录，不重复计主实现。GitHub metadata fork=false，故不能声称是GitHub fork或逐文件相同；本次未做源码hash同源鉴定。"
+    },
+    {
+      "repo": "modelscope/FunClip",
+      "canonical": "modelscope/FunClip",
+      "reason": "与其他访谈选段方案功能类似不等于同源；metadata fork=false，保留独立实现。"
+    }
+  ]
+}

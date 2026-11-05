@@ -1,0 +1,48 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "import_assets",
+      "result": {
+        "ok": true,
+        "imported": [
+          {
+            "id": "0b8e8057-7120-496c-94f6-6911784c7c44",
+            "name": "FX-title.mp4",
+            "kind": "video",
+            "src": "/media/uploads/8b64b6ba-b8e2-4dd7-aaa9-c59f988ed6c0.mp4"
+          },
+          {
+            "id": "36a7e365-b980-450d-bbba-632675d7e56d",
+            "name": "FX-triptych.mp4",
+            "kind": "video",
+            "src": "/media/uploads/73e49a22-64da-480d-a0ec-7ee419867f2c.mp4"
+          },
+          {
+            "id": "9a2e907e-a3c9-4ab2-b0df-f76b669e47fd",
+            "name": "FX-end.mp4",
+            "kind": "video",
+            "src": "/media/uploads/6b8d9b6d-0115-4724-b780-aeb758a2b80f.mp4"
+          }
+        ],
+        "duplicateCount": 0,
+        "skippedDuplicates": false
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "74c12aa0-2b25-4400-b2a6-a4dbb831cc0e",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-f00b6a3e",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_9f4b19ec39b3454c",
+    "editorUrl": "http://localhost:5199/#/editor/8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "updatedAt": "2026-11-05T03:02:39.105Z"
+  }
+}

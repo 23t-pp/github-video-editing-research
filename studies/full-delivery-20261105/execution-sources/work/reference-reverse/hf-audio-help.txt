@@ -1,0 +1,32 @@
+Measure how sound moves in time: where it lands, its hits, loudness and silence (hyperframes audio v0.8.216)
+
+USAGE hyperframes audio [OPTIONS] [FILES]
+
+ARGUMENTS
+
+  FILES    Audio or video files to analyze
+
+OPTIONS
+
+                              --dir=<dir>    Project directory, for film queries (default: current)                                                                            
+                      --element=<element>    One audio or video clip of the film: #id, hf:id or audio/N                                                                        
+                                --at=<at>    Every sound playing at this film second                                                                                           
+                          --range=<range>    Every sound playing in start,end film seconds                                                                                     
+                    --place-at=<place_at>    For one file not in the film yet: the film second it would start at                                                               
+  --skip-file-seconds=<skip_file_seconds>    With --place-at: seconds cut from the start of the file                                                                           
+                            --only=<only>    Capabilities to measure (default kind,moments,onsets,loudness,silence,envelope; also beats,downbeats,bpm,sections,describe)       
+                      --quality=<quality>    local (this machine, the default), best (also uploads to HeyGen's audio services, which may bill your account), fast (signal only)
+                    --provider=<provider>    Pin capabilities to providers: onsets=signal,...                                                                                  
+            --onset-method=<onset_method>    spectral-flux (default) or energy                                                                                                 
+                  --threshold=<threshold>    Onset strength floor, 0–1 (default 0.1)                                                                                           
+                            --band=<band>    Measure onsets and envelope in lo,hi Hz only                                                                                      
+                        --hop-ms=<hop_ms>    Envelope hop in ms (default: about 2,000 values per item)                                                                         
+              --onset-ratio=<onset_ratio>    Moments: onset is where RMS first reaches this share of the peak (0.2)                                                            
+                      --tail-db=<tail_db>    Moments: the tail ends this many dB under the peak (-40)                                                                          
+                --silence-db=<silence_db>    Silence below this level in dBFS (-50)                                                                                            
+                                   --full    Include each capability's provider ladder (Default: false)                                                                        
+                                   --read    Read one whole recording as voice, effect and music lines (--range picks what is shown) (Default: false)                          
+                --transcript=<transcript>    With --read: the recording's transcript (default <file>.transcript.json)                                                          
+                                   --json    Output as JSON (Default: false)                                                                                                   
+
+

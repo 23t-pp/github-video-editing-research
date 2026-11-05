@@ -1,0 +1,155 @@
+{
+  "verified_at": "2026-11-04T14:32:26.196Z",
+  "videos": 10,
+  "segments": 84,
+  "evidence_links": 110,
+  "evidence_images": 65,
+  "coverage": [
+    {
+      "id": "V01",
+      "covered_to": 32.466667,
+      "segments": 6
+    },
+    {
+      "id": "V02",
+      "covered_to": 24.766667,
+      "segments": 8
+    },
+    {
+      "id": "V03",
+      "covered_to": 30,
+      "segments": 13
+    },
+    {
+      "id": "V04",
+      "covered_to": 21.500998,
+      "segments": 6
+    },
+    {
+      "id": "V05",
+      "covered_to": 23.133333,
+      "segments": 10
+    },
+    {
+      "id": "V06",
+      "covered_to": 130.048,
+      "segments": 11
+    },
+    {
+      "id": "V07",
+      "covered_to": 30.04,
+      "segments": 12
+    },
+    {
+      "id": "V08",
+      "covered_to": 32.733333,
+      "segments": 6
+    },
+    {
+      "id": "V09",
+      "covered_to": 10.733333,
+      "segments": 6
+    },
+    {
+      "id": "V10",
+      "covered_to": 18.069002,
+      "segments": 6
+    }
+  ],
+  "html_js_syntax": "pass",
+  "markdown_local_links": "pass",
+  "http_health": {
+    "app": "reference-editing-study",
+    "media_count": 10,
+    "available_ids": [
+      "V01",
+      "V02",
+      "V03",
+      "V04",
+      "V05",
+      "V06",
+      "V07",
+      "V08",
+      "V09",
+      "V10"
+    ]
+  },
+  "http_range": [
+    {
+      "id": "V01",
+      "range_status": 206,
+      "bytes": 128
+    },
+    {
+      "id": "V02",
+      "range_status": 206,
+      "bytes": 128
+    },
+    {
+      "id": "V03",
+      "range_status": 206,
+      "bytes": 128
+    },
+    {
+      "id": "V04",
+      "range_status": 206,
+      "bytes": 128
+    },
+    {
+      "id": "V05",
+      "range_status": 206,
+      "bytes": 128
+    },
+    {
+      "id": "V06",
+      "range_status": 206,
+      "bytes": 128
+    },
+    {
+      "id": "V07",
+      "range_status": 206,
+      "bytes": 128
+    },
+    {
+      "id": "V08",
+      "range_status": 206,
+      "bytes": 128
+    },
+    {
+      "id": "V09",
+      "range_status": 206,
+      "bytes": 128
+    },
+    {
+      "id": "V10",
+      "range_status": 206,
+      "bytes": 128
+    }
+  ],
+  "http_guards": [
+    {
+      "url": "/local-config.json",
+      "status": 403
+    },
+    {
+      "url": "/media/V99",
+      "status": 404
+    },
+    {
+      "url": "/media/V01",
+      "status": 416
+    }
+  ],
+  "replica_rendered": false,
+  "audio_listened": false,
+  "browser_verification": {
+    "frame_step_30fps": "6.400 -> 6.433, displayed frame 194",
+    "evidence_images": "V07 loaded",
+    "console_errors": 0,
+    "frame_step_25fps": "25.700 -> 25.720, displayed frame 644",
+    "loop": "V10 6.4-8.9 observed wrap",
+    "screenshot": "学习页预览.png",
+    "rate_after_switch": "V07 0.25",
+    "video_playback": "V10 readyState=4, no error, rate=0.25"
+  }
+}

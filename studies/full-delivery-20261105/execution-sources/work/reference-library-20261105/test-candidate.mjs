@@ -1,0 +1,4 @@
+import fs from 'node:fs';import path from 'node:path';import {spawnSync} from 'node:child_process';
+const root=import.meta.dirname,ff='C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe',source=path.join(root,'audio-work/stems/V06.stereo_(Instrumental)_UVR_MDXNET_KARA_2.wav');
+const variants=[['empty','frag_keyframe+empty_moov+default_base_moof'],['delay','frag_keyframe+delay_moov+default_base_moof']];
+for(const [id,flags] of variants){const r=spawnSync(ff,['-v','error','-i',source,'-c:a','aac','-b:a','192k','-movflags',flags,'-frag_duration','1000000','-f','mp4','pipe:1'],{maxBuffer:64*1024*1024,windowsHide:true});const f=path.join(root,`candidate-test-${id}.m4a`);fs.writeFileSync(f,r.stdout);const v=spawnSync(ff,['-v','error','-xerror','-i',f,'-f','null','-'],{maxBuffer:4*1024*1024,windowsHide:true});console.log(JSON.stringify({id,encode:r.status,bytes:r.stdout.length,decode:v.status,stderr:v.stderr.toString().slice(-500)}));}

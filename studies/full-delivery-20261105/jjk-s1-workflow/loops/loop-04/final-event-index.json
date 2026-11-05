@@ -1,0 +1,494 @@
+{
+  "plan": "loops/loop-04/plan.json",
+  "planSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+  "eventCount": 16,
+  "scope": "16 actual bindings, state read from external execution/review; original14 stable IDs plusXCHASE and tail group",
+  "events": [
+    {
+      "id": "opening-slam",
+      "kind": "typeEvents",
+      "actualBinding": "opening-slam",
+      "start": 4,
+      "end": 40,
+      "techniqueIds": [
+        "T10"
+      ],
+      "referenceIds": [
+        "V02"
+      ],
+      "description": "连续轮廓与九层厚度原创主标题，中文独立成行",
+      "mediaClocks": [],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "palm-match-a",
+      "kind": "native_match",
+      "actualBinding": "native_match",
+      "start": 13,
+      "end": 31,
+      "techniqueIds": [
+        "T01"
+      ],
+      "referenceIds": [
+        "V20"
+      ],
+      "description": "裸切掌心焦点接力，宏观手势裁切取舍已披露",
+      "mediaClocks": [
+        {
+          "shotId": "S001",
+          "assetId": "S001",
+          "preparedStartFrame": 12,
+          "outputRange": [
+            0,
+            13
+          ]
+        },
+        {
+          "shotId": "S002",
+          "assetId": "S002",
+          "preparedStartFrame": 12,
+          "outputRange": [
+            13,
+            31
+          ]
+        }
+      ],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "palm-match-b",
+      "kind": "native_match",
+      "actualBinding": "native_match",
+      "start": 31,
+      "end": 45,
+      "techniqueIds": [
+        "T01"
+      ],
+      "referenceIds": [
+        "V20"
+      ],
+      "description": "掌心落点延续至第三镜，效果不能替代焦点匹配",
+      "mediaClocks": [
+        {
+          "shotId": "S002",
+          "assetId": "S002",
+          "preparedStartFrame": 12,
+          "outputRange": [
+            13,
+            31
+          ]
+        },
+        {
+          "shotId": "S003",
+          "assetId": "S003",
+          "preparedStartFrame": 12,
+          "outputRange": [
+            31,
+            45
+          ]
+        }
+      ],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "archive-screen",
+      "kind": "archiveScreen",
+      "actualBinding": "archiveScreen",
+      "start": 176,
+      "end": 312,
+      "techniqueIds": [
+        "T13"
+      ],
+      "referenceIds": [
+        "V20"
+      ],
+      "description": "原创档案监视器外壳保持，真实内片切换；不冒称跟踪动画实体手机",
+      "mediaClocks": [
+        {
+          "shotId": "S011",
+          "assetId": "S011",
+          "preparedStartFrame": 12
+        },
+        {
+          "shotId": "S012",
+          "assetId": "S012",
+          "preparedStartFrame": 12
+        },
+        {
+          "shotId": "S013",
+          "assetId": "S013",
+          "preparedStartFrame": 12
+        },
+        {
+          "shotId": "S014",
+          "assetId": "S014",
+          "preparedStartFrame": 12
+        }
+      ],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "triptych-weapon",
+      "kind": "layouts",
+      "actualBinding": "weapon-triptych",
+      "start": 561,
+      "end": 585,
+      "techniqueIds": [
+        "T04",
+        "T05"
+      ],
+      "referenceIds": [
+        "V16",
+        "V13"
+      ],
+      "description": "独立动态卡片三联，实际24帧，不沿用旧51帧意图",
+      "mediaClocks": [
+        {
+          "assetId": "S025",
+          "preparedFrameAtEventStart": 12
+        },
+        {
+          "assetId": "S026",
+          "preparedFrameAtEventStart": 12
+        },
+        {
+          "assetId": "S028",
+          "preparedFrameAtEventStart": 12
+        }
+      ],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "palm-early",
+      "kind": "foregrounds",
+      "actualBinding": "palm-before-weapon",
+      "start": 612,
+      "end": 638,
+      "techniqueIds": [
+        "T07"
+      ],
+      "referenceIds": [
+        "V17"
+      ],
+      "description": "青掌真动态RGBA在漫画字前，右袖保持出画",
+      "mediaClocks": [
+        {
+          "assetId": "XPALM",
+          "rgbaPattern": "assets/alpha/XPALM/%06d.png",
+          "preparedFrameAtEventStart": 2
+        }
+      ],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "strike-type",
+      "kind": "typeEvents",
+      "actualBinding": "strike-type",
+      "start": 612,
+      "end": 638,
+      "techniqueIds": [
+        "T10"
+      ],
+      "referenceIds": [
+        "V02"
+      ],
+      "description": "上方英文、左下中文、下方青掌，完整阅读窗口待新片验收",
+      "mediaClocks": [],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "eyes-slit",
+      "kind": "layouts",
+      "actualBinding": "paired-eyes",
+      "start": 816,
+      "end": 830,
+      "techniqueIds": [
+        "T05"
+      ],
+      "referenceIds": [
+        "V17"
+      ],
+      "description": "前14帧真实稳定眼相位，蓝侧+10；830回基础微笑、842接动作",
+      "mediaClocks": [
+        {
+          "assetId": "S009",
+          "preparedFrameAtEventStart": 12
+        },
+        {
+          "assetId": "S055",
+          "preparedFrameAtEventStart": 12
+        }
+      ],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "energy-edge",
+      "kind": "layouts",
+      "actualBinding": "palm-energy-paper",
+      "start": 970,
+      "end": 996,
+      "techniqueIds": [
+        "T05",
+        "T07",
+        "T17"
+      ],
+      "referenceIds": [
+        "V17",
+        "V11"
+      ],
+      "description": "裂条实际N054侧脸，另有XPALM前景与附着纤维电弧；不是空黑手RGB条",
+      "mediaClocks": [
+        {
+          "assetId": "N054",
+          "preparedFrameAtEventStart": 12
+        },
+        {
+          "assetId": "XPALM",
+          "rgbaPattern": "assets/alpha/XPALM/%06d.png",
+          "preparedFrameAtEventStart": 2,
+          "zOrder": "foreground over N054 strip"
+        }
+      ],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "leaves-to-technique",
+      "kind": "layouts",
+      "actualBinding": "same-source-leaves",
+      "start": 1062,
+      "end": 1074,
+      "techniqueIds": [
+        "T03"
+      ],
+      "referenceIds": [
+        "V05"
+      ],
+      "description": "同源7叶共钟F0..11，1071起全归位，1074接F12",
+      "mediaClocks": [
+        {
+          "assetId": "S045",
+          "preparedFrameAtEventStart": 0
+        }
+      ],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "limitless-type",
+      "kind": "typeEvents",
+      "actualBinding": "limitless-type",
+      "start": 1126,
+      "end": 1178,
+      "techniqueIds": [
+        "T10"
+      ],
+      "referenceIds": [
+        "V02"
+      ],
+      "description": "右上天空柱面轮廓字，给五条合掌让位",
+      "mediaClocks": [],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "clap-match",
+      "kind": "native_match",
+      "actualBinding": "native_match",
+      "start": 1126,
+      "end": 1178,
+      "techniqueIds": [
+        "T01"
+      ],
+      "referenceIds": [
+        "V20"
+      ],
+      "description": "手指/合掌动作组织，字幕不盖学习主体",
+      "mediaClocks": [
+        {
+          "shotId": "S046",
+          "assetId": "S046",
+          "preparedStartFrame": 12,
+          "outputRange": [
+            1100,
+            1126
+          ]
+        },
+        {
+          "shotId": "S047",
+          "assetId": "S047",
+          "preparedStartFrame": 12,
+          "outputRange": [
+            1126,
+            1152
+          ]
+        },
+        {
+          "shotId": "S048",
+          "assetId": "S048",
+          "preparedStartFrame": 12,
+          "outputRange": [
+            1152,
+            1178
+          ]
+        }
+      ],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "return-windows",
+      "kind": "layouts",
+      "actualBinding": "memory-windows",
+      "start": 1256,
+      "end": 1282,
+      "techniqueIds": [
+        "T04"
+      ],
+      "referenceIds": [
+        "V13"
+      ],
+      "description": "小窗记忆片回收，独立于主线重复统计",
+      "mediaClocks": [
+        {
+          "assetId": "S053",
+          "preparedFrameAtEventStart": 12
+        },
+        {
+          "assetId": "S031",
+          "preparedFrameAtEventStart": 12
+        }
+      ],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "final-title",
+      "kind": "tailcard",
+      "actualBinding": "tailcard",
+      "start": 1416,
+      "end": 1440,
+      "techniqueIds": [
+        "T18"
+      ],
+      "referenceIds": [
+        "V20"
+      ],
+      "description": "原创小字尾卡与最后12帧渐黑，非大字替代动作收尾",
+      "mediaClocks": [],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "yuji-runs-ahead",
+      "kind": "foregrounds",
+      "actualBinding": "yuji-runs-ahead",
+      "start": 1360,
+      "end": 1386,
+      "techniqueIds": [
+        "T07"
+      ],
+      "referenceIds": [
+        "V17"
+      ],
+      "description": "真实跑动上半身跨场景入场，腰线贴底；不称门户或同源连续handoff",
+      "mediaClocks": [
+        {
+          "assetId": "XCHASE",
+          "rgbaPattern": "assets/alpha/XCHASE/%06d.png",
+          "preparedFrameAtEventStart": 2
+        }
+      ],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    },
+    {
+      "id": "tail-action-release",
+      "kind": "tailActions",
+      "actualBinding": "tailActions",
+      "start": 1282,
+      "end": 1360,
+      "techniqueIds": [
+        "T01",
+        "T16"
+      ],
+      "referenceIds": [
+        "V20"
+      ],
+      "description": "8f眼神→真换拳/扭肩→原生红钉旋转→环境冲击浪→真实奔跑；原CG不冒称本轮制作",
+      "mediaClocks": [
+        {
+          "shotId": "S052",
+          "assetId": "N052",
+          "preparedStartFrame": 12,
+          "outputRange": [
+            1256,
+            1282
+          ]
+        },
+        {
+          "shotId": "S053",
+          "assetId": "N053",
+          "preparedStartFrame": 12,
+          "outputRange": [
+            1282,
+            1290
+          ]
+        },
+        {
+          "shotId": "R4A01",
+          "assetId": "T062",
+          "preparedStartFrame": 0,
+          "outputRange": [
+            1290,
+            1312
+          ]
+        },
+        {
+          "shotId": "R4A02",
+          "assetId": "T091",
+          "preparedStartFrame": 0,
+          "outputRange": [
+            1312,
+            1336
+          ]
+        },
+        {
+          "shotId": "R4A03",
+          "assetId": "T007",
+          "preparedStartFrame": 0,
+          "outputRange": [
+            1336,
+            1360
+          ]
+        }
+      ],
+      "status": "frozen_input_execution_state_external",
+      "executionEvidence": "loops/loop-04/execution.json",
+      "independentReviewEvidence": "loops/loop-04/review.json"
+    }
+  ]
+}

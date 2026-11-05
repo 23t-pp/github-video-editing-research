@@ -1,0 +1,31 @@
+from pathlib import Path
+import json
+p=Path('outputs/jjk-edge-v17-v2/evidence/alpha');r=json.loads((p/'Y-blue-report.json').read_text(encoding='utf8'));r['limitation']+=' 最后F20..22白色头发与亮手指接触处仍可能有约3–10px同色残留；优选F12..19用于前景擦镜。亮肤色保守抠像会修掉部分原生深蓝侧阴影。';r['recommendedFileFrameRange']=[12,20];(p/'Y-blue-report.json').write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf8')
+m=json.loads((p/'动态抠像可用帧范围.json').read_text(encoding='utf8'))
+for e in m['entries']:
+ if e['id']=='Y-blue':e['limitations']=r['limitation'];e['recommendedFileFrameRange']=[12,20]
+(p/'动态抠像可用帧范围.json').write_text(json.dumps(m,ensure_ascii=False,indent=2),encoding='utf8')
+text='''# V2 真实动态抠像报告
+
+已交付5组132张1920×1080 RGBA PNG，全部24fps。文件号沿prepared MP4的fileF：`000012.png`就是源素材第12帧，不从0起，没有范围外占位帧。
+
+|ID|prepared源|可用fileF（含首尾）|帧数|原速时长|
+|---|---|---|---|---|
+|Y-hurt|C20|12–59|48|2.000000秒|
+|Y-geto|C03|12–47|36|1.500000秒|
+|Y-blue|C29|12–22，优选12–19|11|0.458333秒|
+|Y-getopalm|C32|38–50|13|0.541667秒|
+|Y-stand|C21|12–35|24|1.000000秒|
+
+输出在`hyperframes/assets/alpha/ID/`。加载时采用fileF编号，范围严格以JSON的lastFileFrameExclusive为右开边界。复用时可变换位置、比例和进出画，但这些是相同真实源动作的复用。
+
+实际执行：两组脸与站姿用人工轮廓锚点、受限LK和窄带GrabCut，手部另外做受限肤色/亮肤色分离和封闭线孔填充。C20有139点侧发轮廓，C03保留发髻、双耳、完整笑脸及可见制服；C29/C32只取近手，排除身后人物。C21实际是红夕阳下夏油全身，包含头发、双鞋和腿间负空间。未重绘、未生成RGB、未给无手帧造手。
+
+验证：132张PNG重新读回，与各prepared MP4同号帧RGB逐像素完全一致；上下黑边y0–107、y972–1079的alpha全零。全部输出帧已在棋盘格、红底联系图逐帧查看；站姿另按人物裁切放大查看24帧。每组报告保存锚点、实际逐帧轮廓、alpha面积、边界和验证结果。
+
+剩余差异：C20源巨大特写，冠顶与下颌本就出画，不能恢复颈部/上半身，建议放大右移让原生顶底截断出画；细侧发有1–3px蓝白spill及人工轮廓近似。C03制服底沿在y972原生截断，应接画框底或排版遮挡。C29最后F20–22亮手指与同色白发相接处仍有约3–10px同色残留，优选12–19作快擦镜；保守亮肤色分离会修掉部分原生深蓝侧阴影。C29原窗24后急退、26–28失焦，未扩大使用。C32前30帧无手，未生成；38–50无原切，但44–50来自prepared尾部，超出最初formal12–43；手腕/下折指仍原生出画，cyan辉光大部分排除。C21源人物只有约390px高、带红色偏染，放大后低细节、少量红色spill及细小手臂缝隙近似仍存在，不补造衣褶、鞋纹或发丝。
+
+证据：每组`ID-anchors-summary.png`、`ID-checker-allframes-*.png`与`ID-red-allframes-*.png`。站姿放大证据为`Y-stand-zoom-checker-01..03.png`与`Y-stand-zoom-red-01..03.png`。复现脚本在`work/jjk-edge-v17-v2/dynalpha/`，入口分别为build.py（两脸）、bluefinal.py、correcthands.py（C32）、stand.py，verify_manifest.py重验RGB与黑边。
+'''
+(p/'动态抠像报告.md').write_text(text,encoding='utf8')
+print('written')

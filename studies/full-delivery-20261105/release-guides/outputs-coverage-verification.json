@@ -1,0 +1,24 @@
+{
+  "state": "PASS",
+  "outputs_source_files_expected": 5579,
+  "outputs_files_covered": 5579,
+  "missing": [],
+  "source_bytes_or_sha_mismatch": [],
+  "conflicting_duplicate_manifest_paths": [],
+  "extra_manifest_paths": [],
+  "excluded_directories": [
+    "outputs/github-video-editing-research",
+    "outputs/fast60/hyperframes/__pycache__",
+    "outputs/fast60/hyperframes/tools/__pycache__",
+    "outputs/jjk-edge-v17/hyperframes/__pycache__",
+    "outputs/jjk-edge-v17-v2/hyperframes/__pycache__",
+    "outputs/jjk-edge-v17-v3-dedup/hyperframes/__pycache__",
+    "outputs/jjk-s1-workflow/素材集_60Hz_JPG",
+    "outputs/jjk-s1-workflow/hyperframes/__pycache__",
+    "outputs/jjk-s1-workflow/loops/loop-03/__pycache__",
+    "outputs/jjk-s1-workflow/scripts/__pycache__",
+    "outputs/reference-replay-next/hyperframes/__pycache__",
+    "outputs/reference-replay-next/hyperframes/tools/__pycache__"
+  ],
+  "method": "再次实读outputs全部范围内源文件，核对跨complete/supplement/独立资产逐文件bytes/SHA256；不以打包脚本宣称代替实物覆盖。"
+}

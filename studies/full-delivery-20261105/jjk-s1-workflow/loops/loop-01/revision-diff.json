@@ -1,0 +1,158 @@
+{
+  "from": "reviewed EDIT-B0.1",
+  "to": "EDIT-B0.1-LOOP1",
+  "changes": [
+    {
+      "findingId": "B-SLOW-01",
+      "shot": "S019",
+      "old": {
+        "sourceInSeconds": 404.62,
+        "sourceOutSeconds": 405.08,
+        "playbackRate": 0.4416
+      },
+      "new": {
+        "sourceInSeconds": 403.95,
+        "sourceOutSeconds": 404.9916666666667,
+        "playbackRate": 1.0
+      },
+      "reason": "同一原镜扩大真实已查看动作范围，取消极慢速；保留时间线长度",
+      "evidence": "evidence/slow-window-inspection/S019-S1C017.jpg"
+    },
+    {
+      "findingId": "B-SLOW-01",
+      "shot": "S034",
+      "old": {
+        "sourceInSeconds": 694.62,
+        "sourceOutSeconds": 695.08,
+        "playbackRate": 0.424615
+      },
+      "new": {
+        "sourceInSeconds": 693.95,
+        "sourceOutSeconds": 695.0333333333334,
+        "playbackRate": 1.0
+      },
+      "reason": "同一原镜扩大真实已查看动作范围，取消极慢速；保留时间线长度",
+      "evidence": "evidence/slow-window-inspection/S034-S1C093.jpg"
+    },
+    {
+      "findingId": "B-SLOW-01",
+      "shot": "S038",
+      "old": {
+        "sourceInSeconds": 209.962,
+        "sourceOutSeconds": 210.238,
+        "playbackRate": 0.254769
+      },
+      "new": {
+        "sourceInSeconds": 209.72,
+        "sourceOutSeconds": 210.47833333333332,
+        "playbackRate": 0.7
+      },
+      "reason": "同一原镜扩大真实已查看动作范围，取消极慢速；保留时间线长度",
+      "evidence": "evidence/slow-window-inspection/S038-S1C057.jpg"
+    },
+    {
+      "findingId": "B-SLOW-01",
+      "shot": "S040",
+      "old": {
+        "sourceInSeconds": 269.62,
+        "sourceOutSeconds": 270.08,
+        "playbackRate": 0.424615
+      },
+      "new": {
+        "sourceInSeconds": 269.4,
+        "sourceOutSeconds": 270.26666666666665,
+        "playbackRate": 0.8
+      },
+      "reason": "同一原镜扩大真实已查看动作范围，取消极慢速；保留时间线长度",
+      "evidence": "evidence/slow-window-inspection/S040-S1C061.jpg"
+    },
+    {
+      "findingId": "B-SLOW-01",
+      "shot": "S046",
+      "old": {
+        "sourceInSeconds": 919.62,
+        "sourceOutSeconds": 920.08,
+        "playbackRate": 0.424615
+      },
+      "new": {
+        "sourceInSeconds": 918.95,
+        "sourceOutSeconds": 920.0333333333334,
+        "playbackRate": 1.0
+      },
+      "reason": "同一原镜扩大真实已查看动作范围，取消极慢速；保留时间线长度",
+      "evidence": "evidence/slow-window-inspection/S046-S1C053.jpg"
+    },
+    {
+      "findingId": "L1-FOCUS-01",
+      "old": "identity reframing on first3 hands",
+      "new": {
+        "status": "proposal_needs_independent_visual_recheck",
+        "measurements": [
+          {
+            "shot": "S001",
+            "anchorDefinition": "人工粗标掌心中心，用于裁切设计，不是自动检测或亚像素跟踪",
+            "preparedFrame": 24,
+            "beforeAnchor": [
+              1300,
+              560
+            ],
+            "transform": {
+              "scale": 1.6,
+              "x": -434,
+              "y": 228
+            },
+            "afterAnchor": [
+              1070.0,
+              800.0
+            ],
+            "evidence": "evidence/palm-focus-AB.jpg",
+            "cropRisks": "宏观手部特写，脸与手指端部部分出画；未扩图或重绘"
+          },
+          {
+            "shot": "S002",
+            "anchorDefinition": "人工粗标掌心中心，用于裁切设计，不是自动检测或亚像素跟踪",
+            "preparedFrame": 12,
+            "beforeAnchor": [
+              1100,
+              680
+            ],
+            "transform": {
+              "scale": 1.8,
+              "x": -142,
+              "y": 8
+            },
+            "afterAnchor": [
+              1070.0,
+              800.0
+            ],
+            "evidence": "evidence/palm-focus-AB.jpg",
+            "cropRisks": "宏观手部特写，脸与手指端部部分出画；未扩图或重绘"
+          },
+          {
+            "shot": "S003",
+            "anchorDefinition": "人工粗标掌心中心，用于裁切设计，不是自动检测或亚像素跟踪",
+            "preparedFrame": 12,
+            "beforeAnchor": [
+              570,
+              930
+            ],
+            "transform": {
+              "scale": 2.4,
+              "x": 1046,
+              "y": -676
+            },
+            "afterAnchor": [
+              1070.0,
+              800.0
+            ],
+            "evidence": "evidence/palm-focus-AB.jpg",
+            "cropRisks": "宏观手部特写，脸与手指端部部分出画；未扩图或重绘"
+          }
+        ],
+        "note": "变换后近似锚点接近1070,800；手掌不是相同朝向，保留形状变奏不冒称逐像素相同"
+      },
+      "reason": "实际裸切三掌焦点统一到约1070,800；脸退到画外，作为宏观手势接力；不改源资产SHA"
+    }
+  ],
+  "approvedDesignNotOverwritten": true
+}

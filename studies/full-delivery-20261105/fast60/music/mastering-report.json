@@ -1,0 +1,51 @@
+{
+  "title": "NIGHT RELAY / 夜行接力",
+  "duration_sec": 60,
+  "sample_rate": 48000,
+  "channels": 2,
+  "sample_frames": 2880000,
+  "pcm_bits": 24,
+  "sha256": "2362fd21c7d9ced0b30f8e88fadc9a325a70b6e3ee53ffc2d3768bafe3a3a68d",
+  "bytes": 17280102,
+  "mastering": {
+    "method": "FFmpeg two-pass loudnorm, then exact sample trim/pad",
+    "target_integrated_lufs": -16,
+    "target_true_peak_dbtp": -2.2,
+    "target_lra_lu": 9,
+    "premaster_measurement": {
+      "input_i": "-16.13",
+      "input_tp": "-1.11",
+      "input_lra": "13.20",
+      "input_thresh": "-27.23",
+      "output_i": "-14.90",
+      "output_tp": "-2.20",
+      "output_lra": "8.40",
+      "output_thresh": "-25.45",
+      "normalization_type": "dynamic",
+      "target_offset": "-1.10"
+    },
+    "final_measurement": {
+      "input_i": "-16.03",
+      "input_tp": "-2.17",
+      "input_lra": "11.10",
+      "input_thresh": "-27.07",
+      "output_i": "-15.49",
+      "output_tp": "-2.20",
+      "output_lra": "7.50",
+      "output_thresh": "-25.97",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.51"
+    }
+  },
+  "preview_files": [
+    "preview-street.wav",
+    "preview-main.wav"
+  ],
+  "listened": false,
+  "listening_quality_verified": false,
+  "limitations": [
+    "No actual listening was performed by the authoring agent. Preview WAVs are provided for human audition.",
+    "MIDI captures notes, drum triggers and phrase markers; synthesized timbres, processing and noise sweeps are defined in compose_score.py.",
+    "This is the music score only. Source engines/dialogue/SFX have not yet been mixed."
+  ]
+}

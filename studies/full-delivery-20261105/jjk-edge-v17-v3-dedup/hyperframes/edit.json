@@ -1,0 +1,2839 @@
+{
+  "title": "挚友 · EDGE · 画面去重V3",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "durationFrames": 1440,
+  "audio": {
+    "master": "assets/audio/master.wav",
+    "source": "edge.mp3",
+    "sourceStartSeconds": 147,
+    "sourceEndSeconds": 207
+  },
+  "assets": [
+    {
+      "id": "C01",
+      "asset": "assets/shots/C01.mp4",
+      "frames": 72,
+      "usableFrames": 48,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/01.mp4",
+      "sourceIn": 954,
+      "description": "五条镜片正脸",
+      "sourceFps": "24000/1001",
+      "sha256": "a33edaa891fdc06978f593c311de9a0cc2eef476d1687c5f16015e8a05fc9023"
+    },
+    {
+      "id": "C02",
+      "asset": "assets/shots/C02.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/01.mp4",
+      "sourceIn": 962.25,
+      "description": "双人伸展",
+      "sourceFps": "24000/1001",
+      "sha256": "2a3d8807948825c4faf927ef4b0ac258c5f1bea983cc822a15aa38d6c24b00ed"
+    },
+    {
+      "id": "C03",
+      "asset": "assets/shots/C03.mp4",
+      "frames": 72,
+      "usableFrames": 48,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/02.mp4",
+      "sourceIn": 328,
+      "description": "夏油笑脸",
+      "sourceFps": "24000/1001",
+      "sha256": "197c308eaaac76b0c29e9def2af8cdad28647be7fdc4b86b39599fbf6d78fd06"
+    },
+    {
+      "id": "C05",
+      "asset": "assets/shots/C05.mp4",
+      "frames": 66,
+      "usableFrames": 42,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/02.mp4",
+      "sourceIn": 509,
+      "description": "搭肩双人",
+      "sourceFps": "24000/1001",
+      "sha256": "62b2d86d04e06d9da18c6abeabdb8d9a8386c33709a03f8e54c56f548fd65a36"
+    },
+    {
+      "id": "C06",
+      "asset": "assets/shots/C06.mp4",
+      "frames": 54,
+      "usableFrames": 30,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/02.mp4",
+      "sourceIn": 1169.75,
+      "description": "五条举臂敌人出拳",
+      "sourceFps": "24000/1001",
+      "sha256": "23b36e6ec7f0c7e94c3d9e95b7f257191d3975948d5efd1a56137b4adee8907f"
+    },
+    {
+      "id": "C07",
+      "asset": "assets/shots/C07.mp4",
+      "frames": 72,
+      "usableFrames": 48,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/02.mp4",
+      "sourceIn": 1220,
+      "description": "五条举圆镜片",
+      "sourceFps": "24000/1001",
+      "sha256": "d30708480df3f2e6a70fbd8659cc28ac70cfd82440aa8493e9ca2a885ff35ea5"
+    },
+    {
+      "id": "C09",
+      "asset": "assets/shots/C09.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/02.mp4",
+      "sourceIn": 1289,
+      "description": "红色术式球与五条俯拍",
+      "sourceFps": "24000/1001",
+      "sha256": "1b6b417e5ba7fb511032f22e629e56069caacae5790a44114d7d4d4802a9485b"
+    },
+    {
+      "id": "C12",
+      "asset": "assets/shots/C12.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/01.mp4",
+      "sourceIn": 920,
+      "description": "五条篮球场笑脸",
+      "sourceFps": "24000/1001",
+      "sha256": "9a1722728dcfe9f5bc8639fc18ffd96e246ad6057d27ea711ae9e851cedf5903"
+    },
+    {
+      "id": "C14",
+      "asset": "assets/shots/C14.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/01.mp4",
+      "sourceIn": 1290,
+      "description": "五条无下限刀片",
+      "sourceFps": "24000/1001",
+      "sha256": "f7321c818bdff8dbd85c7394af25e89af325309585ff621ed60c1fe6fc11dc14"
+    },
+    {
+      "id": "C16",
+      "asset": "assets/shots/C16.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/03.mp4",
+      "sourceIn": 444,
+      "description": "海边双人",
+      "sourceFps": "24000/1001",
+      "sha256": "7dff454b5b64c484ce8c23136c0fb46cb07ed66959013a92a48be9619f614cb6"
+    },
+    {
+      "id": "C17",
+      "asset": "assets/shots/C17.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/03.mp4",
+      "sourceIn": 454,
+      "description": "海边夏油微笑",
+      "sourceFps": "24000/1001",
+      "sha256": "c95c8597012b4e7fffc4c3db3abf8ab47c39f8711366cb4c0eb2061465b1774e"
+    },
+    {
+      "id": "C18",
+      "asset": "assets/shots/C18.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/03.mp4",
+      "sourceIn": 1170,
+      "description": "树荫双人交谈",
+      "sourceFps": "24000/1001",
+      "sha256": "989cda06394fb8966652909cbc5577f9472d936bd3b1824613813b266c0715d1"
+    },
+    {
+      "id": "C20",
+      "asset": "assets/shots/C20.mp4",
+      "frames": 78,
+      "usableFrames": 54,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 1338,
+      "description": "受伤五条冷色正脸",
+      "sourceFps": "24000/1001",
+      "sha256": "e7947564660cad2fae6d46550f13a446faf0dae07dccdae3f058ee5b9dc086a5"
+    },
+    {
+      "id": "C21",
+      "asset": "assets/shots/C21.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 1280,
+      "description": "红夕阳夏油全身远景（纠正V1人物标注）",
+      "sourceFps": "24000/1001",
+      "sha256": "1c346e9e3f828dc6a856eb5497ae5cbb1e0ae59f9cec5197ace1481a1467e6c1"
+    },
+    {
+      "id": "C22",
+      "asset": "assets/shots/C22.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 1300.5,
+      "description": "红色室内夏油",
+      "sourceFps": "24000/1001",
+      "sha256": "dcdde7fb7d0a14c405b9e6ff587ae6c201aff539418f7cd936173ec7f198be76"
+    },
+    {
+      "id": "C23",
+      "asset": "assets/shots/C23.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/05.mp4",
+      "sourceIn": 978,
+      "description": "人群中夏油正脸",
+      "sourceFps": "24000/1001",
+      "sha256": "5376e80b8bfd63223892c616f5df77c8eddbd877bd94325bd1461fafff8ca4c9"
+    },
+    {
+      "id": "C24",
+      "asset": "assets/shots/C24.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/05.mp4",
+      "sourceIn": 1030,
+      "description": "人群中夏油反问",
+      "sourceFps": "24000/1001",
+      "sha256": "44c37b0f33b93f927b9d9c51f30500f8346e47b63666bdd0c8c150c8efe0d190"
+    },
+    {
+      "id": "C25",
+      "asset": "assets/shots/C25.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/05.mp4",
+      "sourceIn": 1080,
+      "description": "台阶五条镜片脸",
+      "sourceFps": "24000/1001",
+      "sha256": "5b12bf406b6423156b7f7a612c704ddbfa437eab23a4037fb00f8d2ff53547b2"
+    },
+    {
+      "id": "C28",
+      "asset": "assets/shots/C28.mp4",
+      "frames": 55,
+      "usableFrames": 31,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/03.mp4",
+      "sourceIn": 879,
+      "description": "苍球反手凝聚",
+      "sourceFps": "24000/1001",
+      "sha256": "9e17d16ef291a4f313322302f7b968c27adcdc86e2df45fb6105449dc70cc6a7"
+    },
+    {
+      "id": "C29",
+      "asset": "assets/shots/C29.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/03.mp4",
+      "sourceIn": 889.75,
+      "description": "苍前伸掌",
+      "sourceFps": "24000/1001",
+      "sha256": "60bd91b8cb2f1c7a41a45e0e0c8390efba63295f4870ec92bded771e24ac5cb6"
+    },
+    {
+      "id": "C30",
+      "asset": "assets/shots/C30.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/03.mp4",
+      "sourceIn": 920,
+      "description": "五条被虫群包围",
+      "sourceFps": "24000/1001",
+      "sha256": "9708b618b294ec837a3b37c79e4ec36047b695f4ec492d0bc996fef31ef2462e"
+    },
+    {
+      "id": "C31",
+      "asset": "assets/shots/C31.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/03.mp4",
+      "sourceIn": 930,
+      "description": "五条平掌停顿",
+      "sourceFps": "24000/1001",
+      "sha256": "72ff34d26fdf6ba9cff63a247ccecafd99b361a5c18f04da84624f78b8338c42"
+    },
+    {
+      "id": "C32",
+      "asset": "assets/shots/C32.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 209,
+      "description": "夏油前伸掌",
+      "sourceFps": "24000/1001",
+      "sha256": "187554b519710428c9efe6d1b806718c7fa20e8a574a6e17e9633867c45bb1c8"
+    },
+    {
+      "id": "C33",
+      "asset": "assets/shots/C33.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 329,
+      "description": "夏油浮空黑球",
+      "sourceFps": "24000/1001",
+      "sha256": "9ff5cd1f79c09a80396767079f8be8a9af521bbc917dcb105b35e2879f192998"
+    },
+    {
+      "id": "C35",
+      "asset": "assets/shots/C35.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 420.5,
+      "description": "甚尔打碎蓝色术式空间",
+      "sourceFps": "24000/1001",
+      "sha256": "34d3c5cb9c9fe55e2cff3d3bb2e9e3b57c25fa1eec2724b51ef53f45d15a0530"
+    },
+    {
+      "id": "C36",
+      "asset": "assets/shots/C36.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 429.5,
+      "description": "夏油横向伸臂",
+      "sourceFps": "24000/1001",
+      "sha256": "e6a5109091fa84b8ffd59eb4ee8051f5fbee3e4e8cadf2743b78b83808ae77ab"
+    },
+    {
+      "id": "C37",
+      "asset": "assets/shots/C37.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 449.75,
+      "description": "夏油持咒灵起手",
+      "sourceFps": "24000/1001",
+      "sha256": "9e39a72809eb707a7aa363c30852f010d2a13fee98bf63a9945b2def4430a107"
+    },
+    {
+      "id": "C38",
+      "asset": "assets/shots/C38.mp4",
+      "frames": 96,
+      "usableFrames": 72,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 790,
+      "description": "受伤五条抬脸",
+      "sourceFps": "24000/1001",
+      "sha256": "6fe04478df8d2a0e428e02ae90f636a7e64740da43a54c85a77968bba04a612e"
+    },
+    {
+      "id": "C39",
+      "asset": "assets/shots/C39.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 810,
+      "description": "五条近身袭击",
+      "sourceFps": "24000/1001",
+      "sha256": "b70cbaaab1f090a4d8d9e4465d83e478cf7150d30015d8dc63fa86aabe961cfb"
+    },
+    {
+      "id": "C40",
+      "asset": "assets/shots/C40.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 820,
+      "description": "红色掌上咒力",
+      "sourceFps": "24000/1001",
+      "sha256": "a27317387a02202fb74f39dece4552b2feeb0fd019b7ff3d8736da9453fd89d8"
+    },
+    {
+      "id": "C42",
+      "asset": "assets/shots/C42.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 859,
+      "description": "五条仰头大笑",
+      "sourceFps": "24000/1001",
+      "sha256": "9a9d67557a943014a0a9332bec7587b7b542a2b2535c45b0774d1f156f68f750"
+    },
+    {
+      "id": "C43",
+      "asset": "assets/shots/C43.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 870,
+      "description": "对手被击飞",
+      "sourceFps": "24000/1001",
+      "sha256": "1bf5289d13abec0a13bef82304fe302013a8262f39704477010cc2099021898e"
+    },
+    {
+      "id": "C45",
+      "asset": "assets/shots/C45.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 975,
+      "description": "刀刃映六眼",
+      "sourceFps": "24000/1001",
+      "sha256": "fab45a94803e42ebcac57962776b7c35d06451aee6c8a77879184f4bd1136d7c"
+    },
+    {
+      "id": "C46",
+      "asset": "assets/shots/C46.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 994,
+      "description": "五条蓝眼极近",
+      "sourceFps": "24000/1001",
+      "sha256": "ebb2bf98d6f8339c79442e39c2d38ebcad67073e3d8e856d2fe4ac6f6dd4f9a5"
+    },
+    {
+      "id": "C47",
+      "asset": "assets/shots/C47.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 1014,
+      "description": "觉醒五条抬臂",
+      "sourceFps": "24000/1001",
+      "sha256": "6ed13f54a2ade359f39b03131318558dda9751f19a7cdb4351385eaa573b695f"
+    },
+    {
+      "id": "C48",
+      "asset": "assets/shots/C48.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 1029,
+      "description": "五条破墙漂移",
+      "sourceFps": "24000/1001",
+      "sha256": "675e98265f238fea52850c93f55494eb0c4d6681cb30958b2ca3454f439ddc59"
+    },
+    {
+      "id": "C49",
+      "asset": "assets/shots/C49.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 1049,
+      "description": "碎块中五条伸臂",
+      "sourceFps": "24000/1001",
+      "sha256": "b51fecbf6ef62f2eb54c6ebe228ab7ac20ba3d5cb565281d33f1a483e7bd7f8b"
+    },
+    {
+      "id": "C50",
+      "asset": "assets/shots/C50.mp4",
+      "frames": 52,
+      "usableFrames": 28,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 1059,
+      "description": "红蓝咒力融合",
+      "sourceFps": "24000/1001",
+      "sha256": "110c79b4b4ff532f95f827a8e780050857a17ae5e5028b86cfa5b5db9b2f91d7"
+    },
+    {
+      "id": "C51",
+      "asset": "assets/shots/C51.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 1064,
+      "description": "虚式茈起手",
+      "sourceFps": "24000/1001",
+      "sha256": "62cde583a87a381a885097d735894da89a59ebad4e9446c5d1f145289f4ece69"
+    },
+    {
+      "id": "C52",
+      "asset": "assets/shots/C52.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 1070,
+      "description": "紫光击出",
+      "sourceFps": "24000/1001",
+      "sha256": "c71e81648c2e5c4b07be0ad7253c9c042a5a06f67fd87c09702353ff34d43636"
+    },
+    {
+      "id": "C53",
+      "asset": "assets/shots/C53.mp4",
+      "frames": 48,
+      "usableFrames": 24,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 1074,
+      "description": "对手紫光照脸",
+      "sourceFps": "24000/1001",
+      "sha256": "f4423fb159007275d367fdedc3f8cbf3cbb7a420542e2de9a38b87759c326101"
+    },
+    {
+      "id": "C54",
+      "asset": "assets/shots/C54.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/04.mp4",
+      "sourceIn": 1330,
+      "description": "礼堂冷色距离",
+      "sourceFps": "24000/1001",
+      "sha256": "1b08c4f0ea7ad78befd0c07bb771d6524b3f267dfc4f21e103d88d9dfd6da1a2"
+    },
+    {
+      "id": "C55",
+      "asset": "assets/shots/C55.mp4",
+      "frames": 66,
+      "usableFrames": 42,
+      "sourcePath": "D:/咒术回战/4K 内嵌简中字幕/02.mp4",
+      "sourceIn": 1261.5,
+      "description": "玻璃破碎中伸掌",
+      "sourceFps": "24000/1001",
+      "sha256": "033fc92f841581d029968a9cd615f99b2f2b6034a1c98dcfedb428f1f7c73c77"
+    },
+    {
+      "id": "BLACK",
+      "asset": "assets/shots/BLACK.mp4",
+      "frames": 72,
+      "usableFrames": 48,
+      "description": "制作新增黑场，承接音乐能量低谷"
+    },
+    {
+      "id": "X-awaken",
+      "asset": "assets/shots/X-awaken.mp4",
+      "frames": 72,
+      "usableFrames": 48,
+      "sourceIn": 989,
+      "description": "真实逐帧前景对应素材，由字效子代理准备"
+    },
+    {
+      "id": "X-palm",
+      "asset": "assets/shots/X-palm.mp4",
+      "frames": 60,
+      "usableFrames": 36,
+      "sourceIn": 1259.5,
+      "description": "真实逐帧前景对应素材，由字效子代理准备"
+    },
+    {
+      "id": "N01",
+      "asset": "assets/shots/N01.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\03.mp4",
+      "sourceIn": 738.6,
+      "preparedSourceStart": 738.1,
+      "sourceFps": "24000/1001",
+      "description": "五条正面冷静回应",
+      "sha256": "de99f611b84fbb2e23ccf1b406b151521c7586a934a3cb4ef9bc764af275527e"
+    },
+    {
+      "id": "N02",
+      "asset": "assets/shots/N02.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\01.mp4",
+      "sourceIn": 1040,
+      "preparedSourceStart": 1039.5,
+      "sourceFps": "24000/1001",
+      "description": "双人走廊电话错位",
+      "sha256": "52a508e82004b0dc520dae124ede582ae6c7e63ce5f3b99cd08b9528f7a8a65b"
+    },
+    {
+      "id": "N03",
+      "asset": "assets/shots/N03.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 190,
+      "preparedSourceStart": 189.5,
+      "sourceFps": "24000/1001",
+      "description": "夏油立于礼堂走廊",
+      "sha256": "2d8b83fcef7b005a33d1f917a65b067c7d476f35f2de5e839c04b6be6b9e6c3d"
+    },
+    {
+      "id": "N04",
+      "asset": "assets/shots/N04.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 365,
+      "preparedSourceStart": 364.5,
+      "sourceFps": "24000/1001",
+      "description": "夏油与走廊刀群",
+      "sha256": "4e175842017e2d5011643a52c94fd45cb8006bade8e8c357c100647c71ae2d77"
+    },
+    {
+      "id": "N05",
+      "asset": "assets/shots/N05.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\03.mp4",
+      "sourceIn": 815,
+      "preparedSourceStart": 814.5,
+      "sourceFps": "24000/1001",
+      "description": "甚尔低身急行",
+      "sha256": "4dfa62cc12f2fa0becb8528cc8dd35a611aedb6b81c86129e5f9576e6ce657eb"
+    },
+    {
+      "id": "N06",
+      "asset": "assets/shots/N06.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 445,
+      "preparedSourceStart": 444.5,
+      "sourceFps": "24000/1001",
+      "description": "夏油咒灵球掌心",
+      "sha256": "d0b212ad4b54d612be3c927f68d7b630c796a642ab5aac2246861a8d71e2f3ab"
+    },
+    {
+      "id": "N07",
+      "asset": "assets/shots/N07.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\03.mp4",
+      "sourceIn": 875,
+      "preparedSourceStart": 874.5,
+      "sourceFps": "24000/1001",
+      "description": "苍术式蓝色能量流",
+      "sha256": "cb4a5175c98bb7e76c9cec37c2ee0c998a74ac1bb8f20c42fbd7788f785ee3e2"
+    },
+    {
+      "id": "N08",
+      "asset": "assets/shots/N08.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\03.mp4",
+      "sourceIn": 950,
+      "preparedSourceStart": 949.5,
+      "sourceFps": "24000/1001",
+      "description": "甚尔长刃横扫",
+      "sha256": "2a11e0f1ce9a0dca63587e6c87458f55fd7bbd335ca551080a813a3d44ccd10a"
+    },
+    {
+      "id": "N09",
+      "asset": "assets/shots/N09.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\03.mp4",
+      "sourceIn": 830,
+      "preparedSourceStart": 829.5,
+      "sourceFps": "24000/1001",
+      "description": "甚尔踏碎瓦檐",
+      "sha256": "845f2b97de96b06e8500411f7011236e32e6d1884b10865d7a98f2c2e4c377af"
+    },
+    {
+      "id": "N10",
+      "asset": "assets/shots/N10.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 815,
+      "preparedSourceStart": 814.5,
+      "sourceFps": "24000/1001",
+      "description": "五条血手按地",
+      "sha256": "c4bba3663a68eb27280087e35b79a738726b683f03ddcc1d0db1fbcb9d80eaac"
+    },
+    {
+      "id": "N11",
+      "asset": "assets/shots/N11.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 880,
+      "preparedSourceStart": 879.5,
+      "sourceFps": "24000/1001",
+      "description": "甚尔红光挥斩",
+      "sha256": "c50f69749aab2972d3ff7d54b3d0d5069241e0a791f0a6f04b52f5da2b6e97ec"
+    },
+    {
+      "id": "N12",
+      "asset": "assets/shots/N12.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\03.mp4",
+      "sourceIn": 860,
+      "preparedSourceStart": 859.5,
+      "sourceFps": "24000/1001",
+      "description": "五条回身背影",
+      "sha256": "fc61e13233fc283ea2766baadeb2761f61c208d4f17aecb81502424cc6b01e2a"
+    },
+    {
+      "id": "N13",
+      "asset": "assets/shots/N13.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 410,
+      "preparedSourceStart": 409.5,
+      "sourceFps": "24000/1001",
+      "description": "刀刃与绷带手",
+      "sha256": "82944ac1b189ba8dfa403132fec344ab8deb3d25ada606f5274871b773489a72"
+    },
+    {
+      "id": "N14",
+      "asset": "assets/shots/N14.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 1055,
+      "preparedSourceStart": 1054.5,
+      "sourceFps": "24000/1001",
+      "description": "金色空间飞鸟",
+      "sha256": "901689c4db060009f66b062fb055ad187e92575afde36c14c83604fb101dfb7d"
+    },
+    {
+      "id": "N15",
+      "asset": "assets/shots/N15.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 1020,
+      "preparedSourceStart": 1019.5,
+      "sourceFps": "24000/1001",
+      "description": "金色空域的锁链突进",
+      "sha256": "e2e6989963166591426da020293e687ebf3f20d13e957295836b540638adaa57"
+    },
+    {
+      "id": "N16",
+      "asset": "assets/shots/N16.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 1002,
+      "preparedSourceStart": 1001.5,
+      "sourceFps": "24000/1001",
+      "description": "花瓣与觉醒感知",
+      "sha256": "b1ac7d073070f001729f3faee853bc58b9a0acdb69df12806b1afeeb4395d426"
+    },
+    {
+      "id": "N17",
+      "asset": "assets/shots/N17.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\02.mp4",
+      "sourceIn": 1248,
+      "preparedSourceStart": 1247.5,
+      "sourceFps": "24000/1001",
+      "description": "屋顶对手与栏杆",
+      "sha256": "c685fe1c7ade527d5a4beb2bf56f63225deea4fb1c9f410b6ac0fa6adf80af3a"
+    },
+    {
+      "id": "N18",
+      "asset": "assets/shots/N18.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\02.mp4",
+      "sourceIn": 1275,
+      "preparedSourceStart": 1274.5,
+      "sourceFps": "24000/1001",
+      "description": "五条侧移闪避",
+      "sha256": "b8417da69e2209b9da642d3764fcde4edfad831df51ce03c3782b9b923db8bdc"
+    },
+    {
+      "id": "N19",
+      "asset": "assets/shots/N19.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\03.mp4",
+      "sourceIn": 900,
+      "preparedSourceStart": 899.5,
+      "sourceFps": "24000/1001",
+      "description": "广场烟尘掠过",
+      "sha256": "5a6bd6e6efdfdf5bf4e23731a80cc24003556d87f9d37f7fd9569d309a7fff56"
+    },
+    {
+      "id": "N20",
+      "asset": "assets/shots/N20.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 490,
+      "preparedSourceStart": 489.5,
+      "sourceFps": "24000/1001",
+      "description": "甚尔立于破碎空间",
+      "sha256": "330447ef9050bd32567a29a9406fe3e0b43341765f51531c66bbdf2da26f5937"
+    },
+    {
+      "id": "N21",
+      "asset": "assets/shots/N21.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\05.mp4",
+      "sourceIn": 863.8,
+      "preparedSourceStart": 863.3,
+      "sourceFps": "24000/1001",
+      "description": "五条镜片后的惊愕",
+      "sha256": "b4a100bd2551ebc61c9d9984c1d08d2030aae055a723aec26c01c4cc552218bd"
+    },
+    {
+      "id": "N22",
+      "asset": "assets/shots/N22.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\03.mp4",
+      "sourceIn": 720,
+      "preparedSourceStart": 719.5,
+      "sourceFps": "24000/1001",
+      "description": "夏油眼线极近景",
+      "sha256": "7822e7af97c8fd33269b364dfeffdf38bd4d4391324f28c7715922d9dde7f79c"
+    },
+    {
+      "id": "N23",
+      "asset": "assets/shots/N23.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 978.6,
+      "preparedSourceStart": 978.1,
+      "sourceFps": "24000/1001",
+      "description": "额前白发与双眼",
+      "sha256": "fa47656bed512456c91206e869c6836d42c6ba51657083cbc54e6b72ad6ead3f"
+    },
+    {
+      "id": "N24",
+      "asset": "assets/shots/N24.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 350,
+      "preparedSourceStart": 349.5,
+      "sourceFps": "24000/1001",
+      "description": "咒灵缠绕的长廊",
+      "sha256": "253a1d8a07c8f6bdb09191d517945cab2d1c078e8138a0a12f3b9c3c12b41f73"
+    },
+    {
+      "id": "N25",
+      "asset": "assets/shots/N25.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\03.mp4",
+      "sourceIn": 800,
+      "preparedSourceStart": 799.5,
+      "sourceFps": "24000/1001",
+      "description": "甚尔持刃展开双臂",
+      "sha256": "8574978c6310c8a6eec54b31be5708f81549f9376c6a7094b059ec959ebf41f4"
+    },
+    {
+      "id": "N26",
+      "asset": "assets/shots/N26.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 475,
+      "preparedSourceStart": 474.5,
+      "sourceFps": "24000/1001",
+      "description": "建筑碎块与冲击",
+      "sha256": "6e00ed97d17ea0f0ef9fec6af5a3d9ec49fb5b39d540f9f2ba7cd9b3eefa1199"
+    },
+    {
+      "id": "N27",
+      "asset": "assets/shots/N27.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\01.mp4",
+      "sourceIn": 972,
+      "preparedSourceStart": 971.5,
+      "sourceFps": "24000/1001",
+      "description": "篮球场双人错身",
+      "sha256": "95e3622fa4c2239dd2af0a7a2ebb2dfc178504371dd8d07a8c29b10a6b968bef"
+    },
+    {
+      "id": "N28",
+      "asset": "assets/shots/N28.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\02.mp4",
+      "sourceIn": 425,
+      "preparedSourceStart": 424.5,
+      "sourceFps": "24000/1001",
+      "description": "双人窗边对话",
+      "sha256": "b04de9261f0ef7663d19d650f31b28c0fbdd95f65528405983c37a2e4bb224f1"
+    },
+    {
+      "id": "N29",
+      "asset": "assets/shots/N29.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\03.mp4",
+      "sourceIn": 430,
+      "preparedSourceStart": 429.5,
+      "sourceFps": "24000/1001",
+      "description": "海边双人近景",
+      "sha256": "c3551f57da3523b7e8cd6ca6f43c50e19ae782cccb425e00e18b1c599076c079"
+    },
+    {
+      "id": "N30",
+      "asset": "assets/shots/N30.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\02.mp4",
+      "sourceIn": 520,
+      "preparedSourceStart": 519.5,
+      "sourceFps": "24000/1001",
+      "description": "室内双人肩线",
+      "sha256": "9d519de3c003490782d44f45e7ba144c2e6d5feae447762093b1e02f24001544"
+    },
+    {
+      "id": "N31",
+      "asset": "assets/shots/N31.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\05.mp4",
+      "sourceIn": 265,
+      "preparedSourceStart": 264.5,
+      "sourceFps": "24000/1001",
+      "description": "雨中夏油近脸",
+      "sha256": "6e0df59bf031f908c285bd2bc4f9c04fb36be4a8381f4aa909bb0024250d168f"
+    },
+    {
+      "id": "N33",
+      "asset": "assets/shots/N33.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\02.mp4",
+      "sourceIn": 1144.5,
+      "preparedSourceStart": 1144.0,
+      "sourceFps": "24000/1001",
+      "description": "五条伸手护住少女",
+      "sha256": "d717a1d0cf0ace5247c6f03edfe79ad7a7aa07c5772dceaaa1f4106655840698"
+    },
+    {
+      "id": "N34",
+      "asset": "assets/shots/N34.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\03.mp4",
+      "sourceIn": 1183.5,
+      "preparedSourceStart": 1183.0,
+      "sourceFps": "24000/1001",
+      "description": "礼堂夏油闭眼笑",
+      "sha256": "84563188d2620d23c0c443951a5824329d80c2d36d0bebde6cca7fea93da88b1"
+    },
+    {
+      "id": "N35",
+      "asset": "assets/shots/N35.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\01.mp4",
+      "sourceIn": 1220,
+      "preparedSourceStart": 1219.5,
+      "sourceFps": "24000/1001",
+      "description": "夏油接电话侧身",
+      "sha256": "b063f0e59c0adef66452a093688009caecb0427ecbd830292176b6f70feb26bb"
+    },
+    {
+      "id": "N36",
+      "asset": "assets/shots/N36.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\05.mp4",
+      "sourceIn": 385,
+      "preparedSourceStart": 384.5,
+      "sourceFps": "24000/1001",
+      "description": "白衣夏油抱臂",
+      "sha256": "cf1753ae83d4575fe60a31281581a56819c7c0433b5333dab574ff04673a1990"
+    },
+    {
+      "id": "N37",
+      "asset": "assets/shots/N37.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\03.mp4",
+      "sourceIn": 1149.5,
+      "preparedSourceStart": 1149.0,
+      "sourceFps": "24000/1001",
+      "description": "夏油侧脸礼堂回应",
+      "sha256": "c5c7cc52e61a8bcececdeff8cf673e89722f9d326841b885c5d806428dc27aac"
+    },
+    {
+      "id": "N38",
+      "asset": "assets/shots/N38.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\04.mp4",
+      "sourceIn": 825,
+      "preparedSourceStart": 824.5,
+      "sourceFps": "24000/1001",
+      "description": "血色五条抬手正面",
+      "sha256": "3fbc3234361e01fb59b32a51652307b9e49a8331c83ddb8a6a76a5304bc5336f"
+    },
+    {
+      "id": "N39",
+      "asset": "assets/shots/N39.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\05.mp4",
+      "sourceIn": 1050,
+      "preparedSourceStart": 1049.5,
+      "sourceFps": "24000/1001",
+      "description": "指尖展开手势",
+      "sha256": "21e057add128c8b0c849ee09832cd32f68183d303b497f9b44adbcf1caaf5540"
+    },
+    {
+      "id": "N40",
+      "asset": "assets/shots/N40.mp4",
+      "frames": 84,
+      "usableFrames": 60,
+      "sourcePath": "D:\\咒术回战\\4K 内嵌简中字幕\\01.mp4",
+      "sourceIn": 946,
+      "preparedSourceStart": 945.5,
+      "sourceFps": "24000/1001",
+      "description": "五条侧脸与圆镜",
+      "sha256": "4240b1638802b8346df954c256f88317a414fd3281cf9cc36cdaefcc0acef633"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "assetId": "C38",
+      "asset": "assets/shots/C38.mp4",
+      "startFrame": 0,
+      "frames": 48,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S02",
+      "assetId": "N01",
+      "asset": "assets/shots/N01.mp4",
+      "startFrame": 48,
+      "frames": 31,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S03",
+      "assetId": "C03",
+      "asset": "assets/shots/C03.mp4",
+      "startFrame": 79,
+      "frames": 17,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S04",
+      "assetId": "C12",
+      "asset": "assets/shots/C12.mp4",
+      "startFrame": 96,
+      "frames": 24,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S05",
+      "assetId": "C17",
+      "asset": "assets/shots/C17.mp4",
+      "startFrame": 120,
+      "frames": 19,
+      "assetStartFrame": 18,
+      "punch": 0.045,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S06",
+      "assetId": "C05",
+      "asset": "assets/shots/C05.mp4",
+      "startFrame": 139,
+      "frames": 30,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S07",
+      "assetId": "C02",
+      "asset": "assets/shots/C02.mp4",
+      "startFrame": 169,
+      "frames": 18,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S08",
+      "assetId": "C16",
+      "asset": "assets/shots/C16.mp4",
+      "startFrame": 187,
+      "frames": 29,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S09",
+      "assetId": "N02",
+      "asset": "assets/shots/N02.mp4",
+      "startFrame": 216,
+      "frames": 21,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S10",
+      "assetId": "C18",
+      "asset": "assets/shots/C18.mp4",
+      "startFrame": 237,
+      "frames": 27,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S11",
+      "assetId": "C20",
+      "asset": "assets/shots/C20.mp4",
+      "startFrame": 264,
+      "frames": 28,
+      "assetStartFrame": 32,
+      "punch": 0,
+      "motion": 1,
+      "rotation": 0,
+      "cameraLocked": true
+    },
+    {
+      "id": "S12",
+      "assetId": "C54",
+      "asset": "assets/shots/C54.mp4",
+      "startFrame": 292,
+      "frames": 24,
+      "assetStartFrame": 24,
+      "punch": 0,
+      "motion": -1,
+      "rotation": 0,
+      "cameraLocked": true
+    },
+    {
+      "id": "S13",
+      "assetId": "C24",
+      "asset": "assets/shots/C24.mp4",
+      "startFrame": 316,
+      "frames": 19,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S14",
+      "assetId": "C25",
+      "asset": "assets/shots/C25.mp4",
+      "startFrame": 335,
+      "frames": 19,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S15",
+      "assetId": "C14",
+      "asset": "assets/shots/C14.mp4",
+      "startFrame": 354,
+      "frames": 30,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S16",
+      "assetId": "BLACK",
+      "asset": "assets/shots/BLACK.mp4",
+      "startFrame": 384,
+      "frames": 41,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S17",
+      "assetId": "C22",
+      "asset": "assets/shots/C22.mp4",
+      "startFrame": 425,
+      "frames": 24,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S18",
+      "assetId": "C21",
+      "asset": "assets/shots/C21.mp4",
+      "startFrame": 449,
+      "frames": 31,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S19",
+      "assetId": "N03",
+      "asset": "assets/shots/N03.mp4",
+      "startFrame": 480,
+      "frames": 24,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S20",
+      "assetId": "N04",
+      "asset": "assets/shots/N04.mp4",
+      "startFrame": 504,
+      "frames": 12,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S21",
+      "assetId": "N05",
+      "asset": "assets/shots/N05.mp4",
+      "startFrame": 516,
+      "frames": 12,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S22",
+      "assetId": "N06",
+      "asset": "assets/shots/N06.mp4",
+      "startFrame": 528,
+      "frames": 19,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S23",
+      "assetId": "N07",
+      "asset": "assets/shots/N07.mp4",
+      "startFrame": 547,
+      "frames": 18,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S24",
+      "assetId": "C30",
+      "asset": "assets/shots/C30.mp4",
+      "startFrame": 565,
+      "frames": 11,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S25",
+      "assetId": "C31",
+      "asset": "assets/shots/C31.mp4",
+      "startFrame": 576,
+      "frames": 20,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S26",
+      "assetId": "C06",
+      "asset": "assets/shots/C06.mp4",
+      "startFrame": 596,
+      "frames": 19,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S27",
+      "assetId": "C35",
+      "asset": "assets/shots/C35.mp4",
+      "startFrame": 615,
+      "frames": 15,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S28",
+      "assetId": "C45",
+      "asset": "assets/shots/C45.mp4",
+      "startFrame": 630,
+      "frames": 18,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S29",
+      "assetId": "C46",
+      "asset": "assets/shots/C46.mp4",
+      "startFrame": 648,
+      "frames": 21,
+      "assetStartFrame": 12,
+      "punch": 0.1,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S30",
+      "assetId": "X-awaken",
+      "asset": "assets/shots/X-awaken.mp4",
+      "startFrame": 669,
+      "frames": 48,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S31",
+      "assetId": "C39",
+      "asset": "assets/shots/C39.mp4",
+      "startFrame": 717,
+      "frames": 14,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 1.0
+    },
+    {
+      "id": "S32",
+      "assetId": "C43",
+      "asset": "assets/shots/C43.mp4",
+      "startFrame": 731,
+      "frames": 13,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S33",
+      "assetId": "C40",
+      "asset": "assets/shots/C40.mp4",
+      "startFrame": 744,
+      "frames": 24,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S34",
+      "assetId": "C09",
+      "asset": "assets/shots/C09.mp4",
+      "startFrame": 768,
+      "frames": 15,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 1.0
+    },
+    {
+      "id": "S35",
+      "assetId": "X-palm",
+      "asset": "assets/shots/X-palm.mp4",
+      "startFrame": 783,
+      "frames": 27,
+      "assetStartFrame": 21,
+      "punch": 0,
+      "motion": 1,
+      "rotation": 0,
+      "cameraLocked": true
+    },
+    {
+      "id": "S36",
+      "assetId": "C55",
+      "asset": "assets/shots/C55.mp4",
+      "startFrame": 810,
+      "frames": 30,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S37",
+      "assetId": "C28",
+      "asset": "assets/shots/C28.mp4",
+      "startFrame": 840,
+      "frames": 24,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 1.0
+    },
+    {
+      "id": "S38",
+      "assetId": "C29",
+      "asset": "assets/shots/C29.mp4",
+      "startFrame": 864,
+      "frames": 31,
+      "assetStartFrame": 17,
+      "punch": 0,
+      "motion": -1,
+      "rotation": 0,
+      "cameraLocked": true
+    },
+    {
+      "id": "S39",
+      "assetId": "N08",
+      "asset": "assets/shots/N08.mp4",
+      "startFrame": 895,
+      "frames": 11,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S40",
+      "assetId": "N09",
+      "asset": "assets/shots/N09.mp4",
+      "startFrame": 906,
+      "frames": 15,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 1.0
+    },
+    {
+      "id": "S41",
+      "assetId": "C36",
+      "asset": "assets/shots/C36.mp4",
+      "startFrame": 921,
+      "frames": 15,
+      "assetStartFrame": 21,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S42",
+      "assetId": "N10",
+      "asset": "assets/shots/N10.mp4",
+      "startFrame": 936,
+      "frames": 14,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S43",
+      "assetId": "N11",
+      "asset": "assets/shots/N11.mp4",
+      "startFrame": 950,
+      "frames": 16,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 1.0
+    },
+    {
+      "id": "S44",
+      "assetId": "C33",
+      "asset": "assets/shots/C33.mp4",
+      "startFrame": 966,
+      "frames": 18,
+      "assetStartFrame": 30,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S45",
+      "assetId": "C32",
+      "asset": "assets/shots/C32.mp4",
+      "startFrame": 984,
+      "frames": 18,
+      "assetStartFrame": 30,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S46",
+      "assetId": "C37",
+      "asset": "assets/shots/C37.mp4",
+      "startFrame": 1002,
+      "frames": 15,
+      "assetStartFrame": 21,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 1.0
+    },
+    {
+      "id": "S47",
+      "assetId": "C49",
+      "asset": "assets/shots/C49.mp4",
+      "startFrame": 1017,
+      "frames": 22,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S48",
+      "assetId": "C48",
+      "asset": "assets/shots/C48.mp4",
+      "startFrame": 1039,
+      "frames": 17,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S49",
+      "assetId": "C47",
+      "asset": "assets/shots/C47.mp4",
+      "startFrame": 1056,
+      "frames": 24,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 1.0
+    },
+    {
+      "id": "S50",
+      "assetId": "C50",
+      "asset": "assets/shots/C50.mp4",
+      "startFrame": 1080,
+      "frames": 18,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S51",
+      "assetId": "C51",
+      "asset": "assets/shots/C51.mp4",
+      "startFrame": 1098,
+      "frames": 24,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S52",
+      "assetId": "C52",
+      "asset": "assets/shots/C52.mp4",
+      "startFrame": 1122,
+      "frames": 18,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 1.0
+    },
+    {
+      "id": "S53",
+      "assetId": "C53",
+      "asset": "assets/shots/C53.mp4",
+      "startFrame": 1140,
+      "frames": 12,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S54",
+      "assetId": "C42",
+      "asset": "assets/shots/C42.mp4",
+      "startFrame": 1152,
+      "frames": 24,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S55",
+      "assetId": "N12",
+      "asset": "assets/shots/N12.mp4",
+      "startFrame": 1176,
+      "frames": 12,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 1.0
+    },
+    {
+      "id": "S56",
+      "assetId": "N13",
+      "asset": "assets/shots/N13.mp4",
+      "startFrame": 1188,
+      "frames": 12,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S57",
+      "assetId": "N14",
+      "asset": "assets/shots/N14.mp4",
+      "startFrame": 1200,
+      "frames": 17,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S58",
+      "assetId": "N15",
+      "asset": "assets/shots/N15.mp4",
+      "startFrame": 1217,
+      "frames": 19,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 1.0
+    },
+    {
+      "id": "S59",
+      "assetId": "N16",
+      "asset": "assets/shots/N16.mp4",
+      "startFrame": 1236,
+      "frames": 12,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S60",
+      "assetId": "N17",
+      "asset": "assets/shots/N17.mp4",
+      "startFrame": 1248,
+      "frames": 11,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S61",
+      "assetId": "N18",
+      "asset": "assets/shots/N18.mp4",
+      "startFrame": 1259,
+      "frames": 20,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 1.0
+    },
+    {
+      "id": "S62",
+      "assetId": "N19",
+      "asset": "assets/shots/N19.mp4",
+      "startFrame": 1279,
+      "frames": 17,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S63",
+      "assetId": "N20",
+      "asset": "assets/shots/N20.mp4",
+      "startFrame": 1296,
+      "frames": 17,
+      "assetStartFrame": 12,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S64",
+      "assetId": "N21",
+      "asset": "assets/shots/N21.mp4",
+      "startFrame": 1313,
+      "frames": 19,
+      "assetStartFrame": 29,
+      "punch": 0.17,
+      "motion": -1,
+      "rotation": 1.0
+    },
+    {
+      "id": "S65",
+      "assetId": "C23",
+      "asset": "assets/shots/C23.mp4",
+      "startFrame": 1332,
+      "frames": 23,
+      "assetStartFrame": 25,
+      "punch": 0.17,
+      "motion": 1,
+      "rotation": 0
+    },
+    {
+      "id": "S66",
+      "assetId": "C07",
+      "asset": "assets/shots/C07.mp4",
+      "startFrame": 1355,
+      "frames": 37,
+      "assetStartFrame": 12,
+      "punch": 0,
+      "motion": -1,
+      "rotation": 0
+    },
+    {
+      "id": "S67",
+      "assetId": "C01",
+      "asset": "assets/shots/C01.mp4",
+      "startFrame": 1392,
+      "frames": 48,
+      "assetStartFrame": 12,
+      "punch": 0.045,
+      "motion": 1,
+      "rotation": 1.0
+    }
+  ],
+  "visuals": [
+    {
+      "id": "void",
+      "kind": "black",
+      "start": 384,
+      "end": 425,
+      "z": 35
+    },
+    {
+      "id": "pulse",
+      "kind": "lightning",
+      "start": 387,
+      "end": 433,
+      "z": 36
+    },
+    {
+      "id": "lens-finish",
+      "kind": "circle",
+      "start": 1392,
+      "end": 1440,
+      "clips": [
+        {
+          "assetId": "C01",
+          "offset": 12
+        }
+      ],
+      "z": 30
+    },
+    {
+      "id": "lens-memory",
+      "kind": "lens",
+      "start": 1355,
+      "end": 1367,
+      "clips": [
+        {
+          "assetId": "C48",
+          "offset": 12
+        }
+      ],
+      "z": 29,
+      "trackingFile": "motion/lens-keyframes.json"
+    }
+  ],
+  "foregrounds": [
+    {
+      "id": "geto-over-depth",
+      "alpha": "Y-geto",
+      "start": 156,
+      "end": 192,
+      "offset": 12,
+      "z": 60,
+      "scale": 1.5,
+      "restX": -500,
+      "restY": -80,
+      "x": -130,
+      "y": 30,
+      "inFrames": 5,
+      "outFrames": 4,
+      "clipActive": true,
+      "glow": 2
+    },
+    {
+      "id": "face-before-hall",
+      "alpha": "Y-hurt",
+      "start": 264,
+      "end": 292,
+      "offset": 32,
+      "z": 60,
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "inFrames": 1,
+      "outFrames": 4,
+      "clipActive": true,
+      "glow": 0
+    },
+    {
+      "id": "geto-crosses-hall",
+      "alpha": "Z-geto-smile",
+      "start": 300,
+      "end": 336,
+      "offset": 12,
+      "z": 60,
+      "scale": 1.0,
+      "restX": -400,
+      "restY": 0,
+      "x": -130,
+      "y": 30,
+      "inFrames": 5,
+      "outFrames": 4,
+      "clipActive": true,
+      "glow": 2,
+      "sourceAssetId": "N34"
+    },
+    {
+      "id": "paper-character",
+      "alpha": "Y-stand",
+      "start": 451,
+      "end": 475,
+      "offset": 12,
+      "z": 60,
+      "scale": 2.2,
+      "restX": -179,
+      "restY": 426,
+      "x": 0,
+      "y": 0,
+      "inFrames": 1,
+      "outFrames": 3,
+      "clipActive": false,
+      "glow": 2
+    },
+    {
+      "id": "geto-over-action",
+      "alpha": "Z-geto-phone",
+      "start": 480,
+      "end": 508,
+      "offset": 12,
+      "z": 60,
+      "scale": 1.0,
+      "restX": -400,
+      "restY": 0,
+      "x": -130,
+      "y": 30,
+      "inFrames": 5,
+      "outFrames": 4,
+      "clipActive": true,
+      "glow": 2,
+      "sourceAssetId": "N35"
+    },
+    {
+      "id": "awaken",
+      "alpha": "X-awaken",
+      "start": 669,
+      "end": 717,
+      "offset": 12,
+      "z": 60,
+      "x": -100,
+      "y": 120,
+      "enterScale": 1.1,
+      "scale": 0.95,
+      "glow": 3,
+      "clipActive": false,
+      "inFrames": 5,
+      "echoes": [
+        {
+          "lag": 3,
+          "opacity": 0.16,
+          "dx": -26,
+          "dy": 7
+        }
+      ]
+    },
+    {
+      "id": "palm",
+      "alpha": "X-palm",
+      "start": 774,
+      "end": 783,
+      "offset": 12,
+      "z": 60,
+      "x": -120,
+      "y": 120,
+      "enterScale": 1.18,
+      "scale": 1,
+      "inFrames": 5,
+      "glow": 1,
+      "clipActive": true
+    },
+    {
+      "id": "blue-hit",
+      "alpha": "Y-blue",
+      "start": 849,
+      "end": 857,
+      "offset": 12,
+      "z": 60,
+      "scale": 1,
+      "restX": 170,
+      "restY": 0,
+      "x": -150,
+      "y": 70,
+      "inFrames": 3,
+      "outFrames": 2,
+      "glow": 5,
+      "clipActive": true
+    },
+    {
+      "id": "geto-memory-action",
+      "alpha": "Z-geto-white",
+      "start": 924,
+      "end": 960,
+      "offset": 12,
+      "z": 60,
+      "scale": 1.0,
+      "restX": -400,
+      "restY": 0,
+      "x": -130,
+      "y": 30,
+      "inFrames": 5,
+      "outFrames": 4,
+      "clipActive": true,
+      "glow": 2,
+      "sourceAssetId": "N36"
+    },
+    {
+      "id": "geto-hand-hit",
+      "alpha": "Y-getopalm",
+      "start": 972,
+      "end": 985,
+      "offset": 38,
+      "z": 60,
+      "scale": 1.1,
+      "restX": 180,
+      "restY": -30,
+      "x": 80,
+      "y": 150,
+      "inFrames": 3,
+      "outFrames": 2,
+      "clipActive": true,
+      "glow": 3
+    },
+    {
+      "id": "geto-hero",
+      "alpha": "Z-geto-shadow",
+      "start": 990,
+      "end": 1026,
+      "offset": 12,
+      "z": 60,
+      "scale": 1.0,
+      "restX": -400,
+      "restY": 0,
+      "x": -130,
+      "y": 30,
+      "inFrames": 5,
+      "outFrames": 4,
+      "clipActive": true,
+      "glow": 2,
+      "sourceAssetId": "N37"
+    }
+  ],
+  "typeEvents": [
+    {
+      "id": "opening",
+      "mode": "slam",
+      "text": "THE STRONGEST",
+      "subtitle": "最强 · 五条悟",
+      "start": 15,
+      "end": 48,
+      "font_size": 550,
+      "width": 1640,
+      "x": 960,
+      "y": 510,
+      "color": "#fffaf0",
+      "stroke": "#080b13",
+      "depth": "#bb141a",
+      "font": "Barlow Condensed",
+      "z": 45,
+      "pulse": true
+    },
+    {
+      "id": "bond",
+      "mode": "twin",
+      "text": [
+        "GOJO SATORU",
+        "GETO SUGURU"
+      ],
+      "subtitle": "唯一 / 挚友",
+      "start": 120,
+      "end": 156,
+      "font_size": 390,
+      "width": 1570,
+      "y": 525,
+      "color": "#fffaf0",
+      "stroke": "#080b13",
+      "depth": "#72c7ed",
+      "font": "Barlow Condensed",
+      "z": 45
+    },
+    {
+      "id": "strongest",
+      "mode": "slam",
+      "text": "BEYOND",
+      "subtitle": "最强",
+      "start": 432,
+      "end": 456,
+      "font_size": 570,
+      "width": 1610,
+      "board": false,
+      "color": "#fffaf0",
+      "stroke": "#080b13",
+      "depth": "#bb141a",
+      "font": "Barlow Condensed",
+      "z": 45
+    },
+    {
+      "id": "awake",
+      "mode": "twin",
+      "text": [
+        "THE STRONGEST",
+        "AWAKEN"
+      ],
+      "subtitle": "最强 / 觉醒",
+      "start": 669,
+      "end": 717,
+      "font_size": 450,
+      "width": 1620,
+      "board": true,
+      "color": "#34135f",
+      "stroke": "#f5f3f0",
+      "depth": "#b517c6",
+      "board_color": "#7bbbd4",
+      "edge_color": "#34135f",
+      "font": "Barlow Condensed",
+      "z": 45
+    },
+    {
+      "id": "limitless",
+      "mode": "cylinder",
+      "text": "NO LIMIT",
+      "subtitle": "无下限",
+      "start": 840,
+      "end": 864,
+      "font_size": 560,
+      "width": 1620,
+      "board": true,
+      "color": "#34135f",
+      "stroke": "#f5f3f0",
+      "depth": "#b517c6",
+      "board_color": "#7bbbd4",
+      "edge_color": "#34135f",
+      "z": 45
+    },
+    {
+      "id": "geto",
+      "mode": "ribbon",
+      "text": "GETO SUGURU",
+      "subtitle": "夏油杰",
+      "start": 966,
+      "end": 996,
+      "font_size": 560,
+      "width": 1610,
+      "board": true,
+      "color": "#080b13",
+      "stroke": "#b30918",
+      "depth": "#080b13",
+      "board_color": "#efb62e",
+      "edge_color": "#c61120",
+      "z": 45
+    },
+    {
+      "id": "purple",
+      "mode": "orbit",
+      "text": "PURPLE",
+      "subtitle": "茈",
+      "start": 1098,
+      "end": 1134,
+      "font_size": 560,
+      "width": 1600,
+      "board": true,
+      "color": "#34135f",
+      "stroke": "#f5f3f0",
+      "depth": "#b517c6",
+      "board_color": "#7bbbd4",
+      "edge_color": "#34135f",
+      "z": 45
+    },
+    {
+      "id": "edge",
+      "mode": "cylinder",
+      "text": "EDGE",
+      "subtitle": "觉醒",
+      "start": 1200,
+      "end": 1224,
+      "font_size": 560,
+      "width": 1580,
+      "board": false,
+      "color": "#fffaf0",
+      "stroke": "#34135f",
+      "depth": "#b517c6",
+      "z": 45
+    }
+  ],
+  "flashes": [
+    {
+      "frame": 432,
+      "width": 2,
+      "amount": 0.28
+    },
+    {
+      "frame": 669,
+      "width": 2,
+      "amount": 0.28
+    },
+    {
+      "frame": 810,
+      "width": 2,
+      "amount": 0.28
+    },
+    {
+      "frame": 864,
+      "width": 2,
+      "amount": 0.28
+    },
+    {
+      "frame": 1056,
+      "width": 2,
+      "amount": 0.28
+    },
+    {
+      "frame": 1116,
+      "width": 2,
+      "amount": 0.28
+    },
+    {
+      "frame": 1200,
+      "width": 2,
+      "amount": 0.28
+    },
+    {
+      "frame": 1260,
+      "width": 2,
+      "amount": 0.28
+    }
+  ],
+  "hfChunks": [
+    {
+      "asset": "../occ-effects/HF-0000-0072.mp4",
+      "startFrame": 0,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0072-0144.mp4",
+      "startFrame": 72,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0144-0216.mp4",
+      "startFrame": 144,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0216-0288.mp4",
+      "startFrame": 216,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0288-0360.mp4",
+      "startFrame": 288,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0360-0432.mp4",
+      "startFrame": 360,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0432-0504.mp4",
+      "startFrame": 432,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0504-0576.mp4",
+      "startFrame": 504,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0576-0648.mp4",
+      "startFrame": 576,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0648-0720.mp4",
+      "startFrame": 648,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0720-0792.mp4",
+      "startFrame": 720,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0792-0864.mp4",
+      "startFrame": 792,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0864-0936.mp4",
+      "startFrame": 864,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-0936-1008.mp4",
+      "startFrame": 936,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-1008-1080.mp4",
+      "startFrame": 1008,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-1080-1152.mp4",
+      "startFrame": 1080,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-1152-1224.mp4",
+      "startFrame": 1152,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-1224-1296.mp4",
+      "startFrame": 1224,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-1296-1368.mp4",
+      "startFrame": 1296,
+      "frames": 72,
+      "assetStartFrame": 0
+    },
+    {
+      "asset": "../occ-effects/HF-1368-1440.mp4",
+      "startFrame": 1368,
+      "frames": 72,
+      "assetStartFrame": 0
+    }
+  ],
+  "nativeTexts": [
+    {
+      "id": "opening",
+      "text": "最强 · 五条悟",
+      "startFrame": 15,
+      "frames": 33,
+      "fontSize": 36,
+      "color": "#fffaf0",
+      "fontWeight": 900,
+      "align": "center"
+    },
+    {
+      "id": "bond",
+      "text": "唯一 / 挚友",
+      "startFrame": 120,
+      "frames": 36,
+      "fontSize": 36,
+      "color": "#fffaf0",
+      "fontWeight": 900,
+      "align": "center"
+    },
+    {
+      "id": "strongest",
+      "text": "最强",
+      "startFrame": 432,
+      "frames": 24,
+      "fontSize": 36,
+      "color": "#fffaf0",
+      "fontWeight": 900,
+      "align": "center"
+    },
+    {
+      "id": "awake",
+      "text": "最强 / 觉醒",
+      "startFrame": 669,
+      "frames": 48,
+      "fontSize": 36,
+      "color": "#fffaf0",
+      "fontWeight": 900,
+      "align": "center"
+    },
+    {
+      "id": "limitless",
+      "text": "无下限",
+      "startFrame": 840,
+      "frames": 24,
+      "fontSize": 36,
+      "color": "#fffaf0",
+      "fontWeight": 900,
+      "align": "center"
+    },
+    {
+      "id": "geto",
+      "text": "夏油杰",
+      "startFrame": 966,
+      "frames": 30,
+      "fontSize": 36,
+      "color": "#fffaf0",
+      "fontWeight": 900,
+      "align": "center"
+    },
+    {
+      "id": "purple",
+      "text": "茈",
+      "startFrame": 1098,
+      "frames": 36,
+      "fontSize": 36,
+      "color": "#fffaf0",
+      "fontWeight": 900,
+      "align": "center"
+    },
+    {
+      "id": "edge",
+      "text": "觉醒",
+      "startFrame": 1200,
+      "frames": 24,
+      "fontSize": 36,
+      "color": "#fffaf0",
+      "fontWeight": 900,
+      "align": "center"
+    }
+  ],
+  "revision": "V3-dedup",
+  "layouts": [
+    {
+      "id": "opening-depth",
+      "kind": "depth_windows",
+      "start": 0,
+      "end": 36,
+      "clips": [
+        {
+          "assetId": "C38",
+          "offset": 12
+        },
+        {
+          "assetId": "N31",
+          "offset": 12
+        }
+      ],
+      "slots": [
+        {
+          "x": -540,
+          "y": 20,
+          "scale": 0.72,
+          "rotation": -5,
+          "blur": 3
+        },
+        {
+          "x": 440,
+          "y": 120,
+          "scale": 0.44,
+          "rotation": 7,
+          "blur": 0.2
+        }
+      ],
+      "z": 20,
+      "origin": "原创延伸：受伤脸记忆的视差空间"
+    },
+    {
+      "id": "friend-film",
+      "kind": "filmstrip",
+      "start": 120,
+      "end": 156,
+      "clips": [
+        {
+          "assetId": "N27",
+          "offset": 12
+        },
+        {
+          "assetId": "N28",
+          "offset": 12
+        },
+        {
+          "assetId": "N29",
+          "offset": 12
+        }
+      ],
+      "z": 20,
+      "origin": "原创延伸：双人关系错位三连片"
+    },
+    {
+      "id": "warm-depth",
+      "kind": "depth_windows",
+      "start": 180,
+      "end": 216,
+      "clips": [
+        {
+          "assetId": "C16",
+          "offset": 12
+        },
+        {
+          "assetId": "N30",
+          "offset": 12
+        }
+      ],
+      "z": 20,
+      "origin": "V17冷暖关系层次的延伸"
+    },
+    {
+      "id": "fold-to-hurt",
+      "kind": "ribbon_flip",
+      "start": 244,
+      "end": 264,
+      "clips": [
+        {
+          "assetId": "C20",
+          "offset": 12
+        }
+      ],
+      "handoff": true,
+      "leaves": 7,
+      "z": 30,
+      "origin": "原创七叶展开，严格接C20同源帧32"
+    },
+    {
+      "id": "hall-expand",
+      "kind": "window_expand",
+      "start": 280,
+      "end": 292,
+      "clips": [
+        {
+          "assetId": "C54",
+          "offset": 12
+        }
+      ],
+      "rect": [
+        60,
+        600,
+        470,
+        330
+      ],
+      "toRect": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "revealStart": 282,
+      "revealEnd": 291,
+      "z": 35,
+      "origin": "V17矩形窗扩为新空间"
+    },
+    {
+      "id": "knife-eye-depth",
+      "kind": "depth_windows",
+      "start": 336,
+      "end": 360,
+      "clips": [
+        {
+          "assetId": "C14",
+          "offset": 12
+        },
+        {
+          "assetId": "N22",
+          "offset": 12
+        }
+      ],
+      "slots": [
+        {
+          "x": -480,
+          "y": 120,
+          "scale": 0.55,
+          "rotation": -5,
+          "blur": 0
+        },
+        {
+          "x": 550,
+          "y": -80,
+          "scale": 0.44,
+          "rotation": 5,
+          "blur": 1
+        }
+      ],
+      "z": 20,
+      "origin": "原创刀刃与六眼双景深"
+    },
+    {
+      "id": "energy-paper",
+      "kind": "tear_reveal",
+      "start": 451,
+      "end": 480,
+      "clips": [
+        {
+          "assetId": "C21",
+          "offset": 12,
+          "transform": {
+            "scale": 2.2,
+            "x": -179,
+            "y": 426
+          }
+        }
+      ],
+      "left": 1080,
+      "width": 326,
+      "top": 172,
+      "bottom": 1080,
+      "revealFrames": 5,
+      "drift": 70,
+      "z": 30,
+      "edgeFx": {
+        "strength": 1,
+        "particles": 14,
+        "arcSpeed": 17,
+        "cyan": "#72c7ed",
+        "violet": "#b517c6"
+      },
+      "origin": "V17细人物条结构＋用户要求新增渲染燃边"
+    },
+    {
+      "id": "eye-slit",
+      "kind": "slit_eyes",
+      "start": 618,
+      "end": 648,
+      "clips": [
+        {
+          "assetId": "C20",
+          "offset": 20,
+          "transform": {
+            "scale": 1
+          }
+        },
+        {
+          "assetId": "C03",
+          "offset": 12,
+          "transform": {
+            "scale": 2.6,
+            "x": 100,
+            "y": -108
+          }
+        }
+      ],
+      "openFrames": 9,
+      "endZoom": 1.1,
+      "zoomFrames": 4,
+      "z": 30,
+      "origin": "V17窄缝展至双半脸，眼线手工对位"
+    },
+    {
+      "id": "action-triptych",
+      "kind": "filmstrip",
+      "start": 720,
+      "end": 744,
+      "clips": [
+        {
+          "assetId": "C39",
+          "offset": 12
+        },
+        {
+          "assetId": "C43",
+          "offset": 12
+        },
+        {
+          "assetId": "C40",
+          "offset": 12
+        }
+      ],
+      "cards": [
+        {
+          "x": -610,
+          "y": -70,
+          "scale": 0.38,
+          "rotation": -12
+        },
+        {
+          "x": 55,
+          "y": 30,
+          "scale": 0.5,
+          "rotation": 3
+        },
+        {
+          "x": 680,
+          "y": -90,
+          "scale": 0.32,
+          "rotation": 12
+        }
+      ],
+      "z": 25,
+      "origin": "原创动作三连版面"
+    },
+    {
+      "id": "blue-tear",
+      "kind": "tear_reveal",
+      "start": 864,
+      "end": 888,
+      "clips": [
+        {
+          "assetId": "C29",
+          "offset": 17
+        }
+      ],
+      "left": 270,
+      "width": 780,
+      "top": 108,
+      "bottom": 972,
+      "revealFrames": 4,
+      "expandStart": 877,
+      "expandEnd": 887,
+      "z": 32,
+      "edgeFx": {
+        "strength": 0.8,
+        "particles": 10,
+        "cyan": "#72c7ed",
+        "violet": "#b517c6"
+      },
+      "origin": "原创同源术式手势电弧裂口，末源帧40接下一帧41"
+    },
+    {
+      "id": "geto-depth",
+      "kind": "depth_windows",
+      "start": 984,
+      "end": 1020,
+      "clips": [
+        {
+          "assetId": "C32",
+          "offset": 12
+        },
+        {
+          "assetId": "C33",
+          "offset": 12
+        }
+      ],
+      "slots": [
+        {
+          "x": 450,
+          "y": -110,
+          "scale": 0.52,
+          "rotation": 6,
+          "blur": 0
+        },
+        {
+          "x": -520,
+          "y": 160,
+          "scale": 0.4,
+          "rotation": -8,
+          "blur": 3
+        }
+      ],
+      "z": 20,
+      "origin": "原创人物前景与术式后景"
+    },
+    {
+      "id": "gold-leaves",
+      "kind": "ribbon_flip",
+      "start": 1056,
+      "end": 1080,
+      "clips": [
+        {
+          "assetId": "C47",
+          "offset": 12
+        }
+      ],
+      "leaves": 7,
+      "z": 25,
+      "origin": "原创金色动作翻叶"
+    },
+    {
+      "id": "purple-depth",
+      "kind": "depth_windows",
+      "start": 1200,
+      "end": 1230,
+      "clips": [
+        {
+          "assetId": "N14",
+          "offset": 12
+        },
+        {
+          "assetId": "N23",
+          "offset": 12
+        }
+      ],
+      "slots": [
+        {
+          "x": -480,
+          "y": 90,
+          "scale": 0.53,
+          "rotation": -5,
+          "blur": 0
+        },
+        {
+          "x": 570,
+          "y": -120,
+          "scale": 0.4,
+          "rotation": 8,
+          "blur": 1.5
+        }
+      ],
+      "z": 20,
+      "origin": "原创术式与六眼视差版式"
+    },
+    {
+      "id": "final-actions",
+      "kind": "filmstrip",
+      "start": 1248,
+      "end": 1272,
+      "clips": [
+        {
+          "assetId": "N24",
+          "offset": 12
+        },
+        {
+          "assetId": "N25",
+          "offset": 12
+        },
+        {
+          "assetId": "N26",
+          "offset": 12
+        }
+      ],
+      "z": 25,
+      "origin": "原创三段动作记忆回钩"
+    },
+    {
+      "id": "dedup-cold-face-over-warm",
+      "kind": "depth_windows",
+      "start": 79,
+      "end": 127,
+      "clips": [
+        {
+          "assetId": "N33",
+          "offset": 12
+        }
+      ],
+      "slots": [
+        {
+          "x": 480,
+          "y": 50,
+          "scale": 0.62,
+          "rotation": -4,
+          "blur": 0
+        }
+      ],
+      "z": 35,
+      "origin": "V3新素材空间窗口：取代重复冷脸；运动边缘不可靠时不冒充完整alpha"
+    },
+    {
+      "id": "dedup-cold-return",
+      "kind": "depth_windows",
+      "start": 204,
+      "end": 252,
+      "clips": [
+        {
+          "assetId": "N40",
+          "offset": 12
+        }
+      ],
+      "slots": [
+        {
+          "x": 480,
+          "y": 50,
+          "scale": 0.62,
+          "rotation": -4,
+          "blur": 0
+        }
+      ],
+      "z": 35,
+      "origin": "V3新素材空间窗口：取代重复冷脸；运动边缘不可靠时不冒充完整alpha"
+    },
+    {
+      "id": "dedup-awaken-purple",
+      "kind": "depth_windows",
+      "start": 1080,
+      "end": 1128,
+      "clips": [
+        {
+          "assetId": "N38",
+          "offset": 12
+        }
+      ],
+      "slots": [
+        {
+          "x": 480,
+          "y": 50,
+          "scale": 0.62,
+          "rotation": -4,
+          "blur": 0
+        }
+      ],
+      "z": 35,
+      "origin": "V3新素材空间窗口：取代重复冷脸；运动边缘不可靠时不冒充完整alpha"
+    },
+    {
+      "id": "dedup-blue-last-hit",
+      "kind": "depth_windows",
+      "start": 1256,
+      "end": 1264,
+      "clips": [
+        {
+          "assetId": "N39",
+          "offset": 12
+        }
+      ],
+      "slots": [
+        {
+          "x": 480,
+          "y": 50,
+          "scale": 0.62,
+          "rotation": -4,
+          "blur": 0
+        }
+      ],
+      "z": 35,
+      "origin": "V3新素材空间窗口：取代重复冷脸；运动边缘不可靠时不冒充完整alpha"
+    }
+  ],
+  "artDirection": "用户最新要求：不局限V17/V02，效果与流畅度优先；更多动态抠像/版式；撕边带实际能量、纤维、电弧渲染。参考结构与原创延伸分别标注。",
+  "dedupPolicy": {
+    "source": "V2",
+    "preserveCutFrames": true,
+    "preserveMusic": true,
+    "newNativeReplacements": 21,
+    "sameEventCompositionIsNotReplay": true,
+    "note": "同步图层/转场接力保留；不同时间反复用同一镜头或人物动作应更换。镜头/前景去重以源内容和时间范围复查，不能只换ID。"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_item",
+      "result": {
+        "ok": true,
+        "atomic": true,
+        "validateOnly": false,
+        "ripple": false,
+        "results": [
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_28a1dc98-7b47-4842-9ab7-4269ba6e797a"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_5a2287d5-105a-4db9-bfdc-0930a586783c"
+          },
+          {
+            "ok": true,
+            "kind": "video",
+            "plan": "genericUpdate",
+            "itemId": "item_86e4c254-2384-4f9a-8108-8e819cbf8b2f"
+          }
+        ]
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "5df58f6f-1b4f-4ed7-83c4-66fc17082496",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-a7adfb84",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_28e3ee6d52ec415e",
+    "editorUrl": "http://localhost:5199/#/editor/8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+    "updatedAt": "2026-11-05T03:03:47.650Z"
+  }
+}

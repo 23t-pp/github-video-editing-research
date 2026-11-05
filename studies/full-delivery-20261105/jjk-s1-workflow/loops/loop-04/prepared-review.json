@@ -1,0 +1,57 @@
+{
+  "reviewer": "/root/s1_design_auditor",
+  "reviewedAt": "2026-11-05T19:40:55+08:00",
+  "status": "pass",
+  "reviewLevel": "R4_prepared_material_gate_only",
+  "captureAuthorized": true,
+  "wholeFilmPass": false,
+  "finalApproval": false,
+  "boundArtifacts": {
+    "loops/loop-04/design-precheck.json": "1101626fd188028ac521f9f64db9e8a38989a67d723fbe5aa9238b9f3f07775d",
+    "loops/loop-04/revision-spec.json": "3227f2307a1858f6112e54e6b44fc8918a204fe8f5993d320ebc12bb853c5948",
+    "loops/loop-04/reviewer-evidence/prepared-independent-check.json": "71c08d280b5d1fad4ee76ed9f8dcf24eb0e3a13b5333b73c4127ac2f32cd1dbe",
+    "loops/loop-04/reviewer-evidence/T091-highres-native-bottom23.jpg": "a8940e94a6d34f52b06849db1d508587024404c6ce070f482dab673bdcfeda39",
+    "loops/loop-04/prepared-review-inputs/retrieved-assets-loop4.json": "862e659fe4ae2d7be85ad13bd20ae668e4c7d50ee32f83bc02ab970d0689ba8e",
+    "loops/loop-04/prepared-review-inputs/T007-native-proof.json": "76527ae829b15bb345273559f715d5377e6295b0f8a6051931d59303986b47f3",
+    "loops/loop-04/prepared-review-inputs/T007.json": "6ead655bc246ce959d60e5a2dc5135abb1470dd1529513b89ee1ec5f83741024",
+    "loops/loop-04/prepared-review-inputs/T062-native-proof.json": "ca00d45157b36e110bb8d5a1ba04f79586efa6f255676c8f0b31926a6d9a3bae",
+    "loops/loop-04/prepared-review-inputs/T062.json": "5fd47d379b56521fe492f2f0abed414d265cf7bc4593960cc0d5a00a69048ab5",
+    "loops/loop-04/prepared-review-inputs/T091-native-proof.json": "29044751347573c91b49870562eea6a9ceb077a21d277b4c0ddebb8b08d69117",
+    "loops/loop-04/prepared-review-inputs/T091.json": "17db0c66fa45e3476fa91ae0a605be03ff4ba68f2ddac0f5df531d3eaace1437",
+    "loops/loop-04/prepared-review-inputs/tail-prepared-check.json": "55e65e41d20c8f947bf137288faa9eab76107580054c47ab5c209457d515b260",
+    "hyperframes/assets/shots/T062.mp4": "4f6f91d3f918fe66dfbcd2ad0c54d979e98834e4ad9413b504c8cd8953cc9988",
+    "evidence/tail-retrieval/T062-all-prepared.jpg": "c2dc3e424965e8559503d0708d78c2c8073da3a604415c6bed962bb5cc65c2fe",
+    "evidence/tail-retrieval/T062-all-bottom-strips.jpg": "075c1522111c5f89bccbcac95fa6b4a9713d4090ca62210332149a31ea3247ae",
+    "hyperframes/assets/shots/T091.mp4": "ab713cc832301bb2a8b072931db3cec71303ae499659d143e59c26351d9f7fcc",
+    "evidence/tail-retrieval/T091-all-prepared.jpg": "bccb9fd93930b257589bed6bd16791b80f4ea5258ff9f63ba4ace5129e93dbda",
+    "evidence/tail-retrieval/T091-all-bottom-strips.jpg": "62f6d5998101c0238e5b32316dd438e3490097e7b3faf5035016109302d66a0a",
+    "hyperframes/assets/shots/T007.mp4": "b549c18d9cf956e50d68a7bd11cacd8fb33bdf8f880f71bf5b5c305e7b534872",
+    "evidence/tail-retrieval/T007-all-prepared.jpg": "1859116120fba9bfcb20ef6398bdb86f6d19d44de58006f9b8b540579a8ddff5",
+    "evidence/tail-retrieval/T007-all-bottom-strips.jpg": "0141a7f962b14ba70a4c8d266686a09254f01b9a7ca659cef76dcd450ec10b28"
+  },
+  "observedScope": [
+    "实际看T062全22/T091全24/T007全24编码prepared联系表，共70帧，真实拳臂/旋转/水浪运动保留。",
+    "实际看三组全部70帧下沿条；另看由正式高分原生PNG生成的T091全23帧原字幕区条，字幕存在于原片且在prepared已去净，中央旋涡保留。",
+    "审核员独立解码三个MP4全部70张1920×1080RGB，与其明确选中的原生PNG crop/pad比对，maxMAD为1.601/1.176/1.436；不是照抄作者检查。",
+    "独立核查65原生PNG SHA、真实整数PTS×timebase、70逐输出nearest-index选样和重复3+1+1标记；顺序正确。"
+  ],
+  "subtitleDecision": {
+    "T091": "crop0..943+pad68避开原字幕，实际24下沿无白字残尖；去原下136行外圈/下部粒子，中心能量仍可辨。",
+    "T062_T007": "crop0..959+pad60，全部编码下沿未见字幕残留。",
+    "lossDisclosureRequired": true
+  },
+  "allowedActions": [
+    "冻结按已审revision-spec及70-frame manifest构建的正式R4 plan",
+    "执行眼14f/中文新位/尾3动作的真实变化段capture，未变段严格payload校验后复用",
+    "编码完整1920×1080/24/1440帧新成片并提交独立review"
+  ],
+  "stillPending": [
+    "正式R4连续1440帧/所有新资产offset/事件ID映射规范检查",
+    "816–843和612–638完整实际事件，以及1280–1362切口/焦点/色彩/动作节奏审",
+    "R4完整成片新SHA、technical checks、最终可编辑工程验收"
+  ],
+  "limits": [
+    "材料门pass不等于中文/双眼/新尾部合成已经通过。",
+    "手工审图为全帧联系表与字幕区域条，不是逐张原尺寸全画面人工扫查；但全70原尺寸RGB顺序与cropped源比对已机器完成。"
+  ]
+}

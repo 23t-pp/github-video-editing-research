@@ -1,0 +1,1427 @@
+{
+  "scope": "24集各8张稀疏导航；192个单帧JPG与24张联系表",
+  "notFullFrameAnalysis": true,
+  "items": [
+    {
+      "id": "S1E01",
+      "overviewJpg": "evidence/source-overviews/S1E01-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E01/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E01/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E01/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E01/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E01/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E01/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E01/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E01/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "虎杖",
+            "伏黑"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E02",
+      "overviewJpg": "evidence/source-overviews/S1E02-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E02/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E02/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E02/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E02/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E02/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E02/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E02/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E02/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "虎杖",
+            "伏黑",
+            "五条"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E03",
+      "overviewJpg": "evidence/source-overviews/S1E03-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E03/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E03/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E03/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E03/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E03/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E03/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E03/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E03/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "虎杖",
+            "伏黑",
+            "钉崎"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E04",
+      "overviewJpg": "evidence/source-overviews/S1E04-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E04/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E04/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E04/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E04/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E04/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E04/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E04/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E04/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "虎杖",
+            "伏黑",
+            "宿傩"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E05",
+      "overviewJpg": "evidence/source-overviews/S1E05-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E05/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E05/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E05/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E05/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E05/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E05/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E05/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E05/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "宿傩",
+            "伏黑",
+            "五条"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E06",
+      "overviewJpg": "evidence/source-overviews/S1E06-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E06/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E06/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E06/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E06/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E06/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E06/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E06/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E06/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "虎杖",
+            "宿傩",
+            "五条"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E07",
+      "overviewJpg": "evidence/source-overviews/S1E07-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E07/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E07/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E07/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E07/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E07/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E07/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E07/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E07/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "五条",
+            "漏瑚",
+            "虎杖"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E08",
+      "overviewJpg": "evidence/source-overviews/S1E08-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E08/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E08/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E08/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E08/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E08/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E08/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E08/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E08/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "钉崎",
+            "真依",
+            "伏黑",
+            "东堂"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E09",
+      "overviewJpg": "evidence/source-overviews/S1E09-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E09/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E09/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E09/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E09/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E09/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E09/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E09/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E09/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "虎杖",
+            "七海",
+            "顺平",
+            "真人"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E10",
+      "overviewJpg": "evidence/source-overviews/S1E10-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E10/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E10/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E10/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E10/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E10/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E10/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E10/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E10/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "顺平",
+            "真人",
+            "七海"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E11",
+      "overviewJpg": "evidence/source-overviews/S1E11-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E11/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E11/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E11/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E11/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E11/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E11/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E11/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E11/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "真人",
+            "顺平",
+            "七海"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E12",
+      "overviewJpg": "evidence/source-overviews/S1E12-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E12/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E12/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E12/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E12/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E12/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E12/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E12/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E12/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "虎杖",
+            "顺平",
+            "真人"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E13",
+      "overviewJpg": "evidence/source-overviews/S1E13-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E13/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E13/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E13/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E13/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E13/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E13/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E13/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E13/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "真人",
+            "七海",
+            "虎杖",
+            "五条"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E14",
+      "overviewJpg": "evidence/source-overviews/S1E14-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E14/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E14/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E14/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E14/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E14/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E14/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E14/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E14/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "虎杖",
+            "伏黑",
+            "钉崎",
+            "真希"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E15",
+      "overviewJpg": "evidence/source-overviews/S1E15-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E15/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E15/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E15/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E15/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E15/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E15/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E15/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E15/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "虎杖",
+            "东堂"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E16",
+      "overviewJpg": "evidence/source-overviews/S1E16-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E16/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E16/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E16/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E16/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E16/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E16/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E16/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E16/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "东堂",
+            "机械丸",
+            "熊猫",
+            "三轮"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E17",
+      "overviewJpg": "evidence/source-overviews/S1E17-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E17/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E17/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E17/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E17/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E17/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E17/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E17/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E17/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "真希",
+            "三轮",
+            "钉崎",
+            "真依"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E18",
+      "overviewJpg": "evidence/source-overviews/S1E18-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E18/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E18/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E18/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E18/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E18/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E18/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E18/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E18/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "加茂",
+            "伏黑",
+            "花御"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E19",
+      "overviewJpg": "evidence/source-overviews/S1E19-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E19/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E19/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E19/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E19/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E19/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E19/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E19/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E19/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "伏黑",
+            "虎杖",
+            "东堂",
+            "花御"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E20",
+      "overviewJpg": "evidence/source-overviews/S1E20-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E20/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E20/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E20/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E20/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E20/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E20/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E20/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E20/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "虎杖",
+            "东堂",
+            "五条"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E21",
+      "overviewJpg": "evidence/source-overviews/S1E21-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E21/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E21/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E21/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E21/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E21/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E21/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E21/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E21/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "伏黑",
+            "东堂",
+            "真希"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E22",
+      "overviewJpg": "evidence/source-overviews/S1E22-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E22/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E22/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E22/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E22/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E22/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E22/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E22/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E22/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "虎杖",
+            "伏黑",
+            "钉崎"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E23",
+      "overviewJpg": "evidence/source-overviews/S1E23-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E23/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E23/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E23/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E23/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E23/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E23/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E23/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E23/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "伏黑",
+            "钉崎"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    },
+    {
+      "id": "S1E24",
+      "overviewJpg": "evidence/source-overviews/S1E24-overview.jpg",
+      "samples": [
+        {
+          "targetSeconds": 120,
+          "jpg": "evidence/source-overviews/S1E24/t0120.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 280,
+          "jpg": "evidence/source-overviews/S1E24/t0280.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 440,
+          "jpg": "evidence/source-overviews/S1E24/t0440.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 600,
+          "jpg": "evidence/source-overviews/S1E24/t0600.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 760,
+          "jpg": "evidence/source-overviews/S1E24/t0760.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 920,
+          "jpg": "evidence/source-overviews/S1E24/t0920.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1080,
+          "jpg": "evidence/source-overviews/S1E24/t1080.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        },
+        {
+          "targetSeconds": 1240,
+          "jpg": "evidence/source-overviews/S1E24/t1240.jpg",
+          "method": "ffmpeg input seeking single frame; not native PTS index and not exact60fps grid"
+        }
+      ],
+      "semanticLabels": [
+        {
+          "field": "visibleCharactersAcrossSamples",
+          "values": [
+            "虎杖",
+            "钉崎",
+            "坏相",
+            "血涂"
+          ],
+          "confidence": "qualitative human attribution from shown sparse overview",
+          "scope": "只代表8张抽样里出现的角色，不代表整集所有角色"
+        }
+      ],
+      "humanViewed": true
+    }
+  ]
+}

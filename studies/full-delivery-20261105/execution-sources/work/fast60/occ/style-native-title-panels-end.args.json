@@ -1,0 +1,183 @@
+{
+  "updates": [
+    {
+      "type": "text",
+      "itemId": "item_dd3a2adc-89a5-4d40-ab5e-0ea171c5befb",
+      "props": {
+        "text": "弯心",
+        "fontSize": 120,
+        "color": "#eee9df",
+        "fontWeight": 900,
+        "align": "left",
+        "fontFamily": "Microsoft YaHei",
+        "lineHeight": 1.2,
+        "letterSpacing": -3,
+        "textShadow": "none"
+      },
+      "transform": {
+        "x": 1.875,
+        "y": 15.5556
+      },
+      "keyframes": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 5,
+            "value": 1
+          }
+        ],
+        "x": [
+          {
+            "frame": 0,
+            "value": 2.6,
+            "easing": "easeOut"
+          },
+          {
+            "frame": 10,
+            "value": 1.875
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "itemId": "item_d702c951-61cf-4906-a4a2-d9e44624db49",
+      "props": {
+        "text": "APEX",
+        "fontSize": 34,
+        "color": "#e75733",
+        "fontWeight": 900,
+        "align": "left",
+        "fontFamily": "Arial",
+        "fontStyle": "italic",
+        "lineHeight": 1.2,
+        "letterSpacing": 4,
+        "textShadow": "none"
+      },
+      "transform": {
+        "x": 2.1875,
+        "y": 24.1111
+      },
+      "keyframes": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 5,
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "video",
+      "itemId": "item_28a1dc98-7b47-4842-9ab7-4269ba6e797a",
+      "volume": 0,
+      "transform": {
+        "x": -44.375,
+        "y": 0,
+        "crop": {
+          "left": 852,
+          "right": 430,
+          "top": 140,
+          "bottom": 140
+        }
+      },
+      "keyframes": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "video",
+      "itemId": "item_5a2287d5-105a-4db9-bfdc-0930a586783c",
+      "volume": 0,
+      "transform": {
+        "x": 0.9895833333333333,
+        "y": 0,
+        "crop": {
+          "left": 623,
+          "right": 661,
+          "top": 140,
+          "bottom": 140
+        }
+      },
+      "keyframes": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 4,
+            "value": 0
+          },
+          {
+            "frame": 5,
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "video",
+      "itemId": "item_86e4c254-2384-4f9a-8108-8e819cbf8b2f",
+      "volume": 0,
+      "transform": {
+        "x": 44.375,
+        "y": 0,
+        "crop": {
+          "left": 430,
+          "right": 852,
+          "top": 140,
+          "bottom": 140
+        }
+      },
+      "keyframes": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 9,
+            "value": 0
+          },
+          {
+            "frame": 10,
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "video",
+      "itemId": "item_92731e8d-c43f-4b39-8bdf-effde275ca27",
+      "keyframes": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 1
+          },
+          {
+            "frame": 68,
+            "value": 1
+          },
+          {
+            "frame": 89,
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

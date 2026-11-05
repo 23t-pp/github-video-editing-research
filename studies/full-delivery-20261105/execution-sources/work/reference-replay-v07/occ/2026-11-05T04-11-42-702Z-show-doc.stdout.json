@@ -1,0 +1,55 @@
+{
+  "project": {
+    "id": "5bc66f3c-e9c7-4204-a118-da1c7c42a9d7",
+    "name": "越界 · V07动作接力复刻 · 速度与激情",
+    "updatedAt": 1793851902656
+  },
+  "timelines": [
+    {
+      "id": "tl_e804dc64-a93d-4b36-b9d5-346cb06dc53e",
+      "name": "02 原生逐镜 · 32镜 · V07库内BGM",
+      "active": true,
+      "fps": 25,
+      "width": 1920,
+      "height": 1080,
+      "itemCount": 0,
+      "durationFrames": 0,
+      "duration": "0s",
+      "trackSummary": "track_v1:0 track_bf48c46b-43b3-4223-ae62-30a96f95af82:0"
+    }
+  ],
+  "doc": {
+    "version": 3,
+    "assets": [],
+    "mediaFolders": [],
+    "timelines": [
+      {
+        "id": "tl_e804dc64-a93d-4b36-b9d5-346cb06dc53e",
+        "name": "02 原生逐镜 · 32镜 · V07库内BGM",
+        "order": 0,
+        "fps": 25,
+        "width": 1920,
+        "height": 1080,
+        "items": [],
+        "selectedId": null,
+        "trackOrder": [
+          "track_v1",
+          "track_bf48c46b-43b3-4223-ae62-30a96f95af82"
+        ],
+        "tracks": {
+          "track_v1": {
+            "kind": "video",
+            "muted": false,
+            "locked": false,
+            "name": "V1 逐镜素材 · 32个独立剪辑"
+          },
+          "track_bf48c46b-43b3-4223-ae62-30a96f95af82": {
+            "kind": "audio",
+            "name": "A1 V07库内BGM · master"
+          }
+        }
+      }
+    ],
+    "activeTimelineId": "tl_e804dc64-a93d-4b36-b9d5-346cb06dc53e"
+  }
+}

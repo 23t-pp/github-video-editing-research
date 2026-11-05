@@ -1,0 +1,60 @@
+{
+  "adds": [
+    {
+      "type": "solid",
+      "track": "track_a432c3e2-bab2-471f-ba7a-7f8438abc9cf",
+      "fromFrame": 675,
+      "durationInFrames": 45,
+      "color": "#090b0c",
+      "name": "三联底色 · 可编辑"
+    },
+    {
+      "type": "text",
+      "track": "track_c834a8da-9ec4-4483-af6e-6b4ddbc7cfe4",
+      "fromFrame": 7,
+      "durationInFrames": 68,
+      "text": "弯心",
+      "name": "片名 弯心 · 可改文字",
+      "fontSize": 120,
+      "fontWeight": 900,
+      "align": "left",
+      "color": "#eee9df"
+    },
+    {
+      "type": "text",
+      "track": "track_948844bf-94f2-4219-ad71-aca0c71947b0",
+      "fromFrame": 7,
+      "durationInFrames": 68,
+      "text": "APEX",
+      "name": "英文 APEX · 可改文字",
+      "fontSize": 34,
+      "fontWeight": 900,
+      "align": "left",
+      "color": "#e75733"
+    },
+    {
+      "type": "video",
+      "assetId": "25d49f49-30a2-42f4-a66f-9d7a67b59045",
+      "track": "track_1eb12ea4-ca4d-4402-8d8b-4fa94c60a604",
+      "fromFrame": 675,
+      "sourceStartFrame": 12,
+      "sourceDurationInFrames": 45
+    },
+    {
+      "type": "video",
+      "assetId": "c6794f31-b138-4be9-ad83-7d65db2cad1c",
+      "track": "track_bb0a797c-80de-4a2b-ab42-184486560630",
+      "fromFrame": 675,
+      "sourceStartFrame": 12,
+      "sourceDurationInFrames": 45
+    },
+    {
+      "type": "video",
+      "assetId": "12b55b48-d163-4238-9bc4-a874b9f4a955",
+      "track": "track_9efb601c-df0b-486e-a503-c130956be168",
+      "fromFrame": 675,
+      "sourceStartFrame": 12,
+      "sourceDurationInFrames": 45
+    }
+  ]
+}

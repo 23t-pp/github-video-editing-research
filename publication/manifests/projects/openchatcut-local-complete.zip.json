@@ -1,0 +1,40 @@
+{
+  "asset": {
+    "asset": "openchatcut-local-complete.zip",
+    "source_file_count": 4,
+    "bytes": 103061,
+    "sha256": "594f89647653bd6f1ec28ac6135a0e781ce9e5dadba68685f22478ff9e9a5532",
+    "validation": "PASS: 每个entry解压内容bytes/SHA256/CRC32与原源读取逐字节一致；ZIP CRC一致",
+    "restore": {
+      "extract_to": "工作区根目录",
+      "external_assets": []
+    },
+    "entries_manifest": "manifests/openchatcut-local-complete.zip.json"
+  },
+  "files": [
+    {
+      "path": "outputs/openchatcut-local/Start-OpenChatCut.ps1",
+      "bytes": 4077,
+      "sha256": "2bc76bc29ab52d47386f8b8ebe0ee0a612ae92dd91eeaac2660899efb46a5c8a",
+      "crc32": "875fb003"
+    },
+    {
+      "path": "outputs/openchatcut-local/Stop-OpenChatCut.ps1",
+      "bytes": 846,
+      "sha256": "ee8937b2347eea3e39c994582c0394ce4d31c6c77345de58bb3e528704273f1b",
+      "crc32": "030e37c5"
+    },
+    {
+      "path": "outputs/openchatcut-local/editor-running.jpg",
+      "bytes": 98309,
+      "sha256": "dcf6e6ecacc81ce45ca3fb461300337653bad57246f962fc559977291456f78d",
+      "crc32": "15e7289f"
+    },
+    {
+      "path": "outputs/openchatcut-local/使用说明.md",
+      "bytes": 1892,
+      "sha256": "62176de73c8328ac2f742c21adb06f48c14303784c4cb1ba795711db5f42cb91",
+      "crc32": "e126e054"
+    }
+  ]
+}

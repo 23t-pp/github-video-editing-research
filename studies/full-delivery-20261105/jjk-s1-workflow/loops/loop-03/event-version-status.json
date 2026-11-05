@@ -1,0 +1,671 @@
+{
+  "scope": "14 original design stable IDs + 1 actually added XCHASE event. Frozen plan.events is historical intent; actualBinding/range below is authoritative for execution. No artistic pass assigned by author.",
+  "snapshotLoop": 3,
+  "versions": [
+    {
+      "loop": 2,
+      "plan": "loops/loop-02/plan-final.json",
+      "planSha256": "3315495c88e17d9f36a0c5615bdb1196c8cfc3699112f4af675e1caca80b529a",
+      "execution": "loops/loop-02/execution.json",
+      "review": "loops/loop-02/review.json",
+      "globalReviewStatus": "revise",
+      "events": [
+        {
+          "stableDesignEventId": "opening-slam",
+          "addedAfterDesignB": false,
+          "actualBinding": "typeEvents.opening-slam",
+          "actualRangeFrames": [
+            4,
+            40
+          ],
+          "frozenDesignRangeFrames": [
+            4,
+            40
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_see_independent_report",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "palm-match-a",
+          "addedAfterDesignB": false,
+          "actualBinding": "native shot boundary",
+          "actualRangeFrames": [
+            13,
+            31
+          ],
+          "frozenDesignRangeFrames": [
+            13,
+            31
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_see_independent_report",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "palm-match-b",
+          "addedAfterDesignB": false,
+          "actualBinding": "native shot boundary",
+          "actualRangeFrames": [
+            31,
+            45
+          ],
+          "frozenDesignRangeFrames": [
+            31,
+            45
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_see_independent_report",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "archive-screen",
+          "addedAfterDesignB": false,
+          "actualBinding": "archiveScreen",
+          "actualRangeFrames": [
+            176,
+            312
+          ],
+          "frozenDesignRangeFrames": [
+            176,
+            312
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_see_independent_report",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "triptych-weapon",
+          "addedAfterDesignB": false,
+          "actualBinding": "layouts.weapon-triptych",
+          "actualRangeFrames": [
+            561,
+            585
+          ],
+          "frozenDesignRangeFrames": [
+            561,
+            612
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_see_independent_report",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "palm-early",
+          "addedAfterDesignB": false,
+          "actualBinding": "foregrounds.palm-before-weapon",
+          "actualRangeFrames": [
+            612,
+            638
+          ],
+          "frozenDesignRangeFrames": [
+            612,
+            638
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_revise",
+          "relatedFindings": [
+            "L2-TYPE-04"
+          ],
+          "reviewFindingStates": [
+            {
+              "id": "L2-TYPE-04",
+              "severity": "P1",
+              "status": "open_upgraded_after_full_event_review"
+            }
+          ],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "strike-type",
+          "addedAfterDesignB": false,
+          "actualBinding": "typeEvents.strike-type",
+          "actualRangeFrames": [
+            612,
+            638
+          ],
+          "frozenDesignRangeFrames": [
+            612,
+            638
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_revise",
+          "relatedFindings": [
+            "L2-TYPE-04"
+          ],
+          "reviewFindingStates": [
+            {
+              "id": "L2-TYPE-04",
+              "severity": "P1",
+              "status": "open_upgraded_after_full_event_review"
+            }
+          ],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "eyes-slit",
+          "addedAfterDesignB": false,
+          "actualBinding": "layouts.paired-eyes",
+          "actualRangeFrames": [
+            816,
+            842
+          ],
+          "frozenDesignRangeFrames": [
+            816,
+            842
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_revise",
+          "relatedFindings": [
+            "L2-EYE-01"
+          ],
+          "reviewFindingStates": [
+            {
+              "id": "L2-EYE-01",
+              "severity": "P1",
+              "status": "open_confirmed_in_complete_L2"
+            }
+          ],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "energy-edge",
+          "addedAfterDesignB": false,
+          "actualBinding": "layouts.palm-energy-paper",
+          "actualRangeFrames": [
+            970,
+            996
+          ],
+          "frozenDesignRangeFrames": [
+            970,
+            996
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_revise",
+          "relatedFindings": [
+            "L2-TEAR-02"
+          ],
+          "reviewFindingStates": [
+            {
+              "id": "L2-TEAR-02",
+              "severity": "P1",
+              "status": "open_confirmed_in_complete_L2"
+            }
+          ],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "leaves-to-technique",
+          "addedAfterDesignB": false,
+          "actualBinding": "layouts.same-source-leaves",
+          "actualRangeFrames": [
+            1062,
+            1074
+          ],
+          "frozenDesignRangeFrames": [
+            1048,
+            1074
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_revise",
+          "relatedFindings": [
+            "L2-LEAF-03"
+          ],
+          "reviewFindingStates": [
+            {
+              "id": "L2-LEAF-03",
+              "severity": "P1",
+              "status": "open_upgraded_after_full_event_review"
+            }
+          ],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "limitless-type",
+          "addedAfterDesignB": false,
+          "actualBinding": "typeEvents.limitless-type",
+          "actualRangeFrames": [
+            1126,
+            1178
+          ],
+          "frozenDesignRangeFrames": [
+            1126,
+            1178
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_see_independent_report",
+          "relatedFindings": [
+            "L2-GESTURE-08"
+          ],
+          "reviewFindingStates": [
+            {
+              "id": "L2-GESTURE-08",
+              "severity": "P2",
+              "status": "open_confirmed_full_event"
+            }
+          ],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "clap-match",
+          "addedAfterDesignB": false,
+          "actualBinding": "native shot boundary",
+          "actualRangeFrames": [
+            1126,
+            1178
+          ],
+          "frozenDesignRangeFrames": [
+            1126,
+            1178
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_see_independent_report",
+          "relatedFindings": [
+            "L2-GESTURE-08"
+          ],
+          "reviewFindingStates": [
+            {
+              "id": "L2-GESTURE-08",
+              "severity": "P2",
+              "status": "open_confirmed_full_event"
+            }
+          ],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "return-windows",
+          "addedAfterDesignB": false,
+          "actualBinding": "layouts.memory-windows",
+          "actualRangeFrames": [
+            1256,
+            1282
+          ],
+          "frozenDesignRangeFrames": [
+            1256,
+            1282
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_see_independent_report",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "final-title",
+          "addedAfterDesignB": false,
+          "actualBinding": "tailcard",
+          "actualRangeFrames": [
+            1416,
+            1440
+          ],
+          "frozenDesignRangeFrames": [
+            1416,
+            1440
+          ],
+          "renderState": "rendered",
+          "reviewState": "reviewed_see_independent_report",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        },
+        {
+          "stableDesignEventId": "yuji-runs-ahead",
+          "addedAfterDesignB": true,
+          "actualBinding": "foregrounds.yuji-runs-ahead",
+          "actualRangeFrames": [
+            1360,
+            1386
+          ],
+          "frozenDesignRangeFrames": null,
+          "renderState": "rendered",
+          "reviewState": "reviewed_see_independent_report",
+          "relatedFindings": [
+            "L2-ALPHA-06"
+          ],
+          "reviewFindingStates": [
+            {
+              "id": "L2-ALPHA-06",
+              "severity": "P2_material_limit",
+              "status": "actual_XCHASE_placement_locally_passes_manual_edge_limit_remains"
+            }
+          ],
+          "video": "loops/loop-02/loop-02-composite-preview.mp4",
+          "videoSha256": "4450235c7a243e87b817185b50cf0d4caa0a563a270bdf995e88f6639967306d"
+        }
+      ]
+    },
+    {
+      "loop": 3,
+      "plan": "loops/loop-03/plan.json",
+      "planSha256": "a3d5e0168863d94ba9ba66a008894ad9f286c7e9c1dbca05fdf0f588bf884087",
+      "execution": "loops/loop-03/execution.json",
+      "review": null,
+      "globalReviewStatus": "pending",
+      "events": [
+        {
+          "stableDesignEventId": "opening-slam",
+          "addedAfterDesignB": false,
+          "actualBinding": "typeEvents.opening-slam",
+          "actualRangeFrames": [
+            4,
+            40
+          ],
+          "frozenDesignRangeFrames": [
+            4,
+            40
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "palm-match-a",
+          "addedAfterDesignB": false,
+          "actualBinding": "native shot boundary",
+          "actualRangeFrames": [
+            13,
+            31
+          ],
+          "frozenDesignRangeFrames": [
+            13,
+            31
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "palm-match-b",
+          "addedAfterDesignB": false,
+          "actualBinding": "native shot boundary",
+          "actualRangeFrames": [
+            31,
+            45
+          ],
+          "frozenDesignRangeFrames": [
+            31,
+            45
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "archive-screen",
+          "addedAfterDesignB": false,
+          "actualBinding": "archiveScreen",
+          "actualRangeFrames": [
+            176,
+            312
+          ],
+          "frozenDesignRangeFrames": [
+            176,
+            312
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "triptych-weapon",
+          "addedAfterDesignB": false,
+          "actualBinding": "layouts.weapon-triptych",
+          "actualRangeFrames": [
+            561,
+            585
+          ],
+          "frozenDesignRangeFrames": [
+            561,
+            612
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "palm-early",
+          "addedAfterDesignB": false,
+          "actualBinding": "foregrounds.palm-before-weapon",
+          "actualRangeFrames": [
+            612,
+            638
+          ],
+          "frozenDesignRangeFrames": [
+            612,
+            638
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [
+            "L2-TYPE-04"
+          ],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "strike-type",
+          "addedAfterDesignB": false,
+          "actualBinding": "typeEvents.strike-type",
+          "actualRangeFrames": [
+            612,
+            638
+          ],
+          "frozenDesignRangeFrames": [
+            612,
+            638
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [
+            "L2-TYPE-04"
+          ],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "eyes-slit",
+          "addedAfterDesignB": false,
+          "actualBinding": "layouts.paired-eyes",
+          "actualRangeFrames": [
+            816,
+            842
+          ],
+          "frozenDesignRangeFrames": [
+            816,
+            842
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [
+            "L2-EYE-01"
+          ],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "energy-edge",
+          "addedAfterDesignB": false,
+          "actualBinding": "layouts.palm-energy-paper",
+          "actualRangeFrames": [
+            970,
+            996
+          ],
+          "frozenDesignRangeFrames": [
+            970,
+            996
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [
+            "L2-TEAR-02"
+          ],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "leaves-to-technique",
+          "addedAfterDesignB": false,
+          "actualBinding": "layouts.same-source-leaves",
+          "actualRangeFrames": [
+            1062,
+            1074
+          ],
+          "frozenDesignRangeFrames": [
+            1048,
+            1074
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [
+            "L2-LEAF-03"
+          ],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "limitless-type",
+          "addedAfterDesignB": false,
+          "actualBinding": "typeEvents.limitless-type",
+          "actualRangeFrames": [
+            1126,
+            1178
+          ],
+          "frozenDesignRangeFrames": [
+            1126,
+            1178
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [
+            "L2-GESTURE-08"
+          ],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "clap-match",
+          "addedAfterDesignB": false,
+          "actualBinding": "native shot boundary",
+          "actualRangeFrames": [
+            1126,
+            1178
+          ],
+          "frozenDesignRangeFrames": [
+            1126,
+            1178
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [
+            "L2-GESTURE-08"
+          ],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "return-windows",
+          "addedAfterDesignB": false,
+          "actualBinding": "layouts.memory-windows",
+          "actualRangeFrames": [
+            1256,
+            1282
+          ],
+          "frozenDesignRangeFrames": [
+            1256,
+            1282
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "final-title",
+          "addedAfterDesignB": false,
+          "actualBinding": "tailcard",
+          "actualRangeFrames": [
+            1416,
+            1440
+          ],
+          "frozenDesignRangeFrames": [
+            1416,
+            1440
+          ],
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        },
+        {
+          "stableDesignEventId": "yuji-runs-ahead",
+          "addedAfterDesignB": true,
+          "actualBinding": "foregrounds.yuji-runs-ahead",
+          "actualRangeFrames": [
+            1360,
+            1386
+          ],
+          "frozenDesignRangeFrames": null,
+          "renderState": "rendered",
+          "reviewState": "pending_review",
+          "relatedFindings": [
+            "L2-ALPHA-06"
+          ],
+          "reviewFindingStates": [],
+          "video": "loops/loop-03/loop-03-high-quality.mp4",
+          "videoSha256": "4f43ad583e57d0cd454cd660f8f67fa96be590c17bd6b42d52959bb935aa125b"
+        }
+      ]
+    }
+  ],
+  "sharedMetadataFinding": "L2-META-05: L3 actual plan57source identity/window/evidence consistency report; independent closure required"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "V06",
+  "title": "V06 · 原始混合音轨",
+  "source_video_name": "到底要打多少关键帧才能做到如此丝滑_超燃混剪_无缝衔接_了不起的混剪团.mp4",
+  "source_video_sha256": "374362acfbafbfebb3aa983e6da8e851f455f2a3014f42e156f93d3d1604acef",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V06__mixed.m4a",
+  "bytes": 1034547,
+  "sha256": "c95b60c9c56d1119c898fb07c19f6fe1cb440568cae07b1e73302f76cb5129ab",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 130.05637188208615,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -6.36,
+    "true_peak_dbtp": 6.29,
+    "loudness_range_lu": 3.9,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 130.209138,
+  "source_decoded_duration_sec": 130.04802721088436,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "d7f20d6012e1fdae32777c9d8937445cebe641dd61f537f5ca4098f861674671",
+    "output_sha256": "ca0ed7f2f399769254bf7e55b2055b8957d593bf30f5b1e9f2fe7ed9fd15a17f",
+    "shared_prefix_samples": 2867559,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 8.345,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "6ee0997ec8e4f84e3173018b9b728e10eae20e8e96de7489613375b0923ae171",
+  "source_aac_adts_sha256": "6ee0997ec8e4f84e3173018b9b728e10eae20e8e96de7489613375b0923ae171",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "02281e469f0acd7e8806bcafb99280cca33f436a0fc49e4eabdd86719086b463",
+  "source_native_pcm_sha256": "7cfe260ca26c8cf7227dc292e7e7ef724814d01159aaa87bcf7f49b4d76a13f5",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V06__music-candidate.m4a"
+}

@@ -1,0 +1,162 @@
+{
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "timelineId": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74",
+  "durationFrames": 1440,
+  "fps": 24,
+  "baseShotCount": 42,
+  "textClips": [
+    "item_dd3a2adc-89a5-4d40-ab5e-0ea171c5befb",
+    "item_d702c951-61cf-4906-a4a2-d9e44624db49"
+  ],
+  "titleScreenBoundsApprox": {
+    "chinese": {
+      "left": 132,
+      "top": 636,
+      "fontSize": 120
+    },
+    "latin": {
+      "left": 138,
+      "top": 780,
+      "fontSize": 34
+    }
+  },
+  "titleFrames": [
+    7,
+    75
+  ],
+  "panelChecks": [
+    {
+      "assetId": "S21",
+      "itemId": "item_28a1dc98-7b47-4842-9ab7-4269ba6e797a",
+      "startFrame": 675,
+      "durationInFrames": 45,
+      "srcInFrame": 12,
+      "delay": 0,
+      "window": {
+        "x": 0,
+        "width": 638,
+        "focusX": 0.61,
+        "y": 140,
+        "height": 800
+      },
+      "sourceCrop": {
+        "left": 852,
+        "right": 430,
+        "top": 140,
+        "bottom": 140
+      },
+      "translationXPercent": -44.375,
+      "firstVisibleSourceFrame": 12,
+      "sourceClockAlignedToHf": true
+    },
+    {
+      "assetId": "S22",
+      "itemId": "item_5a2287d5-105a-4db9-bfdc-0930a586783c",
+      "startFrame": 680,
+      "durationInFrames": 40,
+      "srcInFrame": 12,
+      "delay": 5,
+      "window": {
+        "x": 642,
+        "width": 636,
+        "focusX": 0.49,
+        "y": 140,
+        "height": 800
+      },
+      "sourceCrop": {
+        "left": 623,
+        "right": 661,
+        "top": 140,
+        "bottom": 140
+      },
+      "translationXPercent": 0.9895833333333333,
+      "firstVisibleSourceFrame": 12,
+      "sourceClockAlignedToHf": true
+    },
+    {
+      "assetId": "P03",
+      "itemId": "item_86e4c254-2384-4f9a-8108-8e819cbf8b2f",
+      "startFrame": 685,
+      "durationInFrames": 35,
+      "srcInFrame": 12,
+      "delay": 10,
+      "window": {
+        "x": 1282,
+        "width": 638,
+        "focusX": 0.39,
+        "y": 140,
+        "height": 800
+      },
+      "sourceCrop": {
+        "left": 430,
+        "right": 852,
+        "top": 140,
+        "bottom": 140
+      },
+      "translationXPercent": 44.375,
+      "firstVisibleSourceFrame": 12,
+      "sourceClockAlignedToHf": true
+    }
+  ],
+  "endFade": {
+    "globalStartFrame": 1418,
+    "globalLastBlackFrame": 1439
+  },
+  "nativeEditable": true,
+  "limitations": [
+    "原生标题使用短促透明度/位移入场，HF的斜向mask并非OpenChatCut普通文本字段。",
+    "字体为本机微软雅黑/Arial；跨机需安装对应字体或在文字检查器更换。",
+    "位置按官方TextLayer的96px左内边距及1.2行高换算；仍须桌面查看字体实际字面框。"
+  ],
+  "actualUiFrameVerification": true,
+  "verifiedAt": "2026-11-05T03:02:26.214Z",
+  "sourceClockAlignment": {
+    "method": "Native delayed clip placement (675/680/685), common end720, source in12 at first visible frame",
+    "preferredHfSequenceUnchanged": true,
+    "verifiedAt": "2026-11-05T03:04:30.831Z"
+  },
+  "uiVerification": {
+    "performedBy": "主流程唯一CUA操作者；子代理读取核验JSON并实际查看三联屏截图",
+    "importedProjectId": "6df06cd6-3c5e-4416-9cf2-caf542a6f145",
+    "officialImportedProjectOpened": true,
+    "preciseSequence01PreviewAt": 29.29,
+    "playbackReachedSeconds": 44.41,
+    "nativeSequence02PreviewAt": 29.29,
+    "nativeRightPanelDragged": true,
+    "dragBefore": {
+      "leftPercent": 66.7758,
+      "topPercent": 12.963
+    },
+    "dragMoved": {
+      "leftPercent": 69.4084,
+      "topPercent": 15.771
+    },
+    "dragUndone": {
+      "leftPercent": 66.7758,
+      "topPercent": 12.963
+    },
+    "originalCompositionRestored": true,
+    "stereoWavs": [
+      {
+        "name": "score-mix.wav",
+        "readyState": 4,
+        "durationSeconds": 60
+      },
+      {
+        "name": "source-mix.wav",
+        "readyState": 4,
+        "durationSeconds": 60
+      }
+    ],
+    "humanLoudspeakerAuditionPerformed": false,
+    "evidence": [
+      "../evidence/本机播放器与编辑器核验.json",
+      "../evidence/OpenChatCut_原生可编辑三联屏.jpg"
+    ]
+  },
+  "actualUiPlaybackVerified": true,
+  "actualUiDragVerified": true,
+  "actualUiAudioAuditionVerified": false,
+  "uiPlaybackVerified": true,
+  "uiDragVerified": true
+}

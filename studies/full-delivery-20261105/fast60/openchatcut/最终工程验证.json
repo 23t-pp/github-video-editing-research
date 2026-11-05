@@ -1,0 +1,122 @@
+{
+  "title": "弯心 / APEX 60秒 OpenChatCut最终数据验证",
+  "verifiedAt": "2026-11-05T03:08:04.868Z",
+  "status": "通过：官方双序列工程包、48媒体导入回验、实际预览播放及原生面板拖动撤销；扬声器人工试听未测",
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "importedProjectId": "6df06cd6-3c5e-4416-9cf2-caf542a6f145",
+  "importedProjectUrl": "http://127.0.0.1:5199/#/editor/6df06cd6-3c5e-4416-9cf2-caf542a6f145",
+  "defaultSequenceId": "tl_a775a55a-cc45-4903-a092-e62b6a1aa140",
+  "nativeSequenceId": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "durationFrames": 1440,
+  "durationSeconds": 60,
+  "shotsPerSequence": 42,
+  "sequenceCounts": [
+    {
+      "id": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74",
+      "name": "02 原生可编辑 · 改字/分栏/42镜",
+      "items": 50,
+      "video": 45,
+      "audio": 2,
+      "text": 2,
+      "allVideoMuted": true,
+      "audioFrom0To1440AtUnity": true
+    },
+    {
+      "id": "tl_a775a55a-cc45-4903-a092-e62b6a1aa140",
+      "name": "01 HF精确特效 · 42镜逐镜可剪",
+      "items": 47,
+      "video": 45,
+      "audio": 2,
+      "text": 0,
+      "allVideoMuted": true,
+      "audioFrom0To1440AtUnity": true
+    }
+  ],
+  "officialPackage": {
+    "filename": "弯心 APEX · 速度与激情一分钟混剪.ccproj",
+    "format": "openchatcut-project@2",
+    "bytes": 176659808,
+    "sha256": "5b0778c96eced26e27f65f4599c049f0c7e5fb551ed4419e76cf5400119c59d1",
+    "mediaTotal": 48,
+    "mediaRestored": 48,
+    "mediaMissing": [],
+    "allMediaHashesMatch": true
+  },
+  "actual01TimelineMatchesEdit": true,
+  "oldProjects": [
+    {
+      "projectId": "8289179e-a7e0-4039-baf0-b78c0f949612",
+      "unchanged": true,
+      "sha256": "cb7abcb347ab6d59d39b44e9b106222654f43758ea0e3b446ee4679770c11b20"
+    },
+    {
+      "projectId": "28fd7d1f-4659-4247-82eb-1a2e06f6f93d",
+      "unchanged": true,
+      "sha256": "e46fd051d7c760043b77079646bdb1d4be500ab12bb9b5bef29d5e54655aedd2"
+    },
+    {
+      "projectId": "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+      "unchanged": true,
+      "sha256": "c9f276c68681e0b33346e51f6284d5671c36ec4b0c8d5140b53644ac6aad5811"
+    },
+    {
+      "projectId": "f41a522e-11fd-4a92-bea4-c7c65c1f9509",
+      "unchanged": true,
+      "sha256": "6a497f11cd0b50cdf0021bd2c9dac73df25bbb16930ee93b99fe11b81e581f83"
+    },
+    {
+      "projectId": "d94dda24-974e-4eaf-a42b-c7fbee099ad6",
+      "unchanged": true,
+      "sha256": "75ced8c99180aee76a7a1edafa2559e51c6065c6bccb0d62226759e3af73bf3b"
+    }
+  ],
+  "sourceCurrentDocEqualsFinal": true,
+  "uiPlaybackVerified": true,
+  "uiAudioAuditionVerified": false,
+  "uiDragVerified": true,
+  "uiVerification": {
+    "performedBy": "主流程唯一CUA操作者；子代理读取核验JSON并实际查看三联屏截图",
+    "importedProjectId": "6df06cd6-3c5e-4416-9cf2-caf542a6f145",
+    "officialImportedProjectOpened": true,
+    "preciseSequence01PreviewAt": 29.29,
+    "playbackReachedSeconds": 44.41,
+    "nativeSequence02PreviewAt": 29.29,
+    "nativeRightPanelDragged": true,
+    "dragBefore": {
+      "leftPercent": 66.7758,
+      "topPercent": 12.963
+    },
+    "dragMoved": {
+      "leftPercent": 69.4084,
+      "topPercent": 15.771
+    },
+    "dragUndone": {
+      "leftPercent": 66.7758,
+      "topPercent": 12.963
+    },
+    "originalCompositionRestored": true,
+    "stereoWavs": [
+      {
+        "name": "score-mix.wav",
+        "readyState": 4,
+        "durationSeconds": 60
+      },
+      {
+        "name": "source-mix.wav",
+        "readyState": 4,
+        "durationSeconds": 60
+      }
+    ],
+    "humanLoudspeakerAuditionPerformed": false,
+    "evidence": [
+      "../evidence/本机播放器与编辑器核验.json",
+      "../evidence/OpenChatCut_原生可编辑三联屏.jpg"
+    ]
+  },
+  "actualUiPlaybackVerified": true,
+  "actualUiDragVerified": true,
+  "actualUiAudioAuditionVerified": false
+}

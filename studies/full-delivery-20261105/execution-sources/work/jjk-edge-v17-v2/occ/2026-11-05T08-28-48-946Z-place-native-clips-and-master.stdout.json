@@ -1,0 +1,32 @@
+{
+  "projectId": "c094cd11-6065-497c-aaf4-232bc61c9360",
+  "applied": true,
+  "noChanges": false,
+  "ops": [
+    {
+      "tool": "edit_item",
+      "result": {
+        "archived": true,
+        "artifactId": "9c5a31f10a774dc991",
+        "bodySha256": "b1e5386a0987138ab21b102c107726825cf8216b89274791ab7fd972e46d599d",
+        "originalChars": 16864,
+        "redacted": false,
+        "binaryOmitted": false,
+        "readHint": "Call read_agent_artifact with artifactId=9c5a31f10a774dc991; use pointer/offset/limit for a narrow reread."
+      }
+    }
+  ],
+  "terminal": {
+    "editSessionId": "bb7ca252-976f-4c19-a696-df25e7e18019",
+    "status": "applied",
+    "clientName": "occ CLI",
+    "approvalMode": "auto",
+    "baseRevision": "v3-92e2262c",
+    "operationCount": 1,
+    "appliedOperationCount": 1,
+    "bindingMode": "offline",
+    "agentRunId": "run_26c79ff5f0634813",
+    "editorUrl": "http://localhost:5199/#/editor/c094cd11-6065-497c-aaf4-232bc61c9360",
+    "updatedAt": "2026-11-05T08:28:50.594Z"
+  }
+}

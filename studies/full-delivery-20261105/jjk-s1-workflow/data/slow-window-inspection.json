@@ -1,0 +1,125 @@
+[
+  {
+    "shot": "S019",
+    "candidate": "S1C017",
+    "sourceStart": 403.70000000000005,
+    "fpsSample": 24,
+    "frames": 61,
+    "contact": "evidence/slow-window-inspection/S019-S1C017.jpg",
+    "largeFrameDiffs": []
+  },
+  {
+    "shot": "S034",
+    "candidate": "S1C093",
+    "sourceStart": 693.7,
+    "fpsSample": 24,
+    "frames": 61,
+    "contact": "evidence/slow-window-inspection/S034-S1C093.jpg",
+    "largeFrameDiffs": []
+  },
+  {
+    "shot": "S038",
+    "candidate": "S1C057",
+    "sourceStart": 209.04999999999998,
+    "fpsSample": 24,
+    "frames": 61,
+    "contact": "evidence/slow-window-inspection/S038-S1C057.jpg",
+    "largeFrameDiffs": [
+      {
+        "frame": 5,
+        "seconds": 209.25833333333333,
+        "meanAbsoluteDiff": 31.90036458333333
+      },
+      {
+        "frame": 7,
+        "seconds": 209.34166666666664,
+        "meanAbsoluteDiff": 30.002592592592592
+      },
+      {
+        "frame": 9,
+        "seconds": 209.42499999999998,
+        "meanAbsoluteDiff": 31.317991898148147
+      },
+      {
+        "frame": 11,
+        "seconds": 209.50833333333333,
+        "meanAbsoluteDiff": 34.292806712962964
+      },
+      {
+        "frame": 15,
+        "seconds": 209.67499999999998,
+        "meanAbsoluteDiff": 84.0222048611111
+      },
+      {
+        "frame": 36,
+        "seconds": 210.54999999999998,
+        "meanAbsoluteDiff": 42.02732638888889
+      },
+      {
+        "frame": 46,
+        "seconds": 210.96666666666664,
+        "meanAbsoluteDiff": 32.24916666666667
+      },
+      {
+        "frame": 48,
+        "seconds": 211.04999999999998,
+        "meanAbsoluteDiff": 30.089363425925924
+      },
+      {
+        "frame": 51,
+        "seconds": 211.17499999999998,
+        "meanAbsoluteDiff": 33.00478587962963
+      },
+      {
+        "frame": 53,
+        "seconds": 211.25833333333333,
+        "meanAbsoluteDiff": 34.80041666666666
+      },
+      {
+        "frame": 55,
+        "seconds": 211.34166666666664,
+        "meanAbsoluteDiff": 34.709201388888886
+      },
+      {
+        "frame": 56,
+        "seconds": 211.38333333333333,
+        "meanAbsoluteDiff": 58.52575231481482
+      }
+    ]
+  },
+  {
+    "shot": "S040",
+    "candidate": "S1C061",
+    "sourceStart": 268.70000000000005,
+    "fpsSample": 24,
+    "frames": 61,
+    "contact": "evidence/slow-window-inspection/S040-S1C061.jpg",
+    "largeFrameDiffs": [
+      {
+        "frame": 16,
+        "seconds": 269.36666666666673,
+        "meanAbsoluteDiff": 44.616898148148145
+      },
+      {
+        "frame": 40,
+        "seconds": 270.36666666666673,
+        "meanAbsoluteDiff": 61.53869791666666
+      }
+    ]
+  },
+  {
+    "shot": "S046",
+    "candidate": "S1C053",
+    "sourceStart": 918.7,
+    "fpsSample": 24,
+    "frames": 60,
+    "contact": "evidence/slow-window-inspection/S046-S1C053.jpg",
+    "largeFrameDiffs": [
+      {
+        "frame": 34,
+        "seconds": 920.1166666666667,
+        "meanAbsoluteDiff": 97.81087962962962
+      }
+    ]
+  }
+]

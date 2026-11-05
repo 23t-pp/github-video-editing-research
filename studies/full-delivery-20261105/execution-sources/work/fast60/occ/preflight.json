@@ -1,0 +1,110 @@
+{
+  "createdAt": "2026-11-05T02:42:24.522Z",
+  "phase": "tracks-ready-awaiting-formal-media",
+  "browserOpened": false,
+  "cuaUsed": false,
+  "profile": {
+    "mode": "isolated-dev",
+    "profileId": "4bcb4e74-803a-4abe-8dbc-a4d40dea37c3",
+    "rootDir": "C:\\Users\\PC\\.openchatcut\\dev-profiles\\4bcb4e74-803a-4abe-8dbc-a4d40dea37c3",
+    "mediaDir": "C:\\Users\\PC\\.openchatcut\\dev-profiles\\4bcb4e74-803a-4abe-8dbc-a4d40dea37c3\\media\\uploads",
+    "keystorePath": "C:\\Users\\PC\\.openchatcut\\dev-profiles\\4bcb4e74-803a-4abe-8dbc-a4d40dea37c3\\settings.env",
+    "projectStoreIndex": "C:\\Users\\PC\\.openchatcut\\dev-profiles\\4bcb4e74-803a-4abe-8dbc-a4d40dea37c3\\project-store-v1\\projects.json"
+  },
+  "service": {
+    "origin": "http://127.0.0.1:5199",
+    "status": 200,
+    "cliHttpSameLibrary": true,
+    "projectCountBefore": 6
+  },
+  "repoSha": "HEAD",
+  "catalog": [
+    {
+      "name": "edit_item",
+      "headless": true,
+      "description": "Unified item-level operations across video, image, audio, gif, svg, motion-graphic, text, solid, effect, and transition types. Flex crop (flexcrop) is a spatial inset crop — not a timeline trim. Use edit_item updates.transform.crop or transform.flexCrop {left?,right?,top?,bottom?} in composition pixels (Crop Left/Right 0..canvas width, Crop Top/Bottom 0..canvas height; cropped pixels are fully transparent; null clears). The user does not need to say \"one pass\", \"do not recheck frames\", or \"do not use run_code\" — those are the default. \"Keep only the dashboard/panel/region\" = crop the selected clip (omit itemId or pass \"selected\") so only that region remains, then stop. Set every needed edge in one update. Do not call run_code, probe_media, e2b, or edit_asset. adds place library items (effect/transition/zoom/MG/SFX), a POOL asset as a clip (type=video|image|gif|svg|audio, assetId=…), OR authored clips without assetId: type=text (text/fontSize/color/fontWeight/align?) or type=solid (color?). updates move/trim/retime by itemId|id. Omit itemId or pass \"selected\" to target the inspector selection (read_project.timeline.selectedId). If the user names the selected clip, do not pick a neighboring track. Video aliases are bottom-up (V1 = bottom video). Passing assetId on a file-backed clip atomically replaces it from the media pool while preserving item id, track, timeline start, duration, and visual/audio edit state. fromFrame is the canonical timing field (startFrame is accepted as an alias). Unknown fields reject the entire call with \"unknown field\" + Did you mean. Entries run in adds→updates→deletes order against one private draft; only a fully valid/applied draft is published once. Any validator or draft-apply failure discards it with no partial timeline state. validateOnly runs that same sequential draft without publishing. Mutating calls then go through propose→apply. split_item cuts clips. Edits the edit-session draft; pass editSessionId."
+    },
+    {
+      "name": "edit_track",
+      "headless": true,
+      "description": "Manage tracks. Actions: list | create | update | delete | tighten | reorder_items. Tracks have stable ids plus C1/C2/V1/A1 aliases that may renumber after insertion. create accepts json with trackType video/audio/caption, optional count/order/name/role/audioRouting. Each caption track owns independent caption data. update changes order/hidden/muted/locked/name/role/audioRouting — locked freezes the lane. delete removes empty tracks only. tighten closes gaps between media clips. reorder_items packs clips on one track in the given item id order (json.itemIds or json.orderedIds array), starting at the earliest startFrame of that set. Edits the edit-session draft; pass editSessionId."
+    },
+    {
+      "name": "import_assets",
+      "headless": true,
+      "description": "Import selected local media paths into the media pool in one batch. Desktop access is enabled by default; a browser session requires an explicit AGENT_IMPORT_ROOTS allowlist. Reuses normal media probing and skips duplicate content. Use browse_local_media to find paths first. Edits the edit-session draft; pass editSessionId."
+    },
+    {
+      "name": "manage_markers",
+      "headless": true,
+      "description": "Manage timeline annotation/TODO anchors using the marker-note-v2 contract. A marker is a point when durationFrames=0 or omitted, otherwise a range. scope=project anchors to a ruler frame; scope=item anchors to a clip. action: list all | create one or a markers[] batch | update one or an updates[] batch | delete. For transcript-backed notes, pass transcriptSegments using Active Script [sN] segment ids plus optional notePrefix instead of writing note manually. fromFrame defaults to the start of the first selected segment unless provided explicitly, and the note body is copied from read_script output. color must be one of blue/cyan/fuchsia/green/pink/purple/red/yellow. Edits the edit-session draft; pass editSessionId."
+    },
+    {
+      "name": "manage_timelines",
+      "headless": true,
+      "description": "Manage project timelines (sequences): list/create/duplicate/switch/update/delete, or insert one timeline as a nested sequence instance in the active timeline. Nested instances reference the child timeline without copying it and reject missing/cyclic references. Edits the edit-session draft; pass editSessionId."
+    },
+    {
+      "name": "update_item_props",
+      "headless": true,
+      "description": "Change one or more editable props of a clip (e.g. text, colors). Only props from the template schema. Edits the edit-session draft; pass editSessionId."
+    }
+  ],
+  "resume": true,
+  "projectId": "8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "projectUrl": "http://127.0.0.1:5199/#/editor/8d0494b6-9bc4-47cf-b8da-5592d107bf9b",
+  "timelineId": "tl_f5531c64-83b5-4a15-8b2f-b8e4dc16bf74",
+  "tracks": [
+    {
+      "id": "track_v1",
+      "kind": "video",
+      "muted": false,
+      "locked": false,
+      "name": "V1 主画面 · 每镜独立"
+    },
+    {
+      "id": "track_a432c3e2-bab2-471f-ba7a-7f8438abc9cf",
+      "kind": "video",
+      "name": "V2 HF特效插片 · 可替换"
+    },
+    {
+      "id": "track_c834a8da-9ec4-4483-af6e-6b4ddbc7cfe4",
+      "kind": "video",
+      "name": "V3 标题/图形 · 可替换"
+    },
+    {
+      "id": "track_7fc4c7e1-f95f-4582-9950-8f4f0fffa514",
+      "kind": "audio",
+      "name": "A1 原创配乐 · scoreMix"
+    },
+    {
+      "id": "track_2c2c5ae9-0541-4740-8697-a9876eecd404",
+      "kind": "audio",
+      "name": "A2 源片声音 · sourceMix"
+    }
+  ],
+  "timeline": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "items": 0,
+    "durationVerified": false,
+    "reason": "正式素材尚未加入；不把空工程称为60秒验证通过"
+  },
+  "previousProjectDocsUnchanged": [
+    "8289179e-a7e0-4039-baf0-b78c0f949612",
+    "28fd7d1f-4659-4247-82eb-1a2e06f6f93d",
+    "0fd76ceb-875e-4507-be68-f296dd3dacfd",
+    "f41a522e-11fd-4a92-bea4-c7c65c1f9509",
+    "d94dda24-974e-4eaf-a42b-c7fbee099ad6"
+  ],
+  "cliHttpDocEqual": true,
+  "officialPackaging": {
+    "exportFunction": "src/persist/projectTransfer.ts buildProjectExport()",
+    "importFunction": "src/persist/projectTransfer.ts importProjectPackage()",
+    "plannedFormat": "openchatcut-project@2",
+    "willUseOfficialCodec": true,
+    "exported": false,
+    "importVerified": false
+  }
+}

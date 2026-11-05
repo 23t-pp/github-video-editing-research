@@ -1,0 +1,26 @@
+{
+  "approvedByOrchestrator": "/root",
+  "approvedAt": "2026-11-05T12:08:34.879Z",
+  "authorizationBasis": "Explicit root task message: L4 film pass and fixed plan/media/canonical SHA; project-delivery gate still pending real roundtrip",
+  "designBApproved": true,
+  "finalMediaLocked": true,
+  "allowedStages": [
+    "native",
+    "hf",
+    "mutate",
+    "export",
+    "import",
+    "finalize"
+  ],
+  "manifestPath": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\jjk-s1-workflow\\hyperframes\\edit.json",
+  "manifestSha256": "51f4028f411c1557e3106122bd8874992450a2fd2177f2dd262d28da9bdf229e",
+  "mediaFingerprintSha256": "7dfae8a6070e9a38b9f70f8bd72c81d8812b1549f4b195d98726da62a5a2f642",
+  "canonicalMovieSha256": "90d75e559b81c4c2978fd733aaa1206b5d03b8a73141b4cb1442ef9b91af682d",
+  "filmReviewPath": "D:\\gpt\\2026-11-04\\ps-c-windows-system32-winget-install-2\\outputs\\jjk-s1-workflow\\loops\\loop-04\\review.json",
+  "filmReviewSha256": "0ce9c7be334d3090ae819490fad7a9446e91f0e71a84cac249006415ac263630",
+  "preparedReplayPolicy": "1x of already retimed/resampled 24fps prepared assets; ignore nominal original-source playbackRate for OCC replay",
+  "expectedMediaTotal": 85,
+  "expectedNativeClips": 59,
+  "expectedHfClips": 20,
+  "createdNewProjectOnly": true
+}

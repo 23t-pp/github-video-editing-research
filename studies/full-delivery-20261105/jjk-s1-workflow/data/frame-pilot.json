@@ -1,0 +1,17 @@
+{
+  "pilotSeconds": 10,
+  "nativeFrames": 240,
+  "elapsedSeconds": 0.8279999999995198,
+  "jpegResolution": [
+    640,
+    360
+  ],
+  "jpegQualityFFmpeg": 6,
+  "meanJpegBytes": 31361.15,
+  "allSeason60HzEntriesEstimate": 2061018,
+  "allSeasonNativeJpegEstimate": 823577,
+  "estimatedBytesIndependent60HzJpg": 64635894651,
+  "estimatedBytesHardlinkedDuplicates": 25828321834,
+  "samplingPolicy": "60Hz取不晚于采样时刻的最近真实源PTS；重复帧为相同JPEG硬链接，非插值；逐样本映射记录。",
+  "note": "这是十秒试样估算，不能证明全季大小、季数或语义；保留80GiB空闲阈值。"
+}

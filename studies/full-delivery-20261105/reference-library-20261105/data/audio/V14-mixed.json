@@ -1,0 +1,54 @@
+{
+  "id": "V14",
+  "title": "V14 · 原始混合音轨",
+  "source_video_name": "画面总是惊人的相似..第三期_看了不烧心_被选召的漫剪团_国漫_充能计划_转场_抖音精选App次元季.mp4",
+  "source_video_sha256": "6d3c1403afe20a1c6e343060475b8ba7934b05241b43d07200cdd849bf0eba75",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V14__mixed.m4a",
+  "bytes": 187053,
+  "sha256": "da8cc4efbd51698d3703666802ba26cbf7bc430393717ba688fb29585ac16eb6",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 25.98453514739229,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -14.3,
+    "true_peak_dbtp": -0.8,
+    "loudness_range_lu": 1.9,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 26.102086,
+  "source_decoded_duration_sec": 25.941360544217687,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "02db5acce7b019cd4f5b62847caefc4dab1550272aab544694764738bae2479c",
+    "output_sha256": "ed558c50987fd76c70054f1e6c99b65a30adb7c48cd7452fc183bb989c8f2d41",
+    "shared_prefix_samples": 572007,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 43.175,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "30a154b1857bc59981ad67b5356f0328a68e4ec2ea397734daca7390bcf551bc",
+  "source_aac_adts_sha256": "30a154b1857bc59981ad67b5356f0328a68e4ec2ea397734daca7390bcf551bc",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "240d46d164809a9ac7dc8e5d07a654117ac3545ccd517f6b1b41a0c635476d31",
+  "source_native_pcm_sha256": "cb0ddf8c4627b3b2f676c829a584e23576d3ba8254854f88c2b54a9b86816da5",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V14__music-candidate.m4a"
+}

@@ -1,0 +1,29 @@
+{
+  "state": "pass_studio_open_seek_selection_only",
+  "actualBrowser": "IAB 2 tab14",
+  "url": "http://localhost:5352/#project/hyperframes",
+  "duration": 60,
+  "actualPlayhead": 26.083333333,
+  "selectedId": "v02v2-strike-type",
+  "sourceFile": "index.html",
+  "can": {
+    "editStyles": true,
+    "move": true,
+    "resize": true,
+    "rotate": false,
+    "crop": true,
+    "editText": false
+  },
+  "observedText": "STRIKE / 咒力 · 接续",
+  "timelineVisible": true,
+  "screenshot": "evidence/ui/HyperFrames字效工程.png",
+  "screenshotSha256": "5095e8b822d3f00f4c16bc0f0a2bb652cdea4ed125140e8d0c11d5863742fa65",
+  "scope": "打开实际创作工程，选择图层与检查属性；未测试每个SVG鼠标编辑，未实际试听，最终像素艺术验收另见review",
+  "explicitStyleTextTransformWritesPerformed": false,
+  "automaticStudioSourceAnnotation": {
+    "observed": true,
+    "kind": "data-hf-id only",
+    "equivalenceReport": "evidence/ui/studio-annotation-drift/check.json",
+    "creativeCssGsapMediaChangesObserved": false
+  }
+}

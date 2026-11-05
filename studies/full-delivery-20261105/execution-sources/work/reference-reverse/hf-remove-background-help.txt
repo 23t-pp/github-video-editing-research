@@ -1,0 +1,18 @@
+Remove background from a video or image using a local AI model — outputs transparent WebM, ProRes 4444, or PNG (hyperframes remove-background v0.8.216)
+
+USAGE hyperframes remove-background [OPTIONS] [INPUT]
+
+ARGUMENTS
+
+  INPUT    Source video (.mp4/.mov/.webm/.mkv) or image (.jpg/.png/.webp)
+
+OPTIONS
+
+                        -o, --output=<output>    Output path. Format inferred from extension: .webm (default), .mov, .png                                                                                                                                                                                      
+  -b, --background-output=<background_output>    Optional second output path for the inverse-alpha background plate (subject region transparent, original surroundings opaque). Hole-cut, not inpainted — composite something underneath to fill the hole. Must be .webm or .mov; not allowed for image inputs.
+                            --device=<device>    Execution provider: auto, cpu, coreml, cuda (Default: auto)                                                                                                                                                                                                   
+                          --quality=<quality>    Encoder quality preset for .webm output: fast, balanced, best (default: balanced). Higher quality = closer color match when overlaying on the source mp4, larger file. Ignored for .mov / .png. (Default: balanced)                                           
+                                       --info    Print detected execution providers and exit (no render) (Default: false)                                                                                                                                                                                      
+                                       --json    Output result as JSON (Default: false)                                                                                                                                                                                                                        
+
+
