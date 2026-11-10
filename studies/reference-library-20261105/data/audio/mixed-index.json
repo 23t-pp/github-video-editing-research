@@ -1078,5 +1078,293 @@
       "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
     },
     "no_vocals_candidate_path": "audio/music-candidates/V20__music-candidate.m4a"
+  },
+  {
+    "id": "V21",
+    "source_video_name": "一帧一帧闪回的_是我无法割舍的_超凡蜘蛛侠_格温_了不起的混剪团_whateverhappens_蜘.mp4",
+    "source_video_sha256": "e8f5c4c5c2955cc444aa092f32a601051b009de774e7341d64026096591efda6",
+    "music_name": null,
+    "music_name_status": "未识别",
+    "file": "audio/mixed/V21__mixed.m4a",
+    "bytes": 252415,
+    "sha256": "9bf9aee84587cdeb72bb36b4ca9e038ca08491c9cfb965d7342177b7e47f3059",
+    "codec": "aac",
+    "profile": "HE-AACv2",
+    "sample_rate": 44100,
+    "channels": 2,
+    "source_audio_start_time_sec": 0,
+    "source_audio_stream_duration_sec": 30.97598639455782,
+    "source_video_duration_sec": 30.933333,
+    "mix_container_duration_sec": 31.13712,
+    "mix_audio_start_time_sec": 0,
+    "source_decoded_pcm_duration_sec": 30.97598639455782,
+    "mix_decoded_pcm_duration_sec": 31.000045351473922,
+    "duration_sec": 30.97598639455782,
+    "extraction": {
+      "audio_reencoded": false,
+      "method": "FFmpeg AAC stream copy, frag_keyframe+delay_moov"
+    },
+    "aac_packet_integrity": {
+      "source": [
+        671,
+        "36f5f387b833c6e9bd6ba6efbd997bba581dfb902efeac0f4af9180425d25234"
+      ],
+      "mixed": [
+        671,
+        "36f5f387b833c6e9bd6ba6efbd997bba581dfb902efeac0f4af9180425d25234"
+      ],
+      "match": true
+    },
+    "pcm_integrity": {
+      "format": "44100 Hz stereo float32",
+      "source_sha256": "1bd9bf870b979b832804da59c505e08e1f00284a9592798c0503a16c2153d7a6",
+      "mixed_sha256": "f8d0a6aaced8b840d04e10450ce5237c665e2abd87d604ac37bd052890296852",
+      "source_and_mix_match": false,
+      "source_prefix_matches_mixed": false,
+      "compared_prefix_matches": true,
+      "analysis_samples": 1366041,
+      "analysis_pcm_sha256": "1bd9bf870b979b832804da59c505e08e1f00284a9592798c0503a16c2153d7a6"
+    },
+    "loudness": {
+      "integrated_lufs": -6.4,
+      "true_peak_dbtp": 3.84,
+      "loudness_range_lu": 5.4,
+      "method": "FFmpeg loudnorm 原源输入测量，原混音未应用响度归一化。"
+    },
+    "title": "V21 · 原始混合音轨",
+    "content_status": "保留原视频完整混音，曲名未识别。",
+    "listened": false,
+    "separation_status": "complete",
+    "no_vocals_candidate_path": "audio/music-candidates/V21__music-candidate.m4a",
+    "source_decoded_duration_sec": 30.97598639455782,
+    "encoded_container_duration_sec": 31.13712,
+    "aac_adts_sha256": "6263e945379268b9625f9c06507906fd9889b6b336037c1a3f6160c6eb6f6465",
+    "source_aac_adts_sha256": "6263e945379268b9625f9c06507906fd9889b6b336037c1a3f6160c6eb6f6465",
+    "aac_bitstream_identical_to_source": true,
+    "native_pcm_sha256": "f8d0a6aaced8b840d04e10450ce5237c665e2abd87d604ac37bd052890296852",
+    "source_native_pcm_sha256": "1bd9bf870b979b832804da59c505e08e1f00284a9592798c0503a16c2153d7a6"
+  },
+  {
+    "id": "V22",
+    "title": "V22 · 原始混合音轨",
+    "source_video_name": "V22_原来遗忘才是真正的死亡_抖音公开播放.mp4",
+    "source_video_sha256": "ff0ac68ea780354df468d9b4c1cf296ca1ce896b8bfb4e7f59e3a8624d54b536",
+    "music_name": null,
+    "music_name_status": "未识别；未根据视频文件名宣称曲名",
+    "file": "audio/mixed/V22__mixed.m4a",
+    "bytes": 137354,
+    "sha256": "a82e7ab54b3f90b22ca10f1364c7549688a65c04ccc39c1ecfd49ca2e633e798",
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_sec": 18.972108843537416,
+    "output_audio_start_time": "0.000000",
+    "extraction": {
+      "audio_reencoded": false,
+      "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+      "stdout_saved_by_node": true
+    },
+    "loudness": {
+      "integrated_lufs": -7.02,
+      "true_peak_dbtp": 1.24,
+      "loudness_range_lu": 1.7,
+      "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+    },
+    "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+    "separation_status": "complete",
+    "listened": false,
+    "encoded_container_duration_sec": 19.131882,
+    "source_decoded_duration_sec": 18.969977324263038,
+    "pcm_integrity": {
+      "format": "mono float32 22050Hz",
+      "source_sha256": "10449f7ee5b4f1eb27124653fbaf72d73ecca6f086be1792068897534ecc6075",
+      "output_sha256": "c23fe14c3c88473afccf2be83511eecb687454ef3caf66b9320bc3682bfc6536",
+      "shared_prefix_samples": 418288,
+      "shared_prefix_bit_identical": false,
+      "decoded_duration_delta_ms": 2.132,
+      "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+    },
+    "aac_adts_sha256": "49af0ecf72f68baf6a4e95002f145b176de13a57e624d8f279630688a85f2d64",
+    "source_aac_adts_sha256": "49af0ecf72f68baf6a4e95002f145b176de13a57e624d8f279630688a85f2d64",
+    "aac_bitstream_identical_to_source": true,
+    "native_pcm_sha256": "fa0b41760957d5be635dfda22dd715449e15bb5410fe0183af85b8ced48a9fec",
+    "source_native_pcm_sha256": "f318b7048235c839a5e46514ccf6689f3feed4d628ee5301852a2d08b7c1daf4",
+    "native_pcm_format": {
+      "sample_format": "f32le",
+      "channels": 2,
+      "sample_rate": 44100,
+      "resampled": false,
+      "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+    },
+    "no_vocals_candidate_path": "audio/music-candidates/V22__music-candidate.m4a"
+  },
+  {
+    "id": "V23",
+    "title": "V23 · 原始混合音轨",
+    "source_video_name": "到底怎么样的结局才能配得上这一路的颠沛流离了不起的混剪团_电影美学_重返暑假计划_经典重温计划_抖音.mp4",
+    "source_video_sha256": "7f55219ad3623544c43fbb0a071282bc6f90aa563538b92b3e18230c835dbe41",
+    "music_name": null,
+    "music_name_status": "未识别；未根据视频文件名宣称曲名",
+    "file": "audio/mixed/V23__mixed.m4a",
+    "bytes": 166107,
+    "sha256": "7a7a9aea99353fb7af0490661fbd2814c96791d9468fbe1649d497ebdb5f4ce1",
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_sec": 24.913015873015873,
+    "output_audio_start_time": "0.000000",
+    "extraction": {
+      "audio_reencoded": false,
+      "method": "AAC 码流复制至普通 M4A，保持 edit list 边界",
+      "stdout_saved_by_node": true,
+      "output": "seekable fd"
+    },
+    "loudness": {
+      "integrated_lufs": -9.27,
+      "true_peak_dbtp": 0.35,
+      "loudness_range_lu": 3,
+      "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+    },
+    "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+    "separation_status": "complete",
+    "listened": false,
+    "encoded_container_duration_sec": 24.912993,
+    "source_decoded_duration_sec": 24.913015873015873,
+    "pcm_integrity": {
+      "format": "mono float32 22050Hz",
+      "source_sha256": "551304fa30e47c7d359b21110d0cb4b4a3d6bd53863c8c5c9585bb574c62b401",
+      "output_sha256": "551304fa30e47c7d359b21110d0cb4b4a3d6bd53863c8c5c9585bb574c62b401",
+      "shared_prefix_samples": 549332,
+      "shared_prefix_bit_identical": true,
+      "decoded_duration_delta_ms": 0,
+      "note": "普通 M4A 使用可寻址输出文件。以源轨与封装后轨的解码 PCM 对照边界。"
+    },
+    "aac_adts_sha256": "db3f564cddb9467a5493bc92875d48e7d0c4bb46f33fc7b2b0d194bb9e81be78",
+    "source_aac_adts_sha256": "db3f564cddb9467a5493bc92875d48e7d0c4bb46f33fc7b2b0d194bb9e81be78",
+    "aac_bitstream_identical_to_source": true,
+    "native_pcm_sha256": "cf3eeed62d30975d71f6c764e6fd85284c314b5df21b2ee147fe81ec2071ed33",
+    "source_native_pcm_sha256": "cf3eeed62d30975d71f6c764e6fd85284c314b5df21b2ee147fe81ec2071ed33",
+    "native_pcm_format": {
+      "sample_format": "f32le",
+      "channels": 2,
+      "sample_rate": 44100,
+      "resampled": false,
+      "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+    },
+    "no_vocals_candidate_path": "audio/music-candidates/V23__music-candidate.m4a"
+  },
+  {
+    "id": "V24",
+    "title": "V24 · 原始混合音轨",
+    "source_video_name": "这是什么剪法这么帅_头号玩家_混剪_了不起的混剪团_抖音精选_踩点技术流.mp4",
+    "source_video_sha256": "a5ce138d2764a1679220f38d18687845da9b95affdab26a33636f4e79b7789f6",
+    "music_name": "trainers",
+    "music_name_status": "片中配乐署名与发行试听波形匹配；剪前起点与具体版本未唯一确定",
+    "file": "audio/mixed/V24__mixed.m4a",
+    "bytes": 125933,
+    "sha256": "edec0fb70cf7cdb683b7fd1b46502c3f749be2a627598feadc19bbc6e8b376e1",
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_sec": 15.273990929705215,
+    "output_audio_start_time": "0.000000",
+    "extraction": {
+      "audio_reencoded": false,
+      "method": "AAC 码流复制至普通 M4A，保持 edit list 边界",
+      "stdout_saved_by_node": true,
+      "output": "seekable fd"
+    },
+    "loudness": {
+      "integrated_lufs": -16.88,
+      "true_peak_dbtp": -4.16,
+      "loudness_range_lu": 1.9,
+      "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+    },
+    "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+    "separation_status": "complete",
+    "listened": false,
+    "encoded_container_duration_sec": 15.273991,
+    "source_decoded_duration_sec": 15.273990929705215,
+    "pcm_integrity": {
+      "format": "mono float32 22050Hz",
+      "source_sha256": "d1974049210c397413e3cc27f335a5cd309526372dbbc63724e76b8a0df760a7",
+      "output_sha256": "d1974049210c397413e3cc27f335a5cd309526372dbbc63724e76b8a0df760a7",
+      "shared_prefix_samples": 336792,
+      "shared_prefix_bit_identical": true,
+      "decoded_duration_delta_ms": 0,
+      "note": "普通 M4A 使用可寻址输出文件。以源轨与封装后轨的解码 PCM 对照边界。"
+    },
+    "aac_adts_sha256": "63da067040921e9a5e30f08ee61280a9a869ef1ea88ca010cceeda591ce1e9a8",
+    "source_aac_adts_sha256": "63da067040921e9a5e30f08ee61280a9a869ef1ea88ca010cceeda591ce1e9a8",
+    "aac_bitstream_identical_to_source": true,
+    "native_pcm_sha256": "cf33524d8b6c9e1bb0f20cf384bb337b542cfdba065fa46fc10c3794be937bb3",
+    "source_native_pcm_sha256": "cf33524d8b6c9e1bb0f20cf384bb337b542cfdba065fa46fc10c3794be937bb3",
+    "native_pcm_format": {
+      "sample_format": "f32le",
+      "channels": 2,
+      "sample_rate": 44100,
+      "resampled": false,
+      "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+    },
+    "music_artist": "ptasinski & Rj Pasin",
+    "music_attribution_url": "https://music.apple.com/us/song/trainers/1801333663",
+    "music_attribution_evidence": "evidence/V24/verified/music-release-verification.json",
+    "native_decoded_samples_per_channel": 673583,
+    "no_vocals_candidate_path": "audio/music-candidates/V24__music-candidate.m4a"
+  },
+  {
+    "id": "V25",
+    "title": "V25 · 原始混合音轨",
+    "source_video_name": "人类能战胜玛娜生态吗_我的童年有动漫的颜色_灵笼世界观共建计划_音乐MV共创计划_MV翻拍大赛_青年.mp4",
+    "source_video_sha256": "9f6e43fb63a67d5894b14a730271738e534a398b5a996fac07d21e5790fb01ed",
+    "music_name": null,
+    "music_name_status": "未识别；未根据视频文件名宣称曲名",
+    "file": "audio/mixed/V25__mixed.m4a",
+    "bytes": 170999,
+    "sha256": "bc650c03d3235476a32c63702b1d5e7a69daf2b23029785d3383ce8e11321a71",
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_sec": 21.198956916099775,
+    "output_audio_start_time": "0.000000",
+    "extraction": {
+      "audio_reencoded": false,
+      "method": "AAC 码流复制至普通 M4A，保持 edit list 边界",
+      "stdout_saved_by_node": true,
+      "output": "seekable fd"
+    },
+    "loudness": {
+      "integrated_lufs": -7.37,
+      "true_peak_dbtp": 2.87,
+      "loudness_range_lu": 1.5,
+      "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+    },
+    "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+    "separation_status": "complete",
+    "listened": false,
+    "encoded_container_duration_sec": 21.199002,
+    "source_decoded_duration_sec": 21.198956916099775,
+    "pcm_integrity": {
+      "format": "mono float32 22050Hz",
+      "source_sha256": "5eb1a629a0a2f217411a67cf10994e97f3c02cbc90118a23b418fff4eb7dd9cc",
+      "output_sha256": "5eb1a629a0a2f217411a67cf10994e97f3c02cbc90118a23b418fff4eb7dd9cc",
+      "shared_prefix_samples": 467437,
+      "shared_prefix_bit_identical": true,
+      "decoded_duration_delta_ms": 0,
+      "note": "普通 M4A 使用可寻址输出文件。以源轨与封装后轨的解码 PCM 对照边界。"
+    },
+    "aac_adts_sha256": "ed76e8500bf4ecc5992cd2f62c0b5b7fa978accb0318d5b67d3c6894ecfcd9af",
+    "source_aac_adts_sha256": "ed76e8500bf4ecc5992cd2f62c0b5b7fa978accb0318d5b67d3c6894ecfcd9af",
+    "aac_bitstream_identical_to_source": true,
+    "native_pcm_sha256": "585fbde0459771f28738971c2d5980a5bcadc0f21d51dfc017581211b0fddde1",
+    "source_native_pcm_sha256": "585fbde0459771f28738971c2d5980a5bcadc0f21d51dfc017581211b0fddde1",
+    "native_pcm_format": {
+      "sample_format": "f32le",
+      "channels": 2,
+      "sample_rate": 44100,
+      "resampled": false,
+      "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+    },
+    "no_vocals_candidate_path": "audio/music-candidates/V25__music-candidate.m4a"
   }
 ]

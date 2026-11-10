@@ -1,12 +1,22 @@
 import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
 const dir=import.meta.dirname,root=path.resolve(dir,'..'),workspace=path.resolve(root,'../..');
 const reviewFiles=['V01-V10.json','V11-V15.json','V16-V20.json'];
+try { await fs.access(path.join(root,'reviews/V21.json')); reviewFiles.push('V21.json'); }
+catch (error) { if (error.code!=='ENOENT') throw error; }
 const reviews=(await Promise.all(reviewFiles.map(async f=>JSON.parse(await fs.readFile(path.join(root,'reviews',f),'utf8'))))).flat();
-assert.equal(reviews.length,20);const byId=new Map(reviews.map(r=>[r.id,r]));
+const byId=new Map(reviews.map(r=>[r.id,r]));
+assert.equal(byId.size,reviews.length);
+assert.equal(byId.size,reviewFiles.includes('V21.json')?21:20);
 function fpsOf(r){const value=r.sourceFps||r.source?.fps;const [n,d=1]=String(value).split('/').map(Number);return n/d;}
 function ref(id,range,anchors,label,precision='学习章节范围；原帧锚点单列，非整段每镜EDL'){
  const r=byId.get(id);assert(r);const fps=fpsOf(r);const rows=anchors.map(([frame,claim])=>({frame,pts:Number((frame/fps).toFixed(6)),claim,evidence:`evidence/${id}/native-${String(Math.floor(frame/60)+1).padStart(3,'0')}.jpg`}));
- return {reference_id:id,title:r.title,source_fps:r.sourceFps||r.source?.fps,time_range_sec:range,range_precision:precision,label,anchors:rows,evidence:[...new Set(rows.map(x=>x.evidence))],review_source:`reviews/${Number(id.slice(1))<=10?'V01-V10.json':Number(id.slice(1))<=15?'V11-V15.json':'V16-V20.json'}`,evidence_scope:'引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。'};
+ const n=Number(id.slice(1));
+ const reviewFile=n<=10?'V01-V10.json':n<=15?'V11-V15.json':n<=20?'V16-V20.json':'V21.json';
+ if(id==='V21')for(const row of rows){
+  row.sampleFrame60Hz=row.frame*2;
+  row.sampleEvidence=`evidence/V21/60hz-${String(Math.floor(row.sampleFrame60Hz/60)+1).padStart(3,'0')}.jpg`;
+ }
+ return {reference_id:id,title:r.title,source_fps:r.sourceFps||r.source?.fps,time_range_sec:range,range_precision:precision,label,anchors:rows,evidence:[...new Set(rows.flatMap(x=>x.sampleEvidence?[x.evidence,x.sampleEvidence]:[x.evidence]))],review_source:`reviews/${reviewFile}`,evidence_scope:id==='V21'?'帧锚点来自分片复核，同时给出原帧与 60Hz 首个采样位置。':'引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。'};
 }
 const techniques=[];
 function add(id,name,difficulty,reason,suitable,unsuitable,references,steps,occ,hf,status='equivalent_recipe',limits='原参数、软件、插件与全部源片时间码未知；下述步骤为等效方案。'){
@@ -122,6 +132,12 @@ add('T18','节奏留白、黑场与海报/小字尾卡',1,'工具门槛低，难
 '控制镜头长度、黑场与淡出；原生文本可做简单尾卡。','需要精细字体/布局时制作海报或小字尾卡组件。');
 
 const verifiedPath=path.join(workspace,'outputs/v05-six-panel/evidence/OpenChatCut导入验证.json');const v05=JSON.parse(await fs.readFile(verifiedPath,'utf8'));
+const v21=byId.get('V21');
+if(v21)for(const example of v21.catalog_examples){
+ const technique=techniques.find(t=>t.id===example.technique_id);
+ assert(technique,`Unknown V21 technique ${example.technique_id}`);
+ technique.references.push(ref('V21',example.range,example.anchors,example.label,example.precision));
+}
 const artifactFiles=['outputs/v05-six-panel/V05六格卡片_成片.mp4','outputs/v05-six-panel/hyperframes/index.html','outputs/v05-six-panel/openchatcut/V05六格卡片_可编辑工程.ccproj','outputs/v05-six-panel/evidence/OpenChatCut导入验证.json'];
 const v05ReleaseUrl='https://github.com/23t-pp/github-video-editing-research/releases/tag/reference-library-2026-11-05';
 const artifacts=[];for(const file of artifactFiles){await fs.access(path.join(workspace,file));artifacts.push({release_url:v05ReleaseUrl,release_asset:'v05-six-panel.zip',path_inside_zip:file.replace(/^outputs\//,''),workspace_relative_path:file,existence_checked:true});}
@@ -137,8 +153,15 @@ const learning_order=[
 {stage:8,ids:['T16'],exercise:'最后再决定原创光线3D/解体是否值得，先找对应原片/plate做简版。',acceptance:'资源/渲染链路明确；没有资源就承认近似，不能声称恢复电影CG。'}];
 const comparisons=[{topic:'V12与V13',finding:'V12虽然是风景，建筑/佛头/人物动态轮廓与人体填景使完整复刻约4/5；V13主要几何照片卡，约3/5。题材不决定技术难度。'},{topic:'V14匹配',finding:'观察到的是同姿态AB反复、短叠化和去色保持；未验证AI变脸、连续形变或动作迁移。素材筛选是主要门槛。'},{topic:'V20手机',finding:'屏内替换属T13；F388手机完整→F389全幅新镜是T01硬切。两种机制应分开，不能统一套“屏幕放大穿越”。'},{topic:'V05实测边界',finding:'FastX结构迁移小样实际验证六格、HF渲染、OCC分层和官方portable导入；未验证原参考完整复刻，也不替其他17类效果背书。'}];
 const result={schema_version:1,title:'20条参考片：技法→素材分类与当前难度',generated_at:new Date().toISOString(),review_sources:reviewFiles.map(f=>'reviews/'+f),scope:{reference_count:20,technique_count:techniques.length,new_independent_video_viewing:false,visual_review_attribution:'V11–V15沿用本分支实际查看57页原生atlas的报告；V01–V10与V16–V20引用各分支人工审查范围，native_review纠正优先。',native_frame_policy:'源帧率/原生PTS；每页60帧是排版，不是60fps；不强制升帧、复制或插值。',audio_claims:false,project_restoration_guarantee:false},status_definitions:{tested_v05_subcase:'有本地实际制作、108帧渲染、MP4、OCC分层与官方工程包UI导入证据；只覆盖该子例。',equivalent_recipe:'观察已记录，步骤为等效建议，尚未实际复刻渲染。',requires_source_or_preprocessing:'需要对应原片、动态alpha/跟踪或效果素材；不承诺一键高质量。'},difficulty_definition:'1–5为当前本机将手法做成可控结果的难度；不是作品价值或炫酷程度。相同手法在素材不足/动态遮挡下可更难。',verified_v05_sample:{...v05.portableSummary,source_project_id:v05.sourceProjectId,imported_project_id:v05.importedProjectId,timelines:v05.timelineChecks,artifacts,validated_scope:['4.5秒/24fps/108帧HF渲染','OCC六格独立clip/crop/位置与透明度关键帧','原生8视频clip静音+独立Master一次','HF成片整合时间线内嵌声音一次','官方buildProjectExport含4媒体@2 .ccproj','官方UI导入副本4/4媒体、9+1items和关键帧/媒体hash一致'],not_validated:['原参考动画动作与原音乐','原参考亮白/放大模糊/原缓动完全一致','其余17类效果复刻或自动alpha质量','作者软件/插件与100%原工程还原']},techniques,learning_order,comparisons,global_limitations:['仅凭MP4不能唯一分离原片CG/摄影与新增剪辑特效；无原片对照不按100%新增归因。','输出是技法学习与素材筛选目录，非原作者工程恢复或插件识别。','素材alpha、跟踪、光流、3D建模等复杂项未由一条V05小样验证。']};
+if(v21){
+ result.title=`${reviews.length}条参考片：技法→素材分类与当前难度`;
+ result.scope.reference_count=reviews.length;
+ result.scope.native_frame_policy='V01–V20 按源帧率保存原生 PTS。V21 另有独立 60Hz 采样索引，对应每张 30fps 原帧的两个采样位置。';
+ result.scope.v21_review={report:'reviews/V21.md',sampling:'data/frame-analysis/V21-60hz.json',recipe_status:'等效配方，待制作验证'};
+}
 await fs.writeFile(path.join(dir,'techniques.json'),JSON.stringify(result,null,2));
 let md='# 技法分类与难度排行\n\n20条参考片可归入18类可复用手法。先按素材的锚点、动作与边缘条件选做法，再按题材筛选。**实际制作证据仅覆盖V05六格结构迁移、HF渲染、OCC分层和portable导入；其余是等效配方或待原片/预处理，不能借V05结果宣称全部实测。**\n\n本目录综合三组review；V01–V10以native_review边界纠正为准，V16–V20保留该分支未精读全部原生页的限制。V11–V15本分支实际查看过57页原生atlas，但不宣称以全分辨率观看所有帧。时间为原生PTS对应；低于60fps不升帧，每页60格只是排版。\n\n## 当前难度排行\n\n| 手法 | 难度 | 当前状态 | 主要门槛 |\n|---|---:|---|---|\n';
+if(v21)md=md.replace('20条参考片可归入18类','21条参考片可归入18类').replace('本目录综合三组review','本目录汇合 V01–V21 的分片复核').replace('时间为原生PTS对应；低于60fps不升帧，每页60格只是排版。','V01–V20 时间对应原生 PTS。V21 另以 60Hz 网格标注首个采样位置，详见 [V21](../reviews/V21.md)。');
 for(const t of [...techniques].sort((a,b)=>a.difficulty-b.difficulty||a.id.localeCompare(b.id)))md+=`| ${t.id} ${t.name_zh} | ${t.difficulty}/5 | ${t.implementation_status.label} | ${t.reason} |\n`;
 md+='\n## V05哪些已经真实完成\n\n4.5秒、24fps、108帧FastX六格结构迁移小样已完成HF真实渲染与MP4；OCC保留6格+底轨及Master，另有HF整合时间线。官方buildProjectExport生成含4媒体的openchatcut-project@2工程包，主流程已通过官方UI导入新副本，显示素材4/4；副本2时间线/9+1items、关键帧和4媒体hash核验通过。\n\n'+artifacts.map(a=>`- [${path.basename(a.workspace_relative_path)}（位于 v05-six-panel.zip）](${a.release_url})`).join('\n')+`\n\n工程包${v05.portableSummary.bytes.toLocaleString('en-US')}字节，SHA256：\`${v05.portableSummary.sha256}\`。它不是原动画片的100%复刻，原音乐、角色动作、亮白/放大模糊、缓动和其他效果未由该例证明。\n`;
 for(const t of techniques){md+=`\n## ${t.id} ${t.name_zh}\n\n**${t.difficulty}/5：**${t.reason}\n\n**适用素材：**${t.suitable_materials.join('；')}。\n\n**不适用/易错：**${t.not_suitable.join('；')}。\n\n**当前状态：**${t.implementation_status.label}。\n\n`;
@@ -146,5 +169,6 @@ for(const r of t.references){md+=`- **${r.reference_id} ${r.time_range_sec[0].to
 md+='\n**等效步骤**（建议参数与原工程恢复值分开）：\n\n'+t.steps.map(s=>`${s.step}. ${s.text}`).join('\n')+`\n\n**OpenChatCut：**${t.tool_roles.OpenChatCut}\n\n**HyperFrames：**${t.tool_roles.HyperFrames}\n\n**来源与限制：**${t.limitations.join('；')}\n`;}
 md+='\n## 初学者学习顺序\n\n';for(const l of learning_order)md+=`${l.stage}. **${l.ids.join(' / ')}：**${l.exercise} 验收：${l.acceptance}\n`;
 md+='\n## 四个必须保留的判断\n\n'+comparisons.map(c=>`- **${c.topic}：**${c.finding}`).join('\n')+'\n\n所有配方都不能保证恢复原软件、插件、层次、速度曲线或全部关键帧。电影/动画里的光效和角色动作可能本来就在源片内；确定归属需要未剪原片同帧对照。HF渲染片放回OCC只保留该媒体外层编辑，HTML内部文字/遮罩仍需回HF工程改。\n';
+if(v21)md+='\n## V21 专项练习\n\n先用照片和三个同步竖窗练逐条换景，再复用圆点和线轨组织多个回忆窗口，最后练人物轮廓内的星尘替换和贴景字遮挡。逐项验收条件、难度与可核对的 60Hz 帧号见 [V21 拆解报告](../reviews/V21.md)。\n';
 await fs.writeFile(path.join(dir,'技法分类与难度排行.md'),md);
 console.log(JSON.stringify({techniques:techniques.length,references:techniques.reduce((n,t)=>n+t.references.length,0),anchors:techniques.reduce((n,t)=>n+t.references.reduce((m,r)=>m+r.anchors.length,0),0),files:['catalog/techniques.json','catalog/技法分类与难度排行.md']}));

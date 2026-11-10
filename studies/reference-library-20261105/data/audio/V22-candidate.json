@@ -1,0 +1,83 @@
+{
+  "id": "V22",
+  "file": "audio/music-candidates/V22__music-candidate.m4a",
+  "bytes": 466498,
+  "sha256": "2b8b3cc3a6d877abf529d652a35f192604efbd99bef9499536dba64c658cbfa0",
+  "source_stem_sha256": "6a19c7f08fe9b7da69fedb9e879cf719a304dbdc0bc2c39f25258247d228d6d2",
+  "native_pcm_sha256": "00305b450ed086f33e739d532b29c94aa666a507540ed05c2eb413688b43d35d",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "sample_rate": 44100,
+    "channels": 2,
+    "resampled": false
+  },
+  "duration_sec": 18.970702947845805,
+  "encoded_container_duration_sec": 18.993175,
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "loudness": {
+    "integrated_lufs": -11.03,
+    "true_peak_dbtp": -0.46,
+    "loudness_range_lu": 4
+  },
+  "separation": {
+    "tool": "audio-separator",
+    "version": "0.48.0",
+    "model": "UVR_MDXNET_KARA_2.onnx",
+    "provider": "CPUExecutionProvider",
+    "threads": 2,
+    "stem": "Instrumental",
+    "output_normalization": {
+      "peak_threshold": 0.95,
+      "amplification_threshold": 0
+    },
+    "aac_reencoded": true
+  },
+  "status": "真实本地模型分离后的音乐主体候选；未听辨确认，可能残留人声、对白、和声或SFX，也可能损伤音乐。不是纯BGM保证。",
+  "listened": false,
+  "vocal_removal_verified": false,
+  "sfx_removal_verified": false,
+  "encoding_profile": "aac192k-relative-fragments-1s-v1",
+  "rhythm": {
+    "scope": "模型分离后的候选音轨，未做听觉确认",
+    "method": "HyperFrames 0.8.216 local signal spectral flux + autocorrelation + DP",
+    "bpm": 115.2,
+    "confidence": 0.432,
+    "reason": null,
+    "beat_times": [
+      2.375,
+      2.895,
+      3.415,
+      3.935,
+      4.465,
+      4.985,
+      5.495,
+      6.025,
+      6.545,
+      7.065,
+      7.575,
+      8.115,
+      8.635,
+      9.155,
+      9.665,
+      10.185,
+      10.715,
+      11.245,
+      11.755,
+      12.285,
+      12.805,
+      13.325,
+      13.835,
+      14.375,
+      14.895,
+      15.415,
+      15.905,
+      16.435,
+      16.955,
+      17.475,
+      18.005,
+      18.515
+    ]
+  }
+}

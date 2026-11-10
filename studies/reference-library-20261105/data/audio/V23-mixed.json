@@ -1,0 +1,55 @@
+{
+  "id": "V23",
+  "title": "V23 · 原始混合音轨",
+  "source_video_name": "到底怎么样的结局才能配得上这一路的颠沛流离了不起的混剪团_电影美学_重返暑假计划_经典重温计划_抖音.mp4",
+  "source_video_sha256": "7f55219ad3623544c43fbb0a071282bc6f90aa563538b92b3e18230c835dbe41",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V23__mixed.m4a",
+  "bytes": 166107,
+  "sha256": "7a7a9aea99353fb7af0490661fbd2814c96791d9468fbe1649d497ebdb5f4ce1",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 24.913015873015873,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "AAC 码流复制至普通 M4A，保持 edit list 边界",
+    "stdout_saved_by_node": true,
+    "output": "seekable fd"
+  },
+  "loudness": {
+    "integrated_lufs": -9.27,
+    "true_peak_dbtp": 0.35,
+    "loudness_range_lu": 3,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 24.912993,
+  "source_decoded_duration_sec": 24.913015873015873,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "551304fa30e47c7d359b21110d0cb4b4a3d6bd53863c8c5c9585bb574c62b401",
+    "output_sha256": "551304fa30e47c7d359b21110d0cb4b4a3d6bd53863c8c5c9585bb574c62b401",
+    "shared_prefix_samples": 549332,
+    "shared_prefix_bit_identical": true,
+    "decoded_duration_delta_ms": 0,
+    "note": "普通 M4A 使用可寻址输出文件。以源轨与封装后轨的解码 PCM 对照边界。"
+  },
+  "aac_adts_sha256": "db3f564cddb9467a5493bc92875d48e7d0c4bb46f33fc7b2b0d194bb9e81be78",
+  "source_aac_adts_sha256": "db3f564cddb9467a5493bc92875d48e7d0c4bb46f33fc7b2b0d194bb9e81be78",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "cf3eeed62d30975d71f6c764e6fd85284c314b5df21b2ee147fe81ec2071ed33",
+  "source_native_pcm_sha256": "cf3eeed62d30975d71f6c764e6fd85284c314b5df21b2ee147fe81ec2071ed33",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V23__music-candidate.m4a"
+}

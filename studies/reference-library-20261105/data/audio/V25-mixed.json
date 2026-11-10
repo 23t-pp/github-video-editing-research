@@ -1,0 +1,55 @@
+{
+  "id": "V25",
+  "title": "V25 · 原始混合音轨",
+  "source_video_name": "人类能战胜玛娜生态吗_我的童年有动漫的颜色_灵笼世界观共建计划_音乐MV共创计划_MV翻拍大赛_青年.mp4",
+  "source_video_sha256": "9f6e43fb63a67d5894b14a730271738e534a398b5a996fac07d21e5790fb01ed",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V25__mixed.m4a",
+  "bytes": 170999,
+  "sha256": "bc650c03d3235476a32c63702b1d5e7a69daf2b23029785d3383ce8e11321a71",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 21.198956916099775,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "AAC 码流复制至普通 M4A，保持 edit list 边界",
+    "stdout_saved_by_node": true,
+    "output": "seekable fd"
+  },
+  "loudness": {
+    "integrated_lufs": -7.37,
+    "true_peak_dbtp": 2.87,
+    "loudness_range_lu": 1.5,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 21.199002,
+  "source_decoded_duration_sec": 21.198956916099775,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "5eb1a629a0a2f217411a67cf10994e97f3c02cbc90118a23b418fff4eb7dd9cc",
+    "output_sha256": "5eb1a629a0a2f217411a67cf10994e97f3c02cbc90118a23b418fff4eb7dd9cc",
+    "shared_prefix_samples": 467437,
+    "shared_prefix_bit_identical": true,
+    "decoded_duration_delta_ms": 0,
+    "note": "普通 M4A 使用可寻址输出文件。以源轨与封装后轨的解码 PCM 对照边界。"
+  },
+  "aac_adts_sha256": "ed76e8500bf4ecc5992cd2f62c0b5b7fa978accb0318d5b67d3c6894ecfcd9af",
+  "source_aac_adts_sha256": "ed76e8500bf4ecc5992cd2f62c0b5b7fa978accb0318d5b67d3c6894ecfcd9af",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "585fbde0459771f28738971c2d5980a5bcadc0f21d51dfc017581211b0fddde1",
+  "source_native_pcm_sha256": "585fbde0459771f28738971c2d5980a5bcadc0f21d51dfc017581211b0fddde1",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V25__music-candidate.m4a"
+}

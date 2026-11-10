@@ -1,0 +1,278 @@
+{
+  "id": "V22",
+  "method": "视觉事件或机器变化候选与谱通量起音/模型拍点的最近邻。正误差=视觉晚于声音。未听辨来源，不把接近当因果或卡点成功。",
+  "humanVisualEvents": [
+    {
+      "frame": 108,
+      "time": 1.8,
+      "claim": "灰色来镜人物首次可辨",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 1.8341,
+      "onsetDeltaMs": -34.1,
+      "nearestModelBeat": 1.845,
+      "beatDeltaMs": -45
+    },
+    {
+      "frame": 110,
+      "time": 1.8333333333333333,
+      "claim": "人形亮度继续上升",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 1.8341,
+      "onsetDeltaMs": -0.77,
+      "nearestModelBeat": 1.845,
+      "beatDeltaMs": -11.67
+    },
+    {
+      "frame": 118,
+      "time": 1.9666666666666666,
+      "claim": "中心城景小窗首次可辨",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 1.9644,
+      "onsetDeltaMs": 2.27,
+      "nearestModelBeat": 1.845,
+      "beatDeltaMs": 121.67
+    },
+    {
+      "frame": 138,
+      "time": 2.3,
+      "claim": "城景接管全画幅",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 2.1849,
+      "onsetDeltaMs": 115.1,
+      "nearestModelBeat": 2.375,
+      "beatDeltaMs": -75
+    },
+    {
+      "frame": 204,
+      "time": 3.4,
+      "claim": "实心白人形正在亮起",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 3.4077,
+      "onsetDeltaMs": -7.7,
+      "nearestModelBeat": 3.415,
+      "beatDeltaMs": -15
+    },
+    {
+      "frame": 206,
+      "time": 3.433333333333333,
+      "claim": "实心白人形达到近白",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 3.4077,
+      "onsetDeltaMs": 25.63,
+      "nearestModelBeat": 3.415,
+      "beatDeltaMs": 18.33
+    },
+    {
+      "frame": 264,
+      "time": 4.4,
+      "claim": "祝福双手可辨，琴弦仍在",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 4.4501,
+      "onsetDeltaMs": -50.1,
+      "nearestModelBeat": 4.465,
+      "beatDeltaMs": -65
+    },
+    {
+      "frame": 268,
+      "time": 4.466666666666667,
+      "claim": "两手轮廓填白的峰值区",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 4.4501,
+      "onsetDeltaMs": 16.57,
+      "nearestModelBeat": 4.465,
+      "beatDeltaMs": 1.67
+    },
+    {
+      "frame": 429,
+      "time": 7.15,
+      "claim": "青色放射底景首帧",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 7.1762,
+      "onsetDeltaMs": -26.2,
+      "nearestModelBeat": 7.055,
+      "beatDeltaMs": 95
+    },
+    {
+      "frame": 490,
+      "time": 8.166666666666666,
+      "claim": "红兜帽人物正脸已可辨",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 8.1585,
+      "onsetDeltaMs": 8.17,
+      "nearestModelBeat": 8.115,
+      "beatDeltaMs": 51.67
+    },
+    {
+      "frame": 648,
+      "time": 10.8,
+      "claim": "菱形城景窗内容可辨",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 10.7142,
+      "onsetDeltaMs": 85.8,
+      "nearestModelBeat": 10.715,
+      "beatDeltaMs": 85
+    },
+    {
+      "frame": 864,
+      "time": 14.4,
+      "claim": "脸部中央舞台竖条可辨",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 14.4527,
+      "onsetDeltaMs": -52.7,
+      "nearestModelBeat": 14.325,
+      "beatDeltaMs": 75
+    },
+    {
+      "frame": 887,
+      "time": 14.783333333333333,
+      "claim": "舞台与旧画交接；F888 舞台满屏",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 14.8636,
+      "onsetDeltaMs": -80.27,
+      "nearestModelBeat": 14.875,
+      "beatDeltaMs": -91.67
+    },
+    {
+      "frame": 925,
+      "time": 15.416666666666666,
+      "claim": "顶部横板首次模糊显现",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 15.4049,
+      "onsetDeltaMs": 11.77,
+      "nearestModelBeat": 15.415,
+      "beatDeltaMs": 1.67
+    },
+    {
+      "frame": 956,
+      "time": 15.933333333333334,
+      "claim": "坠落窗内容可辨",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 15.926,
+      "onsetDeltaMs": 7.33,
+      "nearestModelBeat": 15.905,
+      "beatDeltaMs": 28.33
+    },
+    {
+      "frame": 974,
+      "time": 16.233333333333334,
+      "claim": "新底露出，坠落窗反向缩小",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 16.2868,
+      "onsetDeltaMs": -53.47,
+      "nearestModelBeat": 16.435,
+      "beatDeltaMs": -201.67
+    },
+    {
+      "frame": 1079,
+      "time": 17.983333333333334,
+      "claim": "橙色 COCO 第一次可清楚辨认",
+      "kind": "人工查看的视觉事件",
+      "nearestOnset": 17.9606,
+      "onsetDeltaMs": 22.73,
+      "nearestModelBeat": 17.975,
+      "beatDeltaMs": 8.33
+    }
+  ],
+  "machineCandidates": [
+    {
+      "frame": 47,
+      "time": 0.78333,
+      "score": 0.17209,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 0.7717,
+      "onsetDeltaMs": 11.63,
+      "nearestModelBeat": 1.845,
+      "beatDeltaMs": -1061.67
+    },
+    {
+      "frame": 279,
+      "time": 4.65,
+      "score": 0.23024,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 4.7006,
+      "onsetDeltaMs": -50.6,
+      "nearestModelBeat": 4.465,
+      "beatDeltaMs": 185
+    },
+    {
+      "frame": 429,
+      "time": 7.15,
+      "score": 0.18942,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 7.1762,
+      "onsetDeltaMs": -26.2,
+      "nearestModelBeat": 7.055,
+      "beatDeltaMs": 95
+    },
+    {
+      "frame": 439,
+      "time": 7.31667,
+      "score": 0.22479,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 7.3266,
+      "onsetDeltaMs": -9.93,
+      "nearestModelBeat": 7.575,
+      "beatDeltaMs": -258.33
+    },
+    {
+      "frame": 451,
+      "time": 7.51667,
+      "score": 0.17393,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 7.527,
+      "onsetDeltaMs": -10.33,
+      "nearestModelBeat": 7.575,
+      "beatDeltaMs": -58.33
+    },
+    {
+      "frame": 463,
+      "time": 7.71667,
+      "score": 0.20781,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 7.7175,
+      "onsetDeltaMs": -0.83,
+      "nearestModelBeat": 7.575,
+      "beatDeltaMs": 141.67
+    },
+    {
+      "frame": 537,
+      "time": 8.95,
+      "score": 0.17602,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 9.0004,
+      "onsetDeltaMs": -50.4,
+      "nearestModelBeat": 9.155,
+      "beatDeltaMs": -205
+    },
+    {
+      "frame": 575,
+      "time": 9.58333,
+      "score": 0.27037,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 9.5215,
+      "onsetDeltaMs": 61.83,
+      "nearestModelBeat": 9.665,
+      "beatDeltaMs": -81.67
+    },
+    {
+      "frame": 779,
+      "time": 12.98333,
+      "score": 0.20876,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 13.0595,
+      "onsetDeltaMs": -76.17,
+      "nearestModelBeat": 12.805,
+      "beatDeltaMs": 178.33
+    },
+    {
+      "frame": 887,
+      "time": 14.78333,
+      "score": 0.23393,
+      "kind": "机器切镜/闪光/运动候选",
+      "nearestOnset": 14.8636,
+      "onsetDeltaMs": -80.27,
+      "nearestModelBeat": 14.875,
+      "beatDeltaMs": -91.67
+    }
+  ]
+}

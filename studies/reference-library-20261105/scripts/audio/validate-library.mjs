@@ -3,7 +3,8 @@ const project=path.resolve(import.meta.dirname,'../..'),data=path.join(project,'
 const ff=process.env.FFMPEG_PATH||path.join(os.homedir(),'Apps/ffmpeg/bin/ffmpeg.exe');
 const read=file=>JSON.parse(fs.readFileSync(file,'utf8').replace(/^\uFEFF/,''));
 const index=read(path.join(data,'music-index.json')),checks=[],issues=[];
-if(index.length!==20||new Set(index.map(r=>r.id)).size!==20)issues.push('Expected 20 unique video IDs');
+const referenceIds=read(path.join(project,'data/media-index.json')).map(row=>row.id);
+if(new Set(referenceIds).size!==referenceIds.length||index.length!==referenceIds.length||index.some((row,i)=>row.id!==referenceIds[i]))issues.push('Audio IDs must match the reference index in order');
 for(const row of index){for(const [kind,relative,record] of [['mixed',row.mix_path,row.mix],['music-candidate',row.no_vocals_candidate_path,row.candidate]]){
  const issue=[];if(!relative||!record){issues.push(`${row.id}/${kind}: not complete`);continue}
  if(!relative.startsWith('audio/')||relative.includes('..')||path.isAbsolute(relative)){issues.push(`${row.id}/${kind}: invalid public path`);continue}

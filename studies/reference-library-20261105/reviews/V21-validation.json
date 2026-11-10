@@ -1,0 +1,26 @@
+{
+  "state": "PASS",
+  "baselineRecordsMatch": {
+    "data/media-index.json": 20,
+    "data/audio/music-index.json": 20,
+    "data/study.json": 20
+  },
+  "id": "V21",
+  "sourceSha256": "e8f5c4c5c2955cc444aa092f32a601051b009de774e7341d64026096591efda6",
+  "nativeJpegsDecodedAndHashed": 928,
+  "samplePathsVerified": 1856,
+  "hardlinkAliasesVerified": 928,
+  "sampleAtlasPagesDecoded": 31,
+  "reviewedKeyframesDecoded": 47,
+  "learningSegments": 20,
+  "catalogExamples": 7,
+  "documentationLinksChecked": 183,
+  "audioLibraryFilesDecodedAndHashed": 42,
+  "localHttpChecks": [
+    "V01–V21 health order",
+    "V21 ranged original media",
+    "native frame 0 and 927",
+    "sample S0, S1, S1855 and mapping CSV",
+    "private source path config blocked"
+  ]
+}

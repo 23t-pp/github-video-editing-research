@@ -2,7 +2,7 @@ import fs from'node:fs';import path from'node:path';import crypto from'node:cryp
 const root=path.resolve(import.meta.dirname,'..');
 const config=path.resolve(process.argv[2]||path.join(root,'local-media-paths.json'));
 const input=JSON.parse(fs.readFileSync(config,'utf8').replace(/^\uFEFF/,''));
-const ffprobe=process.env.FFPROBE_PATH||'C:/Users/PC/Apps/ffmpeg/bin/ffprobe.exe';
+const ffprobe=process.env.FFPROBE_PATH||'ffprobe';
 const result=[];
 for(const[id,p]of Object.entries(input)){
  if(!/^V\d{2,}$/.test(id)||typeof p!=='string')throw Error('Expected stable video ID -> local path mapping');

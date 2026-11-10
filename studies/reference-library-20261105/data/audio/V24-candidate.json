@@ -1,0 +1,126 @@
+{
+  "id": "V24",
+  "file": "audio/music-candidates/V24__music-candidate.m4a",
+  "bytes": 380464,
+  "sha256": "d892ad4d3eb09e0a2dc015b89f5a8119c97fa750305313aa417411eb38e3b66a",
+  "source_stem_sha256": "160909a63a1c96d4cab08bb8debbe5879d7c151ab2c6331c8c211f919649be57",
+  "native_pcm_sha256": "ced076d66f2b3b55614a8ef88fe9a86819062bc9adaea38e8ee280862b3d9480",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "sample_rate": 44100,
+    "channels": 2,
+    "resampled": false
+  },
+  "duration_sec": 15.273990929705215,
+  "encoded_container_duration_sec": 15.273991,
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "loudness": {
+    "integrated_lufs": -21.79,
+    "true_peak_dbtp": -8.94,
+    "loudness_range_lu": 1.6
+  },
+  "separation": {
+    "tool": "audio-separator",
+    "version": "0.48.0",
+    "model": "UVR_MDXNET_KARA_2.onnx",
+    "provider": "CPUExecutionProvider",
+    "threads": 2,
+    "stem": "Instrumental",
+    "output_normalization": {
+      "peak_threshold": 0.95,
+      "amplification_threshold": 0
+    },
+    "aac_reencoded": true
+  },
+  "status": "本地模型分离的音乐主体候选。电影声保留量尚未用听觉确认。候选有音量变化，复练前应试听。",
+  "listened": false,
+  "vocal_removal_verified": false,
+  "sfx_removal_verified": false,
+  "encoding_profile": "aac192k-seekable-m4a-editlist-v1",
+  "rhythm": {
+    "scope": "模型分离后的候选音轨，未做听觉确认",
+    "method": "HyperFrames 0.8.216 local signal spectral flux + autocorrelation + DP",
+    "bpm": 128,
+    "confidence": 0.566,
+    "reason": null,
+    "beat_times": [
+      0.245,
+      0.715,
+      1.175,
+      1.645,
+      2.115,
+      2.585,
+      3.055,
+      3.525,
+      3.995,
+      4.465,
+      4.925,
+      5.395,
+      5.865,
+      6.335,
+      6.805,
+      7.275,
+      7.745,
+      8.215,
+      8.685,
+      9.145,
+      9.615,
+      10.085,
+      10.555,
+      11.025,
+      11.495,
+      11.965,
+      12.425,
+      12.895,
+      13.365,
+      13.835,
+      14.305,
+      14.775
+    ]
+  },
+  "wide_novelty_period_s": 0.468669,
+  "sample_alignment": [
+    {
+      "start": 0.1,
+      "end": 3.4,
+      "best_lag_samples": 0,
+      "zero_lag_pearson": 0.9986954059904855,
+      "mix_rms_dbfs": -17.347,
+      "stem_rms_dbfs": -22.079,
+      "gain_matched_residual_rms_dbfs": -42.164,
+      "gain_match_db": 4.718
+    },
+    {
+      "start": 3.4,
+      "end": 8.3,
+      "best_lag_samples": 0,
+      "zero_lag_pearson": 0.9812677592418466,
+      "mix_rms_dbfs": -16.285,
+      "stem_rms_dbfs": -21.202,
+      "gain_matched_residual_rms_dbfs": -30.574,
+      "gain_match_db": 4.752
+    },
+    {
+      "start": 8.3,
+      "end": 13,
+      "best_lag_samples": 0,
+      "zero_lag_pearson": 0.9889536775416614,
+      "mix_rms_dbfs": -17.279,
+      "stem_rms_dbfs": -22.166,
+      "gain_matched_residual_rms_dbfs": -33.802,
+      "gain_match_db": 4.79
+    },
+    {
+      "start": 13,
+      "end": 15.2,
+      "best_lag_samples": 0,
+      "zero_lag_pearson": 0.9994223528075616,
+      "mix_rms_dbfs": -17.528,
+      "stem_rms_dbfs": -22.222,
+      "gain_matched_residual_rms_dbfs": -45.743,
+      "gain_match_db": 4.688
+    }
+  ]
+}

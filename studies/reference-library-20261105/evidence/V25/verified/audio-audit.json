@@ -1,0 +1,3237 @@
+{
+  "fft_window_ms": 46.439909297052154,
+  "hop_ms": 4.988662131519274,
+  "flux_lookback_ms": 14.965986394557824,
+  "onsets_note": "Local increases in spectral flux include rhythm, voices and effects.",
+  "bands_hz": [
+    [
+      25,
+      110
+    ],
+    [
+      110,
+      250
+    ],
+    [
+      250,
+      900
+    ],
+    [
+      900,
+      3500
+    ],
+    [
+      3500,
+      8000
+    ],
+    [
+      8000,
+      18000
+    ]
+  ],
+  "mix": {
+    "track": "原始混音",
+    "file": "V25__mixed.m4a",
+    "file_sha256": "bc650c03d3235476a32c63702b1d5e7a69daf2b23029785d3383ce8e11321a71",
+    "sample_rate": 44100,
+    "samples_per_channel": 934874,
+    "decoded_seconds": 21.198956916099775,
+    "channel_correlation": 0.88504,
+    "levels": {
+      "rms_dbfs": -9.585,
+      "peak_dbfs": 2.864,
+      "side_rms_dbfs": -21.965,
+      "mid_rms_dbfs": -9.843
+    },
+    "candidate_peak_count": 326,
+    "periodicity": {
+      "0.12–21.05": {
+        "wide": [
+          {
+            "period_seconds": 0.130102,
+            "bpm_if_one_beat": 461.177,
+            "normalized_acf": 0.5035
+          },
+          {
+            "period_seconds": 0.395301,
+            "bpm_if_one_beat": 151.783,
+            "normalized_acf": 0.4319
+          },
+          {
+            "period_seconds": 0.261704,
+            "bpm_if_one_beat": 229.267,
+            "normalized_acf": 0.3735
+          },
+          {
+            "period_seconds": 0.788789,
+            "bpm_if_one_beat": 76.066,
+            "normalized_acf": 0.3405
+          },
+          {
+            "period_seconds": 0.526368,
+            "bpm_if_one_beat": 113.989,
+            "normalized_acf": 0.3372
+          },
+          {
+            "period_seconds": 1.184028,
+            "bpm_if_one_beat": 50.674,
+            "normalized_acf": 0.3111
+          },
+          {
+            "period_seconds": 0.657346,
+            "bpm_if_one_beat": 91.276,
+            "normalized_acf": 0.3087
+          },
+          {
+            "period_seconds": 1.054915,
+            "bpm_if_one_beat": 56.877,
+            "normalized_acf": 0.2513
+          },
+          {
+            "period_seconds": 1.579729,
+            "bpm_if_one_beat": 37.981,
+            "normalized_acf": 0.2439
+          },
+          {
+            "period_seconds": 1.977452,
+            "bpm_if_one_beat": 30.342,
+            "normalized_acf": 0.2419
+          },
+          {
+            "period_seconds": 0.924506,
+            "bpm_if_one_beat": 64.9,
+            "normalized_acf": 0.2369
+          },
+          {
+            "period_seconds": 2.371841,
+            "bpm_if_one_beat": 25.297,
+            "normalized_acf": 0.1729
+          },
+          {
+            "period_seconds": 1.446664,
+            "bpm_if_one_beat": 41.475,
+            "normalized_acf": 0.172
+          },
+          {
+            "period_seconds": 2.505316,
+            "bpm_if_one_beat": 23.949,
+            "normalized_acf": 0.1717
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.132919,
+            "bpm_if_one_beat": 451.404,
+            "normalized_acf": 0.1406
+          },
+          {
+            "period_seconds": 1.982571,
+            "bpm_if_one_beat": 30.264,
+            "normalized_acf": 0.133
+          },
+          {
+            "period_seconds": 0.663044,
+            "bpm_if_one_beat": 90.492,
+            "normalized_acf": 0.1088
+          },
+          {
+            "period_seconds": 0.791568,
+            "bpm_if_one_beat": 75.799,
+            "normalized_acf": 0.1041
+          },
+          {
+            "period_seconds": 0.410685,
+            "bpm_if_one_beat": 146.097,
+            "normalized_acf": 0.085
+          },
+          {
+            "period_seconds": 1.189413,
+            "bpm_if_one_beat": 50.445,
+            "normalized_acf": 0.0774
+          },
+          {
+            "period_seconds": 1.586124,
+            "bpm_if_one_beat": 37.828,
+            "normalized_acf": 0.0754
+          },
+          {
+            "period_seconds": 0.373774,
+            "bpm_if_one_beat": 160.525,
+            "normalized_acf": 0.0698
+          },
+          {
+            "period_seconds": 1.011411,
+            "bpm_if_one_beat": 59.323,
+            "normalized_acf": 0.065
+          },
+          {
+            "period_seconds": 0.533287,
+            "bpm_if_one_beat": 112.51,
+            "normalized_acf": 0.0609
+          },
+          {
+            "period_seconds": 2.124512,
+            "bpm_if_one_beat": 28.242,
+            "normalized_acf": 0.0515
+          },
+          {
+            "period_seconds": 0.922253,
+            "bpm_if_one_beat": 65.058,
+            "normalized_acf": 0.0484
+          },
+          {
+            "period_seconds": 1.430405,
+            "bpm_if_one_beat": 41.946,
+            "normalized_acf": 0.0463
+          },
+          {
+            "period_seconds": 1.948007,
+            "bpm_if_one_beat": 30.801,
+            "normalized_acf": 0.045
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.129956,
+            "bpm_if_one_beat": 461.696,
+            "normalized_acf": 0.529
+          },
+          {
+            "period_seconds": 0.394187,
+            "bpm_if_one_beat": 152.212,
+            "normalized_acf": 0.4299
+          },
+          {
+            "period_seconds": 0.261712,
+            "bpm_if_one_beat": 229.26,
+            "normalized_acf": 0.3871
+          },
+          {
+            "period_seconds": 0.525656,
+            "bpm_if_one_beat": 114.143,
+            "normalized_acf": 0.3224
+          },
+          {
+            "period_seconds": 1.183624,
+            "bpm_if_one_beat": 50.692,
+            "normalized_acf": 0.3146
+          },
+          {
+            "period_seconds": 0.78832,
+            "bpm_if_one_beat": 76.111,
+            "normalized_acf": 0.3033
+          },
+          {
+            "period_seconds": 0.656237,
+            "bpm_if_one_beat": 91.43,
+            "normalized_acf": 0.2832
+          },
+          {
+            "period_seconds": 1.053952,
+            "bpm_if_one_beat": 56.929,
+            "normalized_acf": 0.2307
+          },
+          {
+            "period_seconds": 1.974753,
+            "bpm_if_one_beat": 30.384,
+            "normalized_acf": 0.2214
+          },
+          {
+            "period_seconds": 1.578562,
+            "bpm_if_one_beat": 38.009,
+            "normalized_acf": 0.22
+          },
+          {
+            "period_seconds": 1.315333,
+            "bpm_if_one_beat": 45.616,
+            "normalized_acf": 0.1981
+          },
+          {
+            "period_seconds": 0.922658,
+            "bpm_if_one_beat": 65.029,
+            "normalized_acf": 0.187
+          },
+          {
+            "period_seconds": 1.846181,
+            "bpm_if_one_beat": 32.5,
+            "normalized_acf": 0.1789
+          },
+          {
+            "period_seconds": 1.71151,
+            "bpm_if_one_beat": 35.057,
+            "normalized_acf": 0.1733
+          }
+        ]
+      },
+      "0.12–4.4": {
+        "wide": [
+          {
+            "period_seconds": 0.393853,
+            "bpm_if_one_beat": 152.341,
+            "normalized_acf": 0.4081
+          },
+          {
+            "period_seconds": 0.130239,
+            "bpm_if_one_beat": 460.693,
+            "normalized_acf": 0.3881
+          },
+          {
+            "period_seconds": 0.259905,
+            "bpm_if_one_beat": 230.853,
+            "normalized_acf": 0.3183
+          },
+          {
+            "period_seconds": 0.522493,
+            "bpm_if_one_beat": 114.834,
+            "normalized_acf": 0.2144
+          },
+          {
+            "period_seconds": 1.99031,
+            "bpm_if_one_beat": 30.146,
+            "normalized_acf": 0.2024
+          },
+          {
+            "period_seconds": 2.387065,
+            "bpm_if_one_beat": 25.135,
+            "normalized_acf": 0.1913
+          },
+          {
+            "period_seconds": 0.652638,
+            "bpm_if_one_beat": 91.935,
+            "normalized_acf": 0.1905
+          },
+          {
+            "period_seconds": 0.779629,
+            "bpm_if_one_beat": 76.96,
+            "normalized_acf": 0.1839
+          },
+          {
+            "period_seconds": 2.517328,
+            "bpm_if_one_beat": 23.835,
+            "normalized_acf": 0.1738
+          },
+          {
+            "period_seconds": 1.184128,
+            "bpm_if_one_beat": 50.67,
+            "normalized_acf": 0.1532
+          },
+          {
+            "period_seconds": 1.73876,
+            "bpm_if_one_beat": 34.507,
+            "normalized_acf": 0.1494
+          },
+          {
+            "period_seconds": 1.333746,
+            "bpm_if_one_beat": 44.986,
+            "normalized_acf": 0.1417
+          },
+          {
+            "period_seconds": 2.119774,
+            "bpm_if_one_beat": 28.305,
+            "normalized_acf": 0.1288
+          },
+          {
+            "period_seconds": 0.930385,
+            "bpm_if_one_beat": 64.489,
+            "normalized_acf": 0.1231
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.413519,
+            "bpm_if_one_beat": 145.096,
+            "normalized_acf": 0.1837
+          },
+          {
+            "period_seconds": 0.378457,
+            "bpm_if_one_beat": 158.538,
+            "normalized_acf": 0.1622
+          },
+          {
+            "period_seconds": 1.424253,
+            "bpm_if_one_beat": 42.127,
+            "normalized_acf": 0.1616
+          },
+          {
+            "period_seconds": 1.012173,
+            "bpm_if_one_beat": 59.278,
+            "normalized_acf": 0.1108
+          },
+          {
+            "period_seconds": 1.489268,
+            "bpm_if_one_beat": 40.288,
+            "normalized_acf": 0.104
+          },
+          {
+            "period_seconds": 1.589134,
+            "bpm_if_one_beat": 37.756,
+            "normalized_acf": 0.0925
+          },
+          {
+            "period_seconds": 0.479746,
+            "bpm_if_one_beat": 125.066,
+            "normalized_acf": 0.0909
+          },
+          {
+            "period_seconds": 1.338003,
+            "bpm_if_one_beat": 44.843,
+            "normalized_acf": 0.0868
+          },
+          {
+            "period_seconds": 1.228794,
+            "bpm_if_one_beat": 48.828,
+            "normalized_acf": 0.0743
+          },
+          {
+            "period_seconds": 2.008515,
+            "bpm_if_one_beat": 29.873,
+            "normalized_acf": 0.0728
+          },
+          {
+            "period_seconds": 1.987625,
+            "bpm_if_one_beat": 30.187,
+            "normalized_acf": 0.066
+          },
+          {
+            "period_seconds": 2.249095,
+            "bpm_if_one_beat": 26.677,
+            "normalized_acf": 0.0652
+          },
+          {
+            "period_seconds": 0.765212,
+            "bpm_if_one_beat": 78.41,
+            "normalized_acf": 0.0621
+          },
+          {
+            "period_seconds": 1.519453,
+            "bpm_if_one_beat": 39.488,
+            "normalized_acf": 0.0549
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.12974,
+            "bpm_if_one_beat": 462.463,
+            "normalized_acf": 0.5552
+          },
+          {
+            "period_seconds": 0.260162,
+            "bpm_if_one_beat": 230.625,
+            "normalized_acf": 0.4411
+          },
+          {
+            "period_seconds": 0.390432,
+            "bpm_if_one_beat": 153.676,
+            "normalized_acf": 0.4263
+          },
+          {
+            "period_seconds": 0.520836,
+            "bpm_if_one_beat": 115.2,
+            "normalized_acf": 0.2635
+          },
+          {
+            "period_seconds": 0.650477,
+            "bpm_if_one_beat": 92.24,
+            "normalized_acf": 0.1952
+          },
+          {
+            "period_seconds": 1.996383,
+            "bpm_if_one_beat": 30.054,
+            "normalized_acf": 0.1732
+          },
+          {
+            "period_seconds": 0.778715,
+            "bpm_if_one_beat": 77.05,
+            "normalized_acf": 0.1727
+          },
+          {
+            "period_seconds": 1.867007,
+            "bpm_if_one_beat": 32.137,
+            "normalized_acf": 0.1706
+          },
+          {
+            "period_seconds": 1.736687,
+            "bpm_if_one_beat": 34.549,
+            "normalized_acf": 0.1601
+          },
+          {
+            "period_seconds": 2.123112,
+            "bpm_if_one_beat": 28.26,
+            "normalized_acf": 0.115
+          },
+          {
+            "period_seconds": 1.604557,
+            "bpm_if_one_beat": 37.394,
+            "normalized_acf": 0.1078
+          },
+          {
+            "period_seconds": 2.388874,
+            "bpm_if_one_beat": 25.116,
+            "normalized_acf": 0.1067
+          },
+          {
+            "period_seconds": 2.518371,
+            "bpm_if_one_beat": 23.825,
+            "normalized_acf": 0.1064
+          },
+          {
+            "period_seconds": 1.181416,
+            "bpm_if_one_beat": 50.786,
+            "normalized_acf": 0.1022
+          }
+        ]
+      },
+      "4.4–9.3": {
+        "wide": [
+          {
+            "period_seconds": 0.1309,
+            "bpm_if_one_beat": 458.364,
+            "normalized_acf": 0.6227
+          },
+          {
+            "period_seconds": 0.262429,
+            "bpm_if_one_beat": 228.634,
+            "normalized_acf": 0.4737
+          },
+          {
+            "period_seconds": 0.395563,
+            "bpm_if_one_beat": 151.682,
+            "normalized_acf": 0.4302
+          },
+          {
+            "period_seconds": 1.053292,
+            "bpm_if_one_beat": 56.964,
+            "normalized_acf": 0.4254
+          },
+          {
+            "period_seconds": 0.790424,
+            "bpm_if_one_beat": 75.909,
+            "normalized_acf": 0.4204
+          },
+          {
+            "period_seconds": 1.18443,
+            "bpm_if_one_beat": 50.657,
+            "normalized_acf": 0.4154
+          },
+          {
+            "period_seconds": 0.92178,
+            "bpm_if_one_beat": 65.091,
+            "normalized_acf": 0.4115
+          },
+          {
+            "period_seconds": 0.527231,
+            "bpm_if_one_beat": 113.802,
+            "normalized_acf": 0.405
+          },
+          {
+            "period_seconds": 0.659732,
+            "bpm_if_one_beat": 90.946,
+            "normalized_acf": 0.4
+          },
+          {
+            "period_seconds": 1.578888,
+            "bpm_if_one_beat": 38.001,
+            "normalized_acf": 0.3391
+          },
+          {
+            "period_seconds": 1.315847,
+            "bpm_if_one_beat": 45.598,
+            "normalized_acf": 0.339
+          },
+          {
+            "period_seconds": 1.974484,
+            "bpm_if_one_beat": 30.388,
+            "normalized_acf": 0.3282
+          },
+          {
+            "period_seconds": 1.710628,
+            "bpm_if_one_beat": 35.075,
+            "normalized_acf": 0.3212
+          },
+          {
+            "period_seconds": 1.448091,
+            "bpm_if_one_beat": 41.434,
+            "normalized_acf": 0.3208
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.135225,
+            "bpm_if_one_beat": 443.705,
+            "normalized_acf": 0.2825
+          },
+          {
+            "period_seconds": 0.26975,
+            "bpm_if_one_beat": 222.428,
+            "normalized_acf": 0.1459
+          },
+          {
+            "period_seconds": 0.409247,
+            "bpm_if_one_beat": 146.611,
+            "normalized_acf": 0.1357
+          },
+          {
+            "period_seconds": 1.206119,
+            "bpm_if_one_beat": 49.746,
+            "normalized_acf": 0.1317
+          },
+          {
+            "period_seconds": 0.791295,
+            "bpm_if_one_beat": 75.825,
+            "normalized_acf": 0.1302
+          },
+          {
+            "period_seconds": 0.931509,
+            "bpm_if_one_beat": 64.412,
+            "normalized_acf": 0.1286
+          },
+          {
+            "period_seconds": 1.987401,
+            "bpm_if_one_beat": 30.19,
+            "normalized_acf": 0.1151
+          },
+          {
+            "period_seconds": 1.274744,
+            "bpm_if_one_beat": 47.068,
+            "normalized_acf": 0.1024
+          },
+          {
+            "period_seconds": 1.939735,
+            "bpm_if_one_beat": 30.932,
+            "normalized_acf": 0.1006
+          },
+          {
+            "period_seconds": 0.539915,
+            "bpm_if_one_beat": 111.129,
+            "normalized_acf": 0.0995
+          },
+          {
+            "period_seconds": 0.359145,
+            "bpm_if_one_beat": 167.063,
+            "normalized_acf": 0.0945
+          },
+          {
+            "period_seconds": 0.705241,
+            "bpm_if_one_beat": 85.077,
+            "normalized_acf": 0.0821
+          },
+          {
+            "period_seconds": 2.353578,
+            "bpm_if_one_beat": 25.493,
+            "normalized_acf": 0.0798
+          },
+          {
+            "period_seconds": 1.067964,
+            "bpm_if_one_beat": 56.182,
+            "normalized_acf": 0.0794
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.12886,
+            "bpm_if_one_beat": 465.622,
+            "normalized_acf": 0.5452
+          },
+          {
+            "period_seconds": 0.262501,
+            "bpm_if_one_beat": 228.571,
+            "normalized_acf": 0.4478
+          },
+          {
+            "period_seconds": 1.185613,
+            "bpm_if_one_beat": 50.607,
+            "normalized_acf": 0.4164
+          },
+          {
+            "period_seconds": 0.790454,
+            "bpm_if_one_beat": 75.906,
+            "normalized_acf": 0.3619
+          },
+          {
+            "period_seconds": 0.395057,
+            "bpm_if_one_beat": 151.877,
+            "normalized_acf": 0.358
+          },
+          {
+            "period_seconds": 1.055696,
+            "bpm_if_one_beat": 56.835,
+            "normalized_acf": 0.3375
+          },
+          {
+            "period_seconds": 1.973804,
+            "bpm_if_one_beat": 30.398,
+            "normalized_acf": 0.3365
+          },
+          {
+            "period_seconds": 0.920389,
+            "bpm_if_one_beat": 65.19,
+            "normalized_acf": 0.3308
+          },
+          {
+            "period_seconds": 1.314208,
+            "bpm_if_one_beat": 45.655,
+            "normalized_acf": 0.3218
+          },
+          {
+            "period_seconds": 1.579399,
+            "bpm_if_one_beat": 37.989,
+            "normalized_acf": 0.3072
+          },
+          {
+            "period_seconds": 1.845567,
+            "bpm_if_one_beat": 32.51,
+            "normalized_acf": 0.3071
+          },
+          {
+            "period_seconds": 2.104274,
+            "bpm_if_one_beat": 28.513,
+            "normalized_acf": 0.2908
+          },
+          {
+            "period_seconds": 1.709355,
+            "bpm_if_one_beat": 35.101,
+            "normalized_acf": 0.2801
+          },
+          {
+            "period_seconds": 0.525795,
+            "bpm_if_one_beat": 114.113,
+            "normalized_acf": 0.2745
+          }
+        ]
+      },
+      "9.3–14.5": {
+        "wide": [
+          {
+            "period_seconds": 0.127716,
+            "bpm_if_one_beat": 469.793,
+            "normalized_acf": 0.324
+          },
+          {
+            "period_seconds": 0.783316,
+            "bpm_if_one_beat": 76.597,
+            "normalized_acf": 0.2213
+          },
+          {
+            "period_seconds": 1.181633,
+            "bpm_if_one_beat": 50.777,
+            "normalized_acf": 0.1998
+          },
+          {
+            "period_seconds": 0.396515,
+            "bpm_if_one_beat": 151.319,
+            "normalized_acf": 0.1745
+          },
+          {
+            "period_seconds": 0.52566,
+            "bpm_if_one_beat": 114.142,
+            "normalized_acf": 0.1622
+          },
+          {
+            "period_seconds": 0.64041,
+            "bpm_if_one_beat": 93.69,
+            "normalized_acf": 0.156
+          },
+          {
+            "period_seconds": 1.036298,
+            "bpm_if_one_beat": 57.898,
+            "normalized_acf": 0.1389
+          },
+          {
+            "period_seconds": 0.255684,
+            "bpm_if_one_beat": 234.664,
+            "normalized_acf": 0.138
+          },
+          {
+            "period_seconds": 1.96019,
+            "bpm_if_one_beat": 30.609,
+            "normalized_acf": 0.1226
+          },
+          {
+            "period_seconds": 2.371997,
+            "bpm_if_one_beat": 25.295,
+            "normalized_acf": 0.1065
+          },
+          {
+            "period_seconds": 2.079608,
+            "bpm_if_one_beat": 28.852,
+            "normalized_acf": 0.0933
+          },
+          {
+            "period_seconds": 1.426437,
+            "bpm_if_one_beat": 42.063,
+            "normalized_acf": 0.0853
+          },
+          {
+            "period_seconds": 0.901987,
+            "bpm_if_one_beat": 66.52,
+            "normalized_acf": 0.0757
+          },
+          {
+            "period_seconds": 2.490738,
+            "bpm_if_one_beat": 24.089,
+            "normalized_acf": 0.0754
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.965676,
+            "bpm_if_one_beat": 62.133,
+            "normalized_acf": 0.1254
+          },
+          {
+            "period_seconds": 0.43489,
+            "bpm_if_one_beat": 137.966,
+            "normalized_acf": 0.1196
+          },
+          {
+            "period_seconds": 0.215444,
+            "bpm_if_one_beat": 278.495,
+            "normalized_acf": 0.0966
+          },
+          {
+            "period_seconds": 1.050503,
+            "bpm_if_one_beat": 57.115,
+            "normalized_acf": 0.0953
+          },
+          {
+            "period_seconds": 2.114304,
+            "bpm_if_one_beat": 28.378,
+            "normalized_acf": 0.0942
+          },
+          {
+            "period_seconds": 1.186789,
+            "bpm_if_one_beat": 50.557,
+            "normalized_acf": 0.0937
+          },
+          {
+            "period_seconds": 0.373489,
+            "bpm_if_one_beat": 160.647,
+            "normalized_acf": 0.0931
+          },
+          {
+            "period_seconds": 0.813271,
+            "bpm_if_one_beat": 73.776,
+            "normalized_acf": 0.087
+          },
+          {
+            "period_seconds": 0.640471,
+            "bpm_if_one_beat": 93.681,
+            "normalized_acf": 0.0781
+          },
+          {
+            "period_seconds": 0.842335,
+            "bpm_if_one_beat": 71.231,
+            "normalized_acf": 0.0764
+          },
+          {
+            "period_seconds": 1.686938,
+            "bpm_if_one_beat": 35.567,
+            "normalized_acf": 0.0763
+          },
+          {
+            "period_seconds": 1.142101,
+            "bpm_if_one_beat": 52.535,
+            "normalized_acf": 0.0715
+          },
+          {
+            "period_seconds": 1.942857,
+            "bpm_if_one_beat": 30.882,
+            "normalized_acf": 0.0706
+          },
+          {
+            "period_seconds": 1.718698,
+            "bpm_if_one_beat": 34.91,
+            "normalized_acf": 0.0686
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.13069,
+            "bpm_if_one_beat": 459.103,
+            "normalized_acf": 0.3454
+          },
+          {
+            "period_seconds": 0.394053,
+            "bpm_if_one_beat": 152.264,
+            "normalized_acf": 0.2717
+          },
+          {
+            "period_seconds": 0.783891,
+            "bpm_if_one_beat": 76.541,
+            "normalized_acf": 0.2459
+          },
+          {
+            "period_seconds": 0.256949,
+            "bpm_if_one_beat": 233.509,
+            "normalized_acf": 0.24
+          },
+          {
+            "period_seconds": 1.183023,
+            "bpm_if_one_beat": 50.718,
+            "normalized_acf": 0.1859
+          },
+          {
+            "period_seconds": 0.648964,
+            "bpm_if_one_beat": 92.455,
+            "normalized_acf": 0.1846
+          },
+          {
+            "period_seconds": 0.526158,
+            "bpm_if_one_beat": 114.034,
+            "normalized_acf": 0.147
+          },
+          {
+            "period_seconds": 1.964949,
+            "bpm_if_one_beat": 30.535,
+            "normalized_acf": 0.1314
+          },
+          {
+            "period_seconds": 1.040772,
+            "bpm_if_one_beat": 57.65,
+            "normalized_acf": 0.1288
+          },
+          {
+            "period_seconds": 0.901876,
+            "bpm_if_one_beat": 66.528,
+            "normalized_acf": 0.1196
+          },
+          {
+            "period_seconds": 2.083862,
+            "bpm_if_one_beat": 28.793,
+            "normalized_acf": 0.1141
+          },
+          {
+            "period_seconds": 1.557811,
+            "bpm_if_one_beat": 38.516,
+            "normalized_acf": 0.1086
+          },
+          {
+            "period_seconds": 1.42735,
+            "bpm_if_one_beat": 42.036,
+            "normalized_acf": 0.0966
+          },
+          {
+            "period_seconds": 1.827583,
+            "bpm_if_one_beat": 32.83,
+            "normalized_acf": 0.0901
+          }
+        ]
+      },
+      "14.5–21.05": {
+        "wide": [
+          {
+            "period_seconds": 0.130048,
+            "bpm_if_one_beat": 461.368,
+            "normalized_acf": 0.6041
+          },
+          {
+            "period_seconds": 0.395439,
+            "bpm_if_one_beat": 151.73,
+            "normalized_acf": 0.5349
+          },
+          {
+            "period_seconds": 0.263365,
+            "bpm_if_one_beat": 227.821,
+            "normalized_acf": 0.4773
+          },
+          {
+            "period_seconds": 0.527839,
+            "bpm_if_one_beat": 113.671,
+            "normalized_acf": 0.4745
+          },
+          {
+            "period_seconds": 0.789286,
+            "bpm_if_one_beat": 76.018,
+            "normalized_acf": 0.4551
+          },
+          {
+            "period_seconds": 0.658969,
+            "bpm_if_one_beat": 91.051,
+            "normalized_acf": 0.4417
+          },
+          {
+            "period_seconds": 1.183276,
+            "bpm_if_one_beat": 50.707,
+            "normalized_acf": 0.3719
+          },
+          {
+            "period_seconds": 1.055364,
+            "bpm_if_one_beat": 56.852,
+            "normalized_acf": 0.3202
+          },
+          {
+            "period_seconds": 0.923401,
+            "bpm_if_one_beat": 64.977,
+            "normalized_acf": 0.3118
+          },
+          {
+            "period_seconds": 1.974029,
+            "bpm_if_one_beat": 30.395,
+            "normalized_acf": 0.2302
+          },
+          {
+            "period_seconds": 1.578665,
+            "bpm_if_one_beat": 38.007,
+            "normalized_acf": 0.2245
+          },
+          {
+            "period_seconds": 1.315309,
+            "bpm_if_one_beat": 45.617,
+            "normalized_acf": 0.2102
+          },
+          {
+            "period_seconds": 1.448567,
+            "bpm_if_one_beat": 41.42,
+            "normalized_acf": 0.1859
+          },
+          {
+            "period_seconds": 1.84446,
+            "bpm_if_one_beat": 32.53,
+            "normalized_acf": 0.1744
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.788886,
+            "bpm_if_one_beat": 76.057,
+            "normalized_acf": 0.2559
+          },
+          {
+            "period_seconds": 0.662768,
+            "bpm_if_one_beat": 90.529,
+            "normalized_acf": 0.2476
+          },
+          {
+            "period_seconds": 0.125292,
+            "bpm_if_one_beat": 478.88,
+            "normalized_acf": 0.2387
+          },
+          {
+            "period_seconds": 1.971677,
+            "bpm_if_one_beat": 30.431,
+            "normalized_acf": 0.1703
+          },
+          {
+            "period_seconds": 1.184061,
+            "bpm_if_one_beat": 50.673,
+            "normalized_acf": 0.1424
+          },
+          {
+            "period_seconds": 0.534272,
+            "bpm_if_one_beat": 112.302,
+            "normalized_acf": 0.1274
+          },
+          {
+            "period_seconds": 1.83182,
+            "bpm_if_one_beat": 32.754,
+            "normalized_acf": 0.105
+          },
+          {
+            "period_seconds": 0.901642,
+            "bpm_if_one_beat": 66.545,
+            "normalized_acf": 0.1001
+          },
+          {
+            "period_seconds": 1.324091,
+            "bpm_if_one_beat": 45.314,
+            "normalized_acf": 0.0969
+          },
+          {
+            "period_seconds": 1.02193,
+            "bpm_if_one_beat": 58.712,
+            "normalized_acf": 0.0827
+          },
+          {
+            "period_seconds": 0.232375,
+            "bpm_if_one_beat": 258.203,
+            "normalized_acf": 0.0761
+          },
+          {
+            "period_seconds": 2.122306,
+            "bpm_if_one_beat": 28.271,
+            "normalized_acf": 0.0635
+          },
+          {
+            "period_seconds": 2.491154,
+            "bpm_if_one_beat": 24.085,
+            "normalized_acf": 0.0351
+          },
+          {
+            "period_seconds": 1.561242,
+            "bpm_if_one_beat": 38.431,
+            "normalized_acf": 0.034
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.130455,
+            "bpm_if_one_beat": 459.93,
+            "normalized_acf": 0.5714
+          },
+          {
+            "period_seconds": 0.395463,
+            "bpm_if_one_beat": 151.721,
+            "normalized_acf": 0.5083
+          },
+          {
+            "period_seconds": 0.527542,
+            "bpm_if_one_beat": 113.735,
+            "normalized_acf": 0.4652
+          },
+          {
+            "period_seconds": 0.264277,
+            "bpm_if_one_beat": 227.034,
+            "normalized_acf": 0.409
+          },
+          {
+            "period_seconds": 0.658492,
+            "bpm_if_one_beat": 91.117,
+            "normalized_acf": 0.3972
+          },
+          {
+            "period_seconds": 0.789482,
+            "bpm_if_one_beat": 75.999,
+            "normalized_acf": 0.3757
+          },
+          {
+            "period_seconds": 1.182504,
+            "bpm_if_one_beat": 50.74,
+            "normalized_acf": 0.3677
+          },
+          {
+            "period_seconds": 1.055376,
+            "bpm_if_one_beat": 56.852,
+            "normalized_acf": 0.2718
+          },
+          {
+            "period_seconds": 0.922852,
+            "bpm_if_one_beat": 65.016,
+            "normalized_acf": 0.2325
+          },
+          {
+            "period_seconds": 1.314303,
+            "bpm_if_one_beat": 45.652,
+            "normalized_acf": 0.2042
+          },
+          {
+            "period_seconds": 1.974005,
+            "bpm_if_one_beat": 30.395,
+            "normalized_acf": 0.1914
+          },
+          {
+            "period_seconds": 1.578451,
+            "bpm_if_one_beat": 38.012,
+            "normalized_acf": 0.1818
+          },
+          {
+            "period_seconds": 1.448062,
+            "bpm_if_one_beat": 41.435,
+            "normalized_acf": 0.1659
+          },
+          {
+            "period_seconds": 1.844757,
+            "bpm_if_one_beat": 32.525,
+            "normalized_acf": 0.1634
+          }
+        ]
+      },
+      "2.0–11.8": {
+        "wide": [
+          {
+            "period_seconds": 0.130965,
+            "bpm_if_one_beat": 458.139,
+            "normalized_acf": 0.4734
+          },
+          {
+            "period_seconds": 0.396218,
+            "bpm_if_one_beat": 151.432,
+            "normalized_acf": 0.345
+          },
+          {
+            "period_seconds": 1.184254,
+            "bpm_if_one_beat": 50.665,
+            "normalized_acf": 0.3416
+          },
+          {
+            "period_seconds": 0.261161,
+            "bpm_if_one_beat": 229.743,
+            "normalized_acf": 0.3335
+          },
+          {
+            "period_seconds": 0.787194,
+            "bpm_if_one_beat": 76.22,
+            "normalized_acf": 0.3214
+          },
+          {
+            "period_seconds": 1.052329,
+            "bpm_if_one_beat": 57.016,
+            "normalized_acf": 0.306
+          },
+          {
+            "period_seconds": 0.657585,
+            "bpm_if_one_beat": 91.243,
+            "normalized_acf": 0.3025
+          },
+          {
+            "period_seconds": 1.579216,
+            "bpm_if_one_beat": 37.994,
+            "normalized_acf": 0.2959
+          },
+          {
+            "period_seconds": 0.525204,
+            "bpm_if_one_beat": 114.241,
+            "normalized_acf": 0.2845
+          },
+          {
+            "period_seconds": 1.446233,
+            "bpm_if_one_beat": 41.487,
+            "normalized_acf": 0.2837
+          },
+          {
+            "period_seconds": 1.974301,
+            "bpm_if_one_beat": 30.391,
+            "normalized_acf": 0.274
+          },
+          {
+            "period_seconds": 0.920662,
+            "bpm_if_one_beat": 65.171,
+            "normalized_acf": 0.272
+          },
+          {
+            "period_seconds": 1.710129,
+            "bpm_if_one_beat": 35.085,
+            "normalized_acf": 0.2546
+          },
+          {
+            "period_seconds": 2.498906,
+            "bpm_if_one_beat": 24.011,
+            "normalized_acf": 0.2526
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.136175,
+            "bpm_if_one_beat": 440.609,
+            "normalized_acf": 0.1738
+          },
+          {
+            "period_seconds": 1.981789,
+            "bpm_if_one_beat": 30.276,
+            "normalized_acf": 0.1278
+          },
+          {
+            "period_seconds": 0.375268,
+            "bpm_if_one_beat": 159.886,
+            "normalized_acf": 0.0971
+          },
+          {
+            "period_seconds": 1.581305,
+            "bpm_if_one_beat": 37.943,
+            "normalized_acf": 0.0921
+          },
+          {
+            "period_seconds": 1.202847,
+            "bpm_if_one_beat": 49.882,
+            "normalized_acf": 0.0827
+          },
+          {
+            "period_seconds": 2.349275,
+            "bpm_if_one_beat": 25.54,
+            "normalized_acf": 0.0791
+          },
+          {
+            "period_seconds": 0.925026,
+            "bpm_if_one_beat": 64.863,
+            "normalized_acf": 0.0671
+          },
+          {
+            "period_seconds": 0.567095,
+            "bpm_if_one_beat": 105.802,
+            "normalized_acf": 0.0656
+          },
+          {
+            "period_seconds": 0.535524,
+            "bpm_if_one_beat": 112.04,
+            "normalized_acf": 0.0642
+          },
+          {
+            "period_seconds": 0.665896,
+            "bpm_if_one_beat": 90.104,
+            "normalized_acf": 0.0635
+          },
+          {
+            "period_seconds": 1.277462,
+            "bpm_if_one_beat": 46.968,
+            "normalized_acf": 0.063
+          },
+          {
+            "period_seconds": 2.07374,
+            "bpm_if_one_beat": 28.933,
+            "normalized_acf": 0.0616
+          },
+          {
+            "period_seconds": 0.789533,
+            "bpm_if_one_beat": 75.994,
+            "normalized_acf": 0.0576
+          },
+          {
+            "period_seconds": 1.145051,
+            "bpm_if_one_beat": 52.399,
+            "normalized_acf": 0.0576
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.129779,
+            "bpm_if_one_beat": 462.323,
+            "normalized_acf": 0.4807
+          },
+          {
+            "period_seconds": 1.184631,
+            "bpm_if_one_beat": 50.649,
+            "normalized_acf": 0.3848
+          },
+          {
+            "period_seconds": 0.261619,
+            "bpm_if_one_beat": 229.341,
+            "normalized_acf": 0.3543
+          },
+          {
+            "period_seconds": 0.394517,
+            "bpm_if_one_beat": 152.085,
+            "normalized_acf": 0.3412
+          },
+          {
+            "period_seconds": 1.052004,
+            "bpm_if_one_beat": 57.034,
+            "normalized_acf": 0.3054
+          },
+          {
+            "period_seconds": 1.444449,
+            "bpm_if_one_beat": 41.538,
+            "normalized_acf": 0.2968
+          },
+          {
+            "period_seconds": 1.312597,
+            "bpm_if_one_beat": 45.711,
+            "normalized_acf": 0.2958
+          },
+          {
+            "period_seconds": 1.974461,
+            "bpm_if_one_beat": 30.388,
+            "normalized_acf": 0.2918
+          },
+          {
+            "period_seconds": 0.787564,
+            "bpm_if_one_beat": 76.184,
+            "normalized_acf": 0.2862
+          },
+          {
+            "period_seconds": 1.845436,
+            "bpm_if_one_beat": 32.513,
+            "normalized_acf": 0.2842
+          },
+          {
+            "period_seconds": 1.579018,
+            "bpm_if_one_beat": 37.998,
+            "normalized_acf": 0.2804
+          },
+          {
+            "period_seconds": 0.657084,
+            "bpm_if_one_beat": 91.312,
+            "normalized_acf": 0.2687
+          },
+          {
+            "period_seconds": 1.710196,
+            "bpm_if_one_beat": 35.084,
+            "normalized_acf": 0.2662
+          },
+          {
+            "period_seconds": 0.524993,
+            "bpm_if_one_beat": 114.287,
+            "normalized_acf": 0.2517
+          }
+        ]
+      },
+      "11.8–20.9": {
+        "wide": [
+          {
+            "period_seconds": 0.130175,
+            "bpm_if_one_beat": 460.919,
+            "normalized_acf": 0.539
+          },
+          {
+            "period_seconds": 0.395388,
+            "bpm_if_one_beat": 151.75,
+            "normalized_acf": 0.492
+          },
+          {
+            "period_seconds": 0.527781,
+            "bpm_if_one_beat": 113.683,
+            "normalized_acf": 0.4417
+          },
+          {
+            "period_seconds": 0.789393,
+            "bpm_if_one_beat": 76.008,
+            "normalized_acf": 0.4319
+          },
+          {
+            "period_seconds": 0.263165,
+            "bpm_if_one_beat": 227.994,
+            "normalized_acf": 0.4138
+          },
+          {
+            "period_seconds": 0.658557,
+            "bpm_if_one_beat": 91.108,
+            "normalized_acf": 0.3855
+          },
+          {
+            "period_seconds": 1.18374,
+            "bpm_if_one_beat": 50.687,
+            "normalized_acf": 0.3431
+          },
+          {
+            "period_seconds": 1.05534,
+            "bpm_if_one_beat": 56.854,
+            "normalized_acf": 0.2838
+          },
+          {
+            "period_seconds": 0.924047,
+            "bpm_if_one_beat": 64.932,
+            "normalized_acf": 0.2807
+          },
+          {
+            "period_seconds": 1.975108,
+            "bpm_if_one_beat": 30.378,
+            "normalized_acf": 0.2412
+          },
+          {
+            "period_seconds": 1.578309,
+            "bpm_if_one_beat": 38.015,
+            "normalized_acf": 0.2269
+          },
+          {
+            "period_seconds": 1.316247,
+            "bpm_if_one_beat": 45.584,
+            "normalized_acf": 0.201
+          },
+          {
+            "period_seconds": 1.447651,
+            "bpm_if_one_beat": 41.446,
+            "normalized_acf": 0.1695
+          },
+          {
+            "period_seconds": 1.713539,
+            "bpm_if_one_beat": 35.015,
+            "normalized_acf": 0.1511
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.663175,
+            "bpm_if_one_beat": 90.474,
+            "normalized_acf": 0.2099
+          },
+          {
+            "period_seconds": 0.788955,
+            "bpm_if_one_beat": 76.05,
+            "normalized_acf": 0.193
+          },
+          {
+            "period_seconds": 0.124681,
+            "bpm_if_one_beat": 481.227,
+            "normalized_acf": 0.192
+          },
+          {
+            "period_seconds": 1.972913,
+            "bpm_if_one_beat": 30.412,
+            "normalized_acf": 0.1536
+          },
+          {
+            "period_seconds": 1.18299,
+            "bpm_if_one_beat": 50.719,
+            "normalized_acf": 0.1206
+          },
+          {
+            "period_seconds": 0.532712,
+            "bpm_if_one_beat": 112.631,
+            "normalized_acf": 0.1112
+          },
+          {
+            "period_seconds": 1.320539,
+            "bpm_if_one_beat": 45.436,
+            "normalized_acf": 0.0908
+          },
+          {
+            "period_seconds": 1.825464,
+            "bpm_if_one_beat": 32.868,
+            "normalized_acf": 0.079
+          },
+          {
+            "period_seconds": 0.903779,
+            "bpm_if_one_beat": 66.388,
+            "normalized_acf": 0.0732
+          },
+          {
+            "period_seconds": 1.019362,
+            "bpm_if_one_beat": 58.86,
+            "normalized_acf": 0.0718
+          },
+          {
+            "period_seconds": 0.231128,
+            "bpm_if_one_beat": 259.596,
+            "normalized_acf": 0.069
+          },
+          {
+            "period_seconds": 2.126935,
+            "bpm_if_one_beat": 28.21,
+            "normalized_acf": 0.067
+          },
+          {
+            "period_seconds": 0.430413,
+            "bpm_if_one_beat": 139.401,
+            "normalized_acf": 0.0542
+          },
+          {
+            "period_seconds": 1.455846,
+            "bpm_if_one_beat": 41.213,
+            "normalized_acf": 0.0484
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.130721,
+            "bpm_if_one_beat": 458.992,
+            "normalized_acf": 0.5097
+          },
+          {
+            "period_seconds": 0.395288,
+            "bpm_if_one_beat": 151.788,
+            "normalized_acf": 0.4985
+          },
+          {
+            "period_seconds": 0.527792,
+            "bpm_if_one_beat": 113.681,
+            "normalized_acf": 0.4227
+          },
+          {
+            "period_seconds": 0.789222,
+            "bpm_if_one_beat": 76.024,
+            "normalized_acf": 0.3672
+          },
+          {
+            "period_seconds": 0.263721,
+            "bpm_if_one_beat": 227.513,
+            "normalized_acf": 0.3668
+          },
+          {
+            "period_seconds": 0.658167,
+            "bpm_if_one_beat": 91.162,
+            "normalized_acf": 0.353
+          },
+          {
+            "period_seconds": 1.182749,
+            "bpm_if_one_beat": 50.729,
+            "normalized_acf": 0.3478
+          },
+          {
+            "period_seconds": 1.055434,
+            "bpm_if_one_beat": 56.849,
+            "normalized_acf": 0.2374
+          },
+          {
+            "period_seconds": 0.924492,
+            "bpm_if_one_beat": 64.9,
+            "normalized_acf": 0.2203
+          },
+          {
+            "period_seconds": 1.317078,
+            "bpm_if_one_beat": 45.555,
+            "normalized_acf": 0.2025
+          },
+          {
+            "period_seconds": 1.578247,
+            "bpm_if_one_beat": 38.017,
+            "normalized_acf": 0.2012
+          },
+          {
+            "period_seconds": 1.973544,
+            "bpm_if_one_beat": 30.402,
+            "normalized_acf": 0.196
+          },
+          {
+            "period_seconds": 1.714327,
+            "bpm_if_one_beat": 34.999,
+            "normalized_acf": 0.1594
+          },
+          {
+            "period_seconds": 2.504593,
+            "bpm_if_one_beat": 23.956,
+            "normalized_acf": 0.1415
+          }
+        ]
+      }
+    },
+    "native_pcm_sha256": "585fbde0459771f28738971c2d5980a5bcadc0f21d51dfc017581211b0fddde1",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "HE-AACv2",
+          "sample_rate": "44100",
+          "channels": 2,
+          "start_time": "0.000000",
+          "duration_ts": 934876,
+          "duration": "21.199002",
+          "nb_frames": "460"
+        }
+      ],
+      "format": {
+        "duration": "21.199002",
+        "size": "170999"
+      }
+    },
+    "loudness": {
+      "integrated_lufs": -7.37,
+      "true_peak_dbtp": 2.87,
+      "loudness_range_lu": 1.5
+    }
+  },
+  "candidate": {
+    "track": "音乐主体候选",
+    "file": "V25__music-candidate.m4a",
+    "file_sha256": "0bbbafcbe04cb65b61a066dc6d3ee3297785a521bc4f245c0537e42d4c6a4543",
+    "sample_rate": 44100,
+    "samples_per_channel": 934874,
+    "decoded_seconds": 21.198956916099775,
+    "channel_correlation": 0.88453,
+    "levels": {
+      "rms_dbfs": -16.371,
+      "peak_dbfs": -2.558,
+      "side_rms_dbfs": -28.724,
+      "mid_rms_dbfs": -16.631
+    },
+    "candidate_peak_count": 307,
+    "periodicity": {
+      "0.12–21.05": {
+        "wide": [
+          {
+            "period_seconds": 0.130478,
+            "bpm_if_one_beat": 459.846,
+            "normalized_acf": 0.5718
+          },
+          {
+            "period_seconds": 0.394849,
+            "bpm_if_one_beat": 151.957,
+            "normalized_acf": 0.5332
+          },
+          {
+            "period_seconds": 0.261778,
+            "bpm_if_one_beat": 229.202,
+            "normalized_acf": 0.4564
+          },
+          {
+            "period_seconds": 1.184226,
+            "bpm_if_one_beat": 50.666,
+            "normalized_acf": 0.4219
+          },
+          {
+            "period_seconds": 0.789554,
+            "bpm_if_one_beat": 75.992,
+            "normalized_acf": 0.4167
+          },
+          {
+            "period_seconds": 0.527063,
+            "bpm_if_one_beat": 113.838,
+            "normalized_acf": 0.3996
+          },
+          {
+            "period_seconds": 1.579745,
+            "bpm_if_one_beat": 37.981,
+            "normalized_acf": 0.364
+          },
+          {
+            "period_seconds": 0.658284,
+            "bpm_if_one_beat": 91.146,
+            "normalized_acf": 0.3477
+          },
+          {
+            "period_seconds": 1.975698,
+            "bpm_if_one_beat": 30.369,
+            "normalized_acf": 0.3355
+          },
+          {
+            "period_seconds": 1.053684,
+            "bpm_if_one_beat": 56.943,
+            "normalized_acf": 0.3352
+          },
+          {
+            "period_seconds": 0.922771,
+            "bpm_if_one_beat": 65.022,
+            "normalized_acf": 0.3047
+          },
+          {
+            "period_seconds": 2.369965,
+            "bpm_if_one_beat": 25.317,
+            "normalized_acf": 0.2709
+          },
+          {
+            "period_seconds": 1.316887,
+            "bpm_if_one_beat": 45.562,
+            "normalized_acf": 0.2556
+          },
+          {
+            "period_seconds": 1.446266,
+            "bpm_if_one_beat": 41.486,
+            "normalized_acf": 0.2525
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.131585,
+            "bpm_if_one_beat": 455.977,
+            "normalized_acf": 0.2085
+          },
+          {
+            "period_seconds": 0.791598,
+            "bpm_if_one_beat": 75.796,
+            "normalized_acf": 0.1756
+          },
+          {
+            "period_seconds": 1.978951,
+            "bpm_if_one_beat": 30.319,
+            "normalized_acf": 0.1549
+          },
+          {
+            "period_seconds": 1.194796,
+            "bpm_if_one_beat": 50.218,
+            "normalized_acf": 0.1438
+          },
+          {
+            "period_seconds": 0.664895,
+            "bpm_if_one_beat": 90.24,
+            "normalized_acf": 0.1416
+          },
+          {
+            "period_seconds": 0.261814,
+            "bpm_if_one_beat": 229.171,
+            "normalized_acf": 0.12
+          },
+          {
+            "period_seconds": 0.406686,
+            "bpm_if_one_beat": 147.534,
+            "normalized_acf": 0.1152
+          },
+          {
+            "period_seconds": 0.533863,
+            "bpm_if_one_beat": 112.388,
+            "normalized_acf": 0.1075
+          },
+          {
+            "period_seconds": 1.585197,
+            "bpm_if_one_beat": 37.85,
+            "normalized_acf": 0.0845
+          },
+          {
+            "period_seconds": 2.509261,
+            "bpm_if_one_beat": 23.911,
+            "normalized_acf": 0.0818
+          },
+          {
+            "period_seconds": 0.926236,
+            "bpm_if_one_beat": 64.778,
+            "normalized_acf": 0.0811
+          },
+          {
+            "period_seconds": 1.845622,
+            "bpm_if_one_beat": 32.509,
+            "normalized_acf": 0.0775
+          },
+          {
+            "period_seconds": 1.326546,
+            "bpm_if_one_beat": 45.23,
+            "normalized_acf": 0.0723
+          },
+          {
+            "period_seconds": 0.380676,
+            "bpm_if_one_beat": 157.614,
+            "normalized_acf": 0.0668
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.130387,
+            "bpm_if_one_beat": 460.168,
+            "normalized_acf": 0.6053
+          },
+          {
+            "period_seconds": 0.394229,
+            "bpm_if_one_beat": 152.196,
+            "normalized_acf": 0.5158
+          },
+          {
+            "period_seconds": 0.261615,
+            "bpm_if_one_beat": 229.344,
+            "normalized_acf": 0.452
+          },
+          {
+            "period_seconds": 1.184009,
+            "bpm_if_one_beat": 50.675,
+            "normalized_acf": 0.4215
+          },
+          {
+            "period_seconds": 0.525802,
+            "bpm_if_one_beat": 114.111,
+            "normalized_acf": 0.3939
+          },
+          {
+            "period_seconds": 0.789046,
+            "bpm_if_one_beat": 76.041,
+            "normalized_acf": 0.3542
+          },
+          {
+            "period_seconds": 1.579264,
+            "bpm_if_one_beat": 37.992,
+            "normalized_acf": 0.3412
+          },
+          {
+            "period_seconds": 0.656871,
+            "bpm_if_one_beat": 91.342,
+            "normalized_acf": 0.3281
+          },
+          {
+            "period_seconds": 1.0531,
+            "bpm_if_one_beat": 56.975,
+            "normalized_acf": 0.3181
+          },
+          {
+            "period_seconds": 1.975126,
+            "bpm_if_one_beat": 30.378,
+            "normalized_acf": 0.3104
+          },
+          {
+            "period_seconds": 1.315535,
+            "bpm_if_one_beat": 45.609,
+            "normalized_acf": 0.2742
+          },
+          {
+            "period_seconds": 1.44694,
+            "bpm_if_one_beat": 41.467,
+            "normalized_acf": 0.2634
+          },
+          {
+            "period_seconds": 1.712762,
+            "bpm_if_one_beat": 35.031,
+            "normalized_acf": 0.2482
+          },
+          {
+            "period_seconds": 0.921629,
+            "bpm_if_one_beat": 65.102,
+            "normalized_acf": 0.2401
+          }
+        ]
+      },
+      "0.12–4.4": {
+        "wide": [
+          {
+            "period_seconds": 0.129811,
+            "bpm_if_one_beat": 462.212,
+            "normalized_acf": 0.4796
+          },
+          {
+            "period_seconds": 0.392513,
+            "bpm_if_one_beat": 152.861,
+            "normalized_acf": 0.4272
+          },
+          {
+            "period_seconds": 0.259725,
+            "bpm_if_one_beat": 231.013,
+            "normalized_acf": 0.3745
+          },
+          {
+            "period_seconds": 1.99176,
+            "bpm_if_one_beat": 30.124,
+            "normalized_acf": 0.2807
+          },
+          {
+            "period_seconds": 0.522124,
+            "bpm_if_one_beat": 114.915,
+            "normalized_acf": 0.2648
+          },
+          {
+            "period_seconds": 2.386051,
+            "bpm_if_one_beat": 25.146,
+            "normalized_acf": 0.2257
+          },
+          {
+            "period_seconds": 1.866973,
+            "bpm_if_one_beat": 32.138,
+            "normalized_acf": 0.2066
+          },
+          {
+            "period_seconds": 0.651816,
+            "bpm_if_one_beat": 92.05,
+            "normalized_acf": 0.1963
+          },
+          {
+            "period_seconds": 2.120716,
+            "bpm_if_one_beat": 28.292,
+            "normalized_acf": 0.1953
+          },
+          {
+            "period_seconds": 2.516712,
+            "bpm_if_one_beat": 23.841,
+            "normalized_acf": 0.1857
+          },
+          {
+            "period_seconds": 1.737154,
+            "bpm_if_one_beat": 34.539,
+            "normalized_acf": 0.1728
+          },
+          {
+            "period_seconds": 0.781825,
+            "bpm_if_one_beat": 76.744,
+            "normalized_acf": 0.161
+          },
+          {
+            "period_seconds": 2.254452,
+            "bpm_if_one_beat": 26.614,
+            "normalized_acf": 0.1548
+          },
+          {
+            "period_seconds": 1.185787,
+            "bpm_if_one_beat": 50.599,
+            "normalized_acf": 0.1396
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.379038,
+            "bpm_if_one_beat": 158.296,
+            "normalized_acf": 0.1601
+          },
+          {
+            "period_seconds": 0.413879,
+            "bpm_if_one_beat": 144.97,
+            "normalized_acf": 0.1475
+          },
+          {
+            "period_seconds": 1.425667,
+            "bpm_if_one_beat": 42.086,
+            "normalized_acf": 0.1409
+          },
+          {
+            "period_seconds": 1.0107,
+            "bpm_if_one_beat": 59.365,
+            "normalized_acf": 0.1206
+          },
+          {
+            "period_seconds": 1.487519,
+            "bpm_if_one_beat": 40.336,
+            "normalized_acf": 0.1033
+          },
+          {
+            "period_seconds": 0.480928,
+            "bpm_if_one_beat": 124.759,
+            "normalized_acf": 0.0984
+          },
+          {
+            "period_seconds": 2.008231,
+            "bpm_if_one_beat": 29.877,
+            "normalized_acf": 0.0953
+          },
+          {
+            "period_seconds": 1.158587,
+            "bpm_if_one_beat": 51.787,
+            "normalized_acf": 0.0867
+          },
+          {
+            "period_seconds": 1.518021,
+            "bpm_if_one_beat": 39.525,
+            "normalized_acf": 0.0849
+          },
+          {
+            "period_seconds": 1.338371,
+            "bpm_if_one_beat": 44.831,
+            "normalized_acf": 0.0831
+          },
+          {
+            "period_seconds": 1.586796,
+            "bpm_if_one_beat": 37.812,
+            "normalized_acf": 0.0762
+          },
+          {
+            "period_seconds": 0.766332,
+            "bpm_if_one_beat": 78.295,
+            "normalized_acf": 0.0656
+          },
+          {
+            "period_seconds": 1.232493,
+            "bpm_if_one_beat": 48.682,
+            "normalized_acf": 0.0631
+          },
+          {
+            "period_seconds": 2.393434,
+            "bpm_if_one_beat": 25.069,
+            "normalized_acf": 0.062
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.129443,
+            "bpm_if_one_beat": 463.523,
+            "normalized_acf": 0.6032
+          },
+          {
+            "period_seconds": 0.260066,
+            "bpm_if_one_beat": 230.711,
+            "normalized_acf": 0.46
+          },
+          {
+            "period_seconds": 0.39078,
+            "bpm_if_one_beat": 153.539,
+            "normalized_acf": 0.4452
+          },
+          {
+            "period_seconds": 0.520805,
+            "bpm_if_one_beat": 115.206,
+            "normalized_acf": 0.2996
+          },
+          {
+            "period_seconds": 1.993685,
+            "bpm_if_one_beat": 30.095,
+            "normalized_acf": 0.2753
+          },
+          {
+            "period_seconds": 1.865621,
+            "bpm_if_one_beat": 32.161,
+            "normalized_acf": 0.2549
+          },
+          {
+            "period_seconds": 2.12177,
+            "bpm_if_one_beat": 28.278,
+            "normalized_acf": 0.2106
+          },
+          {
+            "period_seconds": 0.650471,
+            "bpm_if_one_beat": 92.241,
+            "normalized_acf": 0.2103
+          },
+          {
+            "period_seconds": 1.735566,
+            "bpm_if_one_beat": 34.571,
+            "normalized_acf": 0.1862
+          },
+          {
+            "period_seconds": 0.780235,
+            "bpm_if_one_beat": 76.9,
+            "normalized_acf": 0.1687
+          },
+          {
+            "period_seconds": 2.254914,
+            "bpm_if_one_beat": 26.609,
+            "normalized_acf": 0.1609
+          },
+          {
+            "period_seconds": 2.386894,
+            "bpm_if_one_beat": 25.137,
+            "normalized_acf": 0.1603
+          },
+          {
+            "period_seconds": 2.516902,
+            "bpm_if_one_beat": 23.839,
+            "normalized_acf": 0.145
+          },
+          {
+            "period_seconds": 1.603245,
+            "bpm_if_one_beat": 37.424,
+            "normalized_acf": 0.1424
+          }
+        ]
+      },
+      "4.4–9.3": {
+        "wide": [
+          {
+            "period_seconds": 0.131023,
+            "bpm_if_one_beat": 457.935,
+            "normalized_acf": 0.6769
+          },
+          {
+            "period_seconds": 0.262549,
+            "bpm_if_one_beat": 228.529,
+            "normalized_acf": 0.5525
+          },
+          {
+            "period_seconds": 0.395257,
+            "bpm_if_one_beat": 151.8,
+            "normalized_acf": 0.533
+          },
+          {
+            "period_seconds": 0.528605,
+            "bpm_if_one_beat": 113.506,
+            "normalized_acf": 0.4881
+          },
+          {
+            "period_seconds": 1.184408,
+            "bpm_if_one_beat": 50.658,
+            "normalized_acf": 0.4621
+          },
+          {
+            "period_seconds": 0.79055,
+            "bpm_if_one_beat": 75.897,
+            "normalized_acf": 0.4474
+          },
+          {
+            "period_seconds": 0.660731,
+            "bpm_if_one_beat": 90.808,
+            "normalized_acf": 0.4456
+          },
+          {
+            "period_seconds": 1.053946,
+            "bpm_if_one_beat": 56.929,
+            "normalized_acf": 0.4334
+          },
+          {
+            "period_seconds": 0.922389,
+            "bpm_if_one_beat": 65.048,
+            "normalized_acf": 0.4288
+          },
+          {
+            "period_seconds": 1.579073,
+            "bpm_if_one_beat": 37.997,
+            "normalized_acf": 0.4126
+          },
+          {
+            "period_seconds": 1.317114,
+            "bpm_if_one_beat": 45.554,
+            "normalized_acf": 0.4062
+          },
+          {
+            "period_seconds": 1.448457,
+            "bpm_if_one_beat": 41.423,
+            "normalized_acf": 0.3864
+          },
+          {
+            "period_seconds": 1.846255,
+            "bpm_if_one_beat": 32.498,
+            "normalized_acf": 0.3483
+          },
+          {
+            "period_seconds": 1.712736,
+            "bpm_if_one_beat": 35.032,
+            "normalized_acf": 0.3439
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.133647,
+            "bpm_if_one_beat": 448.943,
+            "normalized_acf": 0.3233
+          },
+          {
+            "period_seconds": 0.264871,
+            "bpm_if_one_beat": 226.526,
+            "normalized_acf": 0.1971
+          },
+          {
+            "period_seconds": 0.539276,
+            "bpm_if_one_beat": 111.26,
+            "normalized_acf": 0.1676
+          },
+          {
+            "period_seconds": 0.794586,
+            "bpm_if_one_beat": 75.511,
+            "normalized_acf": 0.1632
+          },
+          {
+            "period_seconds": 0.405547,
+            "bpm_if_one_beat": 147.948,
+            "normalized_acf": 0.1287
+          },
+          {
+            "period_seconds": 0.661232,
+            "bpm_if_one_beat": 90.74,
+            "normalized_acf": 0.1189
+          },
+          {
+            "period_seconds": 0.931472,
+            "bpm_if_one_beat": 64.414,
+            "normalized_acf": 0.117
+          },
+          {
+            "period_seconds": 1.205229,
+            "bpm_if_one_beat": 49.783,
+            "normalized_acf": 0.1133
+          },
+          {
+            "period_seconds": 1.070498,
+            "bpm_if_one_beat": 56.049,
+            "normalized_acf": 0.1041
+          },
+          {
+            "period_seconds": 1.99013,
+            "bpm_if_one_beat": 30.149,
+            "normalized_acf": 0.0932
+          },
+          {
+            "period_seconds": 1.939734,
+            "bpm_if_one_beat": 30.932,
+            "normalized_acf": 0.0878
+          },
+          {
+            "period_seconds": 1.33585,
+            "bpm_if_one_beat": 44.915,
+            "normalized_acf": 0.0858
+          },
+          {
+            "period_seconds": 1.277617,
+            "bpm_if_one_beat": 46.962,
+            "normalized_acf": 0.0856
+          },
+          {
+            "period_seconds": 1.141275,
+            "bpm_if_one_beat": 52.573,
+            "normalized_acf": 0.081
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.130167,
+            "bpm_if_one_beat": 460.945,
+            "normalized_acf": 0.6617
+          },
+          {
+            "period_seconds": 0.261524,
+            "bpm_if_one_beat": 229.424,
+            "normalized_acf": 0.5319
+          },
+          {
+            "period_seconds": 0.394639,
+            "bpm_if_one_beat": 152.038,
+            "normalized_acf": 0.4959
+          },
+          {
+            "period_seconds": 1.185592,
+            "bpm_if_one_beat": 50.608,
+            "normalized_acf": 0.4739
+          },
+          {
+            "period_seconds": 1.447725,
+            "bpm_if_one_beat": 41.444,
+            "normalized_acf": 0.4263
+          },
+          {
+            "period_seconds": 1.578901,
+            "bpm_if_one_beat": 38.001,
+            "normalized_acf": 0.4209
+          },
+          {
+            "period_seconds": 0.790452,
+            "bpm_if_one_beat": 75.906,
+            "normalized_acf": 0.4206
+          },
+          {
+            "period_seconds": 1.315812,
+            "bpm_if_one_beat": 45.599,
+            "normalized_acf": 0.4114
+          },
+          {
+            "period_seconds": 0.526764,
+            "bpm_if_one_beat": 113.903,
+            "normalized_acf": 0.4036
+          },
+          {
+            "period_seconds": 1.055074,
+            "bpm_if_one_beat": 56.868,
+            "normalized_acf": 0.3829
+          },
+          {
+            "period_seconds": 0.660437,
+            "bpm_if_one_beat": 90.849,
+            "normalized_acf": 0.3812
+          },
+          {
+            "period_seconds": 1.711361,
+            "bpm_if_one_beat": 35.06,
+            "normalized_acf": 0.3769
+          },
+          {
+            "period_seconds": 1.974505,
+            "bpm_if_one_beat": 30.387,
+            "normalized_acf": 0.3767
+          },
+          {
+            "period_seconds": 0.92141,
+            "bpm_if_one_beat": 65.118,
+            "normalized_acf": 0.3745
+          }
+        ]
+      },
+      "9.3–14.5": {
+        "wide": [
+          {
+            "period_seconds": 0.394879,
+            "bpm_if_one_beat": 151.945,
+            "normalized_acf": 0.4601
+          },
+          {
+            "period_seconds": 0.785782,
+            "bpm_if_one_beat": 76.357,
+            "normalized_acf": 0.4021
+          },
+          {
+            "period_seconds": 1.182981,
+            "bpm_if_one_beat": 50.719,
+            "normalized_acf": 0.3979
+          },
+          {
+            "period_seconds": 0.129619,
+            "bpm_if_one_beat": 462.894,
+            "normalized_acf": 0.323
+          },
+          {
+            "period_seconds": 1.577989,
+            "bpm_if_one_beat": 38.023,
+            "normalized_acf": 0.2644
+          },
+          {
+            "period_seconds": 0.258236,
+            "bpm_if_one_beat": 232.346,
+            "normalized_acf": 0.2472
+          },
+          {
+            "period_seconds": 0.527611,
+            "bpm_if_one_beat": 113.72,
+            "normalized_acf": 0.2329
+          },
+          {
+            "period_seconds": 1.040963,
+            "bpm_if_one_beat": 57.639,
+            "normalized_acf": 0.2258
+          },
+          {
+            "period_seconds": 1.966814,
+            "bpm_if_one_beat": 30.506,
+            "normalized_acf": 0.2065
+          },
+          {
+            "period_seconds": 2.3681,
+            "bpm_if_one_beat": 25.337,
+            "normalized_acf": 0.2054
+          },
+          {
+            "period_seconds": 0.654279,
+            "bpm_if_one_beat": 91.704,
+            "normalized_acf": 0.1635
+          },
+          {
+            "period_seconds": 0.909888,
+            "bpm_if_one_beat": 65.942,
+            "normalized_acf": 0.1482
+          },
+          {
+            "period_seconds": 2.085778,
+            "bpm_if_one_beat": 28.766,
+            "normalized_acf": 0.1306
+          },
+          {
+            "period_seconds": 2.222837,
+            "bpm_if_one_beat": 26.993,
+            "normalized_acf": 0.1125
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 1.192208,
+            "bpm_if_one_beat": 50.327,
+            "normalized_acf": 0.3248
+          },
+          {
+            "period_seconds": 0.147249,
+            "bpm_if_one_beat": 407.474,
+            "normalized_acf": 0.2146
+          },
+          {
+            "period_seconds": 0.397551,
+            "bpm_if_one_beat": 150.924,
+            "normalized_acf": 0.17
+          },
+          {
+            "period_seconds": 1.320673,
+            "bpm_if_one_beat": 45.431,
+            "normalized_acf": 0.154
+          },
+          {
+            "period_seconds": 0.369497,
+            "bpm_if_one_beat": 162.383,
+            "normalized_acf": 0.1459
+          },
+          {
+            "period_seconds": 1.556985,
+            "bpm_if_one_beat": 38.536,
+            "normalized_acf": 0.1246
+          },
+          {
+            "period_seconds": 1.595139,
+            "bpm_if_one_beat": 37.614,
+            "normalized_acf": 0.121
+          },
+          {
+            "period_seconds": 1.040447,
+            "bpm_if_one_beat": 57.668,
+            "normalized_acf": 0.1107
+          },
+          {
+            "period_seconds": 0.283156,
+            "bpm_if_one_beat": 211.897,
+            "normalized_acf": 0.1107
+          },
+          {
+            "period_seconds": 0.808238,
+            "bpm_if_one_beat": 74.236,
+            "normalized_acf": 0.0935
+          },
+          {
+            "period_seconds": 1.852472,
+            "bpm_if_one_beat": 32.389,
+            "normalized_acf": 0.0888
+          },
+          {
+            "period_seconds": 0.92094,
+            "bpm_if_one_beat": 65.151,
+            "normalized_acf": 0.0868
+          },
+          {
+            "period_seconds": 1.970991,
+            "bpm_if_one_beat": 30.442,
+            "normalized_acf": 0.0776
+          },
+          {
+            "period_seconds": 1.714081,
+            "bpm_if_one_beat": 35.004,
+            "normalized_acf": 0.077
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.394125,
+            "bpm_if_one_beat": 152.236,
+            "normalized_acf": 0.4677
+          },
+          {
+            "period_seconds": 0.131208,
+            "bpm_if_one_beat": 457.29,
+            "normalized_acf": 0.397
+          },
+          {
+            "period_seconds": 1.18306,
+            "bpm_if_one_beat": 50.716,
+            "normalized_acf": 0.3176
+          },
+          {
+            "period_seconds": 0.78808,
+            "bpm_if_one_beat": 76.134,
+            "normalized_acf": 0.3119
+          },
+          {
+            "period_seconds": 0.259306,
+            "bpm_if_one_beat": 231.387,
+            "normalized_acf": 0.3034
+          },
+          {
+            "period_seconds": 0.526588,
+            "bpm_if_one_beat": 113.941,
+            "normalized_acf": 0.2795
+          },
+          {
+            "period_seconds": 1.575862,
+            "bpm_if_one_beat": 38.074,
+            "normalized_acf": 0.2347
+          },
+          {
+            "period_seconds": 0.654853,
+            "bpm_if_one_beat": 91.624,
+            "normalized_acf": 0.2077
+          },
+          {
+            "period_seconds": 1.04324,
+            "bpm_if_one_beat": 57.513,
+            "normalized_acf": 0.1875
+          },
+          {
+            "period_seconds": 1.965434,
+            "bpm_if_one_beat": 30.528,
+            "normalized_acf": 0.1738
+          },
+          {
+            "period_seconds": 2.366062,
+            "bpm_if_one_beat": 25.359,
+            "normalized_acf": 0.1533
+          },
+          {
+            "period_seconds": 2.084738,
+            "bpm_if_one_beat": 28.781,
+            "normalized_acf": 0.148
+          },
+          {
+            "period_seconds": 2.222677,
+            "bpm_if_one_beat": 26.994,
+            "normalized_acf": 0.1358
+          },
+          {
+            "period_seconds": 1.829579,
+            "bpm_if_one_beat": 32.794,
+            "normalized_acf": 0.0971
+          }
+        ]
+      },
+      "14.5–21.05": {
+        "wide": [
+          {
+            "period_seconds": 0.130574,
+            "bpm_if_one_beat": 459.508,
+            "normalized_acf": 0.6368
+          },
+          {
+            "period_seconds": 0.395239,
+            "bpm_if_one_beat": 151.807,
+            "normalized_acf": 0.577
+          },
+          {
+            "period_seconds": 0.26283,
+            "bpm_if_one_beat": 228.284,
+            "normalized_acf": 0.5174
+          },
+          {
+            "period_seconds": 0.790006,
+            "bpm_if_one_beat": 75.949,
+            "normalized_acf": 0.4909
+          },
+          {
+            "period_seconds": 0.527754,
+            "bpm_if_one_beat": 113.689,
+            "normalized_acf": 0.4609
+          },
+          {
+            "period_seconds": 1.183695,
+            "bpm_if_one_beat": 50.689,
+            "normalized_acf": 0.4589
+          },
+          {
+            "period_seconds": 0.659463,
+            "bpm_if_one_beat": 90.983,
+            "normalized_acf": 0.412
+          },
+          {
+            "period_seconds": 1.054411,
+            "bpm_if_one_beat": 56.904,
+            "normalized_acf": 0.3709
+          },
+          {
+            "period_seconds": 0.922316,
+            "bpm_if_one_beat": 65.054,
+            "normalized_acf": 0.3451
+          },
+          {
+            "period_seconds": 1.578792,
+            "bpm_if_one_beat": 38.004,
+            "normalized_acf": 0.3393
+          },
+          {
+            "period_seconds": 1.974273,
+            "bpm_if_one_beat": 30.391,
+            "normalized_acf": 0.3276
+          },
+          {
+            "period_seconds": 1.446347,
+            "bpm_if_one_beat": 41.484,
+            "normalized_acf": 0.2612
+          },
+          {
+            "period_seconds": 1.315499,
+            "bpm_if_one_beat": 45.61,
+            "normalized_acf": 0.2591
+          },
+          {
+            "period_seconds": 1.846643,
+            "bpm_if_one_beat": 32.491,
+            "normalized_acf": 0.2338
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.790266,
+            "bpm_if_one_beat": 75.924,
+            "normalized_acf": 0.3227
+          },
+          {
+            "period_seconds": 0.122162,
+            "bpm_if_one_beat": 491.151,
+            "normalized_acf": 0.2866
+          },
+          {
+            "period_seconds": 0.665334,
+            "bpm_if_one_beat": 90.18,
+            "normalized_acf": 0.2475
+          },
+          {
+            "period_seconds": 1.973704,
+            "bpm_if_one_beat": 30.4,
+            "normalized_acf": 0.2386
+          },
+          {
+            "period_seconds": 1.180212,
+            "bpm_if_one_beat": 50.838,
+            "normalized_acf": 0.1824
+          },
+          {
+            "period_seconds": 0.532839,
+            "bpm_if_one_beat": 112.604,
+            "normalized_acf": 0.1736
+          },
+          {
+            "period_seconds": 0.261807,
+            "bpm_if_one_beat": 229.176,
+            "normalized_acf": 0.1315
+          },
+          {
+            "period_seconds": 1.847421,
+            "bpm_if_one_beat": 32.478,
+            "normalized_acf": 0.1088
+          },
+          {
+            "period_seconds": 1.319173,
+            "bpm_if_one_beat": 45.483,
+            "normalized_acf": 0.1055
+          },
+          {
+            "period_seconds": 1.058726,
+            "bpm_if_one_beat": 56.672,
+            "normalized_acf": 0.1033
+          },
+          {
+            "period_seconds": 2.508879,
+            "bpm_if_one_beat": 23.915,
+            "normalized_acf": 0.1018
+          },
+          {
+            "period_seconds": 0.930502,
+            "bpm_if_one_beat": 64.481,
+            "normalized_acf": 0.0999
+          },
+          {
+            "period_seconds": 0.40992,
+            "bpm_if_one_beat": 146.37,
+            "normalized_acf": 0.0745
+          },
+          {
+            "period_seconds": 1.441459,
+            "bpm_if_one_beat": 41.624,
+            "normalized_acf": 0.064
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.131009,
+            "bpm_if_one_beat": 457.983,
+            "normalized_acf": 0.6367
+          },
+          {
+            "period_seconds": 0.395308,
+            "bpm_if_one_beat": 151.78,
+            "normalized_acf": 0.5492
+          },
+          {
+            "period_seconds": 1.182865,
+            "bpm_if_one_beat": 50.724,
+            "normalized_acf": 0.47
+          },
+          {
+            "period_seconds": 0.527279,
+            "bpm_if_one_beat": 113.792,
+            "normalized_acf": 0.4689
+          },
+          {
+            "period_seconds": 0.263734,
+            "bpm_if_one_beat": 227.502,
+            "normalized_acf": 0.4613
+          },
+          {
+            "period_seconds": 0.789483,
+            "bpm_if_one_beat": 75.999,
+            "normalized_acf": 0.4014
+          },
+          {
+            "period_seconds": 0.658479,
+            "bpm_if_one_beat": 91.119,
+            "normalized_acf": 0.3988
+          },
+          {
+            "period_seconds": 1.052891,
+            "bpm_if_one_beat": 56.986,
+            "normalized_acf": 0.3605
+          },
+          {
+            "period_seconds": 1.5786,
+            "bpm_if_one_beat": 38.008,
+            "normalized_acf": 0.3166
+          },
+          {
+            "period_seconds": 1.973981,
+            "bpm_if_one_beat": 30.395,
+            "normalized_acf": 0.2888
+          },
+          {
+            "period_seconds": 0.921084,
+            "bpm_if_one_beat": 65.141,
+            "normalized_acf": 0.2841
+          },
+          {
+            "period_seconds": 1.314326,
+            "bpm_if_one_beat": 45.651,
+            "normalized_acf": 0.2812
+          },
+          {
+            "period_seconds": 1.447075,
+            "bpm_if_one_beat": 41.463,
+            "normalized_acf": 0.256
+          },
+          {
+            "period_seconds": 1.711656,
+            "bpm_if_one_beat": 35.054,
+            "normalized_acf": 0.231
+          }
+        ]
+      },
+      "2.0–11.8": {
+        "wide": [
+          {
+            "period_seconds": 0.130806,
+            "bpm_if_one_beat": 458.695,
+            "normalized_acf": 0.5551
+          },
+          {
+            "period_seconds": 0.395201,
+            "bpm_if_one_beat": 151.821,
+            "normalized_acf": 0.5066
+          },
+          {
+            "period_seconds": 1.183645,
+            "bpm_if_one_beat": 50.691,
+            "normalized_acf": 0.4403
+          },
+          {
+            "period_seconds": 0.261801,
+            "bpm_if_one_beat": 229.182,
+            "normalized_acf": 0.4278
+          },
+          {
+            "period_seconds": 0.527007,
+            "bpm_if_one_beat": 113.851,
+            "normalized_acf": 0.4034
+          },
+          {
+            "period_seconds": 1.57858,
+            "bpm_if_one_beat": 38.009,
+            "normalized_acf": 0.3956
+          },
+          {
+            "period_seconds": 0.788409,
+            "bpm_if_one_beat": 76.103,
+            "normalized_acf": 0.3944
+          },
+          {
+            "period_seconds": 1.05201,
+            "bpm_if_one_beat": 57.034,
+            "normalized_acf": 0.3832
+          },
+          {
+            "period_seconds": 0.65818,
+            "bpm_if_one_beat": 91.16,
+            "normalized_acf": 0.3731
+          },
+          {
+            "period_seconds": 0.920466,
+            "bpm_if_one_beat": 65.184,
+            "normalized_acf": 0.3562
+          },
+          {
+            "period_seconds": 1.973635,
+            "bpm_if_one_beat": 30.401,
+            "normalized_acf": 0.3465
+          },
+          {
+            "period_seconds": 1.315005,
+            "bpm_if_one_beat": 45.627,
+            "normalized_acf": 0.3304
+          },
+          {
+            "period_seconds": 1.445722,
+            "bpm_if_one_beat": 41.502,
+            "normalized_acf": 0.3303
+          },
+          {
+            "period_seconds": 1.711675,
+            "bpm_if_one_beat": 35.053,
+            "normalized_acf": 0.3147
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.134634,
+            "bpm_if_one_beat": 445.653,
+            "normalized_acf": 0.2176
+          },
+          {
+            "period_seconds": 0.265263,
+            "bpm_if_one_beat": 226.191,
+            "normalized_acf": 0.0989
+          },
+          {
+            "period_seconds": 1.981229,
+            "bpm_if_one_beat": 30.284,
+            "normalized_acf": 0.0963
+          },
+          {
+            "period_seconds": 0.398071,
+            "bpm_if_one_beat": 150.727,
+            "normalized_acf": 0.0961
+          },
+          {
+            "period_seconds": 1.201314,
+            "bpm_if_one_beat": 49.945,
+            "normalized_acf": 0.0873
+          },
+          {
+            "period_seconds": 0.536599,
+            "bpm_if_one_beat": 111.815,
+            "normalized_acf": 0.0852
+          },
+          {
+            "period_seconds": 1.148344,
+            "bpm_if_one_beat": 52.249,
+            "normalized_acf": 0.0838
+          },
+          {
+            "period_seconds": 0.793169,
+            "bpm_if_one_beat": 75.646,
+            "normalized_acf": 0.0821
+          },
+          {
+            "period_seconds": 0.924434,
+            "bpm_if_one_beat": 64.905,
+            "normalized_acf": 0.0751
+          },
+          {
+            "period_seconds": 0.664585,
+            "bpm_if_one_beat": 90.282,
+            "normalized_acf": 0.0741
+          },
+          {
+            "period_seconds": 1.582008,
+            "bpm_if_one_beat": 37.926,
+            "normalized_acf": 0.0669
+          },
+          {
+            "period_seconds": 1.720482,
+            "bpm_if_one_beat": 34.874,
+            "normalized_acf": 0.0657
+          },
+          {
+            "period_seconds": 2.507661,
+            "bpm_if_one_beat": 23.927,
+            "normalized_acf": 0.0629
+          },
+          {
+            "period_seconds": 1.941618,
+            "bpm_if_one_beat": 30.902,
+            "normalized_acf": 0.0613
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.130211,
+            "bpm_if_one_beat": 460.792,
+            "normalized_acf": 0.5819
+          },
+          {
+            "period_seconds": 0.394488,
+            "bpm_if_one_beat": 152.096,
+            "normalized_acf": 0.4976
+          },
+          {
+            "period_seconds": 1.184594,
+            "bpm_if_one_beat": 50.65,
+            "normalized_acf": 0.4827
+          },
+          {
+            "period_seconds": 0.261458,
+            "bpm_if_one_beat": 229.482,
+            "normalized_acf": 0.4348
+          },
+          {
+            "period_seconds": 1.578585,
+            "bpm_if_one_beat": 38.009,
+            "normalized_acf": 0.405
+          },
+          {
+            "period_seconds": 0.525648,
+            "bpm_if_one_beat": 114.145,
+            "normalized_acf": 0.3984
+          },
+          {
+            "period_seconds": 1.052461,
+            "bpm_if_one_beat": 57.009,
+            "normalized_acf": 0.3856
+          },
+          {
+            "period_seconds": 1.445388,
+            "bpm_if_one_beat": 41.511,
+            "normalized_acf": 0.3826
+          },
+          {
+            "period_seconds": 1.313725,
+            "bpm_if_one_beat": 45.672,
+            "normalized_acf": 0.3726
+          },
+          {
+            "period_seconds": 0.788824,
+            "bpm_if_one_beat": 76.063,
+            "normalized_acf": 0.3724
+          },
+          {
+            "period_seconds": 1.973371,
+            "bpm_if_one_beat": 30.405,
+            "normalized_acf": 0.3656
+          },
+          {
+            "period_seconds": 1.71067,
+            "bpm_if_one_beat": 35.074,
+            "normalized_acf": 0.3599
+          },
+          {
+            "period_seconds": 0.657621,
+            "bpm_if_one_beat": 91.238,
+            "normalized_acf": 0.357
+          },
+          {
+            "period_seconds": 1.843728,
+            "bpm_if_one_beat": 32.543,
+            "normalized_acf": 0.3321
+          }
+        ]
+      },
+      "11.8–20.9": {
+        "wide": [
+          {
+            "period_seconds": 0.130832,
+            "bpm_if_one_beat": 458.602,
+            "normalized_acf": 0.5978
+          },
+          {
+            "period_seconds": 0.395206,
+            "bpm_if_one_beat": 151.819,
+            "normalized_acf": 0.5891
+          },
+          {
+            "period_seconds": 0.789948,
+            "bpm_if_one_beat": 75.954,
+            "normalized_acf": 0.5111
+          },
+          {
+            "period_seconds": 0.262562,
+            "bpm_if_one_beat": 228.518,
+            "normalized_acf": 0.4949
+          },
+          {
+            "period_seconds": 1.183877,
+            "bpm_if_one_beat": 50.681,
+            "normalized_acf": 0.4688
+          },
+          {
+            "period_seconds": 0.527894,
+            "bpm_if_one_beat": 113.659,
+            "normalized_acf": 0.4565
+          },
+          {
+            "period_seconds": 0.659254,
+            "bpm_if_one_beat": 91.012,
+            "normalized_acf": 0.3937
+          },
+          {
+            "period_seconds": 1.578973,
+            "bpm_if_one_beat": 37.999,
+            "normalized_acf": 0.3702
+          },
+          {
+            "period_seconds": 1.054106,
+            "bpm_if_one_beat": 56.92,
+            "normalized_acf": 0.3618
+          },
+          {
+            "period_seconds": 1.974701,
+            "bpm_if_one_beat": 30.384,
+            "normalized_acf": 0.3447
+          },
+          {
+            "period_seconds": 0.922658,
+            "bpm_if_one_beat": 65.029,
+            "normalized_acf": 0.3374
+          },
+          {
+            "period_seconds": 1.316739,
+            "bpm_if_one_beat": 45.567,
+            "normalized_acf": 0.2805
+          },
+          {
+            "period_seconds": 1.446238,
+            "bpm_if_one_beat": 41.487,
+            "normalized_acf": 0.264
+          },
+          {
+            "period_seconds": 2.369559,
+            "bpm_if_one_beat": 25.321,
+            "normalized_acf": 0.2371
+          }
+        ],
+        "low": [
+          {
+            "period_seconds": 0.790063,
+            "bpm_if_one_beat": 75.943,
+            "normalized_acf": 0.3191
+          },
+          {
+            "period_seconds": 0.122024,
+            "bpm_if_one_beat": 491.708,
+            "normalized_acf": 0.2957
+          },
+          {
+            "period_seconds": 1.973294,
+            "bpm_if_one_beat": 30.406,
+            "normalized_acf": 0.2639
+          },
+          {
+            "period_seconds": 0.664992,
+            "bpm_if_one_beat": 90.227,
+            "normalized_acf": 0.2571
+          },
+          {
+            "period_seconds": 1.182293,
+            "bpm_if_one_beat": 50.749,
+            "normalized_acf": 0.2093
+          },
+          {
+            "period_seconds": 0.532722,
+            "bpm_if_one_beat": 112.629,
+            "normalized_acf": 0.1909
+          },
+          {
+            "period_seconds": 0.26181,
+            "bpm_if_one_beat": 229.174,
+            "normalized_acf": 0.1555
+          },
+          {
+            "period_seconds": 0.408329,
+            "bpm_if_one_beat": 146.94,
+            "normalized_acf": 0.128
+          },
+          {
+            "period_seconds": 1.318313,
+            "bpm_if_one_beat": 45.513,
+            "normalized_acf": 0.1277
+          },
+          {
+            "period_seconds": 0.930105,
+            "bpm_if_one_beat": 64.509,
+            "normalized_acf": 0.1183
+          },
+          {
+            "period_seconds": 1.058904,
+            "bpm_if_one_beat": 56.662,
+            "normalized_acf": 0.1174
+          },
+          {
+            "period_seconds": 1.847613,
+            "bpm_if_one_beat": 32.474,
+            "normalized_acf": 0.1096
+          },
+          {
+            "period_seconds": 2.508884,
+            "bpm_if_one_beat": 23.915,
+            "normalized_acf": 0.0904
+          },
+          {
+            "period_seconds": 1.439369,
+            "bpm_if_one_beat": 41.685,
+            "normalized_acf": 0.0714
+          }
+        ],
+        "high": [
+          {
+            "period_seconds": 0.131316,
+            "bpm_if_one_beat": 456.913,
+            "normalized_acf": 0.5982
+          },
+          {
+            "period_seconds": 0.395129,
+            "bpm_if_one_beat": 151.849,
+            "normalized_acf": 0.5589
+          },
+          {
+            "period_seconds": 1.183364,
+            "bpm_if_one_beat": 50.703,
+            "normalized_acf": 0.4706
+          },
+          {
+            "period_seconds": 0.527429,
+            "bpm_if_one_beat": 113.759,
+            "normalized_acf": 0.4496
+          },
+          {
+            "period_seconds": 0.26309,
+            "bpm_if_one_beat": 228.059,
+            "normalized_acf": 0.4429
+          },
+          {
+            "period_seconds": 0.789503,
+            "bpm_if_one_beat": 75.997,
+            "normalized_acf": 0.4071
+          },
+          {
+            "period_seconds": 0.65798,
+            "bpm_if_one_beat": 91.188,
+            "normalized_acf": 0.3796
+          },
+          {
+            "period_seconds": 1.579263,
+            "bpm_if_one_beat": 37.992,
+            "normalized_acf": 0.3562
+          },
+          {
+            "period_seconds": 1.05299,
+            "bpm_if_one_beat": 56.981,
+            "normalized_acf": 0.3407
+          },
+          {
+            "period_seconds": 1.974399,
+            "bpm_if_one_beat": 30.389,
+            "normalized_acf": 0.2968
+          },
+          {
+            "period_seconds": 1.316767,
+            "bpm_if_one_beat": 45.566,
+            "normalized_acf": 0.2921
+          },
+          {
+            "period_seconds": 0.922388,
+            "bpm_if_one_beat": 65.049,
+            "normalized_acf": 0.279
+          },
+          {
+            "period_seconds": 1.447881,
+            "bpm_if_one_beat": 41.44,
+            "normalized_acf": 0.2482
+          },
+          {
+            "period_seconds": 1.714368,
+            "bpm_if_one_beat": 34.998,
+            "normalized_acf": 0.237
+          }
+        ]
+      }
+    },
+    "native_pcm_sha256": "2ba9f6c6836f3246e7195ba2664dc786f4dde32c65e1745dfc0c39b8a3a6709d",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "sample_rate": "44100",
+          "channels": 2,
+          "start_time": "0.000000",
+          "duration_ts": 934874,
+          "duration": "21.198957",
+          "nb_frames": "914"
+        }
+      ],
+      "format": {
+        "duration": "21.198957",
+        "size": "522139"
+      }
+    },
+    "loudness": {
+      "integrated_lufs": -14.57,
+      "true_peak_dbtp": -2.56,
+      "loudness_range_lu": 2.8
+    }
+  },
+  "separation_input_wav_sha256": "70701df2cae2fc1ba0c9f0e17cb4e1625793c41308272f518d9014c3ba235525",
+  "source_model_stem_wav_sha256": "c09eaf44a6d70bfe5f007d059acca98aea954ffcff075431688ca12fd1a98881",
+  "comparison": {
+    "mix_float_samples_above_full_scale": 1561,
+    "model_input_samples_above_full_scale": 0,
+    "model_input_levels": {
+      "rms_dbfs": -13.326,
+      "peak_dbfs": -0.878,
+      "side_rms_dbfs": -25.707,
+      "mid_rms_dbfs": -13.585
+    },
+    "windows": [
+      {
+        "start_seconds": 0,
+        "end_seconds": 21.198956916099775,
+        "best_mid_lag_samples_within_50ms": 0,
+        "zero_lag_mid_pearson": 0.8682513539981789,
+        "mix_rms_dbfs": -9.585,
+        "stem_rms_dbfs": -16.371,
+        "gain_matched_residual_rms_dbfs": -15.78,
+        "gain_match_db": 5.593
+      },
+      {
+        "start_seconds": 0,
+        "end_seconds": 4.4,
+        "best_mid_lag_samples_within_50ms": 0,
+        "zero_lag_mid_pearson": 0.9706063450430986,
+        "mix_rms_dbfs": -9.785,
+        "stem_rms_dbfs": -15.713,
+        "gain_matched_residual_rms_dbfs": -22.004,
+        "gain_match_db": 5.659
+      },
+      {
+        "start_seconds": 4.4,
+        "end_seconds": 9.3,
+        "best_mid_lag_samples_within_50ms": 0,
+        "zero_lag_mid_pearson": 0.844089587897308,
+        "mix_rms_dbfs": -9.938,
+        "stem_rms_dbfs": -17.237,
+        "gain_matched_residual_rms_dbfs": -15.431,
+        "gain_match_db": 5.859
+      },
+      {
+        "start_seconds": 9.3,
+        "end_seconds": 14.5,
+        "best_mid_lag_samples_within_50ms": 0,
+        "zero_lag_mid_pearson": 0.7965427577160811,
+        "mix_rms_dbfs": -8.986,
+        "stem_rms_dbfs": -16.389,
+        "gain_matched_residual_rms_dbfs": -13.534,
+        "gain_match_db": 5.526
+      },
+      {
+        "start_seconds": 14.5,
+        "end_seconds": 21.198956916099775,
+        "best_mid_lag_samples_within_50ms": 0,
+        "zero_lag_mid_pearson": 0.8787873862685159,
+        "mix_rms_dbfs": -9.708,
+        "stem_rms_dbfs": -16.25,
+        "gain_matched_residual_rms_dbfs": -16.189,
+        "gain_match_db": 5.435
+      }
+    ],
+    "note": "Residual and correlation quantify a difference. They cannot identify what the model removed."
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "validated_at": "2026-11-04T16:27:33.565Z",
+  "validated_at": "2026-11-10T02:54:54.570Z",
   "passed": true,
-  "files_checked": 40,
-  "mixed_checked": 20,
-  "candidates_checked": 20,
+  "files_checked": 50,
+  "mixed_checked": 25,
+  "candidates_checked": 25,
   "claims_not_tested": [
     "Listening quality",
     "Removal of all vocals/dialogue/SFX",
@@ -448,6 +448,116 @@
       "bytes_verified": true,
       "full_decode_exit_code": 0,
       "duration_sec": 30.67356009070295,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "V21",
+      "kind": "mixed",
+      "file": "audio/mixed/V21__mixed.m4a",
+      "sha256_verified": true,
+      "bytes_verified": true,
+      "full_decode_exit_code": 0,
+      "duration_sec": 30.97598639455782,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "V21",
+      "kind": "music-candidate",
+      "file": "audio/music-candidates/V21__music-candidate.m4a",
+      "sha256_verified": true,
+      "bytes_verified": true,
+      "full_decode_exit_code": 0,
+      "duration_sec": 30.97598639455782,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "V22",
+      "kind": "mixed",
+      "file": "audio/mixed/V22__mixed.m4a",
+      "sha256_verified": true,
+      "bytes_verified": true,
+      "full_decode_exit_code": 0,
+      "duration_sec": 18.972108843537416,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "V22",
+      "kind": "music-candidate",
+      "file": "audio/music-candidates/V22__music-candidate.m4a",
+      "sha256_verified": true,
+      "bytes_verified": true,
+      "full_decode_exit_code": 0,
+      "duration_sec": 18.970702947845805,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "V23",
+      "kind": "mixed",
+      "file": "audio/mixed/V23__mixed.m4a",
+      "sha256_verified": true,
+      "bytes_verified": true,
+      "full_decode_exit_code": 0,
+      "duration_sec": 24.913015873015873,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "V23",
+      "kind": "music-candidate",
+      "file": "audio/music-candidates/V23__music-candidate.m4a",
+      "sha256_verified": true,
+      "bytes_verified": true,
+      "full_decode_exit_code": 0,
+      "duration_sec": 24.91501133786848,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "V24",
+      "kind": "mixed",
+      "file": "audio/mixed/V24__mixed.m4a",
+      "sha256_verified": true,
+      "bytes_verified": true,
+      "full_decode_exit_code": 0,
+      "duration_sec": 15.273990929705215,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "V24",
+      "kind": "music-candidate",
+      "file": "audio/music-candidates/V24__music-candidate.m4a",
+      "sha256_verified": true,
+      "bytes_verified": true,
+      "full_decode_exit_code": 0,
+      "duration_sec": 15.273990929705215,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "V25",
+      "kind": "mixed",
+      "file": "audio/mixed/V25__mixed.m4a",
+      "sha256_verified": true,
+      "bytes_verified": true,
+      "full_decode_exit_code": 0,
+      "duration_sec": 21.198956916099775,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "V25",
+      "kind": "music-candidate",
+      "file": "audio/music-candidates/V25__music-candidate.m4a",
+      "sha256_verified": true,
+      "bytes_verified": true,
+      "full_decode_exit_code": 0,
+      "duration_sec": 21.198956916099775,
       "passed": true,
       "issues": []
     }

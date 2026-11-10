@@ -1,0 +1,16 @@
+{
+  "grid_model_bpm": 128,
+  "period_s": 0.46875,
+  "provisional_phase_s": 0,
+  "grid_measured_wide_peak_in_one_frame": 32,
+  "grid_pulses_checked": 32,
+  "median_peak_minus_grid_ms": -4.355,
+  "median_abs_peak_minus_grid_ms": 4.355,
+  "visual_cues_checked": 64,
+  "visual_cues_mix_peak_within_20ms": 23,
+  "visual_cues_mix_wide_peak_within_20ms": 17,
+  "visual_cues_nominal_full_beat_within_one_frame": 15,
+  "visual_cues_nominal_half_beat_within_one_frame": 26,
+  "onset_window_ms": 66.66666666666667,
+  "note": "Nearest spectral-flux peak does not assign sound origin or establish a rhythm grid. The 128 BPM grid is an independently measured periodicity approximation."
+}

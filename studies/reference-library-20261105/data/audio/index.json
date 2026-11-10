@@ -3733,5 +3733,1251 @@
     },
     "analysis_path": "data/audio/V20.json",
     "listened": false
+  },
+  {
+    "id": "V21",
+    "title": "V21 · 未识别曲名",
+    "source_video_name": "一帧一帧闪回的_是我无法割舍的_超凡蜘蛛侠_格温_了不起的混剪团_whateverhappens_蜘.mp4",
+    "music_name": null,
+    "music_name_status": "未听辨确认",
+    "duration_sec": 30.97598639455782,
+    "mix_path": "audio/mixed/V21__mixed.m4a",
+    "no_vocals_candidate_path": "audio/music-candidates/V21__music-candidate.m4a",
+    "music_candidate_path": "audio/music-candidates/V21__music-candidate.m4a",
+    "separation_status": "complete",
+    "bpm_candidates": [
+      97,
+      48.5,
+      194
+    ],
+    "confidence": "稳定周期线索，重拍待试听",
+    "tempo_scope": "原混音与分离候选均有约 0.619 秒周期，分离候选见候选报告。",
+    "tempo_basis": {
+      "hf_bpm": 97,
+      "hf_internal_confidence": 0.194,
+      "hf_beat_count": 48,
+      "warning": "约 97 BPM 候选，存在约 48.5／194 BPM 的倍半速解释。下拍、曲名、分离残留均待试听。"
+    },
+    "tags": [
+      "人物关系",
+      "回忆叙事",
+      "局部节奏对照"
+    ],
+    "tag_basis": "按 V21 的画面组织及音轨周期提供复练建议。",
+    "mix": {
+      "id": "V21",
+      "source_video_name": "一帧一帧闪回的_是我无法割舍的_超凡蜘蛛侠_格温_了不起的混剪团_whateverhappens_蜘.mp4",
+      "source_video_sha256": "e8f5c4c5c2955cc444aa092f32a601051b009de774e7341d64026096591efda6",
+      "music_name": null,
+      "music_name_status": "未识别",
+      "file": "audio/mixed/V21__mixed.m4a",
+      "bytes": 252415,
+      "sha256": "9bf9aee84587cdeb72bb36b4ca9e038ca08491c9cfb965d7342177b7e47f3059",
+      "codec": "aac",
+      "profile": "HE-AACv2",
+      "sample_rate": 44100,
+      "channels": 2,
+      "source_audio_start_time_sec": 0,
+      "source_audio_stream_duration_sec": 30.97598639455782,
+      "source_video_duration_sec": 30.933333,
+      "mix_container_duration_sec": 31.13712,
+      "mix_audio_start_time_sec": 0,
+      "source_decoded_pcm_duration_sec": 30.97598639455782,
+      "mix_decoded_pcm_duration_sec": 31.000045351473922,
+      "duration_sec": 30.97598639455782,
+      "extraction": {
+        "audio_reencoded": false,
+        "method": "FFmpeg AAC stream copy, frag_keyframe+delay_moov"
+      },
+      "aac_packet_integrity": {
+        "source": [
+          671,
+          "36f5f387b833c6e9bd6ba6efbd997bba581dfb902efeac0f4af9180425d25234"
+        ],
+        "mixed": [
+          671,
+          "36f5f387b833c6e9bd6ba6efbd997bba581dfb902efeac0f4af9180425d25234"
+        ],
+        "match": true
+      },
+      "pcm_integrity": {
+        "format": "44100 Hz stereo float32",
+        "source_sha256": "1bd9bf870b979b832804da59c505e08e1f00284a9592798c0503a16c2153d7a6",
+        "mixed_sha256": "f8d0a6aaced8b840d04e10450ce5237c665e2abd87d604ac37bd052890296852",
+        "source_and_mix_match": false,
+        "source_prefix_matches_mixed": false,
+        "compared_prefix_matches": true,
+        "analysis_samples": 1366041,
+        "analysis_pcm_sha256": "1bd9bf870b979b832804da59c505e08e1f00284a9592798c0503a16c2153d7a6"
+      },
+      "loudness": {
+        "integrated_lufs": -6.4,
+        "true_peak_dbtp": 3.84,
+        "loudness_range_lu": 5.4,
+        "method": "FFmpeg loudnorm 原源输入测量，原混音未应用响度归一化。"
+      },
+      "title": "V21 · 原始混合音轨",
+      "content_status": "保留原视频完整混音，曲名未识别。",
+      "listened": false,
+      "separation_status": "complete",
+      "no_vocals_candidate_path": "audio/music-candidates/V21__music-candidate.m4a",
+      "source_decoded_duration_sec": 30.97598639455782,
+      "encoded_container_duration_sec": 31.13712,
+      "aac_adts_sha256": "6263e945379268b9625f9c06507906fd9889b6b336037c1a3f6160c6eb6f6465",
+      "source_aac_adts_sha256": "6263e945379268b9625f9c06507906fd9889b6b336037c1a3f6160c6eb6f6465",
+      "aac_bitstream_identical_to_source": true,
+      "native_pcm_sha256": "f8d0a6aaced8b840d04e10450ce5237c665e2abd87d604ac37bd052890296852",
+      "source_native_pcm_sha256": "1bd9bf870b979b832804da59c505e08e1f00284a9592798c0503a16c2153d7a6"
+    },
+    "candidate": {
+      "id": "V21",
+      "music_name": null,
+      "file": "audio/music-candidates/V21__music-candidate.m4a",
+      "bytes": 764270,
+      "sha256": "6a8608ec0a9a70c382d03782da4ef3e55269b8d7c9ccc6d27cb95ae009965608",
+      "codec": "AAC-LC",
+      "bitrate_target_bps": 192000,
+      "duration_sec": 30.97598639455782,
+      "decoded_duration_sec": 30.998639455782314,
+      "sample_rate": 44100,
+      "channels": 2,
+      "encoder_offset_samples_vs_stem": 0,
+      "waveform_reference": "V21.source_(Instrumental)_UVR_MDXNET_KARA_2.wav",
+      "separation": {
+        "id": "V21",
+        "elapsed_sec": 30.484,
+        "files": [
+          "V21.source_(Instrumental)_UVR_MDXNET_KARA_2.wav"
+        ],
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "model_sha256": "bf32e15105a09c0f7dddd2b67346146334d6f3ecb399ed7638eba2ab07cbf5f4",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "model_options": {
+          "hop_length": 1024,
+          "segment_size": 256,
+          "overlap": 0.25,
+          "batch_size": 1,
+          "enable_denoise": false
+        },
+        "normalization_threshold": 0.95,
+        "sample_rate": 44100
+      },
+      "tempo_periodicity": [
+        {
+          "start": {
+            "t_sec": 0,
+            "t_ms": 0,
+            "frame60_nearest": 0
+          },
+          "end": {
+            "t_sec": 30.9759864,
+            "t_ms": 30975.986,
+            "frame60_nearest": 1859
+          },
+          "candidates": [
+            {
+              "bpm": 48.5,
+              "lag_ms": 1237.19,
+              "normalized_autocorrelation": 0.55
+            },
+            {
+              "bpm": 96.99,
+              "lag_ms": 618.59,
+              "normalized_autocorrelation": 0.436
+            },
+            {
+              "bpm": 193.99,
+              "lag_ms": 309.3,
+              "normalized_autocorrelation": 0.408
+            },
+            {
+              "bpm": 64.66,
+              "lag_ms": 927.89,
+              "normalized_autocorrelation": 0.349
+            },
+            {
+              "bpm": 77.6,
+              "lag_ms": 773.24,
+              "normalized_autocorrelation": 0.026
+            }
+          ]
+        },
+        {
+          "start": {
+            "t_sec": 1,
+            "t_ms": 1000,
+            "frame60_nearest": 60
+          },
+          "end": {
+            "t_sec": 10,
+            "t_ms": 10000,
+            "frame60_nearest": 600
+          },
+          "candidates": [
+            {
+              "bpm": 48.5,
+              "lag_ms": 1237.19,
+              "normalized_autocorrelation": 0.474
+            },
+            {
+              "bpm": 193.99,
+              "lag_ms": 309.3,
+              "normalized_autocorrelation": 0.41
+            },
+            {
+              "bpm": 96.99,
+              "lag_ms": 618.59,
+              "normalized_autocorrelation": 0.406
+            },
+            {
+              "bpm": 64.66,
+              "lag_ms": 927.89,
+              "normalized_autocorrelation": 0.328
+            },
+            {
+              "bpm": 77.6,
+              "lag_ms": 773.24,
+              "normalized_autocorrelation": 0.102
+            }
+          ]
+        },
+        {
+          "start": {
+            "t_sec": 10,
+            "t_ms": 10000,
+            "frame60_nearest": 600
+          },
+          "end": {
+            "t_sec": 20,
+            "t_ms": 20000,
+            "frame60_nearest": 1200
+          },
+          "candidates": [
+            {
+              "bpm": 48.5,
+              "lag_ms": 1237.19,
+              "normalized_autocorrelation": 0.471
+            },
+            {
+              "bpm": 193.99,
+              "lag_ms": 309.3,
+              "normalized_autocorrelation": 0.431
+            },
+            {
+              "bpm": 96.99,
+              "lag_ms": 618.59,
+              "normalized_autocorrelation": 0.382
+            },
+            {
+              "bpm": 64.66,
+              "lag_ms": 927.89,
+              "normalized_autocorrelation": 0.338
+            },
+            {
+              "bpm": 77.6,
+              "lag_ms": 773.24,
+              "normalized_autocorrelation": 0.025
+            }
+          ]
+        },
+        {
+          "start": {
+            "t_sec": 20,
+            "t_ms": 20000,
+            "frame60_nearest": 1200
+          },
+          "end": {
+            "t_sec": 30,
+            "t_ms": 30000,
+            "frame60_nearest": 1800
+          },
+          "candidates": [
+            {
+              "bpm": 48.5,
+              "lag_ms": 1237.19,
+              "normalized_autocorrelation": 0.555
+            },
+            {
+              "bpm": 96.99,
+              "lag_ms": 618.59,
+              "normalized_autocorrelation": 0.508
+            },
+            {
+              "bpm": 193.99,
+              "lag_ms": 309.3,
+              "normalized_autocorrelation": 0.505
+            },
+            {
+              "bpm": 64.66,
+              "lag_ms": 927.89,
+              "normalized_autocorrelation": 0.411
+            },
+            {
+              "bpm": 77.6,
+              "lag_ms": 773.24,
+              "normalized_autocorrelation": 0.016
+            }
+          ]
+        }
+      ],
+      "low_band_tempo_periodicity": [
+        {
+          "start": {
+            "t_sec": 0,
+            "t_ms": 0,
+            "frame60_nearest": 0
+          },
+          "end": {
+            "t_sec": 30.9759864,
+            "t_ms": 30975.986,
+            "frame60_nearest": 1859
+          },
+          "candidates": [
+            {
+              "bpm": 193.99,
+              "lag_ms": 309.3,
+              "normalized_autocorrelation": 0.166
+            },
+            {
+              "bpm": 48.5,
+              "lag_ms": 1237.19,
+              "normalized_autocorrelation": 0.131
+            },
+            {
+              "bpm": 63.97,
+              "lag_ms": 937.87,
+              "normalized_autocorrelation": 0.114
+            },
+            {
+              "bpm": 96.99,
+              "lag_ms": 618.59,
+              "normalized_autocorrelation": 0.094
+            },
+            {
+              "bpm": 66.45,
+              "lag_ms": 902.95,
+              "normalized_autocorrelation": 0.068
+            }
+          ]
+        },
+        {
+          "start": {
+            "t_sec": 1,
+            "t_ms": 1000,
+            "frame60_nearest": 60
+          },
+          "end": {
+            "t_sec": 10,
+            "t_ms": 10000,
+            "frame60_nearest": 600
+          },
+          "candidates": [
+            {
+              "bpm": 48.5,
+              "lag_ms": 1237.19,
+              "normalized_autocorrelation": 0.132
+            },
+            {
+              "bpm": 174.31,
+              "lag_ms": 344.22,
+              "normalized_autocorrelation": 0.101
+            },
+            {
+              "bpm": 197.17,
+              "lag_ms": 304.31,
+              "normalized_autocorrelation": 0.097
+            },
+            {
+              "bpm": 101.93,
+              "lag_ms": 588.66,
+              "normalized_autocorrelation": 0.091
+            },
+            {
+              "bpm": 93.23,
+              "lag_ms": 643.54,
+              "normalized_autocorrelation": 0.083
+            }
+          ]
+        },
+        {
+          "start": {
+            "t_sec": 10,
+            "t_ms": 10000,
+            "frame60_nearest": 600
+          },
+          "end": {
+            "t_sec": 20,
+            "t_ms": 20000,
+            "frame60_nearest": 1200
+          },
+          "candidates": [
+            {
+              "bpm": 63.97,
+              "lag_ms": 937.87,
+              "normalized_autocorrelation": 0.199
+            },
+            {
+              "bpm": 96.99,
+              "lag_ms": 618.59,
+              "normalized_autocorrelation": 0.177
+            },
+            {
+              "bpm": 193.99,
+              "lag_ms": 309.3,
+              "normalized_autocorrelation": 0.143
+            },
+            {
+              "bpm": 66.45,
+              "lag_ms": 902.95,
+              "normalized_autocorrelation": 0.128
+            },
+            {
+              "bpm": 49.49,
+              "lag_ms": 1212.24,
+              "normalized_autocorrelation": 0.125
+            }
+          ]
+        },
+        {
+          "start": {
+            "t_sec": 20,
+            "t_ms": 20000,
+            "frame60_nearest": 1200
+          },
+          "end": {
+            "t_sec": 30,
+            "t_ms": 30000,
+            "frame60_nearest": 1800
+          },
+          "candidates": [
+            {
+              "bpm": 193.99,
+              "lag_ms": 309.3,
+              "normalized_autocorrelation": 0.166
+            },
+            {
+              "bpm": 48.69,
+              "lag_ms": 1232.2,
+              "normalized_autocorrelation": 0.123
+            },
+            {
+              "bpm": 64.32,
+              "lag_ms": 932.88,
+              "normalized_autocorrelation": 0.114
+            },
+            {
+              "bpm": 98.58,
+              "lag_ms": 608.62,
+              "normalized_autocorrelation": 0.1
+            },
+            {
+              "bpm": 94.7,
+              "lag_ms": 633.56,
+              "normalized_autocorrelation": 0.066
+            }
+          ]
+        }
+      ],
+      "structural_change_candidates": [
+        {
+          "t_sec": 1.2621315,
+          "t_ms": 1262.132,
+          "frame60_nearest": 76,
+          "spectral_novelty": 6.562,
+          "rms_before_dbfs": -20.03,
+          "rms_after_dbfs": -18.33
+        },
+        {
+          "t_sec": 2.7238095,
+          "t_ms": 2723.81,
+          "frame60_nearest": 163,
+          "spectral_novelty": 5.283,
+          "rms_before_dbfs": -15.38,
+          "rms_after_dbfs": -20.48
+        },
+        {
+          "t_sec": 5.3079365,
+          "t_ms": 5307.937,
+          "frame60_nearest": 318,
+          "spectral_novelty": 5.737,
+          "rms_before_dbfs": -27.72,
+          "rms_after_dbfs": -19.66
+        },
+        {
+          "t_sec": 11.1546485,
+          "t_ms": 11154.649,
+          "frame60_nearest": 669,
+          "spectral_novelty": 6.517,
+          "rms_before_dbfs": -20.29,
+          "rms_after_dbfs": -17.92
+        },
+        {
+          "t_sec": 15.5895692,
+          "t_ms": 15589.569,
+          "frame60_nearest": 935,
+          "spectral_novelty": 4.166,
+          "rms_before_dbfs": -15.61,
+          "rms_after_dbfs": -14.99
+        },
+        {
+          "t_sec": 18.5578231,
+          "t_ms": 18557.823,
+          "frame60_nearest": 1113,
+          "spectral_novelty": 5.404,
+          "rms_before_dbfs": -19.75,
+          "rms_after_dbfs": -13.25
+        },
+        {
+          "t_sec": 21.0521542,
+          "t_ms": 21052.154,
+          "frame60_nearest": 1263,
+          "spectral_novelty": 6.409,
+          "rms_before_dbfs": -22.45,
+          "rms_after_dbfs": -20.2
+        },
+        {
+          "t_sec": 28.2058957,
+          "t_ms": 28205.896,
+          "frame60_nearest": 1692,
+          "spectral_novelty": 4.893,
+          "rms_before_dbfs": -17.5,
+          "rms_after_dbfs": -21.02
+        }
+      ],
+      "listened": false,
+      "validation": "Full FFmpeg decode completed",
+      "source_stem_sha256": "66b9559ed93fe728e9e7e51bec58a5f034c98cd17339dde6e11f44b2e51a4346",
+      "native_pcm_sha256": "4f3b9b3061156f1831073cdffb0c0b30e416d6afe97ebc59253b53d1e3542f75",
+      "loudness": {
+        "integrated_lufs": -13.84,
+        "true_peak_dbtp": 0.18,
+        "loudness_range_lu": 2.3
+      },
+      "status": "本地分离的音乐主体候选。对白、人声、音效残留与音乐损伤待试听。",
+      "vocal_removal_verified": false,
+      "sfx_removal_verified": false
+    },
+    "analysis_path": "data/audio/V21.json",
+    "listened": false
+  },
+  {
+    "id": "V22",
+    "title": "V22 · 未识别曲名",
+    "source_video_name": "V22_原来遗忘才是真正的死亡_抖音公开播放.mp4",
+    "music_name": null,
+    "music_name_status": "未识别；未根据视频文件名宣称曲名",
+    "duration_sec": 18.972108843537416,
+    "mix_path": "audio/mixed/V22__mixed.m4a",
+    "no_vocals_candidate_path": "audio/music-candidates/V22__music-candidate.m4a",
+    "music_candidate_path": "audio/music-candidates/V22__music-candidate.m4a",
+    "separation_status": "complete",
+    "bpm_candidates": [
+      115.2,
+      57.6,
+      230.2
+    ],
+    "confidence": "中等周期线索；未听辨确认",
+    "tempo_scope": "bpm_candidates来自原始混合轨；分离候选另见candidate.rhythm",
+    "tempo_basis": {
+      "hf_bpm": 115.2,
+      "hf_internal_confidence": 0.268,
+      "hf_beat_count": 33,
+      "warning": "半倍/倍速与切分节奏歧义仍需试听。"
+    },
+    "tags": [
+      "人物/旅行/动作素材建议",
+      "整拍镜头切换",
+      "段落推进"
+    ],
+    "tag_basis": "按原始混合轨的信号周期、时长和能量起伏给出的剪辑适用素材建议；不是已听辨的乐器、风格或已识别歌曲。",
+    "mix": {
+      "id": "V22",
+      "title": "V22 · 原始混合音轨",
+      "source_video_name": "V22_原来遗忘才是真正的死亡_抖音公开播放.mp4",
+      "source_video_sha256": "ff0ac68ea780354df468d9b4c1cf296ca1ce896b8bfb4e7f59e3a8624d54b536",
+      "music_name": null,
+      "music_name_status": "未识别；未根据视频文件名宣称曲名",
+      "file": "audio/mixed/V22__mixed.m4a",
+      "bytes": 137354,
+      "sha256": "a82e7ab54b3f90b22ca10f1364c7549688a65c04ccc39c1ecfd49ca2e633e798",
+      "codec": "aac",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration_sec": 18.972108843537416,
+      "output_audio_start_time": "0.000000",
+      "extraction": {
+        "audio_reencoded": false,
+        "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+        "stdout_saved_by_node": true
+      },
+      "loudness": {
+        "integrated_lufs": -7.02,
+        "true_peak_dbtp": 1.24,
+        "loudness_range_lu": 1.7,
+        "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+      },
+      "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+      "separation_status": "complete",
+      "listened": false,
+      "encoded_container_duration_sec": 19.131882,
+      "source_decoded_duration_sec": 18.969977324263038,
+      "pcm_integrity": {
+        "format": "mono float32 22050Hz",
+        "source_sha256": "10449f7ee5b4f1eb27124653fbaf72d73ecca6f086be1792068897534ecc6075",
+        "output_sha256": "c23fe14c3c88473afccf2be83511eecb687454ef3caf66b9320bc3682bfc6536",
+        "shared_prefix_samples": 418288,
+        "shared_prefix_bit_identical": false,
+        "decoded_duration_delta_ms": 2.132,
+        "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+      },
+      "aac_adts_sha256": "49af0ecf72f68baf6a4e95002f145b176de13a57e624d8f279630688a85f2d64",
+      "source_aac_adts_sha256": "49af0ecf72f68baf6a4e95002f145b176de13a57e624d8f279630688a85f2d64",
+      "aac_bitstream_identical_to_source": true,
+      "native_pcm_sha256": "fa0b41760957d5be635dfda22dd715449e15bb5410fe0183af85b8ced48a9fec",
+      "source_native_pcm_sha256": "f318b7048235c839a5e46514ccf6689f3feed4d628ee5301852a2d08b7c1daf4",
+      "native_pcm_format": {
+        "sample_format": "f32le",
+        "channels": 2,
+        "sample_rate": 44100,
+        "resampled": false,
+        "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+      },
+      "no_vocals_candidate_path": "audio/music-candidates/V22__music-candidate.m4a"
+    },
+    "candidate": {
+      "id": "V22",
+      "file": "audio/music-candidates/V22__music-candidate.m4a",
+      "bytes": 466498,
+      "sha256": "2b8b3cc3a6d877abf529d652a35f192604efbd99bef9499536dba64c658cbfa0",
+      "source_stem_sha256": "6a19c7f08fe9b7da69fedb9e879cf719a304dbdc0bc2c39f25258247d228d6d2",
+      "native_pcm_sha256": "00305b450ed086f33e739d532b29c94aa666a507540ed05c2eb413688b43d35d",
+      "native_pcm_format": {
+        "sample_format": "f32le",
+        "sample_rate": 44100,
+        "channels": 2,
+        "resampled": false
+      },
+      "duration_sec": 18.970702947845805,
+      "encoded_container_duration_sec": 18.993175,
+      "codec": "aac",
+      "sample_rate": 44100,
+      "channels": 2,
+      "loudness": {
+        "integrated_lufs": -11.03,
+        "true_peak_dbtp": -0.46,
+        "loudness_range_lu": 4
+      },
+      "separation": {
+        "tool": "audio-separator",
+        "version": "0.48.0",
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "stem": "Instrumental",
+        "output_normalization": {
+          "peak_threshold": 0.95,
+          "amplification_threshold": 0
+        },
+        "aac_reencoded": true
+      },
+      "status": "真实本地模型分离后的音乐主体候选；未听辨确认，可能残留人声、对白、和声或SFX，也可能损伤音乐。不是纯BGM保证。",
+      "listened": false,
+      "vocal_removal_verified": false,
+      "sfx_removal_verified": false,
+      "encoding_profile": "aac192k-relative-fragments-1s-v1",
+      "rhythm": {
+        "scope": "模型分离后的候选音轨，未做听觉确认",
+        "method": "HyperFrames 0.8.216 local signal spectral flux + autocorrelation + DP",
+        "bpm": 115.2,
+        "confidence": 0.432,
+        "reason": null,
+        "beat_times": [
+          2.375,
+          2.895,
+          3.415,
+          3.935,
+          4.465,
+          4.985,
+          5.495,
+          6.025,
+          6.545,
+          7.065,
+          7.575,
+          8.115,
+          8.635,
+          9.155,
+          9.665,
+          10.185,
+          10.715,
+          11.245,
+          11.755,
+          12.285,
+          12.805,
+          13.325,
+          13.835,
+          14.375,
+          14.895,
+          15.415,
+          15.905,
+          16.435,
+          16.955,
+          17.475,
+          18.005,
+          18.515
+        ]
+      }
+    },
+    "analysis_path": "data/audio/V22.json",
+    "listened": false
+  },
+  {
+    "id": "V23",
+    "title": "V23 · 未识别曲名",
+    "source_video_name": "到底怎么样的结局才能配得上这一路的颠沛流离了不起的混剪团_电影美学_重返暑假计划_经典重温计划_抖音.mp4",
+    "music_name": null,
+    "music_name_status": "未识别；未根据视频文件名宣称曲名",
+    "duration_sec": 24.913015873015873,
+    "mix_path": "audio/mixed/V23__mixed.m4a",
+    "no_vocals_candidate_path": "audio/music-candidates/V23__music-candidate.m4a",
+    "music_candidate_path": "audio/music-candidates/V23__music-candidate.m4a",
+    "separation_status": "complete",
+    "bpm_candidates": [
+      177.7,
+      118.6
+    ],
+    "confidence": "低/无稳定拍点",
+    "tempo_scope": "bpm_candidates来自原始混合轨；分离候选另见candidate.rhythm",
+    "tempo_basis": {
+      "hf_bpm": null,
+      "hf_internal_confidence": 0.064,
+      "hf_beat_count": 0,
+      "warning": "半倍/倍速与切分节奏歧义仍需试听。"
+    },
+    "tags": [
+      "手工起音锚点",
+      "先听辨再定拍",
+      "局部节奏练习"
+    ],
+    "tag_basis": "按原始混合轨的信号周期、时长和能量起伏给出的剪辑适用素材建议；不是已听辨的乐器、风格或已识别歌曲。",
+    "mix": {
+      "id": "V23",
+      "title": "V23 · 原始混合音轨",
+      "source_video_name": "到底怎么样的结局才能配得上这一路的颠沛流离了不起的混剪团_电影美学_重返暑假计划_经典重温计划_抖音.mp4",
+      "source_video_sha256": "7f55219ad3623544c43fbb0a071282bc6f90aa563538b92b3e18230c835dbe41",
+      "music_name": null,
+      "music_name_status": "未识别；未根据视频文件名宣称曲名",
+      "file": "audio/mixed/V23__mixed.m4a",
+      "bytes": 166107,
+      "sha256": "7a7a9aea99353fb7af0490661fbd2814c96791d9468fbe1649d497ebdb5f4ce1",
+      "codec": "aac",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration_sec": 24.913015873015873,
+      "output_audio_start_time": "0.000000",
+      "extraction": {
+        "audio_reencoded": false,
+        "method": "AAC 码流复制至普通 M4A，保持 edit list 边界",
+        "stdout_saved_by_node": true,
+        "output": "seekable fd"
+      },
+      "loudness": {
+        "integrated_lufs": -9.27,
+        "true_peak_dbtp": 0.35,
+        "loudness_range_lu": 3,
+        "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+      },
+      "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+      "separation_status": "complete",
+      "listened": false,
+      "encoded_container_duration_sec": 24.912993,
+      "source_decoded_duration_sec": 24.913015873015873,
+      "pcm_integrity": {
+        "format": "mono float32 22050Hz",
+        "source_sha256": "551304fa30e47c7d359b21110d0cb4b4a3d6bd53863c8c5c9585bb574c62b401",
+        "output_sha256": "551304fa30e47c7d359b21110d0cb4b4a3d6bd53863c8c5c9585bb574c62b401",
+        "shared_prefix_samples": 549332,
+        "shared_prefix_bit_identical": true,
+        "decoded_duration_delta_ms": 0,
+        "note": "普通 M4A 使用可寻址输出文件。以源轨与封装后轨的解码 PCM 对照边界。"
+      },
+      "aac_adts_sha256": "db3f564cddb9467a5493bc92875d48e7d0c4bb46f33fc7b2b0d194bb9e81be78",
+      "source_aac_adts_sha256": "db3f564cddb9467a5493bc92875d48e7d0c4bb46f33fc7b2b0d194bb9e81be78",
+      "aac_bitstream_identical_to_source": true,
+      "native_pcm_sha256": "cf3eeed62d30975d71f6c764e6fd85284c314b5df21b2ee147fe81ec2071ed33",
+      "source_native_pcm_sha256": "cf3eeed62d30975d71f6c764e6fd85284c314b5df21b2ee147fe81ec2071ed33",
+      "native_pcm_format": {
+        "sample_format": "f32le",
+        "channels": 2,
+        "sample_rate": 44100,
+        "resampled": false,
+        "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+      },
+      "no_vocals_candidate_path": "audio/music-candidates/V23__music-candidate.m4a"
+    },
+    "candidate": {
+      "id": "V23",
+      "file": "audio/music-candidates/V23__music-candidate.m4a",
+      "bytes": 610165,
+      "sha256": "56fac15d2a43b1081be26e08576d93db183f99284c7d3310ae997947b7fd148f",
+      "source_stem_sha256": "1d0d7d1324678631c0b95f3c0c20d675f33a286f6cbb10957ee9f02668139818",
+      "native_pcm_sha256": "7ee6ef775fa12aa567f81b0f30fd90aeb38275e7a758b25c369ceccd5064a32c",
+      "native_pcm_format": {
+        "sample_format": "f32le",
+        "sample_rate": 44100,
+        "channels": 2,
+        "resampled": false
+      },
+      "duration_sec": 24.91501133786848,
+      "encoded_container_duration_sec": 24.936213,
+      "codec": "aac",
+      "sample_rate": 44100,
+      "channels": 2,
+      "loudness": {
+        "integrated_lufs": -10.59,
+        "true_peak_dbtp": -1.77,
+        "loudness_range_lu": 5
+      },
+      "separation": {
+        "tool": "audio-separator",
+        "version": "0.48.0",
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "stem": "Instrumental",
+        "output_normalization": {
+          "peak_threshold": 0.95,
+          "amplification_threshold": 0
+        },
+        "aac_reencoded": true
+      },
+      "status": "真实本地模型分离后的音乐主体候选；未听辨确认，可能残留人声、对白、和声或SFX，也可能损伤音乐。不是纯BGM保证。",
+      "listened": false,
+      "vocal_removal_verified": false,
+      "sfx_removal_verified": false,
+      "encoding_profile": "aac192k-relative-fragments-1s-v1",
+      "rhythm": {
+        "scope": "模型分离后的候选音轨，未做听觉确认",
+        "method": "HyperFrames 0.8.216 local signal spectral flux + autocorrelation + DP",
+        "bpm": null,
+        "confidence": 0.109,
+        "reason": "no steady beat",
+        "beat_times": []
+      }
+    },
+    "analysis_path": "data/audio/V23.json",
+    "listened": false
+  },
+  {
+    "id": "V24",
+    "title": "V24 · trainers",
+    "source_video_name": "这是什么剪法这么帅_头号玩家_混剪_了不起的混剪团_抖音精选_踩点技术流.mp4",
+    "music_name": "trainers",
+    "music_name_status": "片中配乐署名与发行试听波形匹配；剪前起点与具体版本未唯一确定",
+    "duration_sec": 15.273990929705215,
+    "mix_path": "audio/mixed/V24__mixed.m4a",
+    "no_vocals_candidate_path": "audio/music-candidates/V24__music-candidate.m4a",
+    "music_candidate_path": "audio/music-candidates/V24__music-candidate.m4a",
+    "separation_status": "complete",
+    "bpm_candidates": [
+      128,
+      127.9,
+      64
+    ],
+    "confidence": "较高周期线索；未听辨确认",
+    "tempo_scope": "bpm_candidates来自原始混合轨；分离候选另见candidate.rhythm",
+    "tempo_basis": {
+      "hf_bpm": 128,
+      "hf_internal_confidence": 0.554,
+      "hf_beat_count": 32,
+      "warning": "半倍/倍速与切分节奏歧义仍需试听。"
+    },
+    "tags": [
+      "汽车/动作/运动素材建议",
+      "快切与半拍标记",
+      "能量起伏分段"
+    ],
+    "tag_basis": "按原始混合轨的信号周期、时长和能量起伏给出的剪辑适用素材建议；不是已听辨的乐器、风格或已识别歌曲。",
+    "mix": {
+      "id": "V24",
+      "title": "V24 · 原始混合音轨",
+      "source_video_name": "这是什么剪法这么帅_头号玩家_混剪_了不起的混剪团_抖音精选_踩点技术流.mp4",
+      "source_video_sha256": "a5ce138d2764a1679220f38d18687845da9b95affdab26a33636f4e79b7789f6",
+      "music_name": "trainers",
+      "music_name_status": "片中配乐署名与发行试听波形匹配；剪前起点与具体版本未唯一确定",
+      "file": "audio/mixed/V24__mixed.m4a",
+      "bytes": 125933,
+      "sha256": "edec0fb70cf7cdb683b7fd1b46502c3f749be2a627598feadc19bbc6e8b376e1",
+      "codec": "aac",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration_sec": 15.273990929705215,
+      "output_audio_start_time": "0.000000",
+      "extraction": {
+        "audio_reencoded": false,
+        "method": "AAC 码流复制至普通 M4A，保持 edit list 边界",
+        "stdout_saved_by_node": true,
+        "output": "seekable fd"
+      },
+      "loudness": {
+        "integrated_lufs": -16.88,
+        "true_peak_dbtp": -4.16,
+        "loudness_range_lu": 1.9,
+        "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+      },
+      "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+      "separation_status": "complete",
+      "listened": false,
+      "encoded_container_duration_sec": 15.273991,
+      "source_decoded_duration_sec": 15.273990929705215,
+      "pcm_integrity": {
+        "format": "mono float32 22050Hz",
+        "source_sha256": "d1974049210c397413e3cc27f335a5cd309526372dbbc63724e76b8a0df760a7",
+        "output_sha256": "d1974049210c397413e3cc27f335a5cd309526372dbbc63724e76b8a0df760a7",
+        "shared_prefix_samples": 336792,
+        "shared_prefix_bit_identical": true,
+        "decoded_duration_delta_ms": 0,
+        "note": "普通 M4A 使用可寻址输出文件。以源轨与封装后轨的解码 PCM 对照边界。"
+      },
+      "aac_adts_sha256": "63da067040921e9a5e30f08ee61280a9a869ef1ea88ca010cceeda591ce1e9a8",
+      "source_aac_adts_sha256": "63da067040921e9a5e30f08ee61280a9a869ef1ea88ca010cceeda591ce1e9a8",
+      "aac_bitstream_identical_to_source": true,
+      "native_pcm_sha256": "cf33524d8b6c9e1bb0f20cf384bb337b542cfdba065fa46fc10c3794be937bb3",
+      "source_native_pcm_sha256": "cf33524d8b6c9e1bb0f20cf384bb337b542cfdba065fa46fc10c3794be937bb3",
+      "native_pcm_format": {
+        "sample_format": "f32le",
+        "channels": 2,
+        "sample_rate": 44100,
+        "resampled": false,
+        "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+      },
+      "music_artist": "ptasinski & Rj Pasin",
+      "music_attribution_url": "https://music.apple.com/us/song/trainers/1801333663",
+      "music_attribution_evidence": "evidence/V24/verified/music-release-verification.json",
+      "native_decoded_samples_per_channel": 673583,
+      "no_vocals_candidate_path": "audio/music-candidates/V24__music-candidate.m4a"
+    },
+    "candidate": {
+      "id": "V24",
+      "file": "audio/music-candidates/V24__music-candidate.m4a",
+      "bytes": 380464,
+      "sha256": "d892ad4d3eb09e0a2dc015b89f5a8119c97fa750305313aa417411eb38e3b66a",
+      "source_stem_sha256": "160909a63a1c96d4cab08bb8debbe5879d7c151ab2c6331c8c211f919649be57",
+      "native_pcm_sha256": "ced076d66f2b3b55614a8ef88fe9a86819062bc9adaea38e8ee280862b3d9480",
+      "native_pcm_format": {
+        "sample_format": "f32le",
+        "sample_rate": 44100,
+        "channels": 2,
+        "resampled": false
+      },
+      "duration_sec": 15.273990929705215,
+      "encoded_container_duration_sec": 15.273991,
+      "codec": "aac",
+      "sample_rate": 44100,
+      "channels": 2,
+      "loudness": {
+        "integrated_lufs": -21.79,
+        "true_peak_dbtp": -8.94,
+        "loudness_range_lu": 1.6
+      },
+      "separation": {
+        "tool": "audio-separator",
+        "version": "0.48.0",
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "stem": "Instrumental",
+        "output_normalization": {
+          "peak_threshold": 0.95,
+          "amplification_threshold": 0
+        },
+        "aac_reencoded": true
+      },
+      "status": "本地模型分离的音乐主体候选。电影声保留量尚未用听觉确认。候选有音量变化，复练前应试听。",
+      "listened": false,
+      "vocal_removal_verified": false,
+      "sfx_removal_verified": false,
+      "encoding_profile": "aac192k-seekable-m4a-editlist-v1",
+      "rhythm": {
+        "scope": "模型分离后的候选音轨，未做听觉确认",
+        "method": "HyperFrames 0.8.216 local signal spectral flux + autocorrelation + DP",
+        "bpm": 128,
+        "confidence": 0.566,
+        "reason": null,
+        "beat_times": [
+          0.245,
+          0.715,
+          1.175,
+          1.645,
+          2.115,
+          2.585,
+          3.055,
+          3.525,
+          3.995,
+          4.465,
+          4.925,
+          5.395,
+          5.865,
+          6.335,
+          6.805,
+          7.275,
+          7.745,
+          8.215,
+          8.685,
+          9.145,
+          9.615,
+          10.085,
+          10.555,
+          11.025,
+          11.495,
+          11.965,
+          12.425,
+          12.895,
+          13.365,
+          13.835,
+          14.305,
+          14.775
+        ]
+      },
+      "wide_novelty_period_s": 0.468669,
+      "sample_alignment": [
+        {
+          "start": 0.1,
+          "end": 3.4,
+          "best_lag_samples": 0,
+          "zero_lag_pearson": 0.9986954059904855,
+          "mix_rms_dbfs": -17.347,
+          "stem_rms_dbfs": -22.079,
+          "gain_matched_residual_rms_dbfs": -42.164,
+          "gain_match_db": 4.718
+        },
+        {
+          "start": 3.4,
+          "end": 8.3,
+          "best_lag_samples": 0,
+          "zero_lag_pearson": 0.9812677592418466,
+          "mix_rms_dbfs": -16.285,
+          "stem_rms_dbfs": -21.202,
+          "gain_matched_residual_rms_dbfs": -30.574,
+          "gain_match_db": 4.752
+        },
+        {
+          "start": 8.3,
+          "end": 13,
+          "best_lag_samples": 0,
+          "zero_lag_pearson": 0.9889536775416614,
+          "mix_rms_dbfs": -17.279,
+          "stem_rms_dbfs": -22.166,
+          "gain_matched_residual_rms_dbfs": -33.802,
+          "gain_match_db": 4.79
+        },
+        {
+          "start": 13,
+          "end": 15.2,
+          "best_lag_samples": 0,
+          "zero_lag_pearson": 0.9994223528075616,
+          "mix_rms_dbfs": -17.528,
+          "stem_rms_dbfs": -22.222,
+          "gain_matched_residual_rms_dbfs": -45.743,
+          "gain_match_db": 4.688
+        }
+      ]
+    },
+    "analysis_path": "data/audio/V24.json",
+    "listened": false
+  },
+  {
+    "id": "V25",
+    "title": "V25 · 未识别曲名",
+    "source_video_name": "人类能战胜玛娜生态吗_我的童年有动漫的颜色_灵笼世界观共建计划_音乐MV共创计划_MV翻拍大赛_青年.mp4",
+    "music_name": null,
+    "music_name_status": "未识别；未根据视频文件名宣称曲名",
+    "duration_sec": 21.198956916099775,
+    "mix_path": "audio/mixed/V25__mixed.m4a",
+    "no_vocals_candidate_path": "audio/music-candidates/V25__music-candidate.m4a",
+    "music_candidate_path": "audio/music-candidates/V25__music-candidate.m4a",
+    "separation_status": "complete",
+    "bpm_candidates": [
+      152.1,
+      152,
+      230.2
+    ],
+    "confidence": "中等周期线索；未听辨确认",
+    "tempo_scope": "bpm_candidates来自原始混合轨；分离候选另见candidate.rhythm",
+    "tempo_basis": {
+      "hf_bpm": 152.1,
+      "hf_internal_confidence": 0.293,
+      "hf_beat_count": 54,
+      "warning": "半倍/倍速与切分节奏歧义仍需试听。"
+    },
+    "tags": [
+      "汽车/动作/运动素材建议",
+      "快切与半拍标记",
+      "能量起伏分段"
+    ],
+    "tag_basis": "按原始混合轨的信号周期、时长和能量起伏给出的剪辑适用素材建议；不是已听辨的乐器、风格或已识别歌曲。",
+    "mix": {
+      "id": "V25",
+      "title": "V25 · 原始混合音轨",
+      "source_video_name": "人类能战胜玛娜生态吗_我的童年有动漫的颜色_灵笼世界观共建计划_音乐MV共创计划_MV翻拍大赛_青年.mp4",
+      "source_video_sha256": "9f6e43fb63a67d5894b14a730271738e534a398b5a996fac07d21e5790fb01ed",
+      "music_name": null,
+      "music_name_status": "未识别；未根据视频文件名宣称曲名",
+      "file": "audio/mixed/V25__mixed.m4a",
+      "bytes": 170999,
+      "sha256": "bc650c03d3235476a32c63702b1d5e7a69daf2b23029785d3383ce8e11321a71",
+      "codec": "aac",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration_sec": 21.198956916099775,
+      "output_audio_start_time": "0.000000",
+      "extraction": {
+        "audio_reencoded": false,
+        "method": "AAC 码流复制至普通 M4A，保持 edit list 边界",
+        "stdout_saved_by_node": true,
+        "output": "seekable fd"
+      },
+      "loudness": {
+        "integrated_lufs": -7.37,
+        "true_peak_dbtp": 2.87,
+        "loudness_range_lu": 1.5,
+        "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+      },
+      "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+      "separation_status": "complete",
+      "listened": false,
+      "encoded_container_duration_sec": 21.199002,
+      "source_decoded_duration_sec": 21.198956916099775,
+      "pcm_integrity": {
+        "format": "mono float32 22050Hz",
+        "source_sha256": "5eb1a629a0a2f217411a67cf10994e97f3c02cbc90118a23b418fff4eb7dd9cc",
+        "output_sha256": "5eb1a629a0a2f217411a67cf10994e97f3c02cbc90118a23b418fff4eb7dd9cc",
+        "shared_prefix_samples": 467437,
+        "shared_prefix_bit_identical": true,
+        "decoded_duration_delta_ms": 0,
+        "note": "普通 M4A 使用可寻址输出文件。以源轨与封装后轨的解码 PCM 对照边界。"
+      },
+      "aac_adts_sha256": "ed76e8500bf4ecc5992cd2f62c0b5b7fa978accb0318d5b67d3c6894ecfcd9af",
+      "source_aac_adts_sha256": "ed76e8500bf4ecc5992cd2f62c0b5b7fa978accb0318d5b67d3c6894ecfcd9af",
+      "aac_bitstream_identical_to_source": true,
+      "native_pcm_sha256": "585fbde0459771f28738971c2d5980a5bcadc0f21d51dfc017581211b0fddde1",
+      "source_native_pcm_sha256": "585fbde0459771f28738971c2d5980a5bcadc0f21d51dfc017581211b0fddde1",
+      "native_pcm_format": {
+        "sample_format": "f32le",
+        "channels": 2,
+        "sample_rate": 44100,
+        "resampled": false,
+        "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+      },
+      "no_vocals_candidate_path": "audio/music-candidates/V25__music-candidate.m4a"
+    },
+    "candidate": {
+      "id": "V25",
+      "file": "audio/music-candidates/V25__music-candidate.m4a",
+      "bytes": 522139,
+      "sha256": "0bbbafcbe04cb65b61a066dc6d3ee3297785a521bc4f245c0537e42d4c6a4543",
+      "source_stem_sha256": "c09eaf44a6d70bfe5f007d059acca98aea954ffcff075431688ca12fd1a98881",
+      "native_pcm_sha256": "2ba9f6c6836f3246e7195ba2664dc786f4dde32c65e1745dfc0c39b8a3a6709d",
+      "native_pcm_format": {
+        "sample_format": "f32le",
+        "sample_rate": 44100,
+        "channels": 2,
+        "resampled": false
+      },
+      "duration_sec": 21.198956916099775,
+      "encoded_container_duration_sec": 21.198957,
+      "codec": "aac",
+      "sample_rate": 44100,
+      "channels": 2,
+      "loudness": {
+        "integrated_lufs": -14.57,
+        "true_peak_dbtp": -2.56,
+        "loudness_range_lu": 2.8
+      },
+      "separation": {
+        "tool": "audio-separator",
+        "version": "0.48.0",
+        "model": "UVR_MDXNET_KARA_2.onnx",
+        "provider": "CPUExecutionProvider",
+        "threads": 2,
+        "stem": "Instrumental",
+        "output_normalization": {
+          "peak_threshold": 0.95,
+          "amplification_threshold": 0
+        },
+        "aac_reencoded": true,
+        "input_gain_linear": 0.65,
+        "input_gain_db": -3.741733,
+        "input_wav_sha256": "70701df2cae2fc1ba0c9f0e17cb4e1625793c41308272f518d9014c3ba235525"
+      },
+      "status": "真实本地模型分离后的音乐主体候选；未听辨确认，可能残留人声、对白、和声或SFX，也可能损伤音乐。不是纯BGM保证。",
+      "listened": false,
+      "vocal_removal_verified": false,
+      "sfx_removal_verified": false,
+      "encoding_profile": "aac192k-seekable-m4a-editlist-v1",
+      "rhythm": {
+        "scope": "模型分离后的候选音轨，未做听觉确认",
+        "method": "HyperFrames 0.8.216 local signal spectral flux + autocorrelation + DP",
+        "bpm": 151.8,
+        "confidence": 0.373,
+        "reason": null,
+        "beat_times": [
+          0.395,
+          0.785,
+          1.175,
+          1.575,
+          1.975,
+          2.385,
+          2.775,
+          3.165,
+          3.555,
+          3.945,
+          4.295,
+          4.645,
+          4.995,
+          5.405,
+          5.805,
+          6.205,
+          6.605,
+          6.995,
+          7.385,
+          7.775,
+          8.175,
+          8.565,
+          8.965,
+          9.475,
+          9.875,
+          10.275,
+          10.665,
+          11.045,
+          11.445,
+          11.845,
+          12.245,
+          12.635,
+          13.035,
+          13.425,
+          13.815,
+          14.205,
+          14.605,
+          15.015,
+          15.405,
+          15.795,
+          16.195,
+          16.585,
+          16.985,
+          17.375,
+          17.765,
+          18.175,
+          18.565,
+          18.955,
+          19.355,
+          19.745,
+          20.085,
+          20.415
+        ]
+      }
+    },
+    "analysis_path": "data/audio/V25.json",
+    "listened": false
   }
 ]

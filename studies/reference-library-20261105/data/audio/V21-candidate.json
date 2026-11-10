@@ -1,0 +1,429 @@
+{
+  "id": "V21",
+  "music_name": null,
+  "file": "audio/music-candidates/V21__music-candidate.m4a",
+  "bytes": 764270,
+  "sha256": "6a8608ec0a9a70c382d03782da4ef3e55269b8d7c9ccc6d27cb95ae009965608",
+  "codec": "AAC-LC",
+  "bitrate_target_bps": 192000,
+  "duration_sec": 30.97598639455782,
+  "decoded_duration_sec": 30.998639455782314,
+  "sample_rate": 44100,
+  "channels": 2,
+  "encoder_offset_samples_vs_stem": 0,
+  "waveform_reference": "V21.source_(Instrumental)_UVR_MDXNET_KARA_2.wav",
+  "separation": {
+    "id": "V21",
+    "elapsed_sec": 30.484,
+    "files": [
+      "V21.source_(Instrumental)_UVR_MDXNET_KARA_2.wav"
+    ],
+    "model": "UVR_MDXNET_KARA_2.onnx",
+    "model_sha256": "bf32e15105a09c0f7dddd2b67346146334d6f3ecb399ed7638eba2ab07cbf5f4",
+    "provider": "CPUExecutionProvider",
+    "threads": 2,
+    "model_options": {
+      "hop_length": 1024,
+      "segment_size": 256,
+      "overlap": 0.25,
+      "batch_size": 1,
+      "enable_denoise": false
+    },
+    "normalization_threshold": 0.95,
+    "sample_rate": 44100
+  },
+  "tempo_periodicity": [
+    {
+      "start": {
+        "t_sec": 0.0,
+        "t_ms": 0.0,
+        "frame60_nearest": 0
+      },
+      "end": {
+        "t_sec": 30.9759864,
+        "t_ms": 30975.986,
+        "frame60_nearest": 1859
+      },
+      "candidates": [
+        {
+          "bpm": 48.5,
+          "lag_ms": 1237.19,
+          "normalized_autocorrelation": 0.55
+        },
+        {
+          "bpm": 96.99,
+          "lag_ms": 618.59,
+          "normalized_autocorrelation": 0.436
+        },
+        {
+          "bpm": 193.99,
+          "lag_ms": 309.3,
+          "normalized_autocorrelation": 0.408
+        },
+        {
+          "bpm": 64.66,
+          "lag_ms": 927.89,
+          "normalized_autocorrelation": 0.349
+        },
+        {
+          "bpm": 77.6,
+          "lag_ms": 773.24,
+          "normalized_autocorrelation": 0.026
+        }
+      ]
+    },
+    {
+      "start": {
+        "t_sec": 1.0,
+        "t_ms": 1000.0,
+        "frame60_nearest": 60
+      },
+      "end": {
+        "t_sec": 10.0,
+        "t_ms": 10000.0,
+        "frame60_nearest": 600
+      },
+      "candidates": [
+        {
+          "bpm": 48.5,
+          "lag_ms": 1237.19,
+          "normalized_autocorrelation": 0.474
+        },
+        {
+          "bpm": 193.99,
+          "lag_ms": 309.3,
+          "normalized_autocorrelation": 0.41
+        },
+        {
+          "bpm": 96.99,
+          "lag_ms": 618.59,
+          "normalized_autocorrelation": 0.406
+        },
+        {
+          "bpm": 64.66,
+          "lag_ms": 927.89,
+          "normalized_autocorrelation": 0.328
+        },
+        {
+          "bpm": 77.6,
+          "lag_ms": 773.24,
+          "normalized_autocorrelation": 0.102
+        }
+      ]
+    },
+    {
+      "start": {
+        "t_sec": 10.0,
+        "t_ms": 10000.0,
+        "frame60_nearest": 600
+      },
+      "end": {
+        "t_sec": 20.0,
+        "t_ms": 20000.0,
+        "frame60_nearest": 1200
+      },
+      "candidates": [
+        {
+          "bpm": 48.5,
+          "lag_ms": 1237.19,
+          "normalized_autocorrelation": 0.471
+        },
+        {
+          "bpm": 193.99,
+          "lag_ms": 309.3,
+          "normalized_autocorrelation": 0.431
+        },
+        {
+          "bpm": 96.99,
+          "lag_ms": 618.59,
+          "normalized_autocorrelation": 0.382
+        },
+        {
+          "bpm": 64.66,
+          "lag_ms": 927.89,
+          "normalized_autocorrelation": 0.338
+        },
+        {
+          "bpm": 77.6,
+          "lag_ms": 773.24,
+          "normalized_autocorrelation": 0.025
+        }
+      ]
+    },
+    {
+      "start": {
+        "t_sec": 20.0,
+        "t_ms": 20000.0,
+        "frame60_nearest": 1200
+      },
+      "end": {
+        "t_sec": 30.0,
+        "t_ms": 30000.0,
+        "frame60_nearest": 1800
+      },
+      "candidates": [
+        {
+          "bpm": 48.5,
+          "lag_ms": 1237.19,
+          "normalized_autocorrelation": 0.555
+        },
+        {
+          "bpm": 96.99,
+          "lag_ms": 618.59,
+          "normalized_autocorrelation": 0.508
+        },
+        {
+          "bpm": 193.99,
+          "lag_ms": 309.3,
+          "normalized_autocorrelation": 0.505
+        },
+        {
+          "bpm": 64.66,
+          "lag_ms": 927.89,
+          "normalized_autocorrelation": 0.411
+        },
+        {
+          "bpm": 77.6,
+          "lag_ms": 773.24,
+          "normalized_autocorrelation": 0.016
+        }
+      ]
+    }
+  ],
+  "low_band_tempo_periodicity": [
+    {
+      "start": {
+        "t_sec": 0.0,
+        "t_ms": 0.0,
+        "frame60_nearest": 0
+      },
+      "end": {
+        "t_sec": 30.9759864,
+        "t_ms": 30975.986,
+        "frame60_nearest": 1859
+      },
+      "candidates": [
+        {
+          "bpm": 193.99,
+          "lag_ms": 309.3,
+          "normalized_autocorrelation": 0.166
+        },
+        {
+          "bpm": 48.5,
+          "lag_ms": 1237.19,
+          "normalized_autocorrelation": 0.131
+        },
+        {
+          "bpm": 63.97,
+          "lag_ms": 937.87,
+          "normalized_autocorrelation": 0.114
+        },
+        {
+          "bpm": 96.99,
+          "lag_ms": 618.59,
+          "normalized_autocorrelation": 0.094
+        },
+        {
+          "bpm": 66.45,
+          "lag_ms": 902.95,
+          "normalized_autocorrelation": 0.068
+        }
+      ]
+    },
+    {
+      "start": {
+        "t_sec": 1.0,
+        "t_ms": 1000.0,
+        "frame60_nearest": 60
+      },
+      "end": {
+        "t_sec": 10.0,
+        "t_ms": 10000.0,
+        "frame60_nearest": 600
+      },
+      "candidates": [
+        {
+          "bpm": 48.5,
+          "lag_ms": 1237.19,
+          "normalized_autocorrelation": 0.132
+        },
+        {
+          "bpm": 174.31,
+          "lag_ms": 344.22,
+          "normalized_autocorrelation": 0.101
+        },
+        {
+          "bpm": 197.17,
+          "lag_ms": 304.31,
+          "normalized_autocorrelation": 0.097
+        },
+        {
+          "bpm": 101.93,
+          "lag_ms": 588.66,
+          "normalized_autocorrelation": 0.091
+        },
+        {
+          "bpm": 93.23,
+          "lag_ms": 643.54,
+          "normalized_autocorrelation": 0.083
+        }
+      ]
+    },
+    {
+      "start": {
+        "t_sec": 10.0,
+        "t_ms": 10000.0,
+        "frame60_nearest": 600
+      },
+      "end": {
+        "t_sec": 20.0,
+        "t_ms": 20000.0,
+        "frame60_nearest": 1200
+      },
+      "candidates": [
+        {
+          "bpm": 63.97,
+          "lag_ms": 937.87,
+          "normalized_autocorrelation": 0.199
+        },
+        {
+          "bpm": 96.99,
+          "lag_ms": 618.59,
+          "normalized_autocorrelation": 0.177
+        },
+        {
+          "bpm": 193.99,
+          "lag_ms": 309.3,
+          "normalized_autocorrelation": 0.143
+        },
+        {
+          "bpm": 66.45,
+          "lag_ms": 902.95,
+          "normalized_autocorrelation": 0.128
+        },
+        {
+          "bpm": 49.49,
+          "lag_ms": 1212.24,
+          "normalized_autocorrelation": 0.125
+        }
+      ]
+    },
+    {
+      "start": {
+        "t_sec": 20.0,
+        "t_ms": 20000.0,
+        "frame60_nearest": 1200
+      },
+      "end": {
+        "t_sec": 30.0,
+        "t_ms": 30000.0,
+        "frame60_nearest": 1800
+      },
+      "candidates": [
+        {
+          "bpm": 193.99,
+          "lag_ms": 309.3,
+          "normalized_autocorrelation": 0.166
+        },
+        {
+          "bpm": 48.69,
+          "lag_ms": 1232.2,
+          "normalized_autocorrelation": 0.123
+        },
+        {
+          "bpm": 64.32,
+          "lag_ms": 932.88,
+          "normalized_autocorrelation": 0.114
+        },
+        {
+          "bpm": 98.58,
+          "lag_ms": 608.62,
+          "normalized_autocorrelation": 0.1
+        },
+        {
+          "bpm": 94.7,
+          "lag_ms": 633.56,
+          "normalized_autocorrelation": 0.066
+        }
+      ]
+    }
+  ],
+  "structural_change_candidates": [
+    {
+      "t_sec": 1.2621315,
+      "t_ms": 1262.132,
+      "frame60_nearest": 76,
+      "spectral_novelty": 6.562,
+      "rms_before_dbfs": -20.03,
+      "rms_after_dbfs": -18.33
+    },
+    {
+      "t_sec": 2.7238095,
+      "t_ms": 2723.81,
+      "frame60_nearest": 163,
+      "spectral_novelty": 5.283,
+      "rms_before_dbfs": -15.38,
+      "rms_after_dbfs": -20.48
+    },
+    {
+      "t_sec": 5.3079365,
+      "t_ms": 5307.937,
+      "frame60_nearest": 318,
+      "spectral_novelty": 5.737,
+      "rms_before_dbfs": -27.72,
+      "rms_after_dbfs": -19.66
+    },
+    {
+      "t_sec": 11.1546485,
+      "t_ms": 11154.649,
+      "frame60_nearest": 669,
+      "spectral_novelty": 6.517,
+      "rms_before_dbfs": -20.29,
+      "rms_after_dbfs": -17.92
+    },
+    {
+      "t_sec": 15.5895692,
+      "t_ms": 15589.569,
+      "frame60_nearest": 935,
+      "spectral_novelty": 4.166,
+      "rms_before_dbfs": -15.61,
+      "rms_after_dbfs": -14.99
+    },
+    {
+      "t_sec": 18.5578231,
+      "t_ms": 18557.823,
+      "frame60_nearest": 1113,
+      "spectral_novelty": 5.404,
+      "rms_before_dbfs": -19.75,
+      "rms_after_dbfs": -13.25
+    },
+    {
+      "t_sec": 21.0521542,
+      "t_ms": 21052.154,
+      "frame60_nearest": 1263,
+      "spectral_novelty": 6.409,
+      "rms_before_dbfs": -22.45,
+      "rms_after_dbfs": -20.2
+    },
+    {
+      "t_sec": 28.2058957,
+      "t_ms": 28205.896,
+      "frame60_nearest": 1692,
+      "spectral_novelty": 4.893,
+      "rms_before_dbfs": -17.5,
+      "rms_after_dbfs": -21.02
+    }
+  ],
+  "listened": false,
+  "validation": "Full FFmpeg decode completed",
+  "source_stem_sha256": "66b9559ed93fe728e9e7e51bec58a5f034c98cd17339dde6e11f44b2e51a4346",
+  "native_pcm_sha256": "4f3b9b3061156f1831073cdffb0c0b30e416d6afe97ebc59253b53d1e3542f75",
+  "loudness": {
+    "integrated_lufs": -13.84,
+    "true_peak_dbtp": 0.18,
+    "loudness_range_lu": 2.3
+  },
+  "status": "本地分离的音乐主体候选。对白、人声、音效残留与音乐损伤待试听。",
+  "vocal_removal_verified": false,
+  "sfx_removal_verified": false
+}

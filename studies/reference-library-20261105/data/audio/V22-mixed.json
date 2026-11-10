@@ -1,0 +1,54 @@
+{
+  "id": "V22",
+  "title": "V22 · 原始混合音轨",
+  "source_video_name": "V22_原来遗忘才是真正的死亡_抖音公开播放.mp4",
+  "source_video_sha256": "ff0ac68ea780354df468d9b4c1cf296ca1ce896b8bfb4e7f59e3a8624d54b536",
+  "music_name": null,
+  "music_name_status": "未识别；未根据视频文件名宣称曲名",
+  "file": "audio/mixed/V22__mixed.m4a",
+  "bytes": 137354,
+  "sha256": "a82e7ab54b3f90b22ca10f1364c7549688a65c04ccc39c1ecfd49ca2e633e798",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 18.972108843537416,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy；仅重新封装fragmented M4A，无音频重编码",
+    "stdout_saved_by_node": true
+  },
+  "loudness": {
+    "integrated_lufs": -7.02,
+    "true_peak_dbtp": 1.24,
+    "loudness_range_lu": 1.7,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 19.131882,
+  "source_decoded_duration_sec": 18.969977324263038,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "10449f7ee5b4f1eb27124653fbaf72d73ecca6f086be1792068897534ecc6075",
+    "output_sha256": "c23fe14c3c88473afccf2be83511eecb687454ef3caf66b9320bc3682bfc6536",
+    "shared_prefix_samples": 418288,
+    "shared_prefix_bit_identical": false,
+    "decoded_duration_delta_ms": 2.132,
+    "note": "delay_moov preserves AAC negative-PTS preroll/skip information; fragmented-container duration may include preroll and differ from decoded audible duration. Compare decoded PCM, not container duration alone."
+  },
+  "aac_adts_sha256": "49af0ecf72f68baf6a4e95002f145b176de13a57e624d8f279630688a85f2d64",
+  "source_aac_adts_sha256": "49af0ecf72f68baf6a4e95002f145b176de13a57e624d8f279630688a85f2d64",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "fa0b41760957d5be635dfda22dd715449e15bb5410fe0183af85b8ced48a9fec",
+  "source_native_pcm_sha256": "f318b7048235c839a5e46514ccf6689f3feed4d628ee5301852a2d08b7c1daf4",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "no_vocals_candidate_path": "audio/music-candidates/V22__music-candidate.m4a"
+}

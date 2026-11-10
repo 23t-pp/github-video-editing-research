@@ -1,0 +1,59 @@
+{
+  "id": "V24",
+  "title": "V24 · 原始混合音轨",
+  "source_video_name": "这是什么剪法这么帅_头号玩家_混剪_了不起的混剪团_抖音精选_踩点技术流.mp4",
+  "source_video_sha256": "a5ce138d2764a1679220f38d18687845da9b95affdab26a33636f4e79b7789f6",
+  "music_name": "trainers",
+  "music_name_status": "片中配乐署名与发行试听波形匹配；剪前起点与具体版本未唯一确定",
+  "file": "audio/mixed/V24__mixed.m4a",
+  "bytes": 125933,
+  "sha256": "edec0fb70cf7cdb683b7fd1b46502c3f749be2a627598feadc19bbc6e8b376e1",
+  "codec": "aac",
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_sec": 15.273990929705215,
+  "output_audio_start_time": "0.000000",
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "AAC 码流复制至普通 M4A，保持 edit list 边界",
+    "stdout_saved_by_node": true,
+    "output": "seekable fd"
+  },
+  "loudness": {
+    "integrated_lufs": -16.88,
+    "true_peak_dbtp": -4.16,
+    "loudness_range_lu": 1.9,
+    "method": "FFmpeg loudnorm input measurements；未对原始混合音轨做响度归一化"
+  },
+  "content_status": "原视频的混合音轨；可能包含对白、人声、音效。不是分离后的纯BGM。",
+  "separation_status": "complete",
+  "listened": false,
+  "encoded_container_duration_sec": 15.273991,
+  "source_decoded_duration_sec": 15.273990929705215,
+  "pcm_integrity": {
+    "format": "mono float32 22050Hz",
+    "source_sha256": "d1974049210c397413e3cc27f335a5cd309526372dbbc63724e76b8a0df760a7",
+    "output_sha256": "d1974049210c397413e3cc27f335a5cd309526372dbbc63724e76b8a0df760a7",
+    "shared_prefix_samples": 336792,
+    "shared_prefix_bit_identical": true,
+    "decoded_duration_delta_ms": 0,
+    "note": "普通 M4A 使用可寻址输出文件。以源轨与封装后轨的解码 PCM 对照边界。"
+  },
+  "aac_adts_sha256": "63da067040921e9a5e30f08ee61280a9a869ef1ea88ca010cceeda591ce1e9a8",
+  "source_aac_adts_sha256": "63da067040921e9a5e30f08ee61280a9a869ef1ea88ca010cceeda591ce1e9a8",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "cf33524d8b6c9e1bb0f20cf384bb337b542cfdba065fa46fc10c3794be937bb3",
+  "source_native_pcm_sha256": "cf33524d8b6c9e1bb0f20cf384bb337b542cfdba065fa46fc10c3794be937bb3",
+  "native_pcm_format": {
+    "sample_format": "f32le",
+    "channels": 2,
+    "sample_rate": 44100,
+    "resampled": false,
+    "note": "Native-rate decoded stereo PCM, not a perceptual fingerprint. Container edit lists and padding may affect the decoded boundary."
+  },
+  "music_artist": "ptasinski & Rj Pasin",
+  "music_attribution_url": "https://music.apple.com/us/song/trainers/1801333663",
+  "music_attribution_evidence": "evidence/V24/verified/music-release-verification.json",
+  "native_decoded_samples_per_channel": 673583,
+  "no_vocals_candidate_path": "audio/music-candidates/V24__music-candidate.m4a"
+}

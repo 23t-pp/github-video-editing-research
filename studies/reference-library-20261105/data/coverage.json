@@ -1,19 +1,25 @@
 {
-  "date": "2026-11-05",
-  "videos": 20,
-  "videoSeconds": 625.2483339999999,
-  "nativeFrames": 17290,
-  "atlasPages": 299,
-  "humanAtlasPagesViewed": 111,
-  "learningChapters": 205,
-  "policy": "保留原生帧与实际PTS；没有补成60fps；60帧/页仅是图谱排版。",
+  "date": "2026-11-10",
+  "videos": 25,
+  "videoSeconds": 736.5649999999998,
+  "nativeFrames": 21198,
+  "atlasPages": 366,
+  "humanAtlasPagesViewed": 159,
+  "learningChapters": 265,
+  "policy": "原生帧保留实际 PTS，原生图谱每页最多 60 帧。V21 另有 60Hz 采样图谱，以相邻样本复用原帧，未做插帧。 V22 为原生 60fps 播放流，逐帧保留实际 PTS 与单张 JPG。 V23 按源 30fps 保存 PTS 和原尺寸 JPG。 V24 按源 30fps 保存 459 张原尺寸 JPG 和 PTS。 V25 按源 30fps 保存 637 张原尺寸 JPG 和 PTS。",
   "reviewScope": "机器逐帧数据覆盖全部；人工看全片总览/逐秒图谱及明确记录的原生帧页。缩略图查看不等于全分辨率逐帧精读。",
   "duplicateVideoGroups": [],
-  "uniqueVideoSha256": 20,
+  "uniqueVideoSha256": 25,
   "claims": {
     "allFramesDecoded": true,
     "allFramesManuallyReadAtFullResolution": false,
     "allReferencesRecreated": false,
     "exactAuthorProjectRecovered": false
+  },
+  "sampling60Hz": {
+    "id": "V21",
+    "sampleRate": 60,
+    "sampleCount": 1856,
+    "atlasPages": 31
   }
 }

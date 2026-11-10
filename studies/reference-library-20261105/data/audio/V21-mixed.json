@@ -1,0 +1,65 @@
+{
+  "id": "V21",
+  "source_video_name": "一帧一帧闪回的_是我无法割舍的_超凡蜘蛛侠_格温_了不起的混剪团_whateverhappens_蜘.mp4",
+  "source_video_sha256": "e8f5c4c5c2955cc444aa092f32a601051b009de774e7341d64026096591efda6",
+  "music_name": null,
+  "music_name_status": "未识别",
+  "file": "audio/mixed/V21__mixed.m4a",
+  "bytes": 252415,
+  "sha256": "9bf9aee84587cdeb72bb36b4ca9e038ca08491c9cfb965d7342177b7e47f3059",
+  "codec": "aac",
+  "profile": "HE-AACv2",
+  "sample_rate": 44100,
+  "channels": 2,
+  "source_audio_start_time_sec": 0.0,
+  "source_audio_stream_duration_sec": 30.97598639455782,
+  "source_video_duration_sec": 30.933333,
+  "mix_container_duration_sec": 31.13712,
+  "mix_audio_start_time_sec": 0.0,
+  "source_decoded_pcm_duration_sec": 30.97598639455782,
+  "mix_decoded_pcm_duration_sec": 31.000045351473922,
+  "duration_sec": 30.97598639455782,
+  "extraction": {
+    "audio_reencoded": false,
+    "method": "FFmpeg AAC stream copy, frag_keyframe+delay_moov"
+  },
+  "aac_packet_integrity": {
+    "source": [
+      671,
+      "36f5f387b833c6e9bd6ba6efbd997bba581dfb902efeac0f4af9180425d25234"
+    ],
+    "mixed": [
+      671,
+      "36f5f387b833c6e9bd6ba6efbd997bba581dfb902efeac0f4af9180425d25234"
+    ],
+    "match": true
+  },
+  "pcm_integrity": {
+    "format": "44100 Hz stereo float32",
+    "source_sha256": "1bd9bf870b979b832804da59c505e08e1f00284a9592798c0503a16c2153d7a6",
+    "mixed_sha256": "f8d0a6aaced8b840d04e10450ce5237c665e2abd87d604ac37bd052890296852",
+    "source_and_mix_match": false,
+    "source_prefix_matches_mixed": false,
+    "compared_prefix_matches": true,
+    "analysis_samples": 1366041,
+    "analysis_pcm_sha256": "1bd9bf870b979b832804da59c505e08e1f00284a9592798c0503a16c2153d7a6"
+  },
+  "loudness": {
+    "integrated_lufs": -6.4,
+    "true_peak_dbtp": 3.84,
+    "loudness_range_lu": 5.4,
+    "method": "FFmpeg loudnorm 原源输入测量，原混音未应用响度归一化。"
+  },
+  "title": "V21 · 原始混合音轨",
+  "content_status": "保留原视频完整混音，曲名未识别。",
+  "listened": false,
+  "separation_status": "complete",
+  "no_vocals_candidate_path": "audio/music-candidates/V21__music-candidate.m4a",
+  "source_decoded_duration_sec": 30.97598639455782,
+  "encoded_container_duration_sec": 31.13712,
+  "aac_adts_sha256": "6263e945379268b9625f9c06507906fd9889b6b336037c1a3f6160c6eb6f6465",
+  "source_aac_adts_sha256": "6263e945379268b9625f9c06507906fd9889b6b336037c1a3f6160c6eb6f6465",
+  "aac_bitstream_identical_to_source": true,
+  "native_pcm_sha256": "f8d0a6aaced8b840d04e10450ce5237c665e2abd87d604ac37bd052890296852",
+  "source_native_pcm_sha256": "1bd9bf870b979b832804da59c505e08e1f00284a9592798c0503a16c2153d7a6"
+}

@@ -2,6 +2,8 @@
 import os,json,pathlib,sys,time,logging,hashlib
 PROJECT=pathlib.Path(__file__).resolve().parents[2]
 WORK=PROJECT.parents[1]/'work'/'reference-library-20261105'
+AUDIO_WORK=pathlib.Path(os.environ.get('REF_AUDIO_WORK',WORK/'audio-work'))
+MANIFEST=pathlib.Path(os.environ.get('REF_AUDIO_MANIFEST',WORK/'manifest.local.json'))
 _dll_handles=[]
 if os.name=='nt':
     # Reuse the VC runtime already shipped with Codex; only this process sees it.
@@ -28,18 +30,18 @@ ort.SessionOptions=options
 from audio_separator.separator import Separator
 model='UVR_MDXNET_KARA_2.onnx'
 probe='--probe' in sys.argv
-out=WORK/'audio-work'/('probe-stems' if probe else 'stems')
+out=AUDIO_WORK/('probe-stems' if probe else 'stems')
 out.mkdir(parents=True,exist_ok=True)
 separator=Separator(model_file_dir=str(WORK/'models'),output_dir=str(out),output_format='WAV',output_single_stem=None if probe else 'Instrumental',use_soundfile=True,log_level=logging.INFO,normalization_threshold=0.95,amplification_threshold=0.0,sample_rate=44100,mdx_params={'hop_length':1024,'segment_size':256,'overlap':0.25,'batch_size':1,'enable_denoise':False})
 separator.load_model(model_filename=model)
-manifest=json.loads((WORK/'manifest.local.json').read_text(encoding='utf-8-sig'))
+manifest=json.loads(MANIFEST.read_text(encoding='utf-8-sig'))
 selected=[s for s in sys.argv[1:] if s.startswith('V')]
-checkpoint=WORK/'audio-work'/('separation-probe.json' if probe else 'separation-results.local.json')
+checkpoint=AUDIO_WORK/('separation-probe.json' if probe else 'separation-results.local.json')
 records=json.loads(checkpoint.read_text(encoding='utf-8')) if checkpoint.exists() else []
 for item in manifest:
     if selected and item['id'] not in selected: continue
     if probe and item['id']!=(selected[0] if selected else 'V01'): continue
-    wav=WORK/'audio-work'/(item['id']+'.stereo.wav' if not probe else item['id']+'.probe.wav')
+    wav=AUDIO_WORK/(item['id']+'.stereo.wav' if not probe else item['id']+'.probe.wav')
     if not wav.exists(): raise FileNotFoundError(str(wav))
     start=time.time()
     cached=out/(item['id']+'.stereo_(Instrumental)_'+pathlib.Path(model).stem+'.wav')

@@ -1,0 +1,43 @@
+{
+  "max_peak_search_radius_ms": 66.66666666666667,
+  "salience_heuristic": "wide flux >= 3 or low flux >= 5 or high flux >= 4; selected is strongest wide among these nearby peaks.",
+  "events": 77,
+  "events_with_nearby_salient_peak": 52,
+  "visual_train_f397_through_f457": {
+    "frames": [
+      397,
+      401,
+      405,
+      409,
+      413,
+      417,
+      421,
+      425,
+      429,
+      433,
+      437,
+      441,
+      445,
+      449,
+      453,
+      457
+    ],
+    "step_frames": 4,
+    "selected_peak_count": 12,
+    "within_20ms": 5,
+    "selected_offset_ms": [
+      8.39,
+      -27.89,
+      -64.17,
+      59.18,
+      7.94,
+      1.59,
+      42.4,
+      6.12,
+      -51.47,
+      35.6,
+      -0.68,
+      -22.0
+    ]
+  }
+}

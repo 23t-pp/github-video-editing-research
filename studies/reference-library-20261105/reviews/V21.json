@@ -1,0 +1,877 @@
+[
+  {
+    "id": "V21",
+    "title": "超凡蜘蛛侠与格温 · 记忆线轨与闪回",
+    "difficulty": "4/5（完整视觉复练）；三竖窗原型 2/5",
+    "summary": "眼罩文字、格温坠落与花束构成对照。五线与圆点先点亮软边回忆，随后与蜘蛛丝、钟面和左侧回忆窗反复呼应。手机合照被三条墓地竖窗依次换下，星尘保形后回到坠地。",
+    "starter": "先练手机照到墓地的三条竖窗。左、中、右各做一次短白层和换景，核对 S1302、S1338、S1378，最后再处理分层遮挡。",
+    "text_analysis": "镜片内白字、格温身后弧形白字、见面时粉紫半调大字构成三层表达。中段底部用小号白字承担语句。字体、插件和原始曲线需作者工程确认。",
+    "source": {
+      "sha256": "e8f5c4c5c2955cc444aa092f32a601051b009de774e7341d64026096591efda6",
+      "duration": 30.933333,
+      "container_duration": 30.975986,
+      "width": 1620,
+      "height": 1080,
+      "fps": "30/1",
+      "native_frame_count": 928,
+      "last_frame_pts": 30.9,
+      "variable_frame_rate_observed": false
+    },
+    "sampling": {
+      "sample_rate": 60,
+      "sample_count": 1856,
+      "repeated_source_count": 928,
+      "mapping": "S=2N 或 2N+1",
+      "report": "data/frame-analysis/V21-60hz.json"
+    },
+    "human_viewed": {
+      "overview": true,
+      "native_pages": [
+        "native-detail-01.jpg",
+        "native-detail-02.jpg",
+        "native-detail-03.jpg",
+        "native-detail-04.jpg",
+        "native-detail-05.jpg",
+        "native-detail-06.jpg",
+        "native-detail-07.jpg",
+        "native-detail-08.jpg",
+        "native-detail-09.jpg",
+        "native-detail-10.jpg",
+        "native-detail-11.jpg",
+        "native-detail-12.jpg",
+        "native-detail-13.jpg",
+        "native-detail-14.jpg",
+        "native-detail-15.jpg",
+        "native-detail-16.jpg"
+      ],
+      "native_pages_total": 16,
+      "full_size_keyframes_reviewed": 47,
+      "all_native_frames_individually_reviewed": false,
+      "scope_note": "独立复核了全部 16 页原帧缩略图与 47 张原尺寸关键帧。"
+    },
+    "source_boundary": "画面证据来自成片。配方是复练建议。原片自带镜头运动、蛛丝特效与作者新增图层的归属需对照未剪素材。",
+    "techniques": [
+      "眼罩贴景字与发丝遮挡",
+      "半调大字",
+      "五线轨道与圆点点亮",
+      "软边回忆叠层",
+      "横向故障与RGB错位",
+      "三竖窗顺次换景",
+      "钟面反复闪回",
+      "保形星尘与左窗记忆"
+    ],
+    "materials": [
+      "同一人物不同情绪的特写",
+      "能保留眼罩、发丝或伞边的动态遮罩",
+      "有固定视点的手机照和墓地镜头",
+      "方向明确的线状动作与可重复的钟面底景"
+    ],
+    "capability_alignment": [
+      "OpenChatCut 用于镜头、原混音、分轨及基础竖窗。",
+      "HyperFrames 可用 SVG path、mask、文字与多层透明度复练轨道、遮挡和贴景字。",
+      "人物保形星尘需要人物与伞的时序遮罩。复练结果需检查发丝、伞边及背景稳定性。"
+    ],
+    "segments": [
+      {
+        "start": 0,
+        "end": 1.466667,
+        "label": "眼罩里的字",
+        "observed": "暗红面罩与蓝色镜片逐渐放大，白色窄粗体约 N5 起从词尾向词首显露，字沿眼罩下缘上扬且被黑边切断；N40–43 与格温正脸叠影。",
+        "recipe": "以眼罩动画遮罩为上界，做一条弯曲文字，再给局部透视与轻辉光。先显示右端字母，再逐段往左显露；镜片纹路、人物反影仍可读。",
+        "confidence": "高：几何和遮挡清晰；跟踪方法未知。",
+        "evidence_frames": [
+          {
+            "frame": 20,
+            "pts": 0.666667,
+            "description": "字和反影共用镜片区域，左端被黑框盖住",
+            "sample60": 40
+          },
+          {
+            "frame": 42,
+            "pts": 1.4,
+            "description": "面罩与坠落正脸叠化",
+            "sample60": 84
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0000040.jpg",
+          "evidence/V21/samples-60hz/S0000084.jpg"
+        ],
+        "sample_range60": [
+          0,
+          88
+        ]
+      },
+      {
+        "start": 1.466667,
+        "end": 2.433333,
+        "label": "白字转进格温身后",
+        "observed": "坠落镜中白色大写沿画左由下向上成弧，格温居中，发丝与肩部挡住部分字，白字外有淡蓝辉光。",
+        "recipe": "三层合成：镜头底图 → 弧形白字 → 动态人物轮廓。保持人眼落在上中部，发丝边缘只做小幅羽化。",
+        "confidence": "高：人物遮挡可见；原字体未知。",
+        "evidence_frames": [
+          {
+            "frame": 57,
+            "pts": 1.9,
+            "description": "字从格温左肩外绕向发丝后方",
+            "sample60": 114
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0000114.jpg"
+        ],
+        "sample_range60": [
+          88,
+          146
+        ]
+      },
+      {
+        "start": 2.433333,
+        "end": 2.566667,
+        "label": "横向白板递接",
+        "observed": "N73 下约 45% 变白，N74 在同一水平边界上方保留旧镜、下方显示花束新镜，并整体泛白；N75–76 上约 55% 变白，下方新镜仍在；N77 全屏新镜。",
+        "recipe": "固定画高约 55% 的横切边，分别控制上、下块画面与白板；N74 给两块各自短的浅白叠层。位置变化来自替换区域。",
+        "confidence": "高：原尺寸看见硬边。",
+        "evidence_frames": [
+          {
+            "frame": 73,
+            "pts": 2.433333,
+            "description": "旧镜在上、白板在下",
+            "sample60": 146
+          },
+          {
+            "frame": 74,
+            "pts": 2.466667,
+            "description": "同帧上下是不同镜头",
+            "sample60": 148
+          },
+          {
+            "frame": 75,
+            "pts": 2.5,
+            "description": "白板改在上、下保留花束新镜",
+            "sample60": 150
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0000146.jpg",
+          "evidence/V21/samples-60hz/S0000148.jpg",
+          "evidence/V21/samples-60hz/S0000150.jpg"
+        ],
+        "sample_range60": [
+          146,
+          154
+        ]
+      },
+      {
+        "start": 2.566667,
+        "end": 4.533333,
+        "label": "花束与半调大字",
+        "observed": "明亮建筑里格温在左、彼得在右，花束自下升到中间。白到粉紫的高窄巨字在两人和花束后，填有规则圆点，描边和外辉光保留。N133–135 淡到两人同向看向外部的远一些的镜位。",
+        "recipe": "统一选同词作为开场反复母题。背景上做渐变和网点字，花束加独立遮罩，人物遮住文字；花束进入后留足约 1.8 秒让姿态和字形被看懂。",
+        "confidence": "高：三重遮挡及网点清晰；字形被遮处无法逐字核实。",
+        "evidence_frames": [
+          {
+            "frame": 90,
+            "pts": 3,
+            "description": "花束、双人轮廓和发光半调字的层级",
+            "sample60": 180
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0000180.jpg"
+        ],
+        "sample_range60": [
+          154,
+          272
+        ]
+      },
+      {
+        "start": 4.533333,
+        "end": 5.833333,
+        "label": "二人中景横糊进夜景",
+        "observed": "双人同向看；N158 左右开始水平拖影，N164–169 暗夜来镜与旧镜残影相叠，N170 后夜景占主，彼得在右回看左侧。",
+        "recipe": "以水平模糊盖住短叠化，让旧镜从一侧退出，接右侧稳定的彼得。先控制横移和交接，再添加模糊；模糊落定后立即让脸可读。",
+        "confidence": "高：横向拖影与双层混合可见；左右底层速度曲线只可近似。",
+        "evidence_frames": [
+          {
+            "frame": 164,
+            "pts": 5.466667,
+            "description": "来镜灯点与旧镜人物的水平拖影同时存在",
+            "sample60": 328
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0000328.jpg"
+        ],
+        "sample_range60": [
+          272,
+          350
+        ]
+      },
+      {
+        "start": 5.833333,
+        "end": 8.066667,
+        "label": "五条轨道点亮左侧回忆",
+        "observed": "左侧是黑底星尘人形，右侧彼得维持回望。约 N175 起五条白线由画右向左延伸，头肩遮线；N188 首环出现，后续圆点在不同高度由白心变为空心，触发软边格温片段层层叠上。N218 后大脸压到前层，N233 后校服片段在左缘亮起。",
+        "recipe": "在 y≈27/40/53/66/78% 布置五条 SVG 路径；加彼得头肩动态遮罩。用圆点与扩环触发羽化片段，片段缩放、透明度、暗角独立；左侧星尘裁进人形，右脸不糊。",
+        "confidence": "高：线序、圆环及遮挡清晰；可见圆环不等于每处都有同样的运动曲线。",
+        "evidence_frames": [
+          {
+            "frame": 175,
+            "pts": 5.833333,
+            "description": "右侧轨线最先露出，遇右脸中断",
+            "sample60": 350
+          },
+          {
+            "frame": 188,
+            "pts": 6.266667,
+            "description": "线齐后首个白点亮起",
+            "sample60": 376
+          },
+          {
+            "frame": 194,
+            "pts": 6.466667,
+            "description": "多个环与回忆先后重叠",
+            "sample60": 388
+          },
+          {
+            "frame": 200,
+            "pts": 6.666667,
+            "description": "五线与头肩遮挡，多个软边人脸并存",
+            "sample60": 400
+          },
+          {
+            "frame": 219,
+            "pts": 7.3,
+            "description": "更大的低头人脸覆盖先前片段",
+            "sample60": 438
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0000350.jpg",
+          "evidence/V21/samples-60hz/S0000376.jpg",
+          "evidence/V21/samples-60hz/S0000388.jpg",
+          "evidence/V21/samples-60hz/S0000400.jpg",
+          "evidence/V21/samples-60hz/S0000438.jpg"
+        ],
+        "sample_range60": [
+          350,
+          484
+        ]
+      },
+      {
+        "start": 8.066667,
+        "end": 8.7,
+        "label": "碰额成为记忆主画面",
+        "observed": "N242 有一次短模糊，随后暖脸蓝衣的双人碰额在画中偏右快速变成最大记忆层，跨入彼得暗肩区域；左侧人脸和细线仍可见。",
+        "recipe": "不用切掉夜景底片，把双人图层在数帧内前推放大，做有机软边与一瞬方向模糊；让彼得眼睛仍从右上看向这层。",
+        "confidence": "高：主回忆盖到暗肩，精确 matte 形状未知。",
+        "evidence_frames": [
+          {
+            "frame": 245,
+            "pts": 8.166667,
+            "description": "暖色双人碰额层跨越多条轨道和前一记忆",
+            "sample60": 490
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0000490.jpg"
+        ],
+        "sample_range60": [
+          484,
+          522
+        ]
+      },
+      {
+        "start": 8.7,
+        "end": 10.633333,
+        "label": "RGB 撕裂把软回忆改成整镜",
+        "observed": "N261–264 畸变后进暖色摸脸近景；N274–283 色边、变暗、划痕把画面带入近黑；N284–293 白天两人笑场由暗转亮、经历 RGB 色差和条带扰动。N306 左右再次出现水平扭曲，N312–318 再归暗。底部小字在镜间延续。",
+        "recipe": "把亮度包络、RGB 位移、少量水平条带错位和划痕分别控制，强效果优先放交界；留出中段清晰笑容。连续字幕层置于视觉安全区；若要仿效字幕一并变形，在组合层局部施加扰动。",
+        "confidence": "高：跨图层畸变与色边可见；是否为特定插件不可知。",
+        "evidence_frames": [
+          {
+            "frame": 262,
+            "pts": 8.733333,
+            "description": "新脸及底部小字均发生重影与分色",
+            "sample60": 524
+          },
+          {
+            "frame": 275,
+            "pts": 9.166667,
+            "description": "短时变暗且带 RGB 色边",
+            "sample60": 550
+          },
+          {
+            "frame": 290,
+            "pts": 9.666667,
+            "description": "白天来镜受横向条带扰动",
+            "sample60": 580
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0000524.jpg",
+          "evidence/V21/samples-60hz/S0000550.jpg",
+          "evidence/V21/samples-60hz/S0000580.jpg"
+        ],
+        "sample_range60": [
+          522,
+          638
+        ]
+      },
+      {
+        "start": 10.633333,
+        "end": 11.966667,
+        "label": "冷脸到暖走廊的曝光过桥",
+        "observed": "N319 起是格温蓝暗正脸；N333–342 左侧暖光变大并盖画，N335–336 接近全白，随后退到明亮校服走廊对戏。N356–358 双人镜位有轻糊/亮暗起伏。",
+        "recipe": "对冷画和亮画各自调曝光，再叠暖色漏光，让漏光峰遮切点，接来镜的窗光；不使用方形白板替代软边扩散。",
+        "confidence": "高：暖泛光的方向和入镜次序清楚。",
+        "evidence_frames": [
+          {
+            "frame": 335,
+            "pts": 11.166667,
+            "description": "全屏近白、右缘仍有暖色梯度",
+            "sample60": 670
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0000670.jpg"
+        ],
+        "sample_range60": [
+          638,
+          718
+        ]
+      },
+      {
+        "start": 11.966667,
+        "end": 14.433333,
+        "label": "反打到墓地",
+        "observed": "彼得在左往右看，N371–372 两帧横糊，N373 起格温在右往左看。N391 是格温脸与 RGB 横条，N392 转至墓地，N396 后逐渐稳定；N429–432 墓地和蜘蛛侠空中画面叠影。",
+        "recipe": "保持反打眼线和左右方向；格温笑容到墓地用短 RGB/亮度冲击；墓地到空中伸手改用低亮度叠化，避免每个切点同一预设。",
+        "confidence": "高：镜位及切换可直接检查。",
+        "evidence_frames": [
+          {
+            "frame": 391,
+            "pts": 13.033333,
+            "description": "来镜之前的出镜人脸出现高亮色差和分层横条",
+            "sample60": 782
+          },
+          {
+            "frame": 430,
+            "pts": 14.333333,
+            "description": "墓地人物与蜘蛛侠动作处于同帧",
+            "sample60": 860
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0000782.jpg",
+          "evidence/V21/samples-60hz/S0000860.jpg"
+        ],
+        "sample_range60": [
+          718,
+          866
+        ]
+      },
+      {
+        "start": 14.433333,
+        "end": 15.6,
+        "label": "手势接丝尖",
+        "observed": "蜘蛛侠伸手近景，红手套先占画中偏左与近前景，收势至中部偏下；N461 切成从右连入、尖朝左的丝，丝尖继续向画左推进。",
+        "recipe": "基础剪辑保留两个动作镜；对齐手指伸出和分叉丝尖的形状与相位。若找不到真实丝镜，用有分支的跟踪透明层并验收透视、遮挡。",
+        "confidence": "高：动作与形状对应；电影底片是否原带这组连续镜次未比对。",
+        "evidence_frames": [
+          {
+            "frame": 461,
+            "pts": 15.366667,
+            "description": "丝尖处在画宽约 45%，从右侧连入并向左推进",
+            "sample60": 922
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0000922.jpg"
+        ],
+        "sample_range60": [
+          866,
+          936
+        ]
+      },
+      {
+        "start": 15.6,
+        "end": 17.833333,
+        "label": "蜘蛛丝上的第二轮点亮",
+        "observed": "N468 开始五线由右向左进；N484 第一个实心点在右侧第三线，然后空心环带出右侧格温低头脸。N499–509 左下与上中依次亮，N514–526 左中、左上又出现，N526 起右下补一层。白线在发丝、人物和亮丝处有深浅遮挡。",
+        "recipe": "复用第一次的五条路径高度与实点→空环，但此次铺满全屏；按右中→左下→上中→左侧→右下顺序启用面孔，保留丝作为跨镜视觉基准。每个节点要能独立调进入帧和遮罩。",
+        "confidence": "高：先后、遮挡与双轮图形高度可观察。",
+        "evidence_frames": [
+          {
+            "frame": 468,
+            "pts": 15.6,
+            "description": "五条线仅在画面右沿出现",
+            "sample60": 936
+          },
+          {
+            "frame": 484,
+            "pts": 16.133333,
+            "description": "右侧第三线上的首个实心点",
+            "sample60": 968
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0000936.jpg",
+          "evidence/V21/samples-60hz/S0000968.jpg"
+        ],
+        "sample_range60": [
+          936,
+          1070
+        ]
+      },
+      {
+        "start": 17.833333,
+        "end": 18.766667,
+        "label": "直线扭成曲线，故障切回坠地",
+        "observed": "N535–537 出现短分色和变形，线变为多段连续弯曲，人物层铺满、丝仍横跨。N557 亮色故障的内容仍是记忆，N558 色条下已经是近地坠落镜，N563 左右回稳。",
+        "recipe": "用可插值的 Bézier/SVG path 把各直线改成弯线，局部被脸遮住；把丝保留在前景但允许中段人像局部遮挡。故障强度峰跨两个原帧：出镜亮帧、入镜分色帧。",
+        "confidence": "高：前后帧内容与线形明显；插件不可判定。",
+        "evidence_frames": [
+          {
+            "frame": 535,
+            "pts": 17.833333,
+            "description": "曲线变形与短时 RGB 拉偏",
+            "sample60": 1070
+          },
+          {
+            "frame": 550,
+            "pts": 18.333333,
+            "description": "稳定曲线、多面孔与亮丝层级",
+            "sample60": 1100
+          },
+          {
+            "frame": 557,
+            "pts": 18.566667,
+            "description": "出镜记忆在故障层中",
+            "sample60": 1114
+          },
+          {
+            "frame": 558,
+            "pts": 18.6,
+            "description": "入镜坠落在故障层中",
+            "sample60": 1116
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0001070.jpg",
+          "evidence/V21/samples-60hz/S0001100.jpg",
+          "evidence/V21/samples-60hz/S0001114.jpg",
+          "evidence/V21/samples-60hz/S0001116.jpg"
+        ],
+        "sample_range60": [
+          1070,
+          1126
+        ]
+      },
+      {
+        "start": 18.766667,
+        "end": 21.7,
+        "label": "坠落、手托脸、手机照",
+        "observed": "冷蓝的近地画面接彼得俯身，约 N578–581 双影，N598–602 转进更近的彼得；N615 后红手套抬过脸，N634–638 叠化成亮蓝手机自拍。",
+        "recipe": "保留实体动作作为桥：坠落底片 → 手托脸近景 → 手机屏内脸，三段把视觉重心从低处抬到屏幕中间。照片镜头可使用源镜手机屏，没现成的才做平面跟踪。",
+        "confidence": "高：多段叠化可见；无法从成片唯一确认手机照片是否另做合成。",
+        "evidence_frames": [
+          {
+            "frame": 563,
+            "pts": 18.766667,
+            "description": "首轮坠地/悬吊镜的低机位",
+            "sample60": 1126
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0001126.jpg"
+        ],
+        "sample_range60": [
+          1126,
+          1302
+        ]
+      },
+      {
+        "start": 21.7,
+        "end": 23.566667,
+        "label": "手机被左中右三条墓地依次替代",
+        "observed": "N651/G1302 先闪左栏，约 N658 显出西装彼得；N669/G1338 闪中栏，显出戴帽彼得；N689/G1378 闪右栏，第三个彼得出现。左右旧画仍保留到相应栏位点亮，最后整组三栏一起水平拖糊。",
+        "recipe": "以 x≈35%、70% 设分界，三栏各准备一段墓地素材和单独白色矩形，左中右启动后各自做约 6–9 个原帧的白到图；保持天空、地平和人物尺度的关系，再对三栏整体做水平模糊。",
+        "confidence": "高：不是同一画面连续揭幕；服装和站位明确不同。",
+        "evidence_frames": [
+          {
+            "frame": 651,
+            "pts": 21.7,
+            "description": "左栏先白，手机仍在右边",
+            "sample60": 1302
+          },
+          {
+            "frame": 660,
+            "pts": 22,
+            "description": "左栏墓地、其余仍是手机",
+            "sample60": 1320
+          },
+          {
+            "frame": 669,
+            "pts": 22.3,
+            "description": "中栏白、左墓地、右手机同时可见",
+            "sample60": 1338
+          },
+          {
+            "frame": 689,
+            "pts": 22.966667,
+            "description": "右栏白，左中都是墓地但彼得服装不同",
+            "sample60": 1378
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0001302.jpg",
+          "evidence/V21/samples-60hz/S0001320.jpg",
+          "evidence/V21/samples-60hz/S0001338.jpg",
+          "evidence/V21/samples-60hz/S0001378.jpg"
+        ],
+        "sample_range60": [
+          1302,
+          1414
+        ]
+      },
+      {
+        "start": 23.566667,
+        "end": 24.2,
+        "label": "近处回头，远处转身",
+        "observed": "水平模糊后切入走道。彼得在左近处，格温在右远处背身，彼得回望，格温末段略有回转；底中出现简短中文字。",
+        "recipe": "让相背关系由演员位置、景深和转头承担。尾段保持左近右远，为下面全屏钟面提供构图反差。",
+        "confidence": "高：画面关系可见；角色具体动机是解读。",
+        "evidence_frames": [
+          {
+            "frame": 710,
+            "pts": 23.666667,
+            "description": "彼得在左近处回望、格温在右远处背对，底部显示角色名",
+            "sample60": 1420
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0001420.jpg"
+        ],
+        "sample_range60": [
+          1414,
+          1452
+        ]
+      },
+      {
+        "start": 24.2,
+        "end": 25.4,
+        "label": "同一钟面三次交替动作",
+        "observed": "N726 起斜钟面；N732–737 叠到蜘蛛侠近身拉住格温，再回钟；N742–749 叠入远一点的两人全身后回钟；N753–755 第三次从钟叠入双人，N756–761 保留动作。",
+        "recipe": "放一段不断续的钟面底片，用三组独立透明度脉冲插入双人动作，前两组各有清楚的回钟；最后让动作停住给下一镜。观察点是钟针是否真的在中间重新出现。",
+        "confidence": "高：重复钟面与三次可见脉冲；底片是否连续播放无法确定。",
+        "evidence_frames": [
+          {
+            "frame": 734,
+            "pts": 24.466667,
+            "description": "近身动作与钟面残影",
+            "sample60": 1468
+          },
+          {
+            "frame": 742,
+            "pts": 24.733333,
+            "description": "第二次，钟面和全身同时可见",
+            "sample60": 1484
+          },
+          {
+            "frame": 749,
+            "pts": 24.966667,
+            "description": "第二次退回钟面",
+            "sample60": 1498
+          },
+          {
+            "frame": 757,
+            "pts": 25.233333,
+            "description": "第三次动作完全显出",
+            "sample60": 1514
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0001468.jpg",
+          "evidence/V21/samples-60hz/S0001484.jpg",
+          "evidence/V21/samples-60hz/S0001498.jpg",
+          "evidence/V21/samples-60hz/S0001514.jpg"
+        ],
+        "sample_range60": [
+          1452,
+          1524
+        ]
+      },
+      {
+        "start": 25.4,
+        "end": 27.833333,
+        "label": "格温变成保形星尘",
+        "observed": "格温右侧着帽持伞，左侧暗蓝失焦背景保持。约 N783–790 粒子浮到人脸与伞，原有脸、衣服褪暗；之后只剩黑色人物与伞轮廓，里面有白色流动短线。",
+        "recipe": "动态 rotoscope 同时跟踪人物、头发和伞，轮廓里叠近黑底及会转动的白色短粒流，沿相同遮罩反向降低原人物层。背景不得一起消失。",
+        "confidence": "高：形内粒子、形外背景保留；原粒子模拟与遮罩资产不可反推。",
+        "evidence_frames": [
+          {
+            "frame": 784,
+            "pts": 26.133333,
+            "description": "人物仍可辨识，粒子已经局部出现",
+            "sample60": 1568
+          },
+          {
+            "frame": 810,
+            "pts": 27,
+            "description": "人和伞都成为同一材质的保形空壳",
+            "sample60": 1620
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0001568.jpg",
+          "evidence/V21/samples-60hz/S0001620.jpg"
+        ],
+        "sample_range60": [
+          1524,
+          1670
+        ]
+      },
+      {
+        "start": 27.833333,
+        "end": 29.733333,
+        "label": "左侧格温闪回与右侧丝尖连续镜",
+        "observed": "N835–837 左脸先快闪，N838–846 主要只剩亮丝；N847–856 第二张脸，N857–863 再退黑；N864–875 校服笑脸；约 N876–891 冷色帽檐脸延续。右侧丝尖始终指向左，画面位置总体却由中部退向右侧、形状缩合。",
+        "recipe": "用连续亮丝右层和可切换左侧羽化窗口，建立可见—消失—再可见的不同长度，丝尖位置从约 49%/52% 经过 57% 到约 72% 画宽；保留左脸和右丝可同时阅读。",
+        "confidence": "高：画中实测方向可区分于丝尖朝向；原速度变换未知。",
+        "evidence_frames": [
+          {
+            "frame": 835,
+            "pts": 27.833333,
+            "description": "第一张脸与丝尖同时出现",
+            "sample60": 1670
+          },
+          {
+            "frame": 847,
+            "pts": 28.233333,
+            "description": "下一张脸起亮时，丝仍在同一镜",
+            "sample60": 1694
+          },
+          {
+            "frame": 850,
+            "pts": 28.333333,
+            "description": "较清晰的暖色笑脸",
+            "sample60": 1700
+          },
+          {
+            "frame": 870,
+            "pts": 29,
+            "description": "校服笑脸，丝尖继续偏右",
+            "sample60": 1740
+          },
+          {
+            "frame": 890,
+            "pts": 29.666667,
+            "description": "冷色帽檐脸，丝尖缩到更右",
+            "sample60": 1780
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0001670.jpg",
+          "evidence/V21/samples-60hz/S0001694.jpg",
+          "evidence/V21/samples-60hz/S0001700.jpg",
+          "evidence/V21/samples-60hz/S0001740.jpg",
+          "evidence/V21/samples-60hz/S0001780.jpg"
+        ],
+        "sample_range60": [
+          1670,
+          1784
+        ]
+      },
+      {
+        "start": 29.733333,
+        "end": 30.933333,
+        "label": "一原帧近黑、重回坠地",
+        "observed": "N892/G1784–1785 为近黑，N893 进低角度，N894 头部贴近地板，随后衣发向上、蜘蛛丝悬起身体，N923 左右开始收黑。与约 18.6 秒段落重现相同场景、动作位置和焦点。",
+        "recipe": "在两层回忆后，留一原帧近黑，再接低视点接触镜与短淡出。保留落地和悬吊动作连续；以同一动作场景回扣为原则，不要求使用完全相同取段。",
+        "confidence": "高：黑帧和重复场景清晰；两处是否逐帧同源暂未比对。",
+        "evidence_frames": [
+          {
+            "frame": 892,
+            "pts": 29.733333,
+            "description": "近黑过桥，缩略图均值 0.17/255",
+            "sample60": 1784
+          },
+          {
+            "frame": 894,
+            "pts": 29.8,
+            "description": "落地近景的头发和地面接触点",
+            "sample60": 1788
+          },
+          {
+            "frame": 920,
+            "pts": 30.666667,
+            "description": "同镜已明显悬吊，之后慢收黑",
+            "sample60": 1840
+          }
+        ],
+        "evidence": [
+          "evidence/V21/samples-60hz/S0001784.jpg",
+          "evidence/V21/samples-60hz/S0001788.jpg",
+          "evidence/V21/samples-60hz/S0001840.jpg"
+        ],
+        "sample_range60": [
+          1784,
+          1856
+        ]
+      }
+    ],
+    "catalog_examples": [
+      {
+        "technique_id": "T10",
+        "range": [
+          0,
+          4.533333
+        ],
+        "anchors": [
+          [
+            20,
+            "眼罩边缘裁切白字"
+          ],
+          [
+            57,
+            "白字绕入格温发丝后"
+          ],
+          [
+            90,
+            "粉紫半调大字位于人物和花束之后"
+          ]
+        ],
+        "label": "同词的三种贴景方式",
+        "precision": "学习区间与原帧锚点，结束时间不含"
+      },
+      {
+        "technique_id": "T17",
+        "range": [
+          5.833333,
+          8.066667
+        ],
+        "anchors": [
+          [
+            188,
+            "五线齐后首个白点亮起"
+          ],
+          [
+            200,
+            "彼得头肩挡住轨线，左侧多脸并存"
+          ]
+        ],
+        "label": "线与圆点建立回忆索引",
+        "precision": "学习区间与原帧锚点，结束时间不含"
+      },
+      {
+        "technique_id": "T17",
+        "range": [
+          15.6,
+          18.766667
+        ],
+        "anchors": [
+          [
+            484,
+            "右侧第三轨首个实心点"
+          ],
+          [
+            535,
+            "线扭为曲线并伴随分色"
+          ],
+          [
+            550,
+            "多张脸与亮丝共用变形轨线"
+          ]
+        ],
+        "label": "轨迹母题随蜘蛛丝再次出现",
+        "precision": "学习区间与原帧锚点，结束时间不含"
+      },
+      {
+        "technique_id": "T05",
+        "range": [
+          21.7,
+          23.566667
+        ],
+        "anchors": [
+          [
+            651,
+            "左栏白场，手机仍在右"
+          ],
+          [
+            669,
+            "中栏白、左墓地、右手机并存"
+          ],
+          [
+            689,
+            "右栏白，墓地人物服装有区别"
+          ]
+        ],
+        "label": "三竖窗独立闪白与换景",
+        "precision": "学习区间与原帧锚点，结束时间不含"
+      },
+      {
+        "technique_id": "T02",
+        "range": [
+          24.2,
+          25.4
+        ],
+        "anchors": [
+          [
+            734,
+            "近身动作与钟面共显"
+          ],
+          [
+            749,
+            "从第二次动作回到钟面"
+          ],
+          [
+            757,
+            "第三次动作成为主体"
+          ]
+        ],
+        "label": "同一钟面反复作为闪回锚点",
+        "precision": "学习区间与原帧锚点，结束时间不含"
+      },
+      {
+        "technique_id": "T09",
+        "range": [
+          25.4,
+          27.833333
+        ],
+        "anchors": [
+          [
+            784,
+            "格温仍可辨认，细点开始出现"
+          ],
+          [
+            810,
+            "人物与伞保留轮廓，内部换为星尘"
+          ]
+        ],
+        "label": "动态轮廓内材质替换",
+        "precision": "学习区间与原帧锚点，结束时间不含"
+      },
+      {
+        "technique_id": "T11",
+        "range": [
+          8.7,
+          10.633333
+        ],
+        "anchors": [
+          [
+            262,
+            "人脸及底部小字同显分色重影"
+          ],
+          [
+            290,
+            "横向条带扰动白天来镜"
+          ]
+        ],
+        "label": "故障横条与分色连接",
+        "precision": "学习区间与原帧锚点，结束时间不含"
+      }
+    ]
+  }
+]

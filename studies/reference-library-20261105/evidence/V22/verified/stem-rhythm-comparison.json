@@ -1,0 +1,50 @@
+{
+  "mix": {
+    "rmsDbFS": -6.362,
+    "samples": 836575,
+    "wide": {
+      "periodSeconds": 0.2605499999999953,
+      "eighthToQuarterBPM": 115.14104778353692,
+      "phaseSeconds": 0.0164621383331298,
+      "phaseConcentration": 0.4578985094278474
+    },
+    "low": {
+      "periodSeconds": 0.2605499999999953,
+      "eighthToQuarterBPM": 115.14104778353692,
+      "phaseSeconds": 0.022934180141350603,
+      "phaseConcentration": 0.491805747484999
+    }
+  },
+  "music-candidate": {
+    "rmsDbFS": -9.729,
+    "samples": 836575,
+    "wide": {
+      "periodSeconds": 0.26057999999999526,
+      "eighthToQuarterBPM": 115.12779184895443,
+      "phaseSeconds": 0.021621036969770042,
+      "phaseConcentration": 0.6367222967706905
+    },
+    "low": {
+      "periodSeconds": 0.2606699999999952,
+      "eighthToQuarterBPM": 115.08804235240171,
+      "phaseSeconds": 0.02362552422266625,
+      "phaseConcentration": 0.8182886354816968
+    }
+  },
+  "residual": {
+    "rmsDbFS": -10.819,
+    "samples": 836575,
+    "wide": {
+      "periodSeconds": 0.2605499999999953,
+      "eighthToQuarterBPM": 115.14104778353692,
+      "phaseSeconds": 0.2564650072924677,
+      "phaseConcentration": 0.17504437081659124
+    },
+    "low": {
+      "periodSeconds": 0.26072999999999513,
+      "eighthToQuarterBPM": 115.06155793349657,
+      "phaseSeconds": 0.25541617924878995,
+      "phaseConcentration": 0.19376317761833262
+    }
+  }
+}

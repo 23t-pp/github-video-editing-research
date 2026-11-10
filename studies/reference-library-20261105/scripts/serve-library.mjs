@@ -23,7 +23,7 @@ const server=http.createServer((req,res)=>{
  let m=/^\/media\/(V\d{2})$/.exec(u);if(m)return media.has(m[1])?file(req,res,media.get(m[1])):end(res,404,'原视频只保留在你的电脑；请配置local-media-paths.json');
  m=/^\/frame\/(V\d{2})\/(\d+)\.jpg$/.exec(u);
  if(m){const id=m[1],n=Number(m[2]),item=frames.find(v=>v.id===id);if(!media.has(id)||!item||n>=Number(item.frameCount))return end(res,404,'原帧不可用');
-  const ff=process.env.FFMPEG_PATH||'C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe';const child=spawn(ff,['-v','error','-nostdin','-threads','2','-i',media.get(id),'-an','-vf',`select=eq(n\\,${n})`,'-frames:v','1','-fps_mode','passthrough','-q:v','2','-f','image2pipe','pipe:1'],{windowsHide:true});
+  const ff=process.env.FFMPEG_PATH||'ffmpeg';const child=spawn(ff,['-v','error','-nostdin','-threads','2','-i',media.get(id),'-an','-vf',`select=eq(n\\,${n})`,'-frames:v','1','-fps_mode','passthrough','-q:v','2','-f','image2pipe','pipe:1'],{windowsHide:true});
   const chunks=[];child.stdout.on('data',b=>chunks.push(b));child.stderr.resume();child.on('error',()=>{if(!res.writableEnded)end(res,500,'FFmpeg不可用');});res.on('close',()=>{if(child.exitCode===null)child.kill();});
   child.on('close',c=>{if(res.writableEnded||res.destroyed)return;if(c!==0)return end(res,500,'解码失败');const b=Buffer.concat(chunks);res.writeHead(200,{'Content-Type':'image/jpeg','Content-Length':b.length,'Cache-Control':'private, max-age=3600'});res.end(b);});return;
  }

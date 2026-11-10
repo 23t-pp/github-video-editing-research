@@ -1,0 +1,110 @@
+[
+  {
+    "event": "F397 diagonal upper-left",
+    "flash_frame": 397,
+    "normal_frame": 398,
+    "inside": {
+      "roi_xyxy": [
+        120,
+        130,
+        350,
+        320
+      ],
+      "flash_mean_luma": 246.56,
+      "next_mean_luma": 36.41,
+      "mean_abs_luma_difference": 210.16
+    },
+    "outside": {
+      "roi_xyxy": [
+        1040,
+        760,
+        1310,
+        920
+      ],
+      "flash_mean_luma": 61.94,
+      "next_mean_luma": 62.16,
+      "mean_abs_luma_difference": 4.26
+    }
+  },
+  {
+    "event": "F401 diagonal center",
+    "flash_frame": 401,
+    "normal_frame": 402,
+    "inside": {
+      "roi_xyxy": [
+        680,
+        520,
+        870,
+        670
+      ],
+      "flash_mean_luma": 196.74,
+      "next_mean_luma": 124.81,
+      "mean_abs_luma_difference": 91.81
+    },
+    "outside": {
+      "roi_xyxy": [
+        120,
+        100,
+        350,
+        250
+      ],
+      "flash_mean_luma": 40.29,
+      "next_mean_luma": 40.39,
+      "mean_abs_luma_difference": 0.98
+    }
+  },
+  {
+    "event": "F405 diagonal lower-right",
+    "flash_frame": 405,
+    "normal_frame": 406,
+    "inside": {
+      "roi_xyxy": [
+        1120,
+        775,
+        1340,
+        940
+      ],
+      "flash_mean_luma": 243.21,
+      "next_mean_luma": 38.42,
+      "mean_abs_luma_difference": 209.55
+    },
+    "outside": {
+      "roi_xyxy": [
+        110,
+        90,
+        350,
+        240
+      ],
+      "flash_mean_luma": 39.63,
+      "next_mean_luma": 39.45,
+      "mean_abs_luma_difference": 0.62
+    }
+  },
+  {
+    "event": "F506 grayscale audience",
+    "flash_frame": 506,
+    "normal_frame": 507,
+    "inside": {
+      "roi_xyxy": [
+        440,
+        640,
+        1010,
+        930
+      ],
+      "flash_mean_luma": 225.15,
+      "next_mean_luma": 80.99,
+      "mean_abs_luma_difference": 157.62
+    },
+    "outside": {
+      "roi_xyxy": [
+        440,
+        160,
+        1010,
+        390
+      ],
+      "flash_mean_luma": 64.97,
+      "next_mean_luma": 65.04,
+      "mean_abs_luma_difference": 0.29
+    }
+  }
+]

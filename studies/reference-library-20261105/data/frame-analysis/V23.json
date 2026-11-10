@@ -1,0 +1,488 @@
+{
+  "id": "V23",
+  "sourceSha256": "7f55219ad3623544c43fbb0a071282bc6f90aa563538b92b3e18230c835dbe41",
+  "nativeFrameCount": 747,
+  "fps": "30/1",
+  "firstPts": 0,
+  "lastPts": 24.866667,
+  "ptsDeltaMin": 0.033333,
+  "ptsDeltaMax": 0.033334,
+  "variableFrameRateObserved": false,
+  "policy": "Decode native frames, preserve source PTS. No fps conversion, duplication or interpolation. 60 native frames per atlas page is a page size, not 60fps.",
+  "machineCoverage": {
+    "decodedFrames": 747,
+    "metricsRows": 747,
+    "atlasFrames": 747,
+    "atlasPages": 13
+  },
+  "thumbnailIdenticalAdjacentCount": 0,
+  "thumbnailIdenticalCaution": "Exact identity only at the decoded 96x54 RGB analysis representation; not proof of identical full-resolution source frames.",
+  "candidateMethod": "96x54 RGB temporal MAD and 8-bin-per-channel histogram change. Candidates also include fast movement, flashes, composite changes; not verified cuts.",
+  "cutOrEffectCandidates": [
+    {
+      "frame": 23,
+      "time": 0.76667,
+      "score": 0.30995,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 29,
+      "time": 0.96667,
+      "score": 0.32927,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 39,
+      "time": 1.3,
+      "score": 0.28747,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 80,
+      "time": 2.66667,
+      "score": 0.30929,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 91,
+      "time": 3.03333,
+      "score": 0.36969,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 96,
+      "time": 3.2,
+      "score": 0.31566,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 104,
+      "time": 3.46667,
+      "score": 0.22897,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 110,
+      "time": 3.66667,
+      "score": 0.29139,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 121,
+      "time": 4.03333,
+      "score": 0.19191,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 122,
+      "time": 4.06667,
+      "score": 0.29408,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 128,
+      "time": 4.26667,
+      "score": 0.3804,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 142,
+      "time": 4.73333,
+      "score": 0.58302,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 159,
+      "time": 5.3,
+      "score": 0.1877,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 162,
+      "time": 5.4,
+      "score": 0.34996,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 180,
+      "time": 6,
+      "score": 0.25798,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 184,
+      "time": 6.13333,
+      "score": 0.27262,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 195,
+      "time": 6.5,
+      "score": 0.33301,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 200,
+      "time": 6.66667,
+      "score": 0.23687,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 210,
+      "time": 7,
+      "score": 0.24697,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 228,
+      "time": 7.6,
+      "score": 0.35031,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 249,
+      "time": 8.3,
+      "score": 0.3045,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 261,
+      "time": 8.7,
+      "score": 0.38273,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 276,
+      "time": 9.2,
+      "score": 0.26723,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 281,
+      "time": 9.36667,
+      "score": 0.23132,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 292,
+      "time": 9.73333,
+      "score": 0.19156,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 297,
+      "time": 9.9,
+      "score": 0.22375,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 317,
+      "time": 10.56667,
+      "score": 0.40383,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 374,
+      "time": 12.46667,
+      "score": 0.40415,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 385,
+      "time": 12.83333,
+      "score": 0.21257,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 401,
+      "time": 13.36667,
+      "score": 0.44728,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 413,
+      "time": 13.76667,
+      "score": 0.33102,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 429,
+      "time": 14.3,
+      "score": 0.34098,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 433,
+      "time": 14.43333,
+      "score": 0.179,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 437,
+      "time": 14.56667,
+      "score": 0.25815,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 441,
+      "time": 14.7,
+      "score": 0.28149,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 445,
+      "time": 14.83333,
+      "score": 0.27603,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 449,
+      "time": 14.96667,
+      "score": 0.29592,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 453,
+      "time": 15.1,
+      "score": 0.27418,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 457,
+      "time": 15.23333,
+      "score": 0.31023,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 477,
+      "time": 15.9,
+      "score": 0.25884,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 480,
+      "time": 16,
+      "score": 0.19321,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 484,
+      "time": 16.13333,
+      "score": 0.32741,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 500,
+      "time": 16.66667,
+      "score": 0.34873,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 506,
+      "time": 16.86667,
+      "score": 0.31142,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 533,
+      "time": 17.76667,
+      "score": 0.5108,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 541,
+      "time": 18.03333,
+      "score": 0.24822,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 545,
+      "time": 18.16667,
+      "score": 0.33067,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 577,
+      "time": 19.23333,
+      "score": 0.35779,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 581,
+      "time": 19.36667,
+      "score": 0.34681,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 585,
+      "time": 19.5,
+      "score": 0.25339,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 597,
+      "time": 19.9,
+      "score": 0.20354,
+      "kind": "cut-or-motion"
+    },
+    {
+      "frame": 608,
+      "time": 20.26667,
+      "score": 0.31761,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 612,
+      "time": 20.4,
+      "score": 0.37009,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 617,
+      "time": 20.56667,
+      "score": 0.23104,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 628,
+      "time": 20.93333,
+      "score": 0.23324,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 632,
+      "time": 21.06667,
+      "score": 0.21935,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 636,
+      "time": 21.2,
+      "score": 0.21786,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 640,
+      "time": 21.33333,
+      "score": 0.21349,
+      "kind": "cut-or-flash"
+    },
+    {
+      "frame": 644,
+      "time": 21.46667,
+      "score": 0.23731,
+      "kind": "cut-or-flash"
+    }
+  ],
+  "pages": [
+    {
+      "file": "native-001.jpg",
+      "firstFrame": 0,
+      "lastFrame": 59,
+      "start": 0,
+      "end": 1.966667,
+      "count": 60
+    },
+    {
+      "file": "native-002.jpg",
+      "firstFrame": 60,
+      "lastFrame": 119,
+      "start": 2,
+      "end": 3.966667,
+      "count": 60
+    },
+    {
+      "file": "native-003.jpg",
+      "firstFrame": 120,
+      "lastFrame": 179,
+      "start": 4,
+      "end": 5.966667,
+      "count": 60
+    },
+    {
+      "file": "native-004.jpg",
+      "firstFrame": 180,
+      "lastFrame": 239,
+      "start": 6,
+      "end": 7.966667,
+      "count": 60
+    },
+    {
+      "file": "native-005.jpg",
+      "firstFrame": 240,
+      "lastFrame": 299,
+      "start": 8,
+      "end": 9.966667,
+      "count": 60
+    },
+    {
+      "file": "native-006.jpg",
+      "firstFrame": 300,
+      "lastFrame": 359,
+      "start": 10,
+      "end": 11.966667,
+      "count": 60
+    },
+    {
+      "file": "native-007.jpg",
+      "firstFrame": 360,
+      "lastFrame": 419,
+      "start": 12,
+      "end": 13.966667,
+      "count": 60
+    },
+    {
+      "file": "native-008.jpg",
+      "firstFrame": 420,
+      "lastFrame": 479,
+      "start": 14,
+      "end": 15.966667,
+      "count": 60
+    },
+    {
+      "file": "native-009.jpg",
+      "firstFrame": 480,
+      "lastFrame": 539,
+      "start": 16,
+      "end": 17.966667,
+      "count": 60
+    },
+    {
+      "file": "native-010.jpg",
+      "firstFrame": 540,
+      "lastFrame": 599,
+      "start": 18,
+      "end": 19.966667,
+      "count": 60
+    },
+    {
+      "file": "native-011.jpg",
+      "firstFrame": 600,
+      "lastFrame": 659,
+      "start": 20,
+      "end": 21.966667,
+      "count": 60
+    },
+    {
+      "file": "native-012.jpg",
+      "firstFrame": 660,
+      "lastFrame": 719,
+      "start": 22,
+      "end": 23.966667,
+      "count": 60
+    },
+    {
+      "file": "native-013.jpg",
+      "firstFrame": 720,
+      "lastFrame": 746,
+      "start": 24,
+      "end": 24.866667,
+      "count": 27
+    }
+  ],
+  "timelineSheets": 1,
+  "elapsedMs": 6252,
+  "nativeJpgDirectory": "evidence/V23/frames",
+  "nativeJpgMapping": "data/frame-analysis/V23-jpg-map.csv",
+  "nativeJpgCount": 747
+}

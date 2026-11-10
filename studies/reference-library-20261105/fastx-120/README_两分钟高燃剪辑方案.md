@@ -4,7 +4,7 @@
 
 先抓危险，再让观众认人；第一轮街道追逐后留15秒给人物，再把高速公路/直升机的体量推上去。最后用反应与对讲机留下悬念。它是主题式高燃重组，不是原电影单场追逐复述；跑道、武器和刮擦单帧不能证明逃脱、发射或胜负。
 
-文件：[plan.json](plan.json)保存可改参数与素材目录；[shot-plan.csv](shot-plan.csv)可用Excel改镜头；[节奏设计](music-design.json)、[拍点表](beat-markers.csv)、[可编辑MIDI](128BPM_120秒_可编辑节奏.mid)、[原创节奏导轨](128BPM_120秒_原创节奏导轨.m4a)。修改CSV不会自动写回JSON；批量重建时应同步修改build-plan.mjs中的spec再运行，避免两份计划不一致。
+文件：[plan.json](plan.json)保存可改参数与素材目录；[shot-plan.csv](shot-plan.csv)可用Excel改镜头；[节奏设计](music-design.json)、[拍点表](beat-markers.csv)、[可编辑MIDI](128BPM_120秒_可编辑节奏.mid)、[原创节奏导轨（在下载包内）](https://github.com/23t-pp/github-video-editing-research/releases/download/reference-library-v01-v25-2026-11-10/reference-library-v01-v25.zip)。修改CSV不会自动写回JSON；批量重建时应同步修改build-plan.mjs中的spec再运行，避免两份计划不一致。
 
 ## 在自己的电脑连接源片
 

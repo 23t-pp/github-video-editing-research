@@ -1,6 +1,14 @@
 # 全部剪辑工程、成片与2,061,018个JPG采样路径
 
-这份仓库面向没有剪辑和编程基础的学习者：先下载完整成片与可编辑工程，再按中文说明对照素材、技法、命令和审核证据。软件研究、20条参考学习库和之前发布均保留。
+这份仓库面向没有剪辑和编程基础的学习者。可以先读混剪参考的逐条拆解，也可以下载成片与可编辑工程，按中文说明练习。
+
+## V01–V25 混剪参考学习库
+
+1. [按编号读 25 条拆解](studies/reference-library-20261105/reviews/逐条索引.md)。每条都能直达报告、逐帧表和声音卡点数据。
+2. [下载完整学习包](https://github.com/23t-pp/github-video-editing-research/releases/tag/reference-library-v01-v25-2026-11-10)。解压后打开包内的中文 README，按步骤启动学习页。包内有逐帧图谱、单帧证据、25 条原混音和 25 条音乐主体候选。
+3. [按技法选练习](studies/reference-library-20261105/catalog/技法分类与难度排行.md)。可以从同动作对位或矩形画窗开始，再练动态抠像和多层接力。
+
+25 条参考共覆盖 **21,198 个原生帧、366 页原生图谱**。V21 额外用 60Hz 网格记录 1,856 个采样位置，对应 928 个原生帧。参考的逐帧数据、原生图谱和单帧 JPG 保存范围见[学习库说明](studies/reference-library-20261105/README.md)。
 
 ## 先下载什么
 
@@ -74,7 +82,6 @@ NTFS硬链接共享数据；要单独涂改某一张请先复制为独立文件�
 ## 以前的研究与发布
 
 - [软件选型、GitHub CLI与原学习仓库首页](README-before-full-publication-20261105.md)
-- [20条参考、音乐库与V05最初发布](https://github.com/23t-pp/github-video-editing-research/releases/tag/reference-library-2026-11-05)
-- [20参考技法分类](studies/reference-library-20261105/catalog/技法分类与难度排行.md)
+- [最初发布的 20 条参考、音乐库与 V05 小样](https://github.com/23t-pp/github-video-editing-research/releases/tag/reference-library-2026-11-05)
 
 第三方媒体权利不因上传自动转移；现有代码与媒体说明、上游许可证继续适用。

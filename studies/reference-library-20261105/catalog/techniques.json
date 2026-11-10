@@ -1,20 +1,26 @@
 {
   "schema_version": 1,
-  "title": "20条参考片：技法→素材分类与当前难度",
-  "generated_at": "2026-11-04T16:31:27.076Z",
+  "title": "21条参考片：技法→素材分类与当前难度",
+  "generated_at": "2026-11-06T02:52:50.185Z",
   "review_sources": [
     "reviews/V01-V10.json",
     "reviews/V11-V15.json",
-    "reviews/V16-V20.json"
+    "reviews/V16-V20.json",
+    "reviews/V21.json"
   ],
   "scope": {
-    "reference_count": 20,
+    "reference_count": 21,
     "technique_count": 18,
     "new_independent_video_viewing": false,
     "visual_review_attribution": "V11–V15沿用本分支实际查看57页原生atlas的报告；V01–V10与V16–V20引用各分支人工审查范围，native_review纠正优先。",
-    "native_frame_policy": "源帧率/原生PTS；每页60帧是排版，不是60fps；不强制升帧、复制或插值。",
+    "native_frame_policy": "V01–V20 按源帧率保存原生 PTS。V21 另有独立 60Hz 采样索引，对应每张 30fps 原帧的两个采样位置。",
     "audio_claims": false,
-    "project_restoration_guarantee": false
+    "project_restoration_guarantee": false,
+    "v21_review": {
+      "report": "reviews/V21.md",
+      "sampling": "data/frame-analysis/V21-60hz.json",
+      "recipe_status": "等效配方，待制作验证"
+    }
   },
   "status_definitions": {
     "tested_v05_subcase": "有本地实际制作、108帧渲染、MP4、OCC分层与官方工程包UI导入证据；只覆盖该子例。",
@@ -324,6 +330,50 @@
           ],
           "review_source": "reviews/V11-V15.json",
           "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V21",
+          "title": "超凡蜘蛛侠与格温 · 记忆线轨与闪回",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            24.2,
+            25.4
+          ],
+          "range_precision": "学习区间与原帧锚点，结束时间不含",
+          "label": "同一钟面反复作为闪回锚点",
+          "anchors": [
+            {
+              "frame": 734,
+              "pts": 24.466667,
+              "claim": "近身动作与钟面共显",
+              "evidence": "evidence/V21/native-013.jpg",
+              "sampleFrame60Hz": 1468,
+              "sampleEvidence": "evidence/V21/60hz-025.jpg"
+            },
+            {
+              "frame": 749,
+              "pts": 24.966667,
+              "claim": "从第二次动作回到钟面",
+              "evidence": "evidence/V21/native-013.jpg",
+              "sampleFrame60Hz": 1498,
+              "sampleEvidence": "evidence/V21/60hz-025.jpg"
+            },
+            {
+              "frame": 757,
+              "pts": 25.233333,
+              "claim": "第三次动作成为主体",
+              "evidence": "evidence/V21/native-013.jpg",
+              "sampleFrame60Hz": 1514,
+              "sampleEvidence": "evidence/V21/60hz-026.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V21/native-013.jpg",
+            "evidence/V21/60hz-025.jpg",
+            "evidence/V21/60hz-026.jpg"
+          ],
+          "review_source": "reviews/V21.json",
+          "evidence_scope": "帧锚点来自分片复核，同时给出原帧与 60Hz 首个采样位置。"
         }
       ],
       "steps": [
@@ -800,6 +850,51 @@
           ],
           "review_source": "reviews/V01-V10.json",
           "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V21",
+          "title": "超凡蜘蛛侠与格温 · 记忆线轨与闪回",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            21.7,
+            23.566667
+          ],
+          "range_precision": "学习区间与原帧锚点，结束时间不含",
+          "label": "三竖窗独立闪白与换景",
+          "anchors": [
+            {
+              "frame": 651,
+              "pts": 21.7,
+              "claim": "左栏白场，手机仍在右",
+              "evidence": "evidence/V21/native-011.jpg",
+              "sampleFrame60Hz": 1302,
+              "sampleEvidence": "evidence/V21/60hz-022.jpg"
+            },
+            {
+              "frame": 669,
+              "pts": 22.3,
+              "claim": "中栏白、左墓地、右手机并存",
+              "evidence": "evidence/V21/native-012.jpg",
+              "sampleFrame60Hz": 1338,
+              "sampleEvidence": "evidence/V21/60hz-023.jpg"
+            },
+            {
+              "frame": 689,
+              "pts": 22.966667,
+              "claim": "右栏白，墓地人物服装有区别",
+              "evidence": "evidence/V21/native-012.jpg",
+              "sampleFrame60Hz": 1378,
+              "sampleEvidence": "evidence/V21/60hz-023.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V21/native-011.jpg",
+            "evidence/V21/60hz-022.jpg",
+            "evidence/V21/native-012.jpg",
+            "evidence/V21/60hz-023.jpg"
+          ],
+          "review_source": "reviews/V21.json",
+          "evidence_scope": "帧锚点来自分片复核，同时给出原帧与 60Hz 首个采样位置。"
         }
       ],
       "steps": [
@@ -1488,6 +1583,42 @@
           ],
           "review_source": "reviews/V16-V20.json",
           "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V21",
+          "title": "超凡蜘蛛侠与格温 · 记忆线轨与闪回",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            25.4,
+            27.833333
+          ],
+          "range_precision": "学习区间与原帧锚点，结束时间不含",
+          "label": "动态轮廓内材质替换",
+          "anchors": [
+            {
+              "frame": 784,
+              "pts": 26.133333,
+              "claim": "格温仍可辨认，细点开始出现",
+              "evidence": "evidence/V21/native-014.jpg",
+              "sampleFrame60Hz": 1568,
+              "sampleEvidence": "evidence/V21/60hz-027.jpg"
+            },
+            {
+              "frame": 810,
+              "pts": 27,
+              "claim": "人物与伞保留轮廓，内部换为星尘",
+              "evidence": "evidence/V21/native-014.jpg",
+              "sampleFrame60Hz": 1620,
+              "sampleEvidence": "evidence/V21/60hz-028.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V21/native-014.jpg",
+            "evidence/V21/60hz-027.jpg",
+            "evidence/V21/60hz-028.jpg"
+          ],
+          "review_source": "reviews/V21.json",
+          "evidence_scope": "帧锚点来自分片复核，同时给出原帧与 60Hz 首个采样位置。"
         }
       ],
       "steps": [
@@ -1651,6 +1782,52 @@
           ],
           "review_source": "reviews/V16-V20.json",
           "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V21",
+          "title": "超凡蜘蛛侠与格温 · 记忆线轨与闪回",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            0,
+            4.533333
+          ],
+          "range_precision": "学习区间与原帧锚点，结束时间不含",
+          "label": "同词的三种贴景方式",
+          "anchors": [
+            {
+              "frame": 20,
+              "pts": 0.666667,
+              "claim": "眼罩边缘裁切白字",
+              "evidence": "evidence/V21/native-001.jpg",
+              "sampleFrame60Hz": 40,
+              "sampleEvidence": "evidence/V21/60hz-001.jpg"
+            },
+            {
+              "frame": 57,
+              "pts": 1.9,
+              "claim": "白字绕入格温发丝后",
+              "evidence": "evidence/V21/native-001.jpg",
+              "sampleFrame60Hz": 114,
+              "sampleEvidence": "evidence/V21/60hz-002.jpg"
+            },
+            {
+              "frame": 90,
+              "pts": 3,
+              "claim": "粉紫半调大字位于人物和花束之后",
+              "evidence": "evidence/V21/native-002.jpg",
+              "sampleFrame60Hz": 180,
+              "sampleEvidence": "evidence/V21/60hz-004.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V21/native-001.jpg",
+            "evidence/V21/60hz-001.jpg",
+            "evidence/V21/60hz-002.jpg",
+            "evidence/V21/native-002.jpg",
+            "evidence/V21/60hz-004.jpg"
+          ],
+          "review_source": "reviews/V21.json",
+          "evidence_scope": "帧锚点来自分片复核，同时给出原帧与 60Hz 首个采样位置。"
         }
       ],
       "steps": [
@@ -1812,6 +1989,42 @@
           ],
           "review_source": "reviews/V11-V15.json",
           "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V21",
+          "title": "超凡蜘蛛侠与格温 · 记忆线轨与闪回",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            8.7,
+            10.633333
+          ],
+          "range_precision": "学习区间与原帧锚点，结束时间不含",
+          "label": "故障横条与分色连接",
+          "anchors": [
+            {
+              "frame": 262,
+              "pts": 8.733333,
+              "claim": "人脸及底部小字同显分色重影",
+              "evidence": "evidence/V21/native-005.jpg",
+              "sampleFrame60Hz": 524,
+              "sampleEvidence": "evidence/V21/60hz-009.jpg"
+            },
+            {
+              "frame": 290,
+              "pts": 9.666667,
+              "claim": "横向条带扰动白天来镜",
+              "evidence": "evidence/V21/native-005.jpg",
+              "sampleFrame60Hz": 580,
+              "sampleEvidence": "evidence/V21/60hz-010.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V21/native-005.jpg",
+            "evidence/V21/60hz-009.jpg",
+            "evidence/V21/60hz-010.jpg"
+          ],
+          "review_source": "reviews/V21.json",
+          "evidence_scope": "帧锚点来自分片复核，同时给出原帧与 60Hz 首个采样位置。"
         }
       ],
       "steps": [
@@ -2717,6 +2930,87 @@
           ],
           "review_source": "reviews/V16-V20.json",
           "evidence_scope": "引用分支已核验原生帧事实；本目录是综合分类，不新增独立观看全部20片的声明。"
+        },
+        {
+          "reference_id": "V21",
+          "title": "超凡蜘蛛侠与格温 · 记忆线轨与闪回",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            5.833333,
+            8.066667
+          ],
+          "range_precision": "学习区间与原帧锚点，结束时间不含",
+          "label": "线与圆点建立回忆索引",
+          "anchors": [
+            {
+              "frame": 188,
+              "pts": 6.266667,
+              "claim": "五线齐后首个白点亮起",
+              "evidence": "evidence/V21/native-004.jpg",
+              "sampleFrame60Hz": 376,
+              "sampleEvidence": "evidence/V21/60hz-007.jpg"
+            },
+            {
+              "frame": 200,
+              "pts": 6.666667,
+              "claim": "彼得头肩挡住轨线，左侧多脸并存",
+              "evidence": "evidence/V21/native-004.jpg",
+              "sampleFrame60Hz": 400,
+              "sampleEvidence": "evidence/V21/60hz-007.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V21/native-004.jpg",
+            "evidence/V21/60hz-007.jpg"
+          ],
+          "review_source": "reviews/V21.json",
+          "evidence_scope": "帧锚点来自分片复核，同时给出原帧与 60Hz 首个采样位置。"
+        },
+        {
+          "reference_id": "V21",
+          "title": "超凡蜘蛛侠与格温 · 记忆线轨与闪回",
+          "source_fps": "30/1",
+          "time_range_sec": [
+            15.6,
+            18.766667
+          ],
+          "range_precision": "学习区间与原帧锚点，结束时间不含",
+          "label": "轨迹母题随蜘蛛丝再次出现",
+          "anchors": [
+            {
+              "frame": 484,
+              "pts": 16.133333,
+              "claim": "右侧第三轨首个实心点",
+              "evidence": "evidence/V21/native-009.jpg",
+              "sampleFrame60Hz": 968,
+              "sampleEvidence": "evidence/V21/60hz-017.jpg"
+            },
+            {
+              "frame": 535,
+              "pts": 17.833333,
+              "claim": "线扭为曲线并伴随分色",
+              "evidence": "evidence/V21/native-009.jpg",
+              "sampleFrame60Hz": 1070,
+              "sampleEvidence": "evidence/V21/60hz-018.jpg"
+            },
+            {
+              "frame": 550,
+              "pts": 18.333333,
+              "claim": "多张脸与亮丝共用变形轨线",
+              "evidence": "evidence/V21/native-010.jpg",
+              "sampleFrame60Hz": 1100,
+              "sampleEvidence": "evidence/V21/60hz-019.jpg"
+            }
+          ],
+          "evidence": [
+            "evidence/V21/native-009.jpg",
+            "evidence/V21/60hz-017.jpg",
+            "evidence/V21/60hz-018.jpg",
+            "evidence/V21/native-010.jpg",
+            "evidence/V21/60hz-019.jpg"
+          ],
+          "review_source": "reviews/V21.json",
+          "evidence_scope": "帧锚点来自分片复核，同时给出原帧与 60Hz 首个采样位置。"
         }
       ],
       "steps": [

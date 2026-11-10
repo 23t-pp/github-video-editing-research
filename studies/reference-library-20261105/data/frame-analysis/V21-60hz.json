@@ -1,0 +1,270 @@
+{
+  "id": "V21",
+  "sourceSha256": "e8f5c4c5c2955cc444aa092f32a601051b009de774e7341d64026096591efda6",
+  "sampleRate": 60,
+  "sampleCount": 1856,
+  "nativeFrameRate": "30/1",
+  "nativeFrameCount": 928,
+  "regularJpegCount": 928,
+  "repeatedSampleCount": 928,
+  "sampleDimensions": [
+    1620,
+    1080
+  ],
+  "videoEndExclusiveSec": 30.933333333333334,
+  "mappingRule": "S at S/60 seconds maps to native N=floor(S/2), with observed source PTS.",
+  "interpolation": false,
+  "repeatStorage": "NTFS hardlink to the previous 60 Hz sample",
+  "sampleDirectory": "evidence/V21/samples-60hz",
+  "mappingCsv": "data/frame-analysis/V21-60hz.csv",
+  "pages": [
+    {
+      "file": "60hz-001.jpg",
+      "firstFrame": 0,
+      "lastFrame": 59,
+      "start": 0.0,
+      "end": 0.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-002.jpg",
+      "firstFrame": 60,
+      "lastFrame": 119,
+      "start": 1.0,
+      "end": 1.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-003.jpg",
+      "firstFrame": 120,
+      "lastFrame": 179,
+      "start": 2.0,
+      "end": 2.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-004.jpg",
+      "firstFrame": 180,
+      "lastFrame": 239,
+      "start": 3.0,
+      "end": 3.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-005.jpg",
+      "firstFrame": 240,
+      "lastFrame": 299,
+      "start": 4.0,
+      "end": 4.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-006.jpg",
+      "firstFrame": 300,
+      "lastFrame": 359,
+      "start": 5.0,
+      "end": 5.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-007.jpg",
+      "firstFrame": 360,
+      "lastFrame": 419,
+      "start": 6.0,
+      "end": 6.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-008.jpg",
+      "firstFrame": 420,
+      "lastFrame": 479,
+      "start": 7.0,
+      "end": 7.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-009.jpg",
+      "firstFrame": 480,
+      "lastFrame": 539,
+      "start": 8.0,
+      "end": 8.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-010.jpg",
+      "firstFrame": 540,
+      "lastFrame": 599,
+      "start": 9.0,
+      "end": 9.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-011.jpg",
+      "firstFrame": 600,
+      "lastFrame": 659,
+      "start": 10.0,
+      "end": 10.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-012.jpg",
+      "firstFrame": 660,
+      "lastFrame": 719,
+      "start": 11.0,
+      "end": 11.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-013.jpg",
+      "firstFrame": 720,
+      "lastFrame": 779,
+      "start": 12.0,
+      "end": 12.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-014.jpg",
+      "firstFrame": 780,
+      "lastFrame": 839,
+      "start": 13.0,
+      "end": 13.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-015.jpg",
+      "firstFrame": 840,
+      "lastFrame": 899,
+      "start": 14.0,
+      "end": 14.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-016.jpg",
+      "firstFrame": 900,
+      "lastFrame": 959,
+      "start": 15.0,
+      "end": 15.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-017.jpg",
+      "firstFrame": 960,
+      "lastFrame": 1019,
+      "start": 16.0,
+      "end": 16.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-018.jpg",
+      "firstFrame": 1020,
+      "lastFrame": 1079,
+      "start": 17.0,
+      "end": 17.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-019.jpg",
+      "firstFrame": 1080,
+      "lastFrame": 1139,
+      "start": 18.0,
+      "end": 18.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-020.jpg",
+      "firstFrame": 1140,
+      "lastFrame": 1199,
+      "start": 19.0,
+      "end": 19.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-021.jpg",
+      "firstFrame": 1200,
+      "lastFrame": 1259,
+      "start": 20.0,
+      "end": 20.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-022.jpg",
+      "firstFrame": 1260,
+      "lastFrame": 1319,
+      "start": 21.0,
+      "end": 21.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-023.jpg",
+      "firstFrame": 1320,
+      "lastFrame": 1379,
+      "start": 22.0,
+      "end": 22.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-024.jpg",
+      "firstFrame": 1380,
+      "lastFrame": 1439,
+      "start": 23.0,
+      "end": 23.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-025.jpg",
+      "firstFrame": 1440,
+      "lastFrame": 1499,
+      "start": 24.0,
+      "end": 24.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-026.jpg",
+      "firstFrame": 1500,
+      "lastFrame": 1559,
+      "start": 25.0,
+      "end": 25.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-027.jpg",
+      "firstFrame": 1560,
+      "lastFrame": 1619,
+      "start": 26.0,
+      "end": 26.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-028.jpg",
+      "firstFrame": 1620,
+      "lastFrame": 1679,
+      "start": 27.0,
+      "end": 27.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-029.jpg",
+      "firstFrame": 1680,
+      "lastFrame": 1739,
+      "start": 28.0,
+      "end": 28.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-030.jpg",
+      "firstFrame": 1740,
+      "lastFrame": 1799,
+      "start": 29.0,
+      "end": 29.983333,
+      "count": 60
+    },
+    {
+      "file": "60hz-031.jpg",
+      "firstFrame": 1800,
+      "lastFrame": 1855,
+      "start": 30.0,
+      "end": 30.916667,
+      "count": 56
+    }
+  ]
+}

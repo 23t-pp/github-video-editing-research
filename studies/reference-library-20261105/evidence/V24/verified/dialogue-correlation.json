@@ -1,0 +1,772 @@
+{
+  "film_file": "156.头号玩家.mkv",
+  "film_scan_seconds": [
+    6041.5,
+    6048.5
+  ],
+  "visual_anchor": {
+    "V24_frame": 249,
+    "film_pts_seconds": 6044.872
+  },
+  "local_filter_hz": [
+    250,
+    3600
+  ],
+  "results": [
+    {
+      "film_track": "0:a:0",
+      "local_signal": "mix",
+      "windows": [
+        {
+          "local_seconds": [
+            7.7,
+            8.35
+          ],
+          "best_r": 0.33173,
+          "best_source_seconds": 6044.31375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.33173,
+          "unchanged_speed_best_source_seconds": 6044.31375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.272
+        },
+        {
+          "local_seconds": [
+            8.05,
+            8.700000000000001
+          ],
+          "best_r": 0.54003,
+          "best_source_seconds": 6044.66375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.54003,
+          "unchanged_speed_best_source_seconds": 6044.66375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.622
+        },
+        {
+          "local_seconds": [
+            8.3,
+            8.950000000000001
+          ],
+          "best_r": 0.66278,
+          "best_source_seconds": 6044.91375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.66278,
+          "unchanged_speed_best_source_seconds": 6044.91375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.872
+        },
+        {
+          "local_seconds": [
+            8.55,
+            9.200000000000001
+          ],
+          "best_r": 0.6318,
+          "best_source_seconds": 6045.16375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.6318,
+          "unchanged_speed_best_source_seconds": 6045.16375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6045.122
+        },
+        {
+          "local_seconds": [
+            7.75,
+            8.75
+          ],
+          "best_r": 0.47301,
+          "best_source_seconds": 6044.36375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.47301,
+          "unchanged_speed_best_source_seconds": 6044.36375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.322
+        }
+      ]
+    },
+    {
+      "film_track": "0:a:0",
+      "local_signal": "uvr-residual",
+      "windows": [
+        {
+          "local_seconds": [
+            7.7,
+            8.35
+          ],
+          "best_r": 0.68565,
+          "best_source_seconds": 6044.31375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.68565,
+          "unchanged_speed_best_source_seconds": 6044.31375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.272
+        },
+        {
+          "local_seconds": [
+            8.05,
+            8.700000000000001
+          ],
+          "best_r": 0.82462,
+          "best_source_seconds": 6044.66375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.82462,
+          "unchanged_speed_best_source_seconds": 6044.66375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.622
+        },
+        {
+          "local_seconds": [
+            8.3,
+            8.950000000000001
+          ],
+          "best_r": 0.85887,
+          "best_source_seconds": 6044.91375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.85887,
+          "unchanged_speed_best_source_seconds": 6044.91375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.872
+        },
+        {
+          "local_seconds": [
+            8.55,
+            9.200000000000001
+          ],
+          "best_r": 0.86676,
+          "best_source_seconds": 6045.16375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.86676,
+          "unchanged_speed_best_source_seconds": 6045.16375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6045.122
+        },
+        {
+          "local_seconds": [
+            7.75,
+            8.75
+          ],
+          "best_r": 0.78944,
+          "best_source_seconds": 6044.36375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.78944,
+          "unchanged_speed_best_source_seconds": 6044.36375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.322
+        }
+      ]
+    },
+    {
+      "film_track": "0:a:0",
+      "local_signal": "release-residual",
+      "windows": [
+        {
+          "local_seconds": [
+            7.7,
+            8.35
+          ],
+          "best_r": 0.34833,
+          "best_source_seconds": 6044.31375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.34833,
+          "unchanged_speed_best_source_seconds": 6044.31375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.272
+        },
+        {
+          "local_seconds": [
+            8.05,
+            8.700000000000001
+          ],
+          "best_r": 0.56501,
+          "best_source_seconds": 6044.66375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.56501,
+          "unchanged_speed_best_source_seconds": 6044.66375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.622
+        },
+        {
+          "local_seconds": [
+            8.3,
+            8.950000000000001
+          ],
+          "best_r": 0.66701,
+          "best_source_seconds": 6044.91375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.66701,
+          "unchanged_speed_best_source_seconds": 6044.91375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.872
+        },
+        {
+          "local_seconds": [
+            8.55,
+            9.200000000000001
+          ],
+          "best_r": 0.65295,
+          "best_source_seconds": 6045.16375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.65295,
+          "unchanged_speed_best_source_seconds": 6045.16375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6045.122
+        },
+        {
+          "local_seconds": [
+            7.75,
+            8.75
+          ],
+          "best_r": 0.49487,
+          "best_source_seconds": 6044.36375,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.49487,
+          "unchanged_speed_best_source_seconds": 6044.36375,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.322
+        }
+      ]
+    },
+    {
+      "film_track": "0:a:1",
+      "local_signal": "mix",
+      "windows": [
+        {
+          "local_seconds": [
+            7.7,
+            8.35
+          ],
+          "best_r": 0.23074,
+          "best_source_seconds": 6044.351,
+          "source_to_local_duration_ratio": 1.01,
+          "unchanged_speed_best_r": 0.22611,
+          "unchanged_speed_best_source_seconds": 6044.357125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.272
+        },
+        {
+          "local_seconds": [
+            8.05,
+            8.700000000000001
+          ],
+          "best_r": 0.44904,
+          "best_source_seconds": 6044.707125,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.44904,
+          "unchanged_speed_best_source_seconds": 6044.707125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.622
+        },
+        {
+          "local_seconds": [
+            8.3,
+            8.950000000000001
+          ],
+          "best_r": 0.56843,
+          "best_source_seconds": 6044.957125,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.56843,
+          "unchanged_speed_best_source_seconds": 6044.957125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.872
+        },
+        {
+          "local_seconds": [
+            8.55,
+            9.200000000000001
+          ],
+          "best_r": 0.53996,
+          "best_source_seconds": 6045.207125,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.53996,
+          "unchanged_speed_best_source_seconds": 6045.207125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6045.122
+        },
+        {
+          "local_seconds": [
+            7.75,
+            8.75
+          ],
+          "best_r": 0.37889,
+          "best_source_seconds": 6044.407125,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.37889,
+          "unchanged_speed_best_source_seconds": 6044.407125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.322
+        }
+      ]
+    },
+    {
+      "film_track": "0:a:1",
+      "local_signal": "uvr-residual",
+      "windows": [
+        {
+          "local_seconds": [
+            7.7,
+            8.35
+          ],
+          "best_r": 0.63957,
+          "best_source_seconds": 6044.357,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.63957,
+          "unchanged_speed_best_source_seconds": 6044.357,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.272
+        },
+        {
+          "local_seconds": [
+            8.05,
+            8.700000000000001
+          ],
+          "best_r": 0.73717,
+          "best_source_seconds": 6044.707125,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.73717,
+          "unchanged_speed_best_source_seconds": 6044.707125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.622
+        },
+        {
+          "local_seconds": [
+            8.3,
+            8.950000000000001
+          ],
+          "best_r": 0.75309,
+          "best_source_seconds": 6044.957125,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.75309,
+          "unchanged_speed_best_source_seconds": 6044.957125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.872
+        },
+        {
+          "local_seconds": [
+            8.55,
+            9.200000000000001
+          ],
+          "best_r": 0.75965,
+          "best_source_seconds": 6045.207125,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.75965,
+          "unchanged_speed_best_source_seconds": 6045.207125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6045.122
+        },
+        {
+          "local_seconds": [
+            7.75,
+            8.75
+          ],
+          "best_r": 0.70381,
+          "best_source_seconds": 6044.407125,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.70381,
+          "unchanged_speed_best_source_seconds": 6044.407125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.322
+        }
+      ]
+    },
+    {
+      "film_track": "0:a:1",
+      "local_signal": "release-residual",
+      "windows": [
+        {
+          "local_seconds": [
+            7.7,
+            8.35
+          ],
+          "best_r": -0.25266,
+          "best_source_seconds": 6044.352125,
+          "source_to_local_duration_ratio": 1.01,
+          "unchanged_speed_best_r": 0.25161,
+          "unchanged_speed_best_source_seconds": 6044.357125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.272
+        },
+        {
+          "local_seconds": [
+            8.05,
+            8.700000000000001
+          ],
+          "best_r": 0.47497,
+          "best_source_seconds": 6044.707125,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.47497,
+          "unchanged_speed_best_source_seconds": 6044.707125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.622
+        },
+        {
+          "local_seconds": [
+            8.3,
+            8.950000000000001
+          ],
+          "best_r": 0.56989,
+          "best_source_seconds": 6044.957125,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.56989,
+          "unchanged_speed_best_source_seconds": 6044.957125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.872
+        },
+        {
+          "local_seconds": [
+            8.55,
+            9.200000000000001
+          ],
+          "best_r": 0.55135,
+          "best_source_seconds": 6045.207125,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.55135,
+          "unchanged_speed_best_source_seconds": 6045.207125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6045.122
+        },
+        {
+          "local_seconds": [
+            7.75,
+            8.75
+          ],
+          "best_r": 0.40408,
+          "best_source_seconds": 6044.407125,
+          "source_to_local_duration_ratio": 1.0,
+          "unchanged_speed_best_r": 0.40408,
+          "unchanged_speed_best_source_seconds": 6044.407125,
+          "unchanged_speed_expected_source_seconds_from_picture": 6044.322
+        }
+      ]
+    }
+  ],
+  "fixed_windows": {
+    "film_track": "0:a:0",
+    "source_minus_local_seconds": 6036.61375,
+    "windows": [
+      {
+        "local_range_seconds": [
+          7.1,
+          7.22
+        ],
+        "correlation": {
+          "mix": -0.00426,
+          "uvr-residual": 0.00851,
+          "release-residual": 0.00013
+        }
+      },
+      {
+        "local_range_seconds": [
+          7.2,
+          7.32
+        ],
+        "correlation": {
+          "mix": -0.05817,
+          "uvr-residual": -0.00221,
+          "release-residual": -0.04993
+        }
+      },
+      {
+        "local_range_seconds": [
+          7.3,
+          7.42
+        ],
+        "correlation": {
+          "mix": -0.02813,
+          "uvr-residual": -0.03326,
+          "release-residual": -0.02699
+        }
+      },
+      {
+        "local_range_seconds": [
+          7.4,
+          7.52
+        ],
+        "correlation": {
+          "mix": -0.07576,
+          "uvr-residual": -0.07512,
+          "release-residual": -0.05956
+        }
+      },
+      {
+        "local_range_seconds": [
+          7.5,
+          7.62
+        ],
+        "correlation": {
+          "mix": 0.0077,
+          "uvr-residual": -0.00204,
+          "release-residual": 0.01446
+        }
+      },
+      {
+        "local_range_seconds": [
+          7.6,
+          7.72
+        ],
+        "correlation": {
+          "mix": -0.04518,
+          "uvr-residual": -0.04004,
+          "release-residual": -0.04578
+        }
+      },
+      {
+        "local_range_seconds": [
+          7.7,
+          7.82
+        ],
+        "correlation": {
+          "mix": 0.11432,
+          "uvr-residual": 0.03191,
+          "release-residual": 0.10309
+        }
+      },
+      {
+        "local_range_seconds": [
+          7.8,
+          7.92
+        ],
+        "correlation": {
+          "mix": 0.17928,
+          "uvr-residual": 0.05453,
+          "release-residual": 0.17911
+        }
+      },
+      {
+        "local_range_seconds": [
+          7.9,
+          8.02
+        ],
+        "correlation": {
+          "mix": 0.10906,
+          "uvr-residual": 0.03128,
+          "release-residual": 0.09679
+        }
+      },
+      {
+        "local_range_seconds": [
+          8.0,
+          8.12
+        ],
+        "correlation": {
+          "mix": 0.14777,
+          "uvr-residual": -0.02993,
+          "release-residual": 0.15528
+        }
+      },
+      {
+        "local_range_seconds": [
+          8.1,
+          8.22
+        ],
+        "correlation": {
+          "mix": 0.08271,
+          "uvr-residual": 0.0636,
+          "release-residual": 0.08436
+        }
+      },
+      {
+        "local_range_seconds": [
+          8.2,
+          8.32
+        ],
+        "correlation": {
+          "mix": 0.57623,
+          "uvr-residual": 0.90786,
+          "release-residual": 0.60015
+        }
+      },
+      {
+        "local_range_seconds": [
+          8.3,
+          8.42
+        ],
+        "correlation": {
+          "mix": 0.78959,
+          "uvr-residual": 0.91303,
+          "release-residual": 0.78959
+        }
+      },
+      {
+        "local_range_seconds": [
+          8.4,
+          8.52
+        ],
+        "correlation": {
+          "mix": 0.51678,
+          "uvr-residual": 0.74688,
+          "release-residual": 0.51138
+        }
+      },
+      {
+        "local_range_seconds": [
+          8.5,
+          8.62
+        ],
+        "correlation": {
+          "mix": 0.57953,
+          "uvr-residual": 0.84504,
+          "release-residual": 0.55643
+        }
+      },
+      {
+        "local_range_seconds": [
+          8.6,
+          8.72
+        ],
+        "correlation": {
+          "mix": 0.65168,
+          "uvr-residual": 0.83909,
+          "release-residual": 0.69323
+        }
+      },
+      {
+        "local_range_seconds": [
+          8.7,
+          8.82
+        ],
+        "correlation": {
+          "mix": 0.42519,
+          "uvr-residual": 0.52993,
+          "release-residual": 0.42741
+        }
+      },
+      {
+        "local_range_seconds": [
+          8.8,
+          8.92
+        ],
+        "correlation": {
+          "mix": 0.92995,
+          "uvr-residual": 0.96102,
+          "release-residual": 0.92903
+        }
+      },
+      {
+        "local_range_seconds": [
+          8.9,
+          9.02
+        ],
+        "correlation": {
+          "mix": 0.37343,
+          "uvr-residual": 0.76403,
+          "release-residual": 0.36203
+        }
+      },
+      {
+        "local_range_seconds": [
+          9.0,
+          9.12
+        ],
+        "correlation": {
+          "mix": 0.81644,
+          "uvr-residual": 0.91597,
+          "release-residual": 0.8087
+        }
+      },
+      {
+        "local_range_seconds": [
+          9.1,
+          9.22
+        ],
+        "correlation": {
+          "mix": 0.46039,
+          "uvr-residual": 0.73356,
+          "release-residual": 0.53613
+        }
+      },
+      {
+        "local_range_seconds": [
+          9.2,
+          9.32
+        ],
+        "correlation": {
+          "mix": 0.60951,
+          "uvr-residual": 0.77862,
+          "release-residual": 0.62706
+        }
+      },
+      {
+        "local_range_seconds": [
+          9.3,
+          9.42
+        ],
+        "correlation": {
+          "mix": 0.23977,
+          "uvr-residual": 0.19839,
+          "release-residual": 0.23965
+        }
+      },
+      {
+        "local_range_seconds": [
+          9.4,
+          9.52
+        ],
+        "correlation": {
+          "mix": 0.15148,
+          "uvr-residual": 0.04357,
+          "release-residual": 0.14566
+        }
+      },
+      {
+        "local_range_seconds": [
+          9.5,
+          9.62
+        ],
+        "correlation": {
+          "mix": 0.02673,
+          "uvr-residual": 0.11621,
+          "release-residual": 0.04819
+        }
+      },
+      {
+        "local_range_seconds": [
+          9.6,
+          9.72
+        ],
+        "correlation": {
+          "mix": -0.01865,
+          "uvr-residual": -0.01881,
+          "release-residual": -0.00122
+        }
+      },
+      {
+        "local_range_seconds": [
+          9.7,
+          9.82
+        ],
+        "correlation": {
+          "mix": 0.09482,
+          "uvr-residual": -0.03885,
+          "release-residual": 0.12908
+        }
+      },
+      {
+        "local_range_seconds": [
+          9.8,
+          9.92
+        ],
+        "correlation": {
+          "mix": 0.01592,
+          "uvr-residual": -0.07857,
+          "release-residual": 0.02926
+        }
+      },
+      {
+        "local_range_seconds": [
+          9.9,
+          10.02
+        ],
+        "correlation": {
+          "mix": 0.0899,
+          "uvr-residual": -0.0373,
+          "release-residual": 0.07561
+        }
+      },
+      {
+        "local_range_seconds": [
+          10.0,
+          10.12
+        ],
+        "correlation": {
+          "mix": -0.01018,
+          "uvr-residual": 0.05882,
+          "release-residual": -0.02938
+        }
+      },
+      {
+        "local_range_seconds": [
+          10.1,
+          10.22
+        ],
+        "correlation": {
+          "mix": -0.00907,
+          "uvr-residual": 0.02936,
+          "release-residual": -0.00687
+        }
+      },
+      {
+        "local_range_seconds": [
+          10.2,
+          10.32
+        ],
+        "correlation": {
+          "mix": 0.02227,
+          "uvr-residual": -0.00887,
+          "release-residual": 0.0244
+        }
+      }
+    ]
+  },
+  "caveat": "Waveform correlation only. Mix, strong processing, different editions and tiny alignment differences can obscure speech."
+}

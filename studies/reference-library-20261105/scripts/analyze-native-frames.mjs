@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';import path from 'node:path';import{spawn}from
 const project=path.resolve(import.meta.dirname,'..');
 const manifestFile=process.argv[2]||path.resolve(project,'../../work/reference-library-20261105/manifest.local.json');
 const manifest=JSON.parse((await fs.readFile(manifestFile,'utf8')).replace(/^\uFEFF/,''));
-const selectIds=process.argv.slice(3),ff=process.env.FFMPEG_PATH||'C:/Users/PC/Apps/ffmpeg/bin/ffmpeg.exe',fp=process.env.FFPROBE_PATH||'C:/Users/PC/Apps/ffmpeg/bin/ffprobe.exe';
+const selectIds=process.argv.slice(3),ff=process.env.FFMPEG_PATH||'ffmpeg',fp=process.env.FFPROBE_PATH||'ffprobe';
 const font=process.env.ANALYSIS_FONT||'C\\:/Windows/Fonts/consola.ttf';
 const stamp=`drawtext=fontfile='${font}':text='F%{n} %{pts\\:hms}':fontsize=11:fontcolor=white:box=1:boxcolor=black@0.75:x=3:y=3`;
 function exec(exe,args){return new Promise((resolve,reject)=>{const p=spawn(exe,args,{windowsHide:true});const b=[];let log='';p.stdout.on('data',x=>b.push(x));p.stderr.on('data',x=>log+=x.toString());p.on('error',reject);p.on('close',c=>c===0?resolve({data:Buffer.concat(b),log}):reject(Error(`${exe} exit ${c}: ${log.slice(-3500)}`)))})}

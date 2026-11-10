@@ -1,0 +1,49 @@
+{
+  "source_file": "这是什么剪法这么帅_头号玩家_混剪_了不起的混剪团_抖音精选_踩点技术流.mp4",
+  "source_sha256": "a5ce138d2764a1679220f38d18687845da9b95affdab26a33636f4e79b7789f6",
+  "source_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "aac",
+        "profile": "HE-AACv2",
+        "sample_rate": "44100",
+        "channels": 2,
+        "start_time": "0.000000",
+        "duration_ts": 673583,
+        "duration": "15.273991",
+        "nb_frames": "333"
+      }
+    ],
+    "format": {
+      "duration": "15.300000",
+      "size": "6182953"
+    }
+  },
+  "mix_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "aac",
+        "profile": "HE-AACv2",
+        "sample_rate": "44100",
+        "channels": 2,
+        "start_time": "0.000000",
+        "duration_ts": 673583,
+        "duration": "15.273991",
+        "nb_frames": "333"
+      }
+    ],
+    "format": {
+      "duration": "15.273991",
+      "size": "125933"
+    }
+  },
+  "file_sha256": "edec0fb70cf7cdb683b7fd1b46502c3f749be2a627598feadc19bbc6e8b376e1",
+  "native_pcm_sha256": "cf33524d8b6c9e1bb0f20cf384bb337b542cfdba065fa46fc10c3794be937bb3",
+  "decoded_samples_per_channel": 673583,
+  "source_and_mix_decoded_pcm_bit_identical": true,
+  "method": "AAC stream copy to seekable M4A"
+}
