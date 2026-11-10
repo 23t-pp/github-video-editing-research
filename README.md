@@ -15,6 +15,7 @@
 |内容|下载入口|里面有什么|
 |---|---|---|
 |全部剪辑工程与结果|[工程成果 Release](https://github.com/23t-pp/github-video-editing-research/releases/tag/editing-projects-2026-11-05)|V05、V07、速度与激情、EDGE V1/V2/V3、第一季一分钟混剪、音乐与研究证据、完整OCC/HF工程、自写执行脚本及OCC应用源码快照|
+|11/06–11/10 新成果（每个系列最新版）|[11/10 工程 Release](https://github.com/23t-pp/github-video-editing-research/releases/tag/editing-projects-2026-11-10) · [中文下载说明](publication/editing-projects-2026-11-10.md)|蜘蛛侠 V4、寻梦环游记 V3、V22–V25 复刻、斗破苍穹、环太平洋 V2/30 秒、银蓝穿越 V4、告白 V26、BMW 生图素材，共 12 个项目|
 |全部JPG素材|[2,061,018路径 Release](https://github.com/23t-pp/github-video-editing-research/releases/tag/jjk-s1-jpg-60hz-2026-11-05)|24个逐集归档，包含全部JPG路径、SQLite索引、逐样本JSONL与校验元数据|
 |当前第一季成片|[下载60秒MP4](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-s1-final-60s.mp4)|1920×1080、24fps、1440帧|
 |直接改第一季完整效果|[HyperFrames工程](https://github.com/23t-pp/github-video-editing-research/releases/download/editing-projects-2026-11-05/jjk-s1-hyperframes-editable.zip)|源视频片段、字体、52张RGBA、字形和创作源码|

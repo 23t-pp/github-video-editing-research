@@ -4,6 +4,8 @@
 
 [工程成果 Release](https://github.com/23t-pp/github-video-editing-research/releases/tag/editing-projects-2026-11-05) · [全季 JPG Release](https://github.com/23t-pp/github-video-editing-research/releases/tag/jjk-s1-jpg-60hz-2026-11-05) · [仓库首页](../README.md)
 
+**11/06–11/10 的新成果**（12 个项目，每个系列最新版）另见 [11/10 工程 Release 下载说明](editing-projects-2026-11-10.md)。本页下面的表格与统计只覆盖 11/05 那一批。
+
 **完整交付：24/24集归档、全季清单与57项Release附件均通过校验。** 本页记录工程与素材的准确下载名、字节数、SHA及还原方法；远端附件核验快照见下文。
 
 ## 只想先看成片
